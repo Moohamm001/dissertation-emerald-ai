@@ -1,0 +1,49 @@
+{
+  "key": "grinsztajn2022trees",
+  "title": "Why do tree-based models still outperform deep learning on tabular data?",
+  "authors": [
+    "Grinsztajn, L.",
+    "Oyallon, E.",
+    "Varoquaux, G."
+  ],
+  "year": 2022,
+  "abstract": "",
+  "methodology": "Curated 45 medium-sized tabular benchmark datasets (the Tabular Benchmark). Compared XGBoost, GBM, RF, FT-Transformer, ResNet, MLP, SAINT with 20k-trial hyperparameter searches each.",
+  "contributions": [
+    "Tree-based methods outperform DL on 45 tabular datasets across mixed-feature and numerical-only regimes.",
+    "Three diagnostic reasons: (1) DL is biased toward overly smooth target functions; (2) uninformative features hurt DL more than trees; (3) DL is rotationally invariant, but tabular data is not — feature orientation matters."
+  ],
+  "weaknesses": [
+    "'Medium-sized' is 1k-50k samples; at 10⁶+ rows the story may differ.",
+    "Does not test SOTA pre-trained foundation models for tabular (TabPFN, TabuLa-8B post-date this)."
+  ],
+  "future_works": [],
+  "referenced_papers": [
+    "borisov2022dnntabular",
+    "gorishniy2021revisiting",
+    "shwartz2022deep"
+  ],
+  "important_keywords": [
+    "gbdt-tabular-sota",
+    "tabular-deep-learning"
+  ],
+  "venue": "NeurIPS 2022 Datasets and Benchmarks",
+  "doi": null,
+  "institutions": [],
+  "themes": [
+    "gbdt-tabular-sota",
+    "tabular-deep-learning"
+  ],
+  "relevance": "critical",
+  "emerald_relevance": "Most-cited recent paper on this question. Anchor for sections 4.2 and 4.3. Its three diagnostic reasons frame the section 4.3 paragraph about when DL earns its keep.",
+  "confidence": "high",
+  "verified": true,
+  "status": "analysed",
+  "search_query": "Grinsztajn Oyallon Varoquaux why tree based models tabular NeurIPS 2022",
+  "notes": "Most-cited recent benchmark. Identifies rotation invariance, smooth-function bias, and irrelevant-feature handling as DL weaknesses on tabular.",
+  "source_files": [
+    "literature\\papers\\grinsztajn2022trees.md"
+  ],
+  "first_seen": "2026-05-17T19:44:11.628725",
+  "last_updated": "2026-05-17T19:44:11.628758"
+}

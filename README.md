@@ -12,7 +12,7 @@ Green-loan origination has grown at a compound annual rate exceeding 40% since 2
 
 The framework occupies an explicit, defended literature gap: no published work simultaneously delivers, on real green-loan data, (i) modern tabular benchmarking under identical preprocessing, (ii) post-hoc calibration and conformal uncertainty, (iii) a multi-method explainability stack with empirical fidelity validation, (iv) a fairness audit on green-lending-appropriate proxies, and (v) a deployable lending-officer-facing interface.
 
-> **Status:** scaffold + proposal + literature brain. Implementation begins after proposal approval. See [`docs/proposal/`](docs/proposal/) for the current proposal and [`literature/`](literature/) for the knowledge base.
+> **Status:** scaffold + proposal + literature brain + autonomous research engine. ML implementation begins after proposal approval. See [`docs/proposal/`](docs/proposal/) for the current proposal, [`literature/`](literature/) for the knowledge base, and [`research_automation.txt`](research_automation.txt) for the research workflow spec.
 
 ---
 
@@ -27,7 +27,7 @@ The framework occupies an explicit, defended literature gap: no published work s
 ├── Makefile                   ← canonical entrypoints (make help)
 │
 ├── src/emerald_ai/            ← Python package: data, features, models, training,
-│                                 calibration, explain, fairness, eval, cli
+│                                 calibration, explain, fairness, eval, research, cli
 ├── api/                       ← FastAPI backend (REST endpoints; production scoring)
 ├── web/                       ← React 18 + Vite frontend (Dashboard, Single Predict,
 │                                 Batch Score, SHAP Explorer)
@@ -36,7 +36,14 @@ The framework occupies an explicit, defended literature gap: no published work s
 │   ├── proposal/              ← Dissertation proposal (first draft, second draft, build script)
 │   └── architecture/          ← (to come) C4 diagrams, MLOps stack diagrams
 ├── literature/                ← Knowledge brain: index.yaml + themes/ + papers/ + gaps + glossary
-│                                 Read literature/BRAIN.md first for usage rules
+│   ├── BRAIN.md               ← read first for usage rules
+│   ├── state/                 ← Machine-readable, auto-generated: citation graph, processed-papers
+│   │                            DB, author/method/dataset rollups, generated research questions
+│   ├── papers/<key>.{md,json} ← Per-paper notes + JSON sidecar (10-field schema)
+│   ├── themes/                ← Argumentative spine (one file per proposal §4.X subsection)
+│   ├── gaps.md, glossary.md   ← Open holes + domain terms
+│   └── build_papers.py        ← Regenerates papers/*.md from a dict (edit + rerun to extend)
+├── research_automation.txt    ← Spec for the autonomous research workflow (see § below)
 │
 ├── data/
 │   ├── raw/                   ← Original .xlsx (GITIGNORED — proprietary)
@@ -89,6 +96,9 @@ make lint            # ruff + black --check + mypy
 make test            # pytest
 make proposal        # rebuild docs/proposal/proposal_second_draft.docx
 make literature      # regenerate literature/papers/*.md from build_papers.py
+make research        # run the autonomous research engine over the brain
+make research-status # current brain state (counts + last-run timestamp)
+make research-graph  # emit citation graph as Graphviz DOT
 make reproduce       # (will) run the full ML pipeline end-to-end
 ```
 
@@ -121,10 +131,62 @@ The repo contains a structured knowledge base under [`literature/`](literature/)
 - `literature/index.yaml` — 62 indexed references with themes, relevance, verification status
 - `literature/themes/4.1`–`4.8.md` — eight argumentative-spine files mirroring the proposal's literature-review subsections
 - `literature/papers/<key>.md` — 34 critical-paper notes (claims, method, EMERALD-AI relevance, limitations, links)
+- `literature/papers/<key>.json` — machine-readable sidecar, populated by the research engine
 - `literature/gaps.md` — 10 literature gaps + 5 methodology gaps, with suggested next actions
 - `literature/glossary.md` — domain terms
+- `literature/state/` — auto-generated state (citation graph, rollups, generated questions); see [`literature/state/README.md`](literature/state/README.md)
 
 Read `BRAIN.md` before writing about any paper.
+
+---
+
+## Research automation
+
+The brain is driven by an idempotent **research engine** (`src/emerald_ai/research/`) that implements the workflow specified in [`research_automation.txt`](research_automation.txt). Re-running over an unchanged brain is a no-op except for the manifest timestamp; adding a new paper key to `literature/index.yaml` schedules it for analysis on the next run.
+
+### What the engine does
+
+| # | Step (from `research_automation.txt`) | How |
+|---|---|---|
+| 1 | Read existing research memory first | `State.load()` reads all of `literature/state/` |
+| 2 | Check processed-papers DB before re-analysing | `state/processed.json` — keys at status `analysed`/`indexed` skipped unless `--force` |
+| 3 | For every new paper, extract the 10-field schema | Parses `papers/<key>.md` sections into a `PaperRecord` (title, authors, year, abstract, methodology, contributions, weaknesses, future_works, referenced_papers, important_keywords) |
+| 4 | Save structured summary as markdown + JSON | Markdown is the source of truth (hand-edited); JSON sidecar `papers/<key>.json` is regenerated |
+| 5 | Add citation relationships into a graph | `state/citations.json` populated from `[[wiki-links]]` in paper bodies — intra-brain only, no invented external refs |
+| 6 | Roll up authors, institutions, methods, datasets, keywords | `state/{authors,institutions,methods,datasets,keywords}.json` |
+| 7 | Generate research questions from gaps | One `ResearchQuestion` per `G#`/`M#` heading in `gaps.md`, with traceback ID |
+| 8 | Mark uncertain claims clearly; never invent citations | `confidence` field on every record (`high`/`medium`/`low`/`unknown`); `verified` flag mirrored from `index.yaml`; `search_query` retained for placeholder citations |
+
+### Current snapshot
+
+```
+$ make research-status
+papers     : 62
+citations  : 80
+questions  : 15
+authors    : 179
+methods    : 22  (XGBoost, LightGBM, CatBoost, SHAP, LIME, DiCE, SMOTE, conformal …)
+datasets   : 9   (COMPAS, FICO, Adult, German Credit, Lending Club, KDD, Higgs …)
+keywords   : 12
+```
+
+### Commands
+
+```bash
+emerald research run               # full sweep; idempotent
+emerald research run --force       # re-process even already-analysed papers
+emerald research status            # current counts + last-run timestamp
+emerald research show <key>        # pretty-print one paper's structured record as JSON
+emerald research graph             # emit citation graph as Graphviz DOT
+                                   # render: dot -Tsvg literature/state/citations.dot -o ...svg
+```
+
+### Operating rules (enforced by the engine + the tests in `tests/test_literature_brain.py`)
+
+- **Never re-process** already-analysed papers without `--force` — rule 3 of the spec.
+- **Never invent citations** — wiki-link edges only resolve between keys present in `index.yaml`. Orphan edges fail CI.
+- **Always mark uncertainty** — every field carries a confidence; placeholder citations carry a `verified: false` flag and a `search_query` hint.
+- **Markdown is the source of truth.** JSON sidecars regenerate; hand-edits to JSON are lost on next run.
 
 ---
 

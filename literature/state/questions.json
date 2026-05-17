@@ -1,0 +1,167 @@
+[
+  {
+    "created": "2026-05-17T19:47:01.399957Z",
+    "id": "RQ-G1",
+    "notes": "",
+    "priority": "high",
+    "question": "Resolve G1: \"First green-loan ML credit-scoring framework\" claim is unverified",
+    "related_papers": [],
+    "related_themes": [],
+    "source_gap": "G1",
+    "status": "open"
+  },
+  {
+    "created": "2026-05-17T19:47:01.399964Z",
+    "id": "RQ-G2",
+    "notes": "",
+    "priority": "medium",
+    "question": "Resolve G2: \"Regulatory default for over four decades\" claim lacks primary citation",
+    "related_papers": [],
+    "related_themes": [],
+    "source_gap": "G2",
+    "status": "open"
+  },
+  {
+    "created": "2026-05-17T19:47:01.399967Z",
+    "id": "RQ-G3",
+    "notes": "",
+    "priority": "medium",
+    "question": "Resolve G3: \"Regulators increasingly demand monotonicity\" claim is asserted, not cited",
+    "related_papers": [],
+    "related_themes": [],
+    "source_gap": "G3",
+    "status": "open"
+  },
+  {
+    "created": "2026-05-17T19:47:01.399969Z",
+    "id": "RQ-G4",
+    "notes": "",
+    "priority": "medium",
+    "question": "Resolve G4: Green loan market 40%+ CAGR claim needs primary citation",
+    "related_papers": [],
+    "related_themes": [],
+    "source_gap": "G4",
+    "status": "open"
+  },
+  {
+    "created": "2026-05-17T19:47:01.399971Z",
+    "id": "RQ-G5",
+    "notes": "",
+    "priority": "medium",
+    "question": "Resolve G5: Tabular foundation models (TabPFN, TabuLa) not covered",
+    "related_papers": [],
+    "related_themes": [],
+    "source_gap": "G5",
+    "status": "open"
+  },
+  {
+    "created": "2026-05-17T19:47:01.399973Z",
+    "id": "RQ-G6",
+    "notes": "",
+    "priority": "medium",
+    "question": "Resolve G6: Explainable Boosting Machine (EBM) and GA\u00b2M family missing",
+    "related_papers": [],
+    "related_themes": [],
+    "source_gap": "G6",
+    "status": "open"
+  },
+  {
+    "created": "2026-05-17T19:47:01.399975Z",
+    "id": "RQ-G7",
+    "notes": "",
+    "priority": "medium",
+    "question": "Resolve G7: ESG-related labelling provenance of the dataset is unknown",
+    "related_papers": [],
+    "related_themes": [],
+    "source_gap": "G7",
+    "status": "open"
+  },
+  {
+    "created": "2026-05-17T19:47:01.399977Z",
+    "id": "RQ-G8",
+    "notes": "",
+    "priority": "medium",
+    "question": "Resolve G8: UK Equality Act 2010 and Basel \"model risk management\" guidance not cited",
+    "related_papers": [],
+    "related_themes": [],
+    "source_gap": "G8",
+    "status": "open"
+  },
+  {
+    "created": "2026-05-17T19:47:01.399979Z",
+    "id": "RQ-G9",
+    "notes": "",
+    "priority": "medium",
+    "question": "Resolve G9: Causal fairness (Kusner et al. counterfactual fairness) missing",
+    "related_papers": [],
+    "related_themes": [],
+    "source_gap": "G9",
+    "status": "open"
+  },
+  {
+    "created": "2026-05-17T19:47:01.399980Z",
+    "id": "RQ-G10",
+    "notes": "",
+    "priority": "high",
+    "question": "Resolve G10: \"FCA/EBA cite conformal prediction\" assertion is too strong",
+    "related_papers": [],
+    "related_themes": [],
+    "source_gap": "G10",
+    "status": "open"
+  },
+  {
+    "created": "2026-05-17T19:47:01.399982Z",
+    "id": "RQ-M1",
+    "notes": "",
+    "priority": "medium",
+    "question": "Resolve M1: Sensitivity analysis on the \"current\" label inclusion",
+    "related_papers": [],
+    "related_themes": [],
+    "source_gap": "M1",
+    "status": "open"
+  },
+  {
+    "created": "2026-05-17T19:47:01.399984Z",
+    "id": "RQ-M2",
+    "notes": "",
+    "priority": "medium",
+    "question": "Resolve M2: Choice of fairness criterion under impossibility result",
+    "related_papers": [],
+    "related_themes": [],
+    "source_gap": "M2",
+    "status": "open"
+  },
+  {
+    "created": "2026-05-17T19:47:01.399986Z",
+    "id": "RQ-M3",
+    "notes": "",
+    "priority": "medium",
+    "question": "Resolve M3: Tuning-budget parity across model families",
+    "related_papers": [],
+    "related_themes": [],
+    "source_gap": "M3",
+    "status": "open"
+  },
+  {
+    "created": "2026-05-17T19:47:01.399987Z",
+    "id": "RQ-M4",
+    "notes": "",
+    "priority": "medium",
+    "question": "Resolve M4: Conformal prediction under distribution shift",
+    "related_papers": [],
+    "related_themes": [],
+    "source_gap": "M4",
+    "status": "open"
+  },
+  {
+    "created": "2026-05-17T19:47:01.399989Z",
+    "id": "RQ-M5",
+    "notes": "",
+    "priority": "medium",
+    "question": "Resolve M5: Data-license commercial-use restriction",
+    "related_papers": [],
+    "related_themes": [],
+    "source_gap": "M5",
+    "status": "open"
+  }
+]

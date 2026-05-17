@@ -1,0 +1,34 @@
+{
+  "key": "kamiran2012preprocessing",
+  "title": "Data preprocessing techniques for classification without discrimination",
+  "authors": [
+    "Kamiran, F.",
+    "Calders, T."
+  ],
+  "year": 2012,
+  "abstract": "",
+  "methodology": "",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [
+    "fairness-compliance"
+  ],
+  "venue": "Knowledge and Information Systems, 33(1), 1-33",
+  "doi": "10.1007/s10115-011-0463-8",
+  "institutions": [],
+  "themes": [
+    "fairness-compliance"
+  ],
+  "relevance": "medium",
+  "emerald_relevance": "",
+  "confidence": "low",
+  "verified": true,
+  "status": "stub",
+  "search_query": "Kamiran Calders preprocessing classification discrimination KAIS 2012",
+  "notes": "",
+  "source_files": [],
+  "first_seen": "2026-05-17T19:47:01.391623Z",
+  "last_updated": "2026-05-17T19:47:01.391628Z"
+}

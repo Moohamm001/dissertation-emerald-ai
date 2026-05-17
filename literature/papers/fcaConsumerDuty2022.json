@@ -1,0 +1,45 @@
+{
+  "key": "fcaConsumerDuty2022",
+  "title": "Consumer Duty: Final rules and guidance. Policy Statement PS22/9",
+  "authors": [
+    "Financial Conduct Authority"
+  ],
+  "year": 2022,
+  "abstract": "",
+  "methodology": "FCA Policy Statement summarising consultation responses and finalising the rulebook changes.",
+  "contributions": [
+    "Firms must act to deliver good outcomes for retail customers, evaluated against four outcomes: products and services, price and value, consumer understanding, consumer support.",
+    "Automated decisions (including credit-scoring AI) fall within scope and must be evidenced as fair, explainable, and supportive.",
+    "Applies from 31 July 2023 for new and existing products; 31 July 2024 for closed-book products."
+  ],
+  "weaknesses": [
+    "Outcome-based (not rule-based) — compliance is harder to evidence than checklist-based regimes.",
+    "Applies only to FCA-regulated retail; commercial green-loan lending may sit outside in specific cases."
+  ],
+  "future_works": [],
+  "referenced_papers": [
+    "euAiAct2021",
+    "wachter2017counterfactual"
+  ],
+  "important_keywords": [
+    "fairness-compliance"
+  ],
+  "venue": "FCA",
+  "doi": null,
+  "institutions": [],
+  "themes": [
+    "fairness-compliance"
+  ],
+  "relevance": "high",
+  "emerald_relevance": "UK-side regulatory pillar paired with the EU AI Act. The 'consumer understanding' outcome anchors EMERALD-AI's web-application explainability design (section 5.14); 'consumer support' anchors the counterfactual-recourse layer in section 5.11.",
+  "confidence": "high",
+  "verified": true,
+  "status": "analysed",
+  "search_query": "FCA Consumer Duty PS22/9 final rules guidance",
+  "notes": "Outcome-based duty; relevant for treating customers fairly across automated decisions.",
+  "source_files": [
+    "literature\\papers\\fcaConsumerDuty2022.md"
+  ],
+  "first_seen": "2026-05-17T19:44:12.047526",
+  "last_updated": "2026-05-17T19:44:12.047544"
+}

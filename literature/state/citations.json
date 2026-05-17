@@ -1,0 +1,482 @@
+[
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "altman1968",
+    "target": "beaver1966"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "altman1968",
+    "target": "hand1997statistical"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "hand1997statistical",
+    "target": "lessmann2015benchmark"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "hand1997statistical",
+    "target": "thomas2000survey"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "baesens2003benchmark",
+    "target": "dumitrescu2022ml"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "baesens2003benchmark",
+    "target": "lessmann2015benchmark"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "lessmann2015benchmark",
+    "target": "baesens2003benchmark"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "lessmann2015benchmark",
+    "target": "chen2016xgboost"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "lessmann2015benchmark",
+    "target": "dumitrescu2022ml"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "dumitrescu2022ml",
+    "target": "lessmann2015benchmark"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "dumitrescu2022ml",
+    "target": "rudin2019stop"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "chen2016xgboost",
+    "target": "ke2017lightgbm"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "chen2016xgboost",
+    "target": "lundberg2020trees"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "chen2016xgboost",
+    "target": "prokhorenkova2018catboost"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "ke2017lightgbm",
+    "target": "chen2016xgboost"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "ke2017lightgbm",
+    "target": "prokhorenkova2018catboost"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "prokhorenkova2018catboost",
+    "target": "chen2016xgboost"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "prokhorenkova2018catboost",
+    "target": "ke2017lightgbm"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "prokhorenkova2018catboost",
+    "target": "micciBarreca2001"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "shwartz2022deep",
+    "target": "gorishniy2021revisiting"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "shwartz2022deep",
+    "target": "grinsztajn2022trees"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "grinsztajn2022trees",
+    "target": "borisov2022dnntabular"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "grinsztajn2022trees",
+    "target": "gorishniy2021revisiting"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "grinsztajn2022trees",
+    "target": "shwartz2022deep"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "lundberg2020trees",
+    "target": "aas2021explaining"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "lundberg2020trees",
+    "target": "chen2016xgboost"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "lundberg2020trees",
+    "target": "janzing2020feature"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "lundberg2020trees",
+    "target": "lundberg2017shap"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "arik2021tabnet",
+    "target": "gorishniy2021revisiting"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "arik2021tabnet",
+    "target": "grinsztajn2022trees"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "arik2021tabnet",
+    "target": "shwartz2022deep"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "gorishniy2021revisiting",
+    "target": "arik2021tabnet"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "gorishniy2021revisiting",
+    "target": "grinsztajn2022trees"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "chawla2002smote",
+    "target": "he2008adasyn"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "chawla2002smote",
+    "target": "santos2018cvimbalanced"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "lin2017focal",
+    "target": "chawla2002smote"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "santos2018cvimbalanced",
+    "target": "chawla2002smote"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "angelopoulos2023conformal",
+    "target": "platt1999probabilistic"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "angelopoulos2023conformal",
+    "target": "vovk2005alrw"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "angelopoulos2023conformal",
+    "target": "zadrozny2002isotonic"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "lma2023glp",
+    "target": "ehlers2017greenbond"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "lma2023glp",
+    "target": "euTaxonomy2020"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "ehlers2017greenbond",
+    "target": "berg2022esg"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "ehlers2017greenbond",
+    "target": "flammer2021corporate"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "flammer2021corporate",
+    "target": "berg2022esg"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "flammer2021corporate",
+    "target": "tang2020shareholders"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "berg2022esg",
+    "target": "ehlers2017greenbond"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "berg2022esg",
+    "target": "flammer2021corporate"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "lundberg2017shap",
+    "target": "aas2021explaining"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "lundberg2017shap",
+    "target": "janzing2020feature"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "lundberg2017shap",
+    "target": "lundberg2020trees"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "lundberg2017shap",
+    "target": "ribeiro2016lime"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "ribeiro2016lime",
+    "target": "lundberg2017shap"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "ribeiro2016lime",
+    "target": "slack2020fooling"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "mothilal2020dice",
+    "target": "rawal2020beyond"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "mothilal2020dice",
+    "target": "wachter2017counterfactual"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "wachter2017counterfactual",
+    "target": "euAiAct2021"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "wachter2017counterfactual",
+    "target": "mothilal2020dice"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "rudin2019stop",
+    "target": "dumitrescu2022ml"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "rudin2019stop",
+    "target": "slack2020fooling"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "aas2021explaining",
+    "target": "janzing2020feature"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "aas2021explaining",
+    "target": "lundberg2017shap"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "aas2021explaining",
+    "target": "lundberg2020trees"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "slack2020fooling",
+    "target": "hedstrom2023quantus"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "slack2020fooling",
+    "target": "rudin2019stop"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "hedstrom2023quantus",
+    "target": "aas2021explaining"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "hedstrom2023quantus",
+    "target": "slack2020fooling"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "hardt2016eqodds",
+    "target": "bellamy2018aif360"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "hardt2016eqodds",
+    "target": "chouldechova2017fair"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "hardt2016eqodds",
+    "target": "kleinberg2017inherent"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "chouldechova2017fair",
+    "target": "hardt2016eqodds"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "chouldechova2017fair",
+    "target": "kleinberg2017inherent"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "bellamy2018aif360",
+    "target": "chouldechova2017fair"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "bellamy2018aif360",
+    "target": "hardt2016eqodds"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "bellamy2018aif360",
+    "target": "kamiran2012preprocessing"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "euAiAct2021",
+    "target": "ebaGL2020"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "euAiAct2021",
+    "target": "fcaConsumerDuty2022"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "euAiAct2021",
+    "target": "wachter2017counterfactual"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "fcaConsumerDuty2022",
+    "target": "euAiAct2021"
+  },
+  {
+    "confidence": "medium",
+    "relationship": "cites",
+    "source": "fcaConsumerDuty2022",
+    "target": "wachter2017counterfactual"
+  }
+]

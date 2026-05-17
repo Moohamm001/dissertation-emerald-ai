@@ -1,0 +1,46 @@
+{
+  "key": "euAiAct2021",
+  "title": "Proposal for a Regulation laying down harmonised rules on artificial intelligence (Artificial Intelligence Act). COM/2021/206 final",
+  "authors": [
+    "European Commission"
+  ],
+  "year": 2021,
+  "abstract": "",
+  "methodology": "Legislative proposal text; subsequent amendments and final adoption (2024) tighten and extend specific obligations but retain the credit-scoring-as-high-risk classification.",
+  "contributions": [
+    "Annex III lists credit scoring as a 'high-risk' AI application.",
+    "High-risk providers must comply with Articles 9 (risk management), 10 (data governance), 11 (technical documentation), 12 (record-keeping), 13 (transparency), 14 (human oversight), 15 (accuracy and robustness), 17 (quality management), 61 (post-market monitoring).",
+    "Penalties up to €30M or 6% of global annual turnover for non-compliance with the most serious obligations."
+  ],
+  "weaknesses": [
+    "The 2021 proposal has been amended through the legislative process; final 2024 text differs on specifics (notably definition of 'AI system' and treatment of general-purpose AI). Cite the final Regulation when published.",
+    "Applies only to systems placed on EU market; UK regime (FCA, ICO) is parallel."
+  ],
+  "future_works": [],
+  "referenced_papers": [
+    "ebaGL2020",
+    "fcaConsumerDuty2022",
+    "wachter2017counterfactual"
+  ],
+  "important_keywords": [
+    "fairness-compliance"
+  ],
+  "venue": "Official Journal of the EU",
+  "doi": null,
+  "institutions": [],
+  "themes": [
+    "fairness-compliance"
+  ],
+  "relevance": "critical",
+  "emerald_relevance": "Pillar regulatory citation. The Annex III classification is the single most-important external pressure shaping EMERALD-AI's design choices around calibration, explainability, fairness audit, monitoring, and documentation.",
+  "confidence": "high",
+  "verified": true,
+  "status": "analysed",
+  "search_query": "EU AI Act 2021 COM(2021) 206 final harmonised rules",
+  "notes": "Annex III lists credit scoring as high-risk; triggers Articles 9-15 (risk management, data governance, technical documentation, transparency, human oversight, accuracy/robustness).",
+  "source_files": [
+    "literature\\papers\\euAiAct2021.md"
+  ],
+  "first_seen": "2026-05-17T19:44:12.034722",
+  "last_updated": "2026-05-17T19:44:12.034737"
+}

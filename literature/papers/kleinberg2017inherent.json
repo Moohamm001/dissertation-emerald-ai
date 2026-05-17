@@ -1,0 +1,35 @@
+{
+  "key": "kleinberg2017inherent",
+  "title": "Inherent trade-offs in the fair determination of risk scores",
+  "authors": [
+    "Kleinberg, J.",
+    "Mullainathan, S.",
+    "Raghavan, M."
+  ],
+  "year": 2017,
+  "abstract": "",
+  "methodology": "",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [
+    "fairness-compliance"
+  ],
+  "venue": "ITCS 2017",
+  "doi": "10.4230/LIPIcs.ITCS.2017.43",
+  "institutions": [],
+  "themes": [
+    "fairness-compliance"
+  ],
+  "relevance": "high",
+  "emerald_relevance": "",
+  "confidence": "low",
+  "verified": true,
+  "status": "stub",
+  "search_query": "Kleinberg Mullainathan Raghavan inherent trade-offs fair risk scores ITCS 2017",
+  "notes": "",
+  "source_files": [],
+  "first_seen": "2026-05-17T19:47:01.390956Z",
+  "last_updated": "2026-05-17T19:47:01.390961Z"
+}

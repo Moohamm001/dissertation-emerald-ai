@@ -1,0 +1,53 @@
+{
+  "key": "hedstrom2023quantus",
+  "title": "Quantus: An explainable AI toolkit for responsible evaluation of neural network explanations",
+  "authors": [
+    "Hedström, A.",
+    "Weber, L.",
+    "Krakowczyk, D.",
+    "Bareeva, D.",
+    "Motzkus, F.",
+    "Samek, W.",
+    "Lapuschkin, S.",
+    "Höhne, M. M.-C."
+  ],
+  "year": 2023,
+  "abstract": "",
+  "methodology": "Toolkit paper. Implements published evaluation metrics from the XAI literature in a unified API; demonstrates on image-classification case studies.",
+  "contributions": [
+    "Explanation quality is not self-evident: explanations should be evaluated against measurable properties (faithfulness, robustness, complexity, randomisation, axiomatic, localisation).",
+    "Quantus operationalises 30+ such metrics into a single toolkit.",
+    "Different XAI methods score very differently on different metrics — reporting a single number is insufficient."
+  ],
+  "weaknesses": [
+    "Primarily targeted at neural network explanations and image data; tabular adaptation requires care.",
+    "The metrics themselves are contested (e.g., faithfulness has multiple competing definitions).",
+    "Reporting many metrics shifts the interpretation burden onto the reader."
+  ],
+  "future_works": [],
+  "referenced_papers": [
+    "aas2021explaining",
+    "slack2020fooling"
+  ],
+  "important_keywords": [
+    "xai-finance"
+  ],
+  "venue": "JMLR, 24(34), 1-11",
+  "doi": null,
+  "institutions": [],
+  "themes": [
+    "xai-finance"
+  ],
+  "relevance": "high",
+  "emerald_relevance": "Core citation for EMERALD-AI's section 5.11 explanation-fidelity validation. Moves the project past the assumption that an explanation is reliable simply because it was generated.",
+  "confidence": "high",
+  "verified": true,
+  "status": "analysed",
+  "search_query": "Quantus explainable AI toolkit JMLR 2023 Hedström",
+  "notes": "Operationalises explanation evaluation: faithfulness, robustness, complexity, randomisation.",
+  "source_files": [
+    "literature\\papers\\hedstrom2023quantus.md"
+  ],
+  "first_seen": "2026-05-17T19:44:11.955140",
+  "last_updated": "2026-05-17T19:44:11.955158"
+}

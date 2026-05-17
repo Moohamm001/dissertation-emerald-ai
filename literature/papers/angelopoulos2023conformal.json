@@ -1,0 +1,48 @@
+{
+  "key": "angelopoulos2023conformal",
+  "title": "Conformal prediction: A gentle introduction",
+  "authors": [
+    "Angelopoulos, A. N.",
+    "Bates, S."
+  ],
+  "year": 2023,
+  "abstract": "",
+  "methodology": "Tutorial paper synthesising the conformal prediction literature into a practitioner-accessible reference.",
+  "contributions": [
+    "Split-conformal prediction wraps any black-box model to produce prediction sets with guaranteed marginal coverage at user-specified confidence levels, distribution-free, finite-sample.",
+    "The only requirement is exchangeability of the calibration and test data.",
+    "Adaptive variants (Mondrian, conformalised quantile regression) extend the guarantee to conditional coverage in specific regimes."
+  ],
+  "weaknesses": [
+    "Marginal coverage guarantee does not imply conditional coverage — a high-risk applicant may still get an overconfident interval. Mondrian conformal addresses this partially.",
+    "Requires a held-out calibration set, reducing data available for training/validation.",
+    "The exchangeability assumption fails under distribution shift — a real concern for credit data."
+  ],
+  "future_works": [],
+  "referenced_papers": [
+    "platt1999probabilistic",
+    "vovk2005alrw",
+    "zadrozny2002isotonic"
+  ],
+  "important_keywords": [
+    "imbalance-calibration"
+  ],
+  "venue": "Foundations and Trends in ML, 16(4), 494-591",
+  "doi": "10.1561/2200000101",
+  "institutions": [],
+  "themes": [
+    "imbalance-calibration"
+  ],
+  "relevance": "critical",
+  "emerald_relevance": "Primary citation for EMERALD-AI's section 5.10 conformal prediction implementation. The modern reference if a reviewer asks 'why is this distribution-free?'",
+  "confidence": "high",
+  "verified": true,
+  "status": "analysed",
+  "search_query": "",
+  "notes": "Modern tutorial on split-conformal prediction. The reference if you want distribution-free uncertainty in production.",
+  "source_files": [
+    "literature\\papers\\angelopoulos2023conformal.md"
+  ],
+  "first_seen": "2026-05-17T19:44:11.743598",
+  "last_updated": "2026-05-17T19:44:11.743624"
+}

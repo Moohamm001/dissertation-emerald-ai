@@ -1,0 +1,34 @@
+{
+  "key": "kursa2010boruta",
+  "title": "Feature selection with the Boruta package",
+  "authors": [
+    "Kursa, M. B.",
+    "Rudnicki, W. R."
+  ],
+  "year": 2010,
+  "abstract": "",
+  "methodology": "",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [
+    "methodology"
+  ],
+  "venue": "Journal of Statistical Software, 36(11), 1-13",
+  "doi": "10.18637/jss.v036.i11",
+  "institutions": [],
+  "themes": [
+    "methodology"
+  ],
+  "relevance": "medium",
+  "emerald_relevance": "",
+  "confidence": "low",
+  "verified": true,
+  "status": "stub",
+  "search_query": "Kursa Rudnicki Boruta JStatSoft 2010",
+  "notes": "",
+  "source_files": [],
+  "first_seen": "2026-05-17T19:47:01.395818Z",
+  "last_updated": "2026-05-17T19:47:01.395824Z"
+}

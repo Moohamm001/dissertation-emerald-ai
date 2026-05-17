@@ -76,5 +76,86 @@ def audit(
     raise NotImplementedError("Audit pipeline not yet implemented.")
 
 
+# ─────────────────────────────────────────────────────────────
+# Research-automation subcommands (see research_automation.txt
+# and src/emerald_ai/research/)
+# ─────────────────────────────────────────────────────────────
+research_app = typer.Typer(
+    name="research",
+    help="Autonomous literature-brain automation (implements research_automation.txt).",
+    no_args_is_help=True,
+)
+app.add_typer(research_app, name="research")
+
+
+@research_app.command("run")
+def research_run(
+    force: bool = typer.Option(False, "--force", "-f", help="Re-process even already-analysed papers"),
+) -> None:
+    """Run a full sweep: ingest → graph → roll-up → questions → save."""
+    from emerald_ai.research import ResearchEngine
+
+    result = ResearchEngine().run(force=force)
+    console.print("[bold green]Research sweep complete[/bold green]")
+    for k, v in result.items():
+        console.print(f"  [cyan]{k:>12}[/cyan] = {v}")
+
+
+@research_app.command("status")
+def research_status() -> None:
+    """Print the current state of the brain (manifest + counts)."""
+    import json
+
+    from emerald_ai.config import PATHS
+
+    state_dir = PATHS.literature / "state"
+    if not (state_dir / "manifest.json").exists():
+        console.print("[yellow]Brain state not yet built — run [bold]emerald research run[/bold] first.[/yellow]")
+        return
+    manifest = json.loads((state_dir / "manifest.json").read_text(encoding="utf-8"))
+    console.print(f"[bold]Brain state — last run {manifest['last_run']}[/bold]")
+    console.print(f"  papers     : {manifest['papers_count']}")
+    for fname in ("citations", "questions", "authors", "methods", "datasets", "keywords"):
+        path = state_dir / f"{fname}.json"
+        if path.exists():
+            data = json.loads(path.read_text(encoding="utf-8"))
+            n = len(data) if isinstance(data, (list, dict)) else 0
+            console.print(f"  {fname:<10} : {n}")
+
+
+@research_app.command("graph")
+def research_graph(
+    out: str = typer.Option("literature/state/citations.dot", "--out", "-o"),
+) -> None:
+    """Emit the citation graph as a Graphviz DOT file."""
+    import json
+    from pathlib import Path
+
+    from emerald_ai.config import PATHS
+
+    edges = json.loads((PATHS.literature / "state" / "citations.json").read_text(encoding="utf-8"))
+    lines = ["digraph citations {", '  rankdir=LR;', '  node [shape=box, fontsize=10];']
+    for e in edges:
+        lines.append(f'  "{e["source"]}" -> "{e["target"]}";')
+    lines.append("}")
+    Path(out).write_text("\n".join(lines) + "\n", encoding="utf-8")
+    console.print(f"[green]Wrote[/green] {out}  ({len(edges)} edges)")
+    console.print(f"  Render with: [cyan]dot -Tsvg {out} -o {out.replace('.dot', '.svg')}[/cyan]")
+
+
+@research_app.command("show")
+def research_show(key: str = typer.Argument(..., help="Paper key (filename slug)")) -> None:
+    """Pretty-print a paper's structured record."""
+    import json
+
+    from emerald_ai.research.state import State
+
+    record = State.load_paper(key)
+    if record is None:
+        console.print(f"[red]No record for key [bold]{key}[/bold].[/red]  Have you run [cyan]emerald research run[/cyan]?")
+        raise typer.Exit(code=1)
+    console.print_json(json.dumps(record.model_dump(mode="json"), indent=2))
+
+
 if __name__ == "__main__":
     app()

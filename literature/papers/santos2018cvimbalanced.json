@@ -1,0 +1,48 @@
+{
+  "key": "santos2018cvimbalanced",
+  "title": "Cross-validation for imbalanced datasets: Avoiding overoptimistic and overfitting approaches",
+  "authors": [
+    "Santos, M. S.",
+    "Soares, J. P.",
+    "Abreu, P. H.",
+    "Araújo, H.",
+    "Santos, J."
+  ],
+  "year": 2018,
+  "abstract": "",
+  "methodology": "Surveyed published imbalanced-classification studies for the methodological error; conducted controlled experiments quantifying the inflation in reported AUC.",
+  "contributions": [
+    "Applying SMOTE or any resampling before the CV split contaminates the validation folds and produces systematically overoptimistic performance estimates.",
+    "The correct protocol is to apply resampling only inside each training fold, never on the validation/test fold.",
+    "This error is widespread in published imbalanced-classification work — including credit scoring."
+  ],
+  "weaknesses": [
+    "Focuses on SMOTE specifically; the same principle applies to any resampling/cleaning that uses target labels.",
+    "The recommended protocol does not address the related question of how to evaluate the resampling method itself — that requires nested CV."
+  ],
+  "future_works": [],
+  "referenced_papers": [
+    "chawla2002smote"
+  ],
+  "important_keywords": [
+    "imbalance-calibration"
+  ],
+  "venue": "IEEE Computational Intelligence Magazine, 13(4), 59-76",
+  "doi": "10.1109/MCI.2018.2866730",
+  "institutions": [],
+  "themes": [
+    "imbalance-calibration"
+  ],
+  "relevance": "high",
+  "emerald_relevance": "Authority citation for the hard rule in EMERALD-AI's section 5.7: SMOTE-NC is applied strictly inside the CV training fold, never on the validation or test fold.",
+  "confidence": "high",
+  "verified": true,
+  "status": "analysed",
+  "search_query": "",
+  "notes": "Documents the widespread methodological error of resampling before CV split. Cited as authority for in-fold-only SMOTE.",
+  "source_files": [
+    "literature\\papers\\santos2018cvimbalanced.md"
+  ],
+  "first_seen": "2026-05-17T19:44:11.721828",
+  "last_updated": "2026-05-17T19:44:11.721852"
+}

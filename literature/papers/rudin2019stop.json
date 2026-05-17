@@ -1,0 +1,45 @@
+{
+  "key": "rudin2019stop",
+  "title": "Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead",
+  "authors": [
+    "Rudin, C."
+  ],
+  "year": 2019,
+  "abstract": "",
+  "methodology": "Position paper with worked counter-examples from criminal recidivism prediction (COMPAS), medical imaging, and tabular finance.",
+  "contributions": [
+    "Post-hoc explanations of opaque models can be unreliable, unstable, or actively misleading.",
+    "For high-stakes decisions (criminal justice, medicine, credit), modellers should use inherently interpretable models (constrained additive models, sparse decision lists, EBMs) instead of explaining black boxes after the fact.",
+    "The 'accuracy vs interpretability trade-off' is often illusory at high-stakes data sizes: interpretable models frequently match black-box accuracy."
+  ],
+  "weaknesses": [
+    "The 'interpretable models match black-box accuracy' claim has notable exceptions, particularly for very high-dimensional data and certain non-linear-interaction regimes.",
+    "Rudin's preferred model class (EBM, GA²M) has its own engineering and tuning costs."
+  ],
+  "future_works": [],
+  "referenced_papers": [
+    "dumitrescu2022ml",
+    "slack2020fooling"
+  ],
+  "important_keywords": [
+    "xai-finance"
+  ],
+  "venue": "Nature Machine Intelligence, 1, 206-215",
+  "doi": "10.1038/s42256-019-0048-x",
+  "institutions": [],
+  "themes": [
+    "xai-finance"
+  ],
+  "relevance": "critical",
+  "emerald_relevance": "Critical-perspective citation in section 4.6. EMERALD-AI's pragmatic middle path (constrained tree ensemble + multi-method explanation stack) is explicitly positioned as Rudin's argument acknowledged but not adopted in pure form.",
+  "confidence": "high",
+  "verified": true,
+  "status": "analysed",
+  "search_query": "",
+  "notes": "Influential dissent: argues post-hoc explanations are not a substitute for inherently interpretable models in high-stakes settings.",
+  "source_files": [
+    "literature\\papers\\rudin2019stop.md"
+  ],
+  "first_seen": "2026-05-17T19:44:11.888141",
+  "last_updated": "2026-05-17T19:44:11.888163"
+}

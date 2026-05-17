@@ -1,0 +1,37 @@
+{
+  "key": "akiba2019optuna",
+  "title": "Optuna: A next-generation hyperparameter optimization framework",
+  "authors": [
+    "Akiba, T.",
+    "Sano, S.",
+    "Yanase, T.",
+    "Ohta, T.",
+    "Koyama, M."
+  ],
+  "year": 2019,
+  "abstract": "",
+  "methodology": "",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [
+    "methodology"
+  ],
+  "venue": "KDD 2019, 2623-2631",
+  "doi": "10.1145/3292500.3330701",
+  "institutions": [],
+  "themes": [
+    "methodology"
+  ],
+  "relevance": "high",
+  "emerald_relevance": "",
+  "confidence": "low",
+  "verified": true,
+  "status": "stub",
+  "search_query": "Optuna Akiba Sano hyperparameter optimization KDD 2019",
+  "notes": "",
+  "source_files": [],
+  "first_seen": "2026-05-17T19:47:01.394662Z",
+  "last_updated": "2026-05-17T19:47:01.394669Z"
+}

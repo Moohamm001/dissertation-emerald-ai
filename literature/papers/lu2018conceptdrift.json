@@ -1,0 +1,38 @@
+{
+  "key": "lu2018conceptdrift",
+  "title": "Learning under concept drift: A review",
+  "authors": [
+    "Lu, J.",
+    "Liu, A.",
+    "Dong, F.",
+    "Gu, F.",
+    "Gama, J.",
+    "Zhang, G."
+  ],
+  "year": 2018,
+  "abstract": "",
+  "methodology": "",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [
+    "fairness-compliance"
+  ],
+  "venue": "IEEE TKDE, 31(12), 2346-2363",
+  "doi": "10.1109/TKDE.2018.2876857",
+  "institutions": [],
+  "themes": [
+    "fairness-compliance"
+  ],
+  "relevance": "medium",
+  "emerald_relevance": "",
+  "confidence": "low",
+  "verified": true,
+  "status": "stub",
+  "search_query": "Lu Liu Dong concept drift review IEEE TKDE 2018",
+  "notes": "",
+  "source_files": [],
+  "first_seen": "2026-05-17T19:47:01.392765Z",
+  "last_updated": "2026-05-17T19:47:01.392771Z"
+}

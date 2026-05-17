@@ -1,0 +1,34 @@
+{
+  "key": "zadrozny2002isotonic",
+  "title": "Transforming classifier scores into accurate multiclass probability estimates",
+  "authors": [
+    "Zadrozny, B.",
+    "Elkan, C."
+  ],
+  "year": 2002,
+  "abstract": "",
+  "methodology": "",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [
+    "imbalance-calibration"
+  ],
+  "venue": "KDD 2002, 694-699",
+  "doi": "10.1145/775047.775151",
+  "institutions": [],
+  "themes": [
+    "imbalance-calibration"
+  ],
+  "relevance": "high",
+  "emerald_relevance": "",
+  "confidence": "low",
+  "verified": true,
+  "status": "stub",
+  "search_query": "Zadrozny Elkan transforming classifier scores isotonic KDD 2002",
+  "notes": "",
+  "source_files": [],
+  "first_seen": "2026-05-17T19:47:01.384399Z",
+  "last_updated": "2026-05-17T19:47:01.384405Z"
+}

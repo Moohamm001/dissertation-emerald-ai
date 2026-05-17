@@ -1,0 +1,48 @@
+{
+  "key": "chawla2002smote",
+  "title": "SMOTE: Synthetic minority over-sampling technique",
+  "authors": [
+    "Chawla, N. V.",
+    "Bowyer, K. W.",
+    "Hall, L. O.",
+    "Kegelmeyer, W. P."
+  ],
+  "year": 2002,
+  "abstract": "",
+  "methodology": "Algorithmic description + benchmarks on nine imbalanced UCI datasets vs naive over- and under-sampling.",
+  "contributions": [
+    "Synthesise minority-class examples by interpolating between each minority instance and its k nearest neighbours of the same class.",
+    "Combined with majority under-sampling, SMOTE outperforms naive over-sampling (which only duplicates) on a range of imbalanced classification benchmarks."
+  ],
+  "weaknesses": [
+    "Can generate implausible synthetic minority points in high-dimensional or strongly non-linear feature spaces.",
+    "Originally numeric-only; SMOTE-NC extends it to mixed types.",
+    "Does not interact well with overlapping class regions (where minority points lie in majority territory)."
+  ],
+  "future_works": [],
+  "referenced_papers": [
+    "he2008adasyn",
+    "santos2018cvimbalanced"
+  ],
+  "important_keywords": [
+    "imbalance-calibration"
+  ],
+  "venue": "JAIR, 16, 321-357",
+  "doi": "10.1613/jair.953",
+  "institutions": [],
+  "themes": [
+    "imbalance-calibration"
+  ],
+  "relevance": "critical",
+  "emerald_relevance": "Foundational citation for section 4.4 + the SMOTE-NC variant used in section 5.7 for mixed numeric/categorical resampling on green-loan data.",
+  "confidence": "high",
+  "verified": true,
+  "status": "analysed",
+  "search_query": "",
+  "notes": "Foundational SMOTE paper. Cited 25k+. SMOTE-NC variant handles mixed numeric/categorical.",
+  "source_files": [
+    "literature\\papers\\chawla2002smote.md"
+  ],
+  "first_seen": "2026-05-17T19:44:11.686444",
+  "last_updated": "2026-05-17T19:44:11.686467"
+}

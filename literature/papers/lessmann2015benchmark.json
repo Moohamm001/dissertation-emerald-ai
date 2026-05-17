@@ -1,0 +1,54 @@
+{
+  "key": "lessmann2015benchmark",
+  "title": "Benchmarking state-of-the-art classification algorithms for credit scoring: An update of research",
+  "authors": [
+    "Lessmann, S.",
+    "Baesens, B.",
+    "Seow, H. V.",
+    "Thomas, L. C."
+  ],
+  "year": 2015,
+  "abstract": "",
+  "methodology": "Compared 41 classifiers across 8 real credit datasets using 6 metrics. Applied the Friedman test + Nemenyi post-hoc to control multiple-comparison error.",
+  "contributions": [
+    "Heterogeneous ensemble methods (random forest, gradient boosting, stacking) dominate single learners.",
+    "The marginal accuracy gains from architectural sophistication shrink as dataset size grows.",
+    "The choice of evaluation metric matters: AUC, PCC, Brier score, and partial-AUC can rank methods differently — multi-metric reporting is mandatory."
+  ],
+  "weaknesses": [
+    "Datasets are still relatively small (largest ~150k records).",
+    "Does not cover XGBoost (2016) or modern tabular DL.",
+    "No fairness, calibration, or explainability dimension."
+  ],
+  "future_works": [],
+  "referenced_papers": [
+    "baesens2003benchmark",
+    "chen2016xgboost",
+    "dumitrescu2022ml"
+  ],
+  "important_keywords": [
+    "evolution-credit-scoring",
+    "benchmarking",
+    "gbdt-tabular-sota"
+  ],
+  "venue": "European Journal of Operational Research, 247(1), 124-136",
+  "doi": "10.1016/j.ejor.2015.05.030",
+  "institutions": [],
+  "themes": [
+    "evolution-credit-scoring",
+    "benchmarking",
+    "gbdt-tabular-sota"
+  ],
+  "relevance": "critical",
+  "emerald_relevance": "Pillar citation for sections 4.1 and 4.2. Establishes 'ensembles dominate' as a credit-scoring consensus, motivating EMERALD-AI's primary focus on GBDTs. Methodological exemplar for nested CV and multi-metric reporting.",
+  "confidence": "high",
+  "verified": true,
+  "status": "analysed",
+  "search_query": "",
+  "notes": "41-classifier benchmark; established ensemble methods (RF, GBM) dominate.",
+  "source_files": [
+    "literature\\papers\\lessmann2015benchmark.md"
+  ],
+  "first_seen": "2026-05-17T19:44:11.553954",
+  "last_updated": "2026-05-17T19:44:11.553992"
+}

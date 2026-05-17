@@ -1,0 +1,49 @@
+{
+  "key": "hardt2016eqodds",
+  "title": "Equality of opportunity in supervised learning",
+  "authors": [
+    "Hardt, M.",
+    "Price, E.",
+    "Srebro, N."
+  ],
+  "year": 2016,
+  "abstract": "",
+  "methodology": "Theoretical derivation of post-hoc threshold-adjustment procedure + empirical demonstration on the FICO credit-scoring dataset.",
+  "contributions": [
+    "'Equalised odds' requires the true-positive rate AND false-positive rate to be equal across protected groups; 'equal opportunity' requires only TPR equality.",
+    "Both criteria can be enforced post-hoc by learning a group-conditional threshold from a calibrated score.",
+    "These criteria are weaker than demographic parity and avoid demographic-parity's failure mode of underwriting on protected-group membership rather than risk."
+  ],
+  "weaknesses": [
+    "The post-hoc threshold approach assumes the underlying score is well-calibrated within each group — often false in practice.",
+    "Equalised odds is incompatible with calibration when base rates differ [[chouldechova2017fair]].",
+    "'Protected group' must be observable at inference time, which is often not the case in credit."
+  ],
+  "future_works": [],
+  "referenced_papers": [
+    "bellamy2018aif360",
+    "chouldechova2017fair",
+    "kleinberg2017inherent"
+  ],
+  "important_keywords": [
+    "fairness-compliance"
+  ],
+  "venue": "NeurIPS 2016",
+  "doi": null,
+  "institutions": [],
+  "themes": [
+    "fairness-compliance"
+  ],
+  "relevance": "critical",
+  "emerald_relevance": "Foundational citation for section 4.7's parity-definition framework. Equalised-odds gap is one of the four metrics EMERALD-AI's section 5.12 fairness audit reports.",
+  "confidence": "high",
+  "verified": true,
+  "status": "analysed",
+  "search_query": "Hardt Price Srebro equality of opportunity NeurIPS 2016",
+  "notes": "Introduces equalised odds and equal opportunity. Foundational for group-fairness audit.",
+  "source_files": [
+    "literature\\papers\\hardt2016eqodds.md"
+  ],
+  "first_seen": "2026-05-17T19:44:11.972337",
+  "last_updated": "2026-05-17T19:44:11.972355"
+}

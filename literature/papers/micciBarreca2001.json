@@ -1,0 +1,33 @@
+{
+  "key": "micciBarreca2001",
+  "title": "A preprocessing scheme for high-cardinality categorical attributes in classification and prediction problems",
+  "authors": [
+    "Micci-Barreca, D."
+  ],
+  "year": 2001,
+  "abstract": "",
+  "methodology": "",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [
+    "methodology"
+  ],
+  "venue": "SIGKDD Explorations, 3(1), 27-32",
+  "doi": "10.1145/507533.507538",
+  "institutions": [],
+  "themes": [
+    "methodology"
+  ],
+  "relevance": "medium",
+  "emerald_relevance": "",
+  "confidence": "low",
+  "verified": true,
+  "status": "stub",
+  "search_query": "Micci-Barreca preprocessing high-cardinality categorical SIGKDD 2001 target encoding",
+  "notes": "",
+  "source_files": [],
+  "first_seen": "2026-05-17T19:47:01.396296Z",
+  "last_updated": "2026-05-17T19:47:01.396302Z"
+}

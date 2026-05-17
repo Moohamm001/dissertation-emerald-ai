@@ -1,0 +1,47 @@
+{
+  "key": "berg2022esg",
+  "title": "Aggregate confusion: The divergence of ESG ratings",
+  "authors": [
+    "Berg, F.",
+    "Kölbel, J. F.",
+    "Rigobon, R."
+  ],
+  "year": 2022,
+  "abstract": "",
+  "methodology": "Decomposition of disagreement across six ESG-rating providers on a large overlap sample using a novel scope/measurement/weight framework.",
+  "contributions": [
+    "Correlations across six major ESG-rating providers average only 0.54 (vs ~0.99 for credit ratings).",
+    "The divergence decomposes into scope (which categories matter), measurement (how each is operationalised), and weights — measurement is the dominant driver.",
+    "ESG ratings are not interchangeable; using one provider's score as a feature embeds that provider's methodological priors."
+  ],
+  "weaknesses": [
+    "The 0.54 figure has been refined in later work; the directional claim is robust but the exact magnitude depends on overlap sample and provider mix.",
+    "Does not address the question of which ESG score, if any, is most accurate — only that they disagree."
+  ],
+  "future_works": [],
+  "referenced_papers": [
+    "ehlers2017greenbond",
+    "flammer2021corporate"
+  ],
+  "important_keywords": [
+    "green-finance"
+  ],
+  "venue": "Review of Finance, 26(6), 1315-1344",
+  "doi": "10.1093/rof/rfac033",
+  "institutions": [],
+  "themes": [
+    "green-finance"
+  ],
+  "relevance": "critical",
+  "emerald_relevance": "Pillar citation justifying EMERALD-AI's design choice NOT to use third-party ESG scores as model features. Anchor for section 4.5's claim that ESG ratings are unreliable as direct inputs.",
+  "confidence": "high",
+  "verified": true,
+  "status": "analysed",
+  "search_query": "",
+  "notes": "Most-cited paper on ESG inter-rater disagreement. Justifies why we don't use third-party ESG scores as features.",
+  "source_files": [
+    "literature\\papers\\berg2022esg.md"
+  ],
+  "first_seen": "2026-05-17T19:44:11.806835",
+  "last_updated": "2026-05-17T19:44:11.806858"
+}

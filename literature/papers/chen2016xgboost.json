@@ -1,0 +1,47 @@
+{
+  "key": "chen2016xgboost",
+  "title": "XGBoost: A scalable tree boosting system",
+  "authors": [
+    "Chen, T.",
+    "Guestrin, C."
+  ],
+  "year": 2016,
+  "abstract": "",
+  "methodology": "Theoretical derivation of regularised second-order objective + extensive empirical evaluation on regression, classification, ranking, and large-scale tabular tasks.",
+  "contributions": [
+    "A scalable gradient-boosting framework combining (a) second-order Newton boosting, (b) L1/L2 leaf-weight regularisation, (c) sparsity-aware split finding for missing data, (d) cache-aware out-of-core computation.",
+    "Wins or matches state-of-the-art on the majority of Kaggle tabular competitions surveyed at the time."
+  ],
+  "weaknesses": [
+    "Original paper does not cover monotonic constraints, GPU training, or DART dropout — these are later additions.",
+    "Tree ensembles extrapolate poorly; OOD generalisation is a known weakness not addressed here.",
+    "No explicit treatment of calibration."
+  ],
+  "future_works": [],
+  "referenced_papers": [
+    "ke2017lightgbm",
+    "lundberg2020trees",
+    "prokhorenkova2018catboost"
+  ],
+  "important_keywords": [
+    "gbdt-tabular-sota"
+  ],
+  "venue": "KDD '16, 785-794",
+  "doi": "10.1145/2939672.2939785",
+  "institutions": [],
+  "themes": [
+    "gbdt-tabular-sota"
+  ],
+  "relevance": "critical",
+  "emerald_relevance": "Foundational citation for EMERALD-AI's primary candidate model. Cited 30k+ times. The monotonic-constraint feature added post-publication (XGBoost ≥0.81) is the specific implementation hook for the monotonicity argument in section 5.8.",
+  "confidence": "high",
+  "verified": true,
+  "status": "analysed",
+  "search_query": "",
+  "notes": "Foundational paper for XGBoost. Cited 30k+ times. Second-order Newton boosting + regularisation + sparsity-aware split finding.",
+  "source_files": [
+    "literature\\papers\\chen2016xgboost.md"
+  ],
+  "first_seen": "2026-05-17T19:44:11.572605",
+  "last_updated": "2026-05-17T19:44:11.572624"
+}

@@ -1,0 +1,35 @@
+{
+  "key": "janzing2020feature",
+  "title": "Feature relevance quantification in explainable AI: A causal problem",
+  "authors": [
+    "Janzing, D.",
+    "Minorics, L.",
+    "Blöbaum, P."
+  ],
+  "year": 2020,
+  "abstract": "",
+  "methodology": "",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [
+    "xai-finance"
+  ],
+  "venue": "AISTATS 2020",
+  "doi": null,
+  "institutions": [],
+  "themes": [
+    "xai-finance"
+  ],
+  "relevance": "medium",
+  "emerald_relevance": "",
+  "confidence": "low",
+  "verified": true,
+  "status": "stub",
+  "search_query": "Janzing Minorics Blöbaum feature relevance causal AISTATS 2020",
+  "notes": "",
+  "source_files": [],
+  "first_seen": "2026-05-17T19:47:01.389400Z",
+  "last_updated": "2026-05-17T19:47:01.389405Z"
+}

@@ -66,3 +66,58 @@ def test_index_relevance_values_valid(index: list[dict]) -> None:
     allowed = {"critical", "high", "medium", "context"}
     for entry in index:
         assert entry["relevance"] in allowed, f"{entry['key']} bad relevance {entry['relevance']!r}"
+
+
+# ─────────────────────────────────────────────────────────────
+# Research-automation state integrity
+# ─────────────────────────────────────────────────────────────
+
+STATE_DIR = LIT_DIR / "state"
+
+
+def test_state_directory_exists() -> None:
+    """After running the engine, literature/state/ exists with the expected files."""
+    assert STATE_DIR.is_dir()
+    for name in ("processed.json", "citations.json", "questions.json", "authors.json",
+                 "institutions.json", "methods.json", "datasets.json", "keywords.json",
+                 "manifest.json"):
+        assert (STATE_DIR / name).exists(), f"missing state file: {name}"
+
+
+def test_every_paper_md_has_a_json_sidecar() -> None:
+    """For every papers/<key>.md there is a papers/<key>.json with valid schema."""
+    import json
+
+    from emerald_ai.research.schema import PaperRecord
+
+    md_keys = {p.stem for p in PAPERS_DIR.glob("*.md")}
+    for key in md_keys:
+        sidecar = PAPERS_DIR / f"{key}.json"
+        assert sidecar.exists(), f"missing JSON sidecar for {key}"
+        # Schema must round-trip
+        record = PaperRecord(**json.loads(sidecar.read_text(encoding="utf-8")))
+        assert record.key == key
+
+
+def test_citation_graph_edges_resolve(index: list[dict]) -> None:
+    """Every edge in the citation graph references a key that exists in the index."""
+    import json
+
+    edges = json.loads((STATE_DIR / "citations.json").read_text(encoding="utf-8"))
+    keys = {e["key"] for e in index}
+    for edge in edges:
+        assert edge["source"] in keys, f"edge source {edge['source']} not in index"
+        assert edge["target"] in keys, f"edge target {edge['target']} not in index"
+
+
+def test_engine_run_is_idempotent() -> None:
+    """A no-force run after a prior run must not change the manifest counts."""
+    import json
+
+    from emerald_ai.research import ResearchEngine
+
+    before = json.loads((STATE_DIR / "manifest.json").read_text(encoding="utf-8"))
+    ResearchEngine().run()
+    after = json.loads((STATE_DIR / "manifest.json").read_text(encoding="utf-8"))
+    assert before["papers_count"] == after["papers_count"]
+    assert before["schema_version"] == after["schema_version"]

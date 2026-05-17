@@ -1,0 +1,50 @@
+{
+  "key": "wachter2017counterfactual",
+  "title": "Counterfactual explanations without opening the black box: Automated decisions and the GDPR",
+  "authors": [
+    "Wachter, S.",
+    "Mittelstadt, B.",
+    "Russell, C."
+  ],
+  "year": 2017,
+  "abstract": "",
+  "methodology": "Legal-technical analysis of GDPR Articles 13-15 and 22 + algorithmic definition of counterfactual explanation.",
+  "contributions": [
+    "The 'right to explanation' read into GDPR Article 22 is more meaningfully discharged by counterfactual explanations than by feature-attribution explanations.",
+    "Counterfactuals require no access to the model internals — model-agnostic by construction.",
+    "A formal definition of counterfactual: the closest possible world (in feature space) in which the decision would have differed."
+  ],
+  "weaknesses": [
+    "The 'right to explanation' reading of GDPR is contested (Edwards & Veale 2017, Selbst & Powles 2017 argue it is more limited).",
+    "Closest counterfactual is not always the most useful — Mothilal et al. (2020) argue for diversity.",
+    "Predates the EU AI Act; new framework will partly supersede GDPR analysis for credit-scoring AI."
+  ],
+  "future_works": [],
+  "referenced_papers": [
+    "euAiAct2021",
+    "mothilal2020dice"
+  ],
+  "important_keywords": [
+    "xai-finance",
+    "fairness-compliance"
+  ],
+  "venue": "Harvard Journal of Law & Technology, 31(2), 841-887",
+  "doi": null,
+  "institutions": [],
+  "themes": [
+    "xai-finance",
+    "fairness-compliance"
+  ],
+  "relevance": "high",
+  "emerald_relevance": "Legal foundation citation for EMERALD-AI's counterfactual layer. Justifies the design choice to make counterfactuals a first-class output, not an optional add-on.",
+  "confidence": "high",
+  "verified": true,
+  "status": "analysed",
+  "search_query": "Wachter Mittelstadt Russell counterfactual explanations GDPR HJLT 2017",
+  "notes": "Foundational legal/technical argument for counterfactuals under the right to explanation.",
+  "source_files": [
+    "literature\\papers\\wachter2017counterfactual.md"
+  ],
+  "first_seen": "2026-05-17T19:44:11.867890",
+  "last_updated": "2026-05-17T19:44:11.867926"
+}

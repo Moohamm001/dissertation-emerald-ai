@@ -1,0 +1,84 @@
+{
+  "adult": {
+    "kind": "dataset",
+    "paper_keys": [
+      "prokhorenkova2018catboost",
+      "gorishniy2021revisiting",
+      "mothilal2020dice"
+    ],
+    "term": "adult",
+    "themes": []
+  },
+  "compas": {
+    "kind": "dataset",
+    "paper_keys": [
+      "mothilal2020dice",
+      "rudin2019stop",
+      "slack2020fooling",
+      "chouldechova2017fair"
+    ],
+    "term": "compas",
+    "themes": []
+  },
+  "fico": {
+    "kind": "dataset",
+    "paper_keys": [
+      "hardt2016eqodds"
+    ],
+    "term": "fico",
+    "themes": []
+  },
+  "german credit": {
+    "kind": "dataset",
+    "paper_keys": [
+      "mothilal2020dice",
+      "slack2020fooling"
+    ],
+    "term": "german credit",
+    "themes": []
+  },
+  "higgs": {
+    "kind": "dataset",
+    "paper_keys": [
+      "arik2021tabnet",
+      "gorishniy2021revisiting"
+    ],
+    "term": "higgs",
+    "themes": []
+  },
+  "kaggle": {
+    "kind": "dataset",
+    "paper_keys": [
+      "chen2016xgboost"
+    ],
+    "term": "kaggle",
+    "themes": []
+  },
+  "kdd": {
+    "kind": "dataset",
+    "paper_keys": [
+      "ke2017lightgbm",
+      "prokhorenkova2018catboost",
+      "arik2021tabnet"
+    ],
+    "term": "kdd",
+    "themes": []
+  },
+  "lending club": {
+    "kind": "dataset",
+    "paper_keys": [
+      "mothilal2020dice"
+    ],
+    "term": "lending club",
+    "themes": []
+  },
+  "uci": {
+    "kind": "dataset",
+    "paper_keys": [
+      "chawla2002smote",
+      "pineau2021reproducibility"
+    ],
+    "term": "uci",
+    "themes": []
+  }
+}

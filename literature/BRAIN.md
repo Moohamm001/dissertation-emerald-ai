@@ -41,8 +41,21 @@ If you (Claude in a future session) are asked anything about the literature, cit
 ## Current status (snapshot 2026-05-17)
 
 - 8/8 themes drafted (matching `proposal_second_draft.docx` §4.1–4.8)
-- ~20/61 paper files written; the remaining 41 are stubbed in `index.yaml` with metadata only — expand on demand
-- Gap log seeded with 6 known open questions; expect this to grow as deep dives uncover more
+- 34/62 paper files written with full structured notes; the remaining 28 are stubbed in `index.yaml` with metadata only — expand on demand
+- Gap log seeded with 10 literature gaps + 5 methodology gaps
+- Machine-readable state (`literature/state/`) auto-populated by the research engine: 34 JSON sidecars, 80 citation edges, 179 authors, 22 methods, 9 datasets, 15 research questions
+
+## Automation
+
+The brain is driven by `src/emerald_ai/research/` — an idempotent engine implementing the workflow in `research_automation.txt`. It reads the existing brain, parses paper markdowns into the 10-field schema (title/authors/year/abstract/methodology/contributions/weaknesses/future_works/referenced_papers/keywords), writes JSON sidecars per paper, builds the citation graph from `[[wiki-links]]`, rolls up authors/institutions/methods/datasets/keywords, and generates research questions from `gaps.md`.
+
+```bash
+make research            # one-shot sweep
+emerald research run     # same, via CLI
+emerald research status  # current counts
+```
+
+Hand-edit the markdown + YAML; never hand-edit `literature/state/*.json` — they regenerate.
 
 ## Operational rules for future-me
 

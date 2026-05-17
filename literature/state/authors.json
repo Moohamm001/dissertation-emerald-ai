@@ -1,0 +1,1849 @@
+{
+  "APLMA": {
+    "institutions": [],
+    "name": "APLMA",
+    "paper_keys": [
+      "lma2023glp"
+    ],
+    "themes": [
+      "green-finance"
+    ]
+  },
+  "Aas, K.": {
+    "institutions": [],
+    "name": "Aas, K.",
+    "paper_keys": [
+      "aas2021explaining"
+    ],
+    "themes": [
+      "xai-finance"
+    ]
+  },
+  "Abreu, P. H.": {
+    "institutions": [],
+    "name": "Abreu, P. H.",
+    "paper_keys": [
+      "santos2018cvimbalanced"
+    ],
+    "themes": [
+      "imbalance-calibration"
+    ]
+  },
+  "Akiba, T.": {
+    "institutions": [],
+    "name": "Akiba, T.",
+    "paper_keys": [
+      "akiba2019optuna"
+    ],
+    "themes": [
+      "methodology"
+    ]
+  },
+  "Altman, E. I.": {
+    "institutions": [],
+    "name": "Altman, E. I.",
+    "paper_keys": [
+      "altman1968"
+    ],
+    "themes": [
+      "evolution-credit-scoring"
+    ]
+  },
+  "Angelopoulos, A. N.": {
+    "institutions": [],
+    "name": "Angelopoulos, A. N.",
+    "paper_keys": [
+      "angelopoulos2023conformal"
+    ],
+    "themes": [
+      "imbalance-calibration"
+    ]
+  },
+  "Ara\u00fajo, H.": {
+    "institutions": [],
+    "name": "Ara\u00fajo, H.",
+    "paper_keys": [
+      "santos2018cvimbalanced"
+    ],
+    "themes": [
+      "imbalance-calibration"
+    ]
+  },
+  "Arik, S. \u00d6.": {
+    "institutions": [],
+    "name": "Arik, S. \u00d6.",
+    "paper_keys": [
+      "arik2021tabnet"
+    ],
+    "themes": [
+      "tabular-deep-learning",
+      "xai-finance"
+    ]
+  },
+  "Armon, A.": {
+    "institutions": [],
+    "name": "Armon, A.",
+    "paper_keys": [
+      "shwartz2022deep"
+    ],
+    "themes": [
+      "gbdt-tabular-sota",
+      "tabular-deep-learning"
+    ]
+  },
+  "Babenko, A.": {
+    "institutions": [],
+    "name": "Babenko, A.",
+    "paper_keys": [
+      "gorishniy2021revisiting",
+      "popov2020node"
+    ],
+    "themes": [
+      "tabular-deep-learning"
+    ]
+  },
+  "Baesens, B.": {
+    "institutions": [],
+    "name": "Baesens, B.",
+    "paper_keys": [
+      "baesens2003benchmark",
+      "lessmann2015benchmark"
+    ],
+    "themes": [
+      "evolution-credit-scoring",
+      "benchmarking",
+      "gbdt-tabular-sota"
+    ]
+  },
+  "Bai, Y.": {
+    "institutions": [],
+    "name": "Bai, Y.",
+    "paper_keys": [
+      "he2008adasyn"
+    ],
+    "themes": [
+      "imbalance-calibration"
+    ]
+  },
+  "Bansal, N.": {
+    "institutions": [],
+    "name": "Bansal, N.",
+    "paper_keys": [
+      "lundberg2020trees"
+    ],
+    "themes": [
+      "gbdt-tabular-sota",
+      "xai-finance"
+    ]
+  },
+  "Bareeva, D.": {
+    "institutions": [],
+    "name": "Bareeva, D.",
+    "paper_keys": [
+      "hedstrom2023quantus"
+    ],
+    "themes": [
+      "xai-finance"
+    ]
+  },
+  "Bates, S.": {
+    "institutions": [],
+    "name": "Bates, S.",
+    "paper_keys": [
+      "angelopoulos2023conformal"
+    ],
+    "themes": [
+      "imbalance-calibration"
+    ]
+  },
+  "Beaver, W. H.": {
+    "institutions": [],
+    "name": "Beaver, W. H.",
+    "paper_keys": [
+      "beaver1966"
+    ],
+    "themes": [
+      "evolution-credit-scoring"
+    ]
+  },
+  "Bellamy, R. K. E.": {
+    "institutions": [],
+    "name": "Bellamy, R. K. E.",
+    "paper_keys": [
+      "bellamy2018aif360"
+    ],
+    "themes": [
+      "fairness-compliance"
+    ]
+  },
+  "Berg, F.": {
+    "institutions": [],
+    "name": "Berg, F.",
+    "paper_keys": [
+      "berg2022esg"
+    ],
+    "themes": [
+      "green-finance"
+    ]
+  },
+  "Bl\u00f6baum, P.": {
+    "institutions": [],
+    "name": "Bl\u00f6baum, P.",
+    "paper_keys": [
+      "janzing2020feature"
+    ],
+    "themes": [
+      "xai-finance"
+    ]
+  },
+  "Borisov, V.": {
+    "institutions": [],
+    "name": "Borisov, V.",
+    "paper_keys": [
+      "borisov2022dnntabular"
+    ],
+    "themes": [
+      "tabular-deep-learning"
+    ]
+  },
+  "Bowyer, K. W.": {
+    "institutions": [],
+    "name": "Bowyer, K. W.",
+    "paper_keys": [
+      "chawla2002smote"
+    ],
+    "themes": [
+      "imbalance-calibration"
+    ]
+  },
+  "Breiman, L.": {
+    "institutions": [],
+    "name": "Breiman, L.",
+    "paper_keys": [
+      "breiman2001randomforest"
+    ],
+    "themes": [
+      "gbdt-tabular-sota"
+    ]
+  },
+  "Bruss, C. B.": {
+    "institutions": [],
+    "name": "Bruss, C. B.",
+    "paper_keys": [
+      "somepalli2021saint"
+    ],
+    "themes": [
+      "tabular-deep-learning"
+    ]
+  },
+  "Calders, T.": {
+    "institutions": [],
+    "name": "Calders, T.",
+    "paper_keys": [
+      "kamiran2012preprocessing"
+    ],
+    "themes": [
+      "fairness-compliance"
+    ]
+  },
+  "Chawla, N. V.": {
+    "institutions": [],
+    "name": "Chawla, N. V.",
+    "paper_keys": [
+      "chawla2002smote"
+    ],
+    "themes": [
+      "imbalance-calibration"
+    ]
+  },
+  "Chen, H.": {
+    "institutions": [],
+    "name": "Chen, H.",
+    "paper_keys": [
+      "lundberg2020trees"
+    ],
+    "themes": [
+      "gbdt-tabular-sota",
+      "xai-finance"
+    ]
+  },
+  "Chen, T.": {
+    "institutions": [],
+    "name": "Chen, T.",
+    "paper_keys": [
+      "chen2016xgboost"
+    ],
+    "themes": [
+      "gbdt-tabular-sota"
+    ]
+  },
+  "Chen, W.": {
+    "institutions": [],
+    "name": "Chen, W.",
+    "paper_keys": [
+      "ke2017lightgbm"
+    ],
+    "themes": [
+      "gbdt-tabular-sota"
+    ]
+  },
+  "Chouldechova, A.": {
+    "institutions": [],
+    "name": "Chouldechova, A.",
+    "paper_keys": [
+      "chouldechova2017fair"
+    ],
+    "themes": [
+      "fairness-compliance"
+    ]
+  },
+  "Clarke-Pearson, D. L.": {
+    "institutions": [],
+    "name": "Clarke-Pearson, D. L.",
+    "paper_keys": [
+      "delong1988roc"
+    ],
+    "themes": [
+      "methodology"
+    ]
+  },
+  "Climate Bonds Initiative": {
+    "institutions": [],
+    "name": "Climate Bonds Initiative",
+    "paper_keys": [
+      "cbi2023standard"
+    ],
+    "themes": [
+      "green-finance"
+    ]
+  },
+  "Crawford, K.": {
+    "institutions": [],
+    "name": "Crawford, K.",
+    "paper_keys": [
+      "gebru2021datasheets"
+    ],
+    "themes": [
+      "methodology",
+      "fairness-compliance"
+    ]
+  },
+  "Daum\u00e9 III, H.": {
+    "institutions": [],
+    "name": "Daum\u00e9 III, H.",
+    "paper_keys": [
+      "gebru2021datasheets"
+    ],
+    "themes": [
+      "methodology",
+      "fairness-compliance"
+    ]
+  },
+  "DeGrave, A.": {
+    "institutions": [],
+    "name": "DeGrave, A.",
+    "paper_keys": [
+      "lundberg2020trees"
+    ],
+    "themes": [
+      "gbdt-tabular-sota",
+      "xai-finance"
+    ]
+  },
+  "DeLong, D. M.": {
+    "institutions": [],
+    "name": "DeLong, D. M.",
+    "paper_keys": [
+      "delong1988roc"
+    ],
+    "themes": [
+      "methodology"
+    ]
+  },
+  "DeLong, E. R.": {
+    "institutions": [],
+    "name": "DeLong, E. R.",
+    "paper_keys": [
+      "delong1988roc"
+    ],
+    "themes": [
+      "methodology"
+    ]
+  },
+  "Doll\u00e1r, P.": {
+    "institutions": [],
+    "name": "Doll\u00e1r, P.",
+    "paper_keys": [
+      "lin2017focal"
+    ],
+    "themes": [
+      "imbalance-calibration"
+    ]
+  },
+  "Dong, F.": {
+    "institutions": [],
+    "name": "Dong, F.",
+    "paper_keys": [
+      "lu2018conceptdrift"
+    ],
+    "themes": [
+      "fairness-compliance"
+    ]
+  },
+  "Dorogush, A. V.": {
+    "institutions": [],
+    "name": "Dorogush, A. V.",
+    "paper_keys": [
+      "prokhorenkova2018catboost"
+    ],
+    "themes": [
+      "gbdt-tabular-sota"
+    ]
+  },
+  "Dumitrescu, E.": {
+    "institutions": [],
+    "name": "Dumitrescu, E.",
+    "paper_keys": [
+      "dumitrescu2022ml"
+    ],
+    "themes": [
+      "evolution-credit-scoring",
+      "xai-finance"
+    ]
+  },
+  "Ehlers, T.": {
+    "institutions": [],
+    "name": "Ehlers, T.",
+    "paper_keys": [
+      "ehlers2017greenbond"
+    ],
+    "themes": [
+      "green-finance"
+    ]
+  },
+  "Elkan, C.": {
+    "institutions": [],
+    "name": "Elkan, C.",
+    "paper_keys": [
+      "zadrozny2002isotonic"
+    ],
+    "themes": [
+      "imbalance-calibration"
+    ]
+  },
+  "Erion, G.": {
+    "institutions": [],
+    "name": "Erion, G.",
+    "paper_keys": [
+      "lundberg2020trees"
+    ],
+    "themes": [
+      "gbdt-tabular-sota",
+      "xai-finance"
+    ]
+  },
+  "European Banking Authority": {
+    "institutions": [],
+    "name": "European Banking Authority",
+    "paper_keys": [
+      "ebaGL2020"
+    ],
+    "themes": [
+      "fairness-compliance"
+    ]
+  },
+  "European Commission": {
+    "institutions": [],
+    "name": "European Commission",
+    "paper_keys": [
+      "euTaxonomy2020",
+      "euAiAct2021"
+    ],
+    "themes": [
+      "green-finance",
+      "fairness-compliance"
+    ]
+  },
+  "Financial Conduct Authority": {
+    "institutions": [],
+    "name": "Financial Conduct Authority",
+    "paper_keys": [
+      "fcaConsumerDuty2022"
+    ],
+    "themes": [
+      "fairness-compliance"
+    ]
+  },
+  "Finley, T.": {
+    "institutions": [],
+    "name": "Finley, T.",
+    "paper_keys": [
+      "ke2017lightgbm"
+    ],
+    "themes": [
+      "gbdt-tabular-sota"
+    ]
+  },
+  "Flammer, C.": {
+    "institutions": [],
+    "name": "Flammer, C.",
+    "paper_keys": [
+      "flammer2021corporate"
+    ],
+    "themes": [
+      "green-finance"
+    ]
+  },
+  "Gama, J.": {
+    "institutions": [],
+    "name": "Gama, J.",
+    "paper_keys": [
+      "lu2018conceptdrift"
+    ],
+    "themes": [
+      "fairness-compliance"
+    ]
+  },
+  "Gammerman, A.": {
+    "institutions": [],
+    "name": "Gammerman, A.",
+    "paper_keys": [
+      "vovk2005alrw"
+    ],
+    "themes": [
+      "imbalance-calibration"
+    ]
+  },
+  "Garcia, E. A.": {
+    "institutions": [],
+    "name": "Garcia, E. A.",
+    "paper_keys": [
+      "he2008adasyn"
+    ],
+    "themes": [
+      "imbalance-calibration"
+    ]
+  },
+  "Gebru, T.": {
+    "institutions": [],
+    "name": "Gebru, T.",
+    "paper_keys": [
+      "gebru2021datasheets"
+    ],
+    "themes": [
+      "methodology",
+      "fairness-compliance"
+    ]
+  },
+  "Girshick, R.": {
+    "institutions": [],
+    "name": "Girshick, R.",
+    "paper_keys": [
+      "lin2017focal"
+    ],
+    "themes": [
+      "imbalance-calibration"
+    ]
+  },
+  "Goldblum, M.": {
+    "institutions": [],
+    "name": "Goldblum, M.",
+    "paper_keys": [
+      "somepalli2021saint"
+    ],
+    "themes": [
+      "tabular-deep-learning"
+    ]
+  },
+  "Goldstein, T.": {
+    "institutions": [],
+    "name": "Goldstein, T.",
+    "paper_keys": [
+      "somepalli2021saint"
+    ],
+    "themes": [
+      "tabular-deep-learning"
+    ]
+  },
+  "Gorishniy, Y.": {
+    "institutions": [],
+    "name": "Gorishniy, Y.",
+    "paper_keys": [
+      "gorishniy2021revisiting"
+    ],
+    "themes": [
+      "tabular-deep-learning"
+    ]
+  },
+  "Goyal, P.": {
+    "institutions": [],
+    "name": "Goyal, P.",
+    "paper_keys": [
+      "lin2017focal"
+    ],
+    "themes": [
+      "imbalance-calibration"
+    ]
+  },
+  "Grinsztajn, L.": {
+    "institutions": [],
+    "name": "Grinsztajn, L.",
+    "paper_keys": [
+      "grinsztajn2022trees"
+    ],
+    "themes": [
+      "gbdt-tabular-sota",
+      "tabular-deep-learning"
+    ]
+  },
+  "Gu, F.": {
+    "institutions": [],
+    "name": "Gu, F.",
+    "paper_keys": [
+      "lu2018conceptdrift"
+    ],
+    "themes": [
+      "fairness-compliance"
+    ]
+  },
+  "Guestrin, C.": {
+    "institutions": [],
+    "name": "Guestrin, C.",
+    "paper_keys": [
+      "chen2016xgboost",
+      "ribeiro2016lime"
+    ],
+    "themes": [
+      "gbdt-tabular-sota",
+      "xai-finance"
+    ]
+  },
+  "Gulin, A.": {
+    "institutions": [],
+    "name": "Gulin, A.",
+    "paper_keys": [
+      "prokhorenkova2018catboost"
+    ],
+    "themes": [
+      "gbdt-tabular-sota"
+    ]
+  },
+  "Gusev, G.": {
+    "institutions": [],
+    "name": "Gusev, G.",
+    "paper_keys": [
+      "prokhorenkova2018catboost"
+    ],
+    "themes": [
+      "gbdt-tabular-sota"
+    ]
+  },
+  "Hall, L. O.": {
+    "institutions": [],
+    "name": "Hall, L. O.",
+    "paper_keys": [
+      "chawla2002smote"
+    ],
+    "themes": [
+      "imbalance-calibration"
+    ]
+  },
+  "Hand, D. J.": {
+    "institutions": [],
+    "name": "Hand, D. J.",
+    "paper_keys": [
+      "hand1997statistical"
+    ],
+    "themes": [
+      "evolution-credit-scoring"
+    ]
+  },
+  "Hardt, M.": {
+    "institutions": [],
+    "name": "Hardt, M.",
+    "paper_keys": [
+      "hardt2016eqodds"
+    ],
+    "themes": [
+      "fairness-compliance"
+    ]
+  },
+  "Haug, J.": {
+    "institutions": [],
+    "name": "Haug, J.",
+    "paper_keys": [
+      "borisov2022dnntabular"
+    ],
+    "themes": [
+      "tabular-deep-learning"
+    ]
+  },
+  "He, H.": {
+    "institutions": [],
+    "name": "He, H.",
+    "paper_keys": [
+      "he2008adasyn"
+    ],
+    "themes": [
+      "imbalance-calibration"
+    ]
+  },
+  "He, K.": {
+    "institutions": [],
+    "name": "He, K.",
+    "paper_keys": [
+      "lin2017focal"
+    ],
+    "themes": [
+      "imbalance-calibration"
+    ]
+  },
+  "Hedstr\u00f6m, A.": {
+    "institutions": [],
+    "name": "Hedstr\u00f6m, A.",
+    "paper_keys": [
+      "hedstrom2023quantus"
+    ],
+    "themes": [
+      "xai-finance"
+    ]
+  },
+  "Henley, W. E.": {
+    "institutions": [],
+    "name": "Henley, W. E.",
+    "paper_keys": [
+      "hand1997statistical"
+    ],
+    "themes": [
+      "evolution-credit-scoring"
+    ]
+  },
+  "Hilgard, S.": {
+    "institutions": [],
+    "name": "Hilgard, S.",
+    "paper_keys": [
+      "slack2020fooling"
+    ],
+    "themes": [
+      "xai-finance"
+    ]
+  },
+  "Himmelfarb, J.": {
+    "institutions": [],
+    "name": "Himmelfarb, J.",
+    "paper_keys": [
+      "lundberg2020trees"
+    ],
+    "themes": [
+      "gbdt-tabular-sota",
+      "xai-finance"
+    ]
+  },
+  "Hipp, J.": {
+    "institutions": [],
+    "name": "Hipp, J.",
+    "paper_keys": [
+      "wirth2000crispdm"
+    ],
+    "themes": [
+      "methodology"
+    ]
+  },
+  "Hue, S.": {
+    "institutions": [],
+    "name": "Hue, S.",
+    "paper_keys": [
+      "dumitrescu2022ml"
+    ],
+    "themes": [
+      "evolution-credit-scoring",
+      "xai-finance"
+    ]
+  },
+  "Hurlin, C.": {
+    "institutions": [],
+    "name": "Hurlin, C.",
+    "paper_keys": [
+      "dumitrescu2022ml"
+    ],
+    "themes": [
+      "evolution-credit-scoring",
+      "xai-finance"
+    ]
+  },
+  "H\u00f6hne, M. M.-C.": {
+    "institutions": [],
+    "name": "H\u00f6hne, M. M.-C.",
+    "paper_keys": [
+      "hedstrom2023quantus"
+    ],
+    "themes": [
+      "xai-finance"
+    ]
+  },
+  "Janzing, D.": {
+    "institutions": [],
+    "name": "Janzing, D.",
+    "paper_keys": [
+      "janzing2020feature"
+    ],
+    "themes": [
+      "xai-finance"
+    ]
+  },
+  "Jia, E.": {
+    "institutions": [],
+    "name": "Jia, E.",
+    "paper_keys": [
+      "slack2020fooling"
+    ],
+    "themes": [
+      "xai-finance"
+    ]
+  },
+  "Jullum, M.": {
+    "institutions": [],
+    "name": "Jullum, M.",
+    "paper_keys": [
+      "aas2021explaining"
+    ],
+    "themes": [
+      "xai-finance"
+    ]
+  },
+  "Kamiran, F.": {
+    "institutions": [],
+    "name": "Kamiran, F.",
+    "paper_keys": [
+      "kamiran2012preprocessing"
+    ],
+    "themes": [
+      "fairness-compliance"
+    ]
+  },
+  "Kasneci, G.": {
+    "institutions": [],
+    "name": "Kasneci, G.",
+    "paper_keys": [
+      "borisov2022dnntabular"
+    ],
+    "themes": [
+      "tabular-deep-learning"
+    ]
+  },
+  "Katz, R.": {
+    "institutions": [],
+    "name": "Katz, R.",
+    "paper_keys": [
+      "lundberg2020trees"
+    ],
+    "themes": [
+      "gbdt-tabular-sota",
+      "xai-finance"
+    ]
+  },
+  "Ke, G.": {
+    "institutions": [],
+    "name": "Ke, G.",
+    "paper_keys": [
+      "ke2017lightgbm"
+    ],
+    "themes": [
+      "gbdt-tabular-sota"
+    ]
+  },
+  "Kegelmeyer, W. P.": {
+    "institutions": [],
+    "name": "Kegelmeyer, W. P.",
+    "paper_keys": [
+      "chawla2002smote"
+    ],
+    "themes": [
+      "imbalance-calibration"
+    ]
+  },
+  "Khrulkov, V.": {
+    "institutions": [],
+    "name": "Khrulkov, V.",
+    "paper_keys": [
+      "gorishniy2021revisiting"
+    ],
+    "themes": [
+      "tabular-deep-learning"
+    ]
+  },
+  "Kleinberg, J.": {
+    "institutions": [],
+    "name": "Kleinberg, J.",
+    "paper_keys": [
+      "kleinberg2017inherent"
+    ],
+    "themes": [
+      "fairness-compliance"
+    ]
+  },
+  "Koyama, M.": {
+    "institutions": [],
+    "name": "Koyama, M.",
+    "paper_keys": [
+      "akiba2019optuna"
+    ],
+    "themes": [
+      "methodology"
+    ]
+  },
+  "Krakowczyk, D.": {
+    "institutions": [],
+    "name": "Krakowczyk, D.",
+    "paper_keys": [
+      "hedstrom2023quantus"
+    ],
+    "themes": [
+      "xai-finance"
+    ]
+  },
+  "Kursa, M. B.": {
+    "institutions": [],
+    "name": "Kursa, M. B.",
+    "paper_keys": [
+      "kursa2010boruta"
+    ],
+    "themes": [
+      "methodology"
+    ]
+  },
+  "K\u00f6lbel, J. F.": {
+    "institutions": [],
+    "name": "K\u00f6lbel, J. F.",
+    "paper_keys": [
+      "berg2022esg"
+    ],
+    "themes": [
+      "green-finance"
+    ]
+  },
+  "LSTA": {
+    "institutions": [],
+    "name": "LSTA",
+    "paper_keys": [
+      "lma2023glp"
+    ],
+    "themes": [
+      "green-finance"
+    ]
+  },
+  "Lakkaraju, H.": {
+    "institutions": [],
+    "name": "Lakkaraju, H.",
+    "paper_keys": [
+      "rawal2020beyond",
+      "slack2020fooling"
+    ],
+    "themes": [
+      "xai-finance"
+    ]
+  },
+  "Lapuschkin, S.": {
+    "institutions": [],
+    "name": "Lapuschkin, S.",
+    "paper_keys": [
+      "hedstrom2023quantus"
+    ],
+    "themes": [
+      "xai-finance"
+    ]
+  },
+  "Lee, S.-I.": {
+    "institutions": [],
+    "name": "Lee, S.-I.",
+    "paper_keys": [
+      "lundberg2020trees",
+      "lundberg2017shap"
+    ],
+    "themes": [
+      "gbdt-tabular-sota",
+      "xai-finance"
+    ]
+  },
+  "Leemann, T.": {
+    "institutions": [],
+    "name": "Leemann, T.",
+    "paper_keys": [
+      "borisov2022dnntabular"
+    ],
+    "themes": [
+      "tabular-deep-learning"
+    ]
+  },
+  "Lemoine, B.": {
+    "institutions": [],
+    "name": "Lemoine, B.",
+    "paper_keys": [
+      "zhang2018adversarial"
+    ],
+    "themes": [
+      "fairness-compliance"
+    ]
+  },
+  "Lessmann, S.": {
+    "institutions": [],
+    "name": "Lessmann, S.",
+    "paper_keys": [
+      "lessmann2015benchmark"
+    ],
+    "themes": [
+      "evolution-credit-scoring",
+      "benchmarking",
+      "gbdt-tabular-sota"
+    ]
+  },
+  "Li, S.": {
+    "institutions": [],
+    "name": "Li, S.",
+    "paper_keys": [
+      "he2008adasyn"
+    ],
+    "themes": [
+      "imbalance-calibration"
+    ]
+  },
+  "Lin, T.-Y.": {
+    "institutions": [],
+    "name": "Lin, T.-Y.",
+    "paper_keys": [
+      "lin2017focal"
+    ],
+    "themes": [
+      "imbalance-calibration"
+    ]
+  },
+  "Liu, A.": {
+    "institutions": [],
+    "name": "Liu, A.",
+    "paper_keys": [
+      "lu2018conceptdrift"
+    ],
+    "themes": [
+      "fairness-compliance"
+    ]
+  },
+  "Liu, T.-Y.": {
+    "institutions": [],
+    "name": "Liu, T.-Y.",
+    "paper_keys": [
+      "ke2017lightgbm"
+    ],
+    "themes": [
+      "gbdt-tabular-sota"
+    ]
+  },
+  "Loan Market Association": {
+    "institutions": [],
+    "name": "Loan Market Association",
+    "paper_keys": [
+      "lma2023glp"
+    ],
+    "themes": [
+      "green-finance"
+    ]
+  },
+  "Lu, J.": {
+    "institutions": [],
+    "name": "Lu, J.",
+    "paper_keys": [
+      "lu2018conceptdrift"
+    ],
+    "themes": [
+      "fairness-compliance"
+    ]
+  },
+  "Lundberg, S. M.": {
+    "institutions": [],
+    "name": "Lundberg, S. M.",
+    "paper_keys": [
+      "lundberg2020trees",
+      "lundberg2017shap"
+    ],
+    "themes": [
+      "gbdt-tabular-sota",
+      "xai-finance"
+    ]
+  },
+  "L\u00f8land, A.": {
+    "institutions": [],
+    "name": "L\u00f8land, A.",
+    "paper_keys": [
+      "aas2021explaining"
+    ],
+    "themes": [
+      "xai-finance"
+    ]
+  },
+  "Ma, W.": {
+    "institutions": [],
+    "name": "Ma, W.",
+    "paper_keys": [
+      "ke2017lightgbm"
+    ],
+    "themes": [
+      "gbdt-tabular-sota"
+    ]
+  },
+  "Meng, Q.": {
+    "institutions": [],
+    "name": "Meng, Q.",
+    "paper_keys": [
+      "ke2017lightgbm"
+    ],
+    "themes": [
+      "gbdt-tabular-sota"
+    ]
+  },
+  "Micci-Barreca, D.": {
+    "institutions": [],
+    "name": "Micci-Barreca, D.",
+    "paper_keys": [
+      "micciBarreca2001"
+    ],
+    "themes": [
+      "methodology"
+    ]
+  },
+  "Minorics, L.": {
+    "institutions": [],
+    "name": "Minorics, L.",
+    "paper_keys": [
+      "janzing2020feature"
+    ],
+    "themes": [
+      "xai-finance"
+    ]
+  },
+  "Mitchell, M.": {
+    "institutions": [],
+    "name": "Mitchell, M.",
+    "paper_keys": [
+      "zhang2018adversarial"
+    ],
+    "themes": [
+      "fairness-compliance"
+    ]
+  },
+  "Mittelstadt, B.": {
+    "institutions": [],
+    "name": "Mittelstadt, B.",
+    "paper_keys": [
+      "wachter2017counterfactual"
+    ],
+    "themes": [
+      "xai-finance",
+      "fairness-compliance"
+    ]
+  },
+  "Morgenstern, J.": {
+    "institutions": [],
+    "name": "Morgenstern, J.",
+    "paper_keys": [
+      "gebru2021datasheets"
+    ],
+    "themes": [
+      "methodology",
+      "fairness-compliance"
+    ]
+  },
+  "Morozov, S.": {
+    "institutions": [],
+    "name": "Morozov, S.",
+    "paper_keys": [
+      "popov2020node"
+    ],
+    "themes": [
+      "tabular-deep-learning"
+    ]
+  },
+  "Mothilal, R. K.": {
+    "institutions": [],
+    "name": "Mothilal, R. K.",
+    "paper_keys": [
+      "mothilal2020dice"
+    ],
+    "themes": [
+      "xai-finance"
+    ]
+  },
+  "Motzkus, F.": {
+    "institutions": [],
+    "name": "Motzkus, F.",
+    "paper_keys": [
+      "hedstrom2023quantus"
+    ],
+    "themes": [
+      "xai-finance"
+    ]
+  },
+  "Mullainathan, S.": {
+    "institutions": [],
+    "name": "Mullainathan, S.",
+    "paper_keys": [
+      "kleinberg2017inherent"
+    ],
+    "themes": [
+      "fairness-compliance"
+    ]
+  },
+  "Nair, B.": {
+    "institutions": [],
+    "name": "Nair, B.",
+    "paper_keys": [
+      "lundberg2020trees"
+    ],
+    "themes": [
+      "gbdt-tabular-sota",
+      "xai-finance"
+    ]
+  },
+  "Ohta, T.": {
+    "institutions": [],
+    "name": "Ohta, T.",
+    "paper_keys": [
+      "akiba2019optuna"
+    ],
+    "themes": [
+      "methodology"
+    ]
+  },
+  "Oyallon, E.": {
+    "institutions": [],
+    "name": "Oyallon, E.",
+    "paper_keys": [
+      "grinsztajn2022trees"
+    ],
+    "themes": [
+      "gbdt-tabular-sota",
+      "tabular-deep-learning"
+    ]
+  },
+  "Packer, F.": {
+    "institutions": [],
+    "name": "Packer, F.",
+    "paper_keys": [
+      "ehlers2017greenbond"
+    ],
+    "themes": [
+      "green-finance"
+    ]
+  },
+  "Pawelczyk, M.": {
+    "institutions": [],
+    "name": "Pawelczyk, M.",
+    "paper_keys": [
+      "borisov2022dnntabular"
+    ],
+    "themes": [
+      "tabular-deep-learning"
+    ]
+  },
+  "Pfister, T.": {
+    "institutions": [],
+    "name": "Pfister, T.",
+    "paper_keys": [
+      "arik2021tabnet"
+    ],
+    "themes": [
+      "tabular-deep-learning",
+      "xai-finance"
+    ]
+  },
+  "Pineau, J.": {
+    "institutions": [],
+    "name": "Pineau, J.",
+    "paper_keys": [
+      "pineau2021reproducibility"
+    ],
+    "themes": [
+      "methodology"
+    ]
+  },
+  "Platt, J.": {
+    "institutions": [],
+    "name": "Platt, J.",
+    "paper_keys": [
+      "platt1999probabilistic"
+    ],
+    "themes": [
+      "imbalance-calibration"
+    ]
+  },
+  "Popov, S.": {
+    "institutions": [],
+    "name": "Popov, S.",
+    "paper_keys": [
+      "popov2020node"
+    ],
+    "themes": [
+      "tabular-deep-learning"
+    ]
+  },
+  "Price, E.": {
+    "institutions": [],
+    "name": "Price, E.",
+    "paper_keys": [
+      "hardt2016eqodds"
+    ],
+    "themes": [
+      "fairness-compliance"
+    ]
+  },
+  "Prokhorenkova, L.": {
+    "institutions": [],
+    "name": "Prokhorenkova, L.",
+    "paper_keys": [
+      "prokhorenkova2018catboost"
+    ],
+    "themes": [
+      "gbdt-tabular-sota"
+    ]
+  },
+  "Prutkin, J. M.": {
+    "institutions": [],
+    "name": "Prutkin, J. M.",
+    "paper_keys": [
+      "lundberg2020trees"
+    ],
+    "themes": [
+      "gbdt-tabular-sota",
+      "xai-finance"
+    ]
+  },
+  "Raghavan, M.": {
+    "institutions": [],
+    "name": "Raghavan, M.",
+    "paper_keys": [
+      "kleinberg2017inherent"
+    ],
+    "themes": [
+      "fairness-compliance"
+    ]
+  },
+  "Rawal, K.": {
+    "institutions": [],
+    "name": "Rawal, K.",
+    "paper_keys": [
+      "rawal2020beyond"
+    ],
+    "themes": [
+      "xai-finance"
+    ]
+  },
+  "Reboredo, J. C.": {
+    "institutions": [],
+    "name": "Reboredo, J. C.",
+    "paper_keys": [
+      "reboredo2020connectedness"
+    ],
+    "themes": [
+      "green-finance"
+    ]
+  },
+  "Ribeiro, M. T.": {
+    "institutions": [],
+    "name": "Ribeiro, M. T.",
+    "paper_keys": [
+      "ribeiro2016lime"
+    ],
+    "themes": [
+      "xai-finance"
+    ]
+  },
+  "Rigobon, R.": {
+    "institutions": [],
+    "name": "Rigobon, R.",
+    "paper_keys": [
+      "berg2022esg"
+    ],
+    "themes": [
+      "green-finance"
+    ]
+  },
+  "Rubachev, I.": {
+    "institutions": [],
+    "name": "Rubachev, I.",
+    "paper_keys": [
+      "gorishniy2021revisiting"
+    ],
+    "themes": [
+      "tabular-deep-learning"
+    ]
+  },
+  "Rudin, C.": {
+    "institutions": [],
+    "name": "Rudin, C.",
+    "paper_keys": [
+      "rudin2019stop"
+    ],
+    "themes": [
+      "xai-finance"
+    ]
+  },
+  "Rudnicki, W. R.": {
+    "institutions": [],
+    "name": "Rudnicki, W. R.",
+    "paper_keys": [
+      "kursa2010boruta"
+    ],
+    "themes": [
+      "methodology"
+    ]
+  },
+  "Russell, C.": {
+    "institutions": [],
+    "name": "Russell, C.",
+    "paper_keys": [
+      "wachter2017counterfactual"
+    ],
+    "themes": [
+      "xai-finance",
+      "fairness-compliance"
+    ]
+  },
+  "Samek, W.": {
+    "institutions": [],
+    "name": "Samek, W.",
+    "paper_keys": [
+      "hedstrom2023quantus"
+    ],
+    "themes": [
+      "xai-finance"
+    ]
+  },
+  "Sano, S.": {
+    "institutions": [],
+    "name": "Sano, S.",
+    "paper_keys": [
+      "akiba2019optuna"
+    ],
+    "themes": [
+      "methodology"
+    ]
+  },
+  "Santos, J.": {
+    "institutions": [],
+    "name": "Santos, J.",
+    "paper_keys": [
+      "santos2018cvimbalanced"
+    ],
+    "themes": [
+      "imbalance-calibration"
+    ]
+  },
+  "Santos, M. S.": {
+    "institutions": [],
+    "name": "Santos, M. S.",
+    "paper_keys": [
+      "santos2018cvimbalanced"
+    ],
+    "themes": [
+      "imbalance-calibration"
+    ]
+  },
+  "Schwarzschild, A.": {
+    "institutions": [],
+    "name": "Schwarzschild, A.",
+    "paper_keys": [
+      "somepalli2021saint"
+    ],
+    "themes": [
+      "tabular-deep-learning"
+    ]
+  },
+  "Seow, H. V.": {
+    "institutions": [],
+    "name": "Seow, H. V.",
+    "paper_keys": [
+      "lessmann2015benchmark"
+    ],
+    "themes": [
+      "evolution-credit-scoring",
+      "benchmarking",
+      "gbdt-tabular-sota"
+    ]
+  },
+  "Sessler, K.": {
+    "institutions": [],
+    "name": "Sessler, K.",
+    "paper_keys": [
+      "borisov2022dnntabular"
+    ],
+    "themes": [
+      "tabular-deep-learning"
+    ]
+  },
+  "Shafer, G.": {
+    "institutions": [],
+    "name": "Shafer, G.",
+    "paper_keys": [
+      "vovk2005alrw"
+    ],
+    "themes": [
+      "imbalance-calibration"
+    ]
+  },
+  "Sharma, A.": {
+    "institutions": [],
+    "name": "Sharma, A.",
+    "paper_keys": [
+      "mothilal2020dice"
+    ],
+    "themes": [
+      "xai-finance"
+    ]
+  },
+  "Shwartz-Ziv, R.": {
+    "institutions": [],
+    "name": "Shwartz-Ziv, R.",
+    "paper_keys": [
+      "shwartz2022deep"
+    ],
+    "themes": [
+      "gbdt-tabular-sota",
+      "tabular-deep-learning"
+    ]
+  },
+  "Singh, S.": {
+    "institutions": [],
+    "name": "Singh, S.",
+    "paper_keys": [
+      "ribeiro2016lime",
+      "slack2020fooling"
+    ],
+    "themes": [
+      "xai-finance"
+    ]
+  },
+  "Slack, D.": {
+    "institutions": [],
+    "name": "Slack, D.",
+    "paper_keys": [
+      "slack2020fooling"
+    ],
+    "themes": [
+      "xai-finance"
+    ]
+  },
+  "Soares, J. P.": {
+    "institutions": [],
+    "name": "Soares, J. P.",
+    "paper_keys": [
+      "santos2018cvimbalanced"
+    ],
+    "themes": [
+      "imbalance-calibration"
+    ]
+  },
+  "Somepalli, G.": {
+    "institutions": [],
+    "name": "Somepalli, G.",
+    "paper_keys": [
+      "somepalli2021saint"
+    ],
+    "themes": [
+      "tabular-deep-learning"
+    ]
+  },
+  "Srebro, N.": {
+    "institutions": [],
+    "name": "Srebro, N.",
+    "paper_keys": [
+      "hardt2016eqodds"
+    ],
+    "themes": [
+      "fairness-compliance"
+    ]
+  },
+  "Stepanova, M.": {
+    "institutions": [],
+    "name": "Stepanova, M.",
+    "paper_keys": [
+      "baesens2003benchmark"
+    ],
+    "themes": [
+      "evolution-credit-scoring",
+      "benchmarking"
+    ]
+  },
+  "Suykens, J.": {
+    "institutions": [],
+    "name": "Suykens, J.",
+    "paper_keys": [
+      "baesens2003benchmark"
+    ],
+    "themes": [
+      "evolution-credit-scoring",
+      "benchmarking"
+    ]
+  },
+  "Tan, C.": {
+    "institutions": [],
+    "name": "Tan, C.",
+    "paper_keys": [
+      "mothilal2020dice"
+    ],
+    "themes": [
+      "xai-finance"
+    ]
+  },
+  "Tang, D. Y.": {
+    "institutions": [],
+    "name": "Tang, D. Y.",
+    "paper_keys": [
+      "tang2020shareholders"
+    ],
+    "themes": [
+      "green-finance"
+    ]
+  },
+  "Thomas, L. C.": {
+    "institutions": [],
+    "name": "Thomas, L. C.",
+    "paper_keys": [
+      "thomas2000survey",
+      "lessmann2015benchmark"
+    ],
+    "themes": [
+      "evolution-credit-scoring",
+      "benchmarking",
+      "gbdt-tabular-sota"
+    ]
+  },
+  "Tokpavi, S.": {
+    "institutions": [],
+    "name": "Tokpavi, S.",
+    "paper_keys": [
+      "dumitrescu2022ml"
+    ],
+    "themes": [
+      "evolution-credit-scoring",
+      "xai-finance"
+    ]
+  },
+  "Ugolini, A.": {
+    "institutions": [],
+    "name": "Ugolini, A.",
+    "paper_keys": [
+      "reboredo2020connectedness"
+    ],
+    "themes": [
+      "green-finance"
+    ]
+  },
+  "Van Gestel, T.": {
+    "institutions": [],
+    "name": "Van Gestel, T.",
+    "paper_keys": [
+      "baesens2003benchmark"
+    ],
+    "themes": [
+      "evolution-credit-scoring",
+      "benchmarking"
+    ]
+  },
+  "Vanthienen, J.": {
+    "institutions": [],
+    "name": "Vanthienen, J.",
+    "paper_keys": [
+      "baesens2003benchmark"
+    ],
+    "themes": [
+      "evolution-credit-scoring",
+      "benchmarking"
+    ]
+  },
+  "Varoquaux, G.": {
+    "institutions": [],
+    "name": "Varoquaux, G.",
+    "paper_keys": [
+      "grinsztajn2022trees"
+    ],
+    "themes": [
+      "gbdt-tabular-sota",
+      "tabular-deep-learning"
+    ]
+  },
+  "Vaughan, J. W.": {
+    "institutions": [],
+    "name": "Vaughan, J. W.",
+    "paper_keys": [
+      "gebru2021datasheets"
+    ],
+    "themes": [
+      "methodology",
+      "fairness-compliance"
+    ]
+  },
+  "Vecchione, B.": {
+    "institutions": [],
+    "name": "Vecchione, B.",
+    "paper_keys": [
+      "gebru2021datasheets"
+    ],
+    "themes": [
+      "methodology",
+      "fairness-compliance"
+    ]
+  },
+  "Viaene, S.": {
+    "institutions": [],
+    "name": "Viaene, S.",
+    "paper_keys": [
+      "baesens2003benchmark"
+    ],
+    "themes": [
+      "evolution-credit-scoring",
+      "benchmarking"
+    ]
+  },
+  "Vorobev, A.": {
+    "institutions": [],
+    "name": "Vorobev, A.",
+    "paper_keys": [
+      "prokhorenkova2018catboost"
+    ],
+    "themes": [
+      "gbdt-tabular-sota"
+    ]
+  },
+  "Vovk, V.": {
+    "institutions": [],
+    "name": "Vovk, V.",
+    "paper_keys": [
+      "vovk2005alrw"
+    ],
+    "themes": [
+      "imbalance-calibration"
+    ]
+  },
+  "Wachter, S.": {
+    "institutions": [],
+    "name": "Wachter, S.",
+    "paper_keys": [
+      "wachter2017counterfactual"
+    ],
+    "themes": [
+      "xai-finance",
+      "fairness-compliance"
+    ]
+  },
+  "Wallach, H.": {
+    "institutions": [],
+    "name": "Wallach, H.",
+    "paper_keys": [
+      "gebru2021datasheets"
+    ],
+    "themes": [
+      "methodology",
+      "fairness-compliance"
+    ]
+  },
+  "Wang, T.": {
+    "institutions": [],
+    "name": "Wang, T.",
+    "paper_keys": [
+      "ke2017lightgbm"
+    ],
+    "themes": [
+      "gbdt-tabular-sota"
+    ]
+  },
+  "Weber, L.": {
+    "institutions": [],
+    "name": "Weber, L.",
+    "paper_keys": [
+      "hedstrom2023quantus"
+    ],
+    "themes": [
+      "xai-finance"
+    ]
+  },
+  "Wirth, R.": {
+    "institutions": [],
+    "name": "Wirth, R.",
+    "paper_keys": [
+      "wirth2000crispdm"
+    ],
+    "themes": [
+      "methodology"
+    ]
+  },
+  "Yanase, T.": {
+    "institutions": [],
+    "name": "Yanase, T.",
+    "paper_keys": [
+      "akiba2019optuna"
+    ],
+    "themes": [
+      "methodology"
+    ]
+  },
+  "Ye, Q.": {
+    "institutions": [],
+    "name": "Ye, Q.",
+    "paper_keys": [
+      "ke2017lightgbm"
+    ],
+    "themes": [
+      "gbdt-tabular-sota"
+    ]
+  },
+  "Zadrozny, B.": {
+    "institutions": [],
+    "name": "Zadrozny, B.",
+    "paper_keys": [
+      "zadrozny2002isotonic"
+    ],
+    "themes": [
+      "imbalance-calibration"
+    ]
+  },
+  "Zhang, B. H.": {
+    "institutions": [],
+    "name": "Zhang, B. H.",
+    "paper_keys": [
+      "zhang2018adversarial"
+    ],
+    "themes": [
+      "fairness-compliance"
+    ]
+  },
+  "Zhang, G.": {
+    "institutions": [],
+    "name": "Zhang, G.",
+    "paper_keys": [
+      "lu2018conceptdrift"
+    ],
+    "themes": [
+      "fairness-compliance"
+    ]
+  },
+  "Zhang, Y.": {
+    "institutions": [],
+    "name": "Zhang, Y.",
+    "paper_keys": [
+      "tang2020shareholders"
+    ],
+    "themes": [
+      "green-finance"
+    ]
+  },
+  "et al.": {
+    "institutions": [],
+    "name": "et al.",
+    "paper_keys": [
+      "bellamy2018aif360",
+      "pineau2021reproducibility"
+    ],
+    "themes": [
+      "fairness-compliance",
+      "methodology"
+    ]
+  }
+}

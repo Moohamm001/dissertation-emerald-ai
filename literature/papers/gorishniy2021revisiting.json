@@ -1,0 +1,49 @@
+{
+  "key": "gorishniy2021revisiting",
+  "title": "Revisiting deep learning models for tabular data",
+  "authors": [
+    "Gorishniy, Y.",
+    "Rubachev, I.",
+    "Khrulkov, V.",
+    "Babenko, A."
+  ],
+  "year": 2021,
+  "abstract": "",
+  "methodology": "Implemented MLP, ResNet, FT-Transformer, and others under a unified hyperparameter-tuning protocol (Optuna, identical budgets). Evaluated on 11 tabular benchmarks including California Housing, Adult, Higgs, Year, Microsoft.",
+  "contributions": [
+    "A simple MLP with carefully chosen hyperparameters often matches more elaborate tabular DL architectures.",
+    "FT-Transformer (feature-tokeniser + standard transformer encoder) is the strongest single tabular DL method tested.",
+    "Across 11 datasets, no single architecture dominates — including GBDTs, which the paper treats as a tough baseline they often fail to beat."
+  ],
+  "weaknesses": [
+    "Benchmark datasets are still medium-sized.",
+    "The hyperparameter tuning is exhaustive; production-grade tuning budgets may not reach the same gains.",
+    "Does not cover modern self-supervised pre-training approaches."
+  ],
+  "future_works": [],
+  "referenced_papers": [
+    "arik2021tabnet",
+    "grinsztajn2022trees"
+  ],
+  "important_keywords": [
+    "tabular-deep-learning"
+  ],
+  "venue": "NeurIPS 2021",
+  "doi": null,
+  "institutions": [],
+  "themes": [
+    "tabular-deep-learning"
+  ],
+  "relevance": "critical",
+  "emerald_relevance": "Strongest credible single tabular DL architecture for inclusion in section 5.8. The paper's own caveats about GBDT competitiveness inform section 4.3's sober positioning.",
+  "confidence": "high",
+  "verified": true,
+  "status": "analysed",
+  "search_query": "Gorishniy revisiting deep learning tabular FT-Transformer NeurIPS 2021",
+  "notes": "Introduced FT-Transformer (feature-tokeniser + transformer). Strongest single tabular DL in independent benchmarks.",
+  "source_files": [
+    "literature\\papers\\gorishniy2021revisiting.md"
+  ],
+  "first_seen": "2026-05-17T19:44:11.670890",
+  "last_updated": "2026-05-17T19:44:11.670909"
+}

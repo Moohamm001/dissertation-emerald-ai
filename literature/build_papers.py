@@ -2,46 +2,64 @@
 
 Each entry is a dict with consistent fields. Adding a new paper file = adding a
 new dict entry + running this script.
+
+The template intentionally uses zero leading indentation so that interpolated
+list content (which has zero indent) sits flush at column 0, allowing the
+research-engine section parser to find ## headings.
 """
 from pathlib import Path
-from textwrap import dedent
 
 OUT = Path(__file__).parent / "papers"
 OUT.mkdir(exist_ok=True)
 
 
+TEMPLATE = """\
+---
+key: {key}
+title: "{title}"
+themes: [{themes_csv}]
+---
+
+# {citation}
+
+## Key claims
+{claims}
+
+## Method (how the claim was established)
+{method}
+
+## Relevance to EMERALD-AI
+{relevance}
+
+## Quotable lines
+{quotes}
+
+## Limitations / counter-evidence
+{limitations}
+
+## How EMERALD-AI uses this paper
+{used_for}
+
+## Related entries
+{related}
+"""
+
+
 def write(key, *, title, citation, themes, claims, method, relevance, quotes,
           limitations, used_for, related):
-    body = dedent(f"""\
-        ---
-        key: {key}
-        title: "{title}"
-        themes: [{', '.join(themes)}]
-        ---
-
-        # {citation}
-
-        ## Key claims
-        {claims}
-
-        ## Method (how the claim was established)
-        {method}
-
-        ## Relevance to EMERALD-AI
-        {relevance}
-
-        ## Quotable lines
-        {quotes}
-
-        ## Limitations / counter-evidence
-        {limitations}
-
-        ## How EMERALD-AI uses this paper
-        {used_for}
-
-        ## Related entries
-        {related}
-    """)
+    body = TEMPLATE.format(
+        key=key,
+        title=title,
+        themes_csv=", ".join(themes),
+        citation=citation,
+        claims=claims,
+        method=method,
+        relevance=relevance,
+        quotes=quotes,
+        limitations=limitations,
+        used_for=used_for,
+        related=related,
+    )
     (OUT / f"{key}.md").write_text(body, encoding="utf-8")
 
 

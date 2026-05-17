@@ -1,0 +1,48 @@
+{
+  "key": "lin2017focal",
+  "title": "Focal loss for dense object detection",
+  "authors": [
+    "Lin, T.-Y.",
+    "Goyal, P.",
+    "Girshick, R.",
+    "He, K.",
+    "Dollár, P."
+  ],
+  "year": 2017,
+  "abstract": "",
+  "methodology": "Derivation of the focal loss + extensive empirical evaluation on COCO object detection (1:1000 foreground:background imbalance).",
+  "contributions": [
+    "A modulating factor (1 - p_t)^γ applied to standard cross-entropy down-weights easy examples and focuses training on hard, misclassified cases.",
+    "Enables one-stage object detectors to match the accuracy of two-stage detectors (RetinaNet result)."
+  ],
+  "weaknesses": [
+    "The γ hyperparameter must be tuned; γ=2 is the common default but data-dependent.",
+    "Does not address the calibration question — focal-loss models can be poorly calibrated and need post-hoc fix.",
+    "Originally for dense detection; transfer to tabular classification is the by-now-standard extrapolation but not what the paper actually studied."
+  ],
+  "future_works": [],
+  "referenced_papers": [
+    "chawla2002smote"
+  ],
+  "important_keywords": [
+    "imbalance-calibration"
+  ],
+  "venue": "ICCV 2017",
+  "doi": "10.1109/ICCV.2017.324",
+  "institutions": [],
+  "themes": [
+    "imbalance-calibration"
+  ],
+  "relevance": "high",
+  "emerald_relevance": "Origin paper for focal loss as a loss-level imbalance treatment. Used for the neural baseline in section 5.7 — particularly relevant given default prevalence in credit data, though less extreme than object detection.",
+  "confidence": "high",
+  "verified": true,
+  "status": "analysed",
+  "search_query": "",
+  "notes": "Focal loss reweights hard examples; usable for any imbalanced classification, not just detection.",
+  "source_files": [
+    "literature\\papers\\lin2017focal.md"
+  ],
+  "first_seen": "2026-05-17T19:44:11.703357",
+  "last_updated": "2026-05-17T19:44:11.703382"
+}

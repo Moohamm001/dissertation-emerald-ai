@@ -1,0 +1,34 @@
+{
+  "key": "wirth2000crispdm",
+  "title": "CRISP-DM: Towards a standard process model for data mining",
+  "authors": [
+    "Wirth, R.",
+    "Hipp, J."
+  ],
+  "year": 2000,
+  "abstract": "",
+  "methodology": "",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [
+    "methodology"
+  ],
+  "venue": "PAKDD 2000",
+  "doi": null,
+  "institutions": [],
+  "themes": [
+    "methodology"
+  ],
+  "relevance": "context",
+  "emerald_relevance": "",
+  "confidence": "low",
+  "verified": false,
+  "status": "stub",
+  "search_query": "Wirth Hipp CRISP-DM standard process model data mining PAKDD 2000",
+  "notes": "",
+  "source_files": [],
+  "first_seen": "2026-05-17T19:47:01.396802Z",
+  "last_updated": "2026-05-17T19:47:01.396808Z"
+}

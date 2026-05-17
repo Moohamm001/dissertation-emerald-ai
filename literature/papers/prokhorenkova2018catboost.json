@@ -1,0 +1,49 @@
+{
+  "key": "prokhorenkova2018catboost",
+  "title": "CatBoost: Unbiased boosting with categorical features",
+  "authors": [
+    "Prokhorenkova, L.",
+    "Gusev, G.",
+    "Vorobev, A.",
+    "Dorogush, A. V.",
+    "Gulin, A."
+  ],
+  "year": 2018,
+  "abstract": "",
+  "methodology": "Theoretical proof of the bias-elimination property + benchmark on multiple datasets including KDD'09 Appetency, Internet, Adult.",
+  "contributions": [
+    "Naive target encoding induces 'prediction shift' (a target-leakage-like bias) when used inside gradient boosting; ordered target statistics eliminate this by training each instance only on predecessors in a random permutation.",
+    "Ordered boosting extends the same principle to the gradient estimates themselves."
+  ],
+  "weaknesses": [
+    "Slower than LightGBM out of the box; ordering overhead can dominate on very large data.",
+    "The 'unbiased' guarantee is asymptotic; finite-sample behaviour can still leak signal."
+  ],
+  "future_works": [],
+  "referenced_papers": [
+    "chen2016xgboost",
+    "ke2017lightgbm",
+    "micciBarreca2001"
+  ],
+  "important_keywords": [
+    "gbdt-tabular-sota"
+  ],
+  "venue": "NeurIPS 2018",
+  "doi": null,
+  "institutions": [],
+  "themes": [
+    "gbdt-tabular-sota"
+  ],
+  "relevance": "high",
+  "emerald_relevance": "Best-in-class GBDT for high-cardinality categoricals (Industry ~30 levels, Borrower State ~50 levels in our dataset). Strong candidate to win the GBDT family comparison; included in section 5.8 panel.",
+  "confidence": "high",
+  "verified": true,
+  "status": "analysed",
+  "search_query": "CatBoost NeurIPS 2018 Prokhorenkova ordered boosting",
+  "notes": "Ordered boosting eliminates target-leakage in target encoding. Best-in-class for high-cardinality categoricals.",
+  "source_files": [
+    "literature\\papers\\prokhorenkova2018catboost.md"
+  ],
+  "first_seen": "2026-05-17T19:44:11.598483",
+  "last_updated": "2026-05-17T19:44:11.598503"
+}

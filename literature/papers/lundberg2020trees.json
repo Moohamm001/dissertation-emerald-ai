@@ -1,0 +1,59 @@
+{
+  "key": "lundberg2020trees",
+  "title": "From local explanations to global understanding with explainable AI for trees",
+  "authors": [
+    "Lundberg, S. M.",
+    "Erion, G.",
+    "Chen, H.",
+    "DeGrave, A.",
+    "Prutkin, J. M.",
+    "Nair, B.",
+    "Katz, R.",
+    "Himmelfarb, J.",
+    "Bansal, N.",
+    "Lee, S.-I."
+  ],
+  "year": 2020,
+  "abstract": "",
+  "methodology": "Algorithmic derivation of TreeSHAP + extensive empirical use on medical risk-prediction case studies (mortality prediction, hospital re-admission).",
+  "contributions": [
+    "For any tree ensemble (RF, GBDT), Shapley values for each prediction can be computed exactly in O(TLD²) time where T = trees, L = leaves, D = depth — fast enough for production.",
+    "SHAP interaction values give principled, model-grounded second-order feature interaction strength.",
+    "Aggregating local SHAP across the dataset yields global feature importance with consistency guarantees that mean-decrease-in-impurity lacks."
+  ],
+  "weaknesses": [
+    "Exactness applies to TreeSHAP specifically; KernelSHAP for other model types remains an approximation.",
+    "'Consistency' is a desirable axiom but does not guarantee causal correctness — see [[aas2021explaining]], [[janzing2020feature]].",
+    "Feature dependence is handled via the 'tree_path_dependent' or 'interventional' algorithms; choice affects attribution magnitude."
+  ],
+  "future_works": [],
+  "referenced_papers": [
+    "aas2021explaining",
+    "chen2016xgboost",
+    "janzing2020feature",
+    "lundberg2017shap"
+  ],
+  "important_keywords": [
+    "gbdt-tabular-sota",
+    "xai-finance"
+  ],
+  "venue": "Nature Machine Intelligence, 2, 56-67",
+  "doi": "10.1038/s42256-019-0138-9",
+  "institutions": [],
+  "themes": [
+    "gbdt-tabular-sota",
+    "xai-finance"
+  ],
+  "relevance": "critical",
+  "emerald_relevance": "Core enabling result for EMERALD-AI's explainability stack. Section 5.11 specifies TreeSHAP as the primary attribution method; this paper is the citation for both speed and consistency.",
+  "confidence": "high",
+  "verified": true,
+  "status": "analysed",
+  "search_query": "",
+  "notes": "TreeSHAP: exact polynomial-time Shapley values for tree ensembles. Makes per-decision explanation production-feasible.",
+  "source_files": [
+    "literature\\papers\\lundberg2020trees.md"
+  ],
+  "first_seen": "2026-05-17T19:44:11.644301",
+  "last_updated": "2026-05-17T19:44:11.644327"
+}

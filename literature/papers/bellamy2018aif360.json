@@ -1,0 +1,46 @@
+{
+  "key": "bellamy2018aif360",
+  "title": "AI Fairness 360: An extensible toolkit for detecting, understanding, and mitigating unwanted algorithmic bias",
+  "authors": [
+    "Bellamy, R. K. E.",
+    "et al."
+  ],
+  "year": 2018,
+  "abstract": "",
+  "methodology": "Toolkit paper. Implements the published fairness and mitigation literature in a unified API.",
+  "contributions": [
+    "AIF360 provides a unified Python API for 70+ fairness metrics and 10+ bias-mitigation algorithms (pre-, in-, post-processing).",
+    "Designed for production deployment with documentation, examples, and integration with major ML frameworks."
+  ],
+  "weaknesses": [
+    "The toolkit does not choose which fairness criterion to optimise for the user — choosing remains a domain decision.",
+    "Many mitigation algorithms degrade accuracy substantially; cost-benefit must be assessed empirically."
+  ],
+  "future_works": [],
+  "referenced_papers": [
+    "chouldechova2017fair",
+    "hardt2016eqodds",
+    "kamiran2012preprocessing"
+  ],
+  "important_keywords": [
+    "fairness-compliance"
+  ],
+  "venue": "IBM Journal of R&D, 63(4/5)",
+  "doi": null,
+  "institutions": [],
+  "themes": [
+    "fairness-compliance"
+  ],
+  "relevance": "high",
+  "emerald_relevance": "Implementation citation for EMERALD-AI's section 5.12 fairness audit. AIF360 is the toolkit; [[hardt2016eqodds]] and [[chouldechova2017fair]] are the underlying theoretical basis.",
+  "confidence": "high",
+  "verified": true,
+  "status": "analysed",
+  "search_query": "AIF360 AI Fairness 360 IBM Bellamy",
+  "notes": "Toolkit underlying the fairness audit. Implements >70 metrics and 10 mitigation algorithms.",
+  "source_files": [
+    "literature\\papers\\bellamy2018aif360.md"
+  ],
+  "first_seen": "2026-05-17T19:44:12.017558",
+  "last_updated": "2026-05-17T19:44:12.017580"
+}

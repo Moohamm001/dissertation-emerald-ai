@@ -1,0 +1,35 @@
+{
+  "key": "popov2020node",
+  "title": "Neural oblivious decision ensembles for deep learning on tabular data",
+  "authors": [
+    "Popov, S.",
+    "Morozov, S.",
+    "Babenko, A."
+  ],
+  "year": 2020,
+  "abstract": "",
+  "methodology": "",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [
+    "tabular-deep-learning"
+  ],
+  "venue": "ICLR 2020",
+  "doi": null,
+  "institutions": [],
+  "themes": [
+    "tabular-deep-learning"
+  ],
+  "relevance": "medium",
+  "emerald_relevance": "",
+  "confidence": "low",
+  "verified": true,
+  "status": "stub",
+  "search_query": "NODE neural oblivious decision ensembles tabular ICLR 2020",
+  "notes": "",
+  "source_files": [],
+  "first_seen": "2026-05-17T19:47:01.381740Z",
+  "last_updated": "2026-05-17T19:47:01.381746Z"
+}

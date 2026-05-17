@@ -1,0 +1,35 @@
+{
+  "key": "vovk2005alrw",
+  "title": "Algorithmic learning in a random world",
+  "authors": [
+    "Vovk, V.",
+    "Gammerman, A.",
+    "Shafer, G."
+  ],
+  "year": 2005,
+  "abstract": "",
+  "methodology": "",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [
+    "imbalance-calibration"
+  ],
+  "venue": "Springer (book)",
+  "doi": "10.1007/b106715",
+  "institutions": [],
+  "themes": [
+    "imbalance-calibration"
+  ],
+  "relevance": "high",
+  "emerald_relevance": "",
+  "confidence": "low",
+  "verified": true,
+  "status": "stub",
+  "search_query": "Vovk Gammerman Shafer algorithmic learning random world conformal",
+  "notes": "",
+  "source_files": [],
+  "first_seen": "2026-05-17T19:47:01.384945Z",
+  "last_updated": "2026-05-17T19:47:01.384951Z"
+}

@@ -1,0 +1,45 @@
+{
+  "key": "hand1997statistical",
+  "title": "Statistical classification methods in consumer credit scoring: A review",
+  "authors": [
+    "Hand, D. J.",
+    "Henley, W. E."
+  ],
+  "year": 1997,
+  "abstract": "",
+  "methodology": "Narrative review of the consumer credit-scoring literature to 1997, with empirical synthesis across published comparisons.",
+  "contributions": [
+    "Logistic regression, despite available alternatives (neural networks, recursive partitioning, k-nearest neighbours), remains the practical default in consumer credit scoring.",
+    "The differences in classification performance between methods are typically small; the choice is often driven by interpretability, ease of deployment, and regulatory acceptability rather than accuracy."
+  ],
+  "weaknesses": [
+    "Predates the modern ensemble era (XGBoost, RF) and the rise of SHAP-style post-hoc explanations.",
+    "The 'flat-maximum' claim has not held up uniformly under ensemble methods on larger modern datasets [[lessmann2015benchmark]]."
+  ],
+  "future_works": [],
+  "referenced_papers": [
+    "lessmann2015benchmark",
+    "thomas2000survey"
+  ],
+  "important_keywords": [
+    "evolution-credit-scoring"
+  ],
+  "venue": "Journal of the Royal Statistical Society A, 160(3), 523-541",
+  "doi": "10.1111/j.1467-985X.1997.00078.x",
+  "institutions": [],
+  "themes": [
+    "evolution-credit-scoring"
+  ],
+  "relevance": "high",
+  "emerald_relevance": "Anchors the claim in section 4.1 that logistic regression has been the regulatory default for decades. Foundational citation for the interpretability-driven adoption pattern that EMERALD-AI then complicates.",
+  "confidence": "high",
+  "verified": true,
+  "status": "analysed",
+  "search_query": "",
+  "notes": "Canonical review of logistic regression's dominance in consumer credit scoring.",
+  "source_files": [
+    "literature\\papers\\hand1997statistical.md"
+  ],
+  "first_seen": "2026-05-17T19:44:11.520090",
+  "last_updated": "2026-05-17T19:44:11.520113"
+}

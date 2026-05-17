@@ -1,0 +1,138 @@
+{
+  "benchmarking": {
+    "kind": "keyword",
+    "paper_keys": [
+      "baesens2003benchmark",
+      "lessmann2015benchmark"
+    ],
+    "term": "benchmarking",
+    "themes": []
+  },
+  "evolution-credit-scoring": {
+    "kind": "keyword",
+    "paper_keys": [
+      "altman1968",
+      "beaver1966",
+      "hand1997statistical",
+      "thomas2000survey",
+      "baesens2003benchmark",
+      "lessmann2015benchmark",
+      "dumitrescu2022ml"
+    ],
+    "term": "evolution-credit-scoring",
+    "themes": []
+  },
+  "fairness-compliance": {
+    "kind": "keyword",
+    "paper_keys": [
+      "euTaxonomy2020",
+      "wachter2017counterfactual",
+      "hardt2016eqodds",
+      "chouldechova2017fair",
+      "kleinberg2017inherent",
+      "bellamy2018aif360",
+      "kamiran2012preprocessing",
+      "zhang2018adversarial",
+      "lu2018conceptdrift",
+      "euAiAct2021",
+      "fcaConsumerDuty2022",
+      "ebaGL2020",
+      "gebru2021datasheets"
+    ],
+    "term": "fairness-compliance",
+    "themes": []
+  },
+  "gbdt-tabular-sota": {
+    "kind": "keyword",
+    "paper_keys": [
+      "lessmann2015benchmark",
+      "chen2016xgboost",
+      "ke2017lightgbm",
+      "prokhorenkova2018catboost",
+      "shwartz2022deep",
+      "grinsztajn2022trees",
+      "lundberg2020trees",
+      "breiman2001randomforest"
+    ],
+    "term": "gbdt-tabular-sota",
+    "themes": []
+  },
+  "green-finance": {
+    "kind": "keyword",
+    "paper_keys": [
+      "lma2023glp",
+      "ehlers2017greenbond",
+      "flammer2021corporate",
+      "tang2020shareholders",
+      "reboredo2020connectedness",
+      "berg2022esg",
+      "euTaxonomy2020",
+      "cbi2023standard"
+    ],
+    "term": "green-finance",
+    "themes": []
+  },
+  "imbalance-calibration": {
+    "kind": "keyword",
+    "paper_keys": [
+      "chawla2002smote",
+      "he2008adasyn",
+      "lin2017focal",
+      "santos2018cvimbalanced",
+      "platt1999probabilistic",
+      "zadrozny2002isotonic",
+      "vovk2005alrw",
+      "angelopoulos2023conformal"
+    ],
+    "term": "imbalance-calibration",
+    "themes": []
+  },
+  "methodology": {
+    "kind": "keyword",
+    "paper_keys": [
+      "akiba2019optuna",
+      "delong1988roc",
+      "kursa2010boruta",
+      "micciBarreca2001",
+      "wirth2000crispdm",
+      "pineau2021reproducibility",
+      "gebru2021datasheets"
+    ],
+    "term": "methodology",
+    "themes": []
+  },
+  "tabular-deep-learning": {
+    "kind": "keyword",
+    "paper_keys": [
+      "shwartz2022deep",
+      "grinsztajn2022trees",
+      "arik2021tabnet",
+      "gorishniy2021revisiting",
+      "somepalli2021saint",
+      "popov2020node",
+      "borisov2022dnntabular"
+    ],
+    "term": "tabular-deep-learning",
+    "themes": []
+  },
+  "xai-finance": {
+    "kind": "keyword",
+    "paper_keys": [
+      "dumitrescu2022ml",
+      "lundberg2020trees",
+      "arik2021tabnet",
+      "lundberg2017shap",
+      "ribeiro2016lime",
+      "mothilal2020dice",
+      "wachter2017counterfactual",
+      "rudin2019stop",
+      "aas2021explaining",
+      "janzing2020feature",
+      "rawal2020beyond",
+      "slack2020fooling",
+      "hedstrom2023quantus"
+    ],
+    "term": "xai-finance",
+    "themes": []
+  }
+}

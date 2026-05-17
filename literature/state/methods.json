@@ -1,0 +1,200 @@
+{
+  "adasyn": {
+    "kind": "method",
+    "paper_keys": [
+      "he2008adasyn"
+    ],
+    "term": "adasyn",
+    "themes": []
+  },
+  "boruta": {
+    "kind": "method",
+    "paper_keys": [
+      "kursa2010boruta"
+    ],
+    "term": "boruta",
+    "themes": []
+  },
+  "catboost": {
+    "kind": "method",
+    "paper_keys": [
+      "prokhorenkova2018catboost"
+    ],
+    "term": "catboost",
+    "themes": []
+  },
+  "conformal prediction": {
+    "kind": "method",
+    "paper_keys": [
+      "angelopoulos2023conformal"
+    ],
+    "term": "conformal prediction",
+    "themes": []
+  },
+  "dice": {
+    "kind": "method",
+    "paper_keys": [
+      "mothilal2020dice"
+    ],
+    "term": "dice",
+    "themes": []
+  },
+  "focal loss": {
+    "kind": "method",
+    "paper_keys": [
+      "lin2017focal"
+    ],
+    "term": "focal loss",
+    "themes": []
+  },
+  "ft-transformer": {
+    "kind": "method",
+    "paper_keys": [
+      "grinsztajn2022trees",
+      "gorishniy2021revisiting"
+    ],
+    "term": "ft-transformer",
+    "themes": []
+  },
+  "kernelshap": {
+    "kind": "method",
+    "paper_keys": [
+      "lundberg2017shap",
+      "aas2021explaining",
+      "slack2020fooling"
+    ],
+    "term": "kernelshap",
+    "themes": []
+  },
+  "lightgbm": {
+    "kind": "method",
+    "paper_keys": [
+      "ke2017lightgbm"
+    ],
+    "term": "lightgbm",
+    "themes": []
+  },
+  "lime": {
+    "kind": "method",
+    "paper_keys": [
+      "lundberg2017shap",
+      "ribeiro2016lime",
+      "slack2020fooling"
+    ],
+    "term": "lime",
+    "themes": []
+  },
+  "logistic regression": {
+    "kind": "method",
+    "paper_keys": [
+      "altman1968",
+      "hand1997statistical",
+      "baesens2003benchmark",
+      "dumitrescu2022ml"
+    ],
+    "term": "logistic regression",
+    "themes": []
+  },
+  "mlp": {
+    "kind": "method",
+    "paper_keys": [
+      "grinsztajn2022trees",
+      "gorishniy2021revisiting"
+    ],
+    "term": "mlp",
+    "themes": []
+  },
+  "node": {
+    "kind": "method",
+    "paper_keys": [
+      "shwartz2022deep"
+    ],
+    "term": "node",
+    "themes": []
+  },
+  "optuna": {
+    "kind": "method",
+    "paper_keys": [
+      "gorishniy2021revisiting",
+      "akiba2019optuna"
+    ],
+    "term": "optuna",
+    "themes": []
+  },
+  "random forest": {
+    "kind": "method",
+    "paper_keys": [
+      "lessmann2015benchmark",
+      "breiman2001randomforest"
+    ],
+    "term": "random forest",
+    "themes": []
+  },
+  "saint": {
+    "kind": "method",
+    "paper_keys": [
+      "grinsztajn2022trees",
+      "somepalli2021saint"
+    ],
+    "term": "saint",
+    "themes": []
+  },
+  "smote": {
+    "kind": "method",
+    "paper_keys": [
+      "chawla2002smote",
+      "santos2018cvimbalanced"
+    ],
+    "term": "smote",
+    "themes": []
+  },
+  "smote-nc": {
+    "kind": "method",
+    "paper_keys": [
+      "chawla2002smote",
+      "santos2018cvimbalanced"
+    ],
+    "term": "smote-nc",
+    "themes": []
+  },
+  "svm": {
+    "kind": "method",
+    "paper_keys": [
+      "baesens2003benchmark"
+    ],
+    "term": "svm",
+    "themes": []
+  },
+  "tabnet": {
+    "kind": "method",
+    "paper_keys": [
+      "shwartz2022deep",
+      "arik2021tabnet"
+    ],
+    "term": "tabnet",
+    "themes": []
+  },
+  "treeshap": {
+    "kind": "method",
+    "paper_keys": [
+      "lundberg2020trees",
+      "arik2021tabnet",
+      "ribeiro2016lime",
+      "aas2021explaining"
+    ],
+    "term": "treeshap",
+    "themes": []
+  },
+  "xgboost": {
+    "kind": "method",
+    "paper_keys": [
+      "dumitrescu2022ml",
+      "chen2016xgboost",
+      "ke2017lightgbm",
+      "shwartz2022deep",
+      "grinsztajn2022trees"
+    ],
+    "term": "xgboost",
+    "themes": []
+  }
+}

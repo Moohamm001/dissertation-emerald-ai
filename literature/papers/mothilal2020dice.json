@@ -1,0 +1,48 @@
+{
+  "key": "mothilal2020dice",
+  "title": "Explaining machine learning classifiers through diverse counterfactual explanations",
+  "authors": [
+    "Mothilal, R. K.",
+    "Sharma, A.",
+    "Tan, C."
+  ],
+  "year": 2020,
+  "abstract": "",
+  "methodology": "Optimisation-based counterfactual generation with diversity (determinantal point process) and feasibility constraints. Evaluated on Adult, COMPAS, German Credit, Lending Club.",
+  "contributions": [
+    "A counterfactual explanation tells a declined applicant the minimal feature changes that would flip their decision — actionable in a way attribution alone is not.",
+    "DiCE optimises for both proximity to the original instance AND diversity among the generated counterfactuals, so users receive multiple distinct recourse options.",
+    "Feasibility constraints (mutable features only, value ranges, monotonic directions) ensure counterfactuals are actionable rather than merely mathematically valid."
+  ],
+  "weaknesses": [
+    "Optimisation can be slow at inference time; not ideal for high-QPS production.",
+    "Counterfactual instability under model retraining [[rawal2020beyond]] is a known concern.",
+    "'Feasibility' constraints encode value judgements about which features are actionable — must be explicit and reviewed."
+  ],
+  "future_works": [],
+  "referenced_papers": [
+    "rawal2020beyond",
+    "wachter2017counterfactual"
+  ],
+  "important_keywords": [
+    "xai-finance"
+  ],
+  "venue": "FAccT 2020, 607-617",
+  "doi": "10.1145/3351095.3372850",
+  "institutions": [],
+  "themes": [
+    "xai-finance"
+  ],
+  "relevance": "critical",
+  "emerald_relevance": "Core citation for EMERALD-AI's counterfactual layer in section 5.11. Directly addresses the GDPR Article 22 / FCA Consumer Duty 'support' outcome requirement that automated decisions be actionable.",
+  "confidence": "high",
+  "verified": true,
+  "status": "analysed",
+  "search_query": "",
+  "notes": "DiCE: optimisation-based counterfactual generation with diversity and feasibility constraints.",
+  "source_files": [
+    "literature\\papers\\mothilal2020dice.md"
+  ],
+  "first_seen": "2026-05-17T19:44:11.848942",
+  "last_updated": "2026-05-17T19:44:11.848978"
+}

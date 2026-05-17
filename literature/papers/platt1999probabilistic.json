@@ -1,0 +1,33 @@
+{
+  "key": "platt1999probabilistic",
+  "title": "Probabilistic outputs for support vector machines and comparisons to regularized likelihood methods",
+  "authors": [
+    "Platt, J."
+  ],
+  "year": 1999,
+  "abstract": "",
+  "methodology": "",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [
+    "imbalance-calibration"
+  ],
+  "venue": "Advances in Large Margin Classifiers, 61-74",
+  "doi": null,
+  "institutions": [],
+  "themes": [
+    "imbalance-calibration"
+  ],
+  "relevance": "high",
+  "emerald_relevance": "",
+  "confidence": "low",
+  "verified": true,
+  "status": "stub",
+  "search_query": "Platt scaling probabilistic outputs SVM 1999",
+  "notes": "",
+  "source_files": [],
+  "first_seen": "2026-05-17T19:47:01.383868Z",
+  "last_updated": "2026-05-17T19:47:01.383873Z"
+}

@@ -1,0 +1,35 @@
+{
+  "key": "zhang2018adversarial",
+  "title": "Mitigating unwanted biases with adversarial learning",
+  "authors": [
+    "Zhang, B. H.",
+    "Lemoine, B.",
+    "Mitchell, M."
+  ],
+  "year": 2018,
+  "abstract": "",
+  "methodology": "",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [
+    "fairness-compliance"
+  ],
+  "venue": "AIES 2018, 335-340",
+  "doi": "10.1145/3278721.3278779",
+  "institutions": [],
+  "themes": [
+    "fairness-compliance"
+  ],
+  "relevance": "medium",
+  "emerald_relevance": "",
+  "confidence": "low",
+  "verified": true,
+  "status": "stub",
+  "search_query": "Zhang Lemoine Mitchell mitigating unwanted biases adversarial AIES 2018",
+  "notes": "",
+  "source_files": [],
+  "first_seen": "2026-05-17T19:47:01.392139Z",
+  "last_updated": "2026-05-17T19:47:01.392146Z"
+}

@@ -1,0 +1,50 @@
+{
+  "key": "dumitrescu2022ml",
+  "title": "Machine learning for credit scoring: Improving logistic regression with non-linear decision-tree effects",
+  "authors": [
+    "Dumitrescu, E.",
+    "Hue, S.",
+    "Hurlin, C.",
+    "Tokpavi, S."
+  ],
+  "year": 2022,
+  "abstract": "",
+  "methodology": "Used short shallow CART trees to extract interaction features, then fit an adaptive-lasso LR on the augmented feature set. Compared to XGBoost, RF, and plain LR on six credit datasets.",
+  "contributions": [
+    "An adaptive lasso logistic regression augmented with decision-tree-derived non-linear interaction terms ('penalised logistic tree regression', PLTR) matches XGBoost AUC on multiple credit datasets.",
+    "The accuracy-interpretability frontier is not fixed: with careful feature construction, interpretable models can recover most of the predictive gain claimed by opaque ones."
+  ],
+  "weaknesses": [
+    "The 'close to XGBoost' claim still leaves a gap that may matter at scale.",
+    "The interaction-extraction step itself uses opaque trees, so the 'interpretable' label applies to the final LR coefficient surface, not the entire pipeline.",
+    "Results are on conventional, not green, credit data."
+  ],
+  "future_works": [],
+  "referenced_papers": [
+    "lessmann2015benchmark",
+    "rudin2019stop"
+  ],
+  "important_keywords": [
+    "evolution-credit-scoring",
+    "xai-finance"
+  ],
+  "venue": "European Journal of Operational Research, 297(3), 1178-1192",
+  "doi": "10.1016/j.ejor.2021.06.053",
+  "institutions": [],
+  "themes": [
+    "evolution-credit-scoring",
+    "xai-finance"
+  ],
+  "relevance": "critical",
+  "emerald_relevance": "Critical citation for section 4.1's central argument that the accuracy/interpretability trade-off is a design choice. Strengthens the case for EMERALD-AI's middle-path posture (constrained tree ensemble + explanation stack) rather than pure-DL.",
+  "confidence": "high",
+  "verified": true,
+  "status": "analysed",
+  "search_query": "",
+  "notes": "Reframes accuracy/interpretability trade-off; penalised LR + tree interactions approaches XGBoost.",
+  "source_files": [
+    "literature\\papers\\dumitrescu2022ml.md"
+  ],
+  "first_seen": "2026-05-17T19:44:11.569349",
+  "last_updated": "2026-05-17T19:44:11.569378"
+}

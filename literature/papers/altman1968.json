@@ -1,0 +1,45 @@
+{
+  "key": "altman1968",
+  "title": "Financial ratios, discriminant analysis and the prediction of corporate bankruptcy",
+  "authors": [
+    "Altman, E. I."
+  ],
+  "year": 1968,
+  "abstract": "",
+  "methodology": "Multiple discriminant analysis (MDA) on a matched sample of 33 bankrupt manufacturing firms (1946-1965) vs 33 non-bankrupt controls.",
+  "contributions": [
+    "A linear combination of five financial ratios (working capital / assets, retained earnings / assets, EBIT / assets, market value equity / book value debt, sales / assets) discriminates bankrupt vs solvent firms with 95% accuracy one year before failure on the original sample.",
+    "The Z-score (Z = 1.2 X1 + 1.4 X2 + 3.3 X3 + 0.6 X4 + 1.0 X5) becomes the founding artefact of statistical credit / bankruptcy scoring."
+  ],
+  "weaknesses": [
+    "Sample is small (66 firms), US-only, manufacturing-only, 1946-1965.",
+    "Linear model with no provision for non-linearity; later Zeta and Z'' variants attempt repair.",
+    "Predates the modern ML treatment of class imbalance and out-of-sample validation."
+  ],
+  "future_works": [],
+  "referenced_papers": [
+    "beaver1966",
+    "hand1997statistical"
+  ],
+  "important_keywords": [
+    "evolution-credit-scoring"
+  ],
+  "venue": "Journal of Finance, 23(4), 589-609",
+  "doi": "10.1111/j.1540-6261.1968.tb00843.x",
+  "institutions": [],
+  "themes": [
+    "evolution-credit-scoring"
+  ],
+  "relevance": "context",
+  "emerald_relevance": "Context / lineage citation. Establishes the lineage that runs from MDA → logistic regression → modern ML. Useful to ground the historical narrative in section 4.1; not a methodological dependency for EMERALD-AI.",
+  "confidence": "high",
+  "verified": true,
+  "status": "analysed",
+  "search_query": "",
+  "notes": "Origin of the Z-score; first major statistical credit model.",
+  "source_files": [
+    "literature\\papers\\altman1968.md"
+  ],
+  "first_seen": "2026-05-17T19:44:11.502163",
+  "last_updated": "2026-05-17T19:44:11.502188"
+}

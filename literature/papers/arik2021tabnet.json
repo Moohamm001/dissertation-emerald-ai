@@ -1,0 +1,49 @@
+{
+  "key": "arik2021tabnet",
+  "title": "TabNet: Attentive interpretable tabular learning",
+  "authors": [
+    "Arik, S. Ö.",
+    "Pfister, T."
+  ],
+  "year": 2021,
+  "abstract": "",
+  "methodology": "Architecture combining sequential attention with sparse feature selection, trained with self-supervised masked feature reconstruction pre-training. Benchmarked on Forest Cover Type, Poker Hand, Sarcos, Higgs, Rossmann, KDD'99.",
+  "contributions": [
+    "Sequential attention over features with a learnable sparse mask at each decision step.",
+    "The attention masks double as built-in per-instance feature attribution — no post-hoc SHAP needed.",
+    "Competitive with or better than GBDTs on six public tabular datasets in the paper's own benchmark."
+  ],
+  "weaknesses": [
+    "Later independent benchmarks (e.g. [[shwartz2022deep]], [[grinsztajn2022trees]]) found TabNet underperforms well-tuned GBDTs on most datasets — the original paper's headline claims overstated.",
+    "The 'attention as attribution' claim is contested in the XAI literature (Jain & Wallace 2019)."
+  ],
+  "future_works": [],
+  "referenced_papers": [
+    "gorishniy2021revisiting",
+    "grinsztajn2022trees",
+    "shwartz2022deep"
+  ],
+  "important_keywords": [
+    "tabular-deep-learning",
+    "xai-finance"
+  ],
+  "venue": "AAAI 2021",
+  "doi": "10.1609/aaai.v35i8.16826",
+  "institutions": [],
+  "themes": [
+    "tabular-deep-learning",
+    "xai-finance"
+  ],
+  "relevance": "high",
+  "emerald_relevance": "One of the two DL models in EMERALD-AI's section 5.8 panel. The built-in attention attribution is a design alternative to TreeSHAP — worth empirical comparison even if TreeSHAP remains primary.",
+  "confidence": "high",
+  "verified": true,
+  "status": "analysed",
+  "search_query": "",
+  "notes": "Sequential attention with sparse feature masks; attention masks double as built-in feature attribution.",
+  "source_files": [
+    "literature\\papers\\arik2021tabnet.md"
+  ],
+  "first_seen": "2026-05-17T19:44:11.660653",
+  "last_updated": "2026-05-17T19:44:11.660671"
+}

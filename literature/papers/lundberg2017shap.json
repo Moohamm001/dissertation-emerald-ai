@@ -1,0 +1,48 @@
+{
+  "key": "lundberg2017shap",
+  "title": "A unified approach to interpreting model predictions",
+  "authors": [
+    "Lundberg, S. M.",
+    "Lee, S.-I."
+  ],
+  "year": 2017,
+  "abstract": "",
+  "methodology": "Theoretical unification (axiom-satisfaction proofs) + empirical comparison with LIME and DeepLIFT on MNIST and a medical risk-prediction case study.",
+  "contributions": [
+    "Six existing attribution methods (LIME, DeepLIFT, Layer-wise relevance propagation, classic Shapley, QII, Shapley sampling) are special cases of a single 'additive feature attribution' framework.",
+    "Within that framework, only Shapley values uniquely satisfy three desirable axioms: local accuracy, missingness, and consistency.",
+    "KernelSHAP estimates Shapley values via a weighted linear regression on perturbation samples — model-agnostic and computationally tractable."
+  ],
+  "weaknesses": [
+    "The 'unique under the axioms' claim depends on accepting the axioms — see [[aas2021explaining]], [[janzing2020feature]] for causal-inference critiques.",
+    "KernelSHAP scales poorly with feature count and is biased under feature dependence — TreeSHAP [[lundberg2020trees]] is the relevant production tool."
+  ],
+  "future_works": [],
+  "referenced_papers": [
+    "aas2021explaining",
+    "janzing2020feature",
+    "lundberg2020trees",
+    "ribeiro2016lime"
+  ],
+  "important_keywords": [
+    "xai-finance"
+  ],
+  "venue": "NeurIPS 2017",
+  "doi": null,
+  "institutions": [],
+  "themes": [
+    "xai-finance"
+  ],
+  "relevance": "critical",
+  "emerald_relevance": "Foundational citation for EMERALD-AI's entire XAI stack. The axiomatic uniqueness argument is what lets reviewers know SHAP is not just one explainer among many — it is the unique one satisfying its axiom set.",
+  "confidence": "high",
+  "verified": true,
+  "status": "analysed",
+  "search_query": "Lundberg Lee unified approach interpreting model predictions SHAP NeurIPS 2017",
+  "notes": "Original SHAP paper. Grounded in cooperative game theory. Cited 20k+ times.",
+  "source_files": [
+    "literature\\papers\\lundberg2017shap.md"
+  ],
+  "first_seen": "2026-05-17T19:44:11.821836",
+  "last_updated": "2026-05-17T19:44:11.821856"
+}

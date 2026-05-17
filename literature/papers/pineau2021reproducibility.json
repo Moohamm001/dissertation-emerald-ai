@@ -1,0 +1,34 @@
+{
+  "key": "pineau2021reproducibility",
+  "title": "Improving reproducibility in machine learning research",
+  "authors": [
+    "Pineau, J.",
+    "et al."
+  ],
+  "year": 2021,
+  "abstract": "",
+  "methodology": "",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [
+    "methodology"
+  ],
+  "venue": "JMLR, 22(164), 1-20",
+  "doi": null,
+  "institutions": [],
+  "themes": [
+    "methodology"
+  ],
+  "relevance": "medium",
+  "emerald_relevance": "",
+  "confidence": "low",
+  "verified": true,
+  "status": "stub",
+  "search_query": "Pineau improving reproducibility machine learning research JMLR 2021 checklist",
+  "notes": "",
+  "source_files": [],
+  "first_seen": "2026-05-17T19:47:01.397252Z",
+  "last_updated": "2026-05-17T19:47:01.397258Z"
+}

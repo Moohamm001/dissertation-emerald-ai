@@ -1,0 +1,41 @@
+{
+  "key": "gebru2021datasheets",
+  "title": "Datasheets for datasets",
+  "authors": [
+    "Gebru, T.",
+    "Morgenstern, J.",
+    "Vecchione, B.",
+    "Vaughan, J. W.",
+    "Wallach, H.",
+    "Daumé III, H.",
+    "Crawford, K."
+  ],
+  "year": 2021,
+  "abstract": "",
+  "methodology": "",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [
+    "methodology",
+    "fairness-compliance"
+  ],
+  "venue": "Communications of the ACM, 64(12), 86-92",
+  "doi": "10.1145/3458723",
+  "institutions": [],
+  "themes": [
+    "methodology",
+    "fairness-compliance"
+  ],
+  "relevance": "medium",
+  "emerald_relevance": "",
+  "confidence": "low",
+  "verified": true,
+  "status": "stub",
+  "search_query": "Gebru datasheets for datasets CACM 2021",
+  "notes": "",
+  "source_files": [],
+  "first_seen": "2026-05-17T19:47:01.397869Z",
+  "last_updated": "2026-05-17T19:47:01.397876Z"
+}

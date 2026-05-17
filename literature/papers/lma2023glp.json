@@ -1,0 +1,48 @@
+{
+  "key": "lma2023glp",
+  "title": "Green Loan Principles",
+  "authors": [
+    "Loan Market Association",
+    "APLMA",
+    "LSTA"
+  ],
+  "year": 2023,
+  "abstract": "",
+  "methodology": "Industry consensus document maintained jointly by LMA, APLMA, and LSTA.",
+  "contributions": [
+    "Defines four pillars for green-loan governance: use of proceeds, process for project evaluation and selection, management of proceeds, and reporting.",
+    "Voluntary, market-led standard; widely adopted by syndicated-loan participants but not legally binding."
+  ],
+  "weaknesses": [
+    "Voluntary; compliance is not externally audited.",
+    "Project-evaluation criteria are intentionally non-prescriptive, leaving wide variance across lenders.",
+    "Updated periodically; ensure citation uses the current (Feb 2023) version."
+  ],
+  "future_works": [],
+  "referenced_papers": [
+    "ehlers2017greenbond",
+    "euTaxonomy2020",
+    "gaps"
+  ],
+  "important_keywords": [
+    "green-finance"
+  ],
+  "venue": "LMA publication",
+  "doi": null,
+  "institutions": [],
+  "themes": [
+    "green-finance"
+  ],
+  "relevance": "high",
+  "emerald_relevance": "Authority on what 'green loan' means in practice. Useful framing in introduction and section 4.5. The 'use of proceeds' pillar is the closest thing to a definition we have for the dataset's labelling.",
+  "confidence": "high",
+  "verified": true,
+  "status": "analysed",
+  "search_query": "Green Loan Principles LMA APLMA LSTA 2023 PDF",
+  "notes": "Voluntary governance standard; defines use-of-proceeds, evaluation, reporting.",
+  "source_files": [
+    "literature\\papers\\lma2023glp.md"
+  ],
+  "first_seen": "2026-05-17T19:44:11.762346",
+  "last_updated": "2026-05-17T19:44:11.762398"
+}

@@ -1,0 +1,52 @@
+{
+  "key": "baesens2003benchmark",
+  "title": "Benchmarking state-of-the-art classification algorithms for credit scoring",
+  "authors": [
+    "Baesens, B.",
+    "Van Gestel, T.",
+    "Viaene, S.",
+    "Stepanova, M.",
+    "Suykens, J.",
+    "Vanthienen, J."
+  ],
+  "year": 2003,
+  "abstract": "",
+  "methodology": "Compared 17 classifiers (NN, SVM, LR, LDA, k-NN, naive Bayes, decision trees, etc.) on 8 real credit datasets using PCC, AUC, and statistical significance testing (paired t-tests, Wilcoxon).",
+  "contributions": [
+    "Across eight real credit datasets, neural networks and support vector machines consistently outperform logistic regression and other classical methods.",
+    "The accuracy gains are statistically significant but modest; the case for adopting ML is incremental rather than revolutionary."
+  ],
+  "weaknesses": [
+    "Predates GBDTs entirely (XGBoost is 2016).",
+    "Datasets are small by modern standards; cross-validation protocol is single 10-fold, not nested.",
+    "No treatment of calibration or explainability — only classification accuracy."
+  ],
+  "future_works": [],
+  "referenced_papers": [
+    "dumitrescu2022ml",
+    "lessmann2015benchmark"
+  ],
+  "important_keywords": [
+    "evolution-credit-scoring",
+    "benchmarking"
+  ],
+  "venue": "Journal of the Operational Research Society, 54(6), 627-635",
+  "doi": "10.1057/palgrave.jors.2601545",
+  "institutions": [],
+  "themes": [
+    "evolution-credit-scoring",
+    "benchmarking"
+  ],
+  "relevance": "critical",
+  "emerald_relevance": "Founding benchmark for ML in credit scoring; lessmann2015benchmark explicitly updates this study. Cited in section 4.1 to ground the empirical case that ML can outperform LR, and in section 5.8 as justification for including SVM in EMERALD-AI's baseline panel.",
+  "confidence": "high",
+  "verified": true,
+  "status": "analysed",
+  "search_query": "",
+  "notes": "First systematic comparison of classifiers on credit data; established NN/SVM > LR.",
+  "source_files": [
+    "literature\\papers\\baesens2003benchmark.md"
+  ],
+  "first_seen": "2026-05-17T19:44:11.535424",
+  "last_updated": "2026-05-17T19:44:11.535455"
+}

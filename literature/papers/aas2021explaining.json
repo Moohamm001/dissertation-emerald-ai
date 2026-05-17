@@ -1,0 +1,48 @@
+{
+  "key": "aas2021explaining",
+  "title": "Explaining individual predictions when features are dependent: More accurate approximations to Shapley values",
+  "authors": [
+    "Aas, K.",
+    "Jullum, M.",
+    "Løland, A."
+  ],
+  "year": 2021,
+  "abstract": "",
+  "methodology": "Theoretical analysis of the bias + empirical comparison of four conditional-sampling approaches on synthetic and real-data benchmarks.",
+  "contributions": [
+    "Standard KernelSHAP assumes feature independence — an assumption almost always violated in real tabular data, especially financial data with correlated ratios.",
+    "Under dependence, KernelSHAP attributions can be biased: the magnitude and even the sign of individual feature attributions can be wrong.",
+    "Conditional-distribution-based estimators (using Gaussian, copula, or empirical conditional sampling) produce more accurate attributions."
+  ],
+  "weaknesses": [
+    "Conditional sampling is computationally more expensive than marginal sampling.",
+    "The 'true' Shapley value under dependence is itself contested — see [[janzing2020feature]] for a causal-inference-based alternative ('interventional' SHAP)."
+  ],
+  "future_works": [],
+  "referenced_papers": [
+    "janzing2020feature",
+    "lundberg2017shap",
+    "lundberg2020trees"
+  ],
+  "important_keywords": [
+    "xai-finance"
+  ],
+  "venue": "Artificial Intelligence, 298, 103502",
+  "doi": "10.1016/j.artint.2021.103502",
+  "institutions": [],
+  "themes": [
+    "xai-finance"
+  ],
+  "relevance": "high",
+  "emerald_relevance": "Critical-perspective citation in section 4.6. Justifies the section 5.11 design choice to cross-check TreeSHAP attributions with KernelSHAP on a held-out sample, AND to use conditional rather than marginal feature distributions where feasible.",
+  "confidence": "high",
+  "verified": true,
+  "status": "analysed",
+  "search_query": "",
+  "notes": "Shows standard KernelSHAP is biased under feature dependence; proposes conditional sampling alternatives.",
+  "source_files": [
+    "literature\\papers\\aas2021explaining.md"
+  ],
+  "first_seen": "2026-05-17T19:44:11.909388",
+  "last_updated": "2026-05-17T19:44:11.909410"
+}

@@ -1,0 +1,46 @@
+{
+  "key": "ehlers2017greenbond",
+  "title": "Green bond finance and certification",
+  "authors": [
+    "Ehlers, T.",
+    "Packer, F."
+  ],
+  "year": 2017,
+  "abstract": "",
+  "methodology": "Descriptive analysis of the global green-bond market and the certification ecosystem, with case studies.",
+  "contributions": [
+    "The green-debt market is characterised by significant information asymmetry between issuers and investors over the genuine environmental quality of funded projects.",
+    "Third-party certification (Climate Bonds Initiative, second-party opinions) partially mitigates but does not fully resolve the asymmetry.",
+    "Greenwashing — labelling debt as green without genuine eligibility — is a structural risk for the asset class."
+  ],
+  "weaknesses": [
+    "Pre-dates the EU Taxonomy Regulation and SFDR; regulatory landscape has evolved.",
+    "Focus is on green bonds, not green loans — the structural argument transfers but with caveats."
+  ],
+  "future_works": [],
+  "referenced_papers": [
+    "berg2022esg",
+    "flammer2021corporate"
+  ],
+  "important_keywords": [
+    "green-finance"
+  ],
+  "venue": "BIS Quarterly Review, September 2017",
+  "doi": null,
+  "institutions": [],
+  "themes": [
+    "green-finance"
+  ],
+  "relevance": "critical",
+  "emerald_relevance": "Authority citation for section 4.5's greenwashing argument and for the introduction's framing of structural information gaps in green lending.",
+  "confidence": "high",
+  "verified": true,
+  "status": "analysed",
+  "search_query": "Ehlers Packer green bond finance certification BIS Quarterly 2017",
+  "notes": "Authoritative early treatment of information asymmetry and greenwashing in green debt.",
+  "source_files": [
+    "literature\\papers\\ehlers2017greenbond.md"
+  ],
+  "first_seen": "2026-05-17T19:44:11.779615",
+  "last_updated": "2026-05-17T19:44:11.779635"
+}

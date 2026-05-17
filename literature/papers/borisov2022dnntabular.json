@@ -1,0 +1,38 @@
+{
+  "key": "borisov2022dnntabular",
+  "title": "Deep neural networks and tabular data: A survey",
+  "authors": [
+    "Borisov, V.",
+    "Leemann, T.",
+    "Sessler, K.",
+    "Haug, J.",
+    "Pawelczyk, M.",
+    "Kasneci, G."
+  ],
+  "year": 2022,
+  "abstract": "",
+  "methodology": "",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [
+    "tabular-deep-learning"
+  ],
+  "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+  "doi": "10.1109/TNNLS.2022.3229161",
+  "institutions": [],
+  "themes": [
+    "tabular-deep-learning"
+  ],
+  "relevance": "high",
+  "emerald_relevance": "",
+  "confidence": "low",
+  "verified": true,
+  "status": "stub",
+  "search_query": "Borisov deep neural networks tabular data survey TNNLS 2022",
+  "notes": "",
+  "source_files": [],
+  "first_seen": "2026-05-17T19:47:01.382206Z",
+  "last_updated": "2026-05-17T19:47:01.382213Z"
+}

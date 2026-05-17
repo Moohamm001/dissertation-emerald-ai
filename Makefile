@@ -85,6 +85,20 @@ proposal:  ## Rebuild the dissertation proposal docx from the python-docx script
 literature:  ## Regenerate literature/papers/*.md from build_papers.py
 	cd literature && $(PY) build_papers.py
 
+##@ Research automation
+.PHONY: research research-force research-status research-graph
+research:  ## Run a research-engine sweep (implements research_automation.txt)
+	emerald research run
+
+research-force:  ## Re-process every paper even if already analysed
+	emerald research run --force
+
+research-status:  ## Show current brain state (counts + last-run timestamp)
+	emerald research status
+
+research-graph:  ## Emit citation graph as Graphviz DOT
+	emerald research graph
+
 ##@ Application
 .PHONY: api web docker-up docker-down
 api:  ## Run FastAPI dev server (reload on change)

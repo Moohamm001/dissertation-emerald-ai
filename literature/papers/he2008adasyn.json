@@ -1,0 +1,36 @@
+{
+  "key": "he2008adasyn",
+  "title": "ADASYN: Adaptive synthetic sampling approach for imbalanced learning",
+  "authors": [
+    "He, H.",
+    "Bai, Y.",
+    "Garcia, E. A.",
+    "Li, S."
+  ],
+  "year": 2008,
+  "abstract": "",
+  "methodology": "",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [
+    "imbalance-calibration"
+  ],
+  "venue": "IJCNN 2008, 1322-1328",
+  "doi": "10.1109/IJCNN.2008.4633969",
+  "institutions": [],
+  "themes": [
+    "imbalance-calibration"
+  ],
+  "relevance": "medium",
+  "emerald_relevance": "",
+  "confidence": "low",
+  "verified": true,
+  "status": "stub",
+  "search_query": "ADASYN He Bai Garcia IJCNN 2008",
+  "notes": "",
+  "source_files": [],
+  "first_seen": "2026-05-17T19:47:01.382908Z",
+  "last_updated": "2026-05-17T19:47:01.382912Z"
+}
