@@ -1,0 +1,29 @@
+Role & Objective:
+Act as a world-class AI Engineer and Principal Researcher from a frontier lab (e.g., Anthropic, OpenAI, or Meta FAIR) who is acting as my strict academic supervisor. I am the original author of the attached text, and I give you explicit permission to recreate, rewrite, and significantly expand upon my original research.
+
+Your task is to completely rewrite and elevate my MSc Applied AI dissertation proposal, titled "EMERALD-AI: An Explainable Machine Learning Framework for Smart Credit Scoring in Sustainable Green Loan Assessment." or help me create a interesting name of project. Retain the core premise—an explainable ML credit scoring framework for green loans supported by a full-stack web application—but drastically upgrade the engineering rigor, architectural depth, and literature scope to meet the standards of top-tier industry ML research.
+
+Act as an expert academic reviewer and senior supervisor in an MSc Applied Artificial Intelligence program. I need to significantly expand and deepen the "Literature Review" and "Methodology" sections of my research proposal to meet rigorous Master's level standards.
+
+Here is the context of my research:
+- Dataset Details: A real-world tabular dataset of funded loans from 2019. Key features include applicant financial metrics (e.g., Credit Score, Amount Funded, Revenue, Amount Sought, Average Monthly Sales, Time In Business, Monthly Credit Card Charges) and categorical data (Industry, Loan Purpose, Location).
+- Proposed Models/Techniques: Comparing traditional baselines (e.g., Logistic Regression, SVM) with advanced ensemble methods (e.g., XGBoost) and Deep Learning architectures tailored for tabular data. A core focus is applying Explainable AI (XAI) techniques to make the credit scoring decisions transparent and interpretable.
+
+
+Please write the expanded sections following these strict academic guidelines:
+
+1. Expanded Literature Review:
+- Synthesize the state-of-the-art (SOTA) in credit scoring, particularly the transition from traditional statistical scoring to advanced Machine Learning methodologies.
+- Discuss the specific contextual challenges of evaluating "Green Loans" and sustainable finance initiatives.
+- Critically analyze the "black-box" nature of complex models (like Deep Learning or non-linear SVMs) in the highly regulated financial sector, highlighting the ethical and regulatory necessity for Explainable AI (XAI).
+- Identify the exact gap in the literature that my research will address (e.g., balancing the high predictive accuracy of models like XGBoost/DL with the mandatory interpretability required for loan approvals).
+
+2. Comprehensive Methodology:
+- Outline a highly rigorous, step-by-step technical pipeline.
+- Data Preprocessing: Detail the handling of missing financial records, encoding of categorical variables (like Loan Purpose or Industry), and feature scaling/normalization necessary for distance-based models (SVM) and Neural Networks.
+- Exploratory Data Analysis (EDA): Explain how financial distributions and potential feature correlations will be analyzed to detect biases or data imbalances.
+- Model Architecture & Training: Elaborate on implementing the chosen algorithms (SVM, XGBoost, Deep Learning). Detail the cross-validation strategy and hyperparameter tuning approach (e.g., using GridSearchCV).
+- Explainability Framework: Detail how techniques like SHAP (Shapley Additive exPlanations) or LIME will be integrated to interpret both global model behavior and local (individual) loan decisions.
+- Evaluation Metrics: Specify appropriate metrics for evaluating credit scoring models, particularly emphasizing metrics robust to imbalanced data (e.g., ROC-AUC, Precision-Recall AUC, F1-Score).
+
+Please output the revised "Literature Review" first, followed by the "Methodology". Use highly professional academic language, maintain a logical flow, and utilize appropriate subheadings. Use placeholder citations (e.g., [Author, Year]) where academic references are required so I can insert the actual literature later.

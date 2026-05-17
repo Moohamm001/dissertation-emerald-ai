@@ -1,0 +1,189 @@
+[project]
+name = "emerald-ai"
+version = "0.1.0"
+description = "Explainable, calibrated, audit-ready ML framework for green-loan credit scoring."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "EMERALD-AI dissertation author" }]
+keywords = [
+    "credit-scoring", "explainable-ai", "green-finance", "xgboost",
+    "shap", "conformal-prediction", "fairness", "eu-ai-act",
+]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+# Runtime: kept narrow on purpose. ML stack lives in optional extras so the
+# package can be installed lightly for doc/lit work without pulling all of torch.
+dependencies = [
+    "pandas>=2.2",
+    "numpy>=1.26",
+    "pyyaml>=6.0",
+    "pydantic>=2.6",
+    "typer>=0.12",
+    "rich>=13.7",
+]
+
+[project.optional-dependencies]
+# ML modelling stack
+ml = [
+    "scikit-learn>=1.4",
+    "imbalanced-learn>=0.12",
+    "xgboost>=2.0",
+    "lightgbm>=4.3",
+    "catboost>=1.2",
+    "optuna>=3.6",
+    "mapie>=0.8",            # conformal prediction
+]
+# Tabular deep learning
+dl = [
+    "torch>=2.2",
+    "rtdl>=0.0.13",          # FT-Transformer reference impl
+]
+# XAI + fairness
+xai = [
+    "shap>=0.45",
+    "lime>=0.2.0.1",
+    "dice-ml>=0.11",
+    "aif360>=0.6",
+    "quantus>=0.5",
+]
+# MLOps + monitoring
+mlops = [
+    "mlflow>=2.12",
+    "dvc>=3.50",
+    "evidently>=0.4",
+    "prometheus-client>=0.20",
+]
+# Backend (FastAPI)
+api = [
+    "fastapi>=0.110",
+    "uvicorn[standard]>=0.29",
+    "python-multipart>=0.0.9",
+]
+# Authoring / docs / proposal generation
+docs = [
+    "python-docx>=1.1",
+    "pypdf>=4.2",
+    "jupyter>=1.0",
+    "matplotlib>=3.8",
+    "seaborn>=0.13",
+]
+# Dev tooling
+dev = [
+    "pytest>=8.1",
+    "pytest-cov>=5.0",
+    "ruff>=0.4",
+    "black>=24.4",
+    "mypy>=1.10",
+    "types-pyyaml>=6.0",
+    "pre-commit>=3.7",
+]
+# Convenience: everything
+all = [
+    "emerald-ai[ml,dl,xai,mlops,api,docs,dev]",
+]
+
+[project.scripts]
+emerald = "emerald_ai.cli:app"
+
+[project.urls]
+Homepage = "https://github.com/<USER>/emerald-ai"
+Repository = "https://github.com/<USER>/emerald-ai"
+Issues = "https://github.com/<USER>/emerald-ai/issues"
+
+# ─────────────────────────────────────────────────────────────
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/emerald_ai"]
+
+# ─────────────────────────────────────────────────────────────
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+src = ["src", "tests", "api"]
+
+[tool.ruff.lint]
+select = [
+    "E", "W",   # pycodestyle
+    "F",        # pyflakes
+    "I",        # isort
+    "B",        # bugbear
+    "UP",       # pyupgrade
+    "SIM",      # simplify
+    "RUF",      # ruff-specific
+    "N",        # naming
+    "D",        # pydocstyle
+    "ANN",      # annotations
+]
+ignore = [
+    "D100", "D104", "D107",  # missing docstrings (modules, packages, __init__)
+    "ANN101", "ANN102",      # missing self/cls type annotations
+    "D203", "D213",          # incompatible docstring conventions
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["D", "ANN"]
+"docs/proposal/build_proposal.py" = ["D", "ANN", "E501"]
+"literature/build_papers.py" = ["D", "ANN"]
+
+# ─────────────────────────────────────────────────────────────
+[tool.black]
+line-length = 100
+target-version = ["py311"]
+
+# ─────────────────────────────────────────────────────────────
+[tool.mypy]
+python_version = "3.11"
+strict = true
+warn_unused_ignores = true
+warn_redundant_casts = true
+disallow_untyped_defs = true
+no_implicit_optional = true
+plugins = ["pydantic.mypy"]
+
+[[tool.mypy.overrides]]
+module = ["xgboost.*", "lightgbm.*", "catboost.*", "shap.*", "lime.*",
+          "dice_ml.*", "aif360.*", "imblearn.*", "mapie.*", "rtdl.*",
+          "evidently.*", "quantus.*", "docx.*", "pypdf.*"]
+ignore_missing_imports = true
+
+# ─────────────────────────────────────────────────────────────
+[tool.pytest.ini_options]
+minversion = "8.0"
+testpaths = ["tests"]
+addopts = [
+    "-ra",
+    "--strict-markers",
+    "--strict-config",
+    "--cov=emerald_ai",
+    "--cov-report=term-missing",
+]
+markers = [
+    "slow: marks tests as slow (deselect with -m 'not slow')",
+    "integration: marks tests as integration (require data)",
+]
+
+[tool.coverage.run]
+source = ["src/emerald_ai"]
+omit = ["tests/*", "**/__init__.py"]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+    "if TYPE_CHECKING:",
+]

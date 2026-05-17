@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+title: "EMERALD-AI: An Explainable, Calibrated, and Audit-Ready Machine Learning Framework for Green Loan Credit Scoring"
+message: "If you use this software or research, please cite as below."
+type: software
+authors:
+  - family-names: "TBC"
+    given-names: "TBC"
+    affiliation: "University of Warwick"
+abstract: >
+  EMERALD-AI is an explainable, calibrated, audit-ready machine learning
+  framework for green-loan credit scoring, benchmarked on a 2019 real-world
+  dataset of 14,135 funded green-loan transactions. The framework integrates
+  modern tabular learners (XGBoost, LightGBM, CatBoost, FT-Transformer) with
+  post-hoc calibration, split-conformal prediction, multi-method explainability
+  (TreeSHAP, DiCE counterfactuals), and a fairness audit aligned with the EU AI
+  Act (Annex III) and the FCA Consumer Duty. Operationalised as a FastAPI +
+  React full-stack decision-support platform.
+keywords:
+  - credit-scoring
+  - explainable-ai
+  - green-finance
+  - sustainable-finance
+  - machine-learning
+  - xgboost
+  - shap
+  - conformal-prediction
+  - fairness
+  - eu-ai-act
+license: MIT
+version: "0.1.0-proposal"
+date-released: "2026-05-17"
+repository-code: "https://github.com/<USER>/emerald-ai"

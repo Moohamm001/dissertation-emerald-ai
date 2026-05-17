@@ -1,0 +1,867 @@
+# EMERALD-AI Literature Index
+# One entry per cited (or to-be-cited) work.
+# Fields:
+#   key:           filename-safe identifier; matches papers/<key>.md
+#   authors:       array of "Last, First"
+#   year:          publication year (int) or "n.d."
+#   title:         full title
+#   venue:         journal / conference / source
+#   doi:           DOI or stable URL (null if unverified)
+#   themes:        which proposal theme(s) this supports; matches themes/*.md slugs
+#   relevance:     critical | high | medium | context
+#   status:        cited | to-read | stub
+#   verified:      true if author/year/title/venue have been cross-checked
+#   paper_file:    true if a papers/<key>.md exists
+#   search_query:  what to Google/Scholar-search to verify the citation
+#   notes:         one-line hook for fast scanning
+
+# =============================================================================
+# THEME 4.1 — Evolution of credit scoring
+# =============================================================================
+
+- key: altman1968
+  authors: ["Altman, E. I."]
+  year: 1968
+  title: "Financial ratios, discriminant analysis and the prediction of corporate bankruptcy"
+  venue: "Journal of Finance, 23(4), 589-609"
+  doi: "10.1111/j.1540-6261.1968.tb00843.x"
+  themes: [evolution-credit-scoring]
+  relevance: context
+  status: cited
+  verified: true
+  paper_file: true
+  notes: "Origin of the Z-score; first major statistical credit model."
+
+- key: beaver1966
+  authors: ["Beaver, W. H."]
+  year: 1966
+  title: "Financial ratios as predictors of failure"
+  venue: "Journal of Accounting Research, 4, 71-111"
+  doi: "10.2307/2490171"
+  themes: [evolution-credit-scoring]
+  relevance: context
+  status: cited
+  verified: true
+  paper_file: false
+  search_query: "Beaver 1966 financial ratios predictors of failure"
+
+- key: hand1997statistical
+  authors: ["Hand, D. J.", "Henley, W. E."]
+  year: 1997
+  title: "Statistical classification methods in consumer credit scoring: A review"
+  venue: "Journal of the Royal Statistical Society A, 160(3), 523-541"
+  doi: "10.1111/j.1467-985X.1997.00078.x"
+  themes: [evolution-credit-scoring]
+  relevance: high
+  status: cited
+  verified: true
+  paper_file: true
+  notes: "Canonical review of logistic regression's dominance in consumer credit scoring."
+
+- key: thomas2000survey
+  authors: ["Thomas, L. C."]
+  year: 2000
+  title: "A survey of credit and behavioural scoring"
+  venue: "International Journal of Forecasting, 16(2), 149-172"
+  doi: "10.1016/S0169-2070(00)00034-0"
+  themes: [evolution-credit-scoring]
+  relevance: high
+  status: cited
+  verified: true
+  paper_file: false
+  search_query: "Thomas 2000 survey credit behavioural scoring"
+
+- key: baesens2003benchmark
+  authors: ["Baesens, B.", "Van Gestel, T.", "Viaene, S.", "Stepanova, M.", "Suykens, J.", "Vanthienen, J."]
+  year: 2003
+  title: "Benchmarking state-of-the-art classification algorithms for credit scoring"
+  venue: "Journal of the Operational Research Society, 54(6), 627-635"
+  doi: "10.1057/palgrave.jors.2601545"
+  themes: [evolution-credit-scoring, benchmarking]
+  relevance: critical
+  status: cited
+  verified: true
+  paper_file: true
+  notes: "First systematic comparison of classifiers on credit data; established NN/SVM > LR."
+
+- key: lessmann2015benchmark
+  authors: ["Lessmann, S.", "Baesens, B.", "Seow, H. V.", "Thomas, L. C."]
+  year: 2015
+  title: "Benchmarking state-of-the-art classification algorithms for credit scoring: An update of research"
+  venue: "European Journal of Operational Research, 247(1), 124-136"
+  doi: "10.1016/j.ejor.2015.05.030"
+  themes: [evolution-credit-scoring, benchmarking, gbdt-tabular-sota]
+  relevance: critical
+  status: cited
+  verified: true
+  paper_file: true
+  notes: "41-classifier benchmark; established ensemble methods (RF, GBM) dominate."
+
+- key: dumitrescu2022ml
+  authors: ["Dumitrescu, E.", "Hue, S.", "Hurlin, C.", "Tokpavi, S."]
+  year: 2022
+  title: "Machine learning for credit scoring: Improving logistic regression with non-linear decision-tree effects"
+  venue: "European Journal of Operational Research, 297(3), 1178-1192"
+  doi: "10.1016/j.ejor.2021.06.053"
+  themes: [evolution-credit-scoring, xai-finance]
+  relevance: critical
+  status: cited
+  verified: true
+  paper_file: true
+  notes: "Reframes accuracy/interpretability trade-off; penalised LR + tree interactions approaches XGBoost."
+
+# =============================================================================
+# THEME 4.2 — GBDT as tabular SOTA
+# =============================================================================
+
+- key: chen2016xgboost
+  authors: ["Chen, T.", "Guestrin, C."]
+  year: 2016
+  title: "XGBoost: A scalable tree boosting system"
+  venue: "KDD '16, 785-794"
+  doi: "10.1145/2939672.2939785"
+  themes: [gbdt-tabular-sota]
+  relevance: critical
+  status: cited
+  verified: true
+  paper_file: true
+  notes: "Foundational paper for XGBoost. Cited 30k+ times. Second-order Newton boosting + regularisation + sparsity-aware split finding."
+
+- key: ke2017lightgbm
+  authors: ["Ke, G.", "Meng, Q.", "Finley, T.", "Wang, T.", "Chen, W.", "Ma, W.", "Ye, Q.", "Liu, T.-Y."]
+  year: 2017
+  title: "LightGBM: A highly efficient gradient boosting decision tree"
+  venue: "NeurIPS 2017"
+  doi: null
+  themes: [gbdt-tabular-sota]
+  relevance: high
+  status: cited
+  verified: true
+  paper_file: true
+  search_query: "LightGBM NeurIPS 2017 Ke Meng Finley"
+  notes: "Histogram-based binning + leaf-wise growth. ~10x speedup over XGBoost."
+
+- key: prokhorenkova2018catboost
+  authors: ["Prokhorenkova, L.", "Gusev, G.", "Vorobev, A.", "Dorogush, A. V.", "Gulin, A."]
+  year: 2018
+  title: "CatBoost: Unbiased boosting with categorical features"
+  venue: "NeurIPS 2018"
+  doi: null
+  themes: [gbdt-tabular-sota]
+  relevance: high
+  status: cited
+  verified: true
+  paper_file: true
+  search_query: "CatBoost NeurIPS 2018 Prokhorenkova ordered boosting"
+  notes: "Ordered boosting eliminates target-leakage in target encoding. Best-in-class for high-cardinality categoricals."
+
+- key: shwartz2022deep
+  authors: ["Shwartz-Ziv, R.", "Armon, A."]
+  year: 2022
+  title: "Tabular data: Deep learning is not all you need"
+  venue: "Information Fusion, 81, 84-90"
+  doi: "10.1016/j.inffus.2021.11.011"
+  themes: [gbdt-tabular-sota, tabular-deep-learning]
+  relevance: critical
+  status: cited
+  verified: true
+  paper_file: true
+  notes: "Independent benchmark; XGBoost beats every deep tabular model tested, including on the models' own benchmark datasets."
+
+- key: grinsztajn2022trees
+  authors: ["Grinsztajn, L.", "Oyallon, E.", "Varoquaux, G."]
+  year: 2022
+  title: "Why do tree-based models still outperform deep learning on tabular data?"
+  venue: "NeurIPS 2022 Datasets and Benchmarks"
+  doi: null
+  themes: [gbdt-tabular-sota, tabular-deep-learning]
+  relevance: critical
+  status: cited
+  verified: true
+  paper_file: true
+  search_query: "Grinsztajn Oyallon Varoquaux why tree based models tabular NeurIPS 2022"
+  notes: "Most-cited recent benchmark. Identifies rotation invariance, smooth-function bias, and irrelevant-feature handling as DL weaknesses on tabular."
+
+- key: lundberg2020trees
+  authors: ["Lundberg, S. M.", "Erion, G.", "Chen, H.", "DeGrave, A.", "Prutkin, J. M.", "Nair, B.", "Katz, R.", "Himmelfarb, J.", "Bansal, N.", "Lee, S.-I."]
+  year: 2020
+  title: "From local explanations to global understanding with explainable AI for trees"
+  venue: "Nature Machine Intelligence, 2, 56-67"
+  doi: "10.1038/s42256-019-0138-9"
+  themes: [gbdt-tabular-sota, xai-finance]
+  relevance: critical
+  status: cited
+  verified: true
+  paper_file: true
+  notes: "TreeSHAP: exact polynomial-time Shapley values for tree ensembles. Makes per-decision explanation production-feasible."
+
+# =============================================================================
+# THEME 4.3 — Tabular deep learning
+# =============================================================================
+
+- key: arik2021tabnet
+  authors: ["Arik, S. Ö.", "Pfister, T."]
+  year: 2021
+  title: "TabNet: Attentive interpretable tabular learning"
+  venue: "AAAI 2021"
+  doi: "10.1609/aaai.v35i8.16826"
+  themes: [tabular-deep-learning, xai-finance]
+  relevance: high
+  status: cited
+  verified: true
+  paper_file: true
+  notes: "Sequential attention with sparse feature masks; attention masks double as built-in feature attribution."
+
+- key: gorishniy2021revisiting
+  authors: ["Gorishniy, Y.", "Rubachev, I.", "Khrulkov, V.", "Babenko, A."]
+  year: 2021
+  title: "Revisiting deep learning models for tabular data"
+  venue: "NeurIPS 2021"
+  doi: null
+  themes: [tabular-deep-learning]
+  relevance: critical
+  status: cited
+  verified: true
+  paper_file: true
+  search_query: "Gorishniy revisiting deep learning tabular FT-Transformer NeurIPS 2021"
+  notes: "Introduced FT-Transformer (feature-tokeniser + transformer). Strongest single tabular DL in independent benchmarks."
+
+- key: somepalli2021saint
+  authors: ["Somepalli, G.", "Goldblum, M.", "Schwarzschild, A.", "Bruss, C. B.", "Goldstein, T."]
+  year: 2021
+  title: "SAINT: Improved neural networks for tabular data via row attention and contrastive pre-training"
+  venue: "arXiv:2106.01342"
+  doi: null
+  themes: [tabular-deep-learning]
+  relevance: medium
+  status: cited
+  verified: true
+  paper_file: false
+  search_query: "SAINT row attention tabular contrastive Somepalli 2021"
+
+- key: popov2020node
+  authors: ["Popov, S.", "Morozov, S.", "Babenko, A."]
+  year: 2020
+  title: "Neural oblivious decision ensembles for deep learning on tabular data"
+  venue: "ICLR 2020"
+  doi: null
+  themes: [tabular-deep-learning]
+  relevance: medium
+  status: cited
+  verified: true
+  paper_file: false
+  search_query: "NODE neural oblivious decision ensembles tabular ICLR 2020"
+
+- key: borisov2022dnntabular
+  authors: ["Borisov, V.", "Leemann, T.", "Sessler, K.", "Haug, J.", "Pawelczyk, M.", "Kasneci, G."]
+  year: 2022
+  title: "Deep neural networks and tabular data: A survey"
+  venue: "IEEE Transactions on Neural Networks and Learning Systems"
+  doi: "10.1109/TNNLS.2022.3229161"
+  themes: [tabular-deep-learning]
+  relevance: high
+  status: cited
+  verified: true
+  paper_file: false
+  search_query: "Borisov deep neural networks tabular data survey TNNLS 2022"
+
+# =============================================================================
+# THEME 4.4 — Class imbalance, calibration, uncertainty
+# =============================================================================
+
+- key: chawla2002smote
+  authors: ["Chawla, N. V.", "Bowyer, K. W.", "Hall, L. O.", "Kegelmeyer, W. P."]
+  year: 2002
+  title: "SMOTE: Synthetic minority over-sampling technique"
+  venue: "JAIR, 16, 321-357"
+  doi: "10.1613/jair.953"
+  themes: [imbalance-calibration]
+  relevance: critical
+  status: cited
+  verified: true
+  paper_file: true
+  notes: "Foundational SMOTE paper. Cited 25k+. SMOTE-NC variant handles mixed numeric/categorical."
+
+- key: he2008adasyn
+  authors: ["He, H.", "Bai, Y.", "Garcia, E. A.", "Li, S."]
+  year: 2008
+  title: "ADASYN: Adaptive synthetic sampling approach for imbalanced learning"
+  venue: "IJCNN 2008, 1322-1328"
+  doi: "10.1109/IJCNN.2008.4633969"
+  themes: [imbalance-calibration]
+  relevance: medium
+  status: cited
+  verified: true
+  paper_file: false
+  search_query: "ADASYN He Bai Garcia IJCNN 2008"
+
+- key: lin2017focal
+  authors: ["Lin, T.-Y.", "Goyal, P.", "Girshick, R.", "He, K.", "Dollár, P."]
+  year: 2017
+  title: "Focal loss for dense object detection"
+  venue: "ICCV 2017"
+  doi: "10.1109/ICCV.2017.324"
+  themes: [imbalance-calibration]
+  relevance: high
+  status: cited
+  verified: true
+  paper_file: true
+  notes: "Focal loss reweights hard examples; usable for any imbalanced classification, not just detection."
+
+- key: santos2018cvimbalanced
+  authors: ["Santos, M. S.", "Soares, J. P.", "Abreu, P. H.", "Araújo, H.", "Santos, J."]
+  year: 2018
+  title: "Cross-validation for imbalanced datasets: Avoiding overoptimistic and overfitting approaches"
+  venue: "IEEE Computational Intelligence Magazine, 13(4), 59-76"
+  doi: "10.1109/MCI.2018.2866730"
+  themes: [imbalance-calibration]
+  relevance: high
+  status: cited
+  verified: true
+  paper_file: true
+  notes: "Documents the widespread methodological error of resampling before CV split. Cited as authority for in-fold-only SMOTE."
+
+- key: platt1999probabilistic
+  authors: ["Platt, J."]
+  year: 1999
+  title: "Probabilistic outputs for support vector machines and comparisons to regularized likelihood methods"
+  venue: "Advances in Large Margin Classifiers, 61-74"
+  doi: null
+  themes: [imbalance-calibration]
+  relevance: high
+  status: cited
+  verified: true
+  paper_file: false
+  search_query: "Platt scaling probabilistic outputs SVM 1999"
+
+- key: zadrozny2002isotonic
+  authors: ["Zadrozny, B.", "Elkan, C."]
+  year: 2002
+  title: "Transforming classifier scores into accurate multiclass probability estimates"
+  venue: "KDD 2002, 694-699"
+  doi: "10.1145/775047.775151"
+  themes: [imbalance-calibration]
+  relevance: high
+  status: cited
+  verified: true
+  paper_file: false
+  search_query: "Zadrozny Elkan transforming classifier scores isotonic KDD 2002"
+
+- key: vovk2005alrw
+  authors: ["Vovk, V.", "Gammerman, A.", "Shafer, G."]
+  year: 2005
+  title: "Algorithmic learning in a random world"
+  venue: "Springer (book)"
+  doi: "10.1007/b106715"
+  themes: [imbalance-calibration]
+  relevance: high
+  status: cited
+  verified: true
+  paper_file: false
+  search_query: "Vovk Gammerman Shafer algorithmic learning random world conformal"
+
+- key: angelopoulos2023conformal
+  authors: ["Angelopoulos, A. N.", "Bates, S."]
+  year: 2023
+  title: "Conformal prediction: A gentle introduction"
+  venue: "Foundations and Trends in ML, 16(4), 494-591"
+  doi: "10.1561/2200000101"
+  themes: [imbalance-calibration]
+  relevance: critical
+  status: cited
+  verified: true
+  paper_file: true
+  notes: "Modern tutorial on split-conformal prediction. The reference if you want distribution-free uncertainty in production."
+
+# =============================================================================
+# THEME 4.5 — Green finance specificity
+# =============================================================================
+
+- key: lma2023glp
+  authors: ["Loan Market Association", "APLMA", "LSTA"]
+  year: 2023
+  title: "Green Loan Principles"
+  venue: "LMA publication"
+  doi: null
+  themes: [green-finance]
+  relevance: high
+  status: cited
+  verified: true
+  paper_file: true
+  search_query: "Green Loan Principles LMA APLMA LSTA 2023 PDF"
+  notes: "Voluntary governance standard; defines use-of-proceeds, evaluation, reporting."
+
+- key: ehlers2017greenbond
+  authors: ["Ehlers, T.", "Packer, F."]
+  year: 2017
+  title: "Green bond finance and certification"
+  venue: "BIS Quarterly Review, September 2017"
+  doi: null
+  themes: [green-finance]
+  relevance: critical
+  status: cited
+  verified: true
+  paper_file: true
+  search_query: "Ehlers Packer green bond finance certification BIS Quarterly 2017"
+  notes: "Authoritative early treatment of information asymmetry and greenwashing in green debt."
+
+- key: flammer2021corporate
+  authors: ["Flammer, C."]
+  year: 2021
+  title: "Corporate green bonds"
+  venue: "Journal of Financial Economics, 142(2), 499-516"
+  doi: "10.1016/j.jfineco.2021.01.010"
+  themes: [green-finance]
+  relevance: critical
+  status: cited
+  verified: true
+  paper_file: true
+  notes: "Evidence that rigorous green bond issuance improves environmental performance; underscores need for accurate scoring."
+
+- key: tang2020shareholders
+  authors: ["Tang, D. Y.", "Zhang, Y."]
+  year: 2020
+  title: "Do shareholders benefit from green bonds?"
+  venue: "Journal of Corporate Finance, 61, 101427"
+  doi: "10.1016/j.jcorpfin.2018.12.001"
+  themes: [green-finance]
+  relevance: high
+  status: cited
+  verified: true
+  paper_file: false
+  search_query: "Tang Zhang shareholders benefit green bonds JCF 2020"
+
+- key: reboredo2020connectedness
+  authors: ["Reboredo, J. C.", "Ugolini, A."]
+  year: 2020
+  title: "Price connectedness between green bond and financial markets"
+  venue: "Economic Modelling, 88, 25-38"
+  doi: "10.1016/j.econmod.2019.09.004"
+  themes: [green-finance]
+  relevance: context
+  status: cited
+  verified: true
+  paper_file: false
+  search_query: "Reboredo Ugolini green bond financial markets price connectedness"
+
+- key: berg2022esg
+  authors: ["Berg, F.", "Kölbel, J. F.", "Rigobon, R."]
+  year: 2022
+  title: "Aggregate confusion: The divergence of ESG ratings"
+  venue: "Review of Finance, 26(6), 1315-1344"
+  doi: "10.1093/rof/rfac033"
+  themes: [green-finance]
+  relevance: critical
+  status: cited
+  verified: true
+  paper_file: true
+  notes: "Most-cited paper on ESG inter-rater disagreement. Justifies why we don't use third-party ESG scores as features."
+
+- key: euTaxonomy2020
+  authors: ["European Commission"]
+  year: 2020
+  title: "Regulation (EU) 2020/852 on the establishment of a framework to facilitate sustainable investment (Taxonomy Regulation)"
+  venue: "Official Journal of the EU"
+  doi: null
+  themes: [green-finance, fairness-compliance]
+  relevance: high
+  status: cited
+  verified: true
+  paper_file: false
+  search_query: "EU Taxonomy Regulation 2020/852 sustainable investment"
+
+- key: cbi2023standard
+  authors: ["Climate Bonds Initiative"]
+  year: 2023
+  title: "Climate Bonds Standard v4"
+  venue: "CBI publication"
+  doi: null
+  themes: [green-finance]
+  relevance: context
+  status: cited
+  verified: true
+  paper_file: false
+  search_query: "Climate Bonds Standard v4 Climate Bonds Initiative 2023"
+
+# =============================================================================
+# THEME 4.6 — Explainable AI in high-stakes finance
+# =============================================================================
+
+- key: lundberg2017shap
+  authors: ["Lundberg, S. M.", "Lee, S.-I."]
+  year: 2017
+  title: "A unified approach to interpreting model predictions"
+  venue: "NeurIPS 2017"
+  doi: null
+  themes: [xai-finance]
+  relevance: critical
+  status: cited
+  verified: true
+  paper_file: true
+  search_query: "Lundberg Lee unified approach interpreting model predictions SHAP NeurIPS 2017"
+  notes: "Original SHAP paper. Grounded in cooperative game theory. Cited 20k+ times."
+
+- key: ribeiro2016lime
+  authors: ["Ribeiro, M. T.", "Singh, S.", "Guestrin, C."]
+  year: 2016
+  title: "'Why should I trust you?': Explaining the predictions of any classifier"
+  venue: "KDD 2016, 1135-1144"
+  doi: "10.1145/2939672.2939778"
+  themes: [xai-finance]
+  relevance: high
+  status: cited
+  verified: true
+  paper_file: true
+  notes: "LIME: local surrogate model with linear approximation around the instance. Perturbation-based; model-agnostic."
+
+- key: mothilal2020dice
+  authors: ["Mothilal, R. K.", "Sharma, A.", "Tan, C."]
+  year: 2020
+  title: "Explaining machine learning classifiers through diverse counterfactual explanations"
+  venue: "FAccT 2020, 607-617"
+  doi: "10.1145/3351095.3372850"
+  themes: [xai-finance]
+  relevance: critical
+  status: cited
+  verified: true
+  paper_file: true
+  notes: "DiCE: optimisation-based counterfactual generation with diversity and feasibility constraints."
+
+- key: wachter2017counterfactual
+  authors: ["Wachter, S.", "Mittelstadt, B.", "Russell, C."]
+  year: 2017
+  title: "Counterfactual explanations without opening the black box: Automated decisions and the GDPR"
+  venue: "Harvard Journal of Law & Technology, 31(2), 841-887"
+  doi: null
+  themes: [xai-finance, fairness-compliance]
+  relevance: high
+  status: cited
+  verified: true
+  paper_file: true
+  search_query: "Wachter Mittelstadt Russell counterfactual explanations GDPR HJLT 2017"
+  notes: "Foundational legal/technical argument for counterfactuals under the right to explanation."
+
+- key: rudin2019stop
+  authors: ["Rudin, C."]
+  year: 2019
+  title: "Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead"
+  venue: "Nature Machine Intelligence, 1, 206-215"
+  doi: "10.1038/s42256-019-0048-x"
+  themes: [xai-finance]
+  relevance: critical
+  status: cited
+  verified: true
+  paper_file: true
+  notes: "Influential dissent: argues post-hoc explanations are not a substitute for inherently interpretable models in high-stakes settings."
+
+- key: aas2021explaining
+  authors: ["Aas, K.", "Jullum, M.", "Løland, A."]
+  year: 2021
+  title: "Explaining individual predictions when features are dependent: More accurate approximations to Shapley values"
+  venue: "Artificial Intelligence, 298, 103502"
+  doi: "10.1016/j.artint.2021.103502"
+  themes: [xai-finance]
+  relevance: high
+  status: cited
+  verified: true
+  paper_file: true
+  notes: "Shows standard KernelSHAP is biased under feature dependence; proposes conditional sampling alternatives."
+
+- key: janzing2020feature
+  authors: ["Janzing, D.", "Minorics, L.", "Blöbaum, P."]
+  year: 2020
+  title: "Feature relevance quantification in explainable AI: A causal problem"
+  venue: "AISTATS 2020"
+  doi: null
+  themes: [xai-finance]
+  relevance: medium
+  status: cited
+  verified: true
+  paper_file: false
+  search_query: "Janzing Minorics Blöbaum feature relevance causal AISTATS 2020"
+
+- key: rawal2020beyond
+  authors: ["Rawal, K.", "Lakkaraju, H."]
+  year: 2020
+  title: "Beyond individualized recourse: Interpretable and interactive summaries of actionable recourses"
+  venue: "NeurIPS 2020"
+  doi: null
+  themes: [xai-finance]
+  relevance: medium
+  status: cited
+  verified: true
+  paper_file: false
+  search_query: "Rawal Lakkaraju beyond individualized recourse interpretable interactive NeurIPS 2020"
+
+- key: slack2020fooling
+  authors: ["Slack, D.", "Hilgard, S.", "Jia, E.", "Singh, S.", "Lakkaraju, H."]
+  year: 2020
+  title: "Fooling LIME and SHAP: Adversarial attacks on post hoc explanation methods"
+  venue: "AIES 2020, 180-186"
+  doi: "10.1145/3375627.3375830"
+  themes: [xai-finance]
+  relevance: high
+  status: cited
+  verified: true
+  paper_file: true
+  notes: "Demonstrates post-hoc explanations can be deliberately manipulated to hide bias. Forces critical engagement with single-method explanation reliance."
+
+- key: hedstrom2023quantus
+  authors: ["Hedström, A.", "Weber, L.", "Krakowczyk, D.", "Bareeva, D.", "Motzkus, F.", "Samek, W.", "Lapuschkin, S.", "Höhne, M. M.-C."]
+  year: 2023
+  title: "Quantus: An explainable AI toolkit for responsible evaluation of neural network explanations"
+  venue: "JMLR, 24(34), 1-11"
+  doi: null
+  themes: [xai-finance]
+  relevance: high
+  status: cited
+  verified: true
+  paper_file: true
+  search_query: "Quantus explainable AI toolkit JMLR 2023 Hedström"
+  notes: "Operationalises explanation evaluation: faithfulness, robustness, complexity, randomisation."
+
+# =============================================================================
+# THEME 4.7 — Fairness, robustness, compliance
+# =============================================================================
+
+- key: hardt2016eqodds
+  authors: ["Hardt, M.", "Price, E.", "Srebro, N."]
+  year: 2016
+  title: "Equality of opportunity in supervised learning"
+  venue: "NeurIPS 2016"
+  doi: null
+  themes: [fairness-compliance]
+  relevance: critical
+  status: cited
+  verified: true
+  paper_file: true
+  search_query: "Hardt Price Srebro equality of opportunity NeurIPS 2016"
+  notes: "Introduces equalised odds and equal opportunity. Foundational for group-fairness audit."
+
+- key: chouldechova2017fair
+  authors: ["Chouldechova, A."]
+  year: 2017
+  title: "Fair prediction with disparate impact: A study of bias in recidivism prediction instruments"
+  venue: "Big Data, 5(2), 153-163"
+  doi: "10.1089/big.2016.0047"
+  themes: [fairness-compliance]
+  relevance: critical
+  status: cited
+  verified: true
+  paper_file: true
+  notes: "Impossibility result: calibration and equal error rates are incompatible when base rates differ. Forces choice of which parity to optimise."
+
+- key: kleinberg2017inherent
+  authors: ["Kleinberg, J.", "Mullainathan, S.", "Raghavan, M."]
+  year: 2017
+  title: "Inherent trade-offs in the fair determination of risk scores"
+  venue: "ITCS 2017"
+  doi: "10.4230/LIPIcs.ITCS.2017.43"
+  themes: [fairness-compliance]
+  relevance: high
+  status: cited
+  verified: true
+  paper_file: false
+  search_query: "Kleinberg Mullainathan Raghavan inherent trade-offs fair risk scores ITCS 2017"
+
+- key: bellamy2018aif360
+  authors: ["Bellamy, R. K. E.", "et al."]
+  year: 2018
+  title: "AI Fairness 360: An extensible toolkit for detecting, understanding, and mitigating unwanted algorithmic bias"
+  venue: "IBM Journal of R&D, 63(4/5)"
+  doi: null
+  themes: [fairness-compliance]
+  relevance: high
+  status: cited
+  verified: true
+  paper_file: true
+  search_query: "AIF360 AI Fairness 360 IBM Bellamy"
+  notes: "Toolkit underlying the fairness audit. Implements >70 metrics and 10 mitigation algorithms."
+
+- key: kamiran2012preprocessing
+  authors: ["Kamiran, F.", "Calders, T."]
+  year: 2012
+  title: "Data preprocessing techniques for classification without discrimination"
+  venue: "Knowledge and Information Systems, 33(1), 1-33"
+  doi: "10.1007/s10115-011-0463-8"
+  themes: [fairness-compliance]
+  relevance: medium
+  status: cited
+  verified: true
+  paper_file: false
+  search_query: "Kamiran Calders preprocessing classification discrimination KAIS 2012"
+
+- key: zhang2018adversarial
+  authors: ["Zhang, B. H.", "Lemoine, B.", "Mitchell, M."]
+  year: 2018
+  title: "Mitigating unwanted biases with adversarial learning"
+  venue: "AIES 2018, 335-340"
+  doi: "10.1145/3278721.3278779"
+  themes: [fairness-compliance]
+  relevance: medium
+  status: cited
+  verified: true
+  paper_file: false
+  search_query: "Zhang Lemoine Mitchell mitigating unwanted biases adversarial AIES 2018"
+
+- key: lu2018conceptdrift
+  authors: ["Lu, J.", "Liu, A.", "Dong, F.", "Gu, F.", "Gama, J.", "Zhang, G."]
+  year: 2018
+  title: "Learning under concept drift: A review"
+  venue: "IEEE TKDE, 31(12), 2346-2363"
+  doi: "10.1109/TKDE.2018.2876857"
+  themes: [fairness-compliance]
+  relevance: medium
+  status: cited
+  verified: true
+  paper_file: false
+  search_query: "Lu Liu Dong concept drift review IEEE TKDE 2018"
+
+- key: euAiAct2021
+  authors: ["European Commission"]
+  year: 2021
+  title: "Proposal for a Regulation laying down harmonised rules on artificial intelligence (Artificial Intelligence Act). COM/2021/206 final"
+  venue: "Official Journal of the EU"
+  doi: null
+  themes: [fairness-compliance]
+  relevance: critical
+  status: cited
+  verified: true
+  paper_file: true
+  search_query: "EU AI Act 2021 COM(2021) 206 final harmonised rules"
+  notes: "Annex III lists credit scoring as high-risk; triggers Articles 9-15 (risk management, data governance, technical documentation, transparency, human oversight, accuracy/robustness)."
+
+- key: fcaConsumerDuty2022
+  authors: ["Financial Conduct Authority"]
+  year: 2022
+  title: "Consumer Duty: Final rules and guidance. Policy Statement PS22/9"
+  venue: "FCA"
+  doi: null
+  themes: [fairness-compliance]
+  relevance: high
+  status: cited
+  verified: true
+  paper_file: true
+  search_query: "FCA Consumer Duty PS22/9 final rules guidance"
+  notes: "Outcome-based duty; relevant for treating customers fairly across automated decisions."
+
+- key: ebaGL2020
+  authors: ["European Banking Authority"]
+  year: 2020
+  title: "Guidelines on loan origination and monitoring (EBA/GL/2020/06)"
+  venue: "EBA"
+  doi: null
+  themes: [fairness-compliance]
+  relevance: high
+  status: cited
+  verified: true
+  paper_file: false
+  search_query: "EBA Guidelines loan origination monitoring 2020/06"
+
+# =============================================================================
+# THEME 4.X — Methodological supporting refs
+# =============================================================================
+
+- key: breiman2001randomforest
+  authors: ["Breiman, L."]
+  year: 2001
+  title: "Random forests"
+  venue: "Machine Learning, 45(1), 5-32"
+  doi: "10.1023/A:1010933404324"
+  themes: [gbdt-tabular-sota]
+  relevance: context
+  status: cited
+  verified: true
+  paper_file: false
+  search_query: "Breiman random forests 2001"
+
+- key: akiba2019optuna
+  authors: ["Akiba, T.", "Sano, S.", "Yanase, T.", "Ohta, T.", "Koyama, M."]
+  year: 2019
+  title: "Optuna: A next-generation hyperparameter optimization framework"
+  venue: "KDD 2019, 2623-2631"
+  doi: "10.1145/3292500.3330701"
+  themes: [methodology]
+  relevance: high
+  status: cited
+  verified: true
+  paper_file: false
+  search_query: "Optuna Akiba Sano hyperparameter optimization KDD 2019"
+
+- key: delong1988roc
+  authors: ["DeLong, E. R.", "DeLong, D. M.", "Clarke-Pearson, D. L."]
+  year: 1988
+  title: "Comparing the areas under two or more correlated receiver operating characteristic curves: A nonparametric approach"
+  venue: "Biometrics, 44(3), 837-845"
+  doi: "10.2307/2531595"
+  themes: [methodology]
+  relevance: medium
+  status: cited
+  verified: true
+  paper_file: false
+  search_query: "DeLong DeLong Clarke-Pearson comparing ROC Biometrics 1988"
+
+- key: kursa2010boruta
+  authors: ["Kursa, M. B.", "Rudnicki, W. R."]
+  year: 2010
+  title: "Feature selection with the Boruta package"
+  venue: "Journal of Statistical Software, 36(11), 1-13"
+  doi: "10.18637/jss.v036.i11"
+  themes: [methodology]
+  relevance: medium
+  status: cited
+  verified: true
+  paper_file: false
+  search_query: "Kursa Rudnicki Boruta JStatSoft 2010"
+
+- key: micciBarreca2001
+  authors: ["Micci-Barreca, D."]
+  year: 2001
+  title: "A preprocessing scheme for high-cardinality categorical attributes in classification and prediction problems"
+  venue: "SIGKDD Explorations, 3(1), 27-32"
+  doi: "10.1145/507533.507538"
+  themes: [methodology]
+  relevance: medium
+  status: cited
+  verified: true
+  paper_file: false
+  search_query: "Micci-Barreca preprocessing high-cardinality categorical SIGKDD 2001 target encoding"
+
+- key: wirth2000crispdm
+  authors: ["Wirth, R.", "Hipp, J."]
+  year: 2000
+  title: "CRISP-DM: Towards a standard process model for data mining"
+  venue: "PAKDD 2000"
+  doi: null
+  themes: [methodology]
+  relevance: context
+  status: cited
+  verified: false
+  paper_file: false
+  search_query: "Wirth Hipp CRISP-DM standard process model data mining PAKDD 2000"
+
+- key: pineau2021reproducibility
+  authors: ["Pineau, J.", "et al."]
+  year: 2021
+  title: "Improving reproducibility in machine learning research"
+  venue: "JMLR, 22(164), 1-20"
+  doi: null
+  themes: [methodology]
+  relevance: medium
+  status: cited
+  verified: true
+  paper_file: false
+  search_query: "Pineau improving reproducibility machine learning research JMLR 2021 checklist"
+
+- key: gebru2021datasheets
+  authors: ["Gebru, T.", "Morgenstern, J.", "Vecchione, B.", "Vaughan, J. W.", "Wallach, H.", "Daumé III, H.", "Crawford, K."]
+  year: 2021
+  title: "Datasheets for datasets"
+  venue: "Communications of the ACM, 64(12), 86-92"
+  doi: "10.1145/3458723"
+  themes: [methodology, fairness-compliance]
+  relevance: medium
+  status: cited
+  verified: true
+  paper_file: false
+  search_query: "Gebru datasheets for datasets CACM 2021"
