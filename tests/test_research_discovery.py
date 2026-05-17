@@ -110,14 +110,23 @@ def test_citation_overlap_boosts_score() -> None:
 
 @pytest.fixture
 def isolated_brain(tmp_path, monkeypatch) -> None:
-    """Redirect literature/* paths into a temporary directory for the test run."""
+    """Redirect EVERY brain-write path into a temporary directory for the test run.
+
+    Must cover both discovery.py's module-level path constants AND state.py's
+    PAPERS_JSON_DIR (used by State.save_paper) - otherwise the JSON sidecars
+    that discover() now writes inline will leak into the real brain.
+    """
     fake_root = tmp_path
+    fake_papers = fake_root / "literature" / "papers"
     (fake_root / "literature" / "state").mkdir(parents=True)
-    (fake_root / "literature" / "papers").mkdir(parents=True)
+    fake_papers.mkdir(parents=True)
+    # discovery.py constants
     monkeypatch.setattr("emerald_ai.research.discovery.AUTO_INDEX_PATH", fake_root / "literature" / "auto_index.yaml")
     monkeypatch.setattr("emerald_ai.research.discovery.DISCOVERY_SEEN_PATH", fake_root / "literature" / "state" / "discovery_seen.json")
-    monkeypatch.setattr("emerald_ai.research.discovery.PAPERS_DIR", fake_root / "literature" / "papers")
+    monkeypatch.setattr("emerald_ai.research.discovery.PAPERS_DIR", fake_papers)
     monkeypatch.setattr("emerald_ai.research.discovery.INDEX_PATH", fake_root / "literature" / "index.yaml")
+    # state.py PAPERS_JSON_DIR (used by State.save_paper invoked from discover)
+    monkeypatch.setattr("emerald_ai.research.state.PAPERS_JSON_DIR", fake_papers)
     return fake_root
 
 
