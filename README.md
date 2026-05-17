@@ -1,11 +1,31 @@
 # EMERALD-AI
 
 > **Explainable, calibrated, audit-ready machine learning for green-loan credit scoring.**
-> MSc Applied AI dissertation — University of Warwick. License MIT · Python 3.11 · Stage: proposal + scaffold.
+> MSc Applied AI dissertation — University of Warwick. License MIT · Python 3.11
+> Stage: **proposal + scaffold + literature brain + autonomous research bot.** ML pipeline begins after proposal approval.
 
 **New here?** → [**QUICKSTART.md**](QUICKSTART.md) (5-minute hands-on tour)
 **Need a specific command?** → [**HOWTORUN.md**](HOWTORUN.md) (full operations reference)
 **Just want to read the research?** → [`docs/proposal/proposal_second_draft.docx`](docs/proposal/)
+
+---
+
+## Project status (live)
+
+```
+  papers in brain   :  82      (62 human-curated + 20 bot-discovered via OpenAlex)
+  citation edges    :  80
+  research questions:  15      (auto-generated from gaps.md)
+  authors indexed   :  981
+  methods detected  :  22      (XGBoost, LightGBM, CatBoost, SHAP, DiCE, conformal, ...)
+  datasets detected :   9      (COMPAS, FICO, Adult, German Credit, Lending Club, ...)
+  themes drafted    :   8/8    (lit-review sections 4.1-4.8)
+  tests passing     :  21/21   (smoke + brain integrity + discovery bot)
+  top-level dirs    :   7      (.github, apps, src, research, docs, data, tests)
+  commits on main   :   6
+```
+
+Numbers refresh with `python -m emerald_ai research status`.
 
 ---
 
@@ -23,12 +43,13 @@ It occupies an explicit literature gap: no published work simultaneously deliver
 
 | Subsystem | State | Try it |
 |---|---|---|
-| Literature brain (62 refs, 80-edge citation graph, 15 research questions) | **WORKS** | `python -m emerald_ai research status` |
+| Literature brain (82 refs, 80-edge citation graph, 15 research questions) | **WORKS** | `python -m emerald_ai research status` |
 | Autonomous research engine (idempotent, 10-field schema, audit-trail) | **WORKS** | `python -m emerald_ai research run` |
-| **Autonomous discovery bot** (OpenAlex traversal, no API key needed) | **WORKS** | `python -m emerald_ai research discover --query "explainable green credit scoring"` |
-| Proposal authoring pipeline (python-docx → reproducible .docx) | **WORKS** | `python -m emerald_ai proposal` |
-| Tests + CI (ruff + black + mypy + pytest on 3.11/3.12) | **WORKS** | `python -m emerald_ai check` |
-| FastAPI backend | **PARTIAL** | `python -m emerald_ai api` (only `/healthz` for now) |
+| **Autonomous discovery bot** (OpenAlex crawler, null-tolerant, crash-resistant, no API key) | **WORKS** | `python -m emerald_ai research discover --query "explainable green credit scoring"` |
+| Proposal authoring pipeline (python-docx → reproducible .docx, 6,750 words, 61 refs) | **WORKS** | `python -m emerald_ai proposal` |
+| Tests + CI (ruff + black + mypy + pytest on 3.11/3.12) — 21 passing | **WORKS** | `python -m emerald_ai check` |
+| Cross-platform CLI (Windows / macOS / Linux, no Make required) | **WORKS** | `python -m emerald_ai --help` |
+| FastAPI backend | **PARTIAL** | `python -m emerald_ai api` (only `/healthz` for now; rest scaffolded) |
 | ML pipeline (preprocess / train / evaluate / explain / audit) | **STUB** | CLI raises `NotImplementedError` with a pointer to the relevant proposal section |
 | React SPA frontend | **STUB** | scaffold deferred until the API serves real predictions |
 
@@ -37,37 +58,42 @@ It occupies an explicit literature gap: no published work simultaneously deliver
 ## Architecture at a glance
 
 ```
-┌──────────────────────────┐    ┌─────────────────────────────────────────────────────┐
-│  data/raw/*.xlsx         │    │  research/literature/  (KNOWLEDGE BRAIN — WORKS)             │
-│  proprietary, gitignored │───▶│  ┌─────────┐  ┌─────────┐  ┌──────────┐  ┌───────┐ │
-│  14,135 × 166 features   │    │  │ themes/ │  │ papers/ │  │ gaps.md  │  │ state/│ │
-└──────────────────────────┘    │  │ 8 files │  │ 34 .md  │  │ 15 gaps  │  │ JSON  │ │
-              │                 │  └─────────┘  │ +34.json│  └──────────┘  │ graph │ │
-              │                 │  index.yaml   └─────────┘                │ +RQs  │ │
-              ▼                 │  (62 refs)                                └───────┘ │
-┌──────────────────────────────┐│            ▲                                         │
-│  src/emerald_ai/  (PACKAGE)  ││            │ src/emerald_ai/research/ (WORKS)        │
-│                              ││            │   Engine: parse → graph → roll-up       │
-│  data/      preprocess  STUB ││            │   schema: 10-field PaperRecord          │
-│  features/  pipeline    STUB │└─────────────────────────────────────────────────────┘
-│  models/    LR SVM RF        │
-│             XGB LGBM CB MLP  │
-│             FT-Transformer   │ STUB
-│  training/  nested CV+Optuna │ STUB
-│  calibration/  Platt+conform │ STUB     ┌──────────────────────────────────────┐
-│  explain/   TreeSHAP+DiCE    │ STUB     │  apps/api/main.py  (FastAPI)  PARTIAL     │
-│  fairness/  AIF360 audit     │ STUB ───▶│  /healthz ✓   /score, /explain …    │
-│  eval/      PR-AUC, KS, ECE  │ STUB     └────────────────────┬─────────────────┘
-│  research/  literature brain │ WORKS                         │
-│  cli.py     emerald CLI      │                               ▼
-└──────────────┬───────────────┘                  ┌────────────────────────────┐
-               │                                  │  apps/web/ (React + Vite)  │
-               ▼                                  │  Dashboard, Single Predict,│ STUB
-   ┌───────────────────────┐                      │  Batch Score, SHAP Explorer│
-   │  docs/proposal/       │                      └────────────────────────────┘
-   │  build_proposal.py    │ WORKS
-   │  → second_draft.docx  │
-   └───────────────────────┘
+┌──────────────────────────┐    ┌─────────────────────────────────────────────────────────┐
+│  data/raw/*.xlsx         │    │  research/literature/   (KNOWLEDGE BRAIN  — WORKS)     │
+│  proprietary, gitignored │───▶│  ┌─────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐ │
+│  14,135 × 166 features   │    │  │ themes/ │  │ papers/  │  │ gaps.md  │  │ state/   │ │
+└──────────────────────────┘    │  │ 8 files │  │ 49 .md   │  │ 15 gaps  │  │ JSON     │ │
+              │                 │  └─────────┘  │ + .json  │  └──────────┘  │ graph,   │ │
+              │                 │  index.yaml   └──────────┘                │ rollups, │ │
+              │                 │  + auto_index.yaml (bot)                  │ RQs      │ │
+              │                 │  (62 manual + 20 bot = 82 refs)           └──────────┘ │
+              │                 │                ▲              ▲                          │
+              ▼                 │                │              │ BFS crawl, threshold     │
+┌──────────────────────────────┐│                │   ┌──────────┴──────────────────────┐  │
+│  src/emerald_ai/  (PACKAGE)  ││                │   │  OpenAlex (free, no API key)    │  │
+│                              ││                │   │  1 req/s · on-disk cache        │  │
+│  data/      preprocess  STUB ││                │   │  null-tolerant · crash-resistant│  │
+│  features/  pipeline    STUB ││                │   └─────────────────────────────────┘  │
+│  models/    LR SVM RF XGB    ││            ┌───┴──────────────────────────────────────┐ │
+│             LGBM CatBoost    │ STUB        │ Engine: parse -> graph -> roll-up         │ │
+│             MLP FT-Transformer│ STUB       │ Discovery bot: BFS, relevance scoring,    │ │
+│  training/  nested CV+Optuna │ STUB        │ saturation-aware, idempotent              │ │
+│  calibration Platt+conformal │ STUB        └──────────────────────────────────────────┘ │
+│  explain/   TreeSHAP+DiCE    │ STUB                                                      │
+│  fairness/  AIF360 audit     │ STUB     ┌──────────────────────────────────────┐         │
+│  eval/      PR-AUC, KS, ECE  │ STUB     │  apps/api/main.py (FastAPI) PARTIAL  │         │
+│  research/  bot + engine     │ WORKS───▶│  /healthz YES   /score /explain ... │         │
+│  cli.py     emerald CLI      │ WORKS    └────────────────────┬─────────────────┘         │
+└──────────────┬───────────────┘                               │                            │
+               │                                               ▼                            │
+               ▼                                  ┌────────────────────────────┐            │
+   ┌───────────────────────┐                      │  apps/web/ (React + Vite)  │            │
+   │  docs/proposal/       │                      │  Dashboard, Single Predict,│ STUB       │
+   │  build_proposal.py    │ WORKS                │  Batch Score, SHAP Explorer│            │
+   │  -> second_draft.docx │                      └────────────────────────────┘            │
+   └───────────────────────┘                                                                │
+                                                                                            │
+                          [ tests/ 21 passing : smoke + brain integrity + discovery bot ]
 ```
 
 ---
@@ -82,7 +108,7 @@ It occupies an explicit literature gap: no published work simultaneously deliver
 | Open questions / unverified claims | `research/literature/gaps.md` |
 | A domain term definition | `research/literature/glossary.md` |
 | Where to put new code for stage X | docstring at top of `src/emerald_ai/<stage>/__init__.py` |
-| The full command catalogue | `make help` or `HOWTORUN.md` |
+| The full command catalogue | `python -m emerald_ai --help` (or `HOWTORUN.md` for descriptions) |
 | The autonomous research workflow spec | `research/automation.txt` |
 | The dataset (it's gitignored) | `data/README.md` for acquisition instructions |
 
@@ -212,13 +238,14 @@ Full methodology in [`docs/proposal/proposal_second_draft.docx`](docs/proposal/)
 The repo contains a structured knowledge base under [`research/literature/`](research/literature/) — not a static bibliography, but a queryable, versioned representation of the lit review intended to evolve through the project:
 
 - `research/literature/BRAIN.md` — usage rules
-- `research/literature/index.yaml` — 62 indexed references with themes, relevance, verification status
+- `research/literature/index.yaml` — 62 human-curated references (themes, relevance, verification status, search-query hints for placeholder citations)
+- `research/literature/auto_index.yaml` — 20 references added by the discovery bot; separated so the bot never touches the human-curated index
 - `research/literature/themes/4.1`–`4.8.md` — eight argumentative-spine files mirroring the proposal's literature-review subsections
-- `research/literature/papers/<key>.md` — 34 critical-paper notes (claims, method, EMERALD-AI relevance, limitations, links)
-- `research/literature/papers/<key>.json` — machine-readable sidecar, populated by the research engine
+- `research/literature/papers/<key>.md` — 49 paper notes (34 human-written + 15 bot-stubbed; claims, method, EMERALD-AI relevance, limitations, links)
+- `research/literature/papers/<key>.json` — machine-readable sidecar in the 10-field schema, populated by the research engine
 - `research/literature/gaps.md` — 10 literature gaps + 5 methodology gaps, with suggested next actions
 - `research/literature/glossary.md` — domain terms
-- `research/literature/state/` — auto-generated state (citation graph, rollups, generated questions); see [`research/literature/state/README.md`](research/literature/state/README.md)
+- `research/literature/state/` — auto-generated state (citation graph, rollups, generated questions, discovery history); see [`research/literature/state/README.md`](research/literature/state/README.md)
 
 Read `BRAIN.md` before writing about any paper.
 
@@ -244,31 +271,32 @@ The brain is driven by an idempotent **research engine** (`src/emerald_ai/resear
 ### Current snapshot
 
 ```
-$ make research-status
-papers     : 62
-citations  : 80
-questions  : 15
-authors    : 179
-methods    : 22  (XGBoost, LightGBM, CatBoost, SHAP, LIME, DiCE, SMOTE, conformal …)
-datasets   : 9   (COMPAS, FICO, Adult, German Credit, Lending Club, KDD, Higgs …)
-keywords   : 12
+$ python -m emerald_ai research status
+Brain state - last run 2026-05-17T21:08:38+00:00
+  papers     : 82      (62 human-curated + 20 bot-discovered)
+  citations  : 80
+  questions  : 15
+  authors    : 981
+  methods    : 22      (XGBoost, LightGBM, CatBoost, SHAP, LIME, DiCE, SMOTE, conformal, ...)
+  datasets   :  9      (COMPAS, FICO, Adult, German Credit, Lending Club, KDD, Higgs, ...)
+  keywords   : 68
 ```
 
 ### Commands
 
 ```bash
-emerald research run               # full sweep; idempotent
-emerald research run --force       # re-process even already-analysed papers
-emerald research status            # current counts + last-run timestamp
-emerald research show <key>        # pretty-print one paper's structured record as JSON
-emerald research graph             # emit citation graph as Graphviz DOT
-                                   # render: dot -Tsvg research/literature/state/citations.dot -o ...svg
+python -m emerald_ai research run               # full sweep; idempotent
+python -m emerald_ai research run --force       # re-process even already-analysed papers
+python -m emerald_ai research status            # current counts + last-run timestamp
+python -m emerald_ai research show <key>        # pretty-print one paper's structured record
+python -m emerald_ai research graph             # emit citation graph as Graphviz DOT
+                                                # render: dot -Tsvg research/literature/state/citations.dot -o ...svg
 
 # Autonomous discovery — grow the brain by crawling OpenAlex (no API key needed)
-emerald research discover --query "explainable green credit scoring"
-emerald research discover --seed W2964121823 --depth 3 --max 30
-emerald research discover                 # seeds = papers already in brain (depth 1)
-emerald research bot --rounds 5           # multi-round; stops at saturation
+python -m emerald_ai research discover --query "explainable green credit scoring"
+python -m emerald_ai research discover --seed W2964121823 --depth 3 --max 30
+python -m emerald_ai research discover                 # seeds = papers already in brain (depth 1)
+python -m emerald_ai research bot --rounds 5           # multi-round; stops at saturation
 ```
 
 ### Autonomous discovery bot
@@ -285,13 +313,13 @@ Typical workflow:
 
 ```bash
 # 1. Seed from search (one-time bootstrap, no openalex_id required)
-emerald research discover --query "explainable credit scoring green loans" --max 5
+python -m emerald_ai research discover --query "explainable credit scoring green loans" --max 5
 
 # 2. Now that the brain has OpenAlex IDs, recurse depth=2 from them
-emerald research discover --depth 2 --max 20
+python -m emerald_ai research discover --depth 2 --max 20
 
 # 3. Re-run the engine to ingest the new paper sidecars into state
-emerald research run
+python -m emerald_ai research run
 ```
 
 ### Operating rules (enforced by the engine + the tests in `tests/test_literature_brain.py`)
@@ -322,8 +350,41 @@ EMERALD-AI is designed against (not certified against) the following regulatory 
 - Python deps pinned in `uv.lock` (deterministic resolver).
 - Data + models versioned with DVC (introduced once implementation begins).
 - Experiment runs tracked in MLflow with hyperparameter, code-version, and RNG-seed lineage.
-- `make reproduce` will re-run the full pipeline from raw data to scored test set in ≤ 8 hours wall-clock on the target hardware (Google Colab Pro+ A100 + Warwick HPC CPU).
+- `python -m emerald_ai reproduce` will re-run the full pipeline from raw data to scored test set in ≤ 8 hours wall-clock on the target hardware (Google Colab Pro+ A100 + Warwick HPC CPU).
 - Each model card and datasheet ([Gebru et al., 2021](research/literature/index.yaml)) regenerated automatically on each merge to `main`.
+
+---
+
+## Recent activity
+
+```
+e6606f7  add bot for query paper
+            ↳ user-driven bot run: 15 new papers discovered (62 -> 82) and
+              committed to research/literature/auto_index.yaml
+
+e101681  fix(tests): isolate State.PAPERS_JSON_DIR + clean up leaked fixtures
+            ↳ post-mortem on the previous commit; test isolation now patches
+              all module-level path constants so fixtures can't leak
+
+4597838  fix(research-bot): tolerate null fields in OpenAlex responses + survive crashes
+            ↳ fixed `AttributeError: 'NoneType' object has no attribute 'get'`
+              hit on arXiv preprints; added 2 regression tests; made bot
+              crash-resistant by writing .md/.json/.yaml + discovery_seen.json together
+
+5306f34  refactor: restructure top-level dirs from 10 -> 7 via apps/ and research/ groupings
+            ↳ frontend + backend grouped under apps/; literature, notebooks,
+              scripts, automation.txt grouped under research/
+
+ef6d7ee  feat(research): autonomous research-automation engine per research_automation.txt
+            ↳ ResearchEngine + OpenAlex source + relevance scoring + BFS
+              discovery + idempotent state persistence
+
+90edcdb  Initial scaffold: EMERALD-AI dissertation project (v0.1.0)
+            ↳ initial layout, MIT license, gitignore for proprietary data,
+              CI workflow, Python package skeleton, FastAPI stub
+```
+
+Each commit is a self-contained, testable step. Run `git log --stat` for file-by-file detail.
 
 ---
 
