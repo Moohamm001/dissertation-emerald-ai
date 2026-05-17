@@ -1,0 +1,34 @@
+{
+  "key": "robincfriedman2008most",
+  "title": "Most mammalian mRNAs are conserved targets of microRNAs",
+  "authors": [
+    "Robin C. Friedman",
+    "Kyle Kai‐How Farh",
+    "Christopher B. Burge",
+    "David P. Bartel"
+  ],
+  "year": 2008,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Genome Research",
+  "doi": "10.1101/gr.082701.108",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6558 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Most mammalian mRNAs are conserved targets of microRNAs",
+  "notes": "MicroRNAs (miRNAs) are small endogenous RNAs that pair to sites in mRNAs to direct post-transcriptional repression. Many sites that match the miRNA seed (nucleotides 2-7), particularly those in 3' untranslated regions (3'UTRs), are preferentially conserved. Here, we overhauled ou…",
+  "source_files": [
+    "research\\literature\\papers\\robincfriedman2008most.md"
+  ],
+  "first_seen": "2026-05-17T20:57:11.746510Z",
+  "last_updated": "2026-05-17T20:57:11.746815Z"
+}

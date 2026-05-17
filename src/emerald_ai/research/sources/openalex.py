@@ -113,32 +113,59 @@ class OpenAlexSource(Source):
     # ---------- normalisation ----------
     @staticmethod
     def _to_candidate(work: dict) -> CandidatePaper:
+        """Convert an OpenAlex /works JSON payload into a normalised CandidatePaper.
+
+        Defensive against OpenAlex's frequent null-valued fields:
+            - primary_location may be null (some works lack one)
+            - primary_location.source may be null (preprints with no journal)
+            - authorships[i].author may be null (anonymised works)
+            - referenced_works may be missing on older records
+        The ``(d.get(k) or {})`` pattern handles both "key missing" and
+        "key present with value None" uniformly; ``d.get(k, {})`` does not.
+        """
         if work.get("_not_found"):
             raise SourceError("Work not found")
+
         oa_id = (work.get("id") or "").rsplit("/", 1)[-1]
         doi = (work.get("doi") or "").removeprefix("https://doi.org/") or None
+
+        # Venue: walk primary_location -> source -> display_name, tolerating nulls at each step.
+        primary_location = work.get("primary_location") or {}
+        source_obj = primary_location.get("source") or {}
+        venue = source_obj.get("display_name") or ""
+
+        # Authors: filter out null authorships and null author objects.
+        authors: list[str] = []
+        for a in work.get("authorships") or []:
+            author_obj = (a or {}).get("author") or {}
+            name = author_obj.get("display_name")
+            if name:
+                authors.append(name)
+
+        # Concepts.
+        concepts: list[str] = []
+        for c in work.get("concepts") or []:
+            name = (c or {}).get("display_name")
+            if name:
+                concepts.append(name)
+
+        # Referenced works -> OpenAlex IDs.
+        referenced_ids: list[str] = []
+        for w in work.get("referenced_works") or []:
+            if isinstance(w, str) and w:
+                referenced_ids.append(w.rsplit("/", 1)[-1])
+
         return CandidatePaper(
             source="openalex",
             external_id=oa_id,
             doi=doi,
             title=work.get("title") or "",
-            authors=[
-                a.get("author", {}).get("display_name", "")
-                for a in work.get("authorships") or []
-                if a.get("author", {}).get("display_name")
-            ],
+            authors=authors,
             year=work.get("publication_year"),
-            venue=(work.get("primary_location") or {}).get("source", {}).get("display_name", "")
-            if work.get("primary_location") else "",
+            venue=venue,
             abstract=reconstruct_abstract(work.get("abstract_inverted_index")),
-            concepts=[
-                c.get("display_name", "")
-                for c in (work.get("concepts") or [])
-                if c.get("display_name")
-            ],
-            referenced_external_ids=[
-                w.rsplit("/", 1)[-1] for w in work.get("referenced_works") or []
-            ],
+            concepts=concepts,
+            referenced_external_ids=referenced_ids,
             cited_by_count=int(work.get("cited_by_count") or 0),
             external_ids={"openalex": oa_id, **({"doi": doi} if doi else {})},
         )

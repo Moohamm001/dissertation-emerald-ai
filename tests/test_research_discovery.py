@@ -170,6 +170,60 @@ def test_discovery_is_idempotent_via_discovery_seen(isolated_brain) -> None:
     assert len(r2.accepted) == 0  # already seen
 
 
+def test_openalex_to_candidate_tolerates_null_fields() -> None:
+    """Regression: OpenAlex returns null for many optional fields (preprints, anonymised works).
+
+    Without defensive handling, _to_candidate crashed with
+    AttributeError: 'NoneType' object has no attribute 'get'
+    on any work where primary_location.source was null (typical for arXiv preprints).
+    """
+    from emerald_ai.research.sources.openalex import OpenAlexSource
+
+    work_with_nulls = {
+        "id": "https://openalex.org/W1234567890",
+        "doi": "https://doi.org/10.48550/arxiv.2401.00001",
+        "title": "An arXiv preprint with no venue",
+        "publication_year": 2024,
+        "cited_by_count": None,                 # null
+        "abstract_inverted_index": None,        # null
+        "primary_location": {"source": None},   # source null - the original crash
+        "authorships": [
+            {"author": None},                                # null author object
+            {"author": {"display_name": "Smith, A."}},
+            None,                                            # null authorship entry
+        ],
+        "concepts": [
+            {"display_name": "Credit scoring"},
+            None,                                            # null concept
+            {"display_name": None},                          # null name
+        ],
+        "referenced_works": None,                            # null list
+    }
+    candidate = OpenAlexSource._to_candidate(work_with_nulls)
+
+    assert candidate.external_id == "W1234567890"
+    assert candidate.doi == "10.48550/arxiv.2401.00001"
+    assert candidate.title == "An arXiv preprint with no venue"
+    assert candidate.year == 2024
+    assert candidate.venue == ""                             # gracefully empty
+    assert candidate.authors == ["Smith, A."]                # nulls filtered
+    assert candidate.concepts == ["Credit scoring"]          # nulls filtered
+    assert candidate.referenced_external_ids == []           # null list -> empty
+    assert candidate.cited_by_count == 0                     # null -> 0
+
+
+def test_openalex_to_candidate_with_missing_keys() -> None:
+    """A near-empty payload should also normalise without crashing."""
+    from emerald_ai.research.sources.openalex import OpenAlexSource
+
+    minimal = {"id": "https://openalex.org/W9", "title": "Minimal work"}
+    candidate = OpenAlexSource._to_candidate(minimal)
+    assert candidate.external_id == "W9"
+    assert candidate.title == "Minimal work"
+    assert candidate.authors == []
+    assert candidate.venue == ""
+
+
 def test_discovery_saturation_stops_loop(isolated_brain) -> None:
     """A relevant seed surrounded by off-topic citations triggers saturation early-exit."""
     # 20 unrelated papers reachable from S1

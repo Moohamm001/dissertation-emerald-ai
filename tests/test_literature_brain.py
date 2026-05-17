@@ -15,12 +15,25 @@ LIT_DIR = PATHS.literature
 PAPERS_DIR = LIT_DIR / "papers"
 THEMES_DIR = LIT_DIR / "themes"
 INDEX_PATH = LIT_DIR / "index.yaml"
+AUTO_INDEX_PATH = LIT_DIR / "auto_index.yaml"
+
+
+def _load_yaml_list(path) -> list[dict]:
+    if not path.exists():
+        return []
+    return yaml.safe_load(path.read_text(encoding="utf-8")) or []
 
 
 @pytest.fixture(scope="module")
 def index() -> list[dict]:
-    """Load index.yaml once for the module."""
-    return yaml.safe_load(INDEX_PATH.read_text(encoding="utf-8"))
+    """Load the human-curated index.yaml."""
+    return _load_yaml_list(INDEX_PATH)
+
+
+@pytest.fixture(scope="module")
+def merged_index() -> list[dict]:
+    """Load index.yaml ∪ auto_index.yaml — what the engine actually sees."""
+    return _load_yaml_list(INDEX_PATH) + _load_yaml_list(AUTO_INDEX_PATH)
 
 
 def test_brain_exists() -> None:
@@ -39,20 +52,24 @@ def test_eight_theme_files_present() -> None:
     assert len(files) == 8, files
 
 
-def test_every_flagged_paper_has_a_file(index: list[dict]) -> None:
-    """Every index entry with paper_file: true has a corresponding markdown file."""
-    flagged = {e["key"] for e in index if e.get("paper_file")}
+def test_every_flagged_paper_has_a_file(merged_index: list[dict]) -> None:
+    """Every index entry (manual or bot-discovered) with paper_file: true has a .md file."""
+    flagged = {e["key"] for e in merged_index if e.get("paper_file")}
     present = {p.stem for p in PAPERS_DIR.glob("*.md")}
     missing = flagged - present
     assert not missing, f"Flagged but missing paper files: {missing}"
 
 
-def test_no_orphan_paper_files(index: list[dict]) -> None:
-    """No paper file exists for a key not flagged in index.yaml."""
-    flagged = {e["key"] for e in index if e.get("paper_file")}
+def test_no_orphan_paper_files(merged_index: list[dict]) -> None:
+    """Every .md must trace back to an index entry (manual index.yaml OR bot-written auto_index.yaml)."""
+    known_keys = {e["key"] for e in merged_index}
     present = {p.stem for p in PAPERS_DIR.glob("*.md")}
-    orphans = present - flagged
-    assert not orphans, f"Paper files without index entry: {orphans}"
+    orphans = present - known_keys
+    assert not orphans, (
+        f"Paper files without any index entry: {orphans}.  "
+        "If these came from a crashed discover run, either delete the .md files or "
+        "add them to research/literature/auto_index.yaml."
+    )
 
 
 def test_index_keys_unique(index: list[dict]) -> None:

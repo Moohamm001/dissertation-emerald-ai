@@ -1,0 +1,31 @@
+{
+  "key": "doe2022explainable",
+  "title": "Explainable XGBoost credit scoring for green loans with SHAP and conformal",
+  "authors": [
+    "Doe, J."
+  ],
+  "year": 2022,
+  "abstract": "Tabular gradient boosting for credit risk with SHAP explanations and calibration.",
+  "methodology": "",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "",
+  "doi": null,
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "",
+  "confidence": "low",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Explainable XGBoost credit scoring for green loans with SHAP and conformal",
+  "notes": "auto_discovered via fake; score=0.6501; depth=0",
+  "source_files": [
+    "research/literature/papers/doe2022explainable.md"
+  ],
+  "first_seen": "2026-05-17T20:59:01.583137Z",
+  "last_updated": "2026-05-17T20:59:01.593483Z"
+}

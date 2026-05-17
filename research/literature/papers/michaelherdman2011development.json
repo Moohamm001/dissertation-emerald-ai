@@ -1,0 +1,38 @@
+{
+  "key": "michaelherdman2011development",
+  "title": "Development and preliminary testing of the new five-level version of EQ-5D (EQ-5D-5L)",
+  "authors": [
+    "Michael Herdman",
+    "Claire Gudex",
+    "Andrew Lloyd",
+    "M.H.M. Janssen",
+    "Paul Kind",
+    "David Parkin",
+    "Gouke J. Bonsel",
+    "Xavier Badı́a"
+  ],
+  "year": 2011,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Quality of Life Research",
+  "doi": "10.1007/s11136-011-9903-x",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6274 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Development and preliminary testing of the new five-level version of EQ-5D (EQ-5D-5L)",
+  "notes": "PURPOSE: This article introduces the new 5-level EQ-5D (EQ-5D-5L) health status measure. METHODS: EQ-5D currently measures health using three levels of severity in five dimensions. A EuroQol Group task force was established to find ways of improving the instrument's sensitivity a…",
+  "source_files": [
+    "research\\literature\\papers\\michaelherdman2011development.md"
+  ],
+  "first_seen": "2026-05-17T20:57:11.669982Z",
+  "last_updated": "2026-05-17T20:57:11.670278Z"
+}

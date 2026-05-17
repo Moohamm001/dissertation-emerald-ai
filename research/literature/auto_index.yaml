@@ -1,0 +1,933 @@
+- key: michaelherdman2011development
+  authors:
+  - Michael Herdman
+  - Claire Gudex
+  - Andrew Lloyd
+  - M.H.M. Janssen
+  - Paul Kind
+  - David Parkin
+  - Gouke J. Bonsel
+  - Xavier Badı́a
+  year: 2011
+  title: Development and preliminary testing of the new five-level version of EQ-5D
+    (EQ-5D-5L)
+  venue: Quality of Life Research
+  doi: 10.1007/s11136-011-9903-x
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1990166011
+  auto_discovered: true
+  auto_score: 0.6274
+  auto_depth: 0
+  notes: 'PURPOSE: This article introduces the new 5-level EQ-5D (EQ-5D-5L) health
+    status measure. METHODS: EQ-5D currently measures health using three levels of
+    severity in five dimensions. A EuroQol Group task force was established to find
+    ways of improving the instrument''s sensitivity a…'
+  search_query: Development and preliminary testing of the new five-level version
+    of EQ-5D (EQ-5D-5L)
+- key: mertonhmiller1977debt
+  authors:
+  - Merton H. Miller
+  year: 1977
+  title: DEBT AND TAXES*
+  venue: The Journal of Finance
+  doi: 10.1111/j.1540-6261.1977.tb03267.x
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2153524047
+  auto_discovered: true
+  auto_score: 0.5668
+  auto_depth: 0
+  notes: The somewhat heterodox views about debt and taxes that will be presented
+    here have evolved over the last few years in the course of countless discussions
+    with several of my present and former colleagues in the Finance group at Chicago—Fischer
+    Black, Robert Hamada, Roger Ibbotson,…
+  search_query: DEBT AND TAXES*
+- key: correspondingauthors2015a
+  authors:
+  - Corresponding authors
+  - Adam Auton
+  - Gonçalo R. Abecasis
+  - David M. Altshuler
+  - Richard Durbin
+  - Gonçalo R. Abecasis
+  - David R. Bentley
+  - Aravinda Chakravarti
+  - Andrew G. Clark
+  - Peter Donnelly
+  - Evan E. Eichler
+  - Paul Flicek
+  - Stacey B. Gabriel
+  - Richard A. Gibbs
+  - Eric D. Green
+  - Matthew E. Hurles
+  - Bartha M. Knoppers
+  - Jan O. Korbel
+  - Eric S. Lander
+  - Charles Lee
+  - Hans Lehrach
+  - Elaine R. Mardis
+  - Gábor Marth
+  - Gil A. McVean
+  - Deborah A. Nickerson
+  - Jeanette P. Schmidt
+  - Stephen T. Sherry
+  - Jun Wang
+  - Richard K. Wilson
+  - Production group
+  - Richard A. Gibbs
+  - Eric Boerwinkle
+  - HarshaVardhan Doddapaneni
+  - Yi Han
+  - Viktoriya Korchina
+  - Christie Kovar
+  - Sandra Lee
+  - Donna M. Muzny
+  - Jeffrey G. Reid
+  - Yiming Zhu
+  - BGI-Shenzhen
+  - Jun Wang
+  - Yuqi Chang
+  - Qiang Feng
+  - Xiaodong Fang
+  - Xiaosen Guo
+  - Min Jian
+  - Hui Jiang
+  - Xin Jin
+  - Tianming Lan
+  - Guoqing Li
+  - Jingxiang Li
+  - Yingrui Li
+  - Shengmao Liu
+  - Xiao Liu
+  - Yao Lu
+  - Xuedi Ma
+  - Meifang Tang
+  - Bo Wang
+  - Guangbiao Wang
+  - Honglong Wu
+  - Renhua Wu
+  - Xun Xu
+  - Ye Yin
+  - Dandan Zhang
+  - Wenwei Zhang
+  - Jiao Zhao
+  - Meiru Zhao
+  - Xiaole Zheng
+  - Eric S. Lander
+  - David M. Altshuler
+  - Stacey Gabriel
+  - Namrata Gupta
+  - Neda Gharani
+  - Lorraine H. Toji
+  - Norman P. Gerry
+  - Alissa Resch
+  - Paul Flicek
+  - Jonathan Barker
+  - Laura Clarke
+  - Laurent Gil
+  - Sarah Hunt
+  - Gavin Kelman
+  - Eugene Kulesha
+  - Rasko Leinonen
+  - William McLaren
+  - Rajesh Radhakrishnan
+  - Asier Roa
+  - Dmitriy Smirnov
+  - Richard E. Smith
+  - Ian Streeter
+  - Anja Thormann
+  - Iliana Toneva
+  - Brendan Vaughan
+  - Xiangqun Zheng-Bradley
+  - Illumina
+  - David R. Bentley
+  - Russell Grocock
+  - Sean Humphray
+  - Terena James
+  - Zoya Kingsbury
+  - Hans Lehrach
+  - Ralf Sudbrak
+  - Marcus W. Albrecht
+  - Vyacheslav S. Amstislavskiy
+  - Tatiana Borodina
+  - Matthias Lienhard
+  - Florian Mertes
+  - Marc Sultan
+  - Bernd Timmermann
+  - Marie‐Laure Yaspo
+  - Elaine R. Mardis
+  - Richard K. Wilson
+  - Lucinda Fulton
+  - Robert S. Fulton
+  - Stephen T. Sherry
+  - Victor Ananiev
+  - Zinaida Belaia
+  - Dimitriy Beloslyudtsev
+  - Nathan Bouk
+  - Chao Chen
+  - Deanna M. Church
+  - Robert Cohen
+  - Charles Cook
+  - John Garner
+  - Timothy Hefferon
+  - Mikhail Kimelman
+  - Chunlei Liu
+  - John Lopez
+  - Peter Meric
+  - Chris O’Sullivan
+  - Yuri Ostapchuk
+  - Lon Phan
+  - Sergiy Ponomarov
+  - Valérie Schneider
+  - Eugene Shekhtman
+  - Karl Sirotkin
+  - Douglas J. Slotta
+  - Hua Zhang
+  - Gil A. McVean
+  - Richard Durbin
+  - Senduran Balasubramaniam
+  - John H. Burton
+  - Petr Danecek
+  - Thomas Keane
+  - Anja Kolb‐Kokocinski
+  - Shane McCarthy
+  - James Stalker
+  - Michael A. Quail
+  - Analysis group
+  - Affymetrix
+  - Jeanette P. Schmidt
+  - Christopher J. Davies
+  - Jeremy Gollub
+  - Teresa Webster
+  - Brant Wong
+  - Yiping Zhan
+  - Adam Auton
+  - Christopher Campbell
+  - Yu Kong
+  - Anthony Marcketta
+  - Richard A. Gibbs
+  - Fuli Yu
+  - Lilian Antunes
+  - Matthew N. Bainbridge
+  - Donna Muzny
+  - Aniko Sabo
+  - Zhuoyi Huang
+  - BGI-Shenzhen
+  - Jun Wang
+  - Lachlan Coin
+  - Lin Fang
+  - Xiaosen Guo
+  - Xin Jin
+  - Guoqing Li
+  - Qibin Li
+  - Yingrui Li
+  - Zhenyu Li
+  - Haoxiang Lin
+  - Binghang Liu
+  - Ruibang Luo
+  - Haojing Shao
+  - Yinlong Xie
+  - Chen Ye
+  - Chang Yu
+  - Fan Zhang
+  - Hancheng Zheng
+  - Hongmei Zhu
+  - Can Alkan
+  - Elif Dal
+  - Fatma Kahveci
+  - Gabor T. Marth
+  - Erik Garrison
+  - Deniz Kural
+  - Wan-Ping Lee
+  - Wen Fung Leong
+  - Michael P. Strömberg
+  - Alistair Ward
+  - Jiantao Wu
+  - Mengyao Zhang
+  - Mark J. Daly
+  - Mark A. DePristo
+  - Robert E. Handsaker
+  - David M. Altshuler
+  - Eric Banks
+  - Gaurav Bhatia
+  - Guillermo del Angel
+  - Stacey B. Gabriel
+  - Giulio Genovese
+  - Namrata Gupta
+  - Heng Li
+  - Seva Kashin
+  - Eric S. Lander
+  - Steven A. McCarroll
+  - James Nemesh
+  - Ryan Poplin
+  - Seungtai Yoon
+  - Jayon Lihm
+  - Vladimir Makarov
+  - Andrew G. Clark
+  - Srikanth Gottipati
+  - Alon Keinan
+  - Juan L. Rodríguez-Flores
+  - Jan O. Korbel
+  - Tobias Rausch
+  - Markus H. Fritz
+  - Adrian M. Stütz
+  - Paul Flicek
+  - Kathryn Beal
+  - Laura Clarke
+  - Avik Datta
+  - Javier Herrero
+  - William McLaren
+  - Graham R. S. Ritchie
+  - Richard E. Smith
+  - Daniel R. Zerbino
+  - Xiangqun Zheng-Bradley
+  - Pardis C. Sabeti
+  - Ilya Shlyakhter
+  - S. F. Schaffner
+  - Joseph J. Vitti
+  - Human Gene Mutation Database
+  - D.N. Cooper
+  - Edward V. Ball
+  - Peter D. Stenson
+  - Illumina
+  - David R. Bentley
+  - Bret Barnes
+  - Markus Bauer
+  - R. Keira Cheetham
+  - Anthony J. Cox
+  - Michael Eberle
+  - Sean Humphray
+  - Scott Kahn
+  - Lisa Murray
+  - John F. Peden
+  - Richard J. Shaw
+  - Eimear E. Kenny
+  - Mark A. Batzer
+  - Miriam K. Konkel
+  - Jerilyn A. Walker
+  - Daniel G. MacArthur
+  - Monkol Lek
+  - Ralf Sudbrak
+  - Vyacheslav S. Amstislavskiy
+  - Ralf Herwig
+  - Elaine R. Mardis
+  - Li Ding
+  - Daniel C. Koboldt
+  - David E. Larson
+  - Kai Ye
+  - Simon Gravel
+  - Anand Swaroop
+  - Emily Y. Chew
+  - Tuuli Lappalainen
+  - Yaniv Erlich
+  - Melissa Gymrek
+  - Thomas Frederick Willems
+  - Jared T. Simpson
+  - Mark D. Shriver
+  - Jeffrey Rosenfeld
+  - Carlos D. Bustamante
+  - Stephen B. Montgomery
+  - Francisco M. De La Vega
+  - Jake Byrnes
+  - Andrew Carroll
+  - Marianne K. DeGorter
+  - Phil Lacroute
+  - Brian K. Maples
+  - Alicia R. Martin
+  - Andres Moreno-Estrada
+  - Suyash Shringarpure
+  - Fouad Zakharia
+  - Eran Halperin
+  - Yael Baran
+  - Charles Lee
+  - Eliza Cerveira
+  - Jaeho Hwang
+  - Ankit Malhotra
+  - Dariusz Plewczyński
+  - Kamen Radew
+  - Mallory Romanovitch
+  - Chengsheng Zhang
+  - Thermo Fisher Scientific
+  - Fiona Hyland
+  - David W. Craig
+  - Alexis Christoforides
+  - Nils Homer
+  - Tyler Izatt
+  - Ahmet Kurdoglu
+  - Shripad Sinari
+  - Kevin Squire
+  - Stephen T. Sherry
+  - Chunlin Xiao
+  - Jonathan Sebat
+  - Danny Antaki
+  - Madhusudan Gujral
+  - Amina Noor
+  - Kenny Ye
+  - Esteban G. Burchard
+  - Ryan D. Hernandez
+  - Christopher R. Gignoux
+  - David Haussler
+  - Sol Katzman
+  - Wm. Kent
+  - Bryan Howie
+  - Andrés Ruiz‐Linares
+  - Emmanouil T. Dermitzakis
+  - Scott E. Devine
+  - Gonçalo R. Abecasis
+  - Hyun Min Kang
+  - Jeffrey M. Kidd
+  - Tom Blackwell
+  - Sean Caron
+  - Wei Chen
+  - Sarah Emery
+  - Lars G. Fritsche
+  - Christian Fuchsberger
+  - Goo Jun
+  - Bingshan Li
+  - Robert Lyons
+  - Chris Scheller
+  - Carlo Sidore
+  - Shiya Song
+  - Elżbieta Śliwerska
+  - Daniel Taliun
+  - Adrian Tan
+  - Ryan Welch
+  - Mary Kate Wing
+  - Xiaowei Zhan
+  - Philip Awadalla
+  - Alan Hodgkinson
+  - Yun Li
+  - Xinghua Shi
+  - Andrew Quitadamo
+  - Gerton Lunter
+  - Gil McVean
+  - Jonathan L. Marchini
+  - Simon Myers
+  - Claire Churchhouse
+  - Olivier Delaneau
+  - Anjali Gupta Hinch
+  - Warren W. Kretzschmar
+  - Zamin Iqbal
+  - Iain Mathieson
+  - Androniki Menelaou
+  - Andy Rimmer
+  - Dionysia K. Xifara
+  - Tarás K. Oleksyk
+  - Yun‐Xin Fu
+  - Xiaoming Liu
+  - Momiao Xiong
+  - Lynn B. Jorde
+  - David J. Witherspoon
+  - Jinchuan Xing
+  - Evan E. Eichler
+  - Brian L. Browning
+  - Sharon R. Browning
+  - Fereydoun Hormozdiari
+  - Peter H. Sudmant
+  - Ekta Khurana
+  - Richard Durbin
+  - Matthew E. Hurles
+  - Chris Tyler-Smith
+  - Cornelis A. Albers
+  - Qasim Ayub
+  - Senduran Balasubramaniam
+  - Yuan Chen
+  - Vincenza Colonna
+  - Petr Danecek
+  - Luke Jostins
+  - Thomas Keane
+  - Shane McCarthy
+  - Klaudia Walter
+  - Yali Xue
+  - Mark Gerstein
+  - Alexej Abyzov
+  - Suganthi Balasubramanian
+  - Jieming Chen
+  - Declan Clarke
+  - Yao Fu
+  - Arif Harmanci
+  - Mike Jin
+  - Donghoon Lee
+  - Jeremy Liu
+  - Xinmeng Jasmine Mu
+  - Jing Zhang
+  - Yan Zhang
+  - Structural variation group
+  - BGI-Shenzhen
+  - Yingrui Li
+  - Ruibang Luo
+  - Hongmei Zhu
+  - Can Alkan
+  - Elif Dal
+  - Fatma Kahveci
+  - Gabor T. Marth
+  - Erik P. Garrison
+  - Deniz Kural
+  - Wan-Ping Lee
+  - Alistair Ward
+  - Jiantao Wu
+  - Mengyao Zhang
+  - Steven A. McCarroll
+  - Robert E. Handsaker
+  - David M. Altshuler
+  - Eric Banks
+  - Guillermo del Angel
+  - Giulio Genovese
+  - Chris Hartl
+  - Heng Li
+  - Seva Kashin
+  - James Nemesh
+  - Khalid Shakir
+  - Seungtai Yoon
+  - Jayon Lihm
+  - Vladimir Makarov
+  - Jeremiah D. Degenhardt
+  - Jan O. Korbel
+  - Markus H. Fritz
+  - Sascha Meiers
+  - Benjamin Raeder
+  - Tobias Rausch
+  - Adrian M. Stütz
+  - Paul Flicek
+  - Francesco Paolo Casale
+  - Laura Clarke
+  - Richard E. Smith
+  - Oliver Stegle
+  - Xiangqun Zheng-Bradley
+  - Illumina
+  - David R. Bentley
+  - Bret Barnes
+  - R. Keira Cheetham
+  - Michael Eberle
+  - Sean Humphray
+  - Scott D. Kahn
+  - Lisa Murray
+  - Richard J. Shaw
+  - Eric-Wubbo Lameijer
+  - Mark A. Batzer
+  - Miriam K. Konkel
+  - Jerilyn A. Walker
+  - Li Ding
+  - Ira M. Hall
+  - Kai Ye
+  - Phil Lacroute
+  - Charles Lee
+  - Eliza Cerveira
+  - Ankit Malhotra
+  - Jaeho Hwang
+  - Dariusz Plewczyński
+  - Kamen Radew
+  - Mallory Romanovitch
+  - Chengsheng Zhang
+  - David W. Craig
+  - Nils Homer
+  - Deanna M. Church
+  - Chunlin Xiao
+  - Jonathan Sebat
+  - Danny Antaki
+  - Vineet Bafna
+  - Jacob J. Michaelson
+  - Kenny Ye
+  - Scott E. Devine
+  - Eugene J. Gardner
+  - Gonçalo R. Abecasis
+  - Jeffrey M. Kidd
+  - Ryan E. Mills
+  - Gargi Dayama
+  - Sarah Emery
+  - Goo Jun
+  - Xinghua Shi
+  - Andrew Quitadamo
+  - Gerton Lunter
+  - Gil A. McVean
+  - Ken Chen
+  - Xian Fan
+  - Zechen Chong
+  - Tenghui Chen
+  - David J. Witherspoon
+  - Jinchuan Xing
+  - Evan E. Eichler
+  - Mark Chaisson
+  - Fereydoun Hormozdiari
+  - John Huddleston
+  - Maika Malig
+  - Bradley J. Nelson
+  - Peter H. Sudmant
+  - Nicholas F. Parrish
+  - Ekta Khurana
+  - Matthew E. Hurles
+  - Ben Blackburne
+  - Sarah Lindsay
+  - Zemin Ning
+  - Klaudia Walter
+  - Yujun Zhang
+  - Mark Gerstein
+  - Alexej Abyzov
+  - Jieming Chen
+  - Declan Clarke
+  - Hugo Y. K. Lam
+  - Xinmeng Jasmine Mu
+  - Cristina Sisu
+  - Jing Zhang
+  - Yan Zhang
+  - Exome group
+  - Richard A. Gibbs
+  - Fuli Yu
+  - Matthew N. Bainbridge
+  - Danny Challis
+  - Uday S. Evani
+  - Christie Kovar
+  - James T. Lu
+  - Donna Muzny
+  - Uma Nagaswamy
+  - Jeffrey G. Reid
+  - Aniko Sabo
+  - Jin Yu
+  - BGI-Shenzhen
+  - Xiaosen Guo
+  - Wangshen Li
+  - Yingrui Li
+  - Renhua Wu
+  - Gábor Marth
+  - Erik P. Garrison
+  - Wen Fung Leong
+  - Alistair Ward
+  - Guillermo del Angel
+  - Mark A. DePristo
+  - Stacey Gabriel
+  - Namrata Gupta
+  - Chris Hartl
+  - Ryan Poplin
+  - Andrew G. Clark
+  - Juan L. Rodríguez-Flores
+  - Paul Flicek
+  - Laura Clarke
+  - Richard E. Smith
+  - Xiangqun Zheng-Bradley
+  - Daniel G. MacArthur
+  - Elaine R. Mardis
+  - Robert S. Fulton
+  - Daniel C. Koboldt
+  - Simon Gravel
+  - Carlos D. Bustamante
+  - David W. Craig
+  - Alexis Christoforides
+  - Nils Homer
+  - Tyler Izatt
+  - Stephen T. Sherry
+  - Chunlin Xiao
+  - Emmanouil T. Dermitzakis
+  - Gonçalo R. Abecasis
+  - Hyun Min Kang
+  - Gil McVean
+  - Mark B. Gerstein
+  - Suganthi Balasubramanian
+  - Lukas Habegger
+  - Functional interpretation group
+  - Haiyuan Yu
+  - Paul Flicek
+  - Laura Clarke
+  - Fiona Cunningham
+  - Ian Dunham
+  - Daniel R. Zerbino
+  - Xiangqun Zheng-Bradley
+  - Kasper Lage
+  - Jakob Berg Jespersen
+  - Heiko Horn
+  - Stephen B. Montgomery
+  - Marianne K. DeGorter
+  - Ekta Khurana
+  - Chris Tyler‐Smith
+  - Yuan Chen
+  - Vincenza Colonna
+  - Yali Xue
+  - Mark Gerstein
+  - Suganthi Balasubramanian
+  - Yao Fu
+  - Donghoon Kim
+  - Chromosome Y group
+  - Adam Auton
+  - Anthony Marcketta
+  - Rob DeSalle
+  - Apurva Narechania
+  - Melissa A. Wilson Sayres
+  - Erik P. Garrison
+  - Robert E. Handsaker
+  - Seva Kashin
+  - Steven A. McCarroll
+  - Juan L. Rodríguez-Flores
+  - Paul Flicek
+  - Laura Clarke
+  - Xiangqun Zheng-Bradley
+  - Yaniv Erlich
+  - Melissa Gymrek
+  - Thomas Frederick Willems
+  - Carlos D. Bustamante
+  - Fernando L. Méndez
+  - G. David Poznik
+  - Peter A. Underhill
+  - Charles Lee
+  - Eliza Cerveira
+  - Ankit Malhotra
+  - Mallory Romanovitch
+  - Chengsheng Zhang
+  - Gonçalo R. Abecasis
+  - Lachlan Coin
+  - Haojing Shao
+  - David Mittelman
+  - Chris Tyler-Smith
+  - Qasim Ayub
+  - Ruby Banerjee
+  - María Cerezo
+  - Yuan Chen
+  - Thomas W. Fitzgerald
+  - Sandra Louzada
+  - Andrea Massaia
+  - Shane McCarthy
+  - Graham R. S. Ritchie
+  - Yali Xue
+  - Fengtang Yang
+  - Richard A. Gibbs
+  - Christie Kovar
+  - Divya Kalra
+  - Walker Hale
+  - Donna Muzny
+  - Jeffrey G. Reid
+  - BGI-Shenzhen
+  - Jun Wang
+  - Xu Dan
+  - Xiaosen Guo
+  - Guoqing Li
+  - Yingrui Li
+  - Chen Ye
+  - Xiaole Zheng
+  - David M. Altshuler
+  - Paul Flicek
+  - Laura Clarke
+  - Xiangqun Zheng-Bradley
+  - Illumina
+  - David Bentley
+  - Anthony J. Cox
+  - Sean Humphray
+  - Scott Kahn
+  - Ralf Sudbrak
+  - Marcus W. Albrecht
+  - Matthias Lienhard
+  - David E. Larson
+  - David W. Craig
+  - Tyler Izatt
+  - Ahmet Kurdoglu
+  - Stephen T. Sherry
+  - Chunlin Xiao
+  - David Haussler
+  - Gonçalo R. Abecasis
+  - Gil A. McVean
+  - Richard M. Durbin
+  - Senduran Balasubramaniam
+  - Thomas Keane
+  - Shane McCarthy
+  - James Stalker
+  - Samples and ELSI group
+  - Aravinda Chakravarti
+  - Bartha M. Knoppers
+  - Gonçalo R. Abecasis
+  - Kathleen C. Barnes
+  - Christine Beiswanger
+  - Esteban G. Burchard
+  - Carlos D. Bustamante
+  - Hongyu Cai
+  - Hongzhi Cao
+  - Richard M. Durbin
+  - Norman P. Gerry
+  - Neda Gharani
+  - Richard A. Gibbs
+  - Christopher R. Gignoux
+  - Simon Gravel
+  - Brenna M. Henn
+  - D. A. Jones
+  - Lynn B. Jorde
+  - Jane Kaye
+  - Alon Keinan
+  - Alastair Kent
+  - Angeliki Kerasidou
+  - Yingrui Li
+  - Rasika A. Mathias
+  - Gil A. McVean
+  - Andres Moreno-Estrada
+  - Pilar N. Ossorio
+  - Michael Parker
+  - Alissa Resch
+  - Charles N. Rotimi
+  - Charmaine Royal
+  - Karla Sandoval
+  - Yeyang Su
+  - Ralf Sudbrak
+  - Zhongming Tian
+  - Sarah A. Tishkoff
+  - Lorraine H. Toji
+  - Chris Tyler-Smith
+  - Marc Vía
+  - Yuhong Wang
+  - Huanming Yang
+  - Ling Yang
+  - Jiayong Zhu
+  - Sample collection
+  - British from England and Scotland (GBR)
+  - Walter F. Bodmer
+  - Colombians in Medellín, Colombia (CLM)
+  - Gabriel Bedoya
+  - Andrés Ruiz‐Linares
+  - Han Chinese South (CHS)
+  - Zhiming Cai
+  - Yang Gao
+  - Jiayou Chu
+  - Finnish in Finland (FIN)
+  - Leena Peltonen
+  - Iberian Populations in Spain (IBS)
+  - Andrés C. García‐Montero
+  - Alberto Órfão
+  - Puerto Ricans in Puerto Rico (PUR)
+  - Julie Dutil
+  - Juan Carlos Martínez‐Cruzado
+  - Tarás K. Oleksyk
+  - African Caribbean in Barbados (ACB)
+  - Kathleen C. Barnes
+  - Rasika A. Mathias
+  - Anselm Hennis
+  - Harold Watson
+  - Colin A. McKenzie
+  - Bengali in Bangladesh (BEB)
+  - Firdausi Qadri
+  - Regina C. LaRocque
+  - Pardis C. Sabeti
+  - Chinese Dai in Xishuangbanna, China (CDX)
+  - Jiayong Zhu
+  - Xiaoyan Deng
+  - Esan in Nigeria (ESN)
+  - Pardis C. Sabeti
+  - Danny Asogun
+  - Onikepe Folarin
+  - Christian Happi
+  - Omonwunmi Omoniwa
+  - Matt Stremlau
+  - Ridhi Tariyal
+  - Gambian in Western Division – Mandinka (GWD)
+  - Muminatou Jallow
+  - Fatoumatta Sisay Joof
+  - Tumani Corrah
+  - Kirk A. Rockett
+  - Dominic Kwiatkowski
+  - Indian Telugu in the UK (ITU) and Sri Lankan Tamil in the UK (STU)
+  - Jaspal S. Kooner
+  - Kinh in Ho Chi Minh City, Vietnam (KHV)
+  - Trâ`n Tịnh Hiê`n
+  - Sarah J. Dunstan
+  - Nguyen Thuy Hang
+  - Mende in Sierra Leone (MSL)
+  - Richard Fonnie
+  - Robert F. Garry
+  - Lansana Kanneh
+  - Lina Moses
+  - Pardis C. Sabeti
+  - John S. Schieffelin
+  - Donald S. Grant
+  - Peruvian in Lima, Peru (PEL)
+  - Carla Gallo
+  - Giovanni Poletti
+  - Punjabi in Lahore, Pakistan (PJL)
+  - Danish Saleheen
+  - Asif Rasheed
+  - Scientific management
+  - Lisa Brooks
+  - Adam L. Felsenfeld
+  - Jean E. McEwen
+  - Yekaterina Vaydylevich
+  - Eric D. Green
+  - Audrey Duncanson
+  - Michael Dunn
+  - Jeffery A. Schloss
+  - Jun Wang
+  - Huanming Yang
+  - Writing group
+  - Adam Auton
+  - Lisa Brooks
+  - Richard Durbin
+  - Erik P. Garrison
+  - Hyun Min Kang
+  - Jan O. Korbel
+  - Jonathan L. Marchini
+  - Shane McCarthy
+  - Gil A. McVean
+  - Gonçalo R. Abecasis
+  year: 2015
+  title: A global reference for human genetic variation
+  venue: Nature
+  doi: 10.1038/nature15393
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2104549677
+  auto_discovered: true
+  auto_score: 0.675
+  auto_depth: 0
+  notes: The 1000 Genomes Project set out to provide a comprehensive description of
+    common human genetic variation by applying whole-genome sequencing to a diverse
+    set of individuals from multiple populations. Here we report completion of the
+    project, having reconstructed the genomes of 2…
+  search_query: A global reference for human genetic variation
+- key: robincfriedman2008most
+  authors:
+  - Robin C. Friedman
+  - Kyle Kai‐How Farh
+  - Christopher B. Burge
+  - David P. Bartel
+  year: 2008
+  title: Most mammalian mRNAs are conserved targets of microRNAs
+  venue: Genome Research
+  doi: 10.1101/gr.082701.108
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2026570544
+  auto_discovered: true
+  auto_score: 0.6558
+  auto_depth: 0
+  notes: MicroRNAs (miRNAs) are small endogenous RNAs that pair to sites in mRNAs
+    to direct post-transcriptional repression. Many sites that match the miRNA seed
+    (nucleotides 2-7), particularly those in 3' untranslated regions (3'UTRs), are
+    preferentially conserved. Here, we overhauled ou…
+  search_query: Most mammalian mRNAs are conserved targets of microRNAs
+- key: xiaodonggan2023green
+  authors:
+  - Xiao Dong Gan
+  - Xiao Yu Zheng
+  - Cong Cong Li
+  - Gui Qin Zhu
+  year: 2023
+  title: 'Green bond issuance and trade credit access: Evidence from Chinese bond
+    market'
+  venue: Finance research letters
+  doi: 10.1016/j.frl.2023.104842
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W4389522319
+  auto_discovered: true
+  auto_score: 0.5889
+  auto_depth: 0
+  notes: ''
+  search_query: 'Green bond issuance and trade credit access: Evidence from Chinese
+    bond market'

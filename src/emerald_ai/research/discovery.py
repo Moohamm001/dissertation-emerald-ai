@@ -47,7 +47,9 @@ from rich.console import Console
 
 from emerald_ai.config import PATHS
 from emerald_ai.research.relevance import RelevanceContext, build_context, score as score_fn
+from emerald_ai.research.schema import Confidence, PaperRecord, ProcessingStatus
 from emerald_ai.research.sources.base import CandidatePaper, Source, SourceError
+from emerald_ai.research.state import State
 
 AUTO_INDEX_PATH = PATHS.literature / "auto_index.yaml"
 DISCOVERY_SEEN_PATH = PATHS.literature / "state" / "discovery_seen.json"
@@ -107,6 +109,34 @@ def candidate_to_key(c: CandidatePaper) -> str:
     year = c.year or 0
     title_token = _slug(c.title.split(":")[0]).split("-")[0] or "untitled"
     return f"{first_author_surname}{year}{title_token}"
+
+
+def _write_paper_sidecar(candidate: CandidatePaper, key: str, score: float, depth: int) -> None:
+    """Write the JSON sidecar inline so .md and .json stay in lock-step.
+
+    Without this, a crash mid-discovery leaves orphan .md files (.json sidecar
+    is normally produced by the engine sweep). Writing it here keeps the brain
+    integrity-test-passing even after partial runs.
+    """
+    record = PaperRecord(
+        key=key,
+        title=candidate.title,
+        authors=candidate.authors,
+        year=candidate.year,
+        abstract=candidate.abstract,
+        venue=candidate.venue,
+        doi=candidate.doi,
+        important_keywords=candidate.concepts,
+        themes=[],
+        relevance="medium",
+        confidence=Confidence.LOW,         # auto-discovered, never human-verified yet
+        verified=False,
+        status=ProcessingStatus.INDEXED,
+        search_query=candidate.title,
+        notes=f"auto_discovered via {candidate.source}; score={score}; depth={depth}",
+        source_files=[f"research/literature/papers/{key}.md"],
+    )
+    State.save_paper(record)
 
 
 def _write_paper_markdown(record: CandidatePaper, key: str, relevance_score: float) -> None:
@@ -228,7 +258,10 @@ def discover(
 
         if s >= cfg.threshold:
             key = candidate_to_key(candidate)
+            # Write all three artefacts together so the brain stays consistent
+            # even if the bot is interrupted mid-run.
             _write_paper_markdown(candidate, key, s)
+            _write_paper_sidecar(candidate, key, s, depth)
             _append_to_auto_index(
                 {
                     "key": key,
@@ -246,7 +279,7 @@ def discover(
                     "auto_discovered": True,
                     "auto_score": s,
                     "auto_depth": depth,
-                    "notes": (candidate.abstract[:280] + "…") if len(candidate.abstract) > 280 else candidate.abstract,
+                    "notes": (candidate.abstract[:280] + "...") if len(candidate.abstract) > 280 else candidate.abstract,
                     "search_query": candidate.title,
                 }
             )
@@ -276,6 +309,8 @@ def discover(
 
         seen[ext_id] = outcome_record
         report.seeds_processed = report.seeds_processed if depth > 0 else report.seeds_processed + 1
+        # Persist seen-state after every candidate so a crash doesn't lose progress.
+        _save_seen(seen)
 
     _save_seen(seen)
     return report
