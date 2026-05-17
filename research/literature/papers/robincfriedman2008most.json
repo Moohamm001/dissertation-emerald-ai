@@ -8,27 +8,41 @@
     "David P. Bartel"
   ],
   "year": 2008,
-  "abstract": "",
-  "methodology": "_(to be filled in)_",
+  "abstract": "MicroRNAs (miRNAs) are small endogenous RNAs that pair to sites in mRNAs to direct post-transcriptional repression. Many sites that match the miRNA seed (nucleotides 2-7), particularly those in 3' untranslated regions (3'UTRs), are preferentially conserved. Here, we overhauled our tool for finding preferential conservation of sequence motifs and applied it to the analysis of human 3'UTRs, increasing by nearly threefold the detected number of preferentially conserved miRNA target sites. The new tool more efficiently incorporates new genomes and more completely controls for background conservation by accounting for mutational biases, dinucleotide conservation rates, and the conservation rates of individual UTRs. The improved background model enabled preferential conservation of a new site type, the \"offset 6mer,\" to be detected. In total, >45,000 miRNA target sites within human 3'UTRs are conserved above background levels, and >60% of human protein-coding genes have been under selective pressure to maintain pairing to miRNAs. Mammalian-specific miRNAs have far fewer conserved targets than do the more broadly conserved miRNAs, even when considering only more recently emerged targets. Although pairing to the 3' end of miRNAs can compensate for seed mismatches, this class of sites constitutes less than 2% of all preferentially conserved sites detected. The new tool enables statistically powerful analysis of individual miRNA target sites, with the probability of preferentially conserved targeting (P(CT)) correlating with experimental measurements of repression. Our expanded set of target predictions (including conserved 3'-compensatory sites), are available at the TargetScan website, which displays the P(CT) for each site and each predicted target.",
+  "methodology": "",
   "contributions": [],
   "weaknesses": [],
   "future_works": [],
   "referenced_papers": [],
-  "important_keywords": [],
+  "important_keywords": [
+    "Biology",
+    "Conserved sequence",
+    "microRNA",
+    "Genetics",
+    "Three prime untranslated region",
+    "Psychological repression",
+    "Untranslated region",
+    "Computational biology",
+    "Coding region",
+    "Gene",
+    "RNA",
+    "Gene expression",
+    "Base sequence"
+  ],
   "venue": "Genome Research",
   "doi": "10.1101/gr.082701.108",
   "institutions": [],
   "themes": [],
   "relevance": "medium",
-  "emerald_relevance": "_(auto_score=0.6558 — review and re-classify)_",
-  "confidence": "medium",
+  "emerald_relevance": "",
+  "confidence": "low",
   "verified": false,
   "status": "indexed",
   "search_query": "Most mammalian mRNAs are conserved targets of microRNAs",
-  "notes": "MicroRNAs (miRNAs) are small endogenous RNAs that pair to sites in mRNAs to direct post-transcriptional repression. Many sites that match the miRNA seed (nucleotides 2-7), particularly those in 3' untranslated regions (3'UTRs), are preferentially conserved. Here, we overhauled ou…",
+  "notes": "auto_discovered via openalex; score=0.6558; depth=0",
   "source_files": [
-    "research\\literature\\papers\\robincfriedman2008most.md"
+    "research/literature/papers/robincfriedman2008most.md"
   ],
-  "first_seen": "2026-05-17T20:57:11.746510Z",
-  "last_updated": "2026-05-17T20:57:11.746815Z"
+  "first_seen": "2026-05-17T21:02:38.721896Z",
+  "last_updated": "2026-05-17T21:02:38.722478Z"
 }

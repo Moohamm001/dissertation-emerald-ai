@@ -1,0 +1,35 @@
+{
+  "key": "asimonpickard2007psychometric",
+  "title": "Psychometric Comparison of the Standard EQ-5D to a 5 Level Version in Cancer Patients",
+  "authors": [
+    "A. Simon Pickard",
+    "María Clemente León",
+    "Thomas Kohlmann",
+    "David Cella",
+    "Sarah Rosenbloom"
+  ],
+  "year": 2007,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Medical Care",
+  "doi": "10.1097/01.mlr.0000254515.63841.81",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6157 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Psychometric Comparison of the Standard EQ-5D to a 5 Level Version in Cancer Patients",
+  "notes": "OBJECTIVE: The objectives of this study were: 1) to determine whether expanding the number of levels (ie, response categories) on the standard 3 level EQ-5D (EQ-5D-3L) to 5-levels (EQ-5D-5L) would improve the descriptive richness and ability of the measure to discriminate among d...",
+  "source_files": [
+    "research\\literature\\papers\\asimonpickard2007psychometric.md"
+  ],
+  "first_seen": "2026-05-17T21:07:26.155193Z",
+  "last_updated": "2026-05-17T21:07:26.155548Z"
+}

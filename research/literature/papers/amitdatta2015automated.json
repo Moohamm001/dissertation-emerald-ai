@@ -1,0 +1,33 @@
+{
+  "key": "amitdatta2015automated",
+  "title": "Automated Experiments on Ad Privacy Settings",
+  "authors": [
+    "Amit Datta",
+    "Michael Carl Tschantz",
+    "Anupam Datta"
+  ],
+  "year": 2015,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Proceedings on Privacy Enhancing Technologies",
+  "doi": "10.1515/popets-2015-0007",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6456 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Automated Experiments on Ad Privacy Settings",
+  "notes": "Abstract To partly address people’s concerns over web tracking, Google has created the Ad Settings webpage to provide information about and some choice over the profiles Google creates on users. We present AdFisher, an automated tool that explores how user behaviors, Google’s ads...",
+  "source_files": [
+    "research\\literature\\papers\\amitdatta2015automated.md"
+  ],
+  "first_seen": "2026-05-17T21:08:38.493801Z",
+  "last_updated": "2026-05-17T21:08:38.515839Z"
+}

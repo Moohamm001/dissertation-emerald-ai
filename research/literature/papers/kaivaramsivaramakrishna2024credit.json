@@ -1,0 +1,35 @@
+{
+  "key": "kaivaramsivaramakrishna2024credit",
+  "title": "Credit Scoring for Loan Applicants Using Machine Learning Models",
+  "authors": [
+    "Kaivaram Sivarama Krishna",
+    "Bommala Deepak Kumar",
+    "Morumpalli Deekshith Reddy",
+    "Ch. Saketh",
+    "Manju Venugopalan"
+  ],
+  "year": 2024,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "",
+  "doi": "10.1109/conit61985.2024.10626212",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6094 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Credit Scoring for Loan Applicants Using Machine Learning Models",
+  "notes": "This study presents a comprehensive framework for credit scoring in loan application processes. The research presents a framework that uses data analysis and machine learning techniques to evaluate creditworthiness, in loan applications. By incorporating cutting-edge algorithms l...",
+  "source_files": [
+    "research\\literature\\papers\\kaivaramsivaramakrishna2024credit.md"
+  ],
+  "first_seen": "2026-05-17T21:08:38.338819Z",
+  "last_updated": "2026-05-17T21:08:38.362219Z"
+}

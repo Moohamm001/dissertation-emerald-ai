@@ -931,3 +931,696 @@
   notes: ''
   search_query: 'Green bond issuance and trade credit access: Evidence from Chinese
     bond market'
+- key: carolgrbich1998qualitative
+  authors:
+  - Carol Grbich
+  year: 1998
+  title: 'Qualitative Research in Health: An Introduction'
+  venue: ''
+  doi: null
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W613440488
+  auto_discovered: true
+  auto_score: 0.5661
+  auto_depth: 1
+  notes: 'Preface PART ONE: THEORY AND DESIGN Qualitative Research An Introduction
+    Theory in Research Approaches to the Use of Theoretical Perspectives Research
+    Design Issues PART TWO: TECHNIQUES OF DATA COLLECTION Interviewing Observation
+    PART THREE: METHODOLOGICAL APPROACHES Library-Base...'
+  search_query: 'Qualitative Research in Health: An Introduction'
+- key: asimonpickard2007psychometric
+  authors:
+  - A. Simon Pickard
+  - María Clemente León
+  - Thomas Kohlmann
+  - David Cella
+  - Sarah Rosenbloom
+  year: 2007
+  title: Psychometric Comparison of the Standard EQ-5D to a 5 Level Version in Cancer
+    Patients
+  venue: Medical Care
+  doi: 10.1097/01.mlr.0000254515.63841.81
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1970256118
+  auto_discovered: true
+  auto_score: 0.6157
+  auto_depth: 1
+  notes: 'OBJECTIVE: The objectives of this study were: 1) to determine whether expanding
+    the number of levels (ie, response categories) on the standard 3 level EQ-5D (EQ-5D-3L)
+    to 5-levels (EQ-5D-5L) would improve the descriptive richness and ability of the
+    measure to discriminate among d...'
+  search_query: Psychometric Comparison of the Standard EQ-5D to a 5 Level Version
+    in Cancer Patients
+- key: suzannemskevington1999designing
+  authors:
+  - Suzanne M. Skevington
+  - Christine Tucker
+  year: 1999
+  title: 'Designing response scales for cross‐cultural use in health care: Data from
+    the development of the UK WHOQOL'
+  venue: British Journal of Medical Psychology
+  doi: 10.1348/000711299159817
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1989791505
+  auto_discovered: true
+  auto_score: 0.5853
+  auto_depth: 1
+  notes: Designing response scales for use in cross-cultural situations presents several
+    semantic and conceptual challenges. Here we report response scales designed in
+    the UK, using a method developed collaboratively by the WHOQOL Group to tackle
+    some of these issues. The response scales ...
+  search_query: 'Designing response scales for cross‐cultural use in health care:
+    Data from the development of the UK WHOQOL'
+- key: michaeljbrennan1978corporate
+  authors:
+  - Michael J. Brennan
+  - Eduardo S. Schwartz
+  year: 1978
+  title: Corporate Income Taxes, Valuation, and the Problem of Optimal Capital Structure
+  venue: The Journal of Business
+  doi: 10.1086/295987
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1989562221
+  auto_discovered: true
+  auto_score: 0.5491
+  auto_depth: 1
+  notes: Most aspects of the theory of capital structure and valuation in perfect
+    capital markets with no corporate income tax have by now been investigated.' Somewhat
+    less attention, however, has been directed to the effects of the corporate income
+    tax on the relationship between capital...
+  search_query: Corporate Income Taxes, Valuation, and the Problem of Optimal Capital
+    Structure
+- key: writinggroup2015the
+  authors:
+  - Writing group
+  - Klaudia Walter
+  - Josine L. Min
+  - Jie Huang
+  - Lucy Crooks
+  - Yasin Memari
+  - Shane McCarthy
+  - John R. B. Perry
+  - Changjiang Xu
+  - Marta Futema
+  - Daniel Lawson
+  - Valentina Iotchkova
+  - Stephan Schiffels
+  - Audrey E. Hendricks
+  - Petr Danecek
+  - Rui Li
+  - James S. Floyd
+  - Louise V. Wain
+  - Inês Barroso
+  - Steve E. Humphries
+  - Matthew E. Hurles
+  - Eleftheria Zeggini
+  - Jeffrey C. Barrett
+  - Vincent Plagnol
+  - J. Brent Richards
+  - Celia M. T. Greenwood
+  - Nicholas J. Timpson
+  - Richard Durbin
+  - Nicole Soranzo
+  - Production group
+  - Senduran Bala
+  - Peter Clapham
+  - Guy Coates
+  - Tony Cox
+  - Allan Daly
+  - Petr Danecek
+  - Yuanping Du
+  - Richard Durbin
+  - Sarah Edkins
+  - Peter Ellis
+  - Paul Flicek
+  - Xiaosen Guo
+  - Xueqin Guo
+  - Liren Huang
+  - David K. Jackson
+  - Christopher Joyce
+  - Thomas Keane
+  - Anja Kolb-Kokocinski
+  - Cordelia Langford
+  - Rui Li
+  - Jieqin Liang
+  - Hong Lin
+  - Ryan Liu
+  - John Maslen
+  - Shane McCarthy
+  - Dawn Muddyman
+  - Michael A. Quail
+  - Jim Stalker
+  - Jianping Sun
+  - Jing Tian
+  - Guangbiao Wang
+  - Jun Wang
+  - Yu Wang
+  - Kim Wong
+  - Pingbo Zhang
+  - Cohorts group
+  - Inês Barroso
+  - Ewan Birney
+  - Chris Boustred
+  - Lu Chen
+  - Gail Clement
+  - Massimiliano Cocca
+  - Petr Danecek
+  - George Davey Smith
+  - Ian N.M. Day
+  - Aaron Day-Williams
+  - Thomas A. Down
+  - Ian Dunham
+  - Richard Durbin
+  - David M. Evans
+  - Tom R. Gaunt
+  - Matthias Geihs
+  - Celia M. T. Greenwood
+  - Deborah Hart
+  - Audrey E. Hendricks
+  - Bryan Howie
+  - Jie Huang
+  - Tim Hubbard
+  - Pirro G. Hysi
+  - Valentina Iotchkova
+  - Yalda Jamshidi
+  - Konrad J. Karczewski
+  - John P. Kemp
+  - Geneviève Lachance
+  - Daniel Lawson
+  - Monkol Lek
+  - Margarida Lopes
+  - Daniel G. MacArthur
+  - Jonathan Marchini
+  - Massimo Mangino
+  - Iain Mathieson
+  - Shane McCarthy
+  - Yasin Memari
+  - Sarah Metrustry
+  - Josine L. Min
+  - Alireza Moayyeri
+  - Dawn Muddyman
+  - Kate Northstone
+  - Kalliope Panoutsopoulou
+  - Lavinia Paternoster
+  - John R. B. Perry
+  - Lydia Quaye
+  - J. Brent Richards
+  - Susan Ring
+  - Graham R. S. Ritchie
+  - Stephan Schiffels
+  - Hashem A. Shihab
+  - So–Youn Shin
+  - Kerrin S. Small
+  - María Soler Artigas
+  - Nicole Soranzo
+  - Lorraine Southam
+  - Timothy D. Spector
+  - Beaté St Pourcain
+  - Gabriela Surdulescu
+  - Ioanna Tachmazidou
+  - Nicholas J. Timpson
+  - Martin D. Tobin
+  - Ana M. Valdes
+  - Peter M. Visscher
+  - Louise V. Wain
+  - Klaudia Walter
+  - Kirsten Ward
+  - Scott G. Wilson
+  - Kim Wong
+  - Jian Yang
+  - Eleftheria Zeggini
+  - Feng Zhang
+  - Hou-Feng Zheng
+  - Neurodevelopmental disorders group
+  - Richard Anney
+  - Muhammad Ayub
+  - Jeffrey C. Barrett
+  - Douglas Blackwood
+  - Patrick F. Bolton
+  - Gerome Breen
+  - David Collier
+  - Nick Craddock
+  - Lucy Crooks
+  - Sarah Curran
+  - David Curtis
+  - Richard Durbin
+  - Louise Gallagher
+  - Daniel Geschwind
+  - Hugh Gurling
+  - Peter Holmans
+  - Irene Lee
+  - Jouko Lönnqvist
+  - Shane McCarthy
+  - Peter McGuffin
+  - Andrew M. McIntosh
+  - Andrew G. McKechanie
+  - Andrew McQuillin
+  - James Morris
+  - Dawn Muddyman
+  - Michael O‘Donovan
+  - Michael J. Owen
+  - Aarno Palotie
+  - Jeremy Parr
+  - Tiina Paunio
+  - Olli Pietiläinen
+  - Karola Rehnström
+  - Sally I. Sharp
+  - David Skuse
+  - David St Clair
+  - Jaana Suvisaari
+  - James Walters
+  - Hywel Williams
+  - Obesity group
+  - Inês Barroso
+  - Elena G. Bochukova
+  - Rebecca Bounds
+  - Anna F. Dominiczak
+  - Richard Durbin
+  - I. Sadaf Farooqi
+  - Audrey E. Hendricks
+  - Julia M. Keogh
+  - Gaëlle Marenne
+  - Shane McCarthy
+  - Andrew D. Morris
+  - Dawn Muddyman
+  - Stephen O’Rahilly
+  - David J. Porteous
+  - Blair H. Smith
+  - Ioanna Tachmazidou
+  - Eleanor Wheeler
+  - Eleftheria Zeggini
+  - Rare disease group
+  - Saeed Al Turki
+  - Carl A. Anderson
+  - Dinu Antony
+  - Inês Barroso
+  - Phil Beales
+  - Jamie Bentham
+  - Shoumo Bhattacharya
+  - Mattia Calissano
+  - Keren Carss
+  - Krishna Chatterjee
+  - Sebahattin Çırak
+  - Catherine Cosgrove
+  - Richard Durbin
+  - David Fitzpatrick
+  - James Floyd
+  - A. Reghan Foley
+  - Christopher S. Franklin
+  - Marta Futema
+  - Detelina Grozeva
+  - Steve E. Humphries
+  - Matthew E. Hurles
+  - Shane McCarthy
+  - Hannah M. Mitchison
+  - Dawn Muddyman
+  - Francesco Muntoni
+  - Stephen O’Rahilly
+  - Alexandros Onoufriadis
+  - Victoria Parker
+  - Felicity Payne
+  - Vincent Plagnol
+  - F. Lucy Raymond
+  - Nicola D. Roberts
+  - David B. Savage
+  - Peter Scambler
+  - Miriam Schmidts
+  - Nadia Schoenmakers
+  - Robert K. Semple
+  - Eva Serra
+  - Olivera Spasić-Bošković
+  - Elizabeth Stevens
+  - Margriet van Kogelenberg
+  - Parthiban Vijayarangakannan
+  - Klaudia Walter
+  - Kathleen A. Williamson
+  - Crispian Wilson
+  - Tamieka Whyte
+  - Statistics group
+  - Antonio Ciampi
+  - Celia M. T. Greenwood
+  - Audrey E. Hendricks
+  - Rui Li
+  - Sarah Metrustry
+  - Karim Oualkacha
+  - Ioanna Tachmazidou
+  - Changjiang Xu
+  - Eleftheria Zeggini
+  - Ethics group
+  - Martin Bobrow
+  - Patrick F. Bolton
+  - Richard Durbin
+  - David R. Fitzpatrick
+  - Heather Griffin
+  - Matthew E. Hurles
+  - Jane Kaye
+  - Karen L. Kennedy
+  - Alastair Kent
+  - Dawn Muddyman
+  - Francesco Muntoni
+  - F. Lucy Raymond
+  - Robert K. Semple
+  - Carol Smee
+  - Timothy D. Spector
+  - Nicholas J. Timpson
+  - Incidental findings group
+  - Ruth Charlton
+  - Rosemary Ekong
+  - Marta Futema
+  - Steve E. Humphries
+  - Farrah Khawaja
+  - Luís R. Lopes
+  - Nicola Migone
+  - Stewart J. Payne
+  - Vincent Plagnol
+  - Rebecca C. Pollitt
+  - Sue Povey
+  - Cheryl K. Ridout
+  - Rachel L. Robinson
+  - Richard H. Scott
+  - Adam Shaw
+  - Petros Syrris
+  - Rohan Taylor
+  - Anthony M. Vandersteen
+  - Jeffrey C. Barrett
+  - Inês Barroso
+  - George Davey Smith
+  - Richard Durbin
+  - I. Sadaf Farooqi
+  - David R. Fitzpatrick
+  - Matthew E. Hurles
+  - Jane Kaye
+  - Karen L. Kennedy
+  - Cordelia Langford
+  - Shane McCarthy
+  - Dawn Muddyman
+  - Michael J. Owen
+  - Aarno Palotie
+  - J. Brent Richards
+  - Nicole Soranzo
+  - Timothy D. Spector
+  - Jim Stalker
+  - Nicholas J. Timpson
+  - Eleftheria Zeggini
+  - Lipid meta-analysis group
+  - Antoinette Amuzu
+  - Juan P. Casas
+  - John C. Chambers
+  - Massimiliano Cocca
+  - George Dedoussis
+  - Giovanni Gambaro
+  - Paolo Gasparini
+  - Tom R. Gaunt
+  - Jie Huang
+  - Valentina Iotchkova
+  - Aaron Isaacs
+  - Jon Johnson
+  - Marcus E. Kleber
+  - Jaspal S. Kooner
+  - Claudia Langenberg
+  - Jian’an Luan
+  - Giovanni Malerba
+  - Winfried März
+  - Angela Matchan
+  - Josine L. Min
+  - Richard Morris
+  - Børge G. Nordestgaard
+  - Marianne Benn
+  - Susan Ring
+  - Robert A. Scott
+  - Nicole Soranzo
+  - Lorraine Southam
+  - Nicholas J. Timpson
+  - Daniela Toniolo
+  - Michela Traglia
+  - Anne Tybjærg‐Hansen
+  - Cornelia M. van Duijn
+  - Elisabeth M. van Leeuwen
+  - Anette Varbo
+  - Peter H. Whincup
+  - Gianluigi Zaza
+  - Eleftheria Zeggini
+  - Weihua Zhang
+  year: 2015
+  title: The UK10K project identifies rare variants in health and disease
+  venue: Nature
+  doi: 10.1038/nature14962
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1907868928
+  auto_discovered: true
+  auto_score: 0.6519
+  auto_depth: 1
+  notes: The contribution of rare and low-frequency variants to human traits is largely
+    unexplored. Here we describe insights from sequencing whole genomes (low read
+    depth, 7×) or exomes (high read depth, 80×) of nearly 10,000 individuals from
+    population-based and disease collections. In ...
+  search_query: The UK10K project identifies rare variants in health and disease
+- key: jennaburrell2016how
+  authors:
+  - Jenna Burrell
+  year: 2016
+  title: 'How the machine ‘thinks’: Understanding opacity in machine learning algorithms'
+  venue: Big Data & Society
+  doi: 10.1177/2053951715622512
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W3122548859
+  auto_discovered: true
+  auto_score: 0.662
+  auto_depth: 0
+  notes: This article considers the issue of opacity as a problem for socially consequential
+    mechanisms of classification and ranking, such as spam filters, credit card fraud
+    detection, search engines, news trends, market segmentation and advertising, insurance
+    or loan qualification, and ...
+  search_query: 'How the machine ‘thinks’: Understanding opacity in machine learning
+    algorithms'
+- key: bernarddushimimana2020use
+  authors:
+  - Bernard Dushimimana
+  - Yvonne Wambui
+  - Timothy Lubega
+  - Patrick McSharry
+  year: 2020
+  title: Use of Machine Learning Techniques to Create a Credit Score Model for Airtime
+    Loans
+  venue: Journal of risk and financial management
+  doi: 10.3390/jrfm13080180
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W3048514459
+  auto_discovered: true
+  auto_score: 0.6229
+  auto_depth: 0
+  notes: Airtime lending default rates are typically lower than those experienced
+    by banks and microfinance institutions (MFIs) but are likely to grow as the service
+    is offered more widely. In this paper, credit scoring techniques are reviewed,
+    and that knowledge is built upon to create a...
+  search_query: Use of Machine Learning Techniques to Create a Credit Score Model
+    for Airtime Loans
+- key: azarianatasha2019credit
+  authors:
+  - Azaria Natasha
+  - Dedy Dwi Prastyo
+  - Suhartono Suhartono
+  year: 2019
+  title: Credit scoring to classify consumer loan using machine learning
+  venue: AIP conference proceedings
+  doi: 10.1063/1.5139802
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2995133945
+  auto_discovered: true
+  auto_score: 0.611
+  auto_depth: 0
+  notes: Credit risk is a potential loss caused by the inability of the debtor to
+    the obligations of debt repayment of either principal or interest debt or both.
+    The classification of credit risk in the financial sector has an essential role
+    in mapping the consumer risk. The wrong classif...
+  search_query: Credit scoring to classify consumer loan using machine learning
+- key: jennaburrell2015how
+  authors:
+  - Jenna Burrell
+  year: 2015
+  title: How the Machine 'Thinks:' Understanding Opacity in Machine Learning Algorithms
+  venue: SSRN Electronic Journal
+  doi: 10.2139/ssrn.2660674
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2189632871
+  auto_discovered: true
+  auto_score: 0.4552
+  auto_depth: 0
+  notes: ''
+  search_query: How the Machine 'Thinks:' Understanding Opacity in Machine Learning
+    Algorithms
+- key: kaivaramsivaramakrishna2024credit
+  authors:
+  - Kaivaram Sivarama Krishna
+  - Bommala Deepak Kumar
+  - Morumpalli Deekshith Reddy
+  - Ch. Saketh
+  - Manju Venugopalan
+  year: 2024
+  title: Credit Scoring for Loan Applicants Using Machine Learning Models
+  venue: ''
+  doi: 10.1109/conit61985.2024.10626212
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W4401597881
+  auto_discovered: true
+  auto_score: 0.6094
+  auto_depth: 0
+  notes: This study presents a comprehensive framework for credit scoring in loan
+    application processes. The research presents a framework that uses data analysis
+    and machine learning techniques to evaluate creditworthiness, in loan applications.
+    By incorporating cutting-edge algorithms l...
+  search_query: Credit Scoring for Loan Applicants Using Machine Learning Models
+- key: frankpasquale2016the
+  authors:
+  - Frank Pasquale
+  year: 2016
+  title: 'The Black Box Society: The Secret Algorithms That Control Money and Information'
+  venue: Contemporary Sociology A Journal of Reviews
+  doi: 10.1177/0094306116641409c
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W202799293
+  auto_discovered: true
+  auto_score: 0.6557
+  auto_depth: 1
+  notes: Every day, corporations are connecting the dots about our personal behavior—silently
+    scrutinizing clues left behind by our work habits and Internet use. The data compiled
+    and portraits created are incredibly detailed, to the point of being invasive.
+    But who connects the dots abou...
+  search_query: 'The Black Box Society: The Secret Algorithms That Control Money and
+    Information'
+- key: jennaburrell2012invisible
+  authors:
+  - Jenna Burrell
+  year: 2012
+  title: 'Invisible Users: Youth in the Internet Cafés of Urban Ghana'
+  venue: ''
+  doi: null
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W606820417
+  auto_discovered: true
+  auto_score: 0.6215
+  auto_depth: 1
+  notes: An account of how young people in Ghana's capital city adopt and adapt digital
+    technology in the margins of the global economy. The urban youth frequenting the
+    Internet cafes of Accra, Ghana, who are decidedly not members of their country's
+    elite, use the Internet largely as a wa...
+  search_query: 'Invisible Users: Youth in the Internet Cafés of Urban Ghana'
+- key: amitdatta2015automated
+  authors:
+  - Amit Datta
+  - Michael Carl Tschantz
+  - Anupam Datta
+  year: 2015
+  title: Automated Experiments on Ad Privacy Settings
+  venue: Proceedings on Privacy Enhancing Technologies
+  doi: 10.1515/popets-2015-0007
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1648303880
+  auto_discovered: true
+  auto_score: 0.6456
+  auto_depth: 1
+  notes: Abstract To partly address people’s concerns over web tracking, Google has
+    created the Ad Settings webpage to provide information about and some choice over
+    the profiles Google creates on users. We present AdFisher, an automated tool that
+    explores how user behaviors, Google’s ads...
+  search_query: Automated Experiments on Ad Privacy Settings
+- key: irenelee2011computational
+  authors:
+  - Irene Lee
+  - Fred Martin
+  - Jill Denner
+  - Bob Coulter
+  - Walter C. Allan
+  - Jeri Erickson
+  - Joyce Malyn‐Smith
+  - Linda Werner
+  year: 2011
+  title: Computational thinking for youth in practice
+  venue: ACM Inroads
+  doi: 10.1145/1929887.1929902
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1990060255
+  auto_discovered: true
+  auto_score: 0.6372
+  auto_depth: 1
+  notes: Computational thinking (CT) has been described as the use of abstraction,
+    automation, and analysis in problem-solving [3]. We examine how these ways of
+    thinking take shape for middle and high school youth in a set of NSF-supported
+    programs. We discuss opportunities and challenges...
+  search_query: Computational thinking for youth in practice
+- key: oscarhgandy2009engaging
+  authors:
+  - Oscar H. Gandy
+  year: 2009
+  title: 'Engaging rational discrimination: exploring reasons for placing regulatory
+    constraints on decision support systems'
+  venue: Ethics and Information Technology
+  doi: 10.1007/s10676-009-9198-6
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2021362544
+  auto_discovered: true
+  auto_score: 0.4996
+  auto_depth: 1
+  notes: ''
+  search_query: 'Engaging rational discrimination: exploring reasons for placing regulatory
+    constraints on decision support systems'

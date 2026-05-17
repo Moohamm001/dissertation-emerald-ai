@@ -12,27 +12,39 @@
     "Xavier Badı́a"
   ],
   "year": 2011,
-  "abstract": "",
-  "methodology": "_(to be filled in)_",
+  "abstract": "PURPOSE: This article introduces the new 5-level EQ-5D (EQ-5D-5L) health status measure. METHODS: EQ-5D currently measures health using three levels of severity in five dimensions. A EuroQol Group task force was established to find ways of improving the instrument's sensitivity and reducing ceiling effects by increasing the number of severity levels. The study was performed in the United Kingdom and Spain. Severity labels for 5 levels in each dimension were identified using response scaling. Focus groups were used to investigate the face and content validity of the new versions, including hypothetical health states generated from those versions. RESULTS: Selecting labels at approximately the 25th, 50th, and 75th centiles produced two alternative 5-level versions. Focus group work showed a slight preference for the wording 'slight-moderate-severe' problems, with anchors of 'no problems' and 'unable to do' in the EQ-5D functional dimensions. Similar wording was used in the Pain/Discomfort and Anxiety/Depression dimensions. Hypothetical health states were well understood though participants stressed the need for the internal coherence of health states. CONCLUSIONS: A 5-level version of the EQ-5D has been developed by the EuroQol Group. Further testing is required to determine whether the new version improves sensitivity and reduces ceiling effects.",
+  "methodology": "",
   "contributions": [],
   "weaknesses": [],
   "future_works": [],
   "referenced_papers": [],
-  "important_keywords": [],
+  "important_keywords": [
+    "Quality of Life Research",
+    "Public health",
+    "EQ-5D",
+    "Environmental health",
+    "Psychology",
+    "Medicine",
+    "MEDLINE",
+    "Health related quality of life",
+    "Political science",
+    "Nursing",
+    "Law"
+  ],
   "venue": "Quality of Life Research",
   "doi": "10.1007/s11136-011-9903-x",
   "institutions": [],
   "themes": [],
   "relevance": "medium",
-  "emerald_relevance": "_(auto_score=0.6274 — review and re-classify)_",
-  "confidence": "medium",
+  "emerald_relevance": "",
+  "confidence": "low",
   "verified": false,
   "status": "indexed",
   "search_query": "Development and preliminary testing of the new five-level version of EQ-5D (EQ-5D-5L)",
-  "notes": "PURPOSE: This article introduces the new 5-level EQ-5D (EQ-5D-5L) health status measure. METHODS: EQ-5D currently measures health using three levels of severity in five dimensions. A EuroQol Group task force was established to find ways of improving the instrument's sensitivity a…",
+  "notes": "auto_discovered via openalex; score=0.6649; depth=0",
   "source_files": [
-    "research\\literature\\papers\\michaelherdman2011development.md"
+    "research/literature/papers/michaelherdman2011development.md"
   ],
-  "first_seen": "2026-05-17T20:57:11.669982Z",
-  "last_updated": "2026-05-17T20:57:11.670278Z"
+  "first_seen": "2026-05-17T21:02:38.519146Z",
+  "last_updated": "2026-05-17T21:02:38.519754Z"
 }

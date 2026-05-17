@@ -1,0 +1,33 @@
+{
+  "key": "azarianatasha2019credit",
+  "title": "Credit scoring to classify consumer loan using machine learning",
+  "authors": [
+    "Azaria Natasha",
+    "Dedy Dwi Prastyo",
+    "Suhartono Suhartono"
+  ],
+  "year": 2019,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "AIP conference proceedings",
+  "doi": "10.1063/1.5139802",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.611 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Credit scoring to classify consumer loan using machine learning",
+  "notes": "Credit risk is a potential loss caused by the inability of the debtor to the obligations of debt repayment of either principal or interest debt or both. The classification of credit risk in the financial sector has an essential role in mapping the consumer risk. The wrong classif...",
+  "source_files": [
+    "research\\literature\\papers\\azarianatasha2019credit.md"
+  ],
+  "first_seen": "2026-05-17T21:08:38.259968Z",
+  "last_updated": "2026-05-17T21:08:38.277392Z"
+}

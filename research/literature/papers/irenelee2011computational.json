@@ -1,0 +1,38 @@
+{
+  "key": "irenelee2011computational",
+  "title": "Computational thinking for youth in practice",
+  "authors": [
+    "Irene Lee",
+    "Fred Martin",
+    "Jill Denner",
+    "Bob Coulter",
+    "Walter C. Allan",
+    "Jeri Erickson",
+    "Joyce Malyn‐Smith",
+    "Linda Werner"
+  ],
+  "year": 2011,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "ACM Inroads",
+  "doi": "10.1145/1929887.1929902",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6372 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Computational thinking for youth in practice",
+  "notes": "Computational thinking (CT) has been described as the use of abstraction, automation, and analysis in problem-solving [3]. We examine how these ways of thinking take shape for middle and high school youth in a set of NSF-supported programs. We discuss opportunities and challenges...",
+  "source_files": [
+    "research\\literature\\papers\\irenelee2011computational.md"
+  ],
+  "first_seen": "2026-05-17T21:08:38.542094Z",
+  "last_updated": "2026-05-17T21:08:38.566668Z"
+}

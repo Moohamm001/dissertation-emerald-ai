@@ -1,0 +1,355 @@
+{
+  "W1434895811": {
+    "depth": 1,
+    "doi": "10.4992/psycholres1954.13.45",
+    "outcome": "rejected",
+    "score": 0.0516,
+    "seen_at": "2026-05-17T21:02:40+00:00",
+    "source": "openalex",
+    "title": "EFFECTS OF CATEGORIZING CONTINUOUS NORMAL VARIABLES ON PRODUCT-MOMENT CORRELATION"
+  },
+  "W1489560552": {
+    "depth": 1,
+    "doi": "10.1007/1-4020-3712-0_3",
+    "outcome": "rejected",
+    "score": 0.201,
+    "seen_at": "2026-05-17T21:02:41+00:00",
+    "source": "openalex",
+    "title": "The number of levels in the descriptive system"
+  },
+  "W1540016313": {
+    "depth": 1,
+    "doi": "10.22230/cjc.2014v39n4a2957",
+    "outcome": "rejected",
+    "score": 0.2252,
+    "seen_at": "2026-05-17T21:08:27+00:00",
+    "source": "openalex",
+    "title": "Media Technologies: Essays on Communication, Materiality, and Society."
+  },
+  "W1546993880": {
+    "depth": 1,
+    "doi": null,
+    "outcome": "rejected",
+    "score": 0.2441,
+    "seen_at": "2026-05-17T21:02:51+00:00",
+    "source": "openalex",
+    "title": "CORPORATE INCOME TAXES AND THE COST OF CAPITAL: A CORRECTION"
+  },
+  "W1558926949": {
+    "depth": 1,
+    "doi": "10.1023/a:1024933913698",
+    "outcome": "rejected",
+    "score": 0.4043,
+    "seen_at": "2026-05-17T21:02:42+00:00",
+    "source": "openalex",
+    "title": "Using the EuroQoI 5-D in the Catalan general population: feasibility and construct validity."
+  },
+  "W1587278688": {
+    "depth": 1,
+    "doi": "10.2307/2326624",
+    "outcome": "rejected",
+    "score": 0.26,
+    "seen_at": "2026-05-17T21:02:52+00:00",
+    "source": "openalex",
+    "title": "Super Premium Security Prices and Optimal Corporate Financing Decisions: Discussion"
+  },
+  "W1648303880": {
+    "depth": 1,
+    "doi": "10.1515/popets-2015-0007",
+    "key": "amitdatta2015automated",
+    "outcome": "accepted",
+    "score": 0.6456,
+    "seen_at": "2026-05-17T21:08:29+00:00",
+    "source": "openalex",
+    "title": "Automated Experiments on Ad Privacy Settings"
+  },
+  "W1907868928": {
+    "depth": 1,
+    "doi": "10.1038/nature14962",
+    "key": "writinggroup2015the",
+    "outcome": "accepted",
+    "score": 0.6519,
+    "seen_at": "2026-05-17T21:03:02+00:00",
+    "source": "openalex",
+    "title": "The UK10K project identifies rare variants in health and disease"
+  },
+  "W1970256118": {
+    "depth": 1,
+    "doi": "10.1097/01.mlr.0000254515.63841.81",
+    "key": "asimonpickard2007psychometric",
+    "outcome": "accepted",
+    "score": 0.6157,
+    "seen_at": "2026-05-17T21:02:44+00:00",
+    "source": "openalex",
+    "title": "Psychometric Comparison of the Standard EQ-5D to a 5 Level Version in Cancer Patients"
+  },
+  "W1977213233": {
+    "depth": 1,
+    "doi": "10.1037/h0076268",
+    "outcome": "rejected",
+    "score": 0.1673,
+    "seen_at": "2026-05-17T21:02:45+00:00",
+    "source": "openalex",
+    "title": "Effect of the number of scale points on reliability: A Monte Carlo approach."
+  },
+  "W1981786835": {
+    "depth": 1,
+    "doi": "10.1016/j.jclinepi.2010.04.010",
+    "outcome": "rejected",
+    "score": 0.2687,
+    "seen_at": "2026-05-17T21:02:46+00:00",
+    "source": "openalex",
+    "title": "Five preference-based indexes in cataract and heart failure patients were not equally responsive to change"
+  },
+  "W1985461779": {
+    "depth": 1,
+    "doi": "10.1016/0304-405x(75)90008-2",
+    "outcome": "rejected",
+    "score": 0.2536,
+    "seen_at": "2026-05-17T21:02:53+00:00",
+    "source": "openalex",
+    "title": "Bank funds management in an efficient market"
+  },
+  "W1989562221": {
+    "depth": 1,
+    "doi": "10.1086/295987",
+    "key": "michaeljbrennan1978corporate",
+    "outcome": "accepted",
+    "score": 0.5491,
+    "seen_at": "2026-05-17T21:02:54+00:00",
+    "source": "openalex",
+    "title": "Corporate Income Taxes, Valuation, and the Problem of Optimal Capital Structure"
+  },
+  "W1989791505": {
+    "depth": 1,
+    "doi": "10.1348/000711299159817",
+    "key": "suzannemskevington1999designing",
+    "outcome": "accepted",
+    "score": 0.5853,
+    "seen_at": "2026-05-17T21:02:47+00:00",
+    "source": "openalex",
+    "title": "Designing response scales for cross\u2010cultural use in health care: Data from the development of the UK WHOQOL"
+  },
+  "W1990060255": {
+    "depth": 1,
+    "doi": "10.1145/1929887.1929902",
+    "key": "irenelee2011computational",
+    "outcome": "accepted",
+    "score": 0.6372,
+    "seen_at": "2026-05-17T21:08:30+00:00",
+    "source": "openalex",
+    "title": "Computational thinking for youth in practice"
+  },
+  "W1990166011": {
+    "depth": 0,
+    "doi": "10.1007/s11136-011-9903-x",
+    "key": "michaelherdman2011development",
+    "outcome": "accepted",
+    "score": 0.6649,
+    "seen_at": "2026-05-17T21:02:38+00:00",
+    "source": "openalex",
+    "title": "Development and preliminary testing of the new five-level version of EQ-5D (EQ-5D-5L)"
+  },
+  "W1995543590": {
+    "depth": 1,
+    "doi": "10.1111/j.1540-6261.1959.tb01581.x",
+    "outcome": "rejected",
+    "score": 0.1244,
+    "seen_at": "2026-05-17T21:02:56+00:00",
+    "source": "openalex",
+    "title": "THE POSTWAR MARKET FOR CORPORATE SECURITIES: 1946\u201355"
+  },
+  "W1997658425": {
+    "depth": 1,
+    "doi": "10.1111/j.1540-6261.1967.tb01650.x",
+    "outcome": "rejected",
+    "score": 0.1691,
+    "seen_at": "2026-05-17T21:02:57+00:00",
+    "source": "openalex",
+    "title": "SOME SURROGATE EVIDENCE IN SUPPORT OF THE CONCEPT OF OPTIMAL FINANCIAL STRUCTUREY*"
+  },
+  "W2001755462": {
+    "depth": 1,
+    "doi": "10.2307/2325897",
+    "outcome": "rejected",
+    "score": 0.1447,
+    "seen_at": "2026-05-17T21:02:58+00:00",
+    "source": "openalex",
+    "title": "The Taxation of Income from Capital."
+  },
+  "W2003644932": {
+    "depth": 1,
+    "doi": "10.1016/0304-405x(74)90006-3",
+    "outcome": "rejected",
+    "score": 0.2478,
+    "seen_at": "2026-05-17T21:02:59+00:00",
+    "source": "openalex",
+    "title": "The effects of dividend yield and dividend policy on common stock prices and returns"
+  },
+  "W2006106130": {
+    "depth": 1,
+    "doi": "10.2307/2231306",
+    "outcome": "rejected",
+    "score": 0.3593,
+    "seen_at": "2026-05-17T21:03:00+00:00",
+    "source": "openalex",
+    "title": "Taxes, the Cost of Capital and the Theory of Investment"
+  },
+  "W2008772268": {
+    "depth": 1,
+    "doi": "10.1007/s11136-004-0612-6",
+    "outcome": "rejected",
+    "score": 0.3811,
+    "seen_at": "2026-05-17T21:02:49+00:00",
+    "source": "openalex",
+    "title": "Variation in Chinese population health related quality of life: Results from a EuroQol study in Beijing, China"
+  },
+  "W2021362544": {
+    "depth": 1,
+    "doi": "10.1007/s10676-009-9198-6",
+    "key": "oscarhgandy2009engaging",
+    "outcome": "accepted",
+    "score": 0.4996,
+    "seen_at": "2026-05-17T21:08:31+00:00",
+    "source": "openalex",
+    "title": "Engaging rational discrimination: exploring reasons for placing regulatory constraints on decision support systems"
+  },
+  "W2026570544": {
+    "depth": 0,
+    "doi": "10.1101/gr.082701.108",
+    "key": "robincfriedman2008most",
+    "outcome": "accepted",
+    "score": 0.6558,
+    "seen_at": "2026-05-17T21:02:38+00:00",
+    "source": "openalex",
+    "title": "Most mammalian mRNAs are conserved targets of microRNAs"
+  },
+  "W202799293": {
+    "depth": 1,
+    "doi": "10.1177/0094306116641409c",
+    "key": "frankpasquale2016the",
+    "outcome": "accepted",
+    "score": 0.6557,
+    "seen_at": "2026-05-17T21:08:25+00:00",
+    "source": "openalex",
+    "title": "The Black Box Society: The Secret Algorithms That Control Money and Information"
+  },
+  "W2104549677": {
+    "depth": 0,
+    "doi": "10.1038/nature15393",
+    "key": "correspondingauthors2015a",
+    "outcome": "accepted",
+    "score": 0.675,
+    "seen_at": "2026-05-17T21:02:38+00:00",
+    "source": "openalex",
+    "title": "A global reference for human genetic variation"
+  },
+  "W2153524047": {
+    "depth": 0,
+    "doi": "10.1111/j.1540-6261.1977.tb03267.x",
+    "key": "mertonhmiller1977debt",
+    "outcome": "accepted",
+    "score": 0.5668,
+    "seen_at": "2026-05-17T21:02:38+00:00",
+    "source": "openalex",
+    "title": "DEBT AND TAXES*"
+  },
+  "W2189632871": {
+    "depth": 0,
+    "doi": "10.2139/ssrn.2660674",
+    "key": "jennaburrell2015how",
+    "outcome": "accepted",
+    "score": 0.4552,
+    "seen_at": "2026-05-17T21:08:23+00:00",
+    "source": "openalex",
+    "title": "How the Machine 'Thinks:' Understanding Opacity in Machine Learning Algorithms"
+  },
+  "W259376022": {
+    "depth": 1,
+    "doi": "10.2307/1121235",
+    "outcome": "rejected",
+    "score": 0.1333,
+    "seen_at": "2026-05-17T21:02:50+00:00",
+    "source": "openalex",
+    "title": "Bankruptcy: Problem, Process, Reform"
+  },
+  "W2995133945": {
+    "depth": 0,
+    "doi": "10.1063/1.5139802",
+    "key": "azarianatasha2019credit",
+    "outcome": "accepted",
+    "score": 0.611,
+    "seen_at": "2026-05-17T21:08:22+00:00",
+    "source": "openalex",
+    "title": "Credit scoring to classify consumer loan using machine learning"
+  },
+  "W3048514459": {
+    "depth": 0,
+    "doi": "10.3390/jrfm13080180",
+    "key": "bernarddushimimana2020use",
+    "outcome": "accepted",
+    "score": 0.6229,
+    "seen_at": "2026-05-17T21:08:20+00:00",
+    "source": "openalex",
+    "title": "Use of Machine Learning Techniques to Create a Credit Score Model for Airtime Loans"
+  },
+  "W3122548859": {
+    "depth": 0,
+    "doi": "10.1177/2053951715622512",
+    "key": "jennaburrell2016how",
+    "outcome": "accepted",
+    "score": 0.662,
+    "seen_at": "2026-05-17T21:08:19+00:00",
+    "source": "openalex",
+    "title": "How the machine \u2018thinks\u2019: Understanding opacity in machine learning algorithms"
+  },
+  "W4389522319": {
+    "depth": 0,
+    "doi": "10.1016/j.frl.2023.104842",
+    "key": "xiaodonggan2023green",
+    "outcome": "accepted",
+    "score": 0.6264,
+    "seen_at": "2026-05-17T21:02:38+00:00",
+    "source": "openalex",
+    "title": "Green bond issuance and trade credit access: Evidence from Chinese bond market"
+  },
+  "W4401597881": {
+    "depth": 0,
+    "doi": "10.1109/conit61985.2024.10626212",
+    "key": "kaivaramsivaramakrishna2024credit",
+    "outcome": "accepted",
+    "score": 0.6094,
+    "seen_at": "2026-05-17T21:08:24+00:00",
+    "source": "openalex",
+    "title": "Credit Scoring for Loan Applicants Using Machine Learning Models"
+  },
+  "W606820417": {
+    "depth": 1,
+    "doi": null,
+    "key": "jennaburrell2012invisible",
+    "outcome": "accepted",
+    "score": 0.6215,
+    "seen_at": "2026-05-17T21:08:26+00:00",
+    "source": "openalex",
+    "title": "Invisible Users: Youth in the Internet Caf\u00e9s of Urban Ghana"
+  },
+  "W613440488": {
+    "depth": 1,
+    "doi": null,
+    "key": "carolgrbich1998qualitative",
+    "outcome": "accepted",
+    "score": 0.5661,
+    "seen_at": "2026-05-17T21:02:38+00:00",
+    "source": "openalex",
+    "title": "Qualitative Research in Health: An Introduction"
+  },
+  "W620692877": {
+    "depth": 1,
+    "doi": "10.1007/1-4020-3712-0",
+    "outcome": "rejected",
+    "score": 0.2706,
+    "seen_at": "2026-05-17T21:02:39+00:00",
+    "source": "openalex",
+    "title": "EQ-5D concepts and methods: A developmental history"
+  }
+}

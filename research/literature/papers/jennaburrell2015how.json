@@ -1,0 +1,31 @@
+{
+  "key": "jennaburrell2015how",
+  "title": "How the Machine 'Thinks:' Understanding Opacity in Machine Learning Algorithms",
+  "authors": [
+    "Jenna Burrell"
+  ],
+  "year": 2015,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "SSRN Electronic Journal",
+  "doi": "10.2139/ssrn.2660674",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.4552 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "How the Machine 'Thinks:' Understanding Opacity in Machine Learning Algorithms",
+  "notes": "",
+  "source_files": [
+    "research\\literature\\papers\\jennaburrell2015how.md"
+  ],
+  "first_seen": "2026-05-17T21:08:38.298760Z",
+  "last_updated": "2026-05-17T21:08:38.315330Z"
+}
