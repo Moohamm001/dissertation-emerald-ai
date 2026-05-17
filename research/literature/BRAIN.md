@@ -43,19 +43,29 @@ If you (Claude in a future session) are asked anything about the literature, cit
 - 8/8 themes drafted (matching `proposal_second_draft.docx` §4.1–4.8)
 - 34/62 paper files written with full structured notes; the remaining 28 are stubbed in `index.yaml` with metadata only — expand on demand
 - Gap log seeded with 10 literature gaps + 5 methodology gaps
-- Machine-readable state (`literature/state/`) auto-populated by the research engine: 34 JSON sidecars, 80 citation edges, 179 authors, 22 methods, 9 datasets, 15 research questions
+- Machine-readable state (`research/literature/state/`) auto-populated by the research engine: 34 JSON sidecars, 80 citation edges, 179 authors, 22 methods, 9 datasets, 15 research questions
 
 ## Automation
 
-The brain is driven by `src/emerald_ai/research/` — an idempotent engine implementing the workflow in `research_automation.txt`. It reads the existing brain, parses paper markdowns into the 10-field schema (title/authors/year/abstract/methodology/contributions/weaknesses/future_works/referenced_papers/keywords), writes JSON sidecars per paper, builds the citation graph from `[[wiki-links]]`, rolls up authors/institutions/methods/datasets/keywords, and generates research questions from `gaps.md`.
+The brain is driven by `src/emerald_ai/research/` — an idempotent engine + an autonomous discovery bot, jointly implementing the workflow in `research/automation.txt`.
+
+**Engine** (`engine.py`): reads the existing brain, parses paper markdowns into the 10-field schema (title/authors/year/abstract/methodology/contributions/weaknesses/future_works/referenced_papers/keywords), writes JSON sidecars per paper, builds the citation graph from `[[wiki-links]]`, rolls up authors/institutions/methods/datasets/keywords, and generates research questions from `gaps.md`.
+
+**Discovery bot** (`discovery.py` + `sources/openalex.py`): grows the brain by BFS-traversing the OpenAlex citation graph from seeds (existing papers, a free-text query, or an explicit `--seed` ID). Pure-Python relevance scoring (keyword + citation overlap + recency + quality), saturation-aware, politeness-throttled, on-disk-cached. Bot-discovered papers go into a **separate** `research/literature/auto_index.yaml` and carry `auto_discovered: true` in their frontmatter, so the human-curated `index.yaml` is never modified by the bot.
 
 ```bash
-make research            # one-shot sweep
-emerald research run     # same, via CLI
-emerald research status  # current counts
+# Engine — consume the existing brain
+python -m emerald_ai research run       # one-shot sweep, idempotent
+python -m emerald_ai research status    # current counts
+python -m emerald_ai research show <key>
+
+# Discovery bot — grow the brain
+python -m emerald_ai research discover --query "explainable green credit scoring"
+python -m emerald_ai research discover --depth 2 --max 20
+python -m emerald_ai research bot --rounds 5
 ```
 
-Hand-edit the markdown + YAML; never hand-edit `literature/state/*.json` — they regenerate.
+Hand-edit the markdown + YAML; never hand-edit `research/literature/state/*.json` — they regenerate.
 
 ## Operational rules for future-me
 

@@ -37,6 +37,9 @@ mlartifacts/
 .dvc/cache
 .dvc/tmp
 
+# Research-bot HTTP cache (regenerable; large; gitignored)
+research/literature/state/cache/
+
 # ─────────────────────────────────────────────────────────────
 # Secrets & local config
 # ─────────────────────────────────────────────────────────────

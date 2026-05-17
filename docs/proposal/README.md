@@ -25,8 +25,8 @@ The script writes `proposal_second_draft.docx` next to itself. The .docx is git-
 ## Editing protocol
 
 1. Major restructuring → edit `build_proposal.py`, rerun, review docx, commit both.
-2. Theme-level content → consider editing the corresponding `literature/themes/4.X-*.md` first (which is the source of truth for argumentative prose), then mirror into `build_proposal.py`.
-3. New citation → add to `literature/index.yaml`, optionally add a `literature/papers/<key>.md`, then cite from the proposal.
+2. Theme-level content → consider editing the corresponding `research/literature/themes/4.X-*.md` first (which is the source of truth for argumentative prose), then mirror into `build_proposal.py`.
+3. New citation → add to `research/literature/index.yaml`, optionally add a `research/literature/papers/<key>.md`, then cite from the proposal.
 
 ## Versions
 

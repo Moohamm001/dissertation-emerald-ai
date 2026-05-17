@@ -1,125 +1,120 @@
+# EMERALD-AI Makefile — thin wrapper around the Python CLI.
+#
+# Every target below delegates to `python -m emerald_ai <command>`. The CLI is
+# the source of truth; this Makefile exists only as a convenience for Unix
+# users who prefer typing `make test` over `python -m emerald_ai test`.
+#
+# Windows users can ignore this file entirely and use one of:
+#     python emerald.py <command>       (zero-install launcher)
+#     python -m emerald_ai <command>    (after pip install -e .)
+#     emerald <command>                 (after install, Scripts on PATH)
+#
+# See `python emerald.py --help` for the full command list.
+
 .DEFAULT_GOAL := help
-SHELL := /bin/bash
-
-# Tools
-UV ?= uv
 PY ?= python
-PYTEST ?= pytest
-RUFF ?= ruff
-BLACK ?= black
-MYPY ?= mypy
 
-# ─────────────────────────────────────────────────────────────
-.PHONY: help
+.PHONY: help install install-all setup-hooks lint format typecheck test test-fast \
+        test-cov check eda preprocess train evaluate explain audit reproduce \
+        proposal literature research research-force research-status research-graph \
+        api web docker-up docker-down clean clean-all
+
 help:  ## Show this help
-	@awk 'BEGIN {FS = ":.*##"; printf "\nEMERALD-AI — make targets:\n\n"} \
+	@awk 'BEGIN {FS = ":.*##"; printf "\nEMERALD-AI — make targets (Unix convenience wrappers):\n\n"} \
 		/^[a-zA-Z_-]+:.*?##/ { printf "  \033[36m%-18s\033[0m %s\n", $$1, $$2 } \
 		/^##@/ { printf "\n\033[1m%s\033[0m\n", substr($$0, 5) }' $(MAKEFILE_LIST)
+	@echo ""
+	@echo "Windows users: use 'python emerald.py <command>' or 'python -m emerald_ai <command>' instead."
 
 ##@ Setup
-.PHONY: install install-all
-install:  ## Install runtime + dev deps
-	$(UV) sync --extra dev
+install:           ## Install runtime + dev deps (uv preferred, falls back to pip)
+	@command -v uv >/dev/null 2>&1 && uv sync --extra dev --extra docs || pip install -e ".[dev,docs]"
 
-install-all:  ## Install everything (ml, dl, xai, mlops, api, docs, dev)
-	$(UV) sync --extra all
+install-all:       ## Install every optional extra (ml, dl, xai, mlops, api, docs, dev)
+	@command -v uv >/dev/null 2>&1 && uv sync --extra all || pip install -e ".[all]"
 
-.PHONY: setup-hooks
-setup-hooks:  ## Install pre-commit git hooks
+setup-hooks:       ## Install pre-commit git hooks
 	pre-commit install
 
 ##@ Quality
-.PHONY: lint format typecheck check
-lint:  ## Run ruff + black --check
-	$(RUFF) check src tests api
-	$(BLACK) --check src tests api
+lint:              ## ruff + black --check
+	$(PY) -m emerald_ai lint
 
-format:  ## Auto-format code (ruff + black)
-	$(RUFF) check --fix src tests api
-	$(BLACK) src tests api
+format:            ## ruff --fix + black
+	$(PY) -m emerald_ai format
 
-typecheck:  ## Run mypy in strict mode
-	$(MYPY) src
+typecheck:         ## mypy strict
+	$(PY) -m emerald_ai typecheck
 
-check: lint typecheck test  ## All quality gates
+test:              ## pytest with coverage
+	$(PY) -m emerald_ai test
 
-##@ Tests
-.PHONY: test test-fast test-cov
-test:  ## Run full pytest suite with coverage
-	$(PYTEST)
+test-fast:         ## skip slow + integration tests
+	$(PY) -m emerald_ai test --fast
 
-test-fast:  ## Run only fast tests (skip slow + integration)
-	$(PYTEST) -m "not slow and not integration"
+test-cov:          ## pytest + open HTML coverage report
+	$(PY) -m emerald_ai test --cov
 
-test-cov:  ## Run tests with HTML coverage report
-	$(PYTEST) --cov-report=html
-	@echo "Open htmlcov/index.html"
+check:             ## lint + typecheck + test
+	$(PY) -m emerald_ai check
 
-##@ Pipeline
-.PHONY: eda preprocess train evaluate explain audit reproduce
-eda:  ## Run exploratory data analysis (will populate notebooks/eda outputs)
-	@echo "TODO: wire to src/emerald_ai/cli.py eda"
+##@ Pipeline (stubs until ML implementation lands)
+eda:               ## Run exploratory data analysis (proposal §5.4)
+	$(PY) -m emerald_ai eda
 
-preprocess:  ## Build the preprocessing pipeline + feature catalogue
-	@echo "TODO: wire to src/emerald_ai/cli.py preprocess"
+preprocess:        ## Build preprocessing pipeline (proposal §5.3, §5.5, §5.7)
+	$(PY) -m emerald_ai preprocess
 
-train:  ## Train all six model families under nested CV
-	@echo "TODO: wire to src/emerald_ai/cli.py train --all"
+train:             ## Train all model families (proposal §5.8, §5.9)
+	$(PY) -m emerald_ai train --model all
 
-evaluate:  ## Compute metrics + calibration + conformal intervals
-	@echo "TODO: wire to src/emerald_ai/cli.py evaluate"
+evaluate:          ## Compute metrics + calibration (proposal §5.10, §5.13)
+	$(PY) -m emerald_ai evaluate
 
-explain:  ## Generate SHAP + counterfactual + fidelity reports
-	@echo "TODO: wire to src/emerald_ai/cli.py explain"
+explain:           ## SHAP + counterfactual + fidelity (proposal §5.11)
+	$(PY) -m emerald_ai explain
 
-audit:  ## Fairness + robustness + drift audit
-	@echo "TODO: wire to src/emerald_ai/cli.py audit"
+audit:             ## Fairness + robustness + drift (proposal §5.12)
+	$(PY) -m emerald_ai audit --axis all
 
-reproduce: preprocess train evaluate explain audit  ## End-to-end pipeline (≤ 8h target)
+reproduce: preprocess train evaluate explain audit  ## End-to-end pipeline (≤8h target)
 
 ##@ Authoring
-.PHONY: proposal literature
-proposal:  ## Rebuild the dissertation proposal docx from the python-docx script
-	cd docs/proposal && $(PY) build_proposal.py
+proposal:          ## Rebuild docs/proposal/proposal_second_draft.docx
+	$(PY) -m emerald_ai proposal
 
-literature:  ## Regenerate literature/papers/*.md from build_papers.py
-	cd literature && $(PY) build_papers.py
+literature:        ## Regenerate research/literature/papers/*.md from build_papers.py
+	$(PY) -m emerald_ai literature
 
 ##@ Research automation
-.PHONY: research research-force research-status research-graph
-research:  ## Run a research-engine sweep (implements research_automation.txt)
-	emerald research run
+research:          ## Run a research-engine sweep
+	$(PY) -m emerald_ai research run
 
-research-force:  ## Re-process every paper even if already analysed
-	emerald research run --force
+research-force:    ## Re-process every paper
+	$(PY) -m emerald_ai research run --force
 
-research-status:  ## Show current brain state (counts + last-run timestamp)
-	emerald research status
+research-status:   ## Show current brain state
+	$(PY) -m emerald_ai research status
 
-research-graph:  ## Emit citation graph as Graphviz DOT
-	emerald research graph
+research-graph:    ## Emit citation graph as Graphviz DOT
+	$(PY) -m emerald_ai research graph
 
 ##@ Application
-.PHONY: api web docker-up docker-down
-api:  ## Run FastAPI dev server (reload on change)
-	uvicorn api.main:app --reload --host 0.0.0.0 --port 8000
+api:               ## Start FastAPI dev server (reload on change)
+	$(PY) -m emerald_ai api
 
-web:  ## Run React dev server
-	cd web && pnpm dev
+web:               ## Run React dev server (when scaffold exists)
+	cd apps/web && pnpm dev
 
-docker-up:  ## Start full stack via docker-compose
+docker-up:         ## Start full stack via docker-compose
 	docker compose up --build
 
-docker-down:  ## Stop full stack
+docker-down:       ## Stop full stack
 	docker compose down
 
 ##@ Housekeeping
-.PHONY: clean clean-all
-clean:  ## Remove caches + build artefacts (keeps .venv and data)
-	rm -rf .pytest_cache .mypy_cache .ruff_cache .coverage htmlcov coverage.xml
-	rm -rf build dist *.egg-info
-	find . -type d -name __pycache__ -exec rm -rf {} +
-	find . -type f -name '*.pyc' -delete
+clean:             ## Remove caches + build artefacts (keeps data/ and .venv/)
+	$(PY) -m emerald_ai clean
 
-clean-all: clean  ## Remove .venv too
-	rm -rf .venv
+clean-all:         ## Also remove .venv/ and web/node_modules/
+	$(PY) -m emerald_ai clean --all

@@ -17,7 +17,15 @@ machine-readable state into ``literature/state/`` for downstream automation.
 """
 from __future__ import annotations
 
+from emerald_ai.research.discovery import (
+    DiscoveryConfig,
+    DiscoveryReport,
+    discover,
+    seeds_from_index,
+    seeds_from_search,
+)
 from emerald_ai.research.engine import ResearchEngine
+from emerald_ai.research.relevance import RelevanceContext, build_context, score
 from emerald_ai.research.schema import (
     Confidence,
     GraphEdge,
@@ -25,14 +33,26 @@ from emerald_ai.research.schema import (
     ProcessingStatus,
     ResearchQuestion,
 )
+from emerald_ai.research.sources import CandidatePaper, OpenAlexSource, Source
 from emerald_ai.research.state import State
 
 __all__ = [
+    "CandidatePaper",
     "Confidence",
+    "DiscoveryConfig",
+    "DiscoveryReport",
     "GraphEdge",
+    "OpenAlexSource",
     "PaperRecord",
     "ProcessingStatus",
+    "RelevanceContext",
     "ResearchEngine",
     "ResearchQuestion",
+    "Source",
     "State",
+    "build_context",
+    "discover",
+    "score",
+    "seeds_from_index",
+    "seeds_from_search",
 ]

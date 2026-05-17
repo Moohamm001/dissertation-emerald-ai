@@ -25,6 +25,7 @@ from emerald_ai.research.schema import (
 from emerald_ai.research.state import State
 
 INDEX_PATH = PATHS.literature / "index.yaml"
+AUTO_INDEX_PATH = PATHS.literature / "auto_index.yaml"
 PAPERS_MD_DIR = PATHS.literature / "papers"
 THEMES_DIR = PATHS.literature / "themes"
 GAPS_PATH = PATHS.literature / "gaps.md"
@@ -33,9 +34,19 @@ WIKI_LINK = re.compile(r"\[\[([a-zA-Z0-9_\-]+)\]\]")
 
 
 def _load_index() -> list[dict]:
-    if not INDEX_PATH.exists():
-        return []
-    return yaml.safe_load(INDEX_PATH.read_text(encoding="utf-8")) or []
+    """Merge the human-curated index with the bot-discovered auto_index.
+
+    Manual entries take precedence on key collision so a human edit always wins
+    over the bot's auto-generated record.
+    """
+    manual: list[dict] = []
+    if INDEX_PATH.exists():
+        manual = yaml.safe_load(INDEX_PATH.read_text(encoding="utf-8")) or []
+    auto: list[dict] = []
+    if AUTO_INDEX_PATH.exists():
+        auto = yaml.safe_load(AUTO_INDEX_PATH.read_text(encoding="utf-8")) or []
+    seen_keys = {e["key"] for e in manual}
+    return manual + [e for e in auto if e.get("key") and e["key"] not in seen_keys]
 
 
 def _extract_section(markdown: str, heading: str) -> str:
@@ -218,22 +229,33 @@ class ResearchEngine:
 
     # ---------- 7: questions from gaps ----------
     def generate_questions(self) -> None:
+        """Generate one ResearchQuestion per G#/M# heading in gaps.md.
+
+        Preserves the ``created`` timestamp of existing questions so re-running
+        the engine over an unchanged gap log produces a clean git diff.
+        """
         if not GAPS_PATH.exists():
             return
+        existing_by_id = {q.id: q for q in self.state.questions}
         text = GAPS_PATH.read_text(encoding="utf-8")
-        # Match headings like "### G1. Title …" or "### M2. Title …"
         pattern = re.compile(r"^###\s+([GM]\d+)\.\s+(.+?)$", re.MULTILINE)
         questions: list[ResearchQuestion] = []
         for gap_id, headline in pattern.findall(text):
             qid = f"RQ-{gap_id}"
-            questions.append(
-                ResearchQuestion(
-                    id=qid,
-                    question=f"Resolve {gap_id}: {headline.strip().rstrip('.')}",
-                    source_gap=gap_id,
-                    priority="high" if gap_id.startswith("G1") else "medium",
+            new_question_text = f"Resolve {gap_id}: {headline.strip().rstrip('.')}"
+            prior = existing_by_id.get(qid)
+            if prior is not None and prior.question == new_question_text:
+                # nothing changed for this RQ — keep the original record (preserving created)
+                questions.append(prior)
+            else:
+                questions.append(
+                    ResearchQuestion(
+                        id=qid,
+                        question=new_question_text,
+                        source_gap=gap_id,
+                        priority="high" if gap_id.startswith("G1") else "medium",
+                    )
                 )
-            )
         self.state.questions = questions
 
     # ---------- 8: run the full sweep ----------

@@ -13,15 +13,21 @@ This log tracks what is currently missing, unverified, or hand-waved in the lite
 ## Literature gaps
 
 ### G1. "First green-loan ML credit-scoring framework" claim is unverified
-- **Status:** open
+- **Status:** partial — automation now available
 - **Theme:** [[themes/4.8-gap-positioning]]
 - **Risk:** High — supervisor will press on this.
-- **Action:** Run systematic search on Scopus, Web of Science, IEEE Xplore, Google Scholar with strings:
+- **Action (manual):** Run systematic search on Scopus, Web of Science, IEEE Xplore, Google Scholar with strings:
   - `("green loan" OR "green credit") AND ("machine learning" OR "explainable" OR "XGBoost")`
   - `("sustainable lending" OR "ESG lending") AND ("credit scoring" OR "default prediction")`
   - `("green finance" OR "climate finance") AND ("interpretable" OR "SHAP")`
+- **Action (automated, NEW):** The discovery bot now covers OpenAlex (which subsumes much of the above). Run:
+  ```bash
+  python -m emerald_ai research discover --query "green loan credit scoring machine learning explainable" --max 15
+  python -m emerald_ai research discover --query "sustainable lending default prediction SHAP" --max 15
+  python -m emerald_ai research discover --depth 2 --max 30   # follow references
+  ```
+  Inspect `literature/auto_index.yaml` afterwards. Any directly competing prior art must be cited and differentiated, not ignored.
 - Document the search protocol and date in the dissertation methodology section so the negative result is defensible.
-- Anything found that overlaps must be cited and differentiated, not ignored.
 
 ### G2. "Regulatory default for over four decades" claim lacks primary citation
 - **Status:** open

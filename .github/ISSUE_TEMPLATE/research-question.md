@@ -8,11 +8,11 @@ labels: literature
 What is unclear or missing?
 
 **Where in the brain does this belong?**
-- Theme file: `literature/themes/4.X-*.md`
-- Or: open a new entry in `literature/gaps.md`?
+- Theme file: `research/literature/themes/4.X-*.md`
+- Or: open a new entry in `research/literature/gaps.md`?
 
 **Acceptance criteria**
-- [ ] Citation added to `literature/index.yaml`
-- [ ] Paper file written under `literature/papers/<key>.md` (if relevance ≥ high)
+- [ ] Citation added to `research/literature/index.yaml`
+- [ ] Paper file written under `research/literature/papers/<key>.md` (if relevance ≥ high)
 - [ ] Theme file updated
 - [ ] Proposal section regenerated if affected

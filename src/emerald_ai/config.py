@@ -16,17 +16,30 @@ REPO_ROOT: Path = Path(os.environ.get("EMERALD_REPO_ROOT", Path(__file__).resolv
 
 
 class Paths(BaseModel):
-    """Canonical filesystem layout."""
+    """Canonical filesystem layout (single source of truth for repo paths)."""
 
     root: Path = REPO_ROOT
+    # Data (gitignored)
     data_raw: Path = REPO_ROOT / "data" / "raw"
     data_interim: Path = REPO_ROOT / "data" / "interim"
     data_processed: Path = REPO_ROOT / "data" / "processed"
+    # Generated artefacts (gitignored)
     models: Path = REPO_ROOT / "models"
     mlruns: Path = REPO_ROOT / "mlruns"
-    notebooks: Path = REPO_ROOT / "notebooks"
-    literature: Path = REPO_ROOT / "literature"
+    # Research workspace
+    research: Path = REPO_ROOT / "research"
+    literature: Path = REPO_ROOT / "research" / "literature"
+    notebooks: Path = REPO_ROOT / "research" / "notebooks"
+    scripts: Path = REPO_ROOT / "research" / "scripts"
+    automation_spec: Path = REPO_ROOT / "research" / "automation.txt"
+    # Runtime applications
+    apps: Path = REPO_ROOT / "apps"
+    apps_api: Path = REPO_ROOT / "apps" / "api"
+    apps_web: Path = REPO_ROOT / "apps" / "web"
+    # Source + docs + tests
+    src: Path = REPO_ROOT / "src"
     docs: Path = REPO_ROOT / "docs"
+    tests: Path = REPO_ROOT / "tests"
 
 
 class ModelConfig(BaseModel):

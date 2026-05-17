@@ -21,7 +21,7 @@ Lending-officer-facing single-page application that consumes the FastAPI backend
 ## Local development
 
 ```bash
-cd web
+cd apps/web
 pnpm install
 pnpm dev    # opens http://localhost:5173
 ```

@@ -1,4 +1,4 @@
-# `literature/state/` — Machine-Readable Brain State
+# `research/literature/state/` — Machine-Readable Brain State
 
 This directory is **generated** by `emerald research run` (alias: `make research`). Every file is committed so the brain remains reproducible across sessions and machines.
 
@@ -27,7 +27,7 @@ All records use the pydantic schemas in `src/emerald_ai/research/schema.py`:
 - `ResearchQuestion` — generated question with traceback to a gap.
 - `AuthorRollup`, `TermRollup` — aggregation records.
 
-JSON sidecars per paper live next to the markdown: `literature/papers/<key>.json` matches `literature/papers/<key>.md`.
+JSON sidecars per paper live next to the markdown: `research/literature/papers/<key>.json` matches `research/literature/papers/<key>.md`.
 
 ## Per-paper JSON sidecars
 
@@ -39,7 +39,7 @@ Confidence field rules:
 - `low` — index only, no markdown
 - `unknown` — never been touched by the engine
 
-## Workflow (from `research_automation.txt`)
+## Workflow (from `research/automation.txt`)
 
 1. **Read existing memory** → `State.load()` pulls everything in this directory.
 2. **Check processed DB** → engine skips keys already at `analysed` or `indexed` status unless `--force`.

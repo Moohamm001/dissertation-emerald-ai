@@ -5,7 +5,7 @@
 # (proposal §5.16).
 set -euo pipefail
 
-cd "$(dirname "$0")/.."
+cd "$(dirname "$0")/../.."
 
 echo "▶ EMERALD-AI end-to-end reproduction pipeline"
 echo "  ($(date --iso-8601=seconds))"

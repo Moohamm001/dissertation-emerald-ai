@@ -1,4 +1,4 @@
-# `notebooks/` — Exploratory and Audit Notebooks
+# `research/notebooks/` — Exploratory and Audit Notebooks
 
 Reproducible Jupyter notebooks used for exploratory data analysis, model development sketches, and audit visualisations. The canonical pipeline lives in `src/emerald_ai/`; notebooks are for exploration and reporting, not production code.
 

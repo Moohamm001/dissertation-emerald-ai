@@ -40,7 +40,7 @@ Y = 0  if Deal Status ∈ {default, behind}
 NaN    otherwise  (113 rows; excluded from labelled set)
 ```
 
-The `current` mapping introduces censoring bias — see the sensitivity analysis described in proposal §5.2 and in [`../literature/gaps.md`](../literature/gaps.md) entry M1.
+The `current` mapping introduces censoring bias — see the sensitivity analysis described in proposal §5.2 and in [`../research/literature/gaps.md`](../research/literature/gaps.md) entry M1.
 
 ## Feature categories (proposal §5.3)
 
@@ -65,4 +65,4 @@ The leakage audit (see `src/emerald_ai/data/leakage_audit.py`) produces a featur
 
 ## Datasheet
 
-A full datasheet ([Gebru et al., 2021](../literature/papers/gebru2021datasheets.md)) will be generated as part of the dissertation submission. Stub: `docs/datasheet.md` (to come).
+A full datasheet ([Gebru et al., 2021](../research/literature/papers/gebru2021datasheets.md)) will be generated as part of the dissertation submission. Stub: `docs/datasheet.md` (to come).
