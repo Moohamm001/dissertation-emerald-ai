@@ -13,10 +13,10 @@
 ## Project status (live)
 
 ```
-  papers in brain   :  82      (62 human-curated + 20 bot-discovered via OpenAlex)
+  papers in brain   : 108      (62 human-curated + 46 bot-discovered via OpenAlex)
   citation edges    :  80
   research questions:  15      (auto-generated from gaps.md)
-  authors indexed   :  981
+  authors indexed   : 1087
   methods detected  :  22      (XGBoost, LightGBM, CatBoost, SHAP, DiCE, conformal, ...)
   datasets detected :   9      (COMPAS, FICO, Adult, German Credit, Lending Club, ...)
   themes drafted    :   8/8    (lit-review sections 4.1-4.8)
@@ -239,9 +239,9 @@ The repo contains a structured knowledge base under [`research/literature/`](res
 
 - `research/literature/BRAIN.md` — usage rules
 - `research/literature/index.yaml` — 62 human-curated references (themes, relevance, verification status, search-query hints for placeholder citations)
-- `research/literature/auto_index.yaml` — 20 references added by the discovery bot; separated so the bot never touches the human-curated index
+- `research/literature/auto_index.yaml` — 46 references added by the discovery bot; separated so the bot never touches the human-curated index
 - `research/literature/themes/4.1`–`4.8.md` — eight argumentative-spine files mirroring the proposal's literature-review subsections
-- `research/literature/papers/<key>.md` — 49 paper notes (34 human-written + 15 bot-stubbed; claims, method, EMERALD-AI relevance, limitations, links)
+- `research/literature/papers/<key>.md` — 75 paper notes (34 human-written + 41 bot-stubbed; claims, method, EMERALD-AI relevance, limitations, links)
 - `research/literature/papers/<key>.json` — machine-readable sidecar in the 10-field schema, populated by the research engine
 - `research/literature/gaps.md` — 10 literature gaps + 5 methodology gaps, with suggested next actions
 - `research/literature/glossary.md` — domain terms
@@ -272,11 +272,11 @@ The brain is driven by an idempotent **research engine** (`src/emerald_ai/resear
 
 ```
 $ python -m emerald_ai research status
-Brain state - last run 2026-05-17T21:08:38+00:00
-  papers     : 82      (62 human-curated + 20 bot-discovered)
+Brain state - last run 2026-05-18T08:13:29+00:00
+  papers     : 108     (62 human-curated + 46 bot-discovered)
   citations  : 80
   questions  : 15
-  authors    : 981
+  authors    : 1087
   methods    : 22      (XGBoost, LightGBM, CatBoost, SHAP, LIME, DiCE, SMOTE, conformal, ...)
   datasets   :  9      (COMPAS, FICO, Adult, German Credit, Lending Club, KDD, Higgs, ...)
   keywords   : 68

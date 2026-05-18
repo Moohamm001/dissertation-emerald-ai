@@ -1,0 +1,31 @@
+{
+  "key": "fengli2011textual",
+  "title": "Textual Analysis of Corporate Disclosures: A Survey of the Literature",
+  "authors": [
+    "Feng Li"
+  ],
+  "year": 2011,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "SSRN Electronic Journal",
+  "doi": null,
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6352 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Textual Analysis of Corporate Disclosures: A Survey of the Literature",
+  "notes": "This paper reviews and proposes additional research concerning the textual analysis of corporate disclosures in large-sample settings. I first discuss the motivations and methodology issues for this research area. I then review the recent papers that explore corporate textual dis...",
+  "source_files": [
+    "research\\literature\\papers\\fengli2011textual.md"
+  ],
+  "first_seen": "2026-05-18T08:13:29.510733Z",
+  "last_updated": "2026-05-18T08:13:29.520624Z"
+}

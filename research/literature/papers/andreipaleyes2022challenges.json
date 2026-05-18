@@ -1,0 +1,33 @@
+{
+  "key": "andreipaleyes2022challenges",
+  "title": "Challenges in Deploying Machine Learning: A Survey of Case Studies",
+  "authors": [
+    "Andrei Paleyes",
+    "Raoul-Gabriel Urma",
+    "Neil D. Lawrence"
+  ],
+  "year": 2022,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "ACM Computing Surveys",
+  "doi": "10.1145/3533378",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6609 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Challenges in Deploying Machine Learning: A Survey of Case Studies",
+  "notes": "In recent years, machine learning has transitioned from a field of academic research interest to a field capable of solving real-world business problems. However, the deployment of machine learning models in production systems can present a number of issues and concerns. This sur...",
+  "source_files": [
+    "research\\literature\\papers\\andreipaleyes2022challenges.md"
+  ],
+  "first_seen": "2026-05-18T08:13:28.938399Z",
+  "last_updated": "2026-05-18T08:13:28.951201Z"
+}

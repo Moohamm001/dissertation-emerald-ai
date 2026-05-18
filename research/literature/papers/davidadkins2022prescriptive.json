@@ -1,0 +1,40 @@
+{
+  "key": "davidadkins2022prescriptive",
+  "title": "Prescriptive and Descriptive Approaches to Machine-Learning Transparency",
+  "authors": [
+    "David Adkins",
+    "Bilal Alsallakh",
+    "Adeel Cheema",
+    "Narine Kokhlikyan",
+    "Emily McReynolds",
+    "Pushkar Mishra",
+    "Chavez Procope",
+    "Jeremy Sawruk",
+    "Erin Wang",
+    "Polina Zvyagina"
+  ],
+  "year": 2022,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "CHI Conference on Human Factors in Computing Systems Extended Abstracts",
+  "doi": "10.1145/3491101.3519724",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6185 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Prescriptive and Descriptive Approaches to Machine-Learning Transparency",
+  "notes": "Specialized documentation techniques have been developed to communicate key facts about machine-learning (ML) systems and the datasets and models they rely on. Techniques such as Datasheets, FactSheets, and Model Cards have taken a mainly descriptive approach, providing various d...",
+  "source_files": [
+    "research\\literature\\papers\\davidadkins2022prescriptive.md"
+  ],
+  "first_seen": "2026-05-18T08:13:29.169134Z",
+  "last_updated": "2026-05-18T08:13:29.178633Z"
+}

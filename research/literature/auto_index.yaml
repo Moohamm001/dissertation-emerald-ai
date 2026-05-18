@@ -1624,3 +1624,639 @@
   notes: ''
   search_query: 'Engaging rational discrimination: exploring reasons for placing regulatory
     constraints on decision support systems'
+- key: andreipaleyes2022challenges
+  authors:
+  - Andrei Paleyes
+  - Raoul-Gabriel Urma
+  - Neil D. Lawrence
+  year: 2022
+  title: 'Challenges in Deploying Machine Learning: A Survey of Case Studies'
+  venue: ACM Computing Surveys
+  doi: 10.1145/3533378
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W3104128335
+  auto_discovered: true
+  auto_score: 0.6609
+  auto_depth: 0
+  notes: In recent years, machine learning has transitioned from a field of academic
+    research interest to a field capable of solving real-world business problems.
+    However, the deployment of machine learning models in production systems can present
+    a number of issues and concerns. This sur...
+  search_query: 'Challenges in Deploying Machine Learning: A Survey of Case Studies'
+- key: daynesorvisto2023deploying
+  authors:
+  - Dayne Sorvisto
+  year: 2023
+  title: Deploying Stochastic Systems
+  venue: Apress eBooks
+  doi: 10.1007/978-1-4842-9642-4_7
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W4385380921
+  auto_discovered: true
+  auto_score: 0.6025
+  auto_depth: 0
+  notes: If you’ve made it this far, you already have the skills to build a complete
+    end to end data science system. Data science of course is more than machine learning
+    and code which are really only tools, and to build end to end systems, we need
+    to understand people, processes, and tec...
+  search_query: Deploying Stochastic Systems
+- key: philippruf2021demystifying
+  authors:
+  - Philipp Ruf
+  - Manav Madan
+  - Christoph Reich
+  - Djaffar Ould Abdeslam
+  year: 2021
+  title: Demystifying MLOps and Presenting a Recipe for the Selection of Open-Source
+    Tools
+  venue: Applied Sciences
+  doi: 10.3390/app11198861
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W3202461888
+  auto_discovered: true
+  auto_score: 0.6403
+  auto_depth: 0
+  notes: Nowadays, machine learning projects have become more and more relevant to
+    various real-world use cases. The success of complex Neural Network models depends
+    upon many factors, as the requirement for structured and machine learning-centric
+    project development management arises. Du...
+  search_query: Demystifying MLOps and Presenting a Recipe for the Selection of Open-Source
+    Tools
+- key: nadianahar2022collaboration
+  authors:
+  - Nadia Nahar
+  - Shurui Zhou
+  - Grace A. Lewis
+  - Christian Kästner
+  year: 2022
+  title: Collaboration challenges in building ML-enabled systems
+  venue: Proceedings of the 44th International Conference on Software Engineering
+  doi: 10.1145/3510003.3510209
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W4284670548
+  auto_discovered: true
+  auto_score: 0.6447
+  auto_depth: 0
+  notes: The introduction of machine learning (ML) components in software projects
+    has created the need for software engineers to collaborate with data scientists
+    and other specialists. While collaboration can always be challenging, ML introduces
+    additional challenges with its exploratory...
+  search_query: Collaboration challenges in building ML-enabled systems
+- key: rakshithsubramanya2022from
+  authors:
+  - Rakshith Subramanya
+  - Seppo Sierla
+  - Valeriy Vyatkin
+  year: 2022
+  title: 'From DevOps to MLOps: Overview and Application to Electricity Market Forecasting'
+  venue: Applied Sciences
+  doi: 10.3390/app12199851
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W4303578954
+  auto_discovered: true
+  auto_score: 0.6385
+  auto_depth: 0
+  notes: In the Software Development Life Cycle (SDLC), Development and Operations
+    (DevOps) has been proven to deliver reliable, scalable software within a shorter
+    time. Due to the explosion of Machine Learning (ML) applications, the term Machine
+    Learning Operations (MLOps) has gained sig...
+  search_query: 'From DevOps to MLOps: Overview and Application to Electricity Market
+    Forecasting'
+- key: jscottarmstrong1988harvard
+  authors:
+  - J. Scott Armstrong
+  - David M. Georgoff
+  year: 1988
+  title: Harvard Business Review
+  venue: International Journal of Forecasting
+  doi: 10.1016/0169-2070(88)90019-2
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1517701247
+  auto_discovered: true
+  auto_score: 0.57
+  auto_depth: 1
+  notes: ''
+  search_query: Harvard Business Review
+- key: craiggentry2009fully
+  authors:
+  - Craig Gentry
+  year: 2009
+  title: Fully homomorphic encryption using ideal lattices
+  venue: ''
+  doi: 10.1145/1536414.1536440
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2031533839
+  auto_discovered: true
+  auto_score: 0.6553
+  auto_depth: 1
+  notes: We propose a fully homomorphic encryption scheme -- i.e., a scheme that allows
+    one to evaluate circuits over encrypted data without being able to decrypt. Our
+    solution comes in three steps. First, we provide a general result -- that, to
+    construct an encryption scheme that permits...
+  search_query: Fully homomorphic encryption using ideal lattices
+- key: seankandel2012enterprise
+  authors:
+  - Sean Kandel
+  - Andreas Paepcke
+  - Joseph M. Hellerstein
+  - Jeffrey Heer
+  year: 2012
+  title: 'Enterprise Data Analysis and Visualization: An Interview Study'
+  venue: IEEE Transactions on Visualization and Computer Graphics
+  doi: 10.1109/tvcg.2012.219
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2044102377
+  auto_discovered: true
+  auto_score: 0.6336
+  auto_depth: 1
+  notes: Organizations rely on data analysts to model customer engagement, streamline
+    operations, improve production, inform business decisions, and combat fraud. Though
+    numerous analysis and visualization tools have been built to improve the scale
+    and efficiency at which analysts can wor...
+  search_query: 'Enterprise Data Analysis and Visualization: An Interview Study'
+- key: davidadkins2022method
+  authors:
+  - David Adkins
+  - Bilal Alsallakh
+  - Adeel Cheema
+  - Narine Kokhlikyan
+  - Emily McReynolds
+  - Pushkar Mishra
+  - Chavez Procope
+  - Jeremy Sawruk
+  - Erin Wang
+  - Polina Zvyagina
+  year: 2022
+  title: Method cards for prescriptive machine-learning transparency
+  venue: ''
+  doi: 10.1145/3522664.3528600
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W4312725303
+  auto_discovered: true
+  auto_score: 0.6233
+  auto_depth: 0
+  notes: Specialized documentation techniques have been developed to communicate key
+    facts about machine-learning (ML) systems and the datasets and models they rely
+    on. Techniques such as Datasheets, AI FactSheets, and Model Cards have taken a
+    mainly descriptive approach, providing variou...
+  search_query: Method cards for prescriptive machine-learning transparency
+- key: karansinghal2023large
+  authors:
+  - Karan Singhal
+  - Shekoofeh Azizi
+  - Tao Tu
+  - S. Sara Mahdavi
+  - Jason Lee
+  - Hyung Won Chung
+  - Nathan Scales
+  - Ajay Kumar Tanwani
+  - Heather Cole-Lewis
+  - Stephen Pfohl
+  - Perry W. Payne
+  - Martin Seneviratne
+  - Paul Gamble
+  - Christopher Kelly
+  - Abubakr Babiker
+  - Nathanael Schärli
+  - Aakanksha Chowdhery
+  - P. Mansfield
+  - Dina Demner‐Fushman
+  - Blaise Agüera y Arcas
+  - Dale R. Webster
+  - Greg S. Corrado
+  - Yossi Matias
+  - Katherine Chou
+  - Juraj Gottweis
+  - Nenad Tomašev
+  - Yun Liu
+  - Alvin Rajkomar
+  - Joëlle Barral
+  - Christopher Semturs
+  - Alan Karthikesalingam
+  - Vivek Natarajan
+  year: 2023
+  title: Large language models encode clinical knowledge
+  venue: Nature
+  doi: 10.1038/s41586-023-06291-2
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W4384071683
+  auto_discovered: true
+  auto_score: 0.6819
+  auto_depth: 0
+  notes: Abstract Large language models (LLMs) have demonstrated impressive capabilities,
+    but the bar for clinical applications is high. Attempts to assess the clinical
+    knowledge of models typically rely on automated evaluations based on limited benchmarks.
+    Here, to address these limitati...
+  search_query: Large language models encode clinical knowledge
+- key: davidadkins2022prescriptive
+  authors:
+  - David Adkins
+  - Bilal Alsallakh
+  - Adeel Cheema
+  - Narine Kokhlikyan
+  - Emily McReynolds
+  - Pushkar Mishra
+  - Chavez Procope
+  - Jeremy Sawruk
+  - Erin Wang
+  - Polina Zvyagina
+  year: 2022
+  title: Prescriptive and Descriptive Approaches to Machine-Learning Transparency
+  venue: CHI Conference on Human Factors in Computing Systems Extended Abstracts
+  doi: 10.1145/3491101.3519724
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W4225081783
+  auto_discovered: true
+  auto_score: 0.6185
+  auto_depth: 0
+  notes: Specialized documentation techniques have been developed to communicate key
+    facts about machine-learning (ML) systems and the datasets and models they rely
+    on. Techniques such as Datasheets, FactSheets, and Model Cards have taken a mainly
+    descriptive approach, providing various d...
+  search_query: Prescriptive and Descriptive Approaches to Machine-Learning Transparency
+- key: ziyuli2023metadata
+  authors:
+  - Ziyu Li
+  - Henk Kant
+  - Rihan Hai
+  - Asterios Katsifodimos
+  - Marco Brambilla
+  - Alessandro Bozzon
+  year: 2023
+  title: Metadata Representations for Queryable Repositories of Machine Learning Models
+  venue: IEEE Access
+  doi: 10.1109/access.2023.3330647
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W4388430541
+  auto_discovered: true
+  auto_score: 0.6161
+  auto_depth: 0
+  notes: Machine learning (ML) practitioners and organizations are building model
+    repositories of pre-trained models, referred to as <italic xmlns:mml="http://www.w3.org/1998/Math/MathML"
+    xmlns:xlink="http://www.w3.org/1999/xlink">model zoos</i> . These model zoos contain
+    metadata describ...
+  search_query: Metadata Representations for Queryable Repositories of Machine Learning
+    Models
+- key: andrewdselbst2019fairness
+  authors:
+  - Andrew D. Selbst
+  - danah boyd
+  - Sorelle A. Friedler
+  - Suresh Venkatasubramanian
+  - Janet Vertesi
+  year: 2019
+  title: Fairness and Abstraction in Sociotechnical Systems
+  venue: ''
+  doi: 10.1145/3287560.3287598
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2897154134
+  auto_discovered: true
+  auto_score: 0.6623
+  auto_depth: 0
+  notes: A key goal of the fair-ML community is to develop machine-learning based
+    systems that, once introduced into a social context, can achieve social and legal
+    outcomes such as fairness, justice, and due process. Bedrock concepts in computer
+    science---such as abstraction and modular d...
+  search_query: Fairness and Abstraction in Sociotechnical Systems
+- key: ulfeliasson2015architecting
+  authors:
+  - Ulf Eliasson
+  - Rogardt Heldal
+  - Patrizio Pelliccione
+  - Jonn Lantz
+  year: 2015
+  title: 'Architecting in the Automotive Domain: Descriptive vs Prescriptive Architecture'
+  venue: ''
+  doi: 10.1109/wicsa.2015.18
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1510979912
+  auto_discovered: true
+  auto_score: 0.6139
+  auto_depth: 1
+  notes: To investigate the new requirements and challenges of architecting often
+    safety critical software in the automotive domain, we have performed two case
+    studies on Volvo Car Group and Volvo Group Truck Technology. Our findings suggest
+    that automotive software architects produce two...
+  search_query: 'Architecting in the Automotive Domain: Descriptive vs Prescriptive
+    Architecture'
+- key: jrghenseler2014a
+  authors:
+  - Jörg Henseler
+  - Christian M. Ringle
+  - Marko Sarstedt
+  year: 2014
+  title: A new criterion for assessing discriminant validity in variance-based structural
+    equation modeling
+  venue: Journal of the Academy of Marketing Science
+  doi: 10.1007/s11747-014-0403-8
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2105846236
+  auto_discovered: true
+  auto_score: 0.6725
+  auto_depth: 0
+  notes: Discriminant validity assessment has become a generally accepted prerequisite
+    for analyzing relationships between latent variables. For variance-based structural
+    equation modeling, such as partial least squares, the Fornell-Larcker criterion
+    and the examination of cross-loadings ...
+  search_query: A new criterion for assessing discriminant validity in variance-based
+    structural equation modeling
+- key: williamhenley1995statistical
+  authors:
+  - William Henley
+  year: 1995
+  title: Statistical aspects of credit scoring
+  venue: Open Research Online (The Open University)
+  doi: 10.21954/ou.ro.0000e061
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2905169113
+  auto_discovered: true
+  auto_score: 0.5746
+  auto_depth: 0
+  notes: This thesis is concerned with statistical aspects of credit scoring, the
+    process of determining how likely an applicant for credit is to default with repayments.
+    In Chapters 1-4 a detailed introduction to credit scoring methodology is presented,
+    including evaluation of previous p...
+  search_query: Statistical aspects of credit scoring
+- key: johnbanasik2007reject
+  authors:
+  - John Banasik
+  - Jonathan Crook
+  year: 2007
+  title: Reject inference, augmentation, and sample selection
+  venue: European Journal of Operational Research
+  doi: 10.1016/j.ejor.2006.06.072
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2020821583
+  auto_discovered: true
+  auto_score: 0.5836
+  auto_depth: 0
+  notes: ''
+  search_query: Reject inference, augmentation, and sample selection
+- key: yanzhekang2021a
+  authors:
+  - Yanzhe Kang
+  - Ning Jia
+  - Runbang Cui
+  - Jiang Deng
+  year: 2021
+  title: A graph-based semi-supervised reject inference framework considering imbalanced
+    data distribution for consumer credit scoring
+  venue: Applied Soft Computing
+  doi: 10.1016/j.asoc.2021.107259
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W3135336249
+  auto_discovered: true
+  auto_score: 0.6295
+  auto_depth: 0
+  notes: ''
+  search_query: A graph-based semi-supervised reject inference framework considering
+    imbalanced data distribution for consumer credit scoring
+- key: fengshen2022reject
+  authors:
+  - Feng Shen
+  - Zhiyuan Yang
+  - Xingchao Zhao
+  - Dao Lan
+  year: 2022
+  title: Reject inference in credit scoring using a three-way decision and safe semi-supervised
+    support vector machine
+  venue: Information Sciences
+  doi: 10.1016/j.ins.2022.05.067
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W4281263276
+  auto_discovered: true
+  auto_score: 0.6317
+  auto_depth: 0
+  notes: ''
+  search_query: Reject inference in credit scoring using a three-way decision and
+    safe semi-supervised support vector machine
+- key: hermanwold1982soft
+  authors:
+  - Herman Wold
+  year: 1982
+  title: 'Soft modelling: The Basic Design and Some Extensions'
+  venue: Medical Entomology and Zoology
+  doi: 10.1093/pnasnexus/pgac122
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W36714851
+  auto_discovered: true
+  auto_score: 0.5701
+  auto_depth: 1
+  notes: Ocean sulfate concentration might have fluctuated greatly throughout the
+    Earth's history and may serve as a window into perturbations in the ocean-atmosphere
+    system. Coupling high-resolution experimental results with an inverse modeling
+    approach, we, here, show an unprecedented d...
+  search_query: 'Soft modelling: The Basic Design and Some Extensions'
+- key: julianfklbel2022ask
+  authors:
+  - Julian F Kölbel
+  - Markus Leippold
+  - Jordy Rillaerts
+  - Qian Wang
+  year: 2022
+  title: 'Ask BERT: How Regulatory Disclosure of Transition and Physical Climate Risks
+    Affects the CDS Term Structure'
+  venue: Journal of Financial Econometrics
+  doi: 10.1093/jjfinec/nbac027
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W3157700755
+  auto_discovered: true
+  auto_score: 0.6481
+  auto_depth: 0
+  notes: Abstract We use BERT, an AI-based algorithm for language understanding, to
+    quantify regulatory climate risk disclosures and analyze their impact on the term
+    structure in the credit default swap (CDS) market. Risk disclosures can either
+    increase or decrease CDS spreads, depending ...
+  search_query: 'Ask BERT: How Regulatory Disclosure of Transition and Physical Climate
+    Risks Affects the CDS Term Structure'
+- key: yannisdafermos2021how
+  authors:
+  - Yannis Dafermos
+  - Maria Nikolaidi
+  year: 2021
+  title: How can green differentiated capital requirements affect climate risks? A
+    dynamic macrofinancial analysis
+  venue: Journal of Financial Stability
+  doi: 10.1016/j.jfs.2021.100871
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W3151869186
+  auto_discovered: true
+  auto_score: 0.643
+  auto_depth: 0
+  notes: ''
+  search_query: How can green differentiated capital requirements affect climate risks?
+    A dynamic macrofinancial analysis
+- key: juliankoumllbel2020does
+  authors:
+  - Julian K&ouml;lbel
+  - Markus Leippold
+  - Jordy Rillaerts
+  - Qian Wang
+  year: 2020
+  title: Does the CDS Market Reflect Regulatory Climate Risk Disclosures?
+  venue: SSRN Electronic Journal
+  doi: 10.2139/ssrn.3616324
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W3035695956
+  auto_discovered: true
+  auto_score: 0.6255
+  auto_depth: 0
+  notes: ''
+  search_query: Does the CDS Market Reflect Regulatory Climate Risk Disclosures?
+- key: nawazishmirza2024effects
+  authors:
+  - Nawazish Mirza
+  - Muhammad Umar
+  - Alexandra Horobeţ
+  - Sabri Boubaker
+  year: 2024
+  title: Effects of climate change and technological capex on credit risk cycles in
+    the European Union
+  venue: Technological Forecasting and Social Change
+  doi: 10.1016/j.techfore.2024.123448
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W4397006307
+  auto_discovered: true
+  auto_score: 0.6344
+  auto_depth: 0
+  notes: ''
+  search_query: Effects of climate change and technological capex on credit risk cycles
+    in the European Union
+- key: yannisdafermos2020how
+  authors:
+  - Yannis Dafermos
+  - Maria Nikolaidi
+  year: 2020
+  title: How Can Green Differentiated Capital Requirements Affect Climate Risks? A
+    Dynamic Macro-Financial Analysis
+  venue: SSRN Electronic Journal
+  doi: 10.2139/ssrn.3658088
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W3096435952
+  auto_discovered: true
+  auto_score: 0.6267
+  auto_depth: 0
+  notes: ''
+  search_query: How Can Green Differentiated Capital Requirements Affect Climate Risks?
+    A Dynamic Macro-Financial Analysis
+- key: fengli2011textual
+  authors:
+  - Feng Li
+  year: 2011
+  title: 'Textual Analysis of Corporate Disclosures: A Survey of the Literature'
+  venue: SSRN Electronic Journal
+  doi: null
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1597664530
+  auto_discovered: true
+  auto_score: 0.6352
+  auto_depth: 1
+  notes: This paper reviews and proposes additional research concerning the textual
+    analysis of corporate disclosures in large-sample settings. I first discuss the
+    motivations and methodology issues for this research area. I then review the recent
+    papers that explore corporate textual dis...
+  search_query: 'Textual Analysis of Corporate Disclosures: A Survey of the Literature'

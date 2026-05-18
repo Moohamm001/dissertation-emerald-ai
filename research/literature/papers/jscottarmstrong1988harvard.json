@@ -1,0 +1,32 @@
+{
+  "key": "jscottarmstrong1988harvard",
+  "title": "Harvard Business Review",
+  "authors": [
+    "J. Scott Armstrong",
+    "David M. Georgoff"
+  ],
+  "year": 1988,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "International Journal of Forecasting",
+  "doi": "10.1016/0169-2070(88)90019-2",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.57 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Harvard Business Review",
+  "notes": "",
+  "source_files": [
+    "research\\literature\\papers\\jscottarmstrong1988harvard.md"
+  ],
+  "first_seen": "2026-05-18T08:13:29.053644Z",
+  "last_updated": "2026-05-18T08:13:29.066399Z"
+}

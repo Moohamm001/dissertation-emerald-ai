@@ -1,0 +1,31 @@
+{
+  "key": "williamhenley1995statistical",
+  "title": "Statistical aspects of credit scoring",
+  "authors": [
+    "William Henley"
+  ],
+  "year": 1995,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Open Research Online (The Open University)",
+  "doi": "10.21954/ou.ro.0000e061",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.5746 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Statistical aspects of credit scoring",
+  "notes": "This thesis is concerned with statistical aspects of credit scoring, the process of determining how likely an applicant for credit is to default with repayments. In Chapters 1-4 a detailed introduction to credit scoring methodology is presented, including evaluation of previous p...",
+  "source_files": [
+    "research\\literature\\papers\\williamhenley1995statistical.md"
+  ],
+  "first_seen": "2026-05-18T08:13:29.283871Z",
+  "last_updated": "2026-05-18T08:13:29.294130Z"
+}

@@ -1,0 +1,34 @@
+{
+  "key": "seankandel2012enterprise",
+  "title": "Enterprise Data Analysis and Visualization: An Interview Study",
+  "authors": [
+    "Sean Kandel",
+    "Andreas Paepcke",
+    "Joseph M. Hellerstein",
+    "Jeffrey Heer"
+  ],
+  "year": 2012,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "IEEE Transactions on Visualization and Computer Graphics",
+  "doi": "10.1109/tvcg.2012.219",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6336 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Enterprise Data Analysis and Visualization: An Interview Study",
+  "notes": "Organizations rely on data analysts to model customer engagement, streamline operations, improve production, inform business decisions, and combat fraud. Though numerous analysis and visualization tools have been built to improve the scale and efficiency at which analysts can wor...",
+  "source_files": [
+    "research\\literature\\papers\\seankandel2012enterprise.md"
+  ],
+  "first_seen": "2026-05-18T08:13:29.103933Z",
+  "last_updated": "2026-05-18T08:13:29.115041Z"
+}

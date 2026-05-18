@@ -1,0 +1,33 @@
+{
+  "key": "jrghenseler2014a",
+  "title": "A new criterion for assessing discriminant validity in variance-based structural equation modeling",
+  "authors": [
+    "Jörg Henseler",
+    "Christian M. Ringle",
+    "Marko Sarstedt"
+  ],
+  "year": 2014,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Journal of the Academy of Marketing Science",
+  "doi": "10.1007/s11747-014-0403-8",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6725 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "A new criterion for assessing discriminant validity in variance-based structural equation modeling",
+  "notes": "Discriminant validity assessment has become a generally accepted prerequisite for analyzing relationships between latent variables. For variance-based structural equation modeling, such as partial least squares, the Fornell-Larcker criterion and the examination of cross-loadings ...",
+  "source_files": [
+    "research\\literature\\papers\\jrghenseler2014a.md"
+  ],
+  "first_seen": "2026-05-18T08:13:29.261152Z",
+  "last_updated": "2026-05-18T08:13:29.271619Z"
+}

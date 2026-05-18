@@ -1,0 +1,33 @@
+{
+  "key": "rakshithsubramanya2022from",
+  "title": "From DevOps to MLOps: Overview and Application to Electricity Market Forecasting",
+  "authors": [
+    "Rakshith Subramanya",
+    "Seppo Sierla",
+    "Valeriy Vyatkin"
+  ],
+  "year": 2022,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Applied Sciences",
+  "doi": "10.3390/app12199851",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6385 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "From DevOps to MLOps: Overview and Application to Electricity Market Forecasting",
+  "notes": "In the Software Development Life Cycle (SDLC), Development and Operations (DevOps) has been proven to deliver reliable, scalable software within a shorter time. Due to the explosion of Machine Learning (ML) applications, the term Machine Learning Operations (MLOps) has gained sig...",
+  "source_files": [
+    "research\\literature\\papers\\rakshithsubramanya2022from.md"
+  ],
+  "first_seen": "2026-05-18T08:13:29.031877Z",
+  "last_updated": "2026-05-18T08:13:29.043196Z"
+}

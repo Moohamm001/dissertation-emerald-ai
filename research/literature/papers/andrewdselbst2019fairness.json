@@ -1,0 +1,35 @@
+{
+  "key": "andrewdselbst2019fairness",
+  "title": "Fairness and Abstraction in Sociotechnical Systems",
+  "authors": [
+    "Andrew D. Selbst",
+    "danah boyd",
+    "Sorelle A. Friedler",
+    "Suresh Venkatasubramanian",
+    "Janet Vertesi"
+  ],
+  "year": 2019,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "",
+  "doi": "10.1145/3287560.3287598",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6623 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Fairness and Abstraction in Sociotechnical Systems",
+  "notes": "A key goal of the fair-ML community is to develop machine-learning based systems that, once introduced into a social context, can achieve social and legal outcomes such as fairness, justice, and due process. Bedrock concepts in computer science---such as abstraction and modular d...",
+  "source_files": [
+    "research\\literature\\papers\\andrewdselbst2019fairness.md"
+  ],
+  "first_seen": "2026-05-18T08:13:29.213533Z",
+  "last_updated": "2026-05-18T08:13:29.224997Z"
+}

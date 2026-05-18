@@ -1,0 +1,32 @@
+{
+  "key": "johnbanasik2007reject",
+  "title": "Reject inference, augmentation, and sample selection",
+  "authors": [
+    "John Banasik",
+    "Jonathan Crook"
+  ],
+  "year": 2007,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "European Journal of Operational Research",
+  "doi": "10.1016/j.ejor.2006.06.072",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.5836 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Reject inference, augmentation, and sample selection",
+  "notes": "",
+  "source_files": [
+    "research\\literature\\papers\\johnbanasik2007reject.md"
+  ],
+  "first_seen": "2026-05-18T08:13:29.307600Z",
+  "last_updated": "2026-05-18T08:13:29.320285Z"
+}

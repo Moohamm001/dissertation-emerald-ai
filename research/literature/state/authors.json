@@ -25,6 +25,14 @@
       "green-finance"
     ]
   },
+  "Aakanksha Chowdhery": {
+    "institutions": [],
+    "name": "Aakanksha Chowdhery",
+    "paper_keys": [
+      "karansinghal2023large"
+    ],
+    "themes": []
+  },
   "Aarno Palotie": {
     "institutions": [],
     "name": "Aarno Palotie",
@@ -69,6 +77,14 @@
       "imbalance-calibration"
     ]
   },
+  "Abubakr Babiker": {
+    "institutions": [],
+    "name": "Abubakr Babiker",
+    "paper_keys": [
+      "karansinghal2023large"
+    ],
+    "themes": []
+  },
   "Adam Auton": {
     "institutions": [],
     "name": "Adam Auton",
@@ -90,6 +106,15 @@
     "name": "Adam Shaw",
     "paper_keys": [
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "Adeel Cheema": {
+    "institutions": [],
+    "name": "Adeel Cheema",
+    "paper_keys": [
+      "davidadkins2022method",
+      "davidadkins2022prescriptive"
     ],
     "themes": []
   },
@@ -133,6 +158,14 @@
     ],
     "themes": []
   },
+  "Ajay Kumar Tanwani": {
+    "institutions": [],
+    "name": "Ajay Kumar Tanwani",
+    "paper_keys": [
+      "karansinghal2023large"
+    ],
+    "themes": []
+  },
   "Akiba, T.": {
     "institutions": [],
     "name": "Akiba, T.",
@@ -151,6 +184,14 @@
     ],
     "themes": []
   },
+  "Alan Karthikesalingam": {
+    "institutions": [],
+    "name": "Alan Karthikesalingam",
+    "paper_keys": [
+      "karansinghal2023large"
+    ],
+    "themes": []
+  },
   "Alastair Kent": {
     "institutions": [],
     "name": "Alastair Kent",
@@ -165,6 +206,22 @@
     "name": "Alberto \u00d3rf\u00e3o",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Alessandro Bozzon": {
+    "institutions": [],
+    "name": "Alessandro Bozzon",
+    "paper_keys": [
+      "ziyuli2023metadata"
+    ],
+    "themes": []
+  },
+  "Alexandra Horobe\u0163": {
+    "institutions": [],
+    "name": "Alexandra Horobe\u0163",
+    "paper_keys": [
+      "nawazishmirza2024effects"
     ],
     "themes": []
   },
@@ -250,6 +307,14 @@
       "evolution-credit-scoring"
     ]
   },
+  "Alvin Rajkomar": {
+    "institutions": [],
+    "name": "Alvin Rajkomar",
+    "paper_keys": [
+      "karansinghal2023large"
+    ],
+    "themes": []
+  },
   "Amina Noor": {
     "institutions": [],
     "name": "Amina Noor",
@@ -298,6 +363,22 @@
     ],
     "themes": []
   },
+  "Andreas Paepcke": {
+    "institutions": [],
+    "name": "Andreas Paepcke",
+    "paper_keys": [
+      "seankandel2012enterprise"
+    ],
+    "themes": []
+  },
+  "Andrei Paleyes": {
+    "institutions": [],
+    "name": "Andrei Paleyes",
+    "paper_keys": [
+      "andreipaleyes2022challenges"
+    ],
+    "themes": []
+  },
   "Andres Moreno-Estrada": {
     "institutions": [],
     "name": "Andres Moreno-Estrada",
@@ -319,6 +400,14 @@
     "name": "Andrew D. Morris",
     "paper_keys": [
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "Andrew D. Selbst": {
+    "institutions": [],
+    "name": "Andrew D. Selbst",
+    "paper_keys": [
+      "andrewdselbst2019fairness"
     ],
     "themes": []
   },
@@ -628,6 +717,14 @@
     ],
     "themes": []
   },
+  "Asterios Katsifodimos": {
+    "institutions": [],
+    "name": "Asterios Katsifodimos",
+    "paper_keys": [
+      "ziyuli2023metadata"
+    ],
+    "themes": []
+  },
   "Audrey Duncanson": {
     "institutions": [],
     "name": "Audrey Duncanson",
@@ -819,6 +916,15 @@
     ],
     "themes": []
   },
+  "Bilal Alsallakh": {
+    "institutions": [],
+    "name": "Bilal Alsallakh",
+    "paper_keys": [
+      "davidadkins2022method",
+      "davidadkins2022prescriptive"
+    ],
+    "themes": []
+  },
   "Binghang Liu": {
     "institutions": [],
     "name": "Binghang Liu",
@@ -840,6 +946,14 @@
     "name": "Blair H. Smith",
     "paper_keys": [
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "Blaise Ag\u00fcera y Arcas": {
+    "institutions": [],
+    "name": "Blaise Ag\u00fcera y Arcas",
+    "paper_keys": [
+      "karansinghal2023large"
     ],
     "themes": []
   },
@@ -1144,6 +1258,15 @@
     ],
     "themes": []
   },
+  "Chavez Procope": {
+    "institutions": [],
+    "name": "Chavez Procope",
+    "paper_keys": [
+      "davidadkins2022method",
+      "davidadkins2022prescriptive"
+    ],
+    "themes": []
+  },
   "Chawla, N. V.": {
     "institutions": [],
     "name": "Chawla, N. V.",
@@ -1291,6 +1414,22 @@
     ],
     "themes": []
   },
+  "Christian K\u00e4stner": {
+    "institutions": [],
+    "name": "Christian K\u00e4stner",
+    "paper_keys": [
+      "nadianahar2022collaboration"
+    ],
+    "themes": []
+  },
+  "Christian M. Ringle": {
+    "institutions": [],
+    "name": "Christian M. Ringle",
+    "paper_keys": [
+      "jrghenseler2014a"
+    ],
+    "themes": []
+  },
   "Christie Kovar": {
     "institutions": [],
     "name": "Christie Kovar",
@@ -1312,6 +1451,14 @@
     "name": "Christine Tucker",
     "paper_keys": [
       "suzannemskevington1999designing"
+    ],
+    "themes": []
+  },
+  "Christoph Reich": {
+    "institutions": [],
+    "name": "Christoph Reich",
+    "paper_keys": [
+      "philippruf2021demystifying"
     ],
     "themes": []
   },
@@ -1347,6 +1494,14 @@
     ],
     "themes": []
   },
+  "Christopher Kelly": {
+    "institutions": [],
+    "name": "Christopher Kelly",
+    "paper_keys": [
+      "karansinghal2023large"
+    ],
+    "themes": []
+  },
   "Christopher R. Gignoux": {
     "institutions": [],
     "name": "Christopher R. Gignoux",
@@ -1360,6 +1515,14 @@
     "name": "Christopher S. Franklin",
     "paper_keys": [
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "Christopher Semturs": {
+    "institutions": [],
+    "name": "Christopher Semturs",
+    "paper_keys": [
+      "karansinghal2023large"
     ],
     "themes": []
   },
@@ -1495,6 +1658,14 @@
     ],
     "themes": []
   },
+  "Craig Gentry": {
+    "institutions": [],
+    "name": "Craig Gentry",
+    "paper_keys": [
+      "craiggentry2009fully"
+    ],
+    "themes": []
+  },
   "Crawford, K.": {
     "institutions": [],
     "name": "Crawford, K.",
@@ -1535,6 +1706,14 @@
     "name": "D.N. Cooper",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Dale R. Webster": {
+    "institutions": [],
+    "name": "Dale R. Webster",
+    "paper_keys": [
+      "karansinghal2023large"
     ],
     "themes": []
   },
@@ -1635,6 +1814,14 @@
     ],
     "themes": []
   },
+  "Dao Lan": {
+    "institutions": [],
+    "name": "Dao Lan",
+    "paper_keys": [
+      "fengshen2022reject"
+    ],
+    "themes": []
+  },
   "Dariusz Plewczy\u0144ski": {
     "institutions": [],
     "name": "Dariusz Plewczy\u0144ski",
@@ -1653,6 +1840,15 @@
       "methodology",
       "fairness-compliance"
     ]
+  },
+  "David Adkins": {
+    "institutions": [],
+    "name": "David Adkins",
+    "paper_keys": [
+      "davidadkins2022method",
+      "davidadkins2022prescriptive"
+    ],
+    "themes": []
   },
   "David B. Savage": {
     "institutions": [],
@@ -1758,6 +1954,14 @@
     ],
     "themes": []
   },
+  "David M. Georgoff": {
+    "institutions": [],
+    "name": "David M. Georgoff",
+    "paper_keys": [
+      "jscottarmstrong1988harvard"
+    ],
+    "themes": []
+  },
   "David Mittelman": {
     "institutions": [],
     "name": "David Mittelman",
@@ -1827,6 +2031,14 @@
     "name": "Dawn Muddyman",
     "paper_keys": [
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "Dayne Sorvisto": {
+    "institutions": [],
+    "name": "Dayne Sorvisto",
+    "paper_keys": [
+      "daynesorvisto2023deploying"
     ],
     "themes": []
   },
@@ -1925,6 +2137,14 @@
     ],
     "themes": []
   },
+  "Dina Demner\u2010Fushman": {
+    "institutions": [],
+    "name": "Dina Demner\u2010Fushman",
+    "paper_keys": [
+      "karansinghal2023large"
+    ],
+    "themes": []
+  },
   "Dinu Antony": {
     "institutions": [],
     "name": "Dinu Antony",
@@ -1946,6 +2166,14 @@
     "name": "Divya Kalra",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Djaffar Ould Abdeslam": {
+    "institutions": [],
+    "name": "Djaffar Ould Abdeslam",
+    "paper_keys": [
+      "philippruf2021demystifying"
     ],
     "themes": []
   },
@@ -2186,6 +2414,15 @@
     ],
     "themes": []
   },
+  "Emily McReynolds": {
+    "institutions": [],
+    "name": "Emily McReynolds",
+    "paper_keys": [
+      "davidadkins2022method",
+      "davidadkins2022prescriptive"
+    ],
+    "themes": []
+  },
   "Emily Y. Chew": {
     "institutions": [],
     "name": "Emily Y. Chew",
@@ -2263,6 +2500,15 @@
     "name": "Erik P. Garrison",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Erin Wang": {
+    "institutions": [],
+    "name": "Erin Wang",
+    "paper_keys": [
+      "davidadkins2022method",
+      "davidadkins2022prescriptive"
     ],
     "themes": []
   },
@@ -2424,6 +2670,22 @@
     "name": "Felicity Payne",
     "paper_keys": [
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "Feng Li": {
+    "institutions": [],
+    "name": "Feng Li",
+    "paper_keys": [
+      "fengli2011textual"
+    ],
+    "themes": []
+  },
+  "Feng Shen": {
+    "institutions": [],
+    "name": "Feng Shen",
+    "paper_keys": [
+      "fengshen2022reject"
     ],
     "themes": []
   },
@@ -2884,12 +3146,28 @@
       "imbalance-calibration"
     ]
   },
+  "Grace A. Lewis": {
+    "institutions": [],
+    "name": "Grace A. Lewis",
+    "paper_keys": [
+      "nadianahar2022collaboration"
+    ],
+    "themes": []
+  },
   "Graham R. S. Ritchie": {
     "institutions": [],
     "name": "Graham R. S. Ritchie",
     "paper_keys": [
       "correspondingauthors2015a",
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "Greg S. Corrado": {
+    "institutions": [],
+    "name": "Greg S. Corrado",
+    "paper_keys": [
+      "karansinghal2023large"
     ],
     "themes": []
   },
@@ -3135,6 +3413,14 @@
       "imbalance-calibration"
     ]
   },
+  "Heather Cole-Lewis": {
+    "institutions": [],
+    "name": "Heather Cole-Lewis",
+    "paper_keys": [
+      "karansinghal2023large"
+    ],
+    "themes": []
+  },
   "Heather Griffin": {
     "institutions": [],
     "name": "Heather Griffin",
@@ -3169,6 +3455,14 @@
     ],
     "themes": []
   },
+  "Henk Kant": {
+    "institutions": [],
+    "name": "Henk Kant",
+    "paper_keys": [
+      "ziyuli2023metadata"
+    ],
+    "themes": []
+  },
   "Henley, W. E.": {
     "institutions": [],
     "name": "Henley, W. E.",
@@ -3178,6 +3472,14 @@
     "themes": [
       "evolution-credit-scoring"
     ]
+  },
+  "Herman Wold": {
+    "institutions": [],
+    "name": "Herman Wold",
+    "paper_keys": [
+      "hermanwold1982soft"
+    ],
+    "themes": []
   },
   "Hilgard, S.": {
     "institutions": [],
@@ -3336,6 +3638,14 @@
     ],
     "themes": []
   },
+  "Hyung Won Chung": {
+    "institutions": [],
+    "name": "Hyung Won Chung",
+    "paper_keys": [
+      "karansinghal2023large"
+    ],
+    "themes": []
+  },
   "Hywel Williams": {
     "institutions": [],
     "name": "Hywel Williams",
@@ -3485,6 +3795,14 @@
     ],
     "themes": []
   },
+  "J. Scott Armstrong": {
+    "institutions": [],
+    "name": "J. Scott Armstrong",
+    "paper_keys": [
+      "jscottarmstrong1988harvard"
+    ],
+    "themes": []
+  },
   "Jaana Suvisaari": {
     "institutions": [],
     "name": "Jaana Suvisaari",
@@ -3606,6 +3924,14 @@
     ],
     "themes": []
   },
+  "Janet Vertesi": {
+    "institutions": [],
+    "name": "Janet Vertesi",
+    "paper_keys": [
+      "andrewdselbst2019fairness"
+    ],
+    "themes": []
+  },
   "Janzing, D.": {
     "institutions": [],
     "name": "Janzing, D.",
@@ -3621,6 +3947,14 @@
     "name": "Jared T. Simpson",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Jason Lee": {
+    "institutions": [],
+    "name": "Jason Lee",
+    "paper_keys": [
+      "karansinghal2023large"
     ],
     "themes": []
   },
@@ -3689,6 +4023,14 @@
     ],
     "themes": []
   },
+  "Jeffrey Heer": {
+    "institutions": [],
+    "name": "Jeffrey Heer",
+    "paper_keys": [
+      "seankandel2012enterprise"
+    ],
+    "themes": []
+  },
   "Jeffrey M. Kidd": {
     "institutions": [],
     "name": "Jeffrey M. Kidd",
@@ -3747,6 +4089,15 @@
     ],
     "themes": []
   },
+  "Jeremy Sawruk": {
+    "institutions": [],
+    "name": "Jeremy Sawruk",
+    "paper_keys": [
+      "davidadkins2022method",
+      "davidadkins2022prescriptive"
+    ],
+    "themes": []
+  },
   "Jeri Erickson": {
     "institutions": [],
     "name": "Jeri Erickson",
@@ -3778,6 +4129,14 @@
     "name": "Jian Yang",
     "paper_keys": [
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "Jiang Deng": {
+    "institutions": [],
+    "name": "Jiang Deng",
+    "paper_keys": [
+      "yanzhekang2021a"
     ],
     "themes": []
   },
@@ -3909,6 +4268,14 @@
     ],
     "themes": []
   },
+  "John Banasik": {
+    "institutions": [],
+    "name": "John Banasik",
+    "paper_keys": [
+      "johnbanasik2007reject"
+    ],
+    "themes": []
+  },
   "John C. Chambers": {
     "institutions": [],
     "name": "John C. Chambers",
@@ -4005,6 +4372,14 @@
     ],
     "themes": []
   },
+  "Jonathan Crook": {
+    "institutions": [],
+    "name": "Jonathan Crook",
+    "paper_keys": [
+      "johnbanasik2007reject"
+    ],
+    "themes": []
+  },
   "Jonathan L. Marchini": {
     "institutions": [],
     "name": "Jonathan L. Marchini",
@@ -4029,11 +4404,36 @@
     ],
     "themes": []
   },
+  "Jonn Lantz": {
+    "institutions": [],
+    "name": "Jonn Lantz",
+    "paper_keys": [
+      "ulfeliasson2015architecting"
+    ],
+    "themes": []
+  },
+  "Jordy Rillaerts": {
+    "institutions": [],
+    "name": "Jordy Rillaerts",
+    "paper_keys": [
+      "julianfklbel2022ask",
+      "juliankoumllbel2020does"
+    ],
+    "themes": []
+  },
   "Joseph J. Vitti": {
     "institutions": [],
     "name": "Joseph J. Vitti",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Joseph M. Hellerstein": {
+    "institutions": [],
+    "name": "Joseph M. Hellerstein",
+    "paper_keys": [
+      "seankandel2012enterprise"
     ],
     "themes": []
   },
@@ -4058,6 +4458,14 @@
     "name": "Joyce Malyn\u2010Smith",
     "paper_keys": [
       "irenelee2011computational"
+    ],
+    "themes": []
+  },
+  "Jo\u00eblle Barral": {
+    "institutions": [],
+    "name": "Jo\u00eblle Barral",
+    "paper_keys": [
+      "karansinghal2023large"
     ],
     "themes": []
   },
@@ -4093,6 +4501,22 @@
     ],
     "themes": []
   },
+  "Julian F K\u00f6lbel": {
+    "institutions": [],
+    "name": "Julian F K\u00f6lbel",
+    "paper_keys": [
+      "julianfklbel2022ask"
+    ],
+    "themes": []
+  },
+  "Julian K&ouml;lbel": {
+    "institutions": [],
+    "name": "Julian K&ouml;lbel",
+    "paper_keys": [
+      "juliankoumllbel2020does"
+    ],
+    "themes": []
+  },
   "Julie Dutil": {
     "institutions": [],
     "name": "Julie Dutil",
@@ -4117,6 +4541,22 @@
     "paper_keys": [
       "correspondingauthors2015a",
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "Juraj Gottweis": {
+    "institutions": [],
+    "name": "Juraj Gottweis",
+    "paper_keys": [
+      "karansinghal2023large"
+    ],
+    "themes": []
+  },
+  "J\u00f6rg Henseler": {
+    "institutions": [],
+    "name": "J\u00f6rg Henseler",
+    "paper_keys": [
+      "jrghenseler2014a"
     ],
     "themes": []
   },
@@ -4161,6 +4601,14 @@
     "themes": [
       "fairness-compliance"
     ]
+  },
+  "Karan Singhal": {
+    "institutions": [],
+    "name": "Karan Singhal",
+    "paper_keys": [
+      "karansinghal2023large"
+    ],
+    "themes": []
   },
   "Karen L. Kennedy": {
     "institutions": [],
@@ -4225,6 +4673,14 @@
     "name": "Kate Northstone",
     "paper_keys": [
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "Katherine Chou": {
+    "institutions": [],
+    "name": "Katherine Chou",
+    "paper_keys": [
+      "karansinghal2023large"
     ],
     "themes": []
   },
@@ -4895,6 +5351,14 @@
     ],
     "themes": []
   },
+  "Manav Madan": {
+    "institutions": [],
+    "name": "Manav Madan",
+    "paper_keys": [
+      "philippruf2021demystifying"
+    ],
+    "themes": []
+  },
   "Manju Venugopalan": {
     "institutions": [],
     "name": "Manju Venugopalan",
@@ -4916,6 +5380,14 @@
     "name": "Marc V\u00eda",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Marco Brambilla": {
+    "institutions": [],
+    "name": "Marco Brambilla",
+    "paper_keys": [
+      "ziyuli2023metadata"
     ],
     "themes": []
   },
@@ -4948,6 +5420,15 @@
     "name": "Margriet van Kogelenberg",
     "paper_keys": [
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "Maria Nikolaidi": {
+    "institutions": [],
+    "name": "Maria Nikolaidi",
+    "paper_keys": [
+      "yannisdafermos2021how",
+      "yannisdafermos2020how"
     ],
     "themes": []
   },
@@ -5031,6 +5512,14 @@
     ],
     "themes": []
   },
+  "Marko Sarstedt": {
+    "institutions": [],
+    "name": "Marko Sarstedt",
+    "paper_keys": [
+      "jrghenseler2014a"
+    ],
+    "themes": []
+  },
   "Markus Bauer": {
     "institutions": [],
     "name": "Markus Bauer",
@@ -5044,6 +5533,15 @@
     "name": "Markus H. Fritz",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Markus Leippold": {
+    "institutions": [],
+    "name": "Markus Leippold",
+    "paper_keys": [
+      "julianfklbel2022ask",
+      "juliankoumllbel2020does"
     ],
     "themes": []
   },
@@ -5068,6 +5566,14 @@
     "name": "Martin D. Tobin",
     "paper_keys": [
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "Martin Seneviratne": {
+    "institutions": [],
+    "name": "Martin Seneviratne",
+    "paper_keys": [
+      "karansinghal2023large"
     ],
     "themes": []
   },
@@ -5478,6 +5984,14 @@
     ],
     "themes": []
   },
+  "Muhammad Umar": {
+    "institutions": [],
+    "name": "Muhammad Umar",
+    "paper_keys": [
+      "nawazishmirza2024effects"
+    ],
+    "themes": []
+  },
   "Mullainathan, S.": {
     "institutions": [],
     "name": "Mullainathan, S.",
@@ -5493,6 +6007,14 @@
     "name": "Muminatou Jallow",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Nadia Nahar": {
+    "institutions": [],
+    "name": "Nadia Nahar",
+    "paper_keys": [
+      "nadianahar2022collaboration"
     ],
     "themes": []
   },
@@ -5523,6 +6045,15 @@
     ],
     "themes": []
   },
+  "Narine Kokhlikyan": {
+    "institutions": [],
+    "name": "Narine Kokhlikyan",
+    "paper_keys": [
+      "davidadkins2022method",
+      "davidadkins2022prescriptive"
+    ],
+    "themes": []
+  },
   "Nathan Bouk": {
     "institutions": [],
     "name": "Nathan Bouk",
@@ -5531,11 +6062,51 @@
     ],
     "themes": []
   },
+  "Nathan Scales": {
+    "institutions": [],
+    "name": "Nathan Scales",
+    "paper_keys": [
+      "karansinghal2023large"
+    ],
+    "themes": []
+  },
+  "Nathanael Sch\u00e4rli": {
+    "institutions": [],
+    "name": "Nathanael Sch\u00e4rli",
+    "paper_keys": [
+      "karansinghal2023large"
+    ],
+    "themes": []
+  },
+  "Nawazish Mirza": {
+    "institutions": [],
+    "name": "Nawazish Mirza",
+    "paper_keys": [
+      "nawazishmirza2024effects"
+    ],
+    "themes": []
+  },
   "Neda Gharani": {
     "institutions": [],
     "name": "Neda Gharani",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Neil D. Lawrence": {
+    "institutions": [],
+    "name": "Neil D. Lawrence",
+    "paper_keys": [
+      "andreipaleyes2022challenges"
+    ],
+    "themes": []
+  },
+  "Nenad Toma\u0161ev": {
+    "institutions": [],
+    "name": "Nenad Toma\u0161ev",
+    "paper_keys": [
+      "karansinghal2023large"
     ],
     "themes": []
   },
@@ -5608,6 +6179,14 @@
     "name": "Nils Homer",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Ning Jia": {
+    "institutions": [],
+    "name": "Ning Jia",
+    "paper_keys": [
+      "yanzhekang2021a"
     ],
     "themes": []
   },
@@ -5704,6 +6283,14 @@
       "tabular-deep-learning"
     ]
   },
+  "P. Mansfield": {
+    "institutions": [],
+    "name": "P. Mansfield",
+    "paper_keys": [
+      "karansinghal2023large"
+    ],
+    "themes": []
+  },
   "Packer, F.": {
     "institutions": [],
     "name": "Packer, F.",
@@ -5754,12 +6341,28 @@
     ],
     "themes": []
   },
+  "Patrizio Pelliccione": {
+    "institutions": [],
+    "name": "Patrizio Pelliccione",
+    "paper_keys": [
+      "ulfeliasson2015architecting"
+    ],
+    "themes": []
+  },
   "Paul Flicek": {
     "institutions": [],
     "name": "Paul Flicek",
     "paper_keys": [
       "correspondingauthors2015a",
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "Paul Gamble": {
+    "institutions": [],
+    "name": "Paul Gamble",
+    "paper_keys": [
+      "karansinghal2023large"
     ],
     "themes": []
   },
@@ -5780,6 +6383,14 @@
     "themes": [
       "tabular-deep-learning"
     ]
+  },
+  "Perry W. Payne": {
+    "institutions": [],
+    "name": "Perry W. Payne",
+    "paper_keys": [
+      "karansinghal2023large"
+    ],
+    "themes": []
   },
   "Peruvian in Lima, Peru (PEL)": {
     "institutions": [],
@@ -5937,6 +6548,14 @@
     ],
     "themes": []
   },
+  "Philipp Ruf": {
+    "institutions": [],
+    "name": "Philipp Ruf",
+    "paper_keys": [
+      "philippruf2021demystifying"
+    ],
+    "themes": []
+  },
   "Pilar N. Ossorio": {
     "institutions": [],
     "name": "Pilar N. Ossorio",
@@ -5980,6 +6599,15 @@
     "themes": [
       "imbalance-calibration"
     ]
+  },
+  "Polina Zvyagina": {
+    "institutions": [],
+    "name": "Polina Zvyagina",
+    "paper_keys": [
+      "davidadkins2022method",
+      "davidadkins2022prescriptive"
+    ],
+    "themes": []
   },
   "Popov, S.": {
     "institutions": [],
@@ -6047,11 +6675,29 @@
     ],
     "themes": []
   },
+  "Pushkar Mishra": {
+    "institutions": [],
+    "name": "Pushkar Mishra",
+    "paper_keys": [
+      "davidadkins2022method",
+      "davidadkins2022prescriptive"
+    ],
+    "themes": []
+  },
   "Qasim Ayub": {
     "institutions": [],
     "name": "Qasim Ayub",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Qian Wang": {
+    "institutions": [],
+    "name": "Qian Wang",
+    "paper_keys": [
+      "julianfklbel2022ask",
+      "juliankoumllbel2020does"
     ],
     "themes": []
   },
@@ -6105,6 +6751,14 @@
     ],
     "themes": []
   },
+  "Rakshith Subramanya": {
+    "institutions": [],
+    "name": "Rakshith Subramanya",
+    "paper_keys": [
+      "rakshithsubramanya2022from"
+    ],
+    "themes": []
+  },
   "Ralf Herwig": {
     "institutions": [],
     "name": "Ralf Herwig",
@@ -6118,6 +6772,14 @@
     "name": "Ralf Sudbrak",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Raoul-Gabriel Urma": {
+    "institutions": [],
+    "name": "Raoul-Gabriel Urma",
+    "paper_keys": [
+      "andreipaleyes2022challenges"
     ],
     "themes": []
   },
@@ -6306,6 +6968,14 @@
       "green-finance"
     ]
   },
+  "Rihan Hai": {
+    "institutions": [],
+    "name": "Rihan Hai",
+    "paper_keys": [
+      "ziyuli2023metadata"
+    ],
+    "themes": []
+  },
   "Rob DeSalle": {
     "institutions": [],
     "name": "Rob DeSalle",
@@ -6378,6 +7048,14 @@
     ],
     "themes": []
   },
+  "Rogardt Heldal": {
+    "institutions": [],
+    "name": "Rogardt Heldal",
+    "paper_keys": [
+      "ulfeliasson2015architecting"
+    ],
+    "themes": []
+  },
   "Rohan Taylor": {
     "institutions": [],
     "name": "Rohan Taylor",
@@ -6445,6 +7123,14 @@
     "name": "Ruibang Luo",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Runbang Cui": {
+    "institutions": [],
+    "name": "Runbang Cui",
+    "paper_keys": [
+      "yanzhekang2021a"
     ],
     "themes": []
   },
@@ -6520,6 +7206,22 @@
     "name": "S. F. Schaffner",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "S. Sara Mahdavi": {
+    "institutions": [],
+    "name": "S. Sara Mahdavi",
+    "paper_keys": [
+      "karansinghal2023large"
+    ],
+    "themes": []
+  },
+  "Sabri Boubaker": {
+    "institutions": [],
+    "name": "Sabri Boubaker",
+    "paper_keys": [
+      "nawazishmirza2024effects"
     ],
     "themes": []
   },
@@ -6757,6 +7459,14 @@
     ],
     "themes": []
   },
+  "Sean Kandel": {
+    "institutions": [],
+    "name": "Sean Kandel",
+    "paper_keys": [
+      "seankandel2012enterprise"
+    ],
+    "themes": []
+  },
   "Sebahattin \u00c7\u0131rak": {
     "institutions": [],
     "name": "Sebahattin \u00c7\u0131rak",
@@ -6792,6 +7502,14 @@
       "benchmarking",
       "gbdt-tabular-sota"
     ]
+  },
+  "Seppo Sierla": {
+    "institutions": [],
+    "name": "Seppo Sierla",
+    "paper_keys": [
+      "rakshithsubramanya2022from"
+    ],
+    "themes": []
   },
   "Sergiy Ponomarov": {
     "institutions": [],
@@ -6864,6 +7582,14 @@
     ],
     "themes": []
   },
+  "Shekoofeh Azizi": {
+    "institutions": [],
+    "name": "Shekoofeh Azizi",
+    "paper_keys": [
+      "karansinghal2023large"
+    ],
+    "themes": []
+  },
   "Shengmao Liu": {
     "institutions": [],
     "name": "Shengmao Liu",
@@ -6893,6 +7619,14 @@
     "name": "Shripad Sinari",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Shurui Zhou": {
+    "institutions": [],
+    "name": "Shurui Zhou",
+    "paper_keys": [
+      "nadianahar2022collaboration"
     ],
     "themes": []
   },
@@ -6971,6 +7705,14 @@
     "themes": [
       "tabular-deep-learning"
     ]
+  },
+  "Sorelle A. Friedler": {
+    "institutions": [],
+    "name": "Sorelle A. Friedler",
+    "paper_keys": [
+      "andrewdselbst2019fairness"
+    ],
+    "themes": []
   },
   "So\u2013Youn Shin": {
     "institutions": [],
@@ -7057,6 +7799,14 @@
     ],
     "themes": []
   },
+  "Stephen Pfohl": {
+    "institutions": [],
+    "name": "Stephen Pfohl",
+    "paper_keys": [
+      "karansinghal2023large"
+    ],
+    "themes": []
+  },
   "Stephen T. Sherry": {
     "institutions": [],
     "name": "Stephen T. Sherry",
@@ -7118,6 +7868,14 @@
     "name": "Suhartono Suhartono",
     "paper_keys": [
       "azarianatasha2019credit"
+    ],
+    "themes": []
+  },
+  "Suresh Venkatasubramanian": {
+    "institutions": [],
+    "name": "Suresh Venkatasubramanian",
+    "paper_keys": [
+      "andrewdselbst2019fairness"
     ],
     "themes": []
   },
@@ -7183,6 +7941,14 @@
     "themes": [
       "green-finance"
     ]
+  },
+  "Tao Tu": {
+    "institutions": [],
+    "name": "Tao Tu",
+    "paper_keys": [
+      "karansinghal2023large"
+    ],
+    "themes": []
   },
   "Tar\u00e1s K. Oleksyk": {
     "institutions": [],
@@ -7427,6 +8193,14 @@
       "green-finance"
     ]
   },
+  "Ulf Eliasson": {
+    "institutions": [],
+    "name": "Ulf Eliasson",
+    "paper_keys": [
+      "ulfeliasson2015architecting"
+    ],
+    "themes": []
+  },
   "Uma Nagaswamy": {
     "institutions": [],
     "name": "Uma Nagaswamy",
@@ -7440,6 +8214,14 @@
     "name": "Valentina Iotchkova",
     "paper_keys": [
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "Valeriy Vyatkin": {
+    "institutions": [],
+    "name": "Valeriy Vyatkin",
+    "paper_keys": [
+      "rakshithsubramanya2022from"
     ],
     "themes": []
   },
@@ -7562,6 +8344,14 @@
     "name": "Vineet Bafna",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Vivek Natarajan": {
+    "institutions": [],
+    "name": "Vivek Natarajan",
+    "paper_keys": [
+      "karansinghal2023large"
     ],
     "themes": []
   },
@@ -7723,6 +8513,14 @@
     ],
     "themes": []
   },
+  "William Henley": {
+    "institutions": [],
+    "name": "William Henley",
+    "paper_keys": [
+      "williamhenley1995statistical"
+    ],
+    "themes": []
+  },
   "William McLaren": {
     "institutions": [],
     "name": "William McLaren",
@@ -7871,6 +8669,14 @@
     ],
     "themes": []
   },
+  "Xingchao Zhao": {
+    "institutions": [],
+    "name": "Xingchao Zhao",
+    "paper_keys": [
+      "fengshen2022reject"
+    ],
+    "themes": []
+  },
   "Xinghua Shi": {
     "institutions": [],
     "name": "Xinghua Shi",
@@ -7977,6 +8783,23 @@
     ],
     "themes": []
   },
+  "Yannis Dafermos": {
+    "institutions": [],
+    "name": "Yannis Dafermos",
+    "paper_keys": [
+      "yannisdafermos2021how",
+      "yannisdafermos2020how"
+    ],
+    "themes": []
+  },
+  "Yanzhe Kang": {
+    "institutions": [],
+    "name": "Yanzhe Kang",
+    "paper_keys": [
+      "yanzhekang2021a"
+    ],
+    "themes": []
+  },
   "Yao Fu": {
     "institutions": [],
     "name": "Yao Fu",
@@ -8075,6 +8898,14 @@
     ],
     "themes": []
   },
+  "Yossi Matias": {
+    "institutions": [],
+    "name": "Yossi Matias",
+    "paper_keys": [
+      "karansinghal2023large"
+    ],
+    "themes": []
+  },
   "Yu Kong": {
     "institutions": [],
     "name": "Yu Kong",
@@ -8128,6 +8959,14 @@
     "name": "Yun Li",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Yun Liu": {
+    "institutions": [],
+    "name": "Yun Liu",
+    "paper_keys": [
+      "karansinghal2023large"
     ],
     "themes": []
   },
@@ -8243,6 +9082,14 @@
     ],
     "themes": []
   },
+  "Zhiyuan Yang": {
+    "institutions": [],
+    "name": "Zhiyuan Yang",
+    "paper_keys": [
+      "fengshen2022reject"
+    ],
+    "themes": []
+  },
   "Zhongming Tian": {
     "institutions": [],
     "name": "Zhongming Tian",
@@ -8267,11 +9114,27 @@
     ],
     "themes": []
   },
+  "Ziyu Li": {
+    "institutions": [],
+    "name": "Ziyu Li",
+    "paper_keys": [
+      "ziyuli2023metadata"
+    ],
+    "themes": []
+  },
   "Zoya Kingsbury": {
     "institutions": [],
     "name": "Zoya Kingsbury",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "danah boyd": {
+    "institutions": [],
+    "name": "danah boyd",
+    "paper_keys": [
+      "andrewdselbst2019fairness"
     ],
     "themes": []
   },

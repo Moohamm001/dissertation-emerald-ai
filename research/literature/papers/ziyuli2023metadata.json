@@ -1,0 +1,36 @@
+{
+  "key": "ziyuli2023metadata",
+  "title": "Metadata Representations for Queryable Repositories of Machine Learning Models",
+  "authors": [
+    "Ziyu Li",
+    "Henk Kant",
+    "Rihan Hai",
+    "Asterios Katsifodimos",
+    "Marco Brambilla",
+    "Alessandro Bozzon"
+  ],
+  "year": 2023,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "IEEE Access",
+  "doi": "10.1109/access.2023.3330647",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6161 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Metadata Representations for Queryable Repositories of Machine Learning Models",
+  "notes": "Machine learning (ML) practitioners and organizations are building model repositories of pre-trained models, referred to as <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">model zoos</i> . These model zoos contain metadata describ...",
+  "source_files": [
+    "research\\literature\\papers\\ziyuli2023metadata.md"
+  ],
+  "first_seen": "2026-05-18T08:13:29.187833Z",
+  "last_updated": "2026-05-18T08:13:29.199650Z"
+}

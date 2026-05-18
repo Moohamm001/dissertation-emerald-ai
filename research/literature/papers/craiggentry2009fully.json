@@ -1,0 +1,31 @@
+{
+  "key": "craiggentry2009fully",
+  "title": "Fully homomorphic encryption using ideal lattices",
+  "authors": [
+    "Craig Gentry"
+  ],
+  "year": 2009,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "",
+  "doi": "10.1145/1536414.1536440",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6553 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Fully homomorphic encryption using ideal lattices",
+  "notes": "We propose a fully homomorphic encryption scheme -- i.e., a scheme that allows one to evaluate circuits over encrypted data without being able to decrypt. Our solution comes in three steps. First, we provide a general result -- that, to construct an encryption scheme that permits...",
+  "source_files": [
+    "research\\literature\\papers\\craiggentry2009fully.md"
+  ],
+  "first_seen": "2026-05-18T08:13:29.079003Z",
+  "last_updated": "2026-05-18T08:13:29.089840Z"
+}

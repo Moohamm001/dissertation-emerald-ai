@@ -1,0 +1,40 @@
+{
+  "key": "davidadkins2022method",
+  "title": "Method cards for prescriptive machine-learning transparency",
+  "authors": [
+    "David Adkins",
+    "Bilal Alsallakh",
+    "Adeel Cheema",
+    "Narine Kokhlikyan",
+    "Emily McReynolds",
+    "Pushkar Mishra",
+    "Chavez Procope",
+    "Jeremy Sawruk",
+    "Erin Wang",
+    "Polina Zvyagina"
+  ],
+  "year": 2022,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "",
+  "doi": "10.1145/3522664.3528600",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6233 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Method cards for prescriptive machine-learning transparency",
+  "notes": "Specialized documentation techniques have been developed to communicate key facts about machine-learning (ML) systems and the datasets and models they rely on. Techniques such as Datasheets, AI FactSheets, and Model Cards have taken a mainly descriptive approach, providing variou...",
+  "source_files": [
+    "research\\literature\\papers\\davidadkins2022method.md"
+  ],
+  "first_seen": "2026-05-18T08:13:29.127512Z",
+  "last_updated": "2026-05-18T08:13:29.136096Z"
+}

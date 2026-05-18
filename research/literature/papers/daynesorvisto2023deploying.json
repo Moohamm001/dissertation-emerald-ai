@@ -1,0 +1,31 @@
+{
+  "key": "daynesorvisto2023deploying",
+  "title": "Deploying Stochastic Systems",
+  "authors": [
+    "Dayne Sorvisto"
+  ],
+  "year": 2023,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Apress eBooks",
+  "doi": "10.1007/978-1-4842-9642-4_7",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6025 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Deploying Stochastic Systems",
+  "notes": "If you’ve made it this far, you already have the skills to build a complete end to end data science system. Data science of course is more than machine learning and code which are really only tools, and to build end to end systems, we need to understand people, processes, and tec...",
+  "source_files": [
+    "research\\literature\\papers\\daynesorvisto2023deploying.md"
+  ],
+  "first_seen": "2026-05-18T08:13:28.965721Z",
+  "last_updated": "2026-05-18T08:13:28.972174Z"
+}

@@ -1,0 +1,31 @@
+{
+  "key": "hermanwold1982soft",
+  "title": "Soft modelling: The Basic Design and Some Extensions",
+  "authors": [
+    "Herman Wold"
+  ],
+  "year": 1982,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Medical Entomology and Zoology",
+  "doi": "10.1093/pnasnexus/pgac122",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.5701 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Soft modelling: The Basic Design and Some Extensions",
+  "notes": "Ocean sulfate concentration might have fluctuated greatly throughout the Earth's history and may serve as a window into perturbations in the ocean-atmosphere system. Coupling high-resolution experimental results with an inverse modeling approach, we, here, show an unprecedented d...",
+  "source_files": [
+    "research\\literature\\papers\\hermanwold1982soft.md"
+  ],
+  "first_seen": "2026-05-18T08:13:29.375902Z",
+  "last_updated": "2026-05-18T08:13:29.387439Z"
+}
