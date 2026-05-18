@@ -60,9 +60,27 @@ def eda(
 
 
 @app.command()
-def preprocess() -> None:
-    """Run leakage audit, encoding, scaling, imbalance treatment (proposal sec.5.3, sec.5.5, sec.5.7)."""
-    raise NotImplementedError("Preprocessing pipeline not yet implemented.")
+def preprocess(
+    data_path: Path | None = typer.Option(None, help="Override raw .xlsx path (default: data/raw/All_Funded_2019_Green Loan.xlsx)"),
+    out: Path | None = typer.Option(None, help="Override output report path (default: data/governance/preprocess_report.md)"),
+) -> None:
+    """Run the §5.5 preprocessing pipeline: drop list + impute + encode + scale.
+
+    Stage 1 (drop) applies the >40% missingness rule and strips EDA-flagged
+    time-leaking columns. Stage 2 imputes (median for numerics; explicit
+    `__missing__` for categoricals) and appends missing-indicator binaries.
+    Stage 3 one-hots low-cardinality categoricals (≤10 levels) and
+    target-encodes high-cardinality ones (Industry, Borrower State).
+    Stage 4 standardises numerics. Emits ``data/governance/preprocess_report.md``.
+    """
+    from emerald_ai.features.pipeline import PREPROCESS_REPORT_PATH, run_preprocess
+    target = out if out is not None else PREPROCESS_REPORT_PATH
+    written, audit = run_preprocess(path=data_path, out_path=target)
+    console.print(f"[green]OK[/green]: {written}")
+    console.print(
+        f"  in={audit.n_input_columns} cols / {audit.n_rows_in} rows  "
+        f"-> out={audit.n_output_features} features / {audit.n_rows_out} rows"
+    )
 
 
 @app.command()

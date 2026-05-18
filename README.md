@@ -36,6 +36,7 @@ The system is designed to comply with the **EU AI Act** and the **UK Financial C
 | **Tests + continuous integration** | ✅ Done | 55 tests passing across literature integrity, discovery bot, data load, and leakage audit |
 | **Data loading + leakage audit** | ✅ **Done (2026-05-18)** | 166 columns classified — 90 permitted as features, 76 forbidden; class balance 0.36% delinquent surfaced; datasheet + catalogue committed under `data/governance/` |
 | **Exploratory data analysis (EDA)** | ✅ **v0.1 (2026-05-18)** | Univariate distributions + bivariate MI against Y + segment-level conditional default rates with Wilson 95% CIs + quarterly PSI drift. Run: `python -m emerald_ai eda` → `data/governance/eda_report.md`. **Key findings:** `Industry=firearms` 9.09% rate (small-N flagged); `Borrower State=WV/AR/CT/IN/SC` highest at 1.5–2.1%; material PSI drift on `Lender Identifier` (13–14), `Published` (10–11), `Attempted/Assigned` (8–9). |
+| **Preprocessing pipeline** | ✅ **v0.1 (2026-05-18)** | ColumnTransformer over the 90 permitted features: Stage 1 drop (>40% missing + EDA-flagged time-leaking); Stage 2 impute + missing-indicators; Stage 3 one-hot (≤10 levels) + target-encode (Industry, Borrower State); Stage 4 StandardScaler. Run: `python -m emerald_ai preprocess` → `data/governance/preprocess_report.md`. **Drops:** 8 high-miss columns (Term/APR/Factor + the five 100%-missing-but-permitted), 2 time-leaking, 35 datetime (deferred to §5.6). |
 | **Model training** | ⬜ Weeks 8–10 | Six classifier families benchmarked under identical preprocessing |
 | **Calibration + uncertainty** | ⬜ Week 11 | Probability calibration + conformal prediction intervals |
 | **Explainability + fairness audit** | ⬜ Weeks 12–13 | SHAP, counterfactuals, fairness across industry/geography/size |
@@ -65,7 +66,7 @@ The system is designed to comply with the **EU AI Act** and the **UK Financial C
   methods detected  :  22      (XGBoost, LightGBM, CatBoost, SHAP, DiCE, conformal, ...)
   datasets detected :   9      (COMPAS, FICO, Adult, German Credit, Lending Club, ...)
   themes drafted    :   8/8    (lit-review sections 4.1-4.8)
-  tests passing     :  66/66   (smoke + brain + discovery bot + data load + leakage audit + EDA)
+  tests passing     :  76/76   (smoke + brain + discovery bot + data load + leakage audit + EDA + preprocess)
   top-level dirs    :   7      (.github, apps, src, research, docs, data, tests)
   commits on main   :   9
 ```
@@ -97,7 +98,8 @@ It occupies an explicit literature gap: no published work simultaneously deliver
 | FastAPI backend | **PARTIAL** | `python -m emerald_ai api` (only `/healthz` for now; rest scaffolded) |
 | Data layer (load + leakage audit + datasheet + feature catalogue) | **WORKS** | `python -m emerald_ai.data.leakage_audit` — emits `data/governance/{feature_catalogue.yaml, feature_audit_summary.md, datasheet.md}` |
 | EDA pipeline (univariate + bivariate + segment-level + drift) | **WORKS** | `python -m emerald_ai eda` — emits `data/governance/eda_report.md` |
-| ML pipeline (preprocess / train / evaluate / explain / audit) | **STUB** | CLI raises `NotImplementedError` with a pointer to the relevant proposal section |
+| Preprocessing pipeline (ColumnTransformer: drop + impute + encode + scale) | **WORKS** | `python -m emerald_ai preprocess` — emits `data/governance/preprocess_report.md` |
+| ML pipeline (train / evaluate / explain / audit) | **STUB** | CLI raises `NotImplementedError` with a pointer to the relevant proposal section |
 | React SPA frontend | **STUB** | scaffold deferred until the API serves real predictions |
 
 ---
@@ -140,8 +142,32 @@ It occupies an explicit literature gap: no published work simultaneously deliver
    │  -> fourth_draft.docx │                      └────────────────────────────┘            │
    └───────────────────────┘                                                                │
                                                                                             │
-              [ tests/ 66 passing : smoke + brain + discovery bot + data load + leakage audit + EDA ]
+         [ tests/ 76 passing : smoke + brain + discovery bot + data load + leakage audit + EDA + preprocess ]
 ```
+
+---
+
+## Traceability — empirical finding → proposal § → code module → governance artefact
+
+> _The literature brain (`research/literature/`) indexes **external** sources. This table is the
+> code brain: it indexes **internal** decisions, mapping each empirical finding from the data through
+> the proposal section that motivates it, the module that implements it, and the governance artefact
+> that records the result. Updated as each stage lands._
+
+| Empirical finding (source) | Proposal § | Code module | Governance artefact |
+|---|---|---|---|
+| 90 permitted / 76 forbidden after target-leakage audit (166 columns × 6 categories) | §5.3 | `src/emerald_ai/data/leakage_audit.py` | `data/governance/feature_catalogue.yaml` + `feature_audit_summary.md` |
+| 0.36% delinquent prevalence (49 default + 1 behind / 14,022 labelled = 99.20% coverage) | §4.4 + §5.2 | `src/emerald_ai/data/load.py` (`label_creditworthiness`) | `data/governance/datasheet.md` §2 |
+| `Monthly Credit Card Charges` 100% missing in 2019; Term 86.4% / APR 59.6% / Factor 42.0% (>40% drop threshold) | §5.5 Stage 1 | `src/emerald_ai/features/pipeline.py` (`build_preprocessor`) | `data/governance/preprocess_report.md` |
+| Material quarterly PSI on `Lender Identifier` (13–14) / `Published` (10–11) / `Attempted/Assigned` (8–9); pure-time PSI ~16 by construction (`Start Month`, `Start Annual Day`) | §5.4 + §5.5 | `src/emerald_ai/data/eda.py` (`psi_temporal`) + `pipeline.TIME_LEAKING_COLUMNS` | `data/governance/eda_report.md` §4 |
+| Industry-level risk gradient (firearms 9.09% small-N → retail 0.08%, ~17× range); state-level cluster WV/AR/CT/IN/SC at 1.5–2.1% | §5.4 + §5.12 | `src/emerald_ai/data/eda.py` (`conditional_default_rates`) | `data/governance/eda_report.md` §3 |
+| Conformal claim split under N=50 minority: marginal coverage = headline; Mondrian conditional = diagnostic with bootstrap CIs; interval width excluded from primary metrics | §4.4 + §5.10 + §5.13 | (TBD — `src/emerald_ai/calibration/`) | (TBD — calibration report) |
+| Reject-inference bounded by data (no rejected applicants): model framed as conditional on prior accept-policy | §4.4 + §5.2 + §8 | (TBD — sensitivity analysis in `src/emerald_ai/eval/`) | `data/governance/datasheet.md` §5 |
+
+This table is the answer to "should we have more brain about code?" — yes, but lightweight. The literature brain
+(papers) lives in `research/literature/`; the code brain (this table + the governance artefacts under
+`data/governance/` + the §-pointing docstrings) lives at the project's top level so a supervisor can audit
+the empirical → methodological → code chain end to end without spelunking subdirectories.
 
 ---
 
@@ -405,42 +431,51 @@ EMERALD-AI is designed against (not certified against) the following regulatory 
 ## Recent activity
 
 ```
-(uncommitted, 2026-05-18)  proposal v0.4.1 (full + 3K condensed) + data-governance + tests
-            ↳ proposal_fourth_draft_3k.docx — 3K-target reader-facing version:
-              2,077-word body + curated 30-ref bibliography = 2,743 words total.
-              Carries every v0.4 empirical number AND the v0.4.1 conformal
-              reframe (marginal coverage as headline, Mondrian / class-
-              conditional as diagnostic, interval width excluded from primary
-              metrics, transparency-mechanism framing). Built by
-              docs/proposal/build_proposal_condensed.py.
-            ↳ proposal_fourth_draft.docx (v0.4.1) — supervisor-facing version
-              expanded from v0.4 by ~1,000w concentrated in §5.10 + §5.13:
-              within-minority-class ECE and recall@top-decile promoted to
-              primary metrics; conformal claim split (marginal = headline,
-              Mondrian conditional = diagnostic with bootstrap CIs; interval
-              width excluded from primary); raw accuracy explicitly excluded
-              (constant predictor = 99.64%). Full 74-ref bibliography intact.
-            ↳ proposal_fourth_draft.docx — surgical v0.3 -> v0.4 patch aligning
-              the text with the v1.0 governance artefacts: §4.4 recalibrated
-              for empirical 0.36% delinquent prevalence (vs textbook 2-15%);
-              §5.2 reports the exact label distribution (3,848/10,124/49/1/113)
-              and reframes the censoring sensitivity so paidOff-only becomes
-              the headline robustness check; §5.3 reports the 90/76 audit
-              split and surfaces the 100%-missing `Monthly Credit Card Charges`
-              finding; §5.5 names the >40%-missing casualties (Term 86.4%,
-              APR 59.6%, Factor 42.0%) + the 11 100%-missing columns.
-              Bibliography (74 refs) carried forward unchanged.
-            ↳ data/governance/datasheet.md (Gebru et al. schema, 7 sections —
-              motivation, composition, collection, preprocessing, uses,
-              distribution, maintenance; surfaces accepted-only selection
-              bias, right-censoring of `current` labels, `Time In Business`
-              negative values, $1B `Amount Sought` outlier);
-              tests/test_data_load.py + tests/test_leakage_audit.py raise
-              suite 21 -> 55 passing (label-construction, drop-rules,
-              category counts, idempotency of audit emit);
-              src/emerald_ai/data/{load,leakage_audit}.py extended;
-              autonomous bot crawl added 110 new entries to auto_index.yaml
-              (working-tree bot-stub paper notes pending ingest).
+(uncommitted, 2026-05-18)  preprocessing pipeline (proposal §5.5) + traceability
+            ↳ src/emerald_ai/features/pipeline.py: full ColumnTransformer
+              implementation. Stage 1 drop-list (>40% miss + EDA-flagged
+              time-leaking); Stage 2 median impute + missing-indicators;
+              Stage 3 one-hot (≤10 levels) + TargetEncoder (Industry,
+              Borrower State); Stage 4 StandardScaler. fit_transform_with_audit
+              + emit_report → data/governance/preprocess_report.md.
+            ↳ Real-data run: 90 input cols (post-EDA permitted) -> 90 output
+              features on 14,022 labelled rows. Drops 8 high-miss columns
+              (Term/APR/Factor + the five 100%-missing-but-permitted —
+              App Out, 1st Online Engmnt, MCCC, Lender Identifier, Published),
+              2 time-leaking (Start Month, Start Annual Day), 35 datetime
+              (deferred to §5.6).
+            ↳ tests/test_features_pipeline.py: 10 tests covering drop-list
+              triggers, low/high-card split, fit-transform invariants
+              (standardised numerics, missing-indicator dimensionality),
+              unseen-level safety on both encoders. Suite 66 -> 76 passing.
+            ↳ src/emerald_ai/cli.py: `python -m emerald_ai preprocess`
+              replaces the prior NotImplementedError stub.
+            ↳ README.md: new "Traceability" section indexing every empirical
+              finding -> proposal § -> code module -> governance artefact
+              (the "code brain" answer to the literature brain).
+
+74a1345  feat(eda): four-layer EDA module on 90 permitted features (§5.4)
+            ↳ univariate / bivariate-MI / segment-level Wilson CIs / quarterly
+              PSI. Surfaced: firearms 9.09% (small-N), WV/AR/CT/IN/SC at
+              1.5-2.1%, material PSI on Lender Identifier (13-14) / Published
+              (10-11) / Attempted-Assigned (8-9); pure-time PSI ~16 by
+              construction. 11 new tests; suite 55 -> 66 passing.
+
+5efcec4  chore(brain): bot crawl +110 entries; refresh state + README log
+            ↳ auto_index.yaml 46 -> 156 entries; ~92 new bot-stub paper
+              sidecars (auto_discovered/verified:false); state/* regenerated.
+
+4e9b25f  feat(data): Gebru datasheet + leakage-audit tests + load helpers
+            ↳ data/governance/datasheet.md (7 sections, Gebru et al. schema);
+              tests/test_data_load.py + test_leakage_audit.py; suite
+              21 -> 55 passing.
+
+ae8aa1f  docs(proposal): v0.4 datasheet patch + v0.4.1 small-N reframe + 3K
+            ↳ §4.4 0.36% prevalence recalibration; §5.2 label counts +
+              paidOff-only headline; §5.3 90/76 split + MCCC transparency
+              note; §5.5 drop-list casualties; v0.4.1 conformal claim split
+              (marginal headline / Mondrian diagnostic / width excluded);
+              3K-condensed companion with 30-ref bibliography.
 
 8ff6fab  revamp README + research-to-brain integration + v0.3 proposal
             ↳ bot discovery grew brain 82 -> 218 papers (76 curated + 142 bot);
