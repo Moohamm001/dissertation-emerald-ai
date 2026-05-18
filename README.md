@@ -35,7 +35,7 @@ The system is designed to comply with the **EU AI Act** and the **UK Financial C
 | **Automated research bot** | ✅ Done | Keeps discovering new relevant papers from OpenAlex over time |
 | **Tests + continuous integration** | ✅ Done | 55 tests passing across literature integrity, discovery bot, data load, and leakage audit |
 | **Data loading + leakage audit** | ✅ **Done (2026-05-18)** | 166 columns classified — 90 permitted as features, 76 forbidden; class balance 0.36% delinquent surfaced; datasheet + catalogue committed under `data/governance/` |
-| **Exploratory data analysis (EDA)** | 🚧 **Starting next** | Distributions, correlations, missingness, drift diagnostics on the 90 cleaned features |
+| **Exploratory data analysis (EDA)** | ✅ **v0.1 (2026-05-18)** | Univariate distributions + bivariate MI against Y + segment-level conditional default rates with Wilson 95% CIs + quarterly PSI drift. Run: `python -m emerald_ai eda` → `data/governance/eda_report.md`. **Key findings:** `Industry=firearms` 9.09% rate (small-N flagged); `Borrower State=WV/AR/CT/IN/SC` highest at 1.5–2.1%; material PSI drift on `Lender Identifier` (13–14), `Published` (10–11), `Attempted/Assigned` (8–9). |
 | **Model training** | ⬜ Weeks 8–10 | Six classifier families benchmarked under identical preprocessing |
 | **Calibration + uncertainty** | ⬜ Week 11 | Probability calibration + conformal prediction intervals |
 | **Explainability + fairness audit** | ⬜ Weeks 12–13 | SHAP, counterfactuals, fairness across industry/geography/size |
@@ -65,7 +65,7 @@ The system is designed to comply with the **EU AI Act** and the **UK Financial C
   methods detected  :  22      (XGBoost, LightGBM, CatBoost, SHAP, DiCE, conformal, ...)
   datasets detected :   9      (COMPAS, FICO, Adult, German Credit, Lending Club, ...)
   themes drafted    :   8/8    (lit-review sections 4.1-4.8)
-  tests passing     :  55/55   (smoke + brain integrity + discovery bot + data load + leakage audit)
+  tests passing     :  66/66   (smoke + brain + discovery bot + data load + leakage audit + EDA)
   top-level dirs    :   7      (.github, apps, src, research, docs, data, tests)
   commits on main   :   9
 ```
@@ -96,6 +96,7 @@ It occupies an explicit literature gap: no published work simultaneously deliver
 | Cross-platform CLI (Windows / macOS / Linux, no Make required) | **WORKS** | `python -m emerald_ai --help` |
 | FastAPI backend | **PARTIAL** | `python -m emerald_ai api` (only `/healthz` for now; rest scaffolded) |
 | Data layer (load + leakage audit + datasheet + feature catalogue) | **WORKS** | `python -m emerald_ai.data.leakage_audit` — emits `data/governance/{feature_catalogue.yaml, feature_audit_summary.md, datasheet.md}` |
+| EDA pipeline (univariate + bivariate + segment-level + drift) | **WORKS** | `python -m emerald_ai eda` — emits `data/governance/eda_report.md` |
 | ML pipeline (preprocess / train / evaluate / explain / audit) | **STUB** | CLI raises `NotImplementedError` with a pointer to the relevant proposal section |
 | React SPA frontend | **STUB** | scaffold deferred until the API serves real predictions |
 
@@ -139,7 +140,7 @@ It occupies an explicit literature gap: no published work simultaneously deliver
    │  -> fourth_draft.docx │                      └────────────────────────────┘            │
    └───────────────────────┘                                                                │
                                                                                             │
-                  [ tests/ 55 passing : smoke + brain + discovery bot + data load + leakage audit ]
+              [ tests/ 66 passing : smoke + brain + discovery bot + data load + leakage audit + EDA ]
 ```
 
 ---

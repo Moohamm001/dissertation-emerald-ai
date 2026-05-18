@@ -43,9 +43,20 @@ def version() -> None:
 
 
 @app.command()
-def eda() -> None:
-    """Run exploratory data analysis (proposal sec.5.4)."""
-    raise NotImplementedError("EDA pipeline not yet implemented - see proposal sec.5.4.")
+def eda(
+    data_path: Path | None = typer.Option(None, help="Override raw .xlsx path (default: data/raw/All_Funded_2019_Green Loan.xlsx)"),
+    out: Path | None = typer.Option(None, help="Override output report path (default: data/governance/eda_report.md)"),
+) -> None:
+    """Run exploratory data analysis on the 90 permitted features (proposal §5.4).
+
+    Emits ``data/governance/eda_report.md`` with univariate distributions,
+    bivariate association against Y, segment-level conditional default rates,
+    and quarterly PSI drift diagnostics.
+    """
+    from emerald_ai.data.eda import EDA_REPORT_PATH, run_eda
+    target = out if out is not None else EDA_REPORT_PATH
+    written = run_eda(path=data_path, out_path=target)
+    console.print(f"[green]OK[/green]: {written}")
 
 
 @app.command()
