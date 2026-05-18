@@ -1,10 +1,34 @@
 """Build the elevated EMERALD-AI dissertation proposal as a Word document.
 
+v0.4.1 (2026-05-18) — small-N-minority evaluation reframe. Tightens §5.10 and
+§5.13 against the 0.36% prevalence reality: within-minority-class ECE and
+recall@top-decile are promoted to primary-metric tier alongside PR-AUC;
+conformal prediction is retained but its claim structure is split — marginal
+coverage as headline (finite-sample exact at any N), Mondrian / class-
+conditional coverage as a diagnostic with explicit small-sample CIs, interval
+width excluded from primary metrics. Conformal is positioned as a regulator-
+facing transparency mechanism rather than a precision claim the data cannot
+defend. Raw accuracy is explicitly excluded (constant predictor = 99.64%).
+
+v0.4 (2026-05-18) — fourth draft. Surgical patch against the v1.0 data-governance
+artefacts (data/governance/datasheet.md + feature_catalogue.yaml +
+feature_audit_summary.md). Concrete edits:
+  - §4.4 recalibrates the class-imbalance range to acknowledge the empirical
+    0.36% delinquent prevalence and scopes the imbalance toolkit accordingly.
+  - §5.2 reports the empirical Y-construction counts (3,848 paidOff /
+    10,124 current / 49 default / 1 behind / 113 unlabelled = 99.20%
+    coverage) and reframes the censoring sensitivity so paidOff-only
+    becomes the headline robustness check.
+  - §5.3 reports the 90 permitted / 76 forbidden audit decomposition,
+    surfaces the 100%-missing `Monthly Credit Card Charges` finding, and
+    cross-references the governance artefacts.
+  - §5.5 names the >40% drop-list casualties (Term 86.4%, APR 59.6%,
+    Factor 42.0%) and the eleven 100%-missing columns.
+
 v0.3 (2026-05-18) — third draft. Rebuilt against the post-bot literature brain
-(108 papers, 1087 authors). Adds the climate–credit risk channel, the
-sociotechnical fairness critique, the reject-inference / selection-bias
-treatment, MLOps deployment evidence, and the opacity-of-finance framing
-that v0.2 left implicit. Target length ~8,000 words.
+(108 papers, 1087 authors). Added climate–credit risk channel, sociotechnical
+fairness critique, reject-inference / selection-bias treatment, MLOps
+deployment evidence, and the opacity-of-finance framing. ~8,500 words.
 """
 from docx import Document
 from docx.shared import Pt, Cm, RGBColor
@@ -102,7 +126,7 @@ r.font.color.rgb = RGBColor(0x14, 0x4F, 0x32)
 
 sub = doc.add_paragraph()
 sub.alignment = WD_ALIGN_PARAGRAPH.CENTER
-sr = sub.add_run("MSc Applied Artificial Intelligence — Dissertation Proposal (Third Draft)")
+sr = sub.add_run("MSc Applied Artificial Intelligence — Dissertation Proposal (Fourth Draft)")
 sr.italic = True
 sr.font.size = Pt(11)
 
@@ -359,7 +383,19 @@ add_heading(doc, "4.4 Class Imbalance, Calibration, Uncertainty, and Reject Infe
 add_para(
     doc,
     "Credit-default datasets are intrinsically imbalanced — typical positive (default) prevalence in "
-    "well-underwritten portfolios sits in the 2–15% range. Naive training on imbalanced data produces "
+    "well-underwritten portfolios sits in the 2–15% range, although prevalence on heavily "
+    "pre-screened populations can be substantially lower. The empirical 2019 EMERALD-AI cohort sits "
+    "at the extreme end of this spectrum: only 50 of the 14,022 labelled records (0.36%) carry the "
+    "delinquent label (49 `default` plus 1 `behind`), an order of magnitude below the typical lower "
+    "bound. This has two methodological consequences. First, the imbalance toolkit must be scoped "
+    "to a regime where the minority class contains roughly fifty observations: SMOTE-family "
+    "oversampling interpolates between an extremely sparse set of seeds and risks generating "
+    "synthetic points that do not respect the manifold, motivating an explicit comparison against "
+    "cost-sensitive learning, focal-loss training, and a one-class / anomaly-detection baseline. "
+    "Second, raw accuracy becomes uninformative (a constant predictor scores 99.64%): PR-AUC, "
+    "recall@top-decile, expected calibration error within the minority class, and bootstrapped "
+    "confidence intervals over a small absolute event count become the primary headline metrics. "
+    "Naive training on imbalanced data produces "
     "classifiers that minimise overall error but underperform on the minority class that drives loss. "
     "Standard interventions include resampling (SMOTE [Chawla et al., 2002], SMOTE-NC for mixed types, "
     "ADASYN [He et al., 2008]), cost-sensitive loss reweighting, and focal loss [Lin et al., 2017]. "
@@ -546,10 +582,14 @@ add_para(
     "creditworthiness indicator, with Y=1 corresponding to favourable performance (paidOff ∪ current) "
     "and Y=0 corresponding to delinquency (default ∪ behind). The estimand is the conditional "
     "probability η(x) = ℙ(Y=1 | X=x), approximated by the learned model f̂(x). The Deal Status field "
-    "provides direct supervision for 14,022 of the 14,135 records (99.2% labelled coverage). Three "
-    "label-construction risks are explicitly addressed:"
+    "provides direct supervision for 14,022 of the 14,135 records (99.20% labelled coverage); the "
+    "label distribution within the supervised pool is 3,848 paidOff (27.4%) and 10,124 current "
+    "(72.2%) on the favourable side, against 49 default (0.35%) and 1 behind (0.01%) on the "
+    "delinquent side, with 113 rows excluded for missing status. The 0.36% delinquent prevalence is "
+    "treated as a substantive empirical constraint on the modelling protocol (see §4.4 and §5.7). "
+    "Three label-construction risks are explicitly addressed:"
 )
-add_bullet(doc, "Censoring bias. Current loans are right-censored in their observation window and may yet default, biasing the Y=1 class. Mitigation: a sensitivity analysis that excludes still-active deals from the training distribution and reports performance with and without their inclusion.")
+add_bullet(doc, "Censoring bias. Current loans are right-censored — their observation window in the 2019 snapshot pre-dates most loan-term completions, so the favourable Y=1 class incorporates loans that have not yet had the opportunity to default. This is not a symmetric risk: paidOff records have observed their full lifecycle whereas current records have not. The headline benchmark is therefore re-run on the paidOff-only positive class as the principal robustness check, with the all-favourable definition retained as a sensitivity comparator; both numbers are reported. The current-as-positive specification is treated as the upper bound on optimistic labelling and the paidOff-only specification as the lower bound.")
 add_bullet(doc, "Definition leakage. Fields populated only after the deal outcome is known (terminal Deal Stage, post-funding adjustment fields) must be excluded from X; the leakage audit (§5.3) catalogues every such field.")
 add_bullet(doc, "Accepted-only selection bias (reject inference). The dataset contains only funded loans — applicants the prior underwriting policy declined are absent, so the empirical distribution of (X, Y) is conditional on prior acceptance. Banasik and Crook (2007) showed on UK credit data that this can materially bias parameter estimates if ignored. The contemporary toolkit — graph-based semi-supervised label propagation [Kang et al., 2021] and three-way-decision safe semi-supervised SVMs [Shen et al., 2022] — assumes access to the rejected applicants' features, which this dataset does not provide. EMERALD-AI therefore (a) reports the limitation transparently in the dissertation's external-validity section, (b) executes Banasik and Crook's sensitivity-analysis protocol of comparing tight and loose acceptance-window cohorts where dataset metadata supports the cut, and (c) documents the extended pipeline — joint observation of accepted and declined applicants — as a stipulated requirement of any production deployment.")
 add_para(
@@ -573,13 +613,35 @@ add_para(
     "deal-progression timestamps (Start, Offer Received, Contract Signed, Deal Closed); (e) "
     "post-funding observed outcomes (Deal Status, Payments Made, Days Past Due — these define Y and "
     "must not enter X); (f) administrative or free-text fields excluded as features. Only categories "
-    "(a)–(d) enter the feature space. A systematic leakage audit computes each candidate feature's "
-    "mutual information with Y, restricted to records where the feature is observable strictly before "
-    "the funding decision; any feature whose informativeness collapses under the strict-temporal "
-    "filter is dropped. The audit is documented in a feature catalogue committed to the project "
-    "repository as the principal data-governance artefact, and accompanies a datasheet [Gebru et "
-    "al., 2021] describing collection, provenance, intended uses, and known limitations including "
-    "the originator's 'green' labelling taxonomy."
+    "(a)–(d) enter the feature space."
+)
+add_para(
+    doc,
+    "The audit has been executed and is reported in v1.0 of the data-governance artefacts "
+    "(`data/governance/feature_catalogue.yaml`, `data/governance/feature_audit_summary.md`, "
+    "`data/governance/datasheet.md` — the last structured per Gebru et al., 2021). The classification "
+    "decomposes the 166 columns as: 23 pre-funding applicant, 15 pre-funding loan-offer, 9 structural "
+    "metadata, 43 deal-progression timestamp, 28 post-funding outcome, and 48 administrative/free-text "
+    "— yielding 90 permitted features and 76 forbidden features. Particularly load-bearing exclusions "
+    "include Deal Status (defines Y itself), Term Complete Percentage and Percent Paid (encode whether "
+    "the loan is mature enough to have defaulted), the Closed/Closed TS family of funding end-points, "
+    "and the Is Offer Received/Accepted/Published lifecycle flags. A residual mutual-information "
+    "sanity check on the 90 permitted columns is performed as a second-line defence: any candidate "
+    "whose strict-temporal MI with Y collapses by more than a chosen factor relative to its naive MI "
+    "is escalated for manual review."
+)
+add_para(
+    doc,
+    "A transparency note is warranted on one applicant feature that earlier scoping rounds treated as "
+    "load-bearing: the `Monthly Credit Card Charges` column is 100% missing in the 2019 snapshot and "
+    "is therefore unusable as a model input. Three other permitted features exceed the >40% missingness "
+    "drop threshold defined in §5.5: `Term` (86.4% missing — additionally overloaded with two "
+    "semantically distinct fields, including marketing text), `APR` (59.6%), and `Factor` (42.0%). "
+    "Eleven further columns are wholly missing — `App Out`, `1st Online Engmnt`, `Used Online "
+    "Experience`, `Closed Lenders`, `Monthly Credit Card Charges`, `Rep Type`, `Rep Is Active`, "
+    "`Inactive Status`, `Closed By Type`, `Dead Status`, `Renewal Eligible Date`. The dissertation "
+    "surfaces these limitations rather than silently dropping the fields, per the data-governance "
+    "principle that pre-modelling decisions must be auditable."
 )
 
 add_heading(doc, "5.4 Exploratory Data Analysis and Distribution-Shift Diagnostics", 2)
@@ -604,8 +666,15 @@ add_para(
     doc,
     "The preprocessing pipeline is built as a scikit-learn ColumnTransformer to guarantee identical "
     "transformation at train and inference time and to prevent train–test leakage. Stage 1 — "
-    "missing-data treatment: features with more than 40% missingness are dropped; for the remainder, "
-    "median imputation is applied to numerics, an explicit 'missing' category is added for "
+    "missing-data treatment: features with more than 40% missingness are dropped. Applied to the "
+    "90-feature permitted set surfaced by the §5.3 leakage audit, this rule removes `Term` (86.4% "
+    "missing — also semantically overloaded), `APR` (59.6%), and `Factor` (42.0%), in addition to "
+    "the eleven 100%-missing columns enumerated in §5.3. The Term / APR / Factor losses are "
+    "substantive: each is conventionally a primary loan-offer field. The dissertation reports their "
+    "removal explicitly, motivates the retention of the alternative `Amount Funded` and `Payback` "
+    "columns as approximate substitutes, and treats the inability to compute a clean APR-conditional "
+    "default rate as an external-validity limitation in §8. For the surviving features, median "
+    "imputation is applied to numerics, an explicit 'missing' category is added for "
     "categoricals, and missing-indicator binary features are appended where missingness is itself "
     "informative (for example, missing Time in Business correlates with newer businesses). Stage 2 — "
     "outlier handling: winsorisation at the 1st/99th percentile for unbounded financial features, "
@@ -688,14 +757,33 @@ add_para(
     doc,
     "Even well-discriminating models are routinely mis-calibrated. For each candidate model, "
     "calibration is assessed pre-intervention via reliability diagrams, Brier score, and Expected "
-    "Calibration Error (ECE) with 15 equal-frequency bins. Three calibration techniques are then "
-    "compared on a held-out calibration fold: Platt scaling [Platt, 1999]; isotonic regression "
-    "[Zadrozny and Elkan, 2002]; and temperature scaling for the neural learners. The selected "
-    "calibrator is fit on a dedicated calibration split disjoint from both training and test. For "
-    "deployment-time uncertainty, split-conformal prediction [Vovk et al., 2005; Angelopoulos and "
-    "Bates, 2023] generates per-applicant prediction intervals with guaranteed marginal coverage at "
-    "user-specified confidence levels (90%, 95%), without distributional assumptions — a property "
-    "increasingly discussed in regulatory commentary on high-risk AI as a robustness primitive."
+    "Calibration Error (ECE) with 15 equal-frequency bins; given the 0.36% delinquent prevalence "
+    "(§4.4, §5.2), within-minority-class ECE is reported alongside marginal ECE and treated as the "
+    "headline calibration metric — global ECE is dominated by the favourable class and would mask "
+    "the calibration failures that matter most for adverse-action decisioning. Three calibration "
+    "techniques are compared on a held-out calibration fold: Platt scaling [Platt, 1999]; isotonic "
+    "regression [Zadrozny and Elkan, 2002]; and temperature scaling for the neural learners. The "
+    "selected calibrator is fit on a dedicated calibration split disjoint from both training and "
+    "test."
+)
+add_para(
+    doc,
+    "Deployment-time uncertainty uses split-conformal prediction [Vovk et al., 2005; Angelopoulos "
+    "and Bates, 2023], with the claim structure deliberately adapted to the small-N-minority "
+    "regime. The dissertation's headline conformal result is marginal coverage at the 90% and 95% "
+    "nominal levels — a finite-sample exact guarantee P(Y ∈ C(X)) = ⌈(N_cal+1)(1−α)⌉ / (N_cal+1) "
+    "that holds for any exchangeable distribution and is well-supported by a 20% calibration split "
+    "(~2,800 rows) of the labelled pool. Class-conditional coverage, obtained via Mondrian / "
+    "class-conditional split-conformal, is reported as a diagnostic rather than as a primary "
+    "objective: with approximately ten minority observations in the calibration set, empirical "
+    "class-conditional coverage estimates carry wide confidence intervals and conformal interval "
+    "widths on the delinquent side will be large and noisy. These are reported with explicit "
+    "small-sample bootstrap CIs so reviewers can see the uncertainty in the uncertainty estimate; "
+    "interval width is excluded from the primary-metric panel to avoid inviting an unfair "
+    "interpretation of a measurement-precision artefact as a model failure. The conformal "
+    "contribution is positioned, accordingly, as a regulator-facing transparency mechanism — the "
+    "intervals communicate honestly that the model knows little about a minority-class applicant — "
+    "rather than as a precision claim that the present sample size cannot defend."
 )
 
 add_heading(doc, "5.11 Explainability Framework", 2)
@@ -757,12 +845,21 @@ add_para(
 add_heading(doc, "5.13 Evaluation Metrics", 2)
 add_para(
     doc,
-    "The primary metric is PR-AUC, which is robust to class imbalance and aligns with credit "
-    "decisioning's emphasis on minority-class recall. Secondary metrics: ROC-AUC, Kolmogorov–Smirnov "
-    "statistic (industry-standard in credit risk), F1 at the operating point, recall@top-decile "
-    "(regulator-relevant for adverse-action volume estimation), Brier score, Expected Calibration "
-    "Error, and Matthews Correlation Coefficient. Operating-threshold selection optimises expected "
-    "loss under a configurable cost matrix encoding the relative costs of false positives (lost good "
+    "Given the 0.36% empirical delinquent prevalence (§4.4, §5.2), the metric hierarchy is scoped to "
+    "what 50 minority observations can statistically support. Three metrics are designated as "
+    "primary: PR-AUC (robust to class imbalance, aligns with credit decisioning's emphasis on "
+    "minority-class recall); within-minority-class Expected Calibration Error (the calibration "
+    "signal that drives expected-loss pricing and regulatory PD reporting); and recall@top-decile "
+    "(regulator-relevant for adverse-action volume estimation under FCA Consumer Duty). Each is "
+    "reported with 10,000-resample bootstrap 95% CIs to make the small-N uncertainty explicit. "
+    "Secondary metrics — retained for completeness and cross-study comparability rather than "
+    "headline ranking — comprise ROC-AUC, the Kolmogorov–Smirnov statistic (industry-standard in "
+    "credit risk), F1 at the operating point, marginal Brier score, marginal ECE, conformal marginal "
+    "coverage, and Matthews Correlation Coefficient; conformal class-conditional coverage and "
+    "interval width are reported as diagnostics only (see §5.10). Raw accuracy is deliberately "
+    "excluded: a constant predictor scores 99.64% on this prevalence and the metric is "
+    "uninformative. Operating-threshold selection optimises expected loss under a configurable cost "
+    "matrix encoding the relative costs of false positives (lost good "
     "loans) and false negatives (defaults). All results are reported with bootstrap 95% confidence "
     "intervals and paired statistical tests across models on identical folds."
 )
@@ -904,7 +1001,7 @@ add_para(
 # ============================================================
 doc.add_page_break()
 add_heading(doc, "9. References", 1)
-add_para(doc, "Citations follow author–year style; the bibliography below covers v0.3's literature base (74 entries). New additions over v0.2 are flagged with the year tag of the bot-discovered batch (2026-05-18) — they are the climate-credit channel, the sociotechnical fairness critique, the reject-inference treatment, the production-ML deployment evidence, and the algorithmic-opacity framing.", italic=True)
+add_para(doc, "Citations follow author–year style; the bibliography below covers v0.3's literature base (74 entries) carried forward unchanged into v0.4. v0.4 is a surgical patch aligning the proposal text with the data-governance artefacts emitted by the leakage audit; no new references were added.", italic=True)
 
 refs = [
     "Aas, K., Jullum, M., & Løland, A. (2021). Explaining individual predictions when features are dependent. Artificial Intelligence, 298, 103502.",
@@ -993,5 +1090,5 @@ for r in refs:
     for run in p.runs:
         run.font.size = Pt(10)
 
-doc.save("proposal_third_draft.docx")
-print("OK: proposal_third_draft.docx")
+doc.save("proposal_fourth_draft.docx")
+print("OK: proposal_fourth_draft.docx")
