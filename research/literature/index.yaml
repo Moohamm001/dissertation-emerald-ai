@@ -865,3 +865,203 @@
   verified: true
   paper_file: false
   search_query: "Gebru datasheets for datasets CACM 2021"
+
+# =============================================================================
+# v0.3 ADDITIONS — promoted from auto_index.yaml after the 2026-05-18 bot run
+# Keys match the bot's original paper filenames so paper_file: true resolves;
+# manual entries take precedence over auto_index on key collision (engine.py:39).
+# =============================================================================
+
+# --- 4.1 evolution-credit-scoring -------------------------------------------
+
+- key: williamhenley1995statistical
+  authors: ["Henley, W. E."]
+  year: 1995
+  title: "Statistical aspects of credit scoring"
+  venue: "PhD thesis, The Open University"
+  doi: "10.21954/ou.ro.0000e061"
+  themes: [evolution-credit-scoring]
+  relevance: context
+  status: cited
+  verified: true
+  paper_file: true
+  notes: "Complements Hand & Henley (1997); provides the doctoral basis for the canonical review."
+
+# --- 4.5 green-finance ------------------------------------------------------
+
+- key: julianfklbel2022ask
+  authors: ["Kölbel, J. F.", "Leippold, M.", "Rillaerts, J.", "Wang, Q."]
+  year: 2022
+  title: "Ask BERT: How Regulatory Disclosure of Transition and Physical Climate Risks Affects the CDS Term Structure"
+  venue: "Journal of Financial Econometrics, 22(1), 30-69"
+  doi: "10.1093/jjfinec/nbac027"
+  themes: [green-finance]
+  relevance: high
+  status: cited
+  verified: true
+  paper_file: true
+  notes: "Empirically links climate-risk disclosure to credit-risk pricing (CDS spreads) via BERT — bridges climate risk and credit risk on real market data."
+
+- key: nawazishmirza2024effects
+  authors: ["Mirza, N.", "Umar, M.", "Horobeţ, A.", "Boubaker, S."]
+  year: 2024
+  title: "Effects of climate change and technological capex on credit risk cycles in the European Union"
+  venue: "Technological Forecasting and Social Change, 204, 123448"
+  doi: "10.1016/j.techfore.2024.123448"
+  themes: [green-finance]
+  relevance: high
+  status: cited
+  verified: true
+  paper_file: true
+  notes: "Quantitative EU-level evidence that climate transition risk and clean-tech capex enter the credit-risk cycle — direct support for green-loan-specific risk modelling."
+
+- key: yannisdafermos2021how
+  authors: ["Dafermos, Y.", "Nikolaidi, M."]
+  year: 2021
+  title: "How can green differentiated capital requirements affect climate risks? A dynamic macrofinancial analysis"
+  venue: "Journal of Financial Stability, 54, 100871"
+  doi: "10.1016/j.jfs.2021.100871"
+  themes: [green-finance, fairness-compliance]
+  relevance: medium
+  status: cited
+  verified: true
+  paper_file: true
+  notes: "Macroprudential argument for differentiating capital requirements on green vs brown loans; relevant for regulatory positioning of green credit scoring."
+
+- key: xiaodonggan2023green
+  authors: ["Gan, X. D.", "Zheng, X. Y.", "Li, C. C.", "Zhu, G. Q."]
+  year: 2023
+  title: "Green bond issuance and trade credit access: Evidence from Chinese bond market"
+  venue: "Finance Research Letters, 58, 104842"
+  doi: "10.1016/j.frl.2023.104842"
+  themes: [green-finance]
+  relevance: context
+  status: cited
+  verified: true
+  paper_file: true
+  notes: "Empirical evidence that green-bond issuance improves trade-credit access — supports the broader thesis that green-labelled credit instruments carry distinct risk-and-access dynamics."
+
+# --- 4.6 xai-finance --------------------------------------------------------
+
+- key: jennaburrell2016how
+  authors: ["Burrell, J."]
+  year: 2016
+  title: "How the machine 'thinks': Understanding opacity in machine learning algorithms"
+  venue: "Big Data & Society, 3(1), 1-12"
+  doi: "10.1177/2053951715622512"
+  themes: [xai-finance, fairness-compliance]
+  relevance: high
+  status: cited
+  verified: true
+  paper_file: true
+  notes: "Foundational sociotechnical taxonomy of three opacity sources (intentional secrecy, technical illiteracy, scale-and-complexity) — essential framing for the XAI motivation."
+
+- key: frankpasquale2016the
+  authors: ["Pasquale, F."]
+  year: 2015
+  title: "The Black Box Society: The Secret Algorithms That Control Money and Information"
+  venue: "Harvard University Press"
+  doi: null
+  themes: [xai-finance]
+  relevance: context
+  status: cited
+  verified: true
+  paper_file: true
+  search_query: "Pasquale 2015 Black Box Society Harvard"
+  notes: "Canonical critique of algorithmic opacity in finance and reputation systems — cited as motivating background, not load-bearing."
+
+- key: davidadkins2022method
+  authors: ["Adkins, D.", "Alsallakh, B.", "Cheema, A.", "Kokhlikyan, N.", "McReynolds, E.", "Mishra, P.", "Procope, C.", "Sawruk, J.", "Wang, E.", "Zvyagina, P."]
+  year: 2022
+  title: "Method cards for prescriptive machine-learning transparency"
+  venue: "ACM EAAMO 2022"
+  doi: "10.1145/3522664.3528600"
+  themes: [xai-finance, methodology]
+  relevance: medium
+  status: cited
+  verified: true
+  paper_file: true
+  notes: "Extends model cards / datasheets with prescriptive guidance — directly informs EMERALD-AI's audit documentation."
+
+# --- 4.7 fairness-compliance ------------------------------------------------
+
+- key: andrewdselbst2019fairness
+  authors: ["Selbst, A. D.", "boyd, d.", "Friedler, S. A.", "Venkatasubramanian, S.", "Vertesi, J."]
+  year: 2019
+  title: "Fairness and Abstraction in Sociotechnical Systems"
+  venue: "FAT* 2019, 59-68"
+  doi: "10.1145/3287560.3287598"
+  themes: [fairness-compliance, xai-finance]
+  relevance: critical
+  status: cited
+  verified: true
+  paper_file: true
+  notes: "Identifies five 'traps' (framing, portability, formalism, ripple-effect, solutionism) that defeat purely-technical fairness interventions — disciplines EMERALD-AI's fairness claims away from pure metric optimisation."
+
+# --- 4.X methodology --------------------------------------------------------
+
+- key: andreipaleyes2022challenges
+  authors: ["Paleyes, A.", "Urma, R.-G.", "Lawrence, N. D."]
+  year: 2022
+  title: "Challenges in deploying machine learning: A survey of case studies"
+  venue: "ACM Computing Surveys, 55(6), 114"
+  doi: "10.1145/3533378"
+  themes: [methodology]
+  relevance: high
+  status: cited
+  verified: true
+  paper_file: true
+  notes: "Empirical survey of production-ML deployment failure modes; structures the §5.14 MLOps architecture decisions."
+
+- key: nadianahar2022collaboration
+  authors: ["Nahar, N.", "Zhou, S.", "Lewis, G. A.", "Kästner, C."]
+  year: 2022
+  title: "Collaboration challenges in building ML-enabled systems"
+  venue: "ICSE 2022, 413-425"
+  doi: "10.1145/3510003.3510209"
+  themes: [methodology]
+  relevance: medium
+  status: cited
+  verified: true
+  paper_file: true
+  notes: "Qualitative study of cross-role friction in ML projects; supports the case for a model-card + datasheet handoff regime in §5.14/§5.17."
+
+- key: johnbanasik2007reject
+  authors: ["Banasik, J.", "Crook, J."]
+  year: 2007
+  title: "Reject inference, augmentation, and sample selection"
+  venue: "European Journal of Operational Research, 183(3), 1582-1594"
+  doi: "10.1016/j.ejor.2006.06.072"
+  themes: [methodology, evolution-credit-scoring]
+  relevance: high
+  status: cited
+  verified: true
+  paper_file: true
+  notes: "Canonical treatment of the through-the-door / accepted-only selection-bias problem in credit scoring. Required reading for the §5.2 reject-inference subsection."
+
+- key: yanzhekang2021a
+  authors: ["Kang, Y.", "Jia, N.", "Cui, R.", "Deng, J."]
+  year: 2021
+  title: "A graph-based semi-supervised reject inference framework considering imbalanced data distribution for consumer credit scoring"
+  venue: "Applied Soft Computing, 105, 107259"
+  doi: "10.1016/j.asoc.2021.107259"
+  themes: [methodology, imbalance-calibration]
+  relevance: medium
+  status: cited
+  verified: true
+  paper_file: true
+  notes: "Modern (graph-based, semi-supervised) reject-inference approach; cited as the contemporary contrast to Banasik & Crook (2007)."
+
+- key: fengshen2022reject
+  authors: ["Shen, F.", "Yang, Z.", "Zhao, X.", "Lan, D."]
+  year: 2022
+  title: "Reject inference in credit scoring using a three-way decision and safe semi-supervised support vector machine"
+  venue: "Information Sciences, 606, 614-627"
+  doi: "10.1016/j.ins.2022.05.067"
+  themes: [methodology, imbalance-calibration]
+  relevance: medium
+  status: cited
+  verified: true
+  paper_file: true
+  notes: "Three-way-decision + safe-SSVM treatment of reject inference; cited alongside yanzhekang2021a as a 2020s alternative."
+

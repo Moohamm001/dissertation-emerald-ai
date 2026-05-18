@@ -2,18 +2,62 @@
 
 > **Explainable, calibrated, audit-ready machine learning for green-loan credit scoring.**
 > MSc Applied AI dissertation — University of Warwick. License MIT · Python 3.11
-> Stage: **proposal + scaffold + literature brain + autonomous research bot.** ML pipeline begins after proposal approval.
-
-**New here?** → [**QUICKSTART.md**](QUICKSTART.md) (5-minute hands-on tour)
-**Need a specific command?** → [**HOWTORUN.md**](HOWTORUN.md) (full operations reference)
-**Just want to read the research?** → [`docs/proposal/proposal_second_draft.docx`](docs/proposal/)
+> Stage: **proposal v0.3 (supervisor-ready) + scaffold + literature brain.** The machine-learning work starts next.
 
 ---
 
-## Project status (live)
+## What this project does (plain English)
+
+When a small business applies for a **green loan** — money borrowed for eco-friendly projects like solar panels, electric-vehicle fleets, or energy-efficient buildings — the lender has to decide: is this borrower likely to pay it back?
+
+Most lenders today use credit-scoring formulas built for ordinary consumer loans. Those formulas weren't designed for green lending. They don't know that a solar installation's cash flow looks nothing like a credit card. They can't tell whether a project labelled "green" actually is. And they can't explain, in a way the borrower or regulator can check, *why* an application was approved or declined.
+
+**EMERALD-AI** is a machine-learning system that:
+
+1. Learns from a real 2019 dataset of **14,135 green-loan transactions** what actually predicts repayment.
+2. Compares modern AI methods (XGBoost, gradient boosting, tabular deep learning) head-to-head on the same data.
+3. Doesn't just predict — it **explains** every decision so the lending officer and the borrower both know *why*.
+4. Reports **how confident** the model is in each individual decision (not just one overall accuracy number).
+5. **Audits for unfair bias** across industries, regions, and business sizes.
+6. Ships as a **working web app** that a real lender could use — not a research demo locked in a notebook.
+
+The system is designed to comply with the **EU AI Act** and the **UK Financial Conduct Authority's Consumer Duty**, both of which now legally require credit-scoring AI to be transparent, fair, and auditable.
+
+---
+
+## Where the project stands (May 2026)
+
+| Stage | Status | What it means |
+|---|---|---|
+| **Research proposal** | ✅ Done | Third draft — ~8,500 words, 74 academic references, supervisor-ready |
+| **Literature review** | ✅ Done | 108 papers indexed, organised by theme, fully searchable |
+| **Code scaffold** | ✅ Done | All modules in place, each with docstrings pointing to the proposal section |
+| **Automated research bot** | ✅ Done | Keeps discovering new relevant papers from OpenAlex over time |
+| **Tests + continuous integration** | ✅ Done | 21 tests passing across literature integrity and the discovery bot |
+| **Data loading + leakage audit** | 🚧 **Starting next** | First ML deliverable: classify every column as safe/unsafe to learn from |
+| **Exploratory data analysis (EDA)** | ⬜ Weeks 3–4 of plan | Distributions, correlations, missingness, drift diagnostics |
+| **Model training** | ⬜ Weeks 8–10 | Six classifier families benchmarked under identical preprocessing |
+| **Calibration + uncertainty** | ⬜ Week 11 | Probability calibration + conformal prediction intervals |
+| **Explainability + fairness audit** | ⬜ Weeks 12–13 | SHAP, counterfactuals, fairness across industry/geography/size |
+| **Web app for lending officers** | ⬜ Weeks 14–15 | FastAPI backend + React frontend |
+| **Dissertation submission** | ⬜ Week 16 | Final write-up + open-source release |
+
+**Plain-English summary:** the *reading and design* phase is finished. The *building and experimenting* phase starts now.
+
+---
+
+**For non-technical readers** — the sections above cover what you need. The rest of this README is for engineers and supervisors who want command-level detail.
+
+**New here (technical)?** → [**QUICKSTART.md**](QUICKSTART.md) (5-minute hands-on tour)
+**Need a specific command?** → [**HOWTORUN.md**](HOWTORUN.md) (full operations reference)
+**Just want to read the research?** → [`docs/proposal/proposal_third_draft.docx`](docs/proposal/) (current v0.3, ~8,500 words)
+
+---
+
+## Project status (live numbers)
 
 ```
-  papers in brain   : 108      (62 human-curated + 46 bot-discovered via OpenAlex)
+  papers in brain   : 108      (76 human-curated + 32 bot-only; 14 promoted in v0.3)
   citation edges    :  80
   research questions:  15      (auto-generated from gaps.md)
   authors indexed   : 1087
@@ -29,11 +73,11 @@ Numbers refresh with `python -m emerald_ai research status`.
 
 ---
 
-## What this project is, in 30 seconds
+## What this project is, in 30 seconds (technical)
 
 Green-loan origination has grown at >40% CAGR since 2018, but credit-risk infrastructure still uses scorecards designed for conventional consumer credit. EMERALD-AI is an end-to-end ML framework that benchmarks modern tabular learners on a real 2019 green-loan dataset (14,135 transactions × 166 features), integrates **calibration**, **distribution-free uncertainty**, **multi-method explainability**, and a **fairness audit** aligned with the **EU AI Act (Annex III)** and **FCA Consumer Duty** — delivered as a full-stack decision-support platform for lending officers.
 
-It occupies an explicit literature gap: no published work simultaneously delivers, on real green-loan data, all five of (i) modern tabular benchmarking under identical preprocessing, (ii) post-hoc calibration + conformal uncertainty, (iii) multi-method XAI with empirical fidelity validation, (iv) fairness audit on green-lending-appropriate proxies, and (v) a deployable lending-officer interface.
+It occupies an explicit literature gap: no published work simultaneously delivers, on real green-loan data, all six of (i) modern tabular benchmarking under identical preprocessing, (ii) post-hoc calibration + conformal uncertainty, (iii) multi-method XAI with empirical fidelity validation, (iv) sociotechnically-disciplined fairness audit on green-lending-appropriate proxies, (v) an explicit reject-inference treatment of accepted-only selection bias, and (vi) a deployable lending-officer interface.
 
 ---
 
@@ -43,10 +87,10 @@ It occupies an explicit literature gap: no published work simultaneously deliver
 
 | Subsystem | State | Try it |
 |---|---|---|
-| Literature brain (82 refs, 80-edge citation graph, 15 research questions) | **WORKS** | `python -m emerald_ai research status` |
+| Literature brain (108 refs, 80-edge citation graph, 15 research questions) | **WORKS** | `python -m emerald_ai research status` |
 | Autonomous research engine (idempotent, 10-field schema, audit-trail) | **WORKS** | `python -m emerald_ai research run` |
 | **Autonomous discovery bot** (OpenAlex crawler, null-tolerant, crash-resistant, no API key) | **WORKS** | `python -m emerald_ai research discover --query "explainable green credit scoring"` |
-| Proposal authoring pipeline (python-docx → reproducible .docx, 6,750 words, 61 refs) | **WORKS** | `python -m emerald_ai proposal` |
+| Proposal authoring pipeline (python-docx → reproducible .docx, v0.3 = ~8,500 words, 74 refs) | **WORKS** | `python -m emerald_ai proposal` |
 | Tests + CI (ruff + black + mypy + pytest on 3.11/3.12) — 21 passing | **WORKS** | `python -m emerald_ai check` |
 | Cross-platform CLI (Windows / macOS / Linux, no Make required) | **WORKS** | `python -m emerald_ai --help` |
 | FastAPI backend | **PARTIAL** | `python -m emerald_ai api` (only `/healthz` for now; rest scaffolded) |
@@ -62,11 +106,11 @@ It occupies an explicit literature gap: no published work simultaneously deliver
 │  data/raw/*.xlsx         │    │  research/literature/   (KNOWLEDGE BRAIN  — WORKS)     │
 │  proprietary, gitignored │───▶│  ┌─────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐ │
 │  14,135 × 166 features   │    │  │ themes/ │  │ papers/  │  │ gaps.md  │  │ state/   │ │
-└──────────────────────────┘    │  │ 8 files │  │ 49 .md   │  │ 15 gaps  │  │ JSON     │ │
+└──────────────────────────┘    │  │ 8 files │  │ 75 .md   │  │ 15 gaps  │  │ JSON     │ │
               │                 │  └─────────┘  │ + .json  │  └──────────┘  │ graph,   │ │
               │                 │  index.yaml   └──────────┘                │ rollups, │ │
               │                 │  + auto_index.yaml (bot)                  │ RQs      │ │
-              │                 │  (62 manual + 20 bot = 82 refs)           └──────────┘ │
+              │                 │  (76 manual + 32 bot-only = 108 unique)   └──────────┘ │
               │                 │                ▲              ▲                          │
               ▼                 │                │              │ BFS crawl, threshold     │
 ┌──────────────────────────────┐│                │   ┌──────────┴──────────────────────┐  │
@@ -90,7 +134,7 @@ It occupies an explicit literature gap: no published work simultaneously deliver
    ┌───────────────────────┐                      │  apps/web/ (React + Vite)  │            │
    │  docs/proposal/       │                      │  Dashboard, Single Predict,│ STUB       │
    │  build_proposal.py    │ WORKS                │  Batch Score, SHAP Explorer│            │
-   │  -> second_draft.docx │                      └────────────────────────────┘            │
+   │  -> third_draft.docx  │                      └────────────────────────────┘            │
    └───────────────────────┘                                                                │
                                                                                             │
                           [ tests/ 21 passing : smoke + brain integrity + discovery bot ]
@@ -102,7 +146,7 @@ It occupies an explicit literature gap: no published work simultaneously deliver
 
 | If you want to find… | Look in |
 |---|---|
-| The dissertation research design | `docs/proposal/proposal_second_draft.docx` |
+| The dissertation research design | `docs/proposal/proposal_third_draft.docx` (v0.3, current) |
 | Why a particular method was chosen | `research/literature/themes/4.X-*.md` (argumentative spine) |
 | Notes on a specific cited paper | `research/literature/papers/<key>.md` or `<key>.json` |
 | Open questions / unverified claims | `research/literature/gaps.md` |
@@ -229,7 +273,7 @@ The Python CLI is the canonical entrypoint. The Makefile is a thin convenience w
 - **Fairness:** AIF360 audit on Industry, Borrower State, business-size proxies — demographic parity, equalised odds, predictive parity, calibration-within-group
 - **Deployment:** FastAPI + React SPA + MLflow + Prometheus + Evidently (drift monitoring)
 
-Full methodology in [`docs/proposal/proposal_second_draft.docx`](docs/proposal/), §5.
+Full methodology in [`docs/proposal/proposal_third_draft.docx`](docs/proposal/), §5.
 
 ---
 
@@ -238,10 +282,10 @@ Full methodology in [`docs/proposal/proposal_second_draft.docx`](docs/proposal/)
 The repo contains a structured knowledge base under [`research/literature/`](research/literature/) — not a static bibliography, but a queryable, versioned representation of the lit review intended to evolve through the project:
 
 - `research/literature/BRAIN.md` — usage rules
-- `research/literature/index.yaml` — 62 human-curated references (themes, relevance, verification status, search-query hints for placeholder citations)
-- `research/literature/auto_index.yaml` — 46 references added by the discovery bot; separated so the bot never touches the human-curated index
+- `research/literature/index.yaml` — 76 human-curated references (themes, relevance, verification status, search-query hints for placeholder citations)
+- `research/literature/auto_index.yaml` — 46 references added by the discovery bot; on key collision the manual entry wins (engine.py:39), so promotion is just "append the key into index.yaml with curated metadata"
 - `research/literature/themes/4.1`–`4.8.md` — eight argumentative-spine files mirroring the proposal's literature-review subsections
-- `research/literature/papers/<key>.md` — 75 paper notes (34 human-written + 41 bot-stubbed; claims, method, EMERALD-AI relevance, limitations, links)
+- `research/literature/papers/<key>.md` — 75 paper notes (34 human-written + 41 bot-stubbed; 14 of those stubs now back human-curated index entries via v0.3 promotion)
 - `research/literature/papers/<key>.json` — machine-readable sidecar in the 10-field schema, populated by the research engine
 - `research/literature/gaps.md` — 10 literature gaps + 5 methodology gaps, with suggested next actions
 - `research/literature/glossary.md` — domain terms
@@ -273,7 +317,7 @@ The brain is driven by an idempotent **research engine** (`src/emerald_ai/resear
 ```
 $ python -m emerald_ai research status
 Brain state - last run 2026-05-18T08:13:29+00:00
-  papers     : 108     (62 human-curated + 46 bot-discovered)
+  papers     : 108     (76 human-curated in index.yaml + 32 bot-only in auto_index.yaml)
   citations  : 80
   questions  : 15
   authors    : 1087
@@ -358,6 +402,14 @@ EMERALD-AI is designed against (not certified against) the following regulatory 
 ## Recent activity
 
 ```
+(uncommitted, 2026-05-18)  v0.3 proposal rewrite
+            ↳ 4 new bot-discovery passes grew brain 82 -> 108 papers;
+              14 of those promoted into index.yaml with curated metadata;
+              proposal_third_draft.docx rebuilt (~8,500 words, 74 refs)
+              — adds climate-credit channel (§4.5), opacity framing (§4.6),
+              sociotechnical fairness critique (§4.7), reject-inference
+              treatment (§4.4/§5.2), and MLOps deployment evidence (§5.14).
+
 e6606f7  add bot for query paper
             ↳ user-driven bot run: 15 new papers discovered (62 -> 82) and
               committed to research/literature/auto_index.yaml

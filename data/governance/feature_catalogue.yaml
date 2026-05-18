@@ -1,0 +1,1644 @@
+schema_version: 1
+dataset:
+  filename: All_Funded_2019_Green Loan.xlsx
+  n_rows: 14135
+  n_columns: 166
+  n_labelled: 14022
+  class_balance:
+    '1': 13972
+    '0': 50
+category_summary:
+  pre_funding_applicant: 23
+  pre_funding_loan_offer: 15
+  structural_metadata: 9
+  deal_timestamp: 43
+  post_funding_outcome: 28
+  administrative: 48
+columns:
+- name: 'Unnamed: 0.1'
+  category: administrative
+  permitted_as_feature: false
+  dtype: int64
+  missingness_pct: 0.0
+  n_unique: 14135
+  sample_values:
+  - 779
+  - 5303
+  - 6190
+- name: 'Unnamed: 0'
+  category: administrative
+  permitted_as_feature: false
+  dtype: int64
+  missingness_pct: 0.0
+  n_unique: 14135
+  sample_values:
+  - 779
+  - 5303
+  - 6190
+- name: '# Deals Open'
+  category: post_funding_outcome
+  permitted_as_feature: false
+  dtype: int64
+  missingness_pct: 0.0
+  n_unique: 6
+  sample_values:
+  - 0
+  - 0
+  - 0
+- name: '# Offers Received'
+  category: pre_funding_loan_offer
+  permitted_as_feature: true
+  dtype: int64
+  missingness_pct: 0.0
+  n_unique: 60
+  sample_values:
+  - 1
+  - 2
+  - 1
+- name: '# Deals Dead'
+  category: post_funding_outcome
+  permitted_as_feature: false
+  dtype: int64
+  missingness_pct: 0.0
+  n_unique: 29
+  sample_values:
+  - 0
+  - 1
+  - 0
+- name: Opportunity Id
+  category: administrative
+  permitted_as_feature: false
+  dtype: int64
+  missingness_pct: 0.0
+  n_unique: 14135
+  sample_values:
+  - 1034629
+  - 2246274
+  - 1812906
+- name: Engagement Id
+  category: administrative
+  permitted_as_feature: false
+  dtype: int64
+  missingness_pct: 0.0
+  n_unique: 14135
+  sample_values:
+  - 1034629
+  - 2246274
+  - 1812906
+- name: Borrower Id
+  category: administrative
+  permitted_as_feature: false
+  dtype: int64
+  missingness_pct: 0.0
+  n_unique: 11827
+  sample_values:
+  - 197604
+  - 222710
+  - 262112
+- name: Can Text
+  category: administrative
+  permitted_as_feature: false
+  dtype: int64
+  missingness_pct: 0.0
+  n_unique: 2
+  sample_values:
+  - 1
+  - 1
+  - 0
+- name: Start
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: datetime64[ns]
+  missingness_pct: 0.0
+  n_unique: 566
+  sample_values:
+  - '2018-04-25T00:00:00'
+  - '2019-05-29T00:00:00'
+  - '2019-02-01T00:00:00'
+- name: Start Month
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: datetime64[ns]
+  missingness_pct: 0.0
+  n_unique: 42
+  sample_values:
+  - '2018-04-01T00:00:00'
+  - '2019-05-01T00:00:00'
+  - '2019-02-01T00:00:00'
+- name: Start TS
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: datetime64[ns]
+  missingness_pct: 0.0
+  n_unique: 12031
+  sample_values:
+  - '2018-04-25T19:00:00'
+  - '2019-05-29T18:27:00'
+  - '2019-02-01T17:05:00'
+- name: End
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: datetime64[ns]
+  missingness_pct: 0.0
+  n_unique: 331
+  sample_values:
+  - '2019-08-14T00:00:00'
+  - '2019-09-19T00:00:00'
+  - '2019-02-01T00:00:00'
+- name: End TS
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: datetime64[ns]
+  missingness_pct: 0.0
+  n_unique: 12125
+  sample_values:
+  - '2019-08-14T22:57:00'
+  - '2019-09-19T18:45:00'
+  - '2019-02-01T17:06:00'
+- name: Assigned
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: datetime64[ns]
+  missingness_pct: 2.02
+  n_unique: 499
+  sample_values:
+  - '2018-04-25T00:00:00'
+  - '2019-05-29T00:00:00'
+  - '2019-02-01T00:00:00'
+- name: Assigned TS
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: datetime64[ns]
+  missingness_pct: 2.02
+  n_unique: 11169
+  sample_values:
+  - '2018-04-25T19:00:00'
+  - '2019-05-29T18:27:00'
+  - '2019-02-01T17:05:00'
+- name: Current Assigned
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: datetime64[ns]
+  missingness_pct: 7.99
+  n_unique: 732
+  sample_values:
+  - '2015-05-17T00:00:00'
+  - '2019-02-12T00:00:00'
+  - '2017-08-12T00:00:00'
+- name: Current Assigned TS
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: datetime64[ns]
+  missingness_pct: 7.99
+  n_unique: 11299
+  sample_values:
+  - '2015-05-17T15:13:00'
+  - '2019-02-12T23:02:00'
+  - '2017-08-12T20:26:00'
+- name: Attempted
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: datetime64[ns]
+  missingness_pct: 12.2
+  n_unique: 549
+  sample_values:
+  - '2019-06-04T00:00:00'
+  - '2019-06-10T00:00:00'
+  - '2018-03-14T00:00:00'
+- name: Attempted TS
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: datetime64[ns]
+  missingness_pct: 12.2
+  n_unique: 10873
+  sample_values:
+  - '2019-06-05T04:23:00'
+  - '2019-06-11T01:44:00'
+  - '2018-03-14T20:27:00'
+- name: Contacted
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: datetime64[ns]
+  missingness_pct: 17.97
+  n_unique: 519
+  sample_values:
+  - '2019-06-22T00:00:00'
+  - '2018-03-19T00:00:00'
+  - '2019-05-03T00:00:00'
+- name: Contacted TS
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: datetime64[ns]
+  missingness_pct: 17.97
+  n_unique: 11245
+  sample_values:
+  - '2019-06-22T20:25:00'
+  - '2018-03-19T21:55:00'
+  - '2019-05-03T16:11:00'
+- name: App Out
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: float64
+  missingness_pct: 100.0
+  n_unique: 0
+  sample_values: []
+- name: App Sent
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: datetime64[ns]
+  missingness_pct: 0.01
+  n_unique: 467
+  sample_values:
+  - '2019-08-14T00:00:00'
+  - '2019-09-12T00:00:00'
+  - '2019-02-01T00:00:00'
+- name: App Sent TS
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: datetime64[ns]
+  missingness_pct: 0.01
+  n_unique: 13583
+  sample_values:
+  - '2019-08-14T22:57:00'
+  - '2019-09-12T14:19:00'
+  - '2019-02-01T17:06:00'
+- name: DocPrep
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: datetime64[ns]
+  missingness_pct: 22.18
+  n_unique: 368
+  sample_values:
+  - '2019-09-12T00:00:00'
+  - '2019-05-06T00:00:00'
+  - '2019-01-30T00:00:00'
+- name: DocPrep TS
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: datetime64[ns]
+  missingness_pct: 22.18
+  n_unique: 10577
+  sample_values:
+  - '2019-09-12T02:08:00'
+  - '2019-05-06T13:30:00'
+  - '2019-01-30T19:05:00'
+- name: Offer Received
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: datetime64[ns]
+  missingness_pct: 0.74
+  n_unique: 396
+  sample_values:
+  - '2019-08-14T00:00:00'
+  - '2019-09-12T00:00:00'
+  - '2019-02-01T00:00:00'
+- name: Offer Received TS
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: datetime64[ns]
+  missingness_pct: 0.74
+  n_unique: 13413
+  sample_values:
+  - '2019-08-14T22:57:00'
+  - '2019-09-12T16:49:00'
+  - '2019-02-01T17:06:00'
+- name: Offer Accepted
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: datetime64[ns]
+  missingness_pct: 0.0
+  n_unique: 308
+  sample_values:
+  - '2019-08-14T00:00:00'
+  - '2019-09-19T00:00:00'
+  - '2019-02-01T00:00:00'
+- name: Offer Accepted TS
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: datetime64[ns]
+  missingness_pct: 0.0
+  n_unique: 12234
+  sample_values:
+  - '2019-08-14T22:57:00'
+  - '2019-09-19T18:45:00'
+  - '2019-02-01T17:06:00'
+- name: Contract Out
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: datetime64[ns]
+  missingness_pct: 0.0
+  n_unique: 283
+  sample_values:
+  - '2019-08-14T00:00:00'
+  - '2019-09-19T00:00:00'
+  - '2019-02-01T00:00:00'
+- name: Contract Out TS
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: datetime64[ns]
+  missingness_pct: 0.0
+  n_unique: 11677
+  sample_values:
+  - '2019-08-14T22:57:00'
+  - '2019-09-19T18:45:00'
+  - '2019-02-01T17:06:00'
+- name: Contract Signed
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: datetime64[ns]
+  missingness_pct: 0.0
+  n_unique: 282
+  sample_values:
+  - '2019-08-14T00:00:00'
+  - '2019-09-19T00:00:00'
+  - '2019-02-01T00:00:00'
+- name: Contract Signed TS
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: datetime64[ns]
+  missingness_pct: 0.0
+  n_unique: 11685
+  sample_values:
+  - '2019-08-14T22:57:00'
+  - '2019-09-19T18:45:00'
+  - '2019-02-01T17:06:00'
+- name: Deal Closed
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: datetime64[ns]
+  missingness_pct: 0.0
+  n_unique: 264
+  sample_values:
+  - '2019-08-14T00:00:00'
+  - '2019-09-19T00:00:00'
+  - '2019-02-01T00:00:00'
+- name: Deal Closed Month
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: datetime64[ns]
+  missingness_pct: 0.0
+  n_unique: 13
+  sample_values:
+  - '2019-08-01T00:00:00'
+  - '2019-09-01T00:00:00'
+  - '2019-02-01T00:00:00'
+- name: Deal Closed TS
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: datetime64[ns]
+  missingness_pct: 0.0
+  n_unique: 11608
+  sample_values:
+  - '2019-08-14T22:57:00'
+  - '2019-09-19T18:45:00'
+  - '2019-02-01T17:06:00'
+- name: Shared w/ Funding Desk
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: datetime64[ns]
+  missingness_pct: 22.18
+  n_unique: 794
+  sample_values:
+  - '1970-01-01T20:08:00'
+  - '1970-01-01T07:30:00'
+  - '1970-01-01T12:05:00'
+- name: 1st Online Engmnt
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: float64
+  missingness_pct: 100.0
+  n_unique: 0
+  sample_values: []
+- name: Rep Id
+  category: administrative
+  permitted_as_feature: false
+  dtype: float64
+  missingness_pct: 0.01
+  n_unique: 246
+  sample_values:
+  - 3110296.0
+  - 748554.0
+  - 1461576.0
+- name: 'Engagement #'
+  category: post_funding_outcome
+  permitted_as_feature: false
+  dtype: int64
+  missingness_pct: 0.0
+  n_unique: 36
+  sample_values:
+  - 3
+  - 6
+  - 5
+- name: '# Deals'
+  category: post_funding_outcome
+  permitted_as_feature: false
+  dtype: int64
+  missingness_pct: 0.0
+  n_unique: 40
+  sample_values:
+  - 1
+  - 2
+  - 1
+- name: Max Offer Received $
+  category: pre_funding_loan_offer
+  permitted_as_feature: true
+  dtype: float64
+  missingness_pct: 0.0
+  n_unique: 2542
+  sample_values:
+  - 55000.0
+  - 50000.0
+  - 175000.0
+- name: '# Closed Deals'
+  category: post_funding_outcome
+  permitted_as_feature: false
+  dtype: float64
+  missingness_pct: 0.16
+  n_unique: 36
+  sample_values:
+  - 1.0
+  - 1.0
+  - 1.0
+- name: Used Online Experience
+  category: administrative
+  permitted_as_feature: false
+  dtype: float64
+  missingness_pct: 100.0
+  n_unique: 0
+  sample_values: []
+- name: Online App Completed
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: int64
+  missingness_pct: 0.0
+  n_unique: 2
+  sample_values:
+  - 0
+  - 1
+  - 0
+- name: Online App Complete TS
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: datetime64[ns]
+  missingness_pct: 14.43
+  n_unique: 9948
+  sample_values:
+  - '2019-09-11T22:29:00'
+  - '2019-05-03T20:34:00'
+  - '2018-09-12T16:24:00'
+- name: Is Borrower Renewal
+  category: pre_funding_applicant
+  permitted_as_feature: true
+  dtype: int64
+  missingness_pct: 0.0
+  n_unique: 2
+  sample_values:
+  - 1
+  - 1
+  - 1
+- name: Is Inactive
+  category: administrative
+  permitted_as_feature: false
+  dtype: int64
+  missingness_pct: 0.0
+  n_unique: 1
+  sample_values:
+  - 0
+  - 0
+  - 0
+- name: Mktg Tier
+  category: pre_funding_applicant
+  permitted_as_feature: true
+  dtype: float64
+  missingness_pct: 1.15
+  n_unique: 5
+  sample_values:
+  - 5.0
+  - 5.0
+  - 5.0
+- name: Mktg Is Accepted
+  category: pre_funding_applicant
+  permitted_as_feature: true
+  dtype: int64
+  missingness_pct: 0.0
+  n_unique: 2
+  sample_values:
+  - 0
+  - 0
+  - 0
+- name: Mktg Has Ownership
+  category: pre_funding_applicant
+  permitted_as_feature: true
+  dtype: int64
+  missingness_pct: 0.0
+  n_unique: 2
+  sample_values:
+  - 1
+  - 1
+  - 1
+- name: Mktg Is Qualified
+  category: pre_funding_applicant
+  permitted_as_feature: true
+  dtype: int64
+  missingness_pct: 0.0
+  n_unique: 2
+  sample_values:
+  - 0
+  - 0
+  - 0
+- name: Closed Max Term
+  category: pre_funding_loan_offer
+  permitted_as_feature: true
+  dtype: float64
+  missingness_pct: 0.16
+  n_unique: 55
+  sample_values:
+  - 12.0
+  - 12.0
+  - 24.0
+- name: Amount Funded
+  category: pre_funding_loan_offer
+  permitted_as_feature: true
+  dtype: float64
+  missingness_pct: 0.16
+  n_unique: 2399
+  sample_values:
+  - 55000.0
+  - 32500.0
+  - 175000.0
+- name: Revenue
+  category: pre_funding_applicant
+  permitted_as_feature: true
+  dtype: float64
+  missingness_pct: 0.16
+  n_unique: 4193
+  sample_values:
+  - 8871.45
+  - 2600.0
+  - 8750.0
+- name: Stage
+  category: post_funding_outcome
+  permitted_as_feature: false
+  dtype: object
+  missingness_pct: 0.0
+  n_unique: 1
+  sample_values:
+  - Funded
+  - Funded
+  - Funded
+- name: Status
+  category: post_funding_outcome
+  permitted_as_feature: false
+  dtype: object
+  missingness_pct: 0.0
+  n_unique: 1
+  sample_values:
+  - 9. Deal Closed
+  - 9. Deal Closed
+  - 9. Deal Closed
+- name: Disposition
+  category: post_funding_outcome
+  permitted_as_feature: false
+  dtype: object
+  missingness_pct: 99.09
+  n_unique: 13
+  sample_values:
+  - No longer interested
+  - DNQ
+  - Offers declined by borrower
+- name: Closed Lenders
+  category: post_funding_outcome
+  permitted_as_feature: false
+  dtype: float64
+  missingness_pct: 100.0
+  n_unique: 0
+  sample_values: []
+- name: Touchpoint
+  category: administrative
+  permitted_as_feature: false
+  dtype: object
+  missingness_pct: 4.68
+  n_unique: 9
+  sample_values:
+  - partnerLeadForm
+  - pipeline
+  - pipeline
+- name: Channel
+  category: administrative
+  permitted_as_feature: false
+  dtype: object
+  missingness_pct: 0.0
+  n_unique: 5
+  sample_values:
+  - Non-Paid
+  - Non-Paid
+  - Non-Paid
+- name: Medium
+  category: administrative
+  permitted_as_feature: false
+  dtype: object
+  missingness_pct: 0.06
+  n_unique: 37
+  sample_values:
+  - Sales
+  - Sales
+  - Sales
+- name: Source
+  category: administrative
+  permitted_as_feature: false
+  dtype: object
+  missingness_pct: 1.37
+  n_unique: 136
+  sample_values:
+  - Re-engagement
+  - Re-engagement
+  - Re-engagement
+- name: Campaign
+  category: administrative
+  permitted_as_feature: false
+  dtype: object
+  missingness_pct: 41.29
+  n_unique: 1383
+  sample_values:
+  - (direct)
+  - Google-Network
+  - Danryl Abayan
+- name: Ad Group
+  category: administrative
+  permitted_as_feature: false
+  dtype: object
+  missingness_pct: 54.77
+  n_unique: 2571
+  sample_values:
+  - SBA_7a_Loans
+  - u26NQZfDXF
+  - Video Ads
+- name: Term
+  category: pre_funding_loan_offer
+  permitted_as_feature: true
+  dtype: object
+  missingness_pct: 86.37
+  n_unique: 331
+  sample_values:
+  - Business Loans Made Simple Video
+  - 4
+  - best place to get a business loan
+- name: Current Tier
+  category: pre_funding_loan_offer
+  permitted_as_feature: true
+  dtype: float64
+  missingness_pct: 0.04
+  n_unique: 5
+  sample_values:
+  - 5.0
+  - 1.0
+  - 1.0
+- name: Credit Score
+  category: pre_funding_applicant
+  permitted_as_feature: true
+  dtype: float64
+  missingness_pct: 0.04
+  n_unique: 373
+  sample_values:
+  - 500.0
+  - 660.0
+  - 675.0
+- name: Amount Sought
+  category: pre_funding_loan_offer
+  permitted_as_feature: true
+  dtype: float64
+  missingness_pct: 0.35
+  n_unique: 226
+  sample_values:
+  - 5000.0
+  - 30000.0
+  - 50000.0
+- name: Average Monthly Sales
+  category: pre_funding_applicant
+  permitted_as_feature: true
+  dtype: float64
+  missingness_pct: 0.05
+  n_unique: 10987
+  sample_values:
+  - 20001.0
+  - 72945.4167
+  - 30000.0
+- name: Time In Business
+  category: pre_funding_applicant
+  permitted_as_feature: true
+  dtype: float64
+  missingness_pct: 0.21
+  n_unique: 471
+  sample_values:
+  - 32.0
+  - 96.0
+  - 73.0
+- name: Mineral Group
+  category: pre_funding_applicant
+  permitted_as_feature: true
+  dtype: object
+  missingness_pct: 0.04
+  n_unique: 7
+  sample_values:
+  - 7. N/A
+  - 2. Platinum
+  - 3. Gold
+- name: Monthly Credit Card Charges
+  category: pre_funding_applicant
+  permitted_as_feature: true
+  dtype: float64
+  missingness_pct: 100.0
+  n_unique: 0
+  sample_values: []
+- name: Loan Purpose
+  category: pre_funding_applicant
+  permitted_as_feature: true
+  dtype: object
+  missingness_pct: 1.3
+  n_unique: 280
+  sample_values:
+  - expansion,workingCapital,equipment
+  - expansion,workingCapital
+  - other,payroll
+- name: Industry
+  category: pre_funding_applicant
+  permitted_as_feature: true
+  dtype: object
+  missingness_pct: 0.37
+  n_unique: 29
+  sample_values:
+  - restaurants
+  - other
+  - construction
+- name: Rep
+  category: administrative
+  permitted_as_feature: false
+  dtype: object
+  missingness_pct: 0.01
+  n_unique: 244
+  sample_values:
+  - Austin Albrecht
+  - Jared Almond
+  - Jason Jack
+- name: Team
+  category: administrative
+  permitted_as_feature: false
+  dtype: object
+  missingness_pct: 0.01
+  n_unique: 26
+  sample_values:
+  - Repeat Business
+  - Repeat Business
+  - Repeat Business
+- name: Location
+  category: pre_funding_applicant
+  permitted_as_feature: true
+  dtype: object
+  missingness_pct: 0.01
+  n_unique: 3
+  sample_values:
+  - SLC
+  - SLC
+  - SLC
+- name: Rep Type
+  category: administrative
+  permitted_as_feature: false
+  dtype: float64
+  missingness_pct: 100.0
+  n_unique: 0
+  sample_values: []
+- name: Rep Is Active
+  category: administrative
+  permitted_as_feature: false
+  dtype: float64
+  missingness_pct: 100.0
+  n_unique: 0
+  sample_values: []
+- name: Marketing Id
+  category: administrative
+  permitted_as_feature: false
+  dtype: float64
+  missingness_pct: 0.3
+  n_unique: 11794
+  sample_values:
+  - 716064.0
+  - 667740.0
+  - 599846.0
+- name: Inactive Status
+  category: administrative
+  permitted_as_feature: false
+  dtype: float64
+  missingness_pct: 100.0
+  n_unique: 0
+  sample_values: []
+- name: Renewal Type
+  category: administrative
+  permitted_as_feature: false
+  dtype: object
+  missingness_pct: 0.0
+  n_unique: 2
+  sample_values:
+  - Renewal
+  - Renewal
+  - Renewal
+- name: Assignment Group Id
+  category: administrative
+  permitted_as_feature: false
+  dtype: float64
+  missingness_pct: 52.59
+  n_unique: 36
+  sample_values:
+  - 83.0
+  - 85.0
+  - 93.0
+- name: Capture Page
+  category: administrative
+  permitted_as_feature: false
+  dtype: object
+  missingness_pct: 10.67
+  n_unique: 271
+  sample_values:
+  - /sign_up?marketplace=1&medium=Organic&campaign=Homepage_2
+  - /sign_up?affiliate=70700707&subid=7720101
+  - /staples-business-loans
+- name: Referral URL
+  category: administrative
+  permitted_as_feature: false
+  dtype: object
+  missingness_pct: 68.79
+  n_unique: 655
+  sample_values:
+  - direct
+  - https://www.google.com/
+  - https://www.lendio.com/bp/progressive-form.html?srcPage=/bp/signup/&labelColor=FFFFFF&secondaryColor=FFFFFF&medium=Partner&source=SmartBiz-Email&campaign=CorporateBorrowersLeads&adgroup=SmartBizBroadcast&keywords=08222019&e=mrmoneyatms@gmail.com&hsp=1&rt=
+- name: Marketing Mineral Group
+  category: pre_funding_applicant
+  permitted_as_feature: true
+  dtype: object
+  missingness_pct: 0.0
+  n_unique: 7
+  sample_values:
+  - 7. N/A
+  - 7. N/A
+  - 7. N/A
+- name: Marketing Credit Score
+  category: pre_funding_applicant
+  permitted_as_feature: true
+  dtype: float64
+  missingness_pct: 2.26
+  n_unique: 246
+  sample_values:
+  - 599.0
+  - 680.0
+  - 680.0
+- name: Marketing Time in Business
+  category: pre_funding_applicant
+  permitted_as_feature: true
+  dtype: float64
+  missingness_pct: 2.12
+  n_unique: 446
+  sample_values:
+  - 11.0
+  - 120.0
+  - 120.0
+- name: Marketing Avg Monthly Sales
+  category: pre_funding_applicant
+  permitted_as_feature: true
+  dtype: float64
+  missingness_pct: 2.14
+  n_unique: 833
+  sample_values:
+  - 14999.0
+  - 120000.0
+  - 120000.0
+- name: Start Business Day
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: int64
+  missingness_pct: 0.0
+  n_unique: 24
+  sample_values:
+  - 18
+  - 20
+  - 1
+- name: Start Quarter Day
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: int64
+  missingness_pct: 0.0
+  n_unique: 65
+  sample_values:
+  - 18
+  - 42
+  - 23
+- name: Start Annual Day
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: int64
+  missingness_pct: 0.0
+  n_unique: 254
+  sample_values:
+  - 82
+  - 105
+  - 23
+- name: Borrower Created
+  category: pre_funding_applicant
+  permitted_as_feature: true
+  dtype: datetime64[ns]
+  missingness_pct: 0.0
+  n_unique: 11704
+  sample_values:
+  - '2014-10-24T21:46:00'
+  - '2014-12-19T17:40:00'
+  - '2015-02-28T17:30:00'
+- name: Lead Claiming Bucket
+  category: administrative
+  permitted_as_feature: false
+  dtype: object
+  missingness_pct: 55.99
+  n_unique: 26
+  sample_values:
+  - '#2 GAP- Gold or Higher App Complete (Many reps 2, some 1)'
+  - '#5 Silver Only - Not OnDeck or LendingClub (most 2, Top 15 not in list)'
+  - '#6 Silver up to Silver Plus'
+- name: Lead Claiming Priority
+  category: administrative
+  permitted_as_feature: false
+  dtype: float64
+  missingness_pct: 55.99
+  n_unique: 8
+  sample_values:
+  - 2.0
+  - 5.0
+  - 6.0
+- name: Is Claimed By Rep
+  category: administrative
+  permitted_as_feature: false
+  dtype: int64
+  missingness_pct: 0.0
+  n_unique: 2
+  sample_values:
+  - 1
+  - 1
+  - 1
+- name: Days Since Last Opportunity
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: int64
+  missingness_pct: 0.0
+  n_unique: 715
+  sample_values:
+  - 1086
+  - 176
+  - 352
+- name: Is Claimed Lead
+  category: administrative
+  permitted_as_feature: false
+  dtype: int64
+  missingness_pct: 0.0
+  n_unique: 2
+  sample_values:
+  - 0
+  - 0
+  - 1
+- name: Processor Assigned TS
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: datetime64[ns]
+  missingness_pct: 22.29
+  n_unique: 10249
+  sample_values:
+  - '2019-09-12T02:10:00'
+  - '2019-05-06T13:58:00'
+  - '2019-01-30T19:05:00'
+- name: Processor
+  category: administrative
+  permitted_as_feature: false
+  dtype: object
+  missingness_pct: 22.29
+  n_unique: 14
+  sample_values:
+  - Abigail Ingersoll
+  - Kerrianne Tolan
+  - Julie Allred
+- name: Is Processor Assigned
+  category: administrative
+  permitted_as_feature: false
+  dtype: int64
+  missingness_pct: 0.0
+  n_unique: 2
+  sample_values:
+  - 0
+  - 1
+  - 0
+- name: OcrolusSent
+  category: administrative
+  permitted_as_feature: false
+  dtype: datetime64[ns]
+  missingness_pct: 24.8
+  n_unique: 10391
+  sample_values:
+  - '2019-09-11T21:43:00'
+  - '2018-03-21T17:53:00'
+  - '2019-05-03T20:34:00'
+- name: OcrolusComplete
+  category: administrative
+  permitted_as_feature: false
+  dtype: datetime64[ns]
+  missingness_pct: 24.05
+  n_unique: 9360
+  sample_values:
+  - '2019-09-11T22:20:00'
+  - '2018-03-21T18:00:00'
+  - '2019-05-03T21:31:00'
+- name: OcrolusErrored
+  category: administrative
+  permitted_as_feature: false
+  dtype: datetime64[ns]
+  missingness_pct: 98.44
+  n_unique: 210
+  sample_values:
+  - '2019-12-12T21:20:00'
+  - '2019-08-05T18:31:00'
+  - '2019-05-10T16:00:00'
+- name: Closed By Rep Id
+  category: administrative
+  permitted_as_feature: false
+  dtype: float64
+  missingness_pct: 0.81
+  n_unique: 240
+  sample_values:
+  - 992232.0
+  - 748554.0
+  - 1461576.0
+- name: Closed By Team Id
+  category: administrative
+  permitted_as_feature: false
+  dtype: float64
+  missingness_pct: 0.81
+  n_unique: 28
+  sample_values:
+  - 1204.0
+  - 1284.0
+  - 1284.0
+- name: Closed By Rep
+  category: administrative
+  permitted_as_feature: false
+  dtype: object
+  missingness_pct: 0.81
+  n_unique: 237
+  sample_values:
+  - System Account
+  - Jared Almond
+  - Jason Jack
+- name: Closed By Type
+  category: administrative
+  permitted_as_feature: false
+  dtype: float64
+  missingness_pct: 100.0
+  n_unique: 0
+  sample_values: []
+- name: Closed By Team
+  category: administrative
+  permitted_as_feature: false
+  dtype: object
+  missingness_pct: 0.81
+  n_unique: 27
+  sample_values:
+  - Tier 5
+  - Repeat Business
+  - Repeat Business
+- name: Closed by Location
+  category: administrative
+  permitted_as_feature: false
+  dtype: object
+  missingness_pct: 0.81
+  n_unique: 3
+  sample_values:
+  - SLC
+  - SLC
+  - SLC
+- name: Deal Id
+  category: post_funding_outcome
+  permitted_as_feature: false
+  dtype: float64
+  missingness_pct: 0.8
+  n_unique: 14022
+  sample_values:
+  - 899847.0
+  - 934147.0
+  - 694226.0
+- name: Deal Status
+  category: post_funding_outcome
+  permitted_as_feature: false
+  dtype: object
+  missingness_pct: 0.8
+  n_unique: 4
+  sample_values:
+  - paidOff
+  - current
+  - paidOff
+- name: Is App Sent
+  category: post_funding_outcome
+  permitted_as_feature: false
+  dtype: float64
+  missingness_pct: 0.8
+  n_unique: 1
+  sample_values:
+  - 1.0
+  - 1.0
+  - 1.0
+- name: Is Offer Received
+  category: post_funding_outcome
+  permitted_as_feature: false
+  dtype: float64
+  missingness_pct: 0.8
+  n_unique: 1
+  sample_values:
+  - 1.0
+  - 1.0
+  - 1.0
+- name: Is Offer Accepted
+  category: post_funding_outcome
+  permitted_as_feature: false
+  dtype: float64
+  missingness_pct: 0.8
+  n_unique: 1
+  sample_values:
+  - 1.0
+  - 1.0
+  - 1.0
+- name: Is Closed
+  category: post_funding_outcome
+  permitted_as_feature: false
+  dtype: float64
+  missingness_pct: 0.8
+  n_unique: 1
+  sample_values:
+  - 1.0
+  - 1.0
+  - 1.0
+- name: Closed
+  category: post_funding_outcome
+  permitted_as_feature: false
+  dtype: datetime64[ns]
+  missingness_pct: 0.8
+  n_unique: 295
+  sample_values:
+  - '2019-08-14T00:00:00'
+  - '2019-09-19T00:00:00'
+  - '2019-02-01T00:00:00'
+- name: Month Closed
+  category: post_funding_outcome
+  permitted_as_feature: false
+  dtype: datetime64[ns]
+  missingness_pct: 0.8
+  n_unique: 36
+  sample_values:
+  - '2019-08-01T00:00:00'
+  - '2019-09-01T00:00:00'
+  - '2019-02-01T00:00:00'
+- name: Offer Id
+  category: administrative
+  permitted_as_feature: false
+  dtype: float64
+  missingness_pct: 0.8
+  n_unique: 14022
+  sample_values:
+  - 460171.0
+  - 485879.0
+  - 325283.0
+- name: Is Offer Published
+  category: post_funding_outcome
+  permitted_as_feature: false
+  dtype: float64
+  missingness_pct: 0.8
+  n_unique: 2
+  sample_values:
+  - 0.0
+  - 0.0
+  - 0.0
+- name: Is Offer Auto-Published
+  category: post_funding_outcome
+  permitted_as_feature: false
+  dtype: float64
+  missingness_pct: 0.8
+  n_unique: 2
+  sample_values:
+  - 0.0
+  - 0.0
+  - 0.0
+- name: Is Offer Accepted Online
+  category: post_funding_outcome
+  permitted_as_feature: false
+  dtype: float64
+  missingness_pct: 0.8
+  n_unique: 2
+  sample_values:
+  - 0.0
+  - 0.0
+  - 0.0
+- name: Payback
+  category: pre_funding_loan_offer
+  permitted_as_feature: true
+  dtype: float64
+  missingness_pct: 0.87
+  n_unique: 5205
+  sample_values:
+  - 55000.0
+  - 42575.0
+  - 175000.0
+- name: APR
+  category: pre_funding_loan_offer
+  permitted_as_feature: true
+  dtype: float64
+  missingness_pct: 59.59
+  n_unique: 253
+  sample_values:
+  - 15.0
+  - 15.0
+  - 40.0
+- name: Factor
+  category: pre_funding_loan_offer
+  permitted_as_feature: true
+  dtype: float64
+  missingness_pct: 42.04
+  n_unique: 97
+  sample_values:
+  - 1.32
+  - 1.3
+  - 1.16
+- name: Commission
+  category: pre_funding_loan_offer
+  permitted_as_feature: true
+  dtype: float64
+  missingness_pct: 0.8
+  n_unique: 3430
+  sample_values:
+  - 8871.45
+  - 2600.0
+  - 8750.0
+- name: Payment Frequency
+  category: pre_funding_loan_offer
+  permitted_as_feature: true
+  dtype: object
+  missingness_pct: 16.85
+  n_unique: 8
+  sample_values:
+  - daily
+  - weekly
+  - daily
+- name: Payment Amount
+  category: pre_funding_loan_offer
+  permitted_as_feature: true
+  dtype: float64
+  missingness_pct: 37.9
+  n_unique: 5529
+  sample_values:
+  - 1920.0
+  - 428.51
+  - 96.0
+- name: Points
+  category: pre_funding_loan_offer
+  permitted_as_feature: true
+  dtype: float64
+  missingness_pct: 0.8
+  n_unique: 253
+  sample_values:
+  - 16.13
+  - 8.0
+  - 5.0
+- name: Received
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: datetime64[ns]
+  missingness_pct: 0.8
+  n_unique: 333
+  sample_values:
+  - '2019-08-14T00:00:00'
+  - '2019-09-19T00:00:00'
+  - '2019-02-01T00:00:00'
+- name: Published
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: datetime64[ns]
+  missingness_pct: 98.78
+  n_unique: 117
+  sample_values:
+  - '2019-12-23T00:00:00'
+  - '2019-10-31T00:00:00'
+  - '2019-09-09T00:00:00'
+- name: Accepted
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: datetime64[ns]
+  missingness_pct: 0.8
+  n_unique: 300
+  sample_values:
+  - '2019-08-14T00:00:00'
+  - '2019-09-19T00:00:00'
+  - '2019-02-01T00:00:00'
+- name: Prod Id
+  category: structural_metadata
+  permitted_as_feature: true
+  dtype: float64
+  missingness_pct: 0.8
+  n_unique: 80
+  sample_values:
+  - 38.0
+  - 202.0
+  - 38.0
+- name: Lender
+  category: structural_metadata
+  permitted_as_feature: true
+  dtype: object
+  missingness_pct: 0.8
+  n_unique: 67
+  sample_values:
+  - On Deck Capital
+  - Kapitus
+  - On Deck Capital
+- name: Prod Type
+  category: structural_metadata
+  permitted_as_feature: true
+  dtype: object
+  missingness_pct: 0.8
+  n_unique: 11
+  sample_values:
+  - ach
+  - ach
+  - ach
+- name: Product
+  category: structural_metadata
+  permitted_as_feature: true
+  dtype: object
+  missingness_pct: 0.8
+  n_unique: 26
+  sample_values:
+  - ACH Cashflow Loan
+  - ACH Cashflow Loan
+  - ACH Cashflow Loan
+- name: Tier
+  category: pre_funding_loan_offer
+  permitted_as_feature: true
+  dtype: float64
+  missingness_pct: 0.83
+  n_unique: 5
+  sample_values:
+  - 5.0
+  - 1.0
+  - 1.0
+- name: Orig Medium
+  category: administrative
+  permitted_as_feature: false
+  dtype: object
+  missingness_pct: 0.86
+  n_unique: 37
+  sample_values:
+  - Sales
+  - Sales
+  - Sales
+- name: Orig Source
+  category: administrative
+  permitted_as_feature: false
+  dtype: object
+  missingness_pct: 2.15
+  n_unique: 136
+  sample_values:
+  - Re-engagement
+  - Re-engagement
+  - Re-engagement
+- name: Orig Campaign
+  category: administrative
+  permitted_as_feature: false
+  dtype: object
+  missingness_pct: 41.57
+  n_unique: 1377
+  sample_values:
+  - (direct)
+  - Google-Network
+  - Danryl Abayan
+- name: Orig Ad Group
+  category: administrative
+  permitted_as_feature: false
+  dtype: object
+  missingness_pct: 54.96
+  n_unique: 2562
+  sample_values:
+  - SBA_7a_Loans
+  - u26NQZfDXF
+  - Video Ads
+- name: '# Borrower Renewals'
+  category: pre_funding_applicant
+  permitted_as_feature: true
+  dtype: float64
+  missingness_pct: 0.8
+  n_unique: 41
+  sample_values:
+  - 2.0
+  - 2.0
+  - 4.0
+- name: Is Product Renewal
+  category: structural_metadata
+  permitted_as_feature: true
+  dtype: float64
+  missingness_pct: 0.8
+  n_unique: 2
+  sample_values:
+  - 1.0
+  - 1.0
+  - 1.0
+- name: Borrower City
+  category: pre_funding_applicant
+  permitted_as_feature: true
+  dtype: object
+  missingness_pct: 1.04
+  n_unique: 4378
+  sample_values:
+  - Orlando
+  - Warren
+  - Duluth
+- name: Borrower State
+  category: pre_funding_applicant
+  permitted_as_feature: true
+  dtype: object
+  missingness_pct: 0.24
+  n_unique: 51
+  sample_values:
+  - VA
+  - FL
+  - MI
+- name: Borrower Zip
+  category: pre_funding_applicant
+  permitted_as_feature: true
+  dtype: int64
+  missingness_pct: 0.0
+  n_unique: 6553
+  sample_values:
+  - 23062
+  - 32828
+  - 48093
+- name: Created
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: datetime64[ns]
+  missingness_pct: 0.8
+  n_unique: 11636
+  sample_values:
+  - '2014-10-24T21:46:00'
+  - '2014-12-19T17:40:00'
+  - '2015-02-28T17:30:00'
+- name: Deal Type
+  category: structural_metadata
+  permitted_as_feature: true
+  dtype: object
+  missingness_pct: 0.83
+  n_unique: 8
+  sample_values:
+  - renewal
+  - renewal
+  - renewal
+- name: Closed TS
+  category: post_funding_outcome
+  permitted_as_feature: false
+  dtype: datetime64[ns]
+  missingness_pct: 0.8
+  n_unique: 11573
+  sample_values:
+  - '2019-08-14T22:57:00'
+  - '2019-09-19T18:45:00'
+  - '2019-02-01T17:06:00'
+- name: Is Lender Renewal
+  category: structural_metadata
+  permitted_as_feature: true
+  dtype: float64
+  missingness_pct: 0.8
+  n_unique: 2
+  sample_values:
+  - 1.0
+  - 1.0
+  - 1.0
+- name: Lender Renewal Count
+  category: post_funding_outcome
+  permitted_as_feature: false
+  dtype: float64
+  missingness_pct: 0.8
+  n_unique: 41
+  sample_values:
+  - 2.0
+  - 2.0
+  - 4.0
+- name: Dead Status
+  category: post_funding_outcome
+  permitted_as_feature: false
+  dtype: float64
+  missingness_pct: 100.0
+  n_unique: 0
+  sample_values: []
+- name: Renewal Eligible Date
+  category: post_funding_outcome
+  permitted_as_feature: false
+  dtype: float64
+  missingness_pct: 100.0
+  n_unique: 0
+  sample_values: []
+- name: Original Close Date
+  category: post_funding_outcome
+  permitted_as_feature: false
+  dtype: datetime64[ns]
+  missingness_pct: 0.8
+  n_unique: 9611
+  sample_values:
+  - '2014-11-12T16:09:00'
+  - '2018-04-10T16:09:00'
+  - '2015-04-16T13:44:00'
+- name: Search Term
+  category: administrative
+  permitted_as_feature: false
+  dtype: object
+  missingness_pct: 86.4
+  n_unique: 331
+  sample_values:
+  - Business Loans Made Simple Video
+  - 4
+  - best place to get a business loan
+- name: Opportunity Start
+  category: deal_timestamp
+  permitted_as_feature: true
+  dtype: datetime64[ns]
+  missingness_pct: 0.8
+  n_unique: 11931
+  sample_values:
+  - '2018-04-25T19:00:00'
+  - '2019-05-29T18:27:00'
+  - '2019-02-01T17:05:00'
+- name: Lender Identifier
+  category: structural_metadata
+  permitted_as_feature: true
+  dtype: object
+  missingness_pct: 97.62
+  n_unique: 337
+  sample_values:
+  - FT-4706928
+  - FT-4701689
+  - FT-4711188
+- name: Term Complete Percentage
+  category: post_funding_outcome
+  permitted_as_feature: false
+  dtype: float64
+  missingness_pct: 0.8
+  n_unique: 101
+  sample_values:
+  - 17.0
+  - 3.0
+  - 47.0
+- name: Percent Paid
+  category: post_funding_outcome
+  permitted_as_feature: false
+  dtype: float64
+  missingness_pct: 98.56
+  n_unique: 161
+  sample_values:
+  - 21.9
+  - 14.84
+  - 0.0
+- name: Is Automated
+  category: administrative
+  permitted_as_feature: false
+  dtype: float64
+  missingness_pct: 0.8
+  n_unique: 2
+  sample_values:
+  - 0.0
+  - 0.0
+  - 0.0
+- name: Territory Assignment
+  category: administrative
+  permitted_as_feature: false
+  dtype: object
+  missingness_pct: 94.64
+  n_unique: 3
+  sample_values:
+  - Out of Territory
+  - Out of Territory
+  - Corp Reassigned
+- name: Matching Deal Id
+  category: post_funding_outcome
+  permitted_as_feature: false
+  dtype: float64
+  missingness_pct: 1.07
+  n_unique: 13984
+  sample_values:
+  - 899847.0
+  - 934147.0
+  - 694226.0
+- name: Prod Rank
+  category: structural_metadata
+  permitted_as_feature: true
+  dtype: float64
+  missingness_pct: 1.07
+  n_unique: 92
+  sample_values:
+  - 2.0
+  - 47.0
+  - 8.0
