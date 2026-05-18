@@ -24,7 +24,9 @@ data/processed/**
 docs/proposal/proposal_tatphong.pdf
 
 # Trained models + experiment artefacts
-models/
+# Anchored with leading slash so /models/ (top-level) is excluded but
+# src/emerald_ai/models/ (source package) is NOT.
+/models/
 mlruns/
 mlartifacts/
 *.onnx
@@ -109,6 +111,10 @@ node_modules/
 .pnpm-store/
 web/dist/
 web/.vite/
+apps/web/dist/
+apps/web/.vite/
+apps/web/tsconfig.tsbuildinfo
+*.tsbuildinfo
 *.log
 npm-debug.log*
 yarn-debug.log*

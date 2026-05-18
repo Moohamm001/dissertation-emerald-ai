@@ -137,32 +137,236 @@ def imbalance(
 
 @app.command()
 def train(
-    model: str = typer.Option("all", "--model", "-m", help="Model family: lr | svm | rf | xgboost | lightgbm | catboost | mlp | ft_transformer | all"),
+    families: str = typer.Option("all", "--families", "-f", help="Comma-separated family names or 'all'"),
+    n_outer_folds: int = typer.Option(5, help="Outer CV folds"),
+    n_inner_folds: int = typer.Option(3, help="Inner CV folds for RandomizedSearchCV"),
+    n_search_candidates: int = typer.Option(12, help="RandomizedSearch trial budget per family-fold"),
+    persist: bool = typer.Option(True, help="Persist best model + preprocessor + conformal to models/"),
 ) -> None:
-    """Train one or all model families under nested CV + Bayesian HPO (proposal sec.5.8, sec.5.9)."""
-    raise NotImplementedError(f"Training for {model!r} not yet implemented.")
+    """Train all available families with nested CV (§5.8 + §5.9).
+
+    Persists ``models/{current_model,preprocessor,conformal_marginal,feature_names}``
+    so the FastAPI backend can serve them. Emits ``data/governance/training_report.md``.
+    """
+    from emerald_ai.data.eda import split_xy
+    from emerald_ai.data.load import load_labelled
+    from emerald_ai.features.pipeline import fit_transform_with_audit
+    from emerald_ai.models import available_models
+    from emerald_ai.training.cv import emit_report, nested_cv
+
+    fam_list = None if families == "all" else [f.strip() for f in families.split(",")]
+    if fam_list is None:
+        fam_list = available_models()
+
+    df = load_labelled()
+    X, y = split_xy(df)
+    X_t, pre, _audit = fit_transform_with_audit(X, y)
+    feature_names = list(pre.get_feature_names_out())
+
+    audit, oof = nested_cv(
+        X_t, y,
+        families=fam_list,
+        n_outer_folds=n_outer_folds,
+        n_inner_folds=n_inner_folds,
+        n_search_candidates=n_search_candidates,
+    )
+    report = emit_report(audit)
+    console.print(f"[green]OK[/green]: {report}")
+    console.print(f"  families: {audit.families}")
+
+    if persist:
+        _persist_artefacts(X_t, y, oof, audit, pre, feature_names)
+        console.print(f"  persisted artefacts to {PATHS.root / 'models'}")
 
 
-@app.command()
-def evaluate() -> None:
-    """Compute metrics, calibration, conformal intervals (proposal sec.5.10, sec.5.13)."""
-    raise NotImplementedError("Evaluation not yet implemented.")
+def _persist_artefacts(X_t, y, oof, audit, preprocessor, feature_names):
+    """Pick the best family by mean PR-AUC, refit on all rows, save with preprocessor + conformal."""
+    import json
+    import joblib
+    import numpy as np
+    from emerald_ai.calibration import SplitConformal
+    from emerald_ai.models import FACTORIES
 
+    by_family: dict[str, list[float]] = {}
+    for r in audit.fold_results:
+        by_family.setdefault(r.family, []).append(r.pr_auc)
+    if not by_family:
+        return
+    best_family = max(by_family, key=lambda k: float(np.mean(by_family[k])))
+    console.print(f"  best family: [bold]{best_family}[/bold] (mean PR-AUC = {np.mean(by_family[best_family]):.4f})")
 
-@app.command()
-def explain(
-    applicant_id: int | None = typer.Option(None, "--applicant-id", "-a"),
-) -> None:
-    """Generate global + local SHAP + counterfactual + fidelity reports (proposal sec.5.11)."""
-    raise NotImplementedError("Explainability pipeline not yet implemented.")
+    model = FACTORIES[best_family]()
+    model.fit(X_t, y)
+
+    classes = getattr(model, "classes_", np.array([0, 1]))
+    pos_idx = int(np.where(classes == 1)[0][0]) if 1 in classes else 1
+    scores_full = model.predict_proba(X_t)[:, pos_idx]
+    conf = SplitConformal(alpha=0.10).fit(scores_full, y)
+
+    out_dir = PATHS.root / "models"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    joblib.dump(model, out_dir / "current_model.joblib")
+    joblib.dump(preprocessor, out_dir / "preprocessor.joblib")
+    joblib.dump(conf, out_dir / "conformal_marginal.joblib")
+    (out_dir / "feature_names.json").write_text(json.dumps(feature_names), encoding="utf-8")
+    (out_dir / "best_family.txt").write_text(best_family, encoding="utf-8")
 
 
 @app.command()
 def audit(
-    axis: str = typer.Option("all", "--axis", help="Proxy axis: industry | state | business_size | all"),
+    out: Path | None = typer.Option(None, help="Override fairness_report.md output path"),
 ) -> None:
-    """Run fairness + robustness + drift audit (proposal sec.5.12)."""
-    raise NotImplementedError("Audit pipeline not yet implemented.")
+    """Run the §5.12 fairness audit on the persisted model against Industry / Borrower State.
+
+    Emits ``data/governance/fairness_report.md``.
+    """
+    import json
+    import joblib
+    import numpy as np
+    from emerald_ai.data.eda import split_xy
+    from emerald_ai.data.load import load_labelled
+    from emerald_ai.fairness import audit_predictions, emit_report
+    from emerald_ai.fairness.audit import FAIRNESS_REPORT_PATH
+
+    models_dir = PATHS.root / "models"
+    if not (models_dir / "current_model.joblib").exists():
+        console.print("[red]No trained model artefacts found.[/red] Run `python -m emerald_ai train` first.")
+        raise typer.Exit(1)
+
+    model = joblib.load(models_dir / "current_model.joblib")
+    preprocessor = joblib.load(models_dir / "preprocessor.joblib")
+    df = load_labelled()
+    X_raw, y = split_xy(df)
+    X_t = preprocessor.transform(X_raw)
+    classes = getattr(model, "classes_", np.array([0, 1]))
+    pos_idx = int(np.where(classes == 1)[0][0]) if 1 in classes else 1
+    scores = model.predict_proba(X_t)[:, pos_idx]
+
+    sensitive = {
+        "Industry": X_raw["Industry"].fillna("__missing__").to_numpy(),
+        "Borrower State": X_raw["Borrower State"].fillna("__missing__").to_numpy(),
+    }
+    audit_obj = audit_predictions(np.asarray(y), scores, sensitive)
+    target = out if out is not None else FAIRNESS_REPORT_PATH
+    written = emit_report(audit_obj, out_path=target)
+    console.print(f"[green]OK[/green]: {written}")
+    for axis, gaps in audit_obj.gaps.items():
+        console.print(
+            f"  {axis}: DP={gaps['dp_gap']:.3f} TPR={gaps['tpr_gap']:.3f} "
+            f"FPR={gaps['fpr_gap']:.3f} prec={gaps['precision_gap']:.3f} ECE={gaps['ece_gap']:.3f}"
+        )
+
+
+@app.command()
+def evaluate() -> None:
+    """Compute primary + secondary metrics on the persisted model (§5.10 + §5.13).
+
+    Reads ``models/current_model.joblib`` + ``preprocessor.joblib`` and prints
+    the headline trio (PR-AUC, within-minority ECE, recall@top-decile) plus
+    secondary tier (ROC-AUC, KS, F1, Brier, MCC) on the labelled supervisory
+    pool. No held-out split here — this is a smoke check, not the §5.9
+    nested-CV report (that lives in `data/governance/training_report.md`).
+    """
+    import joblib
+    import numpy as np
+    from emerald_ai.data.eda import split_xy
+    from emerald_ai.data.load import load_labelled
+    from emerald_ai.eval import (
+        brier_score, ece, f1_at, ks_statistic, matthews_corrcoef,
+        pr_auc_minority, recall_at_top_decile, roc_auc, within_minority_ece,
+    )
+
+    models_dir = PATHS.root / "models"
+    if not (models_dir / "current_model.joblib").exists():
+        console.print("[red]No model.[/red] Run `python -m emerald_ai train` first.")
+        raise typer.Exit(1)
+
+    model = joblib.load(models_dir / "current_model.joblib")
+    pre = joblib.load(models_dir / "preprocessor.joblib")
+    df = load_labelled()
+    X, y = split_xy(df)
+    X_t = pre.transform(X)
+    classes = getattr(model, "classes_", np.array([0, 1]))
+    pos_idx = int(np.where(classes == 1)[0][0]) if 1 in classes else 1
+    scores = model.predict_proba(X_t)[:, pos_idx]
+
+    primary = {
+        "PR-AUC (minority)": pr_auc_minority(np.asarray(y), scores),
+        "within-minority ECE": within_minority_ece(np.asarray(y), scores),
+        "recall@top-decile": recall_at_top_decile(np.asarray(y), scores),
+    }
+    secondary = {
+        "ROC-AUC": roc_auc(np.asarray(y), scores),
+        "KS": ks_statistic(np.asarray(y), scores),
+        "F1@0.5": f1_at(np.asarray(y), scores),
+        "Brier": brier_score(np.asarray(y), scores),
+        "ECE (marginal)": ece(np.asarray(y), scores),
+        "MCC@0.5": matthews_corrcoef(np.asarray(y), scores),
+    }
+    console.print(
+        "[yellow]In-sample metrics (model evaluated on its training pool). "
+        "For honest OOF estimates see data/governance/training_report.md.[/yellow]"
+    )
+    console.print("[bold]Primary tier:[/bold]")
+    for k, v in primary.items():
+        console.print(f"  {k:<24s} {v:.4f}")
+    console.print("[bold]Secondary tier:[/bold]")
+    for k, v in secondary.items():
+        console.print(f"  {k:<24s} {v:.4f}")
+
+
+@app.command()
+def explain(
+    out: Path | None = typer.Option(None, help="Override output path (default: data/governance/explain_report.md)"),
+    n_repeats: int = typer.Option(5, help="Permutation-importance repeats"),
+) -> None:
+    """Run the global explainability layer on the persisted model (§5.11).
+
+    Computes permutation importance against PR-AUC and writes a markdown
+    report ranked by mean importance. Local + counterfactual layers are
+    served via the /explain FastAPI endpoint.
+    """
+    import joblib
+    import json
+    import numpy as np
+    import pandas as pd
+    from emerald_ai.data.eda import split_xy
+    from emerald_ai.data.load import load_labelled
+    from emerald_ai.explain import global_importance
+
+    models_dir = PATHS.root / "models"
+    if not (models_dir / "current_model.joblib").exists():
+        console.print("[red]No model.[/red] Run `python -m emerald_ai train` first.")
+        raise typer.Exit(1)
+
+    model = joblib.load(models_dir / "current_model.joblib")
+    pre = joblib.load(models_dir / "preprocessor.joblib")
+    feature_names = json.loads((models_dir / "feature_names.json").read_text())
+    df = load_labelled()
+    X, y = split_xy(df)
+    X_t = pre.transform(X)
+
+    imp = global_importance(model, X_t, y, feature_names=feature_names, n_repeats=n_repeats)
+    target = out if out is not None else (PATHS.root / "data" / "governance" / "explain_report.md")
+    target.parent.mkdir(parents=True, exist_ok=True)
+    today = pd.Timestamp.utcnow().date().isoformat()
+    rows = "\n".join(
+        f"| `{r['feature']}` | {r['importance_mean']:.4f} ± {r['importance_std']:.4f} |"
+        for _, r in imp.head(25).iterrows()
+    )
+    target.write_text(
+        f"# Explainability Report — proposal §5.11\n\n"
+        f"Version: 0.1 · Generated: {today}\n\n"
+        f"## Top-25 features by permutation importance (PR-AUC scoring)\n\n"
+        f"| Feature | Importance |\n|---|---|\n{rows}\n\n"
+        f"_First cut uses sklearn's permutation_importance; TreeSHAP / KernelSHAP / DiCE / Quantus land in a follow-up._\n",
+        encoding="utf-8",
+    )
+    console.print(f"[green]OK[/green]: {target}")
+    console.print(f"  top-3: {list(imp['feature'].head(3))}")
+
+
+# `audit` is defined above (alongside `train`) — old stub removed in §5.12 commit.
 
 
 # -------------------------------------------------------------

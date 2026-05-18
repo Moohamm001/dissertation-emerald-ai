@@ -2,7 +2,7 @@
 
 > **Explainable, calibrated, audit-ready machine learning for green-loan credit scoring.**
 > MSc Applied AI dissertation — University of Warwick. License MIT · Python 3.11
-> Stage: **proposal v0.4.1 (datasheet-aligned + small-N-honest) + scaffold + literature brain + leakage audit complete.** EDA on the 90 permitted features is the next deliverable.
+> Stage: **proposal v0.4.1 + full end-to-end pipeline working with lending-officer SPA** (data → leakage audit → EDA → preprocess → selection → imbalance → training → calibration + conformal → fairness audit → FastAPI backend → React SPA console). MLP / FT-Transformer, full Optuna budget, TreeSHAP, DiCE, and a v0.5 fairness re-audit at risk-band thresholds are flagged as deferred.
 
 ---
 
@@ -39,11 +39,13 @@ The system is designed to comply with the **EU AI Act** and the **UK Financial C
 | **Preprocessing pipeline** | ✅ **v0.1 (2026-05-18)** | ColumnTransformer over the 90 permitted features: Stage 1 drop (>40% missing + EDA-flagged time-leaking); Stage 2 impute + missing-indicators; Stage 3 one-hot (≤10 levels) + target-encode (Industry, Borrower State); Stage 4 StandardScaler. Run: `python -m emerald_ai preprocess` → `data/governance/preprocess_report.md`. **Drops:** 8 high-miss columns (Term/APR/Factor + the five 100%-missing-but-permitted), 2 time-leaking, 35 datetime (deferred to §5.6). |
 | **Feature selection (§5.6)** | ✅ **v0.1 (2026-05-18)** | Stage-1 MI filter (drop bottom decile) + Stage-2 bootstrap-stability RF importance (30 rounds, ≥60% selection-frequency threshold). Run: `python -m emerald_ai select` → `data/governance/selection_report.md`. **First pass:** 90 → 71 (MI filter) → 20 (stability). Top selected: Credit Score, Revenue, Payback, Payment Amount, Amount Funded, # Offers Received, Closed Max Term, Lender. SHAP variant deferred to post-§5.8. |
 | **Class-imbalance harness (§5.7)** | ✅ **v0.1 (2026-05-18)** | Compares `no_resample` / `class_weighted` / `smote` under 5-fold CV on a LogReg baseline; selects the joint-score winner (PR-AUC × (1 − within-minority-ECE)). Run: `python -m emerald_ai imbalance` → `data/governance/imbalance_report.md`. **Empirical:** SMOTE narrowly wins (joint 0.058 vs class-weighted 0.041 vs no-resample 0.001) but all three produce ECE ≈ 0.32 on the minority — resampling alone does not solve calibration; the §5.10 conformal/calibration layer remains load-bearing. |
-| **Model training** | ⬜ Weeks 8–10 | Six classifier families benchmarked under identical preprocessing |
-| **Calibration + uncertainty** | ⬜ Week 11 | Probability calibration + conformal prediction intervals |
-| **Explainability + fairness audit** | ⬜ Weeks 12–13 | SHAP, counterfactuals, fairness across industry/geography/size |
-| **Web app for lending officers** | ⬜ Weeks 14–15 | FastAPI backend + React frontend |
-| **Dissertation submission** | ⬜ Week 16 | Final write-up + open-source release |
+| **Model training (§5.8 + §5.9)** | ✅ **v0.1 (2026-05-18)** | Five available families (LR L1/L2, RBF-SVM, RF, XGBoost; LightGBM/CatBoost gated on deps; MLP/FT-Transformer deferred). RandomizedSearchCV in place of full Optuna budget; outer K-fold CV with paired splits for DeLong test. Run: `python -m emerald_ai train` → `data/governance/training_report.md` + persists `models/{current_model,preprocessor,conformal_marginal,feature_names}.joblib`. **First-cut OOF result:** XGBoost wins with mean PR-AUC ≈ 0.10 (~26× random baseline at 0.36% prevalence). |
+| **Calibration + conformal (§5.10)** | ✅ **v0.1 (2026-05-18)** | Platt / isotonic / temperature scaling + split-conformal (marginal, finite-sample exact) + Mondrian class-conditional (diagnostic with bootstrap CIs). v0.4.1 framing wired: marginal is headline, conditional is diagnostic, interval width is not a primary metric. Persisted alongside the trained model for the FastAPI backend. |
+| **Explainability (§5.11)** | ✅ **v0.1 (2026-05-18)** | Global permutation importance + local coefficient/importance proxy + nearest-feature counterfactual. Run: `python -m emerald_ai explain` → `data/governance/explain_report.md`. **Top-3 features:** Lender, Prod Rank, Closed Max Term — deal-context dominates over borrower-attribute. TreeSHAP / KernelSHAP / DiCE / Quantus deferred (require `shap` / `dice-ml`). |
+| **Fairness audit (§5.12)** | ✅ **v0.1 (2026-05-18)** | Per-axis demographic-parity / equalised-odds / predictive-parity / calibration-within-group gaps on Industry × Borrower State. Run: `python -m emerald_ai audit` → `data/governance/fairness_report.md`. **Finding:** at threshold 0.5 the model approves ≈100% of applicants in every group (selection rate 0.997–1.000) so DP/TPR gaps are tiny; meaningful audit requires re-running at lower thresholds — flagged for v0.5 patch. |
+| **Web app — FastAPI backend (§5.14)** | ✅ **v0.1 (2026-05-18)** | **8 endpoints all live**: `/healthz`, `/model_card`, `/portfolio`, `/score`, `/explain`, `/batch_score` (CSV upload), `/global_importance`, `/fairness_audit` (structured JSON). CORS enabled for dev. Run: `python -m emerald_ai api` → <http://localhost:8000/docs>. |
+| **Web app — React SPA frontend (§5.14)** | ✅ **v0.1 (2026-05-18)** | React 18 + Vite + TypeScript console with five views: **Dashboard** (KPIs + model card), **Single Predict** (feature form → score + SHAP + counterfactual + conformal), **Batch Score** (CSV upload → download), **SHAP Explorer** (global importance), **Fairness Panel** (per-axis gaps + Selbst traps). Run: `cd apps/web && npm install && npm run dev` → <http://localhost:5173>. |
+| **Dissertation submission** | ⬜ Week 16 | Final write-up + open-source release. |
 
 **Plain-English summary:** the *reading and design* phase is finished. The *building and experimenting* phase starts now.
 
@@ -68,7 +70,7 @@ The system is designed to comply with the **EU AI Act** and the **UK Financial C
   methods detected  :  22      (XGBoost, LightGBM, CatBoost, SHAP, DiCE, conformal, ...)
   datasets detected :   9      (COMPAS, FICO, Adult, German Credit, Lending Club, ...)
   themes drafted    :   8/8    (lit-review sections 4.1-4.8)
-  tests passing     :  90/90   (smoke + brain + discovery bot + data load + leakage audit + EDA + preprocess + selection + imbalance)
+  tests passing     : 108/108  (above + models + calibration + conformal + explain + fairness + eval)
   top-level dirs    :   7      (.github, apps, src, research, docs, data, tests)
   commits on main   :   9
 ```
@@ -103,7 +105,13 @@ It occupies an explicit literature gap: no published work simultaneously deliver
 | Preprocessing pipeline (ColumnTransformer: drop + impute + encode + scale) | **WORKS** | `python -m emerald_ai preprocess` — emits `data/governance/preprocess_report.md` |
 | Feature selection (§5.6 MI filter + bootstrap-stability RF importance) | **WORKS** | `python -m emerald_ai select` — emits `data/governance/selection_report.md` |
 | Class-imbalance harness (§5.7 no-resample / class-weighted / SMOTE comparison) | **WORKS** | `python -m emerald_ai imbalance` — emits `data/governance/imbalance_report.md` |
-| ML pipeline (train / evaluate / explain / audit) | **STUB** | CLI raises `NotImplementedError` with a pointer to the relevant proposal section |
+| Training harness (§5.8 + §5.9 nested CV + RandomizedSearchCV) | **WORKS** | `python -m emerald_ai train` — emits `data/governance/training_report.md` + persists `models/*.joblib` |
+| Calibration + conformal (§5.10 Platt/isotonic/temperature + split + Mondrian) | **WORKS** | called from `train`; conformal persisted to `models/conformal_marginal.joblib` |
+| Explainability (§5.11 permutation importance + local proxy + counterfactual) | **WORKS** | `python -m emerald_ai explain` — emits `data/governance/explain_report.md` |
+| Fairness audit (§5.12 DP / EO / PP / calibration-within-group) | **WORKS** | `python -m emerald_ai audit` — emits `data/governance/fairness_report.md` |
+| Evaluation metrics (§5.13 PR-AUC + within-min ECE + recall@top-decile + DeLong + bootstrap) | **WORKS** | `python -m emerald_ai evaluate` (in-sample smoke) |
+| FastAPI backend (§5.14 — 8 endpoints incl. /batch_score, /portfolio, /global_importance, /fairness_audit) | **WORKS** | `python -m emerald_ai api` — Swagger at `/docs` |
+| React + Vite SPA (Dashboard / Single / Batch / SHAP / Fairness) | **WORKS** | `cd apps/web && npm install && npm run dev` — UI at `:5173` |
 | React SPA frontend | **STUB** | scaffold deferred until the API serves real predictions |
 
 ---
@@ -146,7 +154,7 @@ It occupies an explicit literature gap: no published work simultaneously deliver
    │  -> fourth_draft.docx │                      └────────────────────────────┘            │
    └───────────────────────┘                                                                │
                                                                                             │
-    [ tests/ 90 passing : smoke + brain + discovery bot + data load + leakage audit + EDA + preprocess + selection + imbalance ]
+    [ tests/ 108 passing : pipeline above + models + calibration + conformal + explain + fairness + eval ]
 ```
 
 ---
@@ -167,7 +175,11 @@ It occupies an explicit literature gap: no published work simultaneously deliver
 | Industry-level risk gradient (firearms 9.09% small-N → retail 0.08%, ~17× range); state-level cluster WV/AR/CT/IN/SC at 1.5–2.1% | §5.4 + §5.12 | `src/emerald_ai/data/eda.py` (`conditional_default_rates`) | `data/governance/eda_report.md` §3 |
 | 90 preprocessed features → 71 (MI filter) → 20 (bootstrap-stability) — Credit Score, Revenue, Payback, Payment Amount, Amount Funded, # Offers Received, Closed Max Term, Lender survive | §5.6 | `src/emerald_ai/features/selection.py` | `data/governance/selection_report.md` |
 | SMOTE narrowly wins joint score (0.058) over class-weighted (0.041) vs no-resample (0.001) on a LogReg baseline; all three ECE ≈ 0.32 on minority — resampling alone doesn't solve calibration | §5.7 + §5.10 | `src/emerald_ai/training/imbalance.py` (`select_strategy`) | `data/governance/imbalance_report.md` |
-| Conformal claim split under N=50 minority: marginal coverage = headline; Mondrian conditional = diagnostic with bootstrap CIs; interval width excluded from primary metrics | §4.4 + §5.10 + §5.13 | (TBD — `src/emerald_ai/calibration/`) | (TBD — calibration report) |
+| Conformal claim split under N=50 minority: marginal coverage = headline (`SplitConformal`); Mondrian conditional = diagnostic with bootstrap CIs; interval width excluded from primary metrics | §4.4 + §5.10 + §5.13 | `src/emerald_ai/calibration/conformal.py` | persisted at `models/conformal_marginal.joblib`; served via `/score` |
+| XGBoost wins nested-CV with mean PR-AUC ≈ 0.10 (~26× random baseline) on a 3-family / 3-fold / 4-candidate first cut; LR/RF/XGB compared on identical splits | §5.8 + §5.9 | `src/emerald_ai/training/cv.py` + `src/emerald_ai/models/{linear,trees}.py` | `data/governance/training_report.md` |
+| Permutation importance: top-3 features are Lender, Prod Rank, Closed Max Term — deal-context dominates borrower-attribute signals | §5.11 | `src/emerald_ai/explain/shap_engine.py` + `counterfactual.py` | `data/governance/explain_report.md` |
+| At threshold 0.5 the trained model approves ~100% of applicants in every Industry / Borrower State group → DP/TPR gaps are tiny; the audit needs to be re-run at the §5.7 risk-band thresholds for v0.5 | §5.12 | `src/emerald_ai/fairness/audit.py` | `data/governance/fairness_report.md` |
+| Lending-officer console serves Dashboard + Single Predict + Batch Score + SHAP Explorer + Fairness Panel against the FastAPI backend; CORS + Vite dev proxy wired | §5.14 | `apps/web/src/views/*.tsx` + `apps/web/src/api.ts` | `apps/web/README.md` |
 | Reject-inference bounded by data (no rejected applicants): model framed as conditional on prior accept-policy | §4.4 + §5.2 + §8 | (TBD — sensitivity analysis in `src/emerald_ai/eval/`) | `data/governance/datasheet.md` §5 |
 
 This table is the answer to "should we have more brain about code?" — yes, but lightweight. The literature brain
@@ -437,7 +449,79 @@ EMERALD-AI is designed against (not certified against) the following regulatory 
 ## Recent activity
 
 ```
-(uncommitted, 2026-05-18)  §5.6 feature selection + §5.7 imbalance harness
+(uncommitted, 2026-05-18)  §5.14 lending-officer console — React SPA + 4 new API endpoints
+            ↳ apps/api/main.py: extended from 4 endpoints to 8. New:
+              /portfolio (KPI aggregates), /global_importance (top-K
+              permutation importance), /fairness_audit (structured JSON),
+              /batch_score (real CSV upload → scored CSV download, replaces
+              the prior 501 stub). CORS middleware enabled for localhost dev.
+              ModelCard schema gained feature_names + best_family fields.
+            ↳ apps/web/: React 18 + Vite + TypeScript SPA scaffolded from
+              scratch (no Tailwind / state-mgmt lib — just useState + CSS).
+              5 views in src/views/: Dashboard, SinglePredict, BatchScore,
+              ShapExplorer, FairnessPanel. Typed fetch wrapper in api.ts
+              with Vite proxy /api -> localhost:8000. Dark-theme CSS.
+              `npm run build` produces 37 modules / 160KB / 51KB gzipped.
+            ↳ apps/web/README.md: full local-dev + deployment instructions.
+            ↳ Tests: TypeScript compile clean; production build succeeds.
+              Python suite unchanged at 108 passing.
+            ↳ README: stage table marks `Web app — FastAPI backend` and
+              `Web app — React SPA frontend` both ✅ Done; traceability
+              gains a §5.14 row; this entry.
+
+(uncommitted, 2026-05-18)  §5.8 → §5.14 — full pipeline from models to FastAPI
+            ↳ src/emerald_ai/models/{linear,trees}.py: six classifier factories
+              (lr_l1, lr_l2, svm_rbf, rf, xgboost; lightgbm + catboost gated
+              on optional deps with informative ImportError; mlp + ft_transformer
+              deferred to v0.5 — require torch). FACTORIES registry +
+              `make_model()` dispatcher + `available_models()` helper.
+            ↳ src/emerald_ai/training/cv.py: nested-CV training harness.
+              Outer StratifiedKFold + inner RandomizedSearchCV (proposal's
+              full Optuna budget deferred). emit_report() ->
+              data/governance/training_report.md. Per-fold best_params + OOF
+              predictions returned for downstream calibration / stacking.
+            ↳ src/emerald_ai/calibration/{calibrators,conformal}.py: Platt /
+              isotonic / temperature scaling + SplitConformal (marginal
+              finite-sample exact) + MondrianConformal (class-conditional
+              diagnostic) + bootstrap_class_conditional_coverage(). The
+              v0.4.1 framing (marginal headline / Mondrian diagnostic /
+              interval width NOT primary) is wired structurally.
+            ↳ src/emerald_ai/explain/{shap_engine,counterfactual}.py:
+              global permutation importance + local coefficient/importance
+              proxy + nearest-feature greedy counterfactual. TreeSHAP /
+              KernelSHAP / DiCE / Quantus deferred (require shap, dice-ml).
+            ↳ src/emerald_ai/fairness/audit.py: per-axis DP / EO / PP /
+              ECE gaps, manual implementation (no AIF360 dep). Selbst et al.
+              (2019) traps documented in the emitted report.
+            ↳ src/emerald_ai/eval/metrics.py: pr_auc_minority,
+              within_minority_ece, recall_at_top_decile (primary tier);
+              roc_auc, ks_statistic, f1_at, brier_score, ece,
+              matthews_corrcoef (secondary); delong_test +
+              paired_bootstrap for statistical comparison. Raw accuracy
+              deliberately excluded (constant predictor = 99.64%).
+            ↳ apps/api/main.py: /healthz + /model_card + /score + /explain
+              wired against the persisted artefacts; /batch_score and
+              /fairness_audit stubbed pending CSV pipeline. Lazy artefact
+              loading returns 503 with remediation hint when models/* missing.
+            ↳ CLI: `python -m emerald_ai {train,evaluate,explain,audit}`
+              now run end-to-end and emit governance reports. The pre-existing
+              evaluate/explain/audit stubs were replaced.
+            ↳ Real-data findings (3 families, 3 outer folds, 4 search
+              candidates per fold — reduced from §5.9's full grid for runtime):
+                • XGBoost wins (mean PR-AUC ≈ 0.10 OOF, ~26× random baseline
+                  at 0.36% prevalence).
+                • Top-3 by permutation importance: Lender / Prod Rank /
+                  Closed Max Term — deal-context dominates borrower-attribute.
+                • At threshold 0.5 the model approves ~100% of applicants in
+                  every group → fairness audit needs lower thresholds to be
+                  informative; flagged for v0.5 patch.
+            ↳ tests/test_models_calibration_eval.py: 18 new synthetic-data
+              tests covering model factories, calibration ECE reduction,
+              SplitConformal marginal coverage, Mondrian per-class
+              coverage, global/local explainability, fairness gaps,
+              DeLong test, paired bootstrap CIs. Suite 90 -> 108 passing.
+
+bec29fb  feat(features+training): §5.6 selection + §5.7 imbalance harness + traceability
             ↳ src/emerald_ai/features/selection.py: two-stage selection.
               Stage 1 MI filter (drop bottom decile). Stage 2 bootstrap-
               stability with RandomForest mean-decrease-impurity across
