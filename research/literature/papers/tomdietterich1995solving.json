@@ -1,0 +1,32 @@
+{
+  "key": "tomdietterich1995solving",
+  "title": "Solving Multiclass Learning Problems via Error-Correcting Output Codes",
+  "authors": [
+    "Tom Dietterich",
+    "Ghulum Bakiri"
+  ],
+  "year": 1995,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Journal of Artificial Intelligence Research",
+  "doi": "10.1613/jair.105",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6108 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Solving Multiclass Learning Problems via Error-Correcting Output Codes",
+  "notes": "Multiclass learning problems involve finding a definitionfor an unknown function f(x) whose range is a discrete setcontaining k &gt; 2 values (i.e., k ``classes''). Thedefinition is acquired by studying collections of training examples ofthe form [x_i, f (x_i)]. Existing approach...",
+  "source_files": [
+    "research\\literature\\papers\\tomdietterich1995solving.md"
+  ],
+  "first_seen": "2026-05-18T11:25:38.388357Z",
+  "last_updated": "2026-05-18T11:25:38.397917Z"
+}

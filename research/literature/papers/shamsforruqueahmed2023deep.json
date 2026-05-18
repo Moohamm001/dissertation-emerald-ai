@@ -1,0 +1,39 @@
+{
+  "key": "shamsforruqueahmed2023deep",
+  "title": "Deep learning modelling techniques: current progress, applications, advantages, and challenges",
+  "authors": [
+    "Shams Forruque Ahmed",
+    "Md. Sakib Bin Alam",
+    "Maruf Hassan",
+    "Mahtabin Rodela Rozbu",
+    "Taoseef Ishtiak",
+    "Nazifa Rafa",
+    "M. Mofijur",
+    "A. B. M. Shawkat Ali",
+    "Amir H. Gandomi"
+  ],
+  "year": 2023,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Artificial Intelligence Review",
+  "doi": "10.1007/s10462-023-10466-8",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.669 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Deep learning modelling techniques: current progress, applications, advantages, and challenges",
+  "notes": "Abstract Deep learning (DL) is revolutionizing evidence-based decision-making techniques that can be applied across various sectors. Specifically, it possesses the ability to utilize two or more levels of non-linear feature transformation of the given data via representation lear...",
+  "source_files": [
+    "research\\literature\\papers\\shamsforruqueahmed2023deep.md"
+  ],
+  "first_seen": "2026-05-18T11:35:45.163974Z",
+  "last_updated": "2026-05-18T11:35:45.175833Z"
+}

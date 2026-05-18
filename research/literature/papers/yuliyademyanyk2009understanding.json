@@ -1,0 +1,32 @@
+{
+  "key": "yuliyademyanyk2009understanding",
+  "title": "Understanding the Subprime Mortgage Crisis",
+  "authors": [
+    "Yuliya Demyanyk",
+    "Otto Van Hemert"
+  ],
+  "year": 2009,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Review of Financial Studies",
+  "doi": "10.1093/rfs/hhp033",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6336 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Understanding the Subprime Mortgage Crisis",
+  "notes": "Using loan-level data, we analyze the quality of subprime mortgage loans by adjusting their performance for differences in borrower characteristics, loan characteristics, and macroeconomic conditions. We find that the quality of loans deteriorated for six consecutive years before...",
+  "source_files": [
+    "research\\literature\\papers\\yuliyademyanyk2009understanding.md"
+  ],
+  "first_seen": "2026-05-18T11:35:44.968103Z",
+  "last_updated": "2026-05-18T11:35:44.976288Z"
+}

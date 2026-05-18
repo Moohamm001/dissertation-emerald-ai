@@ -1,0 +1,31 @@
+{
+  "key": "georgecybenko1989approximation",
+  "title": "Approximation by superpositions of a sigmoidal function",
+  "authors": [
+    "George Cybenko"
+  ],
+  "year": 1989,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Mathematics of Control Signals and Systems",
+  "doi": "10.1007/bf02551274",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.61 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Approximation by superpositions of a sigmoidal function",
+  "notes": "",
+  "source_files": [
+    "research\\literature\\papers\\georgecybenko1989approximation.md"
+  ],
+  "first_seen": "2026-05-18T11:35:44.480174Z",
+  "last_updated": "2026-05-18T11:35:44.491498Z"
+}

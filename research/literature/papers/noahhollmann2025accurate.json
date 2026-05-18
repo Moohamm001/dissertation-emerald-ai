@@ -1,0 +1,38 @@
+{
+  "key": "noahhollmann2025accurate",
+  "title": "Accurate predictions on small data with a tabular foundation model",
+  "authors": [
+    "Noah Hollmann",
+    "Samuel Müller",
+    "Lennart Purucker",
+    "Arjun Krishnakumar",
+    "Max Körfer",
+    "Shi Bin Hoo",
+    "Robin Tibor Schirrmeister",
+    "Frank Hutter"
+  ],
+  "year": 2025,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Nature",
+  "doi": "10.1038/s41586-024-08328-6",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6685 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Accurate predictions on small data with a tabular foundation model",
+  "notes": "Abstract Tabular data, spreadsheets organized in rows and columns, are ubiquitous across scientific fields, from biomedicine to particle physics to economics and climate science 1,2 . The fundamental prediction task of filling in missing values of a label column based on the rest...",
+  "source_files": [
+    "research\\literature\\papers\\noahhollmann2025accurate.md"
+  ],
+  "first_seen": "2026-05-18T11:25:38.256713Z",
+  "last_updated": "2026-05-18T11:25:38.265338Z"
+}

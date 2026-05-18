@@ -1,0 +1,33 @@
+{
+  "key": "fritzgnther2015latent",
+  "title": "Latent semantic analysis cosines as a cognitive similarity measure: Evidence from priming studies",
+  "authors": [
+    "Fritz Günther",
+    "Carolin Dudschig",
+    "Barbara Kaup"
+  ],
+  "year": 2015,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Quarterly Journal of Experimental Psychology",
+  "doi": "10.1080/17470218.2015.1038280",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6239 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Latent semantic analysis cosines as a cognitive similarity measure: Evidence from priming studies",
+  "notes": "In distributional semantics models (DSMs) such as latent semantic analysis (LSA), words are represented as vectors in a high-dimensional vector space. This allows for computing word similarities as the cosine of the angle between two such vectors. In two experiments, we investiga...",
+  "source_files": [
+    "research\\literature\\papers\\fritzgnther2015latent.md"
+  ],
+  "first_seen": "2026-05-18T11:35:45.389490Z",
+  "last_updated": "2026-05-18T11:35:45.399145Z"
+}

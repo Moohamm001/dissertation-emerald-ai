@@ -1,0 +1,40 @@
+{
+  "key": "sajidali2023explainable",
+  "title": "Explainable Artificial Intelligence (XAI): What we know and what is left to attain Trustworthy Artificial Intelligence",
+  "authors": [
+    "Sajid Ali",
+    "Tamer Abuhmed",
+    "Shaker El–Sappagh",
+    "Khan Muhammad",
+    "José M. Alonso",
+    "Roberto Confalonieri",
+    "Riccardo Guidotti",
+    "Javier Del Ser",
+    "Natalia Díaz-Rodríguez",
+    "Francisco Herrera"
+  ],
+  "year": 2023,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Information Fusion",
+  "doi": "10.1016/j.inffus.2023.101805",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.9738 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Explainable Artificial Intelligence (XAI): What we know and what is left to attain Trustworthy Artificial Intelligence",
+  "notes": "Artificial intelligence (AI) is currently being utilized in a wide range of sophisticated applications, but the outcomes of many AI models are challenging to comprehend and trust due to their black-box nature. Usually, it is essential to understand the reasoning behind an AI mode...",
+  "source_files": [
+    "research\\literature\\papers\\sajidali2023explainable.md"
+  ],
+  "first_seen": "2026-05-18T11:35:45.528308Z",
+  "last_updated": "2026-05-18T11:35:45.539104Z"
+}

@@ -1,0 +1,36 @@
+{
+  "key": "riccardoguidotti2019a",
+  "title": "A survey of methods for explaining black box models",
+  "authors": [
+    "Riccardo Guidotti",
+    "Anna Monreale",
+    "Salvatore Ruggieri",
+    "Franco Turini",
+    "Fosca Giannotti",
+    "Dino Pedreschi"
+  ],
+  "year": 2019,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "ISTI Open Portal",
+  "doi": "10.1145/3236009",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.7766 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "A survey of methods for explaining black box models",
+  "notes": "In recent years, many accurate decision support systems have been constructed as black boxes, that is as systems that hide their internal logic to the user. This lack of explanation constitutes both a practical and an ethical issue. The literature reports many approaches aimed at...",
+  "source_files": [
+    "research\\literature\\papers\\riccardoguidotti2019a.md"
+  ],
+  "first_seen": "2026-05-18T11:35:44.272731Z",
+  "last_updated": "2026-05-18T11:35:44.282919Z"
+}

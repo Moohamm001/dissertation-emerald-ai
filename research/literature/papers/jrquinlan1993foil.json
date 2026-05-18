@@ -1,0 +1,32 @@
+{
+  "key": "jrquinlan1993foil",
+  "title": "FOIL: A midterm report",
+  "authors": [
+    "J. R. Quinlan",
+    "R. M. Cameron-Jones"
+  ],
+  "year": 1993,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Lecture notes in computer science",
+  "doi": "10.1007/3-540-56602-3_124",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.5503 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "FOIL: A midterm report",
+  "notes": "",
+  "source_files": [
+    "research\\literature\\papers\\jrquinlan1993foil.md"
+  ],
+  "first_seen": "2026-05-18T11:35:44.505028Z",
+  "last_updated": "2026-05-18T11:35:44.514170Z"
+}

@@ -1,4 +1,54 @@
 {
+  "W108837737": {
+    "depth": 1,
+    "doi": "10.1007/978-1-4613-9052-7_10",
+    "key": "alexgammerman1990bayesian",
+    "outcome": "accepted",
+    "score": 0.5351,
+    "seen_at": "2026-05-18T11:32:20+00:00",
+    "source": "openalex",
+    "title": "Bayesian Inference in an Expert System without Assuming Independence"
+  },
+  "W1210092515": {
+    "depth": 1,
+    "doi": "10.2307/146285",
+    "key": "michaeldhurd1995evaluation",
+    "outcome": "accepted",
+    "score": 0.5929,
+    "seen_at": "2026-05-18T11:32:00+00:00",
+    "source": "openalex",
+    "title": "Evaluation of the Subjective Probabilities of Survival in the Health and Retirement Study"
+  },
+  "W128754594": {
+    "depth": 1,
+    "doi": null,
+    "key": "jrquinlan1987generating",
+    "outcome": "accepted",
+    "score": 0.5719,
+    "seen_at": "2026-05-18T11:25:24+00:00",
+    "source": "openalex",
+    "title": "Generating production rules from decision trees"
+  },
+  "W130458115": {
+    "depth": 1,
+    "doi": "10.1353/sor.2011.0030",
+    "key": "paisleycurrah2011securitizing",
+    "outcome": "accepted",
+    "score": 0.6066,
+    "seen_at": "2026-05-18T11:33:08+00:00",
+    "source": "openalex",
+    "title": "Securitizing Gender: Identity, Biometrics, and Transgender Bodies at the Airport"
+  },
+  "W137420995": {
+    "depth": 1,
+    "doi": "10.1017/cbo9780511816772.006",
+    "key": "thomaslgriffiths2001bayesian",
+    "outcome": "accepted",
+    "score": 0.6077,
+    "seen_at": "2026-05-18T11:25:25+00:00",
+    "source": "openalex",
+    "title": "Bayesian Models of Cognition"
+  },
   "W1434895811": {
     "depth": 1,
     "doi": "10.4992/psycholres1954.13.45",
@@ -8,6 +58,35 @@
     "source": "openalex",
     "title": "EFFECTS OF CATEGORIZING CONTINUOUS NORMAL VARIABLES ON PRODUCT-MOMENT CORRELATION"
   },
+  "W1460510001": {
+    "depth": 1,
+    "doi": "10.5860/choice.49-0987",
+    "key": "anon2011guaranteed",
+    "outcome": "accepted",
+    "score": 0.6187,
+    "seen_at": "2026-05-18T11:33:38+00:00",
+    "source": "openalex",
+    "title": "Guaranteed to fail: Fannie Mae, Freddie Mac, and the debacle of mortgage finance"
+  },
+  "W147348363": {
+    "depth": 1,
+    "doi": null,
+    "outcome": "rejected",
+    "score": 0.2619,
+    "seen_at": "2026-05-18T11:34:21+00:00",
+    "source": "openalex",
+    "title": "Proceedings of the 20th Annual Conference of the Cognitive Science Society"
+  },
+  "W1484775731": {
+    "depth": 1,
+    "doi": "10.1002/9781119084679.ch4",
+    "key": "janejacobs2015the",
+    "outcome": "accepted",
+    "score": 0.6727,
+    "seen_at": "2026-05-18T11:32:01+00:00",
+    "source": "openalex",
+    "title": "The Death and Life of Great American Cities"
+  },
   "W1489560552": {
     "depth": 1,
     "doi": "10.1007/1-4020-3712-0_3",
@@ -16,6 +95,66 @@
     "seen_at": "2026-05-17T21:02:41+00:00",
     "source": "openalex",
     "title": "The number of levels in the descriptive system"
+  },
+  "W1489891708": {
+    "depth": 1,
+    "doi": "10.1201/9780429496639-15",
+    "key": "charlesfmanski2018identification",
+    "outcome": "accepted",
+    "score": 0.6103,
+    "seen_at": "2026-05-18T11:32:02+00:00",
+    "source": "openalex",
+    "title": "Identification of Anonymous Endogenous Interactions"
+  },
+  "W1492815834": {
+    "depth": 1,
+    "doi": "10.25334/q4ht55",
+    "key": "garethjames2018an",
+    "outcome": "accepted",
+    "score": 0.6694,
+    "seen_at": "2026-05-18T11:34:43+00:00",
+    "source": "openalex",
+    "title": "An Introduction to Statistical Learning: with Applications in R"
+  },
+  "W1503398984": {
+    "depth": 1,
+    "doi": null,
+    "key": "kevinpmurphy2012machine",
+    "outcome": "accepted",
+    "score": 0.6667,
+    "seen_at": "2026-05-18T11:34:44+00:00",
+    "source": "openalex",
+    "title": "Machine learning a probabilistic perspective"
+  },
+  "W1507789815": {
+    "depth": 1,
+    "doi": "10.1080/01621459.1997.10474041",
+    "key": "jeffdominitz1997using",
+    "outcome": "accepted",
+    "score": 0.5953,
+    "seen_at": "2026-05-18T11:32:04+00:00",
+    "source": "openalex",
+    "title": "Using Expectations Data to Study Subjective Income Expectations"
+  },
+  "W150902392": {
+    "depth": 1,
+    "doi": "10.2139/ssrn.2565523",
+    "key": "philippkrueger2015climate",
+    "outcome": "accepted",
+    "score": 0.6207,
+    "seen_at": "2026-05-18T11:32:56+00:00",
+    "source": "openalex",
+    "title": "Climate Change and Firm Valuation: Evidence from a Quasi-Natural Experiment"
+  },
+  "W1509169740": {
+    "depth": 1,
+    "doi": "10.2307/146388",
+    "key": "charlesfmanski2000worker",
+    "outcome": "accepted",
+    "score": 0.5912,
+    "seen_at": "2026-05-18T11:32:05+00:00",
+    "source": "openalex",
+    "title": "Worker Perceptions of Job Insecurity in the Mid-1990s: Evidence from the Survey of Economic Expectations"
   },
   "W1510979912": {
     "depth": 1,
@@ -27,6 +166,35 @@
     "source": "openalex",
     "title": "Architecting in the Automotive Domain: Descriptive vs Prescriptive Architecture"
   },
+  "W1513618424": {
+    "depth": 1,
+    "doi": "10.1007/978-0-387-21706-2",
+    "key": "wnvenables2002modern",
+    "outcome": "accepted",
+    "score": 0.6425,
+    "seen_at": "2026-05-18T11:34:46+00:00",
+    "source": "openalex",
+    "title": "Modern Applied Statistics with S"
+  },
+  "W1513773232": {
+    "depth": 1,
+    "doi": null,
+    "outcome": "rejected",
+    "score": 0.3189,
+    "seen_at": "2026-05-18T11:24:59+00:00",
+    "source": "openalex",
+    "title": "We Will Show Them! Essays in Honour of Dov Gabbay, Volume One"
+  },
+  "W1514278091": {
+    "depth": 1,
+    "doi": "10.1163/2468-1733_shafr_sim280020616",
+    "key": "thomaslfriedman2017the",
+    "outcome": "accepted",
+    "score": 0.5093,
+    "seen_at": "2026-05-18T11:31:51+00:00",
+    "source": "openalex",
+    "title": "The Lexus and the Olive Tree: Understanding Globalization"
+  },
   "W1517701247": {
     "depth": 1,
     "doi": "10.1016/0169-2070(88)90019-2",
@@ -36,6 +204,36 @@
     "seen_at": "2026-05-18T08:12:28+00:00",
     "source": "openalex",
     "title": "Harvard Business Review"
+  },
+  "W1518001679": {
+    "depth": 1,
+    "doi": null,
+    "key": "hernandodesoto2000the",
+    "outcome": "accepted",
+    "score": 0.6304,
+    "seen_at": "2026-05-18T11:31:52+00:00",
+    "source": "openalex",
+    "title": "The Mystery of Capital: Why Capitalism Triumphs in the West and Fails Everywhere Else"
+  },
+  "W152751697": {
+    "depth": 1,
+    "doi": "10.1007/3-540-28803-1_10",
+    "key": "haydemarnez2006rule",
+    "outcome": "accepted",
+    "score": 0.6083,
+    "seen_at": "2026-05-18T11:25:26+00:00",
+    "source": "openalex",
+    "title": "Rule Extraction from Support Vector Machines"
+  },
+  "W1531743498": {
+    "depth": 1,
+    "doi": "10.1007/3-540-56602-3_124",
+    "key": "jrquinlan1993foil",
+    "outcome": "accepted",
+    "score": 0.5503,
+    "seen_at": "2026-05-18T11:32:33+00:00",
+    "source": "openalex",
+    "title": "FOIL: A midterm report"
   },
   "W1538021842": {
     "depth": 1,
@@ -55,6 +253,26 @@
     "source": "openalex",
     "title": "Media Technologies: Essays on Communication, Materiality, and Society."
   },
+  "W1541382389": {
+    "depth": 1,
+    "doi": "10.3386/w19567",
+    "key": "stevenlscott2013bayesian",
+    "outcome": "accepted",
+    "score": 0.6228,
+    "seen_at": "2026-05-18T11:34:47+00:00",
+    "source": "openalex",
+    "title": "Bayesian Variable Selection for Nowcasting Economic Time Series"
+  },
+  "W1542270631": {
+    "depth": 1,
+    "doi": "10.1201/9781420089653",
+    "key": "anon2009the",
+    "outcome": "accepted",
+    "score": 0.6306,
+    "seen_at": "2026-05-18T11:34:48+00:00",
+    "source": "openalex",
+    "title": "The Top Ten Algorithms in Data Mining"
+  },
   "W1546993880": {
     "depth": 1,
     "doi": null,
@@ -64,6 +282,26 @@
     "source": "openalex",
     "title": "CORPORATE INCOME TAXES AND THE COST OF CAPITAL: A CORRECTION"
   },
+  "W1547003862": {
+    "depth": 0,
+    "doi": "10.1257/app.6.2.1",
+    "key": "alejandrodrexler2014keeping",
+    "outcome": "accepted",
+    "score": 0.6438,
+    "seen_at": "2026-05-18T11:33:37+00:00",
+    "source": "openalex",
+    "title": "Keeping It Simple: Financial Literacy and Rules of Thumb"
+  },
+  "W1554944419": {
+    "depth": 1,
+    "doi": "10.1007/978-0-387-84858-7",
+    "key": "trevorhastie2013the",
+    "outcome": "accepted",
+    "score": 0.67,
+    "seen_at": "2026-05-18T11:34:50+00:00",
+    "source": "openalex",
+    "title": "The Elements of Statistical Learning: Data Mining, Inference, and Prediction"
+  },
   "W1558926949": {
     "depth": 1,
     "doi": "10.1023/a:1024933913698",
@@ -72,6 +310,26 @@
     "seen_at": "2026-05-17T21:02:42+00:00",
     "source": "openalex",
     "title": "Using the EuroQoI 5-D in the Catalan general population: feasibility and construct validity."
+  },
+  "W1560484089": {
+    "depth": 1,
+    "doi": "10.1007/978-3-642-04747-3_8",
+    "key": "paulocortez2009using",
+    "outcome": "accepted",
+    "score": 0.6046,
+    "seen_at": "2026-05-18T11:32:35+00:00",
+    "source": "openalex",
+    "title": "Using Data Mining for Wine Quality Assessment"
+  },
+  "W1560906003": {
+    "depth": 1,
+    "doi": "10.7208/chicago/9780226030616.003.0005",
+    "key": "benjaminjkeys2013mortgage",
+    "outcome": "accepted",
+    "score": 0.6176,
+    "seen_at": "2026-05-18T11:33:39+00:00",
+    "source": "openalex",
+    "title": "Mortgage Financing in the Housing Boom and Bust"
   },
   "W1587278688": {
     "depth": 1,
@@ -91,6 +349,16 @@
     "source": "openalex",
     "title": "Dataset Shift in Machine Learning"
   },
+  "W1594031697": {
+    "depth": 1,
+    "doi": "10.2307/2530946",
+    "key": "alexandergordon1984classification",
+    "outcome": "accepted",
+    "score": 0.5975,
+    "seen_at": "2026-05-18T11:34:51+00:00",
+    "source": "openalex",
+    "title": "Classification and Regression Trees."
+  },
   "W1597664530": {
     "depth": 1,
     "doi": null,
@@ -100,6 +368,35 @@
     "seen_at": "2026-05-18T08:13:17+00:00",
     "source": "openalex",
     "title": "Textual Analysis of Corporate Disclosures: A Survey of the Literature"
+  },
+  "W1608477047": {
+    "depth": 1,
+    "doi": "10.2307/1246534",
+    "outcome": "rejected",
+    "score": 0.255,
+    "seen_at": "2026-05-18T11:32:22+00:00",
+    "source": "openalex",
+    "title": "Risk Elements in Consumer Instalment Financing"
+  },
+  "W1623342295": {
+    "depth": 1,
+    "doi": "10.1137/1.9781611972733.40",
+    "key": "xiaoxinyin2003cpar",
+    "outcome": "accepted",
+    "score": 0.6178,
+    "seen_at": "2026-05-18T11:32:36+00:00",
+    "source": "openalex",
+    "title": "CPAR: Classification based on Predictive Association Rules"
+  },
+  "W1645738616": {
+    "depth": 1,
+    "doi": null,
+    "key": "zhihuazhou2003extracting",
+    "outcome": "accepted",
+    "score": 0.7008,
+    "seen_at": "2026-05-18T11:32:37+00:00",
+    "source": "openalex",
+    "title": "Extracting symbolic rules from trained neural network ensembles"
   },
   "W1648303880": {
     "depth": 1,
@@ -111,6 +408,105 @@
     "source": "openalex",
     "title": "Automated Experiments on Ad Privacy Settings"
   },
+  "W1676820704": {
+    "depth": 1,
+    "doi": "10.1613/jair.105",
+    "key": "tomdietterich1995solving",
+    "outcome": "accepted",
+    "score": 0.6108,
+    "seen_at": "2026-05-18T11:24:26+00:00",
+    "source": "openalex",
+    "title": "Solving Multiclass Learning Problems via Error-Correcting Output Codes"
+  },
+  "W1678356000": {
+    "depth": 1,
+    "doi": "10.1214/aos/1013203451",
+    "key": "jeromehfriedman2001greedy",
+    "outcome": "accepted",
+    "score": 0.64,
+    "seen_at": "2026-05-18T11:24:27+00:00",
+    "source": "openalex",
+    "title": "Greedy function approximation: A gradient boosting machine."
+  },
+  "W1694003152": {
+    "depth": 1,
+    "doi": "10.1080/17470218.2015.1038280",
+    "key": "fritzgnther2015latent",
+    "outcome": "accepted",
+    "score": 0.6239,
+    "seen_at": "2026-05-18T11:34:25+00:00",
+    "source": "openalex",
+    "title": "Latent semantic analysis cosines as a cognitive similarity measure: Evidence from priming studies"
+  },
+  "W1753383671": {
+    "depth": 1,
+    "doi": "10.1155/2016/4742515",
+    "key": "jiewang2016financial",
+    "outcome": "accepted",
+    "score": 0.6275,
+    "seen_at": "2026-05-18T11:34:26+00:00",
+    "source": "openalex",
+    "title": "Financial Time Series Prediction Using Elman Recurrent Random Neural Networks"
+  },
+  "W179875071": {
+    "depth": 1,
+    "doi": "10.21437/interspeech.2010-343",
+    "key": "tommikolov2010recurrent",
+    "outcome": "accepted",
+    "score": 0.6558,
+    "seen_at": "2026-05-18T11:34:22+00:00",
+    "source": "openalex",
+    "title": "Recurrent neural network based language model"
+  },
+  "W1836772262": {
+    "depth": 1,
+    "doi": "10.1007/978-3-642-21498-1_23",
+    "key": "pedroantoniogutirrez2011hybrid",
+    "outcome": "accepted",
+    "score": 0.697,
+    "seen_at": "2026-05-18T11:34:28+00:00",
+    "source": "openalex",
+    "title": "Hybrid Artificial Neural Networks: Models, Algorithms and Data"
+  },
+  "W1857789879": {
+    "depth": 1,
+    "doi": "10.1007/978-1-4612-4380-9_16",
+    "outcome": "rejected",
+    "score": 0.3415,
+    "seen_at": "2026-05-18T11:24:28+00:00",
+    "source": "openalex",
+    "title": "Individual Comparisons by Ranking Methods"
+  },
+  "W1879669447": {
+    "depth": 1,
+    "doi": "10.2469/faj.v67.n5.6",
+    "key": "robertblitterman2011pricing",
+    "outcome": "accepted",
+    "score": 0.6085,
+    "seen_at": "2026-05-18T11:32:58+00:00",
+    "source": "openalex",
+    "title": "Pricing Climate Change Risk Appropriately"
+  },
+  "W1894439495": {
+    "depth": 1,
+    "doi": "10.3115/v1/d14-1067",
+    "key": "antoinebordes2014question",
+    "outcome": "accepted",
+    "score": 0.6427,
+    "seen_at": "2026-05-18T11:34:29+00:00",
+    "source": "openalex",
+    "title": "Question Answering with Subgraph Embeddings"
+  },
+  "W189950281": {
+    "depth": 1,
+    "doi": null,
+    "key": "robertlund2006advances",
+    "outcome": "accepted",
+    "score": 0.5998,
+    "seen_at": "2026-05-18T11:34:24+00:00",
+    "source": "openalex",
+    "title": "Advances in Neural Information Processing Systems 17: Proceedings of the 2004 Conference"
+  },
   "W1907868928": {
     "depth": 1,
     "doi": "10.1038/nature14962",
@@ -120,6 +516,55 @@
     "seen_at": "2026-05-17T21:03:02+00:00",
     "source": "openalex",
     "title": "The UK10K project identifies rare variants in health and disease"
+  },
+  "W1938180896": {
+    "depth": 1,
+    "doi": "10.3386/w21512",
+    "key": "sumitagarwal2015mortgage",
+    "outcome": "accepted",
+    "score": 0.6277,
+    "seen_at": "2026-05-18T11:33:41+00:00",
+    "source": "openalex",
+    "title": "Mortgage Refinancing, Consumer Spending, and Competition: Evidence from the Home Affordable Refinancing Program"
+  },
+  "W1949455802": {
+    "depth": 1,
+    "doi": "10.1111/jofi.12393",
+    "key": "josephamccahery2016behind",
+    "outcome": "accepted",
+    "score": 0.6569,
+    "seen_at": "2026-05-18T11:32:59+00:00",
+    "source": "openalex",
+    "title": "Behind the Scenes: The Corporate Governance Preferences of Institutional Investors"
+  },
+  "W1965808745": {
+    "depth": 1,
+    "doi": "10.1257/jep.27.2.3",
+    "key": "robingreenwood2013the",
+    "outcome": "accepted",
+    "score": 0.636,
+    "seen_at": "2026-05-18T11:33:42+00:00",
+    "source": "openalex",
+    "title": "The Growth of Finance"
+  },
+  "W1967320885": {
+    "depth": 1,
+    "doi": "10.2307/1403797",
+    "outcome": "rejected",
+    "score": 0.3512,
+    "seen_at": "2026-05-18T11:24:29+00:00",
+    "source": "openalex",
+    "title": "Discriminatory Analysis. Nonparametric Discrimination: Consistency Properties"
+  },
+  "W1968970479": {
+    "depth": 1,
+    "doi": "10.1145/602382.602410",
+    "key": "lesliegvaliant2003three",
+    "outcome": "accepted",
+    "score": 0.5891,
+    "seen_at": "2026-05-18T11:25:00+00:00",
+    "source": "openalex",
+    "title": "Three problems in computer science"
   },
   "W1970256118": {
     "depth": 1,
@@ -131,6 +576,25 @@
     "source": "openalex",
     "title": "Psychometric Comparison of the Standard EQ-5D to a 5 Level Version in Cancer Patients"
   },
+  "W1971774389": {
+    "depth": 1,
+    "doi": "10.1007/s11146-010-9258-z",
+    "key": "neilbhutta2010gse",
+    "outcome": "accepted",
+    "score": 0.6068,
+    "seen_at": "2026-05-18T11:33:44+00:00",
+    "source": "openalex",
+    "title": "GSE Activity and Mortgage Supply in Lower-Income and Minority Neighborhoods: The Effect of the Affordable Housing Goals"
+  },
+  "W1973137995": {
+    "depth": 1,
+    "doi": "10.1016/0022-1694(80)90036-0",
+    "outcome": "rejected",
+    "score": 0.3376,
+    "seen_at": "2026-05-18T11:24:31+00:00",
+    "source": "openalex",
+    "title": "A generalized probability density function for double-bounded random processes"
+  },
   "W1977213233": {
     "depth": 1,
     "doi": "10.1037/h0076268",
@@ -139,6 +603,46 @@
     "seen_at": "2026-05-17T21:02:45+00:00",
     "source": "openalex",
     "title": "Effect of the number of scale points on reliability: A Monte Carlo approach."
+  },
+  "W1977400581": {
+    "depth": 1,
+    "doi": "10.1111/ecca.12117",
+    "key": "robertjbarro2014environmental",
+    "outcome": "accepted",
+    "score": 0.6238,
+    "seen_at": "2026-05-18T11:33:01+00:00",
+    "source": "openalex",
+    "title": "Environmental Protection, Rare Disasters and Discount Rates"
+  },
+  "W1978596428": {
+    "depth": 1,
+    "doi": "10.1016/j.finmar.2013.05.003",
+    "key": "joelhasbrouck2013low",
+    "outcome": "accepted",
+    "score": 0.568,
+    "seen_at": "2026-05-18T11:32:23+00:00",
+    "source": "openalex",
+    "title": "Low-latency trading"
+  },
+  "W1980264541": {
+    "depth": 1,
+    "doi": "10.1145/1015330.1015432",
+    "key": "richcaruana2004ensemble",
+    "outcome": "accepted",
+    "score": 0.6206,
+    "seen_at": "2026-05-18T11:24:32+00:00",
+    "source": "openalex",
+    "title": "Ensemble selection from libraries of models"
+  },
+  "W1980770954": {
+    "depth": 1,
+    "doi": "10.1016/s0169-2070(00)00034-0",
+    "key": "lyncthomas2000a",
+    "outcome": "accepted",
+    "score": 0.7091,
+    "seen_at": "2026-05-18T11:32:24+00:00",
+    "source": "openalex",
+    "title": "A survey of credit and behavioural scoring: forecasting financial risk of lending to consumers"
   },
   "W1981786835": {
     "depth": 1,
@@ -198,6 +702,35 @@
     "source": "openalex",
     "title": "Development and preliminary testing of the new five-level version of EQ-5D (EQ-5D-5L)"
   },
+  "W1992021819": {
+    "depth": 1,
+    "doi": "10.1103/physreve.63.066123",
+    "key": "plkrapivsky2001organization",
+    "outcome": "accepted",
+    "score": 0.6138,
+    "seen_at": "2026-05-18T11:24:33+00:00",
+    "source": "openalex",
+    "title": "Organization of growing random networks"
+  },
+  "W1992680417": {
+    "depth": 0,
+    "doi": "10.1017/s0020818300018993",
+    "key": "johngerardruggie1982international",
+    "outcome": "accepted",
+    "score": 0.5836,
+    "seen_at": "2026-05-18T11:32:47+00:00",
+    "source": "openalex",
+    "title": "International regimes, transactions, and change: embedded liberalism in the postwar economic order"
+  },
+  "W1995341919": {
+    "depth": 1,
+    "doi": "10.1007/bf02478259",
+    "outcome": "rejected",
+    "score": 0.4375,
+    "seen_at": "2026-05-18T11:32:26+00:00",
+    "source": "openalex",
+    "title": "A logical calculus of the ideas immanent in nervous activity"
+  },
   "W1995543590": {
     "depth": 1,
     "doi": "10.1111/j.1540-6261.1959.tb01581.x",
@@ -243,6 +776,15 @@
     "source": "openalex",
     "title": "The Taxation of Income from Capital."
   },
+  "W2001771035": {
+    "depth": 1,
+    "doi": "10.1093/mind/lix.236.433",
+    "outcome": "rejected",
+    "score": 0.2495,
+    "seen_at": "2026-05-18T11:32:27+00:00",
+    "source": "openalex",
+    "title": "I.\u2014COMPUTING MACHINERY AND INTELLIGENCE"
+  },
   "W2003644932": {
     "depth": 1,
     "doi": "10.1016/0304-405x(74)90006-3",
@@ -251,6 +793,16 @@
     "seen_at": "2026-05-17T21:02:59+00:00",
     "source": "openalex",
     "title": "The effects of dividend yield and dividend policy on common stock prices and returns"
+  },
+  "W2005510983": {
+    "depth": 1,
+    "doi": "10.1016/0377-2217(95)00246-4",
+    "key": "vijaysdesai1996a",
+    "outcome": "accepted",
+    "score": 0.5954,
+    "seen_at": "2026-05-18T11:32:28+00:00",
+    "source": "openalex",
+    "title": "A comparison of neural networks and linear scoring models in the credit union environment"
   },
   "W2005650084": {
     "depth": 1,
@@ -339,6 +891,136 @@
     "source": "openalex",
     "title": "Enterprise Data Analysis and Visualization: An Interview Study"
   },
+  "W2044726132": {
+    "depth": 1,
+    "doi": null,
+    "key": "robertchambers1997whose",
+    "outcome": "accepted",
+    "score": 0.6145,
+    "seen_at": "2026-05-18T11:31:53+00:00",
+    "source": "openalex",
+    "title": "Whose Reality Counts?: Putting the First Last"
+  },
+  "W2048231652": {
+    "depth": 1,
+    "doi": "10.1214/07-aoas148",
+    "key": "jeromehfriedman2008predictive",
+    "outcome": "accepted",
+    "score": 0.7349,
+    "seen_at": "2026-05-18T11:25:01+00:00",
+    "source": "openalex",
+    "title": "Predictive learning via rule ensembles"
+  },
+  "W2050540653": {
+    "depth": 1,
+    "doi": "10.1287/mnsc.46.8.1059.12030",
+    "key": "glendowell2000do",
+    "outcome": "accepted",
+    "score": 0.6157,
+    "seen_at": "2026-05-18T11:33:02+00:00",
+    "source": "openalex",
+    "title": "Do Corporate Global Environmental Standards Create or Destroy Market Value?"
+  },
+  "W2055056256": {
+    "depth": 0,
+    "doi": "10.19177/reen.v1e220081-23",
+    "key": "ckprahalad2010the",
+    "outcome": "accepted",
+    "score": 0.6446,
+    "seen_at": "2026-05-18T11:31:44+00:00",
+    "source": "openalex",
+    "title": "The fortune at the bottom of the pyramid"
+  },
+  "W2058576880": {
+    "depth": 0,
+    "doi": "10.1093/rfs/hhq001",
+    "key": "sumitagarwal2010distance",
+    "outcome": "accepted",
+    "score": 0.6404,
+    "seen_at": "2026-05-18T11:33:33+00:00",
+    "source": "openalex",
+    "title": "Distance and Private Information in Lending"
+  },
+  "W2079300606": {
+    "depth": 1,
+    "doi": "10.1038/nature14016",
+    "key": "christophemcglade2015the",
+    "outcome": "accepted",
+    "score": 0.6374,
+    "seen_at": "2026-05-18T11:33:03+00:00",
+    "source": "openalex",
+    "title": "The geographical distribution of fossil fuels unused when limiting global warming to 2\u00a0\u00b0C"
+  },
+  "W2088048599": {
+    "depth": 1,
+    "doi": "10.1016/j.eswa.2008.01.005",
+    "key": "tonybellotti2008support",
+    "outcome": "accepted",
+    "score": 0.6205,
+    "seen_at": "2026-05-18T11:32:30+00:00",
+    "source": "openalex",
+    "title": "Support vector machines for credit scoring and discovery of significant features"
+  },
+  "W2094839437": {
+    "depth": 1,
+    "doi": "10.1145/1014052.1014122",
+    "key": "gileshooker2004discovering",
+    "outcome": "accepted",
+    "score": 0.6999,
+    "seen_at": "2026-05-18T11:34:10+00:00",
+    "source": "openalex",
+    "title": "Discovering additive structure in black box functions"
+  },
+  "W2097752063": {
+    "depth": 1,
+    "doi": "10.1109/72.935101",
+    "key": "amirfatiya2001bankruptcy",
+    "outcome": "accepted",
+    "score": 0.611,
+    "seen_at": "2026-05-18T11:32:31+00:00",
+    "source": "openalex",
+    "title": "Bankruptcy prediction for credit risk using neural networks: A survey and new results"
+  },
+  "W2101623803": {
+    "depth": 1,
+    "doi": "10.2307/2676219",
+    "key": "robertheinkel2001the",
+    "outcome": "accepted",
+    "score": 0.6193,
+    "seen_at": "2026-05-18T11:33:05+00:00",
+    "source": "openalex",
+    "title": "The Effect of Green Investment on Corporate Behavior"
+  },
+  "W2103388641": {
+    "depth": 1,
+    "doi": "10.1017/cbo9780511583995.006",
+    "key": "charlessmaier1988the",
+    "outcome": "accepted",
+    "score": 0.54,
+    "seen_at": "2026-05-18T11:32:54+00:00",
+    "source": "openalex",
+    "title": "The politics of inflation in the twentieth century"
+  },
+  "W2103496339": {
+    "depth": 1,
+    "doi": "10.1007/bf02551274",
+    "key": "georgecybenko1989approximation",
+    "outcome": "accepted",
+    "score": 0.61,
+    "seen_at": "2026-05-18T11:32:32+00:00",
+    "source": "openalex",
+    "title": "Approximation by superpositions of a sigmoidal function"
+  },
+  "W2104357911": {
+    "depth": 0,
+    "doi": "10.15215/aupress/9781897425084.01",
+    "key": "terryanderson2008the",
+    "outcome": "accepted",
+    "score": 0.639,
+    "seen_at": "2026-05-18T11:32:53+00:00",
+    "source": "openalex",
+    "title": "The Theory and Practice of Online Learning"
+  },
   "W2104549677": {
     "depth": 0,
     "doi": "10.1038/nature15393",
@@ -359,6 +1041,74 @@
     "source": "openalex",
     "title": "A new criterion for assessing discriminant validity in variance-based structural equation modeling"
   },
+  "W2107295826": {
+    "depth": 0,
+    "doi": "10.1257/jep.14.3.115",
+    "key": "charlesfmanski2000economic",
+    "outcome": "accepted",
+    "score": 0.6205,
+    "seen_at": "2026-05-18T11:31:45+00:00",
+    "source": "openalex",
+    "title": "Economic Analysis of Social Interactions"
+  },
+  "W2109996461": {
+    "depth": 1,
+    "doi": "10.2139/ssrn.1214382",
+    "outcome": "rejected",
+    "score": 0.4365,
+    "seen_at": "2026-05-18T11:33:06+00:00",
+    "source": "openalex",
+    "title": "Red and Blue Investing: Values and Finance"
+  },
+  "W2113252302": {
+    "depth": 1,
+    "doi": "10.2139/ssrn.2497516",
+    "outcome": "rejected",
+    "score": 0.43,
+    "seen_at": "2026-05-18T11:33:07+00:00",
+    "source": "openalex",
+    "title": "Barriers to Long-Term Cross-Border Investing: A Survey of Institutional Investor Perceptions"
+  },
+  "W2125847307": {
+    "depth": 1,
+    "doi": "10.1080/10618600.2014.907095",
+    "key": "alexgoldstein2014peeking",
+    "outcome": "accepted",
+    "score": 0.7534,
+    "seen_at": "2026-05-18T11:25:02+00:00",
+    "source": "openalex",
+    "title": "Peeking Inside the Black Box: Visualizing Statistical Learning With Plots of Individual Conditional Expectation"
+  },
+  "W2131055507": {
+    "depth": 0,
+    "doi": "10.1257/0895330042162430",
+    "key": "eugeneffama2004the",
+    "outcome": "accepted",
+    "score": 0.6296,
+    "seen_at": "2026-05-18T11:31:47+00:00",
+    "source": "openalex",
+    "title": "The Capital Asset Pricing Model: Theory and Evidence"
+  },
+  "W2134568263": {
+    "depth": 0,
+    "doi": "10.1162/coli.2007.33.1.63",
+    "key": "dinademnerfushman2007answering",
+    "outcome": "accepted",
+    "score": 0.617,
+    "seen_at": "2026-05-18T11:24:55+00:00",
+    "source": "openalex",
+    "title": "Answering Clinical Questions with Knowledge-Based and Statistical Techniques"
+  },
+  "W2143117649": {
+    "depth": 0,
+    "doi": "10.1214/09-ss057",
+    "key": "judeapearl2009causal",
+    "outcome": "accepted",
+    "score": 0.644,
+    "seen_at": "2026-05-18T11:25:17+00:00",
+    "source": "openalex",
+    "title": "Causal inference in statistics: An overview"
+  },
   "W2153524047": {
     "depth": 0,
     "doi": "10.1111/j.1540-6261.1977.tb03267.x",
@@ -368,6 +1118,26 @@
     "seen_at": "2026-05-17T21:02:38+00:00",
     "source": "openalex",
     "title": "DEBT AND TAXES*"
+  },
+  "W2155419203": {
+    "depth": 0,
+    "doi": "10.1257/jep.28.2.3",
+    "key": "halrvarian2014big",
+    "outcome": "accepted",
+    "score": 0.9521,
+    "seen_at": "2026-05-18T11:34:38+00:00",
+    "source": "openalex",
+    "title": "Big Data: New Tricks for Econometrics"
+  },
+  "W2166163519": {
+    "depth": 1,
+    "doi": "10.1214/ss/1177013604",
+    "key": "trevorhastie1986generalized",
+    "outcome": "accepted",
+    "score": 0.5908,
+    "seen_at": "2026-05-18T11:34:11+00:00",
+    "source": "openalex",
+    "title": "Generalized Additive Models"
   },
   "W2189632871": {
     "depth": 0,
@@ -379,6 +1149,55 @@
     "source": "openalex",
     "title": "How the Machine 'Thinks:' Understanding Opacity in Machine Learning Algorithms"
   },
+  "W2408017125": {
+    "depth": 0,
+    "doi": "10.1007/s10654-016-0149-3",
+    "key": "sandergreenland2016statistical",
+    "outcome": "accepted",
+    "score": 0.6648,
+    "seen_at": "2026-05-18T11:32:51+00:00",
+    "source": "openalex",
+    "title": "Statistical tests, P values, confidence intervals, and power: a guide to misinterpretations"
+  },
+  "W2411267365": {
+    "depth": 1,
+    "doi": null,
+    "key": "geetanjaligoindi1995estimation",
+    "outcome": "accepted",
+    "score": 0.5658,
+    "seen_at": "2026-05-18T11:31:55+00:00",
+    "source": "openalex",
+    "title": "Estimation of losses of iodine during different cooking procedures."
+  },
+  "W2470728525": {
+    "depth": 1,
+    "doi": "10.1016/j.websem.2016.06.001",
+    "key": "lorenzbhmann2016dl",
+    "outcome": "accepted",
+    "score": 0.6284,
+    "seen_at": "2026-05-18T11:25:04+00:00",
+    "source": "openalex",
+    "title": "DL-Learner\u2014A framework for inductive learning on the Semantic Web"
+  },
+  "W248960722": {
+    "depth": 1,
+    "doi": null,
+    "outcome": "rejected",
+    "score": 0.2276,
+    "seen_at": "2026-05-18T11:34:42+00:00",
+    "source": "openalex",
+    "title": "An Emerging Market"
+  },
+  "W2515189678": {
+    "depth": 0,
+    "doi": "10.1016/j.socscimed.2017.12.005",
+    "key": "angusdeaton2017understanding",
+    "outcome": "accepted",
+    "score": 0.6614,
+    "seen_at": "2026-05-18T11:24:52+00:00",
+    "source": "openalex",
+    "title": "Understanding and misunderstanding randomized controlled trials"
+  },
   "W259376022": {
     "depth": 1,
     "doi": "10.2307/1121235",
@@ -387,6 +1206,46 @@
     "seen_at": "2026-05-17T21:02:50+00:00",
     "source": "openalex",
     "title": "Bankruptcy: Problem, Process, Reform"
+  },
+  "W2603785580": {
+    "depth": 0,
+    "doi": "10.1016/j.jfineco.2018.03.011",
+    "key": "gregbuchak2018fintech",
+    "outcome": "accepted",
+    "score": 0.6631,
+    "seen_at": "2026-05-18T11:33:31+00:00",
+    "source": "openalex",
+    "title": "Fintech, regulatory arbitrage, and the rise of shadow banks"
+  },
+  "W263911155": {
+    "depth": 1,
+    "doi": "10.2139/ssrn.2591079",
+    "key": "georgeandrewkarolyi2017the",
+    "outcome": "accepted",
+    "score": 0.5029,
+    "seen_at": "2026-05-18T11:32:57+00:00",
+    "source": "openalex",
+    "title": "The Economic Consequences of Investor Relations: A Global Perspective"
+  },
+  "W27120934": {
+    "depth": 1,
+    "doi": null,
+    "key": "raffaellacalabrese2012estimating",
+    "outcome": "accepted",
+    "score": 0.5962,
+    "seen_at": "2026-05-18T11:25:23+00:00",
+    "source": "openalex",
+    "title": "Estimating bank loans loss given default by generalized additive models"
+  },
+  "W28412257": {
+    "depth": 1,
+    "doi": "10.1016/s0893-6080(05)80023-1",
+    "key": "davidhwolpert1992stacked",
+    "outcome": "accepted",
+    "score": 0.6141,
+    "seen_at": "2026-05-18T11:24:24+00:00",
+    "source": "openalex",
+    "title": "Stacked generalization"
   },
   "W2897154134": {
     "depth": 0,
@@ -398,6 +1257,26 @@
     "source": "openalex",
     "title": "Fairness and Abstraction in Sociotechnical Systems"
   },
+  "W2899357412": {
+    "depth": 0,
+    "doi": "10.1016/j.rser.2018.10.014",
+    "key": "merlindaandoni2018blockchain",
+    "outcome": "accepted",
+    "score": 0.6667,
+    "seen_at": "2026-05-18T11:31:48+00:00",
+    "source": "openalex",
+    "title": "Blockchain technology in the energy sector: A systematic review of challenges and opportunities"
+  },
+  "W2903566196": {
+    "depth": 1,
+    "doi": null,
+    "key": "sarahtan2018learning",
+    "outcome": "accepted",
+    "score": 0.8306,
+    "seen_at": "2026-05-18T11:34:12+00:00",
+    "source": "openalex",
+    "title": "Learning Global Additive Explanations for Neural Nets Using Model Distillation"
+  },
   "W2905169113": {
     "depth": 0,
     "doi": "10.21954/ou.ro.0000e061",
@@ -407,6 +1286,91 @@
     "seen_at": "2026-05-18T08:12:59+00:00",
     "source": "openalex",
     "title": "Statistical aspects of credit scoring"
+  },
+  "W2906323621": {
+    "depth": 0,
+    "doi": "10.1093/rfs/hhz137",
+    "key": "philippkrueger2019the",
+    "outcome": "accepted",
+    "score": 0.6704,
+    "seen_at": "2026-05-18T11:32:49+00:00",
+    "source": "openalex",
+    "title": "The Importance of Climate Risks for Institutional Investors"
+  },
+  "W2911964244": {
+    "depth": 1,
+    "doi": "10.1023/a:1010933404324",
+    "key": "leobreiman2001random",
+    "outcome": "accepted",
+    "score": 0.64,
+    "seen_at": "2026-05-18T11:34:14+00:00",
+    "source": "openalex",
+    "title": "Random Forests"
+  },
+  "W2945295328": {
+    "depth": 0,
+    "doi": "10.1145/3351095.3372850",
+    "key": "ramaravindkommiyamothilal2020explaining",
+    "outcome": "accepted",
+    "score": 0.6629,
+    "seen_at": "2026-05-18T11:25:20+00:00",
+    "source": "openalex",
+    "title": "Explaining machine learning classifiers through diverse counterfactual explanations"
+  },
+  "W2962772482": {
+    "depth": 0,
+    "doi": "10.1145/3236009",
+    "key": "riccardoguidotti2019a",
+    "outcome": "accepted",
+    "score": 0.7766,
+    "seen_at": "2026-05-18T11:32:17+00:00",
+    "source": "openalex",
+    "title": "A survey of methods for explaining black box models"
+  },
+  "W2966661": {
+    "depth": 1,
+    "doi": "10.1007/978-3-642-21735-7_6",
+    "key": "geoffreyehinton2011transforming",
+    "outcome": "accepted",
+    "score": 0.643,
+    "seen_at": "2026-05-18T11:34:20+00:00",
+    "source": "openalex",
+    "title": "Transforming Auto-Encoders"
+  },
+  "W2976282046": {
+    "error": "OpenAlex W2976282046 not found",
+    "outcome": "error",
+    "seen_at": "2026-05-18T11:34:15+00:00",
+    "source": "openalex"
+  },
+  "W2981731882": {
+    "depth": 0,
+    "doi": "10.1016/j.inffus.2019.12.012",
+    "key": "alejandrobarredoarrieta2019explainable",
+    "outcome": "accepted",
+    "score": 0.8835,
+    "seen_at": "2026-05-18T11:25:15+00:00",
+    "source": "openalex",
+    "title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI"
+  },
+  "W2981869278": {
+    "depth": 0,
+    "doi": "10.1126/science.aax2342",
+    "key": "ziadobermeyer2019dissecting",
+    "outcome": "accepted",
+    "score": 0.7792,
+    "seen_at": "2026-05-18T11:25:16+00:00",
+    "source": "openalex",
+    "title": "Dissecting racial bias in an algorithm used to manage the health of populations"
+  },
+  "W2991928307": {
+    "depth": 1,
+    "doi": null,
+    "outcome": "rejected",
+    "score": 0.3668,
+    "seen_at": "2026-05-18T11:31:56+00:00",
+    "source": "openalex",
+    "title": "Beyond Greening: Strategies for a Sustainable World."
   },
   "W2995133945": {
     "depth": 0,
@@ -438,6 +1402,26 @@
     "source": "openalex",
     "title": "Use of Machine Learning Techniques to Create a Credit Score Model for Airtime Loans"
   },
+  "W3089028909": {
+    "depth": 0,
+    "doi": "10.1109/jproc.2021.3052449",
+    "key": "lukasruff2021a",
+    "outcome": "accepted",
+    "score": 0.6625,
+    "seen_at": "2026-05-18T11:24:53+00:00",
+    "source": "openalex",
+    "title": "A Unifying Review of Deep and Shallow Anomaly Detection"
+  },
+  "W309516578": {
+    "depth": 1,
+    "doi": "10.1007/978-3-319-07443-6_29",
+    "key": "basilell2014sparql",
+    "outcome": "accepted",
+    "score": 0.5637,
+    "seen_at": "2026-05-18T11:24:57+00:00",
+    "source": "openalex",
+    "title": "SPARQL Query Verbalization for Explaining Semantic Search Engine Queries"
+  },
   "W3096435952": {
     "depth": 0,
     "doi": "10.2139/ssrn.3658088",
@@ -457,6 +1441,26 @@
     "seen_at": "2026-05-18T08:12:22+00:00",
     "source": "openalex",
     "title": "Challenges in Deploying Machine Learning: A Survey of Case Studies"
+  },
+  "W3112198773": {
+    "depth": 1,
+    "doi": "10.1016/j.eswa.2022.117230",
+    "key": "roelhenckaerts2022when",
+    "outcome": "accepted",
+    "score": 0.9283,
+    "seen_at": "2026-05-18T11:34:16+00:00",
+    "source": "openalex",
+    "title": "When stakes are high: Balancing accuracy and transparency with Model-Agnostic Interpretable Data-driven suRRogates"
+  },
+  "W3112717819": {
+    "depth": 1,
+    "doi": "10.1201/9781315370279",
+    "key": "simonnwood2017generalized",
+    "outcome": "accepted",
+    "score": 0.6772,
+    "seen_at": "2026-05-18T11:34:17+00:00",
+    "source": "openalex",
+    "title": "Generalized Additive Models"
   },
   "W3122548859": {
     "depth": 0,
@@ -498,6 +1502,22 @@
     "source": "openalex",
     "title": "Ask BERT: How Regulatory Disclosure of Transition and Physical Climate Risks Affects the CDS Term Structure"
   },
+  "W3200416260": {
+    "error": "OpenAlex W3200416260 not found",
+    "outcome": "error",
+    "seen_at": "2026-05-18T11:34:19+00:00",
+    "source": "openalex"
+  },
+  "W3201668438": {
+    "depth": 0,
+    "doi": "10.1093/oxrep/grab016",
+    "key": "bonniebuchanan2021the",
+    "outcome": "accepted",
+    "score": 0.6323,
+    "seen_at": "2026-05-18T11:32:15+00:00",
+    "source": "openalex",
+    "title": "The impact of machine learning on UK financial services"
+  },
   "W3202461888": {
     "depth": 0,
     "doi": "10.3390/app11198861",
@@ -507,6 +1527,26 @@
     "seen_at": "2026-05-18T08:12:24+00:00",
     "source": "openalex",
     "title": "Demystifying MLOps and Presenting a Recipe for the Selection of Open-Source Tools"
+  },
+  "W3207353404": {
+    "depth": 0,
+    "doi": "10.3389/frai.2021.681915",
+    "key": "geroszepannek2021facing",
+    "outcome": "accepted",
+    "score": 0.7258,
+    "seen_at": "2026-05-18T11:25:19+00:00",
+    "source": "openalex",
+    "title": "Facing the Challenges of Developing Fair Risk Scoring Models"
+  },
+  "W3216260155": {
+    "depth": 0,
+    "doi": "10.26174/thesis.lboro.14544420.v1",
+    "key": "leylamammadova2021peer",
+    "outcome": "accepted",
+    "score": 0.5975,
+    "seen_at": "2026-05-18T11:33:35+00:00",
+    "source": "openalex",
+    "title": "Peer-to-peer (P2P) lending: default, default dependency and industry potential"
   },
   "W36714851": {
     "depth": 1,
@@ -528,6 +1568,26 @@
     "source": "openalex",
     "title": "Prescriptive and Descriptive Approaches to Machine-Learning Transparency"
   },
+  "W4241957989": {
+    "depth": 0,
+    "doi": "10.1093/rfs/hhp033",
+    "key": "yuliyademyanyk2009understanding",
+    "outcome": "accepted",
+    "score": 0.6336,
+    "seen_at": "2026-05-18T11:33:34+00:00",
+    "source": "openalex",
+    "title": "Understanding the Subprime Mortgage Crisis"
+  },
+  "W4242918116": {
+    "depth": 0,
+    "doi": "10.7551/mitpress/11805.001.0001",
+    "key": "catherinedignazio2020data",
+    "outcome": "accepted",
+    "score": 0.6665,
+    "seen_at": "2026-05-18T11:32:50+00:00",
+    "source": "openalex",
+    "title": "Data Feminism"
+  },
   "W4281263276": {
     "depth": 0,
     "doi": "10.1016/j.ins.2022.05.067",
@@ -547,6 +1607,36 @@
     "seen_at": "2026-05-18T08:12:25+00:00",
     "source": "openalex",
     "title": "Collaboration challenges in building ML-enabled systems"
+  },
+  "W4285663225": {
+    "depth": 0,
+    "doi": "10.54648/eulr2020022",
+    "key": "katjalangenbucher2020responsible",
+    "outcome": "accepted",
+    "score": 0.6241,
+    "seen_at": "2026-05-18T11:32:18+00:00",
+    "source": "openalex",
+    "title": "Responsible A.I.-based Credit Scoring \u2013 A Legal Framework"
+  },
+  "W4294559022": {
+    "depth": 0,
+    "doi": "10.1145/3561048",
+    "key": "rudreshdwivedi2022explainable",
+    "outcome": "accepted",
+    "score": 0.7687,
+    "seen_at": "2026-05-18T11:24:50+00:00",
+    "source": "openalex",
+    "title": "Explainable AI (XAI): Core Ideas, Techniques, and Solutions"
+  },
+  "W4295854586": {
+    "depth": 0,
+    "doi": "10.1109/access.2022.3204051",
+    "key": "zhibozhang2022explainable",
+    "outcome": "accepted",
+    "score": 0.6566,
+    "seen_at": "2026-05-18T11:24:56+00:00",
+    "source": "openalex",
+    "title": "Explainable Artificial Intelligence Applications in Cyber Security: State-of-the-Art in Research"
   },
   "W4303578954": {
     "depth": 0,
@@ -568,6 +1658,36 @@
     "source": "openalex",
     "title": "Method cards for prescriptive machine-learning transparency"
   },
+  "W4366091323": {
+    "depth": 0,
+    "doi": "10.1007/s10462-023-10466-8",
+    "key": "shamsforruqueahmed2023deep",
+    "outcome": "accepted",
+    "score": 0.669,
+    "seen_at": "2026-05-18T11:34:08+00:00",
+    "source": "openalex",
+    "title": "Deep learning modelling techniques: current progress, applications, advantages, and challenges"
+  },
+  "W4366262984": {
+    "depth": 0,
+    "doi": "10.1016/j.inffus.2023.101805",
+    "key": "sajidali2023explainable",
+    "outcome": "accepted",
+    "score": 0.9738,
+    "seen_at": "2026-05-18T11:34:41+00:00",
+    "source": "openalex",
+    "title": "Explainable Artificial Intelligence (XAI): What we know and what is left to attain Trustworthy Artificial Intelligence"
+  },
+  "W4375870086": {
+    "depth": 0,
+    "doi": "10.48550/arxiv.2305.03403",
+    "key": "noahhollmann2023large",
+    "outcome": "accepted",
+    "score": 0.6161,
+    "seen_at": "2026-05-18T11:24:22+00:00",
+    "source": "openalex",
+    "title": "Large Language Models for Automated Data Science: Introducing CAAFE for Context-Aware Automated Feature Engineering"
+  },
   "W4384071683": {
     "depth": 0,
     "doi": "10.1038/s41586-023-06291-2",
@@ -588,6 +1708,16 @@
     "source": "openalex",
     "title": "Deploying Stochastic Systems"
   },
+  "W4386142022": {
+    "depth": 0,
+    "doi": "10.1007/s12559-023-10179-8",
+    "key": "vikashassija2023interpreting",
+    "outcome": "accepted",
+    "score": 0.9753,
+    "seen_at": "2026-05-18T11:34:39+00:00",
+    "source": "openalex",
+    "title": "Interpreting Black-Box Models: A Review on Explainable Artificial Intelligence"
+  },
   "W4388430541": {
     "depth": 0,
     "doi": "10.1109/access.2023.3330647",
@@ -597,6 +1727,16 @@
     "seen_at": "2026-05-18T08:12:50+00:00",
     "source": "openalex",
     "title": "Metadata Representations for Queryable Repositories of Machine Learning Models"
+  },
+  "W4388826945": {
+    "depth": 0,
+    "doi": "10.1287/ijds.2022.00018",
+    "key": "sanjivranjandas2023credit",
+    "outcome": "accepted",
+    "score": 0.621,
+    "seen_at": "2026-05-18T11:32:19+00:00",
+    "source": "openalex",
+    "title": "Credit Risk Modeling with Graph Machine Learning"
   },
   "W4389522319": {
     "depth": 0,
@@ -608,6 +1748,16 @@
     "source": "openalex",
     "title": "Green bond issuance and trade credit access: Evidence from Chinese bond market"
   },
+  "W4394591966": {
+    "depth": 0,
+    "doi": "10.1016/j.neucom.2024.127964",
+    "key": "romaingel2024the",
+    "outcome": "accepted",
+    "score": 0.6283,
+    "seen_at": "2026-05-18T11:24:20+00:00",
+    "source": "openalex",
+    "title": "The unreasonable effectiveness of early discarding after one epoch in neural network hyperparameter optimization"
+  },
   "W4397006307": {
     "depth": 0,
     "doi": "10.1016/j.techfore.2024.123448",
@@ -618,6 +1768,16 @@
     "source": "openalex",
     "title": "Effects of climate change and technological capex on credit risk cycles in the European Union"
   },
+  "W4399554584": {
+    "depth": 0,
+    "doi": "10.48550/arxiv.2406.05207",
+    "key": "valentinthomas2024retrieval",
+    "outcome": "accepted",
+    "score": 0.6126,
+    "seen_at": "2026-05-18T11:24:23+00:00",
+    "source": "openalex",
+    "title": "Retrieval &amp; Fine-Tuning for In-Context Tabular Models"
+  },
   "W4401597881": {
     "depth": 0,
     "doi": "10.1109/conit61985.2024.10626212",
@@ -627,6 +1787,55 @@
     "seen_at": "2026-05-17T21:08:24+00:00",
     "source": "openalex",
     "title": "Credit Scoring for Loan Applicants Using Machine Learning Models"
+  },
+  "W4401645656": {
+    "depth": 0,
+    "doi": "10.1177/20552076241272585",
+    "key": "vinhquangtran2024predicting",
+    "outcome": "accepted",
+    "score": 0.6225,
+    "seen_at": "2026-05-18T11:24:18+00:00",
+    "source": "openalex",
+    "title": "Predicting dementia in Parkinson's disease on a small tabular dataset using hybrid LightGBM\u2013TabPFN and SHAP"
+  },
+  "W4404358618": {
+    "depth": 0,
+    "doi": "10.1017/s1748499524000241",
+    "key": "arthurmaillart2024distill",
+    "outcome": "accepted",
+    "score": 0.8126,
+    "seen_at": "2026-05-18T11:34:07+00:00",
+    "source": "openalex",
+    "title": "Distill knowledge of additive tree models into generalized linear models: a new learning approach for non-smooth generalized additive models"
+  },
+  "W4406170795": {
+    "depth": 0,
+    "doi": "10.1038/s41586-024-08328-6",
+    "key": "noahhollmann2025accurate",
+    "outcome": "accepted",
+    "score": 0.6685,
+    "seen_at": "2026-05-18T11:24:17+00:00",
+    "source": "openalex",
+    "title": "Accurate predictions on small data with a tabular foundation model"
+  },
+  "W5086244": {
+    "depth": 1,
+    "doi": "10.2307/j.ctvzsmff5",
+    "outcome": "rejected",
+    "score": 0.3265,
+    "seen_at": "2026-05-18T11:31:57+00:00",
+    "source": "openalex",
+    "title": "The Handbook of Experimental Economics"
+  },
+  "W566586761": {
+    "depth": 1,
+    "doi": "10.1257/pandp.109.612",
+    "key": "estherduflo2019american",
+    "outcome": "accepted",
+    "score": 0.685,
+    "seen_at": "2026-05-18T11:31:59+00:00",
+    "source": "openalex",
+    "title": "American Economic Review"
   },
   "W606820417": {
     "depth": 1,
@@ -656,5 +1865,25 @@
     "seen_at": "2026-05-17T21:02:39+00:00",
     "source": "openalex",
     "title": "EQ-5D concepts and methods: A developmental history"
+  },
+  "W634444349": {
+    "depth": 1,
+    "doi": null,
+    "key": "philipdharvey1999let",
+    "outcome": "accepted",
+    "score": 0.5777,
+    "seen_at": "2026-05-18T11:31:49+00:00",
+    "source": "openalex",
+    "title": "Let Every Child Be Wanted: How Social Marketing Is Revolutionizing Contraceptive Use Around the World"
+  },
+  "W9657784": {
+    "depth": 1,
+    "doi": null,
+    "key": "biggio2013evasion",
+    "outcome": "accepted",
+    "score": 0.6503,
+    "seen_at": "2026-05-18T11:25:21+00:00",
+    "source": "openalex",
+    "title": "Evasion attacks against machine learning at test time"
   }
 }

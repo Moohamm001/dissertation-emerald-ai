@@ -1,0 +1,32 @@
+{
+  "key": "angusdeaton2017understanding",
+  "title": "Understanding and misunderstanding randomized controlled trials",
+  "authors": [
+    "Angus Deaton",
+    "Nancy Cartwright"
+  ],
+  "year": 2017,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Social Science & Medicine",
+  "doi": "10.1016/j.socscimed.2017.12.005",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6614 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Understanding and misunderstanding randomized controlled trials",
+  "notes": "Randomized Controlled Trials (RCTs) are increasingly popular in the social sciences, not only in medicine. We argue that the lay public, and sometimes researchers, put too much trust in RCTs over other methods of investigation. Contrary to frequent claims in the applied literatur...",
+  "source_files": [
+    "research\\literature\\papers\\angusdeaton2017understanding.md"
+  ],
+  "first_seen": "2026-05-18T11:25:38.499353Z",
+  "last_updated": "2026-05-18T11:25:38.508821Z"
+}

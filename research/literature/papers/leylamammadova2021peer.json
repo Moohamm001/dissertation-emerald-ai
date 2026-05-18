@@ -1,0 +1,31 @@
+{
+  "key": "leylamammadova2021peer",
+  "title": "Peer-to-peer (P2P) lending: default, default dependency and industry potential",
+  "authors": [
+    "Leyla Mammadova"
+  ],
+  "year": 2021,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Figshare",
+  "doi": "10.26174/thesis.lboro.14544420.v1",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.5975 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Peer-to-peer (P2P) lending: default, default dependency and industry potential",
+  "notes": "The thesis presents three empirical chapters on the credit risk and industry potential of the Peer-to-Peer (P2P) market. The first empirical chapter explores default risk which considers macroeconomic factors in addition to traditional determinants such as credit scores, loan-to-...",
+  "source_files": [
+    "research\\literature\\papers\\leylamammadova2021peer.md"
+  ],
+  "first_seen": "2026-05-18T11:35:44.988963Z",
+  "last_updated": "2026-05-18T11:35:44.998240Z"
+}

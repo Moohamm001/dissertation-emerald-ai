@@ -1,0 +1,32 @@
+{
+  "key": "geroszepannek2021facing",
+  "title": "Facing the Challenges of Developing Fair Risk Scoring Models",
+  "authors": [
+    "Gero Szepannek",
+    "Karsten Lübke"
+  ],
+  "year": 2021,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Frontiers in Artificial Intelligence",
+  "doi": "10.3389/frai.2021.681915",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.7258 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Facing the Challenges of Developing Fair Risk Scoring Models",
+  "notes": "Algorithmic scoring methods are widely used in the finance industry for several decades in order to prevent risk and to automate and optimize decisions. Regulatory requirements as given by the Basel Committee on Banking Supervision (BCBS) or the EU data protection regulations hav...",
+  "source_files": [
+    "research\\literature\\papers\\geroszepannek2021facing.md"
+  ],
+  "first_seen": "2026-05-18T11:25:38.780435Z",
+  "last_updated": "2026-05-18T11:25:38.791492Z"
+}

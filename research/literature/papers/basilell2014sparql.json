@@ -1,0 +1,33 @@
+{
+  "key": "basilell2014sparql",
+  "title": "SPARQL Query Verbalization for Explaining Semantic Search Engine Queries",
+  "authors": [
+    "Basil Ell",
+    "Andreas Harth",
+    "Elena Simperl"
+  ],
+  "year": 2014,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Lecture notes in computer science",
+  "doi": "10.1007/978-3-319-07443-6_29",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.5637 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "SPARQL Query Verbalization for Explaining Semantic Search Engine Queries",
+  "notes": "",
+  "source_files": [
+    "research\\literature\\papers\\basilell2014sparql.md"
+  ],
+  "first_seen": "2026-05-18T11:25:38.589720Z",
+  "last_updated": "2026-05-18T11:25:38.598181Z"
+}

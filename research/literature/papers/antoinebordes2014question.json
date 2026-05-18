@@ -1,0 +1,33 @@
+{
+  "key": "antoinebordes2014question",
+  "title": "Question Answering with Subgraph Embeddings",
+  "authors": [
+    "Antoine Bordes",
+    "Sumit Chopra",
+    "Jason Weston"
+  ],
+  "year": 2014,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "",
+  "doi": "10.3115/v1/d14-1067",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6427 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Question Answering with Subgraph Embeddings",
+  "notes": "This paper presents a system which learns to answer questions on a broad range of topics from a knowledge base using few hand-crafted features. Our model learns low-dimensional embeddings of words and knowledge base constituents; these representations are used to score natural la...",
+  "source_files": [
+    "research\\literature\\papers\\antoinebordes2014question.md"
+  ],
+  "first_seen": "2026-05-18T11:35:45.461832Z",
+  "last_updated": "2026-05-18T11:35:45.472124Z"
+}

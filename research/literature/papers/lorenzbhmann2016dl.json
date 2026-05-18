@@ -1,0 +1,33 @@
+{
+  "key": "lorenzbhmann2016dl",
+  "title": "DL-Learner—A framework for inductive learning on the Semantic Web",
+  "authors": [
+    "Lorenz Bühmann",
+    "Jens Lehmann",
+    "Patrick Westphal"
+  ],
+  "year": 2016,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Journal of Web Semantics",
+  "doi": "10.1016/j.websem.2016.06.001",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6284 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "DL-Learner—A framework for inductive learning on the Semantic Web",
+  "notes": "",
+  "source_files": [
+    "research\\literature\\papers\\lorenzbhmann2016dl.md"
+  ],
+  "first_seen": "2026-05-18T11:25:38.685374Z",
+  "last_updated": "2026-05-18T11:25:38.694454Z"
+}

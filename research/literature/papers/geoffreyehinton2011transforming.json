@@ -1,0 +1,33 @@
+{
+  "key": "geoffreyehinton2011transforming",
+  "title": "Transforming Auto-Encoders",
+  "authors": [
+    "Geoffrey E. Hinton",
+    "Alex Krizhevsky",
+    "Sida D. Wang"
+  ],
+  "year": 2011,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Lecture notes in computer science",
+  "doi": "10.1007/978-3-642-21735-7_6",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.643 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Transforming Auto-Encoders",
+  "notes": "",
+  "source_files": [
+    "research\\literature\\papers\\geoffreyehinton2011transforming.md"
+  ],
+  "first_seen": "2026-05-18T11:35:45.331778Z",
+  "last_updated": "2026-05-18T11:35:45.339789Z"
+}

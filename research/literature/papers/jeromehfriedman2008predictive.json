@@ -1,0 +1,32 @@
+{
+  "key": "jeromehfriedman2008predictive",
+  "title": "Predictive learning via rule ensembles",
+  "authors": [
+    "Jerome H. Friedman",
+    "Bogdan Popescu"
+  ],
+  "year": 2008,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "The Annals of Applied Statistics",
+  "doi": "10.1214/07-aoas148",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.7349 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Predictive learning via rule ensembles",
+  "notes": "General regression and classification models are constructed as linear combinations of simple rules derived from the data. Each rule consists of a conjunction of a small number of simple statements concerning the values of individual input variables. These rule ensembles are show...",
+  "source_files": [
+    "research\\literature\\papers\\jeromehfriedman2008predictive.md"
+  ],
+  "first_seen": "2026-05-18T11:25:38.638551Z",
+  "last_updated": "2026-05-18T11:25:38.650772Z"
+}

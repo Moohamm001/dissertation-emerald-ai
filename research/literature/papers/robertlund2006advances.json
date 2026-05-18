@@ -1,0 +1,31 @@
+{
+  "key": "robertlund2006advances",
+  "title": "Advances in Neural Information Processing Systems 17: Proceedings of the 2004 Conference",
+  "authors": [
+    "Robert Lund"
+  ],
+  "year": 2006,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Quarterly Publications of the American Statistical Association",
+  "doi": null,
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.5998 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Advances in Neural Information Processing Systems 17: Proceedings of the 2004 Conference",
+  "notes": "",
+  "source_files": [
+    "research\\literature\\papers\\robertlund2006advances.md"
+  ],
+  "first_seen": "2026-05-18T11:35:45.371134Z",
+  "last_updated": "2026-05-18T11:35:45.377561Z"
+}

@@ -1,0 +1,33 @@
+{
+  "key": "trevorhastie2013the",
+  "title": "The Elements of Statistical Learning: Data Mining, Inference, and Prediction",
+  "authors": [
+    "Trevor Hastie",
+    "Robert Tibshirani",
+    "Jerome H. Friedman"
+  ],
+  "year": 2013,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "",
+  "doi": "10.1007/978-0-387-84858-7",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.67 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "The Elements of Statistical Learning: Data Mining, Inference, and Prediction",
+  "notes": "Covers supervised learning (prediction) to unsupervised learning. This book contains topics including neural networks, support vector machines, classification trees and boosting",
+  "source_files": [
+    "research\\literature\\papers\\trevorhastie2013the.md"
+  ],
+  "first_seen": "2026-05-18T11:35:45.666686Z",
+  "last_updated": "2026-05-18T11:35:45.675954Z"
+}

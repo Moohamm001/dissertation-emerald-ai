@@ -1,0 +1,31 @@
+{
+  "key": "katjalangenbucher2020responsible",
+  "title": "Responsible A.I.-based Credit Scoring – A Legal Framework",
+  "authors": [
+    "Katja Langenbucher"
+  ],
+  "year": 2020,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "European Business Law Review",
+  "doi": "10.54648/eulr2020022",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6241 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Responsible A.I.-based Credit Scoring – A Legal Framework",
+  "notes": "The paper proposes a legal framework to evaluate emerging FinTech methodology based on alternative data and machine learning to score borrowers. Instead of conventional variables, novel methods rely on information gathered from social networks, “digital footprints”, mobile phones...",
+  "source_files": [
+    "research\\literature\\papers\\katjalangenbucher2020responsible.md"
+  ],
+  "first_seen": "2026-05-18T11:35:44.296699Z",
+  "last_updated": "2026-05-18T11:35:44.307465Z"
+}

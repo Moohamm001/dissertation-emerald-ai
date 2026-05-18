@@ -1,0 +1,35 @@
+{
+  "key": "alexandergordon1984classification",
+  "title": "Classification and Regression Trees.",
+  "authors": [
+    "Alexander Gordon",
+    "Leo Breiman",
+    "Jerome H. Friedman",
+    "Richard A. Olshen",
+    "C. J. Stone"
+  ],
+  "year": 1984,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Biometrics",
+  "doi": "10.2307/2530946",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.5975 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Classification and Regression Trees.",
+  "notes": "The methodology used to construct tree structured rules is the focus of this monograph. Unlike many other statistical procedures, which moved from pencil and paper to calculators, this text's use of trees was unthinkable before computers. Both the practical and theoretical sides ...",
+  "source_files": [
+    "research\\literature\\papers\\alexandergordon1984classification.md"
+  ],
+  "first_seen": "2026-05-18T11:35:45.688286Z",
+  "last_updated": "2026-05-18T11:35:45.698354Z"
+}

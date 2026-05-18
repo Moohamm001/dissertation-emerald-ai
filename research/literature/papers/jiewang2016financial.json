@@ -1,0 +1,36 @@
+{
+  "key": "jiewang2016financial",
+  "title": "Financial Time Series Prediction Using Elman Recurrent Random Neural Networks",
+  "authors": [
+    "Jie Wang",
+    "Jie Wang",
+    "Jun Wang",
+    "Jun Wang",
+    "Fang Wen",
+    "Hongli Niu"
+  ],
+  "year": 2016,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Computational Intelligence and Neuroscience",
+  "doi": "10.1155/2016/4742515",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6275 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Financial Time Series Prediction Using Elman Recurrent Random Neural Networks",
+  "notes": "In recent years, financial market dynamics forecasting has been a focus of economic research. To predict the price indices of stock markets, we developed an architecture which combined Elman recurrent neural networks with stochastic time effective function. By analyzing the propo...",
+  "source_files": [
+    "research\\literature\\papers\\jiewang2016financial.md"
+  ],
+  "first_seen": "2026-05-18T11:35:45.413760Z",
+  "last_updated": "2026-05-18T11:35:45.424687Z"
+}

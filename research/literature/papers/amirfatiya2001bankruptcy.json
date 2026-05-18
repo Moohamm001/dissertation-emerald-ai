@@ -1,0 +1,31 @@
+{
+  "key": "amirfatiya2001bankruptcy",
+  "title": "Bankruptcy prediction for credit risk using neural networks: A survey and new results",
+  "authors": [
+    "Amir F. Atiya"
+  ],
+  "year": 2001,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "IEEE Transactions on Neural Networks",
+  "doi": "10.1109/72.935101",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.611 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Bankruptcy prediction for credit risk using neural networks: A survey and new results",
+  "notes": "The prediction of corporate bankruptcies is an important and widely studied topic since it can have significant impact on bank lending decisions and profitability. This work presents two contributions. First we review the topic of bankruptcy prediction, with emphasis on neural-ne...",
+  "source_files": [
+    "research\\literature\\papers\\amirfatiya2001bankruptcy.md"
+  ],
+  "first_seen": "2026-05-18T11:35:44.457015Z",
+  "last_updated": "2026-05-18T11:35:44.467100Z"
+}

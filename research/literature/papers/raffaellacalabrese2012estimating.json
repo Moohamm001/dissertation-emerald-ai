@@ -1,0 +1,31 @@
+{
+  "key": "raffaellacalabrese2012estimating",
+  "title": "Estimating bank loans loss given default by generalized additive models",
+  "authors": [
+    "Raffaella Calabrese"
+  ],
+  "year": 2012,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "RePEc: Research Papers in Economics",
+  "doi": null,
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.5962 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Estimating bank loans loss given default by generalized additive models",
+  "notes": "With the implementation of the Basel II accord, the development of accurate loss given default models is becoming increasingly important. The main objective of this paper is to propose a new model to estimate Loss Given Default (LGD) for bank loans by applying generalized additiv...",
+  "source_files": [
+    "research\\literature\\papers\\raffaellacalabrese2012estimating.md"
+  ],
+  "first_seen": "2026-05-18T11:25:38.856874Z",
+  "last_updated": "2026-05-18T11:25:38.868340Z"
+}

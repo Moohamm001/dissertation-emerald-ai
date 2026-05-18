@@ -1,0 +1,32 @@
+{
+  "key": "trevorhastie1986generalized",
+  "title": "Generalized Additive Models",
+  "authors": [
+    "Trevor Hastie",
+    "Robert Tibshirani"
+  ],
+  "year": 1986,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Statistical Science",
+  "doi": "10.1214/ss/1177013604",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.5908 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Generalized Additive Models",
+  "notes": "Likelihood-based regression models such as the normal linear regression model and the linear logistic model, assume a linear (or some other parametric) form for the covariates $X_1, X_2, \\cdots, X_p$. We introduce the class of generalized additive models which replaces the linear...",
+  "source_files": [
+    "research\\literature\\papers\\trevorhastie1986generalized.md"
+  ],
+  "first_seen": "2026-05-18T11:35:45.214343Z",
+  "last_updated": "2026-05-18T11:35:45.225231Z"
+}

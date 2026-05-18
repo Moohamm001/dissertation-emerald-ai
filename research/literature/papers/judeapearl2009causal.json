@@ -1,0 +1,31 @@
+{
+  "key": "judeapearl2009causal",
+  "title": "Causal inference in statistics: An overview",
+  "authors": [
+    "Judea Pearl"
+  ],
+  "year": 2009,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Statistics Surveys",
+  "doi": "10.1214/09-ss057",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.644 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Causal inference in statistics: An overview",
+  "notes": "This review presents empirical researchers with recent advances in causal inference, and stresses the paradigmatic shifts that must be undertaken in moving from traditional statistical analysis to causal analysis of multivariate data. Special emphasis is placed on the assumptions...",
+  "source_files": [
+    "research\\literature\\papers\\judeapearl2009causal.md"
+  ],
+  "first_seen": "2026-05-18T11:25:38.756440Z",
+  "last_updated": "2026-05-18T11:25:38.766999Z"
+}

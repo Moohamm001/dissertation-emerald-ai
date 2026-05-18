@@ -1,0 +1,35 @@
+{
+  "key": "sanjivranjandas2023credit",
+  "title": "Credit Risk Modeling with Graph Machine Learning",
+  "authors": [
+    "Sanjiv Ranjan Das",
+    "Xin Huang",
+    "Soji Adeshina",
+    "Patrick Yang",
+    "Leonardo R. Bachega"
+  ],
+  "year": 2023,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "INFORMS Journal on Data Science",
+  "doi": "10.1287/ijds.2022.00018",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.621 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Credit Risk Modeling with Graph Machine Learning",
+  "notes": "Accurate credit ratings are an essential ingredient in the decision-making process for investors, rating agencies, bond portfolio managers, bankers, and policy makers, as well as an important input for risk management and regulation. Credit ratings are traditionally generated fro...",
+  "source_files": [
+    "research\\literature\\papers\\sanjivranjandas2023credit.md"
+  ],
+  "first_seen": "2026-05-18T11:35:44.321557Z",
+  "last_updated": "2026-05-18T11:35:44.334119Z"
+}

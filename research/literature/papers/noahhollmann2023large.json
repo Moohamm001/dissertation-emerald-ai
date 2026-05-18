@@ -1,0 +1,33 @@
+{
+  "key": "noahhollmann2023large",
+  "title": "Large Language Models for Automated Data Science: Introducing CAAFE for Context-Aware Automated Feature Engineering",
+  "authors": [
+    "Noah Hollmann",
+    "Samuel Müller",
+    "Frank Hutter"
+  ],
+  "year": 2023,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "arXiv (Cornell University)",
+  "doi": "10.48550/arxiv.2305.03403",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6161 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Large Language Models for Automated Data Science: Introducing CAAFE for Context-Aware Automated Feature Engineering",
+  "notes": "As the field of automated machine learning (AutoML) advances, it becomes increasingly important to incorporate domain knowledge into these systems. We present an approach for doing so by harnessing the power of large language models (LLMs). Specifically, we introduce Context-Awar...",
+  "source_files": [
+    "research\\literature\\papers\\noahhollmann2023large.md"
+  ],
+  "first_seen": "2026-05-18T11:25:38.323103Z",
+  "last_updated": "2026-05-18T11:25:38.334252Z"
+}

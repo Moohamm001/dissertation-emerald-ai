@@ -2260,3 +2260,3283 @@
     motivations and methodology issues for this research area. I then review the recent
     papers that explore corporate textual dis...
   search_query: 'Textual Analysis of Corporate Disclosures: A Survey of the Literature'
+- key: noahhollmann2025accurate
+  authors:
+  - Noah Hollmann
+  - Samuel Müller
+  - Lennart Purucker
+  - Arjun Krishnakumar
+  - Max Körfer
+  - Shi Bin Hoo
+  - Robin Tibor Schirrmeister
+  - Frank Hutter
+  year: 2025
+  title: Accurate predictions on small data with a tabular foundation model
+  venue: Nature
+  doi: 10.1038/s41586-024-08328-6
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W4406170795
+  auto_discovered: true
+  auto_score: 0.6685
+  auto_depth: 0
+  notes: Abstract Tabular data, spreadsheets organized in rows and columns, are ubiquitous
+    across scientific fields, from biomedicine to particle physics to economics and
+    climate science 1,2 . The fundamental prediction task of filling in missing values
+    of a label column based on the rest...
+  search_query: Accurate predictions on small data with a tabular foundation model
+- key: vinhquangtran2024predicting
+  authors:
+  - Vinh Quang Tran
+  - Haewon Byeon
+  year: 2024
+  title: Predicting dementia in Parkinson's disease on a small tabular dataset using
+    hybrid LightGBM–TabPFN and SHAP
+  venue: Digital Health
+  doi: 10.1177/20552076241272585
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W4401645656
+  auto_discovered: true
+  auto_score: 0.6225
+  auto_depth: 0
+  notes: Objective This study aims to create a robust and interpretable method for
+    predicting dementia in Parkinson's disease (PD), especially in resource-limited
+    settings. The model aims to be accurate even with small datasets and missing values,
+    ultimately promoting its use in clinical ...
+  search_query: Predicting dementia in Parkinson's disease on a small tabular dataset
+    using hybrid LightGBM–TabPFN and SHAP
+- key: romaingel2024the
+  authors:
+  - Romain Égelé
+  - Felix Mohr
+  - Tom J. Viering
+  - Prasanna Balaprakash
+  year: 2024
+  title: The unreasonable effectiveness of early discarding after one epoch in neural
+    network hyperparameter optimization
+  venue: Neurocomputing
+  doi: 10.1016/j.neucom.2024.127964
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W4394591966
+  auto_discovered: true
+  auto_score: 0.6283
+  auto_depth: 0
+  notes: To reach high performance with deep learning, hyperparameter optimization
+    (HPO) is essential. This process is usually time-consuming due to costly evaluations
+    of neural networks. Early discarding techniques limit the resources granted to
+    unpromising candidates by observing the em...
+  search_query: The unreasonable effectiveness of early discarding after one epoch
+    in neural network hyperparameter optimization
+- key: noahhollmann2023large
+  authors:
+  - Noah Hollmann
+  - Samuel Müller
+  - Frank Hutter
+  year: 2023
+  title: 'Large Language Models for Automated Data Science: Introducing CAAFE for
+    Context-Aware Automated Feature Engineering'
+  venue: arXiv (Cornell University)
+  doi: 10.48550/arxiv.2305.03403
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W4375870086
+  auto_discovered: true
+  auto_score: 0.6161
+  auto_depth: 0
+  notes: As the field of automated machine learning (AutoML) advances, it becomes
+    increasingly important to incorporate domain knowledge into these systems. We
+    present an approach for doing so by harnessing the power of large language models
+    (LLMs). Specifically, we introduce Context-Awar...
+  search_query: 'Large Language Models for Automated Data Science: Introducing CAAFE
+    for Context-Aware Automated Feature Engineering'
+- key: valentinthomas2024retrieval
+  authors:
+  - Valentin Thomas
+  - Junwei Ma
+  - Rasa Hosseinzadeh
+  - Keyvan Golestan
+  - G. H. Yu
+  - Maksims Volkovs
+  - Anthony L. Caterini
+  year: 2024
+  title: Retrieval &amp; Fine-Tuning for In-Context Tabular Models
+  venue: arXiv (Cornell University)
+  doi: 10.48550/arxiv.2406.05207
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W4399554584
+  auto_discovered: true
+  auto_score: 0.6126
+  auto_depth: 0
+  notes: Tabular data is a pervasive modality spanning a wide range of domains, and
+    the inherent diversity poses a considerable challenge for deep learning. Recent
+    advancements using transformer-based in-context learning have shown promise on
+    smaller and less complex datasets, but have st...
+  search_query: Retrieval &amp; Fine-Tuning for In-Context Tabular Models
+- key: davidhwolpert1992stacked
+  authors:
+  - David H. Wolpert
+  year: 1992
+  title: Stacked generalization
+  venue: Neural Networks
+  doi: 10.1016/s0893-6080(05)80023-1
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W28412257
+  auto_discovered: true
+  auto_score: 0.6141
+  auto_depth: 1
+  notes: ''
+  search_query: Stacked generalization
+- key: tomdietterich1995solving
+  authors:
+  - Tom Dietterich
+  - Ghulum Bakiri
+  year: 1995
+  title: Solving Multiclass Learning Problems via Error-Correcting Output Codes
+  venue: Journal of Artificial Intelligence Research
+  doi: 10.1613/jair.105
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1676820704
+  auto_discovered: true
+  auto_score: 0.6108
+  auto_depth: 1
+  notes: Multiclass learning problems involve finding a definitionfor an unknown function
+    f(x) whose range is a discrete setcontaining k &gt; 2 values (i.e., k ``classes'').
+    Thedefinition is acquired by studying collections of training examples ofthe form
+    [x_i, f (x_i)]. Existing approach...
+  search_query: Solving Multiclass Learning Problems via Error-Correcting Output Codes
+- key: jeromehfriedman2001greedy
+  authors:
+  - Jerome H. Friedman
+  year: 2001
+  title: 'Greedy function approximation: A gradient boosting machine.'
+  venue: The Annals of Statistics
+  doi: 10.1214/aos/1013203451
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1678356000
+  auto_discovered: true
+  auto_score: 0.64
+  auto_depth: 1
+  notes: Function estimation/approximation is viewed from the perspective of numerical
+    optimization in function space, rather than parameter space. A connection is made
+    between stagewise additive expansions and steepest-descent minimization. A general
+    gradient descent “boosting” paradigm ...
+  search_query: 'Greedy function approximation: A gradient boosting machine.'
+- key: richcaruana2004ensemble
+  authors:
+  - Rich Caruana
+  - Alexandru Niculescu-Mizil
+  - G. Crew
+  - Alex Ksikes
+  year: 2004
+  title: Ensemble selection from libraries of models
+  venue: ''
+  doi: 10.1145/1015330.1015432
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1980264541
+  auto_discovered: true
+  auto_score: 0.6206
+  auto_depth: 1
+  notes: We present a method for constructing ensembles from libraries of thousands
+    of models. Model libraries are generated using different learning algorithms and
+    parameter settings. Forward stepwise selection is used to add to the ensemble
+    the models that maximize its performance. Ense...
+  search_query: Ensemble selection from libraries of models
+- key: plkrapivsky2001organization
+  authors:
+  - P. L. Krapivsky
+  - S. Redner
+  year: 2001
+  title: Organization of growing random networks
+  venue: Physical review. E, Statistical physics, plasmas, fluids, and related interdisciplinary
+    topics
+  doi: 10.1103/physreve.63.066123
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1992021819
+  auto_discovered: true
+  auto_score: 0.6138
+  auto_depth: 1
+  notes: The organizational development of growing random networks is investigated.
+    These growing networks are built by adding nodes successively, and linking each
+    to an earlier node of degree k with an attachment probability A(k). When A(k)
+    grows more slowly than linearly with k, the num...
+  search_query: Organization of growing random networks
+- key: rudreshdwivedi2022explainable
+  authors:
+  - Rudresh Dwivedi
+  - Devam Dave
+  - Het Naik
+  - Smiti Singhal
+  - Omer Rana
+  - Pankesh Patel
+  - Bin Qian
+  - Zhenyu Wen
+  - Tejal Shah
+  - Graham Morgan
+  - Rajiv Ranjan
+  year: 2022
+  title: 'Explainable AI (XAI): Core Ideas, Techniques, and Solutions'
+  venue: ACM Computing Surveys
+  doi: 10.1145/3561048
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W4294559022
+  auto_discovered: true
+  auto_score: 0.7687
+  auto_depth: 0
+  notes: As our dependence on intelligent machines continues to grow, so does the
+    demand for more transparent and interpretable models. In addition, the ability
+    to explain the model generally is now the gold standard for building trust and
+    deployment of artificial intelligence systems in ...
+  search_query: 'Explainable AI (XAI): Core Ideas, Techniques, and Solutions'
+- key: angusdeaton2017understanding
+  authors:
+  - Angus Deaton
+  - Nancy Cartwright
+  year: 2017
+  title: Understanding and misunderstanding randomized controlled trials
+  venue: Social Science & Medicine
+  doi: 10.1016/j.socscimed.2017.12.005
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2515189678
+  auto_discovered: true
+  auto_score: 0.6614
+  auto_depth: 0
+  notes: Randomized Controlled Trials (RCTs) are increasingly popular in the social
+    sciences, not only in medicine. We argue that the lay public, and sometimes researchers,
+    put too much trust in RCTs over other methods of investigation. Contrary to frequent
+    claims in the applied literatur...
+  search_query: Understanding and misunderstanding randomized controlled trials
+- key: lukasruff2021a
+  authors:
+  - Lukas Ruff
+  - Jacob R. Kauffmann
+  - Robert A. Vandermeulen
+  - Gregoire Montavon
+  - Wojciech Samek
+  - Marius Kloft
+  - Thomas G. Dietterich
+  - Klaus-Robert Muller
+  year: 2021
+  title: A Unifying Review of Deep and Shallow Anomaly Detection
+  venue: Proceedings of the IEEE
+  doi: 10.1109/jproc.2021.3052449
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W3089028909
+  auto_discovered: true
+  auto_score: 0.6625
+  auto_depth: 0
+  notes: Deep learning approaches to anomaly detection (AD) have recently improved
+    the state of the art in detection performance on complex data sets, such as large
+    collections of images or text. These results have sparked a renewed interest in
+    the AD problem and led to the introduction o...
+  search_query: A Unifying Review of Deep and Shallow Anomaly Detection
+- key: dinademnerfushman2007answering
+  authors:
+  - Dina Demner‐Fushman
+  - Jimmy Lin
+  year: 2007
+  title: Answering Clinical Questions with Knowledge-Based and Statistical Techniques
+  venue: Computational Linguistics
+  doi: 10.1162/coli.2007.33.1.63
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2134568263
+  auto_discovered: true
+  auto_score: 0.617
+  auto_depth: 0
+  notes: The combination of recent developments in question-answering research and
+    the availability of unparalleled resources developed specifically for automatic
+    semantic processing of text in the medical domain provides a unique opportunity
+    to explore complex question answering in the d...
+  search_query: Answering Clinical Questions with Knowledge-Based and Statistical
+    Techniques
+- key: zhibozhang2022explainable
+  authors:
+  - Zhibo Zhang
+  - Hussam Al Hamadi
+  - Ernesto Damiani
+  - Chan Yeob Yeun
+  - Fatma Taher
+  year: 2022
+  title: 'Explainable Artificial Intelligence Applications in Cyber Security: State-of-the-Art
+    in Research'
+  venue: IEEE Access
+  doi: 10.1109/access.2022.3204051
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W4295854586
+  auto_discovered: true
+  auto_score: 0.6566
+  auto_depth: 0
+  notes: This survey presents a comprehensive review of current literature on Explainable
+    Artificial Intelligence (XAI) methods for cyber security applications. Due to
+    the rapid development of Internet-connected systems and Artificial Intelligence
+    in recent years, Artificial Intelligence ...
+  search_query: 'Explainable Artificial Intelligence Applications in Cyber Security:
+    State-of-the-Art in Research'
+- key: basilell2014sparql
+  authors:
+  - Basil Ell
+  - Andreas Harth
+  - Elena Simperl
+  year: 2014
+  title: SPARQL Query Verbalization for Explaining Semantic Search Engine Queries
+  venue: Lecture notes in computer science
+  doi: 10.1007/978-3-319-07443-6_29
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W309516578
+  auto_discovered: true
+  auto_score: 0.5637
+  auto_depth: 1
+  notes: ''
+  search_query: SPARQL Query Verbalization for Explaining Semantic Search Engine Queries
+- key: lesliegvaliant2003three
+  authors:
+  - Leslie G. Valiant
+  year: 2003
+  title: Three problems in computer science
+  venue: Journal of the ACM
+  doi: 10.1145/602382.602410
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1968970479
+  auto_discovered: true
+  auto_score: 0.5891
+  auto_depth: 1
+  notes: 'article Share on Three problems in computer science Author: Leslie G. Valiant
+    Harvard University Harvard UniversityView Profile Authors Info & Claims Journal
+    of the ACMVolume 50Issue 1pp 96–99https://doi.org/10.1145/602382.602410Published:01
+    January 2003Publication History 22cita...'
+  search_query: Three problems in computer science
+- key: jeromehfriedman2008predictive
+  authors:
+  - Jerome H. Friedman
+  - Bogdan Popescu
+  year: 2008
+  title: Predictive learning via rule ensembles
+  venue: The Annals of Applied Statistics
+  doi: 10.1214/07-aoas148
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2048231652
+  auto_discovered: true
+  auto_score: 0.7349
+  auto_depth: 1
+  notes: General regression and classification models are constructed as linear combinations
+    of simple rules derived from the data. Each rule consists of a conjunction of
+    a small number of simple statements concerning the values of individual input
+    variables. These rule ensembles are show...
+  search_query: Predictive learning via rule ensembles
+- key: alexgoldstein2014peeking
+  authors:
+  - Alex Goldstein
+  - Adam Kapelner
+  - Justin Bleich
+  - Emil Pitkin
+  year: 2014
+  title: 'Peeking Inside the Black Box: Visualizing Statistical Learning With Plots
+    of Individual Conditional Expectation'
+  venue: Journal of Computational and Graphical Statistics
+  doi: 10.1080/10618600.2014.907095
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2125847307
+  auto_discovered: true
+  auto_score: 0.7534
+  auto_depth: 1
+  notes: This article presents individual conditional expectation (ICE) plots, a tool
+    for visualizing the model estimated by any supervised learning algorithm. Classical
+    partial dependence plots (PDPs) help visualize the average partial relationship
+    between the predicted response and one ...
+  search_query: 'Peeking Inside the Black Box: Visualizing Statistical Learning With
+    Plots of Individual Conditional Expectation'
+- key: lorenzbhmann2016dl
+  authors:
+  - Lorenz Bühmann
+  - Jens Lehmann
+  - Patrick Westphal
+  year: 2016
+  title: DL-Learner—A framework for inductive learning on the Semantic Web
+  venue: Journal of Web Semantics
+  doi: 10.1016/j.websem.2016.06.001
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2470728525
+  auto_discovered: true
+  auto_score: 0.6284
+  auto_depth: 1
+  notes: ''
+  search_query: DL-Learner—A framework for inductive learning on the Semantic Web
+- key: alejandrobarredoarrieta2019explainable
+  authors:
+  - Alejandro Barredo Arrieta
+  - Natalia Díaz-Rodríguez
+  - Javier Del Ser
+  - Adrien Bennetot
+  - Siham Tabik
+  - Alberto Barbado
+  - Salvador García
+  - Sergio Gil-López
+  - Daniel Molina
+  - Richard Benjamins
+  - Raja Chatila
+  - Francisco Herrera
+  year: 2019
+  title: 'Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities
+    and challenges toward responsible AI'
+  venue: Information Fusion
+  doi: 10.1016/j.inffus.2019.12.012
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2981731882
+  auto_discovered: true
+  auto_score: 0.8835
+  auto_depth: 0
+  notes: ''
+  search_query: 'Explainable Artificial Intelligence (XAI): Concepts, taxonomies,
+    opportunities and challenges toward responsible AI'
+- key: ziadobermeyer2019dissecting
+  authors:
+  - Ziad Obermeyer
+  - Brian W. Powers
+  - Christine Vogeli
+  - Sendhil Mullainathan
+  year: 2019
+  title: Dissecting racial bias in an algorithm used to manage the health of populations
+  venue: Science
+  doi: 10.1126/science.aax2342
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2981869278
+  auto_discovered: true
+  auto_score: 0.7792
+  auto_depth: 0
+  notes: Racial bias in health algorithms The U.S. health care system uses commercial
+    algorithms to guide health decisions. Obermeyer et al. find evidence of racial
+    bias in one widely used algorithm, such that Black patients assigned the same
+    level of risk by the algorithm are sicker than...
+  search_query: Dissecting racial bias in an algorithm used to manage the health of
+    populations
+- key: judeapearl2009causal
+  authors:
+  - Judea Pearl
+  year: 2009
+  title: 'Causal inference in statistics: An overview'
+  venue: Statistics Surveys
+  doi: 10.1214/09-ss057
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2143117649
+  auto_discovered: true
+  auto_score: 0.644
+  auto_depth: 0
+  notes: This review presents empirical researchers with recent advances in causal
+    inference, and stresses the paradigmatic shifts that must be undertaken in moving
+    from traditional statistical analysis to causal analysis of multivariate data.
+    Special emphasis is placed on the assumptions...
+  search_query: 'Causal inference in statistics: An overview'
+- key: geroszepannek2021facing
+  authors:
+  - Gero Szepannek
+  - Karsten Lübke
+  year: 2021
+  title: Facing the Challenges of Developing Fair Risk Scoring Models
+  venue: Frontiers in Artificial Intelligence
+  doi: 10.3389/frai.2021.681915
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W3207353404
+  auto_discovered: true
+  auto_score: 0.7258
+  auto_depth: 0
+  notes: Algorithmic scoring methods are widely used in the finance industry for several
+    decades in order to prevent risk and to automate and optimize decisions. Regulatory
+    requirements as given by the Basel Committee on Banking Supervision (BCBS) or
+    the EU data protection regulations hav...
+  search_query: Facing the Challenges of Developing Fair Risk Scoring Models
+- key: ramaravindkommiyamothilal2020explaining
+  authors:
+  - Ramaravind Kommiya Mothilal
+  - Amit Sharma
+  - Chenhao Tan
+  year: 2020
+  title: Explaining machine learning classifiers through diverse counterfactual explanations
+  venue: ''
+  doi: 10.1145/3351095.3372850
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2945295328
+  auto_discovered: true
+  auto_score: 0.6629
+  auto_depth: 0
+  notes: Post-hoc explanations of machine learning models are crucial for people to
+    understand and act on algorithmic predictions. An intriguing class of explanations
+    is through counterfactuals, hypothetical examples that show people how to obtain
+    a different prediction. We posit that eff...
+  search_query: Explaining machine learning classifiers through diverse counterfactual
+    explanations
+- key: biggio2013evasion
+  authors:
+  - Biggio, B.
+  - Corona, I.
+  - Maiorca, D.
+  - Nelson, B.
+  - Srndic, N.
+  - Laskov, P.
+  - Giacinto, G.
+  - Roli, F.
+  year: 2013
+  title: Evasion attacks against machine learning at test time
+  venue: ''
+  doi: null
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W9657784
+  auto_discovered: true
+  auto_score: 0.6503
+  auto_depth: 1
+  notes: Abstract. In security-sensitive applications, the success of machine learn-ing
+    depends on a thorough vetting of their resistance to adversarial data. In one
+    pertinent, well-motivated attack scenario, an adversary may at-tempt to evade
+    a deployed system at test time by carefully m...
+  search_query: Evasion attacks against machine learning at test time
+- key: raffaellacalabrese2012estimating
+  authors:
+  - Raffaella Calabrese
+  year: 2012
+  title: Estimating bank loans loss given default by generalized additive models
+  venue: 'RePEc: Research Papers in Economics'
+  doi: null
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W27120934
+  auto_discovered: true
+  auto_score: 0.5962
+  auto_depth: 1
+  notes: With the implementation of the Basel II accord, the development of accurate
+    loss given default models is becoming increasingly important. The main objective
+    of this paper is to propose a new model to estimate Loss Given Default (LGD) for
+    bank loans by applying generalized additiv...
+  search_query: Estimating bank loans loss given default by generalized additive models
+- key: jrquinlan1987generating
+  authors:
+  - J. R. Quinlan
+  year: 1987
+  title: Generating production rules from decision trees
+  venue: ''
+  doi: null
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W128754594
+  auto_discovered: true
+  auto_score: 0.5719
+  auto_depth: 1
+  notes: Many inductive knowledge acquisition algorithms generate classifiers in the
+    form of decision trees. This paper describes a technique for transforming such
+    trees to small sets of production rules, a common formalism for expressing knowledge
+    in expert systems. The method makes use ...
+  search_query: Generating production rules from decision trees
+- key: thomaslgriffiths2001bayesian
+  authors:
+  - Thomas L. Griffiths
+  - Charles Kemp
+  - Joshua B. Tenenbaum
+  year: 2001
+  title: Bayesian Models of Cognition
+  venue: Cambridge University Press eBooks
+  doi: 10.1017/cbo9780511816772.006
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W137420995
+  auto_discovered: true
+  auto_score: 0.6077
+  auto_depth: 1
+  notes: For over 200 years, philosophers and mathematicians have be en using probability
+    theory to describe human cognition. While the theory of prob abilities was first
+    developed as a means of analyzing games of chance, it quickly took on a larger
+    and deeper significance as a formal acc...
+  search_query: Bayesian Models of Cognition
+- key: haydemarnez2006rule
+  authors:
+  - Haydemar Núñez
+  - Cecilio Angulo
+  - Andreu Català
+  year: 2006
+  title: Rule Extraction from Support Vector Machines
+  venue: Advanced information and knowledge processing
+  doi: 10.1007/3-540-28803-1_10
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W152751697
+  auto_discovered: true
+  auto_score: 0.6083
+  auto_depth: 1
+  notes: ''
+  search_query: Rule Extraction from Support Vector Machines
+- key: ckprahalad2010the
+  authors:
+  - C. K. Prahalad
+  - Stuart L. Hart
+  year: 2010
+  title: The fortune at the bottom of the pyramid
+  venue: Revista Eletrônica de Estratégia & Negócios
+  doi: 10.19177/reen.v1e220081-23
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2055056256
+  auto_discovered: true
+  auto_score: 0.6446
+  auto_depth: 0
+  notes: This article is based on a 1998 working paper from the authors. It was originally
+    published in Strategy+Business n. 26, first quarter 2002, and is one of the basis
+    for the CK Prahalad best seller of the same title. Tha article argues about the
+    possibility and opportunity to trans...
+  search_query: The fortune at the bottom of the pyramid
+- key: charlesfmanski2000economic
+  authors:
+  - Charles F. Manski
+  year: 2000
+  title: Economic Analysis of Social Interactions
+  venue: The Journal of Economic Perspectives
+  doi: 10.1257/jep.14.3.115
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2107295826
+  auto_discovered: true
+  auto_score: 0.6205
+  auto_depth: 0
+  notes: Economics is broadening its scope from analysis of markets to study of general
+    social interactions. Developments in game theory, the economics of the family,
+    and endogenous growth theory have led the way. Economists have also performed
+    new empirical research using observational d...
+  search_query: Economic Analysis of Social Interactions
+- key: eugeneffama2004the
+  authors:
+  - Eugene F. Fama
+  - Kenneth R. French
+  year: 2004
+  title: 'The Capital Asset Pricing Model: Theory and Evidence'
+  venue: The Journal of Economic Perspectives
+  doi: 10.1257/0895330042162430
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2131055507
+  auto_discovered: true
+  auto_score: 0.6296
+  auto_depth: 0
+  notes: The capital asset pricing model (CAPM) of William Sharpe (1964) and John
+    Lintner (1965) marks the birth of asset pricing theory (resulting in a Nobel Prize
+    for Sharpe in 1990). Before their breakthrough, there were no asset pricing models
+    built from first principles about the nat...
+  search_query: 'The Capital Asset Pricing Model: Theory and Evidence'
+- key: merlindaandoni2018blockchain
+  authors:
+  - Merlinda Andoni
+  - Valentin Robu
+  - David Flynn
+  - Simone Abram
+  - Dale Geach
+  - David Jenkins
+  - Peter McCallum
+  - Andrew Peacock
+  year: 2018
+  title: 'Blockchain technology in the energy sector: A systematic review of challenges
+    and opportunities'
+  venue: Renewable and Sustainable Energy Reviews
+  doi: 10.1016/j.rser.2018.10.014
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2899357412
+  auto_discovered: true
+  auto_score: 0.6667
+  auto_depth: 0
+  notes: Blockchains or distributed ledgers are an emerging technology that has drawn
+    considerable interest from energy supply firms, startups, technology developers,
+    financial institutions, national governments and the academic community. Numerous
+    sources coming from these backgrounds id...
+  search_query: 'Blockchain technology in the energy sector: A systematic review of
+    challenges and opportunities'
+- key: philipdharvey1999let
+  authors:
+  - Philip D. Harvey
+  year: 1999
+  title: 'Let Every Child Be Wanted: How Social Marketing Is Revolutionizing Contraceptive
+    Use Around the World'
+  venue: Medical Entomology and Zoology
+  doi: null
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W634444349
+  auto_discovered: true
+  auto_score: 0.5777
+  auto_depth: 1
+  notes: 'The Pioneers Social Marketing: How It Works Sex, Contraception, Religion,
+    and AIDS Players in the Game: Donors, Governments, Family Planning Associations,
+    and Others I''m Up to Here with Experts: Selling Contraceptives in Sri Lanka Social
+    Marketing in Bangladesh Why Brand Names? P...'
+  search_query: 'Let Every Child Be Wanted: How Social Marketing Is Revolutionizing
+    Contraceptive Use Around the World'
+- key: thomaslfriedman2017the
+  authors:
+  - Thomas L. Friedman
+  year: 2017
+  title: 'The Lexus and the Olive Tree: Understanding Globalization'
+  venue: The SHAFR Guide Online
+  doi: 10.1163/2468-1733_shafr_sim280020616
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1514278091
+  auto_discovered: true
+  auto_score: 0.5093
+  auto_depth: 1
+  notes: ''
+  search_query: 'The Lexus and the Olive Tree: Understanding Globalization'
+- key: hernandodesoto2000the
+  authors:
+  - Hernando de Soto
+  year: 2000
+  title: 'The Mystery of Capital: Why Capitalism Triumphs in the West and Fails Everywhere
+    Else'
+  venue: ''
+  doi: null
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1518001679
+  auto_discovered: true
+  auto_score: 0.6304
+  auto_depth: 1
+  notes: Why does capitalism triumph in the West but fail almost everywhere else?
+    Elegantly, and with rare clarity, Hernando de Soto revolutionizes our understanding
+    of what capital is and why it has failed to benefit four-fifths of mankind --
+    and explains the solution. 'A revolutionary b...
+  search_query: 'The Mystery of Capital: Why Capitalism Triumphs in the West and Fails
+    Everywhere Else'
+- key: robertchambers1997whose
+  authors:
+  - Robert Chambers
+  year: 1997
+  title: 'Whose Reality Counts?: Putting the First Last'
+  venue: ''
+  doi: null
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2044726132
+  auto_discovered: true
+  auto_score: 0.6145
+  auto_depth: 1
+  notes: 'Abbreviations and Addresses Glossary of Meanings Preface Acknowledgements
+    1 The Challenge to Change 2 Normal Error 3 Professional Realities 4 The Transfer
+    of Reality 5 All Power Deceives 6 Learning to Learn 7 What Works and Why 8 Poor
+    People''s Realities: Local, Complex, Diverse, ...'
+  search_query: 'Whose Reality Counts?: Putting the First Last'
+- key: geetanjaligoindi1995estimation
+  authors:
+  - Geetanjali Goindi
+  - M. G. Karmarkar
+  - Umesh Kapil
+  - J Jagannathan
+  year: 1995
+  title: Estimation of losses of iodine during different cooking procedures.
+  venue: PubMed
+  doi: null
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2411267365
+  auto_discovered: true
+  auto_score: 0.5658
+  auto_depth: 1
+  notes: Iodine is an essential micronutrient. The human requirement of iodine is
+    150 mcg/ day. About 90% of this comes from food while 10% from the water. The
+    most commonly used method of prophylaxis against iodine deficiency is via fortification
+    of salt with iodine. At the beneficiary l...
+  search_query: Estimation of losses of iodine during different cooking procedures.
+- key: estherduflo2019american
+  authors:
+  - Esther Duflo
+  year: 2019
+  title: American Economic Review
+  venue: AEA Papers and Proceedings
+  doi: 10.1257/pandp.109.612
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W566586761
+  auto_discovered: true
+  auto_score: 0.685
+  auto_depth: 1
+  notes: by an editor, several coeditors, and a staff located in Pittsburgh, using
+    an Internet-based manuscript management software system.Papers are submitted online,
+    processed by the Pittsburgh office staff, and then distributed by the editor to
+    one of the coeditors
+  search_query: American Economic Review
+- key: michaeldhurd1995evaluation
+  authors:
+  - Michael D. Hurd
+  - Kathleen McGarry
+  year: 1995
+  title: Evaluation of the Subjective Probabilities of Survival in the Health and
+    Retirement Study
+  venue: The Journal of Human Resources
+  doi: 10.2307/146285
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1210092515
+  auto_discovered: true
+  auto_score: 0.5929
+  auto_depth: 1
+  notes: 'Michael D. Hurd, Kathleen McGarry, Evaluation of the Subjective Probabilities
+    of Survival in the Health and Retirement Study, The Journal of Human Resources,
+    Vol. 30, Special Issue on the Health and Retirement Study: Data Quality and Early
+    Results (1995), pp. S268-S292'
+  search_query: Evaluation of the Subjective Probabilities of Survival in the Health
+    and Retirement Study
+- key: janejacobs2015the
+  authors:
+  - Jane Jacobs
+  year: 2015
+  title: The Death and Life of Great American Cities
+  venue: ''
+  doi: 10.1002/9781119084679.ch4
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1484775731
+  auto_discovered: true
+  auto_score: 0.6727
+  auto_depth: 1
+  notes: '1 Introduction Part One: The Peculiar Nature of Cities 2 The uses of sidewalks:
+    safety 3 The uses of sidewalks: contact 4 The uses of sidewalks: assimilating
+    children 5 The uses of neighbourhood parks 6 The uses of city neighbourhoods.
+    Part Two: The Conditions for City Diversity ...'
+  search_query: The Death and Life of Great American Cities
+- key: charlesfmanski2018identification
+  authors:
+  - Charles F. Manski
+  year: 2018
+  title: Identification of Anonymous Endogenous Interactions
+  venue: ''
+  doi: 10.1201/9780429496639-15
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1489891708
+  auto_discovered: true
+  auto_score: 0.6103
+  auto_depth: 1
+  notes: Endogenous growth models assume dynamic learning processes in which the output
+    of a given firm depends on the lagged value of aggregate industry output. Biological
+    models of contagion suppose that the probability of an uninfected person becoming
+    infected varies with the fraction ...
+  search_query: Identification of Anonymous Endogenous Interactions
+- key: jeffdominitz1997using
+  authors:
+  - Jeff Dominitz
+  - Charles F. Manski
+  year: 1997
+  title: Using Expectations Data to Study Subjective Income Expectations
+  venue: Journal of the American Statistical Association
+  doi: 10.1080/01621459.1997.10474041
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1507789815
+  auto_discovered: true
+  auto_score: 0.5953
+  auto_depth: 1
+  notes: Abstract We have collected data on the one-year-ahead income expectations
+    of members of American households in our survey of economic expectations (SEE),
+    a module of a national continuous telephone survey conducted at the University
+    of Wisconsin. The income-expectations questions...
+  search_query: Using Expectations Data to Study Subjective Income Expectations
+- key: charlesfmanski2000worker
+  authors:
+  - Charles F. Manski
+  - John D. Straub
+  year: 2000
+  title: 'Worker Perceptions of Job Insecurity in the Mid-1990s: Evidence from the
+    Survey of Economic Expectations'
+  venue: The Journal of Human Resources
+  doi: 10.2307/146388
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1509169740
+  auto_discovered: true
+  auto_score: 0.5912
+  auto_depth: 1
+  notes: This paper analyzes the probabilistic measures of job insecurity that have
+    recently become available through the nationwide Survey of Economic Expectations
+    (SEE). Since 1994, employed SEE respondents have been asked questions eliciting
+    their subjective probabilities of job loss i...
+  search_query: 'Worker Perceptions of Job Insecurity in the Mid-1990s: Evidence from
+    the Survey of Economic Expectations'
+- key: bonniebuchanan2021the
+  authors:
+  - Bonnie Buchanan
+  - Danika Wright
+  year: 2021
+  title: The impact of machine learning on UK financial services
+  venue: Oxford Review of Economic Policy
+  doi: 10.1093/oxrep/grab016
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W3201668438
+  auto_discovered: true
+  auto_score: 0.6323
+  auto_depth: 0
+  notes: Machine learning is an increasingly key influence on the financial services
+    industry. In this paper, we review the roles and impact of machine learning (ML)
+    and artificial intelligence (AI) on the UK financial services industry. We survey
+    the current AI/ML landscape in the UK. ML...
+  search_query: The impact of machine learning on UK financial services
+- key: riccardoguidotti2019a
+  authors:
+  - Riccardo Guidotti
+  - Anna Monreale
+  - Salvatore Ruggieri
+  - Franco Turini
+  - Fosca Giannotti
+  - Dino Pedreschi
+  year: 2019
+  title: A survey of methods for explaining black box models
+  venue: ISTI Open Portal
+  doi: 10.1145/3236009
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2962772482
+  auto_discovered: true
+  auto_score: 0.7766
+  auto_depth: 0
+  notes: In recent years, many accurate decision support systems have been constructed
+    as black boxes, that is as systems that hide their internal logic to the user.
+    This lack of explanation constitutes both a practical and an ethical issue. The
+    literature reports many approaches aimed at...
+  search_query: A survey of methods for explaining black box models
+- key: katjalangenbucher2020responsible
+  authors:
+  - Katja Langenbucher
+  year: 2020
+  title: Responsible A.I.-based Credit Scoring – A Legal Framework
+  venue: European Business Law Review
+  doi: 10.54648/eulr2020022
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W4285663225
+  auto_discovered: true
+  auto_score: 0.6241
+  auto_depth: 0
+  notes: The paper proposes a legal framework to evaluate emerging FinTech methodology
+    based on alternative data and machine learning to score borrowers. Instead of
+    conventional variables, novel methods rely on information gathered from social
+    networks, “digital footprints”, mobile phones...
+  search_query: Responsible A.I.-based Credit Scoring – A Legal Framework
+- key: sanjivranjandas2023credit
+  authors:
+  - Sanjiv Ranjan Das
+  - Xin Huang
+  - Soji Adeshina
+  - Patrick Yang
+  - Leonardo R. Bachega
+  year: 2023
+  title: Credit Risk Modeling with Graph Machine Learning
+  venue: INFORMS Journal on Data Science
+  doi: 10.1287/ijds.2022.00018
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W4388826945
+  auto_discovered: true
+  auto_score: 0.621
+  auto_depth: 0
+  notes: Accurate credit ratings are an essential ingredient in the decision-making
+    process for investors, rating agencies, bond portfolio managers, bankers, and
+    policy makers, as well as an important input for risk management and regulation.
+    Credit ratings are traditionally generated fro...
+  search_query: Credit Risk Modeling with Graph Machine Learning
+- key: alexgammerman1990bayesian
+  authors:
+  - Alex Gammerman
+  - A. R. Thatcher
+  year: 1990
+  title: Bayesian Inference in an Expert System without Assuming Independence
+  venue: Advances in Artificial Intelligence
+  doi: 10.1007/978-1-4613-9052-7_10
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W108837737
+  auto_discovered: true
+  auto_score: 0.5351
+  auto_depth: 1
+  notes: ''
+  search_query: Bayesian Inference in an Expert System without Assuming Independence
+- key: joelhasbrouck2013low
+  authors:
+  - Joel Hasbrouck
+  - Gideon Saar
+  year: 2013
+  title: Low-latency trading
+  venue: Journal of Financial Markets
+  doi: 10.1016/j.finmar.2013.05.003
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1978596428
+  auto_discovered: true
+  auto_score: 0.568
+  auto_depth: 1
+  notes: ''
+  search_query: Low-latency trading
+- key: lyncthomas2000a
+  authors:
+  - Lyn C. Thomas
+  year: 2000
+  title: 'A survey of credit and behavioural scoring: forecasting financial risk of
+    lending to consumers'
+  venue: International Journal of Forecasting
+  doi: 10.1016/s0169-2070(00)00034-0
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1980770954
+  auto_discovered: true
+  auto_score: 0.7091
+  auto_depth: 1
+  notes: ''
+  search_query: 'A survey of credit and behavioural scoring: forecasting financial
+    risk of lending to consumers'
+- key: vijaysdesai1996a
+  authors:
+  - Vijay S. Desai
+  - Jonathan Crook
+  - George A. Overstreet
+  year: 1996
+  title: A comparison of neural networks and linear scoring models in the credit union
+    environment
+  venue: European Journal of Operational Research
+  doi: 10.1016/0377-2217(95)00246-4
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2005510983
+  auto_discovered: true
+  auto_score: 0.5954
+  auto_depth: 1
+  notes: ''
+  search_query: A comparison of neural networks and linear scoring models in the credit
+    union environment
+- key: tonybellotti2008support
+  authors:
+  - Tony Bellotti
+  - Jonathan Crook
+  year: 2008
+  title: Support vector machines for credit scoring and discovery of significant features
+  venue: Expert Systems with Applications
+  doi: 10.1016/j.eswa.2008.01.005
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2088048599
+  auto_discovered: true
+  auto_score: 0.6205
+  auto_depth: 1
+  notes: ''
+  search_query: Support vector machines for credit scoring and discovery of significant
+    features
+- key: amirfatiya2001bankruptcy
+  authors:
+  - Amir F. Atiya
+  year: 2001
+  title: 'Bankruptcy prediction for credit risk using neural networks: A survey and
+    new results'
+  venue: IEEE Transactions on Neural Networks
+  doi: 10.1109/72.935101
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2097752063
+  auto_discovered: true
+  auto_score: 0.611
+  auto_depth: 1
+  notes: The prediction of corporate bankruptcies is an important and widely studied
+    topic since it can have significant impact on bank lending decisions and profitability.
+    This work presents two contributions. First we review the topic of bankruptcy
+    prediction, with emphasis on neural-ne...
+  search_query: 'Bankruptcy prediction for credit risk using neural networks: A survey
+    and new results'
+- key: georgecybenko1989approximation
+  authors:
+  - George Cybenko
+  year: 1989
+  title: Approximation by superpositions of a sigmoidal function
+  venue: Mathematics of Control Signals and Systems
+  doi: 10.1007/bf02551274
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2103496339
+  auto_discovered: true
+  auto_score: 0.61
+  auto_depth: 1
+  notes: ''
+  search_query: Approximation by superpositions of a sigmoidal function
+- key: jrquinlan1993foil
+  authors:
+  - J. R. Quinlan
+  - R. M. Cameron-Jones
+  year: 1993
+  title: 'FOIL: A midterm report'
+  venue: Lecture notes in computer science
+  doi: 10.1007/3-540-56602-3_124
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1531743498
+  auto_discovered: true
+  auto_score: 0.5503
+  auto_depth: 1
+  notes: ''
+  search_query: 'FOIL: A midterm report'
+- key: paulocortez2009using
+  authors:
+  - Paulo Cortez
+  - Juliana Silveira Teixeira
+  - A. L. Cerdeira
+  - Fernando Gomes de Almeida
+  - Telmo Matos
+  - José Luís Reis
+  year: 2009
+  title: Using Data Mining for Wine Quality Assessment
+  venue: Lecture notes in computer science
+  doi: 10.1007/978-3-642-04747-3_8
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1560484089
+  auto_discovered: true
+  auto_score: 0.6046
+  auto_depth: 1
+  notes: ''
+  search_query: Using Data Mining for Wine Quality Assessment
+- key: xiaoxinyin2003cpar
+  authors:
+  - Xiaoxin Yin
+  - Jiawei Han
+  year: 2003
+  title: 'CPAR: Classification based on Predictive Association Rules'
+  venue: ''
+  doi: 10.1137/1.9781611972733.40
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1623342295
+  auto_discovered: true
+  auto_score: 0.6178
+  auto_depth: 1
+  notes: Recent studies in data mining have proposed a new classification approach,
+    called associative classification, which, according to several reports, such as
+    [7, 6], achieves higher classification accuracy than traditional classification
+    approaches such as C4.5. However, the approac...
+  search_query: 'CPAR: Classification based on Predictive Association Rules'
+- key: zhihuazhou2003extracting
+  authors:
+  - Zhi‐Hua Zhou
+  - Yuan Jiang
+  - Shifu Chen
+  year: 2003
+  title: Extracting symbolic rules from trained neural network ensembles
+  venue: ''
+  doi: null
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1645738616
+  auto_discovered: true
+  auto_score: 0.7008
+  auto_depth: 1
+  notes: Neural network ensemble can significantly improve the generalization ability
+    of neural network based systems. However, its comprehensibility is even worse
+    than that of a single neural network because it comprises a collection of individual
+    neural networks. In this paper, an appro...
+  search_query: Extracting symbolic rules from trained neural network ensembles
+- key: johngerardruggie1982international
+  authors:
+  - John Gerard Ruggie
+  year: 1982
+  title: 'International regimes, transactions, and change: embedded liberalism in
+    the postwar economic order'
+  venue: International Organization
+  doi: 10.1017/s0020818300018993
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1992680417
+  auto_discovered: true
+  auto_score: 0.5836
+  auto_depth: 0
+  notes: The prevailing model of international economic regimes is strictly positivistic
+    in its epistemological orientation and stresses the distribution of material power
+    capabilities in its explanatory logic. It is inadequate to account for the current
+    set of international economic regi...
+  search_query: 'International regimes, transactions, and change: embedded liberalism
+    in the postwar economic order'
+- key: philippkrueger2019the
+  authors:
+  - Philipp Krueger
+  - Zacharias Sautner
+  - Laura T. Starks
+  year: 2019
+  title: The Importance of Climate Risks for Institutional Investors
+  venue: Review of Financial Studies
+  doi: 10.1093/rfs/hhz137
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2906323621
+  auto_discovered: true
+  auto_score: 0.6704
+  auto_depth: 0
+  notes: Abstract According to our survey about climate risk perceptions, institutional
+    investors believe climate risks have financial implications for their portfolio
+    firms and that these risks, particularly regulatory risks, already have begun
+    to materialize. Many of the investors, espe...
+  search_query: The Importance of Climate Risks for Institutional Investors
+- key: catherinedignazio2020data
+  authors:
+  - Catherine D’Ignazio
+  - Lauren Klein
+  year: 2020
+  title: Data Feminism
+  venue: The MIT Press eBooks
+  doi: 10.7551/mitpress/11805.001.0001
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W4242918116
+  auto_discovered: true
+  auto_score: 0.6665
+  auto_depth: 0
+  notes: A new way of thinking about data science and data ethics that is informed
+    by the ideas of intersectional feminism. Today, data science is a form of power.
+    It has been used to expose injustice, improve health outcomes, and topple governments.
+    But it has also been used to discrimin...
+  search_query: Data Feminism
+- key: sandergreenland2016statistical
+  authors:
+  - Sander Greenland
+  - Stephen Senn
+  - Kenneth J. Rothman
+  - John B. Carlin
+  - Charles Poole
+  - Steven N. Goodman
+  - Douglas G. Altman
+  year: 2016
+  title: 'Statistical tests, P values, confidence intervals, and power: a guide to
+    misinterpretations'
+  venue: European Journal of Epidemiology
+  doi: 10.1007/s10654-016-0149-3
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2408017125
+  auto_discovered: true
+  auto_score: 0.6648
+  auto_depth: 0
+  notes: Misinterpretation and abuse of statistical tests, confidence intervals, and
+    statistical power have been decried for decades, yet remain rampant. A key problem
+    is that there are no interpretations of these concepts that are at once simple,
+    intuitive, correct, and foolproof. Instea...
+  search_query: 'Statistical tests, P values, confidence intervals, and power: a guide
+    to misinterpretations'
+- key: terryanderson2008the
+  authors:
+  - Terry Anderson
+  - Mohamed Ally
+  - M Ally
+  - M Ally
+  - P Fahy
+  - D Ausubel
+  - Z Berge
+  - Z Berge
+  - M Beynon
+  - C Bonk
+  - T Reynolds
+  - S Cassidy
+  - L Chittaro
+  - R Ranon
+  - R Clark
+  - R Clark
+  - P Cooper
+  - F Craik
+  - R Lockhart
+  - F Craik
+  - E Tulving
+  - T Duffy
+  - D Cunningham
+  - P Ertmer
+  - T Newby
+  - D Garrison
+  - L Gilbert
+  - D Moore
+  - A Hirumi
+  - C Holley
+  - D Dansereau
+  - B Mcdonald
+  - J Garland
+  - K Collins
+  - S Hooper
+  - M Hannafin
+  - D Hung
+  - C Looi
+  - T Koh
+  - T Janicki
+  - J Liegle
+  - D Johnson
+  - R Johnson
+  - J Keller
+  - J Keller
+  - K Suzuki
+  - B Khan
+  - R Kozma
+  - T Malone
+  - R Mayer
+  - R Mayer
+  - G Miller
+  - M Moore
+  - M Mukhopadhyay
+  - M Parhar
+  - K Murphy
+  - L Cifuentes
+  - D Phillips
+  - G Ring
+  - G Mathieux
+  - D Ritchie
+  - B Hoffman
+  - A Rossett
+  - L Rourke
+  - T Anderson
+  - D Garrison
+  - W Archer
+  - A Rovai
+  - J Schmidt
+  - C Werner
+  - D Simmons
+  - R Sternberg
+  - N Stoyanova
+  - P Kommers
+  - D Wiley
+  - B Wilson
+  - H Witkin
+  - C Moore
+  - D Goodenough
+  - P Cox
+  - M Yorke
+  - P Knight
+  - G Baxter
+  - A Elder
+  - R Glaser
+  - M Benedikt
+  - M Byrne
+  - B Flood
+  - P Willis
+  - L Christenson
+  - K Menzel
+  - D Clements
+  - B Nastassi
+  - R Cutler
+  - J Dixon
+  - S Eggins
+  - D Slade
+  - J Esposito
+  - J Farmer
+  - D Feng
+  - E Shaw
+  - J Kim
+  - Hovy
+  - D Garrison
+  - D Shale
+  - J Herrington
+  - R Oliver
+  - D Jonassen
+  - D Jonassen
+  - C Carr
+  - D Kirby
+  - C Boak
+  - R Koper
+  - R Mccool
+  - N Mccormick
+  - '&mccormick'
+  - J Mcdonald
+  - M Morris
+  - C Ogan
+  - Myspace
+  - R Phelps
+  - S Hase
+  - A Ellis
+  - J Potter
+  - M Resnick
+  - L Rourke
+  - T Anderson
+  - G Rumble
+  - G Shank
+  - G Siemens
+  - R Sims
+  - C Smith
+  - S Feld
+  - C Franz
+  - M Smolensky
+  - M Carmondy
+  - C Halcomb
+  - N Spivack
+  - T Angelo
+  - J Brown
+  - A Collins
+  - A Duguid
+  - D Conrad
+  - S Crites
+  - Y Eshet
+  - N Geri
+  - J Harris
+  - K Johnson
+  - H Trabelsi
+  - E Fabbro
+  - D Jonassen
+  - H Kanuka
+  - T Anderson
+  - J Mezirow
+  - E Michelson
+  - S Moisey
+  - J Hughes
+  - H Peters
+  - D Tosh
+  - T Light
+  - K Fleming
+  - J Haywood
+  - L Vlsceanu
+  - L Grnberg
+  - D Prlea
+  - P Abrami
+  - E Bures
+  - W Archer
+  - R Garrison
+  - T Anderson
+  - K Argyle
+  - R Boshier
+  - C Mun Onn
+  - D Chandler
+  - R Clark
+  - R Clark
+  - R Clark
+  - L Dahlberg
+  - J Daniel
+  - S De Castell
+  - S Bryson
+  - J Jenson
+  - J Draper
+  - V Dubrovsky
+  - S Kiesler
+  - B Sethna
+  - S Ebersole
+  - G Garramone
+  - A Harris
+  - R Anderson
+  - D Garrison
+  - D Garrison
+  - T Anderson
+  - W Archer
+  - P Golding
+  - G Murdock
+  - T Harrison
+  - T Stephen
+  - M Hawkes
+  - J Lacroix
+  - G Tremblay
+  - J Lapadat
+  - H Marcuse
+  - L Marx
+  - A Maslow
+  - D Morley
+  - D Nguyen
+  - J Alexander
+  - D Noble
+  - D Noble
+  - B Shneiderman
+  - R Herman
+  - P Agre
+  - P Denning
+  - R Peters
+  - M Poster
+  - C Rogers
+  - R Spears
+  - M Lea
+  - L Sproull
+  - S Kiesler
+  - C Twigg
+  - A Welchman
+  - C Winkelmann
+  - S Woolgar
+  - S Woolgar
+  - S Woolgar
+  - L Zinn
+  - N Friesen
+  - M Lu
+  - B Stewart
+  - D Briton
+  - M Gismondi
+  - B Heller
+  - D Kennepohl
+  - R Mcgreal
+  - C Nelson
+  - Alan Davis Is Vice-President Of Education
+  - M Harsch
+  - W Longmire
+  - T Malloy
+  - R Mcgreal
+  - T Roberts
+  - Inc Neoplanet
+  - S Romero
+  - T Anderson
+  - L Rourke
+  - D Garrison
+  - W Archer
+  - Apple Said
+  - A Bates
+  - M Beaudoin
+  - R Bernard
+  - P Abrami
+  - Y Lou
+  - E Borokhovski
+  - A Wade
+  - L Wozney
+  - P Wallet
+  - M Fiset
+  - B Huang
+  - J Borland
+  - Business
+  - Buy
+  - L Cannell
+  - Y Chen
+  - F Willits
+  - A Chickering
+  - S Ehrmann
+  - A Chickering
+  - Z Gamson
+  - D Conrad
+  - L Constantine
+  - M Copeland
+  - O Malik
+  - R Needleman
+  - D Costa
+  - A Dalton
+  - J Defeo
+  - R Dilworth
+  - V Willis
+  - J Dvorak
+  - J Dvorak
+  - J Epstein
+  - P Fahy
+  - P Fahy
+  - M Ally
+  - C Ferguson
+  - C Fulford
+  - S Zhang
+  - S Garfinkel
+  - D Garrison
+  - D Garrison
+  - T Anderson
+  - W Archer
+  - D Garrison
+  - M Cleveland-Innes
+  - M Gladwell
+  - R Goldman
+  - J Grandzol
+  - C Grandzol
+  - K Greene
+  - G Grow
+  - P Hadenius
+  - K Hounsell
+  - S Hutson
+  - D Kamen
+  - J Koumi
+  - R Kozma
+  - K Loomis
+  - B Machrone
+  - S Makris
+  - A Mandell
+  - L Herman
+  - N Maushak
+  - H Chen
+  - L Martin
+  - B Shaw
+  - D Unfred
+  - C Metz
+  - M Miller
+  - M Miller
+  - M Miller
+  - M Miller
+  - M Miller
+  - M Moore
+  - M Moore
+  - R Morgan
+  - D Murphy
+  - A Nikiforuk
+  - C Null
+  - R Oliver
+  - C Mcloughlin
+  - M Pastore
+  - D Pescovitz
+  - J Picard
+  - V Pittman
+  - Pocket Power
+  - J Pontin
+  - J Pontin
+  - L Ragan
+  - T Rekkedal
+  - E Rhey
+  - W Roush
+  - W Roush
+  - A Rovai
+  - K Barnum
+  - R Rubenking
+  - S Rupley
+  - S Rupley
+  - S Rupley
+  - F Santoro
+  - M Borges
+  - N Santos
+  - S Schmidt
+  - B Scriven
+  - M Shulman
+  - H Simpson
+  - H Pugh
+  - S Parchman
+  - J Surowiecki
+  - M Szabo
+  - D Talbot
+  - D Talbot
+  - D Talbot
+  - D Talbot
+  - L Ulanoff
+  - D Costa
+  - S Vaughan-Nichols
+  - C Vrasidas
+  - M Mcisaac
+  - J Walther
+  - J Walther
+  - G Gay
+  - J Hancock
+  - White Oleds Brighten
+  - C Baber
+  - M Sharples
+  - G Vavoula
+  - P Glew
+  - B Bomsdorf
+  - B Feldmann
+  - G Schlageter
+  - S Carlson
+  - L Clyde
+  - C Dede
+  - T Georgiev
+  - E Georgieva
+  - A Smrikarov
+  - K Killoh
+  - P Smith
+  - S Wasti
+  - S Kirkley
+  - J Kirkley
+  - J Levy
+  - E Magusin
+  - K Johnson
+  - T Tin
+  - C Mcdonald
+  - M Milrad
+  - B Muirhead
+  - D Oblinger
+  - J Oblinger
+  - T Rekkedal
+  - A Dye
+  - G Riva
+  - D Villani
+  - G Roberts
+  - N Rushby
+  - E Wagner
+  - P Wilson
+  - J Waycott
+  - A Kukulska-Hulme
+  - T Woodburn
+  - T Tin
+  - Tony Tin
+  - Yang Cao
+  - ; Athabascau
+  - T Anderson
+  - D Annand
+  - N Wark
+  - T Anderson
+  - N Wark
+  - T Anderson
+  - D Whitelock
+  - D Annand
+  - B Arbaugh
+  - B Bannan-Ritland
+  - J Bersin
+  - J Boticario
+  - O Santos
+  - P Rosmalen
+  - S Downes
+  - J Dron
+  - T Anderson
+  - N Friesen
+  - T Anderson
+  - D Garrison
+  - T Anderson
+  - W Archer
+  - D Garrison
+  - H Kanuka
+  - S Grabinger
+  - J Dunlap
+  - J Greer
+  - G Mccalla
+  - J Vassileva
+  - R Deters
+  - S Bull
+  - L Kettel
+  - S Jones
+  - C Johnson-Yale
+  - L Kester
+  - P Sloep
+  - P Van Rosmalen
+  - F Brouns
+  - M Kone
+  - R Koper
+  - R Koper
+  - R Koper
+  - B Lazarus
+  - G Mccalla
+  - M Paulsen
+  - T Ramage
+  - J Richardson
+  - K Swan
+  - L Rourke
+  - T Anderson
+  - L Rourke
+  - T Anderson
+  - W Archer
+  - D Garrison
+  - V Shute
+  - B Towle
+  - E Stacey
+  - F Stutzman
+  - B Towle
+  - M Halme
+  - C Tu
+  - M Fox
+  - P Helford
+  - R Mcgreal
+  - M Elliott
+  - Dean Caplan Was
+  - Rodger Graham
+  - Acode
+  - J Adams
+  - M Defleur
+  - T Allen
+  - L Arthur
+  - B Beecher
+  - R Elliot
+  - L Newman
+  - K Barker
+  - A Bridgland
+  - C Goodacre
+  - R Brown
+  - D Carnevale
+  - D Carnevale
+  - S Caudron
+  - T Cleary
+  - Efquel
+  - S Ehrmann
+  - (n.D
+  - R Ellis
+  - R Moore
+  - D Gerard
+  - P Greatrix
+  - L Harvey
+  - A Herrington
+  - J Herrington
+  - R Oliver
+  - S Stoney
+  - J Willis
+  - M Hooker
+  - Scott Howell
+  - K Baker
+  - M Kompf
+  - T Lairson
+  - J Larreamendy-Joerns
+  - G Leinhart
+  - M Milliron
+  - C Miles
+  - D Morrison
+  - T Mayes
+  - E Gule
+  - T Nunan
+  - Odlqc
+  - Odlqc
+  - E Pascarella
+  - R Phipps
+  - J Merisotis
+  - W Pond
+  - I Reid
+  - C Shore
+  - S Wright
+  - R Sims
+  - G Dobbs
+  - T Hand
+  - K Spahn
+  - L Vidovich
+  - S Widrick
+  - E Mergen
+  - D Grant
+  - R Zemsky
+  - T Anderson
+  - T Anderson
+  - T Anderson
+  - T Anderson
+  - T Anderson
+  - L Rourke
+  - W Archer
+  - R Garrison
+  - J Arbaugh
+  - E Burge
+  - J Howard
+  - T Bryant
+  - D Cameron
+  - T Anderson
+  - K Campbell
+  - A Collins
+  - J Brown
+  - S Newman
+  - C Dalsgaard
+  - J Daniel
+  - C Marquis
+  - L Davie
+  - J Dixon
+  - H Crooks
+  - K Henry
+  - M Eastin
+  - R Larose
+  - D Garrison
+  - D Garrison
+  - D Garrison
+  - M Baynton
+  - R Garrison
+  - T Anderson
+  - W Archer
+  - M Jiang
+  - E Ting
+  - R Koper
+  - R Koper
+  - R Mason
+  - A Romiszowski
+  - M Paulsen
+  - T Rekkedal
+  - L Rourke
+  - H Kanuka
+  - L Rourke
+  - T Anderson
+  - L Shepard
+  - D Wiley
+  - M Adria
+  - S Chowdhury
+  - M Adria
+  - A Woudstra
+  - C Bartlett
+  - S Ghoshal
+  - R Batt
+  - R Batt
+  - L Moynihan
+  - D Brandt
+  - B Cleveland
+  - T Hopton
+  - D Coen
+  - T Davenport
+  - J Short
+  - A Davis
+  - P Little
+  - B Stewart
+  - C Driscoll
+  - D Wicks
+  - S Doherty
+  - K Eisenhardt
+  - S Frenkel
+  - M Tam
+  - M Korczynski
+  - K Shire
+  - T Friedman
+  - D Garvin
+  - M Roberto
+  - D Holman
+  - B Holt
+  - M Houlihan
+  - S Howell
+  - P Williams
+  - N Lindsay
+  - J Jordan
+  - R Kantsperger
+  - W Kunz
+  - W Kim
+  - R Mauborgne
+  - N Kinnie
+  - S Hutchinson
+  - J Purcell
+  - J Kiska
+  - A Kondra
+  - K Michalczuk
+  - A Kotwal
+  - C Krol
+  - T Lawlor
+  - C Markides
+  - I Mitchell
+  - R Pascale
+  - R Reger
+  - J Mullane
+  - L Gustafson
+  - S Demarie
+  - D Rigby
+  - F Reichheld
+  - C Dawson
+  - P Taylor
+  - P Bain
+  - A Yick
+  - P Patrick
+  - A Costin
+  - D Zapf
+  - A Isic
+  - M Bechtoldt
+  - P Blau
+  - Alex Kondra
+  - E Algenio
+  - T Anderson
+  - M Colgate
+  - M Buchanan-Oliver
+  - R Elmsly
+  - R Cooper
+  - P Dempsey
+  - J Elmborg
+  - D Gapen
+  - T Glynn
+  - C Wu
+  - L Haricombe
+  - R Hulshof
+  - J Lippincott
+  - S Lowe
+  - J Rumery
+  - A Luke
+  - C Kapitzke
+  - V Matthew
+  - A Schroeder
+  - K Morgan
+  - T Reade
+  - G Needham
+  - J Parker
+  - K Baker
+  - M Nicholas
+  - M Tomeo
+  - K Ramsay
+  - J Kinnie
+  - M Simmons
+  - A Slade
+  - A Slade
+  - M Kascus
+  - B Sloan
+  - R Viggiano
+  - M Ault
+  - D Ward
+  - M Kern
+  - D Warner
+  - P Wilson
+  - Elaine Fabbro
+  - J Daniel
+  - C Fichten
+  - J Asuncion
+  - M Barile
+  - M Fossey
+  - C De Simone
+  - W Kim-Rupnow
+  - P Dowrick
+  - S Burke
+  - H Lentell
+  - J O'rourke
+  - S Moisey
+  - E Paist
+  - A Tait
+  - T Wang
+  - C Bennett
+  - S Brewer
+  - J Klein
+  - A Chipman
+  - D Clark
+  - J Gibb
+  - C Delisle
+  - J Thomas
+  - K Jugdev
+  - P Buckle
+  - R Eccles
+  - D Crane
+  - E Gareis
+  - J Hawkrigg
+  - D Hurst
+  - S Follows
+  - T Kalliath
+  - M Laiken
+  - D Lawley
+  - S Lee
+  - C Bonk
+  - R Magjuka
+  - B Su
+  - X Liu
+  - A Malhotra
+  - A Majchrzak
+  - B Rosen
+  - G Mihhailova
+  - P Miller
+  - J Pons
+  - P Naude
+  - L Rourke
+  - T Anderson
+  - R Garrison
+  - W Archer
+  - V Tran
+  - H Latapie
+  - C Waight
+  - B Stewart
+  - B Walther
+  - K Weick
+  - K Weick
+  - H White
+  - S Boorman
+  - R Breiger
+  - E Williams
+  - E Duray
+  year: 2008
+  title: The Theory and Practice of Online Learning
+  venue: Athabasca University Press eBooks
+  doi: 10.15215/aupress/9781897425084.01
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2104357911
+  auto_discovered: true
+  auto_score: 0.639
+  auto_depth: 0
+  notes: The revised version of the Theory and Practice of Online Learning, edited
+    by Terry Anderson, brings together recent developments in both the practice and
+    our understanding of online learning.Five years have since passed between this
+    new edition and the first version.Five years is...
+  search_query: The Theory and Practice of Online Learning
+- key: charlessmaier1988the
+  authors:
+  - Charles S. Maier
+  year: 1988
+  title: The politics of inflation in the twentieth century
+  venue: Cambridge University Press eBooks
+  doi: 10.1017/cbo9780511583995.006
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2103388641
+  auto_discovered: true
+  auto_score: 0.54
+  auto_depth: 1
+  notes: 'The literature on this theme has ballooned in the years since the publication
+    of this article. For essays on recent inflation see Leon Lindberg and Charles
+    S. Maier, eds., The Politics of Inflation and Economic Stagnation (Washington,
+    D.C.: Brookings Institution, 1985), and the c...'
+  search_query: The politics of inflation in the twentieth century
+- key: philippkrueger2015climate
+  authors:
+  - Philipp Krueger
+  year: 2015
+  title: 'Climate Change and Firm Valuation: Evidence from a Quasi-Natural Experiment'
+  venue: SSRN Electronic Journal
+  doi: 10.2139/ssrn.2565523
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W150902392
+  auto_discovered: true
+  auto_score: 0.6207
+  auto_depth: 1
+  notes: ''
+  search_query: 'Climate Change and Firm Valuation: Evidence from a Quasi-Natural
+    Experiment'
+- key: georgeandrewkarolyi2017the
+  authors:
+  - George Andrew Karolyi
+  - Rose C. Liao
+  year: 2017
+  title: 'The Economic Consequences of Investor Relations: A Global Perspective'
+  venue: SSRN Electronic Journal
+  doi: 10.2139/ssrn.2591079
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W263911155
+  auto_discovered: true
+  auto_score: 0.5029
+  auto_depth: 1
+  notes: ''
+  search_query: 'The Economic Consequences of Investor Relations: A Global Perspective'
+- key: robertblitterman2011pricing
+  authors:
+  - Robert B. Litterman
+  year: 2011
+  title: Pricing Climate Change Risk Appropriately
+  venue: Financial Analysts Journal
+  doi: 10.2469/faj.v67.n5.6
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1879669447
+  auto_discovered: true
+  auto_score: 0.6085
+  auto_depth: 1
+  notes: The executive editor discusses his views on an issue of interest to FAJ readers.
+  search_query: Pricing Climate Change Risk Appropriately
+- key: josephamccahery2016behind
+  authors:
+  - Joseph A. McCahery
+  - Zacharias Sautner
+  - Laura T. Starks
+  year: 2016
+  title: 'Behind the Scenes: The Corporate Governance Preferences of Institutional
+    Investors'
+  venue: The Journal of Finance
+  doi: 10.1111/jofi.12393
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1949455802
+  auto_discovered: true
+  auto_score: 0.6569
+  auto_depth: 1
+  notes: ABSTRACT We survey institutional investors to better understand their role
+    in the corporate governance of firms. Consistent with a number of theories, we
+    document widespread behind‐the‐scenes intervention as well as governance‐motivated
+    exit. These governance mechanisms are viewe...
+  search_query: 'Behind the Scenes: The Corporate Governance Preferences of Institutional
+    Investors'
+- key: robertjbarro2014environmental
+  authors:
+  - Robert J. Barro
+  year: 2014
+  title: Environmental Protection, Rare Disasters and Discount Rates
+  venue: Economica
+  doi: 10.1111/ecca.12117
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1977400581
+  auto_discovered: true
+  auto_score: 0.6238
+  auto_depth: 1
+  notes: The Stern Review 's evaluation of environmental protection stresses low discount
+    rates and uncertainty about environmental effects. An appropriate model for analysing
+    this uncertainty and the associated discount rates requires sufficient risk aversion
+    and fat‐tailed uncertainty t...
+  search_query: Environmental Protection, Rare Disasters and Discount Rates
+- key: glendowell2000do
+  authors:
+  - Glen Dowell
+  - Stuart L. Hart
+  - Bernard Yeung
+  year: 2000
+  title: Do Corporate Global Environmental Standards Create or Destroy Market Value?
+  venue: Management Science
+  doi: 10.1287/mnsc.46.8.1059.12030
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2050540653
+  auto_discovered: true
+  auto_score: 0.6157
+  auto_depth: 1
+  notes: Arguments can be made on both sides of the question of whether a stringent
+    global corporate environmental standard represents a competitive asset or liability
+    for multinational enterprises (MNEs) investing in emerging and developing markets.
+    Analyzing the global environmental sta...
+  search_query: Do Corporate Global Environmental Standards Create or Destroy Market
+    Value?
+- key: christophemcglade2015the
+  authors:
+  - Christophe McGlade
+  - Paul Ekins
+  year: 2015
+  title: The geographical distribution of fossil fuels unused when limiting global
+    warming to 2 °C
+  venue: Nature
+  doi: 10.1038/nature14016
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2079300606
+  auto_discovered: true
+  auto_score: 0.6374
+  auto_depth: 1
+  notes: ''
+  search_query: The geographical distribution of fossil fuels unused when limiting
+    global warming to 2 °C
+- key: robertheinkel2001the
+  authors:
+  - Robert Heinkel
+  - Alan Kraus
+  - Josef Zechner
+  year: 2001
+  title: The Effect of Green Investment on Corporate Behavior
+  venue: Journal of Financial and Quantitative Analysis
+  doi: 10.2307/2676219
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2101623803
+  auto_discovered: true
+  auto_score: 0.6193
+  auto_depth: 1
+  notes: This paper explores the effect of exclusionary ethical investing on corporate
+    behavior in a risk-averse, equilibrium setting. While arguments exist that ethical
+    investing can influence a firm's cost of capital, and so affect investment, no
+    equilibrium model has been presented to ...
+  search_query: The Effect of Green Investment on Corporate Behavior
+- key: paisleycurrah2011securitizing
+  authors:
+  - Paisley Currah
+  - Tara Mulqueen
+  year: 2011
+  title: 'Securitizing Gender: Identity, Biometrics, and Transgender Bodies at the
+    Airport'
+  venue: Social research
+  doi: 10.1353/sor.2011.0030
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W130458115
+  auto_discovered: true
+  auto_score: 0.6066
+  auto_depth: 1
+  notes: It is widely assumed that the more information surveillance apparatuses can
+    collect about an individual, the less risk she poses. In this article, we examine
+    how gender figures into and potentially disrupts the link between identity and
+    security. Our analysis centers on one very ...
+  search_query: 'Securitizing Gender: Identity, Biometrics, and Transgender Bodies
+    at the Airport'
+- key: gregbuchak2018fintech
+  authors:
+  - Greg Buchak
+  - Gregor Matvos
+  - Tomasz Piskorski
+  - Amit Seru
+  year: 2018
+  title: Fintech, regulatory arbitrage, and the rise of shadow banks
+  venue: Journal of Financial Economics
+  doi: 10.1016/j.jfineco.2018.03.011
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2603785580
+  auto_discovered: true
+  auto_score: 0.6631
+  auto_depth: 0
+  notes: Founded in 1920, the NBER is a private, non-profit, non-partisan organization
+    dedicated to conducting economic research and to disseminating research findings
+    among academics, public policy makers, and business professionals.
+  search_query: Fintech, regulatory arbitrage, and the rise of shadow banks
+- key: sumitagarwal2010distance
+  authors:
+  - Sumit Agarwal
+  - Robert Hauswald
+  year: 2010
+  title: Distance and Private Information in Lending
+  venue: Review of Financial Studies
+  doi: 10.1093/rfs/hhq001
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2058576880
+  auto_discovered: true
+  auto_score: 0.6404
+  auto_depth: 0
+  notes: We study the effects of physical distance on the acquisition and use of private
+    information in informationally opaque credit markets. Using a unique data set
+    of all loan applications by small firms to a large bank, we show that borrower
+    proximity facilitates the collection of sof...
+  search_query: Distance and Private Information in Lending
+- key: yuliyademyanyk2009understanding
+  authors:
+  - Yuliya Demyanyk
+  - Otto Van Hemert
+  year: 2009
+  title: Understanding the Subprime Mortgage Crisis
+  venue: Review of Financial Studies
+  doi: 10.1093/rfs/hhp033
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W4241957989
+  auto_discovered: true
+  auto_score: 0.6336
+  auto_depth: 0
+  notes: Using loan-level data, we analyze the quality of subprime mortgage loans
+    by adjusting their performance for differences in borrower characteristics, loan
+    characteristics, and macroeconomic conditions. We find that the quality of loans
+    deteriorated for six consecutive years before...
+  search_query: Understanding the Subprime Mortgage Crisis
+- key: leylamammadova2021peer
+  authors:
+  - Leyla Mammadova
+  year: 2021
+  title: 'Peer-to-peer (P2P) lending: default, default dependency and industry potential'
+  venue: Figshare
+  doi: 10.26174/thesis.lboro.14544420.v1
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W3216260155
+  auto_discovered: true
+  auto_score: 0.5975
+  auto_depth: 0
+  notes: The thesis presents three empirical chapters on the credit risk and industry
+    potential of the Peer-to-Peer (P2P) market. The first empirical chapter explores
+    default risk which considers macroeconomic factors in addition to traditional
+    determinants such as credit scores, loan-to-...
+  search_query: 'Peer-to-peer (P2P) lending: default, default dependency and industry
+    potential'
+- key: alejandrodrexler2014keeping
+  authors:
+  - Alejandro Drexler
+  - Greg Fischer
+  - Antoinette Schoar
+  year: 2014
+  title: 'Keeping It Simple: Financial Literacy and Rules of Thumb'
+  venue: American Economic Journal Applied Economics
+  doi: 10.1257/app.6.2.1
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1547003862
+  auto_discovered: true
+  auto_score: 0.6438
+  auto_depth: 0
+  notes: 'Micro-entrepreneurs often lack the financial literacy required to make important
+    financial decisions. We conducted a randomized evaluation with a bank in the Dominican
+    Republic to compare the impact of two distinct programs: standard accounting training
+    versus a simplified, rule-...'
+  search_query: 'Keeping It Simple: Financial Literacy and Rules of Thumb'
+- key: anon2011guaranteed
+  authors: []
+  year: 2011
+  title: 'Guaranteed to fail: Fannie Mae, Freddie Mac, and the debacle of mortgage
+    finance'
+  venue: Choice Reviews Online
+  doi: 10.5860/choice.49-0987
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1460510001
+  auto_discovered: true
+  auto_score: 0.6187
+  auto_depth: 1
+  notes: The financial collapse of Fannie Mae and Freddie Mac in 2008 led to one of
+    the most sweeping government interventions in private financial markets in history.
+    The bailout has already cost American taxpayers close to $150 billion, and substantially
+    more will be needed. The U.S. ec...
+  search_query: 'Guaranteed to fail: Fannie Mae, Freddie Mac, and the debacle of mortgage
+    finance'
+- key: benjaminjkeys2013mortgage
+  authors:
+  - Benjamin J. Keys
+  - Tomasz Piskorski
+  - Amit Seru
+  - Vikrant Vig
+  year: 2013
+  title: Mortgage Financing in the Housing Boom and Bust
+  venue: ''
+  doi: 10.7208/chicago/9780226030616.003.0005
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1560906003
+  auto_discovered: true
+  auto_score: 0.6176
+  auto_depth: 1
+  notes: The recent domestic financial crisis has become a global phenomenon.With
+    "crisis-like" events unfolding on a regular basis around the world, it is easy
+    to forget that the financial crisis started with the US subprime mortgage market.This
+    is the same part of the market that not so...
+  search_query: Mortgage Financing in the Housing Boom and Bust
+- key: sumitagarwal2015mortgage
+  authors:
+  - Sumit Agarwal
+  - Gene Amromin
+  - Souphala Chomsisengphet
+  - Tim Landvoigt
+  - Tomasz Piskorski
+  - Amit Seru
+  - Vincent Yao
+  year: 2015
+  title: 'Mortgage Refinancing, Consumer Spending, and Competition: Evidence from
+    the Home Affordable Refinancing Program'
+  venue: National Bureau of Economic Research
+  doi: 10.3386/w21512
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1938180896
+  auto_discovered: true
+  auto_score: 0.6277
+  auto_depth: 1
+  notes: Using loan-level mortgage data merged with consumer credit records, we examine
+    the ability of the government to impact mortgage refinancing activity and spur
+    consumption by focusing on the Home Affordable Refinance Program (HARP). The policy
+    relaxed housing equity constraints by ...
+  search_query: 'Mortgage Refinancing, Consumer Spending, and Competition: Evidence
+    from the Home Affordable Refinancing Program'
+- key: robingreenwood2013the
+  authors:
+  - Robin Greenwood
+  - David Scharfstein
+  year: 2013
+  title: The Growth of Finance
+  venue: The Journal of Economic Perspectives
+  doi: 10.1257/jep.27.2.3
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1965808745
+  auto_discovered: true
+  auto_score: 0.636
+  auto_depth: 1
+  notes: The US financial services industry grew from 4.9 percent of GDP in 1980 to
+    7.9 percent of GDP in 2007. A sizeable portion of the growth can be explained
+    by rising asset management fees, which in turn were driven by increases in the
+    valuation of tradable assets, particularly equit...
+  search_query: The Growth of Finance
+- key: neilbhutta2010gse
+  authors:
+  - Neil Bhutta
+  year: 2010
+  title: 'GSE Activity and Mortgage Supply in Lower-Income and Minority Neighborhoods:
+    The Effect of the Affordable Housing Goals'
+  venue: The Journal of Real Estate Finance and Economics
+  doi: 10.1007/s11146-010-9258-z
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1971774389
+  auto_discovered: true
+  auto_score: 0.6068
+  auto_depth: 1
+  notes: ''
+  search_query: 'GSE Activity and Mortgage Supply in Lower-Income and Minority Neighborhoods:
+    The Effect of the Affordable Housing Goals'
+- key: arthurmaillart2024distill
+  authors:
+  - Arthur Maillart
+  - Christian Y. Robert
+  year: 2024
+  title: 'Distill knowledge of additive tree models into generalized linear models:
+    a new learning approach for non-smooth generalized additive models'
+  venue: Annals of Actuarial Science
+  doi: 10.1017/s1748499524000241
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W4404358618
+  auto_discovered: true
+  auto_score: 0.8126
+  auto_depth: 0
+  notes: Abstract Generalized additive models (GAMs) are a leading model class for
+    interpretable machine learning. GAMs were originally defined with smooth shape
+    functions of the predictor variables and trained using smoothing splines. Recently,
+    tree-based GAMs where shape functions are g...
+  search_query: 'Distill knowledge of additive tree models into generalized linear
+    models: a new learning approach for non-smooth generalized additive models'
+- key: shamsforruqueahmed2023deep
+  authors:
+  - Shams Forruque Ahmed
+  - Md. Sakib Bin Alam
+  - Maruf Hassan
+  - Mahtabin Rodela Rozbu
+  - Taoseef Ishtiak
+  - Nazifa Rafa
+  - M. Mofijur
+  - A. B. M. Shawkat Ali
+  - Amir H. Gandomi
+  year: 2023
+  title: 'Deep learning modelling techniques: current progress, applications, advantages,
+    and challenges'
+  venue: Artificial Intelligence Review
+  doi: 10.1007/s10462-023-10466-8
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W4366091323
+  auto_discovered: true
+  auto_score: 0.669
+  auto_depth: 0
+  notes: Abstract Deep learning (DL) is revolutionizing evidence-based decision-making
+    techniques that can be applied across various sectors. Specifically, it possesses
+    the ability to utilize two or more levels of non-linear feature transformation
+    of the given data via representation lear...
+  search_query: 'Deep learning modelling techniques: current progress, applications,
+    advantages, and challenges'
+- key: gileshooker2004discovering
+  authors:
+  - Giles Hooker
+  year: 2004
+  title: Discovering additive structure in black box functions
+  venue: ''
+  doi: 10.1145/1014052.1014122
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2094839437
+  auto_discovered: true
+  auto_score: 0.6999
+  auto_depth: 1
+  notes: 'Many automated learning procedures lack interpretability, operating effectively
+    as a black box: providing a prediction tool but no explanation of the underlying
+    dynamics that drive it. A common approach to interpretation is to plot the dependence
+    of a learned function on one or t...'
+  search_query: Discovering additive structure in black box functions
+- key: trevorhastie1986generalized
+  authors:
+  - Trevor Hastie
+  - Robert Tibshirani
+  year: 1986
+  title: Generalized Additive Models
+  venue: Statistical Science
+  doi: 10.1214/ss/1177013604
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2166163519
+  auto_discovered: true
+  auto_score: 0.5908
+  auto_depth: 1
+  notes: Likelihood-based regression models such as the normal linear regression model
+    and the linear logistic model, assume a linear (or some other parametric) form
+    for the covariates $X_1, X_2, \cdots, X_p$. We introduce the class of generalized
+    additive models which replaces the linear...
+  search_query: Generalized Additive Models
+- key: sarahtan2018learning
+  authors:
+  - Sarah Tan
+  - Rich Caruana
+  - Giles Hooker
+  - Paul Koch
+  - Albert Gordo
+  year: 2018
+  title: Learning Global Additive Explanations for Neural Nets Using Model Distillation
+  venue: arXiv (Cornell University)
+  doi: null
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2903566196
+  auto_discovered: true
+  auto_score: 0.8306
+  auto_depth: 1
+  notes: Interpretability has largely focused on local explanations, i.e. explaining
+    why a model made a particular prediction for a sample. These explanations are
+    appealing due to their simplicity and local fidelity. However, they do not provide
+    information about the general behavior of t...
+  search_query: Learning Global Additive Explanations for Neural Nets Using Model
+    Distillation
+- key: leobreiman2001random
+  authors:
+  - Leo Breiman
+  year: 2001
+  title: Random Forests
+  venue: Machine Learning
+  doi: 10.1023/a:1010933404324
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2911964244
+  auto_discovered: true
+  auto_score: 0.64
+  auto_depth: 1
+  notes: ''
+  search_query: Random Forests
+- key: roelhenckaerts2022when
+  authors:
+  - Roel Henckaerts
+  - Katrien Antonio
+  - Marie‐Pier Côté
+  year: 2022
+  title: 'When stakes are high: Balancing accuracy and transparency with Model-Agnostic
+    Interpretable Data-driven suRRogates'
+  venue: Expert Systems with Applications
+  doi: 10.1016/j.eswa.2022.117230
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W3112198773
+  auto_discovered: true
+  auto_score: 0.9283
+  auto_depth: 1
+  notes: ''
+  search_query: 'When stakes are high: Balancing accuracy and transparency with Model-Agnostic
+    Interpretable Data-driven suRRogates'
+- key: simonnwood2017generalized
+  authors:
+  - Simon N. Wood
+  year: 2017
+  title: Generalized Additive Models
+  venue: ''
+  doi: 10.1201/9781315370279
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W3112717819
+  auto_discovered: true
+  auto_score: 0.6772
+  auto_depth: 1
+  notes: The first edition of this book has established itself as one of the leading
+    references on generalized additive models (GAMs), and the only book on the topic
+    to be introductory in nature with a wealth of practical examples and software
+    implementation. It is self-contained, providi...
+  search_query: Generalized Additive Models
+- key: geoffreyehinton2011transforming
+  authors:
+  - Geoffrey E. Hinton
+  - Alex Krizhevsky
+  - Sida D. Wang
+  year: 2011
+  title: Transforming Auto-Encoders
+  venue: Lecture notes in computer science
+  doi: 10.1007/978-3-642-21735-7_6
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2966661
+  auto_discovered: true
+  auto_score: 0.643
+  auto_depth: 1
+  notes: ''
+  search_query: Transforming Auto-Encoders
+- key: tommikolov2010recurrent
+  authors:
+  - Tomáš Mikolov
+  - Martin Karafiát
+  - Lukáš Burget
+  - Jaň Černocký
+  - Sanjeev Khudanpur
+  year: 2010
+  title: Recurrent neural network based language model
+  venue: ''
+  doi: 10.21437/interspeech.2010-343
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W179875071
+  auto_discovered: true
+  auto_score: 0.6558
+  auto_depth: 1
+  notes: A new recurrent neural network based language model (RNN LM) with applications
+    to speech recognition is presented. Results indicate that it is possible to obtain
+    around 50% reduction of perplexity by using mixture of several RNN LMs, compared
+    to a state of the art backoff languag...
+  search_query: Recurrent neural network based language model
+- key: robertlund2006advances
+  authors:
+  - Robert Lund
+  year: 2006
+  title: 'Advances in Neural Information Processing Systems 17: Proceedings of the
+    2004 Conference'
+  venue: Quarterly Publications of the American Statistical Association
+  doi: null
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W189950281
+  auto_discovered: true
+  auto_score: 0.5998
+  auto_depth: 1
+  notes: ''
+  search_query: 'Advances in Neural Information Processing Systems 17: Proceedings
+    of the 2004 Conference'
+- key: fritzgnther2015latent
+  authors:
+  - Fritz Günther
+  - Carolin Dudschig
+  - Barbara Kaup
+  year: 2015
+  title: 'Latent semantic analysis cosines as a cognitive similarity measure: Evidence
+    from priming studies'
+  venue: Quarterly Journal of Experimental Psychology
+  doi: 10.1080/17470218.2015.1038280
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1694003152
+  auto_discovered: true
+  auto_score: 0.6239
+  auto_depth: 1
+  notes: In distributional semantics models (DSMs) such as latent semantic analysis
+    (LSA), words are represented as vectors in a high-dimensional vector space. This
+    allows for computing word similarities as the cosine of the angle between two
+    such vectors. In two experiments, we investiga...
+  search_query: 'Latent semantic analysis cosines as a cognitive similarity measure:
+    Evidence from priming studies'
+- key: jiewang2016financial
+  authors:
+  - Jie Wang
+  - Jie Wang
+  - Jun Wang
+  - Jun Wang
+  - Fang Wen
+  - Hongli Niu
+  year: 2016
+  title: Financial Time Series Prediction Using Elman Recurrent Random Neural Networks
+  venue: Computational Intelligence and Neuroscience
+  doi: 10.1155/2016/4742515
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1753383671
+  auto_discovered: true
+  auto_score: 0.6275
+  auto_depth: 1
+  notes: In recent years, financial market dynamics forecasting has been a focus of
+    economic research. To predict the price indices of stock markets, we developed
+    an architecture which combined Elman recurrent neural networks with stochastic
+    time effective function. By analyzing the propo...
+  search_query: Financial Time Series Prediction Using Elman Recurrent Random Neural
+    Networks
+- key: pedroantoniogutirrez2011hybrid
+  authors:
+  - Pedro Antonio Gutiérrez
+  - César Hervás‐Martínez
+  year: 2011
+  title: 'Hybrid Artificial Neural Networks: Models, Algorithms and Data'
+  venue: Lecture notes in computer science
+  doi: 10.1007/978-3-642-21498-1_23
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1836772262
+  auto_discovered: true
+  auto_score: 0.697
+  auto_depth: 1
+  notes: ''
+  search_query: 'Hybrid Artificial Neural Networks: Models, Algorithms and Data'
+- key: antoinebordes2014question
+  authors:
+  - Antoine Bordes
+  - Sumit Chopra
+  - Jason Weston
+  year: 2014
+  title: Question Answering with Subgraph Embeddings
+  venue: ''
+  doi: 10.3115/v1/d14-1067
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1894439495
+  auto_discovered: true
+  auto_score: 0.6427
+  auto_depth: 1
+  notes: This paper presents a system which learns to answer questions on a broad
+    range of topics from a knowledge base using few hand-crafted features. Our model
+    learns low-dimensional embeddings of words and knowledge base constituents; these
+    representations are used to score natural la...
+  search_query: Question Answering with Subgraph Embeddings
+- key: halrvarian2014big
+  authors:
+  - Hal R. Varian
+  year: 2014
+  title: 'Big Data: New Tricks for Econometrics'
+  venue: The Journal of Economic Perspectives
+  doi: 10.1257/jep.28.2.3
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2155419203
+  auto_discovered: true
+  auto_score: 0.9521
+  auto_depth: 0
+  notes: Computers are now involved in many economic transactions and can capture
+    data associated with these transactions, which can then be manipulated and analyzed.
+    Conventional statistical and econometric techniques such as regression often work
+    well, but there are issues unique to big...
+  search_query: 'Big Data: New Tricks for Econometrics'
+- key: vikashassija2023interpreting
+  authors:
+  - Vikas Hassija
+  - Vinay Chamola
+  - Atmesh Mahapatra
+  - Abhinandan Singal
+  - Divyansh Goel
+  - Kaizhu Huang
+  - Simone Scardapane
+  - Indro Spinelli
+  - Mufti Mahmud
+  - Amir Hussain
+  year: 2023
+  title: 'Interpreting Black-Box Models: A Review on Explainable Artificial Intelligence'
+  venue: Cognitive Computation
+  doi: 10.1007/s12559-023-10179-8
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W4386142022
+  auto_discovered: true
+  auto_score: 0.9753
+  auto_depth: 0
+  notes: Abstract Recent years have seen a tremendous growth in Artificial Intelligence
+    (AI)-based methodological development in a broad range of domains. In this rapidly
+    evolving field, large number of methods are being reported using machine learning
+    (ML) and Deep Learning (DL) models. ...
+  search_query: 'Interpreting Black-Box Models: A Review on Explainable Artificial
+    Intelligence'
+- key: sajidali2023explainable
+  authors:
+  - Sajid Ali
+  - Tamer Abuhmed
+  - Shaker El–Sappagh
+  - Khan Muhammad
+  - José M. Alonso
+  - Roberto Confalonieri
+  - Riccardo Guidotti
+  - Javier Del Ser
+  - Natalia Díaz-Rodríguez
+  - Francisco Herrera
+  year: 2023
+  title: 'Explainable Artificial Intelligence (XAI): What we know and what is left
+    to attain Trustworthy Artificial Intelligence'
+  venue: Information Fusion
+  doi: 10.1016/j.inffus.2023.101805
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W4366262984
+  auto_discovered: true
+  auto_score: 0.9738
+  auto_depth: 0
+  notes: Artificial intelligence (AI) is currently being utilized in a wide range
+    of sophisticated applications, but the outcomes of many AI models are challenging
+    to comprehend and trust due to their black-box nature. Usually, it is essential
+    to understand the reasoning behind an AI mode...
+  search_query: 'Explainable Artificial Intelligence (XAI): What we know and what
+    is left to attain Trustworthy Artificial Intelligence'
+- key: garethjames2018an
+  authors:
+  - Gareth James
+  - Daniela Witten
+  - Trevor Hastie
+  - Robert Tibshirani
+  year: 2018
+  title: 'An Introduction to Statistical Learning: with Applications in R'
+  venue: ''
+  doi: 10.25334/q4ht55
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1492815834
+  auto_discovered: true
+  auto_score: 0.6694
+  auto_depth: 1
+  notes: This book provides an introduction to statistical learning methods and is
+    aimed for upper level undergraduate students, masters students and Ph.D. students
+    in the non-mathematical sciences.
+  search_query: 'An Introduction to Statistical Learning: with Applications in R'
+- key: kevinpmurphy2012machine
+  authors:
+  - Kevin P. Murphy
+  year: 2012
+  title: Machine learning a probabilistic perspective
+  venue: ''
+  doi: null
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1503398984
+  auto_discovered: true
+  auto_score: 0.6667
+  auto_depth: 1
+  notes: Today's Web-enabled deluge of electronic data calls for automated methods
+    of data analysis. Machine learning provides these, developing methods that can
+    automatically detect patterns in data and then use the uncovered patterns to predict
+    future data. This textbook offers a compre...
+  search_query: Machine learning a probabilistic perspective
+- key: wnvenables2002modern
+  authors:
+  - W. N. Venables
+  - B. D. Ripley
+  year: 2002
+  title: Modern Applied Statistics with S
+  venue: Statisctics and computing/Statistics and computing
+  doi: 10.1007/978-0-387-21706-2
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1513618424
+  auto_discovered: true
+  auto_score: 0.6425
+  auto_depth: 1
+  notes: ''
+  search_query: Modern Applied Statistics with S
+- key: stevenlscott2013bayesian
+  authors:
+  - Steven L. Scott
+  - Hal R. Varian
+  year: 2013
+  title: Bayesian Variable Selection for Nowcasting Economic Time Series
+  venue: National Bureau of Economic Research
+  doi: 10.3386/w19567
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1541382389
+  auto_discovered: true
+  auto_score: 0.6228
+  auto_depth: 1
+  notes: 'We consider the problem of short-term time series forecasting (nowcasting)
+    when there are more possible predictors than observations. Our approach combines
+    three Bayesian techniques: Kalman filtering, spike-and-slab regression, and model
+    averaging. We illustrate this approach usi...'
+  search_query: Bayesian Variable Selection for Nowcasting Economic Time Series
+- key: anon2009the
+  authors: []
+  year: 2009
+  title: The Top Ten Algorithms in Data Mining
+  venue: ''
+  doi: 10.1201/9781420089653
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1542270631
+  auto_discovered: true
+  auto_score: 0.6306
+  auto_depth: 1
+  notes: Identifying some of the most influential algorithms that are widely used
+    in the data mining community, this volume provides a description of each algorithm,
+    discusses the impact of the algorithms, and reviews current and future research
+    on the algorithms. Thoroughly evaluated by ...
+  search_query: The Top Ten Algorithms in Data Mining
+- key: trevorhastie2013the
+  authors:
+  - Trevor Hastie
+  - Robert Tibshirani
+  - Jerome H. Friedman
+  year: 2013
+  title: 'The Elements of Statistical Learning: Data Mining, Inference, and Prediction'
+  venue: ''
+  doi: 10.1007/978-0-387-84858-7
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1554944419
+  auto_discovered: true
+  auto_score: 0.67
+  auto_depth: 1
+  notes: Covers supervised learning (prediction) to unsupervised learning. This book
+    contains topics including neural networks, support vector machines, classification
+    trees and boosting
+  search_query: 'The Elements of Statistical Learning: Data Mining, Inference, and
+    Prediction'
+- key: alexandergordon1984classification
+  authors:
+  - Alexander Gordon
+  - Leo Breiman
+  - Jerome H. Friedman
+  - Richard A. Olshen
+  - C. J. Stone
+  year: 1984
+  title: Classification and Regression Trees.
+  venue: Biometrics
+  doi: 10.2307/2530946
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1594031697
+  auto_discovered: true
+  auto_score: 0.5975
+  auto_depth: 1
+  notes: The methodology used to construct tree structured rules is the focus of this
+    monograph. Unlike many other statistical procedures, which moved from pencil and
+    paper to calculators, this text's use of trees was unthinkable before computers.
+    Both the practical and theoretical sides ...
+  search_query: Classification and Regression Trees.

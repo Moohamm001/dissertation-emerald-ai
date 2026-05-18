@@ -69,7 +69,8 @@
   "lightgbm": {
     "kind": "method",
     "paper_keys": [
-      "ke2017lightgbm"
+      "ke2017lightgbm",
+      "vinhquangtran2024predicting"
     ],
     "term": "lightgbm",
     "themes": []
@@ -125,7 +126,8 @@
     "kind": "method",
     "paper_keys": [
       "lessmann2015benchmark",
-      "breiman2001randomforest"
+      "breiman2001randomforest",
+      "leobreiman2001random"
     ],
     "term": "random forest",
     "themes": []

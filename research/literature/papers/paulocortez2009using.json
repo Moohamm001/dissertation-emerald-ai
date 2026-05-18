@@ -1,0 +1,36 @@
+{
+  "key": "paulocortez2009using",
+  "title": "Using Data Mining for Wine Quality Assessment",
+  "authors": [
+    "Paulo Cortez",
+    "Juliana Silveira Teixeira",
+    "A. L. Cerdeira",
+    "Fernando Gomes de Almeida",
+    "Telmo Matos",
+    "José Luís Reis"
+  ],
+  "year": 2009,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Lecture notes in computer science",
+  "doi": "10.1007/978-3-642-04747-3_8",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6046 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Using Data Mining for Wine Quality Assessment",
+  "notes": "",
+  "source_files": [
+    "research\\literature\\papers\\paulocortez2009using.md"
+  ],
+  "first_seen": "2026-05-18T11:35:44.525119Z",
+  "last_updated": "2026-05-18T11:35:44.534050Z"
+}

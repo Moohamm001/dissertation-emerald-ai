@@ -1,0 +1,32 @@
+{
+  "key": "joelhasbrouck2013low",
+  "title": "Low-latency trading",
+  "authors": [
+    "Joel Hasbrouck",
+    "Gideon Saar"
+  ],
+  "year": 2013,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Journal of Financial Markets",
+  "doi": "10.1016/j.finmar.2013.05.003",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.568 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Low-latency trading",
+  "notes": "",
+  "source_files": [
+    "research\\literature\\papers\\joelhasbrouck2013low.md"
+  ],
+  "first_seen": "2026-05-18T11:35:44.368558Z",
+  "last_updated": "2026-05-18T11:35:44.378979Z"
+}

@@ -1,0 +1,31 @@
+{
+  "key": "halrvarian2014big",
+  "title": "Big Data: New Tricks for Econometrics",
+  "authors": [
+    "Hal R. Varian"
+  ],
+  "year": 2014,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "The Journal of Economic Perspectives",
+  "doi": "10.1257/jep.28.2.3",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.9521 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Big Data: New Tricks for Econometrics",
+  "notes": "Computers are now involved in many economic transactions and can capture data associated with these transactions, which can then be manipulated and analyzed. Conventional statistical and econometric techniques such as regression often work well, but there are issues unique to big...",
+  "source_files": [
+    "research\\literature\\papers\\halrvarian2014big.md"
+  ],
+  "first_seen": "2026-05-18T11:35:45.484672Z",
+  "last_updated": "2026-05-18T11:35:45.494593Z"
+}

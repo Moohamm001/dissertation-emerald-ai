@@ -1,0 +1,33 @@
+{
+  "key": "zhihuazhou2003extracting",
+  "title": "Extracting symbolic rules from trained neural network ensembles",
+  "authors": [
+    "Zhi‐Hua Zhou",
+    "Yuan Jiang",
+    "Shifu Chen"
+  ],
+  "year": 2003,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "",
+  "doi": null,
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.7008 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Extracting symbolic rules from trained neural network ensembles",
+  "notes": "Neural network ensemble can significantly improve the generalization ability of neural network based systems. However, its comprehensibility is even worse than that of a single neural network because it comprises a collection of individual neural networks. In this paper, an appro...",
+  "source_files": [
+    "research\\literature\\papers\\zhihuazhou2003extracting.md"
+  ],
+  "first_seen": "2026-05-18T11:35:44.568732Z",
+  "last_updated": "2026-05-18T11:35:44.577335Z"
+}

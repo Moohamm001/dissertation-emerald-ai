@@ -1,0 +1,31 @@
+{
+  "key": "simonnwood2017generalized",
+  "title": "Generalized Additive Models",
+  "authors": [
+    "Simon N. Wood"
+  ],
+  "year": 2017,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "",
+  "doi": "10.1201/9781315370279",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6772 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Generalized Additive Models",
+  "notes": "The first edition of this book has established itself as one of the leading references on generalized additive models (GAMs), and the only book on the topic to be introductory in nature with a wealth of practical examples and software implementation. It is self-contained, providi...",
+  "source_files": [
+    "research\\literature\\papers\\simonnwood2017generalized.md"
+  ],
+  "first_seen": "2026-05-18T11:35:45.310963Z",
+  "last_updated": "2026-05-18T11:35:45.320599Z"
+}

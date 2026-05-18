@@ -1,4 +1,340 @@
 {
+  "&mccormick": {
+    "institutions": [],
+    "name": "&mccormick",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "(n.D": {
+    "institutions": [],
+    "name": "(n.D",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "; Athabascau": {
+    "institutions": [],
+    "name": "; Athabascau",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "A Bates": {
+    "institutions": [],
+    "name": "A Bates",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "A Bridgland": {
+    "institutions": [],
+    "name": "A Bridgland",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "A Chickering": {
+    "institutions": [],
+    "name": "A Chickering",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "A Chipman": {
+    "institutions": [],
+    "name": "A Chipman",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "A Collins": {
+    "institutions": [],
+    "name": "A Collins",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "A Costin": {
+    "institutions": [],
+    "name": "A Costin",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "A Dalton": {
+    "institutions": [],
+    "name": "A Dalton",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "A Davis": {
+    "institutions": [],
+    "name": "A Davis",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "A Duguid": {
+    "institutions": [],
+    "name": "A Duguid",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "A Dye": {
+    "institutions": [],
+    "name": "A Dye",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "A Elder": {
+    "institutions": [],
+    "name": "A Elder",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "A Ellis": {
+    "institutions": [],
+    "name": "A Ellis",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "A Harris": {
+    "institutions": [],
+    "name": "A Harris",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "A Herrington": {
+    "institutions": [],
+    "name": "A Herrington",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "A Hirumi": {
+    "institutions": [],
+    "name": "A Hirumi",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "A Isic": {
+    "institutions": [],
+    "name": "A Isic",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "A Kondra": {
+    "institutions": [],
+    "name": "A Kondra",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "A Kotwal": {
+    "institutions": [],
+    "name": "A Kotwal",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "A Kukulska-Hulme": {
+    "institutions": [],
+    "name": "A Kukulska-Hulme",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "A Luke": {
+    "institutions": [],
+    "name": "A Luke",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "A Majchrzak": {
+    "institutions": [],
+    "name": "A Majchrzak",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "A Malhotra": {
+    "institutions": [],
+    "name": "A Malhotra",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "A Mandell": {
+    "institutions": [],
+    "name": "A Mandell",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "A Maslow": {
+    "institutions": [],
+    "name": "A Maslow",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "A Nikiforuk": {
+    "institutions": [],
+    "name": "A Nikiforuk",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "A Romiszowski": {
+    "institutions": [],
+    "name": "A Romiszowski",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "A Rossett": {
+    "institutions": [],
+    "name": "A Rossett",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "A Rovai": {
+    "institutions": [],
+    "name": "A Rovai",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "A Schroeder": {
+    "institutions": [],
+    "name": "A Schroeder",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "A Slade": {
+    "institutions": [],
+    "name": "A Slade",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "A Smrikarov": {
+    "institutions": [],
+    "name": "A Smrikarov",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "A Tait": {
+    "institutions": [],
+    "name": "A Tait",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "A Wade": {
+    "institutions": [],
+    "name": "A Wade",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "A Welchman": {
+    "institutions": [],
+    "name": "A Welchman",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "A Woudstra": {
+    "institutions": [],
+    "name": "A Woudstra",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "A Yick": {
+    "institutions": [],
+    "name": "A Yick",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "A. B. M. Shawkat Ali": {
+    "institutions": [],
+    "name": "A. B. M. Shawkat Ali",
+    "paper_keys": [
+      "shamsforruqueahmed2023deep"
+    ],
+    "themes": []
+  },
+  "A. L. Cerdeira": {
+    "institutions": [],
+    "name": "A. L. Cerdeira",
+    "paper_keys": [
+      "paulocortez2009using"
+    ],
+    "themes": []
+  },
+  "A. R. Thatcher": {
+    "institutions": [],
+    "name": "A. R. Thatcher",
+    "paper_keys": [
+      "alexgammerman1990bayesian"
+    ],
+    "themes": []
+  },
   "A. Reghan Foley": {
     "institutions": [],
     "name": "A. Reghan Foley",
@@ -67,6 +403,14 @@
       "xai-finance"
     ]
   },
+  "Abhinandan Singal": {
+    "institutions": [],
+    "name": "Abhinandan Singal",
+    "paper_keys": [
+      "vikashassija2023interpreting"
+    ],
+    "themes": []
+  },
   "Abreu, P. H.": {
     "institutions": [],
     "name": "Abreu, P. H.",
@@ -85,11 +429,27 @@
     ],
     "themes": []
   },
+  "Acode": {
+    "institutions": [],
+    "name": "Acode",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
   "Adam Auton": {
     "institutions": [],
     "name": "Adam Auton",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Adam Kapelner": {
+    "institutions": [],
+    "name": "Adam Kapelner",
+    "paper_keys": [
+      "alexgoldstein2014peeking"
     ],
     "themes": []
   },
@@ -131,6 +491,14 @@
     "name": "Adrian Tan",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Adrien Bennetot": {
+    "institutions": [],
+    "name": "Adrien Bennetot",
+    "paper_keys": [
+      "alejandrobarredoarrieta2019explainable"
     ],
     "themes": []
   },
@@ -176,6 +544,14 @@
       "methodology"
     ]
   },
+  "Alan Davis Is Vice-President Of Education": {
+    "institutions": [],
+    "name": "Alan Davis Is Vice-President Of Education",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
   "Alan Hodgkinson": {
     "institutions": [],
     "name": "Alan Hodgkinson",
@@ -192,12 +568,36 @@
     ],
     "themes": []
   },
+  "Alan Kraus": {
+    "institutions": [],
+    "name": "Alan Kraus",
+    "paper_keys": [
+      "robertheinkel2001the"
+    ],
+    "themes": []
+  },
   "Alastair Kent": {
     "institutions": [],
     "name": "Alastair Kent",
     "paper_keys": [
       "correspondingauthors2015a",
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "Albert Gordo": {
+    "institutions": [],
+    "name": "Albert Gordo",
+    "paper_keys": [
+      "sarahtan2018learning"
+    ],
+    "themes": []
+  },
+  "Alberto Barbado": {
+    "institutions": [],
+    "name": "Alberto Barbado",
+    "paper_keys": [
+      "alejandrobarredoarrieta2019explainable"
     ],
     "themes": []
   },
@@ -209,11 +609,75 @@
     ],
     "themes": []
   },
+  "Alejandro Barredo Arrieta": {
+    "institutions": [],
+    "name": "Alejandro Barredo Arrieta",
+    "paper_keys": [
+      "alejandrobarredoarrieta2019explainable"
+    ],
+    "themes": []
+  },
+  "Alejandro Drexler": {
+    "institutions": [],
+    "name": "Alejandro Drexler",
+    "paper_keys": [
+      "alejandrodrexler2014keeping"
+    ],
+    "themes": []
+  },
   "Alessandro Bozzon": {
     "institutions": [],
     "name": "Alessandro Bozzon",
     "paper_keys": [
       "ziyuli2023metadata"
+    ],
+    "themes": []
+  },
+  "Alex Gammerman": {
+    "institutions": [],
+    "name": "Alex Gammerman",
+    "paper_keys": [
+      "alexgammerman1990bayesian"
+    ],
+    "themes": []
+  },
+  "Alex Goldstein": {
+    "institutions": [],
+    "name": "Alex Goldstein",
+    "paper_keys": [
+      "alexgoldstein2014peeking"
+    ],
+    "themes": []
+  },
+  "Alex Kondra": {
+    "institutions": [],
+    "name": "Alex Kondra",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "Alex Krizhevsky": {
+    "institutions": [],
+    "name": "Alex Krizhevsky",
+    "paper_keys": [
+      "geoffreyehinton2011transforming"
+    ],
+    "themes": []
+  },
+  "Alex Ksikes": {
+    "institutions": [],
+    "name": "Alex Ksikes",
+    "paper_keys": [
+      "richcaruana2004ensemble"
+    ],
+    "themes": []
+  },
+  "Alexander Gordon": {
+    "institutions": [],
+    "name": "Alexander Gordon",
+    "paper_keys": [
+      "alexandergordon1984classification"
     ],
     "themes": []
   },
@@ -230,6 +694,14 @@
     "name": "Alexandros Onoufriadis",
     "paper_keys": [
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "Alexandru Niculescu-Mizil": {
+    "institutions": [],
+    "name": "Alexandru Niculescu-Mizil",
+    "paper_keys": [
+      "richcaruana2004ensemble"
     ],
     "themes": []
   },
@@ -323,11 +795,53 @@
     ],
     "themes": []
   },
+  "Amir F. Atiya": {
+    "institutions": [],
+    "name": "Amir F. Atiya",
+    "paper_keys": [
+      "amirfatiya2001bankruptcy"
+    ],
+    "themes": []
+  },
+  "Amir H. Gandomi": {
+    "institutions": [],
+    "name": "Amir H. Gandomi",
+    "paper_keys": [
+      "shamsforruqueahmed2023deep"
+    ],
+    "themes": []
+  },
+  "Amir Hussain": {
+    "institutions": [],
+    "name": "Amir Hussain",
+    "paper_keys": [
+      "vikashassija2023interpreting"
+    ],
+    "themes": []
+  },
   "Amit Datta": {
     "institutions": [],
     "name": "Amit Datta",
     "paper_keys": [
       "amitdatta2015automated"
+    ],
+    "themes": []
+  },
+  "Amit Seru": {
+    "institutions": [],
+    "name": "Amit Seru",
+    "paper_keys": [
+      "gregbuchak2018fintech",
+      "benjaminjkeys2013mortgage",
+      "sumitagarwal2015mortgage"
+    ],
+    "themes": []
+  },
+  "Amit Sharma": {
+    "institutions": [],
+    "name": "Amit Sharma",
+    "paper_keys": [
+      "ramaravindkommiyamothilal2020explaining"
     ],
     "themes": []
   },
@@ -363,6 +877,14 @@
     ],
     "themes": []
   },
+  "Andreas Harth": {
+    "institutions": [],
+    "name": "Andreas Harth",
+    "paper_keys": [
+      "basilell2014sparql"
+    ],
+    "themes": []
+  },
   "Andreas Paepcke": {
     "institutions": [],
     "name": "Andreas Paepcke",
@@ -384,6 +906,14 @@
     "name": "Andres Moreno-Estrada",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Andreu Catal\u00e0": {
+    "institutions": [],
+    "name": "Andreu Catal\u00e0",
+    "paper_keys": [
+      "haydemarnez2006rule"
     ],
     "themes": []
   },
@@ -448,6 +978,14 @@
     "name": "Andrew McQuillin",
     "paper_keys": [
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "Andrew Peacock": {
+    "institutions": [],
+    "name": "Andrew Peacock",
+    "paper_keys": [
+      "merlindaandoni2018blockchain"
     ],
     "themes": []
   },
@@ -525,6 +1063,14 @@
       "imbalance-calibration"
     ]
   },
+  "Angus Deaton": {
+    "institutions": [],
+    "name": "Angus Deaton",
+    "paper_keys": [
+      "angusdeaton2017understanding"
+    ],
+    "themes": []
+  },
   "Aniko Sabo": {
     "institutions": [],
     "name": "Aniko Sabo",
@@ -581,6 +1127,14 @@
     ],
     "themes": []
   },
+  "Anna Monreale": {
+    "institutions": [],
+    "name": "Anna Monreale",
+    "paper_keys": [
+      "riccardoguidotti2019a"
+    ],
+    "themes": []
+  },
   "Anne Tybj\u00e6rg\u2010Hansen": {
     "institutions": [],
     "name": "Anne Tybj\u00e6rg\u2010Hansen",
@@ -605,6 +1159,14 @@
     ],
     "themes": []
   },
+  "Anthony L. Caterini": {
+    "institutions": [],
+    "name": "Anthony L. Caterini",
+    "paper_keys": [
+      "valentinthomas2024retrieval"
+    ],
+    "themes": []
+  },
   "Anthony M. Vandersteen": {
     "institutions": [],
     "name": "Anthony M. Vandersteen",
@@ -621,11 +1183,27 @@
     ],
     "themes": []
   },
+  "Antoine Bordes": {
+    "institutions": [],
+    "name": "Antoine Bordes",
+    "paper_keys": [
+      "antoinebordes2014question"
+    ],
+    "themes": []
+  },
   "Antoinette Amuzu": {
     "institutions": [],
     "name": "Antoinette Amuzu",
     "paper_keys": [
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "Antoinette Schoar": {
+    "institutions": [],
+    "name": "Antoinette Schoar",
+    "paper_keys": [
+      "alejandrodrexler2014keeping"
     ],
     "themes": []
   },
@@ -642,6 +1220,14 @@
     "name": "Anupam Datta",
     "paper_keys": [
       "amitdatta2015automated"
+    ],
+    "themes": []
+  },
+  "Apple Said": {
+    "institutions": [],
+    "name": "Apple Said",
+    "paper_keys": [
+      "terryanderson2008the"
     ],
     "themes": []
   },
@@ -690,6 +1276,14 @@
       "xai-finance"
     ]
   },
+  "Arjun Krishnakumar": {
+    "institutions": [],
+    "name": "Arjun Krishnakumar",
+    "paper_keys": [
+      "noahhollmann2025accurate"
+    ],
+    "themes": []
+  },
   "Armon, A.": {
     "institutions": [],
     "name": "Armon, A.",
@@ -700,6 +1294,14 @@
       "gbdt-tabular-sota",
       "tabular-deep-learning"
     ]
+  },
+  "Arthur Maillart": {
+    "institutions": [],
+    "name": "Arthur Maillart",
+    "paper_keys": [
+      "arthurmaillart2024distill"
+    ],
+    "themes": []
   },
   "Asier Roa": {
     "institutions": [],
@@ -722,6 +1324,14 @@
     "name": "Asterios Katsifodimos",
     "paper_keys": [
       "ziyuli2023metadata"
+    ],
+    "themes": []
+  },
+  "Atmesh Mahapatra": {
+    "institutions": [],
+    "name": "Atmesh Mahapatra",
+    "paper_keys": [
+      "vikashassija2023interpreting"
     ],
     "themes": []
   },
@@ -754,6 +1364,238 @@
     "name": "Azaria Natasha",
     "paper_keys": [
       "azarianatasha2019credit"
+    ],
+    "themes": []
+  },
+  "B Arbaugh": {
+    "institutions": [],
+    "name": "B Arbaugh",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "B Bannan-Ritland": {
+    "institutions": [],
+    "name": "B Bannan-Ritland",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "B Beecher": {
+    "institutions": [],
+    "name": "B Beecher",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "B Bomsdorf": {
+    "institutions": [],
+    "name": "B Bomsdorf",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "B Cleveland": {
+    "institutions": [],
+    "name": "B Cleveland",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "B Feldmann": {
+    "institutions": [],
+    "name": "B Feldmann",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "B Flood": {
+    "institutions": [],
+    "name": "B Flood",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "B Heller": {
+    "institutions": [],
+    "name": "B Heller",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "B Hoffman": {
+    "institutions": [],
+    "name": "B Hoffman",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "B Holt": {
+    "institutions": [],
+    "name": "B Holt",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "B Huang": {
+    "institutions": [],
+    "name": "B Huang",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "B Khan": {
+    "institutions": [],
+    "name": "B Khan",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "B Lazarus": {
+    "institutions": [],
+    "name": "B Lazarus",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "B Machrone": {
+    "institutions": [],
+    "name": "B Machrone",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "B Mcdonald": {
+    "institutions": [],
+    "name": "B Mcdonald",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "B Muirhead": {
+    "institutions": [],
+    "name": "B Muirhead",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "B Nastassi": {
+    "institutions": [],
+    "name": "B Nastassi",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "B Rosen": {
+    "institutions": [],
+    "name": "B Rosen",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "B Scriven": {
+    "institutions": [],
+    "name": "B Scriven",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "B Sethna": {
+    "institutions": [],
+    "name": "B Sethna",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "B Shaw": {
+    "institutions": [],
+    "name": "B Shaw",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "B Shneiderman": {
+    "institutions": [],
+    "name": "B Shneiderman",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "B Sloan": {
+    "institutions": [],
+    "name": "B Sloan",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "B Stewart": {
+    "institutions": [],
+    "name": "B Stewart",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "B Su": {
+    "institutions": [],
+    "name": "B Su",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "B Towle": {
+    "institutions": [],
+    "name": "B Towle",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "B Walther": {
+    "institutions": [],
+    "name": "B Walther",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "B Wilson": {
+    "institutions": [],
+    "name": "B Wilson",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "B. D. Ripley": {
+    "institutions": [],
+    "name": "B. D. Ripley",
+    "paper_keys": [
+      "wnvenables2002modern"
     ],
     "themes": []
   },
@@ -810,6 +1652,14 @@
       "xai-finance"
     ]
   },
+  "Barbara Kaup": {
+    "institutions": [],
+    "name": "Barbara Kaup",
+    "paper_keys": [
+      "fritzgnther2015latent"
+    ],
+    "themes": []
+  },
   "Bareeva, D.": {
     "institutions": [],
     "name": "Bareeva, D.",
@@ -825,6 +1675,14 @@
     "name": "Bartha M. Knoppers",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Basil Ell": {
+    "institutions": [],
+    "name": "Basil Ell",
+    "paper_keys": [
+      "basilell2014sparql"
     ],
     "themes": []
   },
@@ -882,6 +1740,14 @@
     ],
     "themes": []
   },
+  "Benjamin J. Keys": {
+    "institutions": [],
+    "name": "Benjamin J. Keys",
+    "paper_keys": [
+      "benjaminjkeys2013mortgage"
+    ],
+    "themes": []
+  },
   "Benjamin Raeder": {
     "institutions": [],
     "name": "Benjamin Raeder",
@@ -908,11 +1774,27 @@
     ],
     "themes": []
   },
+  "Bernard Yeung": {
+    "institutions": [],
+    "name": "Bernard Yeung",
+    "paper_keys": [
+      "glendowell2000do"
+    ],
+    "themes": []
+  },
   "Bernd Timmermann": {
     "institutions": [],
     "name": "Bernd Timmermann",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Biggio, B.": {
+    "institutions": [],
+    "name": "Biggio, B.",
+    "paper_keys": [
+      "biggio2013evasion"
     ],
     "themes": []
   },
@@ -922,6 +1804,14 @@
     "paper_keys": [
       "davidadkins2022method",
       "davidadkins2022prescriptive"
+    ],
+    "themes": []
+  },
+  "Bin Qian": {
+    "institutions": [],
+    "name": "Bin Qian",
+    "paper_keys": [
+      "rudreshdwivedi2022explainable"
     ],
     "themes": []
   },
@@ -983,11 +1873,27 @@
     ],
     "themes": []
   },
+  "Bogdan Popescu": {
+    "institutions": [],
+    "name": "Bogdan Popescu",
+    "paper_keys": [
+      "jeromehfriedman2008predictive"
+    ],
+    "themes": []
+  },
   "Bommala Deepak Kumar": {
     "institutions": [],
     "name": "Bommala Deepak Kumar",
     "paper_keys": [
       "kaivaramsivaramakrishna2024credit"
+    ],
+    "themes": []
+  },
+  "Bonnie Buchanan": {
+    "institutions": [],
+    "name": "Bonnie Buchanan",
+    "paper_keys": [
+      "bonniebuchanan2021the"
     ],
     "themes": []
   },
@@ -1077,6 +1983,14 @@
     ],
     "themes": []
   },
+  "Brian W. Powers": {
+    "institutions": [],
+    "name": "Brian W. Powers",
+    "paper_keys": [
+      "ziadobermeyer2019dissecting"
+    ],
+    "themes": []
+  },
   "British from England and Scotland (GBR)": {
     "institutions": [],
     "name": "British from England and Scotland (GBR)",
@@ -1104,11 +2018,403 @@
     ],
     "themes": []
   },
+  "Business": {
+    "institutions": [],
+    "name": "Business",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "Buy": {
+    "institutions": [],
+    "name": "Buy",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
   "B\u00f8rge G. Nordestgaard": {
     "institutions": [],
     "name": "B\u00f8rge G. Nordestgaard",
     "paper_keys": [
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "C Baber": {
+    "institutions": [],
+    "name": "C Baber",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Bartlett": {
+    "institutions": [],
+    "name": "C Bartlett",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Bennett": {
+    "institutions": [],
+    "name": "C Bennett",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Boak": {
+    "institutions": [],
+    "name": "C Boak",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Bonk": {
+    "institutions": [],
+    "name": "C Bonk",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Carr": {
+    "institutions": [],
+    "name": "C Carr",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Dalsgaard": {
+    "institutions": [],
+    "name": "C Dalsgaard",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Dawson": {
+    "institutions": [],
+    "name": "C Dawson",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C De Simone": {
+    "institutions": [],
+    "name": "C De Simone",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Dede": {
+    "institutions": [],
+    "name": "C Dede",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Delisle": {
+    "institutions": [],
+    "name": "C Delisle",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Driscoll": {
+    "institutions": [],
+    "name": "C Driscoll",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Ferguson": {
+    "institutions": [],
+    "name": "C Ferguson",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Fichten": {
+    "institutions": [],
+    "name": "C Fichten",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Franz": {
+    "institutions": [],
+    "name": "C Franz",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Fulford": {
+    "institutions": [],
+    "name": "C Fulford",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Goodacre": {
+    "institutions": [],
+    "name": "C Goodacre",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Grandzol": {
+    "institutions": [],
+    "name": "C Grandzol",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Halcomb": {
+    "institutions": [],
+    "name": "C Halcomb",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Holley": {
+    "institutions": [],
+    "name": "C Holley",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Johnson-Yale": {
+    "institutions": [],
+    "name": "C Johnson-Yale",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Kapitzke": {
+    "institutions": [],
+    "name": "C Kapitzke",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Krol": {
+    "institutions": [],
+    "name": "C Krol",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Looi": {
+    "institutions": [],
+    "name": "C Looi",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Markides": {
+    "institutions": [],
+    "name": "C Markides",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Marquis": {
+    "institutions": [],
+    "name": "C Marquis",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Mcdonald": {
+    "institutions": [],
+    "name": "C Mcdonald",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Mcloughlin": {
+    "institutions": [],
+    "name": "C Mcloughlin",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Metz": {
+    "institutions": [],
+    "name": "C Metz",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Miles": {
+    "institutions": [],
+    "name": "C Miles",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Moore": {
+    "institutions": [],
+    "name": "C Moore",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Mun Onn": {
+    "institutions": [],
+    "name": "C Mun Onn",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Nelson": {
+    "institutions": [],
+    "name": "C Nelson",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Null": {
+    "institutions": [],
+    "name": "C Null",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Ogan": {
+    "institutions": [],
+    "name": "C Ogan",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Rogers": {
+    "institutions": [],
+    "name": "C Rogers",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Shore": {
+    "institutions": [],
+    "name": "C Shore",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Smith": {
+    "institutions": [],
+    "name": "C Smith",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Tu": {
+    "institutions": [],
+    "name": "C Tu",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Twigg": {
+    "institutions": [],
+    "name": "C Twigg",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Vrasidas": {
+    "institutions": [],
+    "name": "C Vrasidas",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Waight": {
+    "institutions": [],
+    "name": "C Waight",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Werner": {
+    "institutions": [],
+    "name": "C Werner",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Winkelmann": {
+    "institutions": [],
+    "name": "C Winkelmann",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C Wu": {
+    "institutions": [],
+    "name": "C Wu",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "C. J. Stone": {
+    "institutions": [],
+    "name": "C. J. Stone",
+    "paper_keys": [
+      "alexandergordon1984classification"
+    ],
+    "themes": []
+  },
+  "C. K. Prahalad": {
+    "institutions": [],
+    "name": "C. K. Prahalad",
+    "paper_keys": [
+      "ckprahalad2010the"
     ],
     "themes": []
   },
@@ -1178,11 +2484,35 @@
     ],
     "themes": []
   },
+  "Carolin Dudschig": {
+    "institutions": [],
+    "name": "Carolin Dudschig",
+    "paper_keys": [
+      "fritzgnther2015latent"
+    ],
+    "themes": []
+  },
   "Catherine Cosgrove": {
     "institutions": [],
     "name": "Catherine Cosgrove",
     "paper_keys": [
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "Catherine D\u2019Ignazio": {
+    "institutions": [],
+    "name": "Catherine D\u2019Ignazio",
+    "paper_keys": [
+      "catherinedignazio2020data"
+    ],
+    "themes": []
+  },
+  "Cecilio Angulo": {
+    "institutions": [],
+    "name": "Cecilio Angulo",
+    "paper_keys": [
+      "haydemarnez2006rule"
     ],
     "themes": []
   },
@@ -1199,6 +2529,14 @@
     "name": "Ch. Saketh",
     "paper_keys": [
       "kaivaramsivaramakrishna2024credit"
+    ],
+    "themes": []
+  },
+  "Chan Yeob Yeun": {
+    "institutions": [],
+    "name": "Chan Yeob Yeun",
+    "paper_keys": [
+      "zhibozhang2022explainable"
     ],
     "themes": []
   },
@@ -1234,6 +2572,25 @@
     ],
     "themes": []
   },
+  "Charles F. Manski": {
+    "institutions": [],
+    "name": "Charles F. Manski",
+    "paper_keys": [
+      "charlesfmanski2000economic",
+      "charlesfmanski2018identification",
+      "jeffdominitz1997using",
+      "charlesfmanski2000worker"
+    ],
+    "themes": []
+  },
+  "Charles Kemp": {
+    "institutions": [],
+    "name": "Charles Kemp",
+    "paper_keys": [
+      "thomaslgriffiths2001bayesian"
+    ],
+    "themes": []
+  },
   "Charles Lee": {
     "institutions": [],
     "name": "Charles Lee",
@@ -1247,6 +2604,22 @@
     "name": "Charles N. Rotimi",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Charles Poole": {
+    "institutions": [],
+    "name": "Charles Poole",
+    "paper_keys": [
+      "sandergreenland2016statistical"
+    ],
+    "themes": []
+  },
+  "Charles S. Maier": {
+    "institutions": [],
+    "name": "Charles S. Maier",
+    "paper_keys": [
+      "charlessmaier1988the"
     ],
     "themes": []
   },
@@ -1321,6 +2694,14 @@
     "name": "Chengsheng Zhang",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Chenhao Tan": {
+    "institutions": [],
+    "name": "Chenhao Tan",
+    "paper_keys": [
+      "ramaravindkommiyamothilal2020explaining"
     ],
     "themes": []
   },
@@ -1430,6 +2811,14 @@
     ],
     "themes": []
   },
+  "Christian Y. Robert": {
+    "institutions": [],
+    "name": "Christian Y. Robert",
+    "paper_keys": [
+      "arthurmaillart2024distill"
+    ],
+    "themes": []
+  },
   "Christie Kovar": {
     "institutions": [],
     "name": "Christie Kovar",
@@ -1454,11 +2843,27 @@
     ],
     "themes": []
   },
+  "Christine Vogeli": {
+    "institutions": [],
+    "name": "Christine Vogeli",
+    "paper_keys": [
+      "ziadobermeyer2019dissecting"
+    ],
+    "themes": []
+  },
   "Christoph Reich": {
     "institutions": [],
     "name": "Christoph Reich",
     "paper_keys": [
       "philippruf2021demystifying"
+    ],
+    "themes": []
+  },
+  "Christophe McGlade": {
+    "institutions": [],
+    "name": "Christophe McGlade",
+    "paper_keys": [
+      "christophemcglade2015the"
     ],
     "themes": []
   },
@@ -1650,6 +3055,14 @@
     ],
     "themes": []
   },
+  "Corona, I.": {
+    "institutions": [],
+    "name": "Corona, I.",
+    "paper_keys": [
+      "biggio2013evasion"
+    ],
+    "themes": []
+  },
   "Corresponding authors": {
     "institutions": [],
     "name": "Corresponding authors",
@@ -1693,6 +3106,462 @@
     ],
     "themes": []
   },
+  "C\u00e9sar Herv\u00e1s\u2010Mart\u00ednez": {
+    "institutions": [],
+    "name": "C\u00e9sar Herv\u00e1s\u2010Mart\u00ednez",
+    "paper_keys": [
+      "pedroantoniogutirrez2011hybrid"
+    ],
+    "themes": []
+  },
+  "D Annand": {
+    "institutions": [],
+    "name": "D Annand",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Ausubel": {
+    "institutions": [],
+    "name": "D Ausubel",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Brandt": {
+    "institutions": [],
+    "name": "D Brandt",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Briton": {
+    "institutions": [],
+    "name": "D Briton",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Cameron": {
+    "institutions": [],
+    "name": "D Cameron",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Carnevale": {
+    "institutions": [],
+    "name": "D Carnevale",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Chandler": {
+    "institutions": [],
+    "name": "D Chandler",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Clark": {
+    "institutions": [],
+    "name": "D Clark",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Clements": {
+    "institutions": [],
+    "name": "D Clements",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Coen": {
+    "institutions": [],
+    "name": "D Coen",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Conrad": {
+    "institutions": [],
+    "name": "D Conrad",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Costa": {
+    "institutions": [],
+    "name": "D Costa",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Crane": {
+    "institutions": [],
+    "name": "D Crane",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Cunningham": {
+    "institutions": [],
+    "name": "D Cunningham",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Dansereau": {
+    "institutions": [],
+    "name": "D Dansereau",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Feng": {
+    "institutions": [],
+    "name": "D Feng",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Gapen": {
+    "institutions": [],
+    "name": "D Gapen",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Garrison": {
+    "institutions": [],
+    "name": "D Garrison",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Garvin": {
+    "institutions": [],
+    "name": "D Garvin",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Gerard": {
+    "institutions": [],
+    "name": "D Gerard",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Goodenough": {
+    "institutions": [],
+    "name": "D Goodenough",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Grant": {
+    "institutions": [],
+    "name": "D Grant",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Holman": {
+    "institutions": [],
+    "name": "D Holman",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Hung": {
+    "institutions": [],
+    "name": "D Hung",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Hurst": {
+    "institutions": [],
+    "name": "D Hurst",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Johnson": {
+    "institutions": [],
+    "name": "D Johnson",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Jonassen": {
+    "institutions": [],
+    "name": "D Jonassen",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Kamen": {
+    "institutions": [],
+    "name": "D Kamen",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Kennepohl": {
+    "institutions": [],
+    "name": "D Kennepohl",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Kirby": {
+    "institutions": [],
+    "name": "D Kirby",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Lawley": {
+    "institutions": [],
+    "name": "D Lawley",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Moore": {
+    "institutions": [],
+    "name": "D Moore",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Morley": {
+    "institutions": [],
+    "name": "D Morley",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Morrison": {
+    "institutions": [],
+    "name": "D Morrison",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Murphy": {
+    "institutions": [],
+    "name": "D Murphy",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Nguyen": {
+    "institutions": [],
+    "name": "D Nguyen",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Noble": {
+    "institutions": [],
+    "name": "D Noble",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Oblinger": {
+    "institutions": [],
+    "name": "D Oblinger",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Pescovitz": {
+    "institutions": [],
+    "name": "D Pescovitz",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Phillips": {
+    "institutions": [],
+    "name": "D Phillips",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Prlea": {
+    "institutions": [],
+    "name": "D Prlea",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Rigby": {
+    "institutions": [],
+    "name": "D Rigby",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Ritchie": {
+    "institutions": [],
+    "name": "D Ritchie",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Shale": {
+    "institutions": [],
+    "name": "D Shale",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Simmons": {
+    "institutions": [],
+    "name": "D Simmons",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Slade": {
+    "institutions": [],
+    "name": "D Slade",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Talbot": {
+    "institutions": [],
+    "name": "D Talbot",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Tosh": {
+    "institutions": [],
+    "name": "D Tosh",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Unfred": {
+    "institutions": [],
+    "name": "D Unfred",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Villani": {
+    "institutions": [],
+    "name": "D Villani",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Ward": {
+    "institutions": [],
+    "name": "D Ward",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Warner": {
+    "institutions": [],
+    "name": "D Warner",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Whitelock": {
+    "institutions": [],
+    "name": "D Whitelock",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Wicks": {
+    "institutions": [],
+    "name": "D Wicks",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Wiley": {
+    "institutions": [],
+    "name": "D Wiley",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "D Zapf": {
+    "institutions": [],
+    "name": "D Zapf",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
   "D. A. Jones": {
     "institutions": [],
     "name": "D. A. Jones",
@@ -1706,6 +3575,14 @@
     "name": "D.N. Cooper",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Dale Geach": {
+    "institutions": [],
+    "name": "Dale Geach",
+    "paper_keys": [
+      "merlindaandoni2018blockchain"
     ],
     "themes": []
   },
@@ -1758,6 +3635,14 @@
     ],
     "themes": []
   },
+  "Daniel Molina": {
+    "institutions": [],
+    "name": "Daniel Molina",
+    "paper_keys": [
+      "alejandrobarredoarrieta2019explainable"
+    ],
+    "themes": []
+  },
   "Daniel R. Zerbino": {
     "institutions": [],
     "name": "Daniel R. Zerbino",
@@ -1779,6 +3664,22 @@
     "name": "Daniela Toniolo",
     "paper_keys": [
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "Daniela Witten": {
+    "institutions": [],
+    "name": "Daniela Witten",
+    "paper_keys": [
+      "garethjames2018an"
+    ],
+    "themes": []
+  },
+  "Danika Wright": {
+    "institutions": [],
+    "name": "Danika Wright",
+    "paper_keys": [
+      "bonniebuchanan2021the"
     ],
     "themes": []
   },
@@ -1906,6 +3807,22 @@
     ],
     "themes": []
   },
+  "David Flynn": {
+    "institutions": [],
+    "name": "David Flynn",
+    "paper_keys": [
+      "merlindaandoni2018blockchain"
+    ],
+    "themes": []
+  },
+  "David H. Wolpert": {
+    "institutions": [],
+    "name": "David H. Wolpert",
+    "paper_keys": [
+      "davidhwolpert1992stacked"
+    ],
+    "themes": []
+  },
   "David Haussler": {
     "institutions": [],
     "name": "David Haussler",
@@ -1927,6 +3844,14 @@
     "name": "David J. Witherspoon",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "David Jenkins": {
+    "institutions": [],
+    "name": "David Jenkins",
+    "paper_keys": [
+      "merlindaandoni2018blockchain"
     ],
     "themes": []
   },
@@ -2002,6 +3927,14 @@
     ],
     "themes": []
   },
+  "David Scharfstein": {
+    "institutions": [],
+    "name": "David Scharfstein",
+    "paper_keys": [
+      "robingreenwood2013the"
+    ],
+    "themes": []
+  },
   "David Skuse": {
     "institutions": [],
     "name": "David Skuse",
@@ -2073,6 +4006,14 @@
       "methodology"
     ]
   },
+  "Dean Caplan Was": {
+    "institutions": [],
+    "name": "Dean Caplan Was",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
   "Deanna M. Church": {
     "institutions": [],
     "name": "Deanna M. Church",
@@ -2129,6 +4070,14 @@
     ],
     "themes": []
   },
+  "Devam Dave": {
+    "institutions": [],
+    "name": "Devam Dave",
+    "paper_keys": [
+      "rudreshdwivedi2022explainable"
+    ],
+    "themes": []
+  },
   "Dimitriy Beloslyudtsev": {
     "institutions": [],
     "name": "Dimitriy Beloslyudtsev",
@@ -2141,7 +4090,16 @@
     "institutions": [],
     "name": "Dina Demner\u2010Fushman",
     "paper_keys": [
-      "karansinghal2023large"
+      "karansinghal2023large",
+      "dinademnerfushman2007answering"
+    ],
+    "themes": []
+  },
+  "Dino Pedreschi": {
+    "institutions": [],
+    "name": "Dino Pedreschi",
+    "paper_keys": [
+      "riccardoguidotti2019a"
     ],
     "themes": []
   },
@@ -2166,6 +4124,14 @@
     "name": "Divya Kalra",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Divyansh Goel": {
+    "institutions": [],
+    "name": "Divyansh Goel",
+    "paper_keys": [
+      "vikashassija2023interpreting"
     ],
     "themes": []
   },
@@ -2271,6 +4237,14 @@
     ],
     "themes": []
   },
+  "Douglas G. Altman": {
+    "institutions": [],
+    "name": "Douglas G. Altman",
+    "paper_keys": [
+      "sandergreenland2016statistical"
+    ],
+    "themes": []
+  },
   "Douglas J. Slotta": {
     "institutions": [],
     "name": "Douglas J. Slotta",
@@ -2290,6 +4264,174 @@
       "xai-finance"
     ]
   },
+  "E Algenio": {
+    "institutions": [],
+    "name": "E Algenio",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "E Borokhovski": {
+    "institutions": [],
+    "name": "E Borokhovski",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "E Bures": {
+    "institutions": [],
+    "name": "E Bures",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "E Burge": {
+    "institutions": [],
+    "name": "E Burge",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "E Duray": {
+    "institutions": [],
+    "name": "E Duray",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "E Fabbro": {
+    "institutions": [],
+    "name": "E Fabbro",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "E Gareis": {
+    "institutions": [],
+    "name": "E Gareis",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "E Georgieva": {
+    "institutions": [],
+    "name": "E Georgieva",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "E Gule": {
+    "institutions": [],
+    "name": "E Gule",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "E Magusin": {
+    "institutions": [],
+    "name": "E Magusin",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "E Mergen": {
+    "institutions": [],
+    "name": "E Mergen",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "E Michelson": {
+    "institutions": [],
+    "name": "E Michelson",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "E Paist": {
+    "institutions": [],
+    "name": "E Paist",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "E Pascarella": {
+    "institutions": [],
+    "name": "E Pascarella",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "E Rhey": {
+    "institutions": [],
+    "name": "E Rhey",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "E Shaw": {
+    "institutions": [],
+    "name": "E Shaw",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "E Stacey": {
+    "institutions": [],
+    "name": "E Stacey",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "E Ting": {
+    "institutions": [],
+    "name": "E Ting",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "E Tulving": {
+    "institutions": [],
+    "name": "E Tulving",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "E Wagner": {
+    "institutions": [],
+    "name": "E Wagner",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "E Williams": {
+    "institutions": [],
+    "name": "E Williams",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
   "Eduardo S. Schwartz": {
     "institutions": [],
     "name": "Eduardo S. Schwartz",
@@ -2303,6 +4445,14 @@
     "name": "Edward V. Ball",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Efquel": {
+    "institutions": [],
+    "name": "Efquel",
+    "paper_keys": [
+      "terryanderson2008the"
     ],
     "themes": []
   },
@@ -2329,6 +4479,14 @@
     "name": "Ekta Khurana",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Elaine Fabbro": {
+    "institutions": [],
+    "name": "Elaine Fabbro",
+    "paper_keys": [
+      "terryanderson2008the"
     ],
     "themes": []
   },
@@ -2361,6 +4519,14 @@
     "name": "Elena G. Bochukova",
     "paper_keys": [
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "Elena Simperl": {
+    "institutions": [],
+    "name": "Elena Simperl",
+    "paper_keys": [
+      "basilell2014sparql"
     ],
     "themes": []
   },
@@ -2411,6 +4577,14 @@
     "name": "El\u017cbieta \u015aliwerska",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Emil Pitkin": {
+    "institutions": [],
+    "name": "Emil Pitkin",
+    "paper_keys": [
+      "alexgoldstein2014peeking"
     ],
     "themes": []
   },
@@ -2523,6 +4697,14 @@
       "xai-finance"
     ]
   },
+  "Ernesto Damiani": {
+    "institutions": [],
+    "name": "Ernesto Damiani",
+    "paper_keys": [
+      "zhibozhang2022explainable"
+    ],
+    "themes": []
+  },
   "Esan in Nigeria (ESN)": {
     "institutions": [],
     "name": "Esan in Nigeria (ESN)",
@@ -2539,11 +4721,27 @@
     ],
     "themes": []
   },
+  "Esther Duflo": {
+    "institutions": [],
+    "name": "Esther Duflo",
+    "paper_keys": [
+      "estherduflo2019american"
+    ],
+    "themes": []
+  },
   "Ethics group": {
     "institutions": [],
     "name": "Ethics group",
     "paper_keys": [
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "Eugene F. Fama": {
+    "institutions": [],
+    "name": "Eugene F. Fama",
+    "paper_keys": [
+      "eugeneffama2004the"
     ],
     "themes": []
   },
@@ -2625,6 +4823,54 @@
     ],
     "themes": []
   },
+  "F Brouns": {
+    "institutions": [],
+    "name": "F Brouns",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "F Craik": {
+    "institutions": [],
+    "name": "F Craik",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "F Reichheld": {
+    "institutions": [],
+    "name": "F Reichheld",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "F Santoro": {
+    "institutions": [],
+    "name": "F Santoro",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "F Stutzman": {
+    "institutions": [],
+    "name": "F Stutzman",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "F Willits": {
+    "institutions": [],
+    "name": "F Willits",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
   "F. Lucy Raymond": {
     "institutions": [],
     "name": "F. Lucy Raymond",
@@ -2638,6 +4884,14 @@
     "name": "Fan Zhang",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Fang Wen": {
+    "institutions": [],
+    "name": "Fang Wen",
+    "paper_keys": [
+      "jiewang2016financial"
     ],
     "themes": []
   },
@@ -2657,6 +4911,14 @@
     ],
     "themes": []
   },
+  "Fatma Taher": {
+    "institutions": [],
+    "name": "Fatma Taher",
+    "paper_keys": [
+      "zhibozhang2022explainable"
+    ],
+    "themes": []
+  },
   "Fatoumatta Sisay Joof": {
     "institutions": [],
     "name": "Fatoumatta Sisay Joof",
@@ -2670,6 +4932,14 @@
     "name": "Felicity Payne",
     "paper_keys": [
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "Felix Mohr": {
+    "institutions": [],
+    "name": "Felix Mohr",
+    "paper_keys": [
+      "romaingel2024the"
     ],
     "themes": []
   },
@@ -2710,6 +4980,14 @@
     "name": "Fereydoun Hormozdiari",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Fernando Gomes de Almeida": {
+    "institutions": [],
+    "name": "Fernando Gomes de Almeida",
+    "paper_keys": [
+      "paulocortez2009using"
     ],
     "themes": []
   },
@@ -2791,6 +5069,14 @@
     ],
     "themes": []
   },
+  "Fosca Giannotti": {
+    "institutions": [],
+    "name": "Fosca Giannotti",
+    "paper_keys": [
+      "riccardoguidotti2019a"
+    ],
+    "themes": []
+  },
   "Fouad Zakharia": {
     "institutions": [],
     "name": "Fouad Zakharia",
@@ -2815,11 +5101,37 @@
     ],
     "themes": []
   },
+  "Francisco Herrera": {
+    "institutions": [],
+    "name": "Francisco Herrera",
+    "paper_keys": [
+      "alejandrobarredoarrieta2019explainable",
+      "sajidali2023explainable"
+    ],
+    "themes": []
+  },
   "Francisco M. De La Vega": {
     "institutions": [],
     "name": "Francisco M. De La Vega",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Franco Turini": {
+    "institutions": [],
+    "name": "Franco Turini",
+    "paper_keys": [
+      "riccardoguidotti2019a"
+    ],
+    "themes": []
+  },
+  "Frank Hutter": {
+    "institutions": [],
+    "name": "Frank Hutter",
+    "paper_keys": [
+      "noahhollmann2025accurate",
+      "noahhollmann2023large"
     ],
     "themes": []
   },
@@ -2839,6 +5151,14 @@
     ],
     "themes": []
   },
+  "Fritz G\u00fcnther": {
+    "institutions": [],
+    "name": "Fritz G\u00fcnther",
+    "paper_keys": [
+      "fritzgnther2015latent"
+    ],
+    "themes": []
+  },
   "Fuli Yu": {
     "institutions": [],
     "name": "Fuli Yu",
@@ -2855,11 +5175,195 @@
     ],
     "themes": []
   },
+  "G Baxter": {
+    "institutions": [],
+    "name": "G Baxter",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "G Dobbs": {
+    "institutions": [],
+    "name": "G Dobbs",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "G Garramone": {
+    "institutions": [],
+    "name": "G Garramone",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "G Gay": {
+    "institutions": [],
+    "name": "G Gay",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "G Grow": {
+    "institutions": [],
+    "name": "G Grow",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "G Leinhart": {
+    "institutions": [],
+    "name": "G Leinhart",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "G Mathieux": {
+    "institutions": [],
+    "name": "G Mathieux",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "G Mccalla": {
+    "institutions": [],
+    "name": "G Mccalla",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "G Mihhailova": {
+    "institutions": [],
+    "name": "G Mihhailova",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "G Miller": {
+    "institutions": [],
+    "name": "G Miller",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "G Murdock": {
+    "institutions": [],
+    "name": "G Murdock",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "G Needham": {
+    "institutions": [],
+    "name": "G Needham",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "G Ring": {
+    "institutions": [],
+    "name": "G Ring",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "G Riva": {
+    "institutions": [],
+    "name": "G Riva",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "G Roberts": {
+    "institutions": [],
+    "name": "G Roberts",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "G Rumble": {
+    "institutions": [],
+    "name": "G Rumble",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "G Schlageter": {
+    "institutions": [],
+    "name": "G Schlageter",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "G Shank": {
+    "institutions": [],
+    "name": "G Shank",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "G Siemens": {
+    "institutions": [],
+    "name": "G Siemens",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "G Tremblay": {
+    "institutions": [],
+    "name": "G Tremblay",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "G Vavoula": {
+    "institutions": [],
+    "name": "G Vavoula",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "G. Crew": {
+    "institutions": [],
+    "name": "G. Crew",
+    "paper_keys": [
+      "richcaruana2004ensemble"
+    ],
+    "themes": []
+  },
   "G. David Poznik": {
     "institutions": [],
     "name": "G. David Poznik",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "G. H. Yu": {
+    "institutions": [],
+    "name": "G. H. Yu",
+    "paper_keys": [
+      "valentinthomas2024retrieval"
     ],
     "themes": []
   },
@@ -2933,6 +5437,14 @@
       "imbalance-calibration"
     ]
   },
+  "Gareth James": {
+    "institutions": [],
+    "name": "Gareth James",
+    "paper_keys": [
+      "garethjames2018an"
+    ],
+    "themes": []
+  },
   "Gargi Dayama": {
     "institutions": [],
     "name": "Gargi Dayama",
@@ -2976,11 +5488,59 @@
       "fairness-compliance"
     ]
   },
+  "Geetanjali Goindi": {
+    "institutions": [],
+    "name": "Geetanjali Goindi",
+    "paper_keys": [
+      "geetanjaligoindi1995estimation"
+    ],
+    "themes": []
+  },
+  "Gene Amromin": {
+    "institutions": [],
+    "name": "Gene Amromin",
+    "paper_keys": [
+      "sumitagarwal2015mortgage"
+    ],
+    "themes": []
+  },
   "Genevi\u00e8ve Lachance": {
     "institutions": [],
     "name": "Genevi\u00e8ve Lachance",
     "paper_keys": [
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "Geoffrey E. Hinton": {
+    "institutions": [],
+    "name": "Geoffrey E. Hinton",
+    "paper_keys": [
+      "geoffreyehinton2011transforming"
+    ],
+    "themes": []
+  },
+  "George A. Overstreet": {
+    "institutions": [],
+    "name": "George A. Overstreet",
+    "paper_keys": [
+      "vijaysdesai1996a"
+    ],
+    "themes": []
+  },
+  "George Andrew Karolyi": {
+    "institutions": [],
+    "name": "George Andrew Karolyi",
+    "paper_keys": [
+      "georgeandrewkarolyi2017the"
+    ],
+    "themes": []
+  },
+  "George Cybenko": {
+    "institutions": [],
+    "name": "George Cybenko",
+    "paper_keys": [
+      "georgecybenko1989approximation"
     ],
     "themes": []
   },
@@ -3000,6 +5560,14 @@
     ],
     "themes": []
   },
+  "Gero Szepannek": {
+    "institutions": [],
+    "name": "Gero Szepannek",
+    "paper_keys": [
+      "geroszepannek2021facing"
+    ],
+    "themes": []
+  },
   "Gerome Breen": {
     "institutions": [],
     "name": "Gerome Breen",
@@ -3016,11 +5584,35 @@
     ],
     "themes": []
   },
+  "Ghulum Bakiri": {
+    "institutions": [],
+    "name": "Ghulum Bakiri",
+    "paper_keys": [
+      "tomdietterich1995solving"
+    ],
+    "themes": []
+  },
+  "Giacinto, G.": {
+    "institutions": [],
+    "name": "Giacinto, G.",
+    "paper_keys": [
+      "biggio2013evasion"
+    ],
+    "themes": []
+  },
   "Gianluigi Zaza": {
     "institutions": [],
     "name": "Gianluigi Zaza",
     "paper_keys": [
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "Gideon Saar": {
+    "institutions": [],
+    "name": "Gideon Saar",
+    "paper_keys": [
+      "joelhasbrouck2013low"
     ],
     "themes": []
   },
@@ -3037,6 +5629,15 @@
     "name": "Gil McVean",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Giles Hooker": {
+    "institutions": [],
+    "name": "Giles Hooker",
+    "paper_keys": [
+      "gileshooker2004discovering",
+      "sarahtan2018learning"
     ],
     "themes": []
   },
@@ -3079,6 +5680,14 @@
     "name": "Giulio Genovese",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Glen Dowell": {
+    "institutions": [],
+    "name": "Glen Dowell",
+    "paper_keys": [
+      "glendowell2000do"
     ],
     "themes": []
   },
@@ -3154,6 +5763,14 @@
     ],
     "themes": []
   },
+  "Graham Morgan": {
+    "institutions": [],
+    "name": "Graham Morgan",
+    "paper_keys": [
+      "rudreshdwivedi2022explainable"
+    ],
+    "themes": []
+  },
   "Graham R. S. Ritchie": {
     "institutions": [],
     "name": "Graham R. S. Ritchie",
@@ -3163,11 +5780,43 @@
     ],
     "themes": []
   },
+  "Greg Buchak": {
+    "institutions": [],
+    "name": "Greg Buchak",
+    "paper_keys": [
+      "gregbuchak2018fintech"
+    ],
+    "themes": []
+  },
+  "Greg Fischer": {
+    "institutions": [],
+    "name": "Greg Fischer",
+    "paper_keys": [
+      "alejandrodrexler2014keeping"
+    ],
+    "themes": []
+  },
   "Greg S. Corrado": {
     "institutions": [],
     "name": "Greg S. Corrado",
     "paper_keys": [
       "karansinghal2023large"
+    ],
+    "themes": []
+  },
+  "Gregoire Montavon": {
+    "institutions": [],
+    "name": "Gregoire Montavon",
+    "paper_keys": [
+      "lukasruff2021a"
+    ],
+    "themes": []
+  },
+  "Gregor Matvos": {
+    "institutions": [],
+    "name": "Gregor Matvos",
+    "paper_keys": [
+      "gregbuchak2018fintech"
     ],
     "themes": []
   },
@@ -3273,11 +5922,124 @@
     ],
     "themes": []
   },
+  "H Chen": {
+    "institutions": [],
+    "name": "H Chen",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "H Crooks": {
+    "institutions": [],
+    "name": "H Crooks",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "H Kanuka": {
+    "institutions": [],
+    "name": "H Kanuka",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "H Latapie": {
+    "institutions": [],
+    "name": "H Latapie",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "H Lentell": {
+    "institutions": [],
+    "name": "H Lentell",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "H Marcuse": {
+    "institutions": [],
+    "name": "H Marcuse",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "H Peters": {
+    "institutions": [],
+    "name": "H Peters",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "H Pugh": {
+    "institutions": [],
+    "name": "H Pugh",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "H Simpson": {
+    "institutions": [],
+    "name": "H Simpson",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "H Trabelsi": {
+    "institutions": [],
+    "name": "H Trabelsi",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "H White": {
+    "institutions": [],
+    "name": "H White",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "H Witkin": {
+    "institutions": [],
+    "name": "H Witkin",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "Haewon Byeon": {
+    "institutions": [],
+    "name": "Haewon Byeon",
+    "paper_keys": [
+      "vinhquangtran2024predicting"
+    ],
+    "themes": []
+  },
   "Haiyuan Yu": {
     "institutions": [],
     "name": "Haiyuan Yu",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Hal R. Varian": {
+    "institutions": [],
+    "name": "Hal R. Varian",
+    "paper_keys": [
+      "halrvarian2014big",
+      "stevenlscott2013bayesian"
     ],
     "themes": []
   },
@@ -3393,6 +6155,14 @@
       "tabular-deep-learning"
     ]
   },
+  "Haydemar N\u00fa\u00f1ez": {
+    "institutions": [],
+    "name": "Haydemar N\u00fa\u00f1ez",
+    "paper_keys": [
+      "haydemarnez2006rule"
+    ],
+    "themes": []
+  },
   "He, H.": {
     "institutions": [],
     "name": "He, H.",
@@ -3481,6 +6251,22 @@
     ],
     "themes": []
   },
+  "Hernando de Soto": {
+    "institutions": [],
+    "name": "Hernando de Soto",
+    "paper_keys": [
+      "hernandodesoto2000the"
+    ],
+    "themes": []
+  },
+  "Het Naik": {
+    "institutions": [],
+    "name": "Het Naik",
+    "paper_keys": [
+      "rudreshdwivedi2022explainable"
+    ],
+    "themes": []
+  },
   "Hilgard, S.": {
     "institutions": [],
     "name": "Hilgard, S.",
@@ -3517,6 +6303,14 @@
     "name": "Hong Lin",
     "paper_keys": [
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "Hongli Niu": {
+    "institutions": [],
+    "name": "Hongli Niu",
+    "paper_keys": [
+      "jiewang2016financial"
     ],
     "themes": []
   },
@@ -3557,6 +6351,14 @@
     "name": "Hou-Feng Zheng",
     "paper_keys": [
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "Hovy": {
+    "institutions": [],
+    "name": "Hovy",
+    "paper_keys": [
+      "terryanderson2008the"
     ],
     "themes": []
   },
@@ -3630,6 +6432,14 @@
       "xai-finance"
     ]
   },
+  "Hussam Al Hamadi": {
+    "institutions": [],
+    "name": "Hussam Al Hamadi",
+    "paper_keys": [
+      "zhibozhang2022explainable"
+    ],
+    "themes": []
+  },
   "Hyun Min Kang": {
     "institutions": [],
     "name": "Hyun Min Kang",
@@ -3663,6 +6473,22 @@
     "themes": [
       "xai-finance"
     ]
+  },
+  "I Mitchell": {
+    "institutions": [],
+    "name": "I Mitchell",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "I Reid": {
+    "institutions": [],
+    "name": "I Reid",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
   },
   "I. Sadaf Farooqi": {
     "institutions": [],
@@ -3738,6 +6564,14 @@
     ],
     "themes": []
   },
+  "Inc Neoplanet": {
+    "institutions": [],
+    "name": "Inc Neoplanet",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
   "Incidental findings group": {
     "institutions": [],
     "name": "Incidental findings group",
@@ -3751,6 +6585,14 @@
     "name": "Indian Telugu in the UK (ITU) and Sri Lankan Tamil in the UK (STU)",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Indro Spinelli": {
+    "institutions": [],
+    "name": "Indro Spinelli",
+    "paper_keys": [
+      "vikashassija2023interpreting"
     ],
     "themes": []
   },
@@ -3787,11 +6629,564 @@
     ],
     "themes": []
   },
+  "J Adams": {
+    "institutions": [],
+    "name": "J Adams",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Alexander": {
+    "institutions": [],
+    "name": "J Alexander",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Arbaugh": {
+    "institutions": [],
+    "name": "J Arbaugh",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Asuncion": {
+    "institutions": [],
+    "name": "J Asuncion",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Bersin": {
+    "institutions": [],
+    "name": "J Bersin",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Borland": {
+    "institutions": [],
+    "name": "J Borland",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Boticario": {
+    "institutions": [],
+    "name": "J Boticario",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Brown": {
+    "institutions": [],
+    "name": "J Brown",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Daniel": {
+    "institutions": [],
+    "name": "J Daniel",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Defeo": {
+    "institutions": [],
+    "name": "J Defeo",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Dixon": {
+    "institutions": [],
+    "name": "J Dixon",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Draper": {
+    "institutions": [],
+    "name": "J Draper",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Dron": {
+    "institutions": [],
+    "name": "J Dron",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Dunlap": {
+    "institutions": [],
+    "name": "J Dunlap",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Dvorak": {
+    "institutions": [],
+    "name": "J Dvorak",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Elmborg": {
+    "institutions": [],
+    "name": "J Elmborg",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Epstein": {
+    "institutions": [],
+    "name": "J Epstein",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Esposito": {
+    "institutions": [],
+    "name": "J Esposito",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Farmer": {
+    "institutions": [],
+    "name": "J Farmer",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Garland": {
+    "institutions": [],
+    "name": "J Garland",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Gibb": {
+    "institutions": [],
+    "name": "J Gibb",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Grandzol": {
+    "institutions": [],
+    "name": "J Grandzol",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Greer": {
+    "institutions": [],
+    "name": "J Greer",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Hancock": {
+    "institutions": [],
+    "name": "J Hancock",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Harris": {
+    "institutions": [],
+    "name": "J Harris",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Hawkrigg": {
+    "institutions": [],
+    "name": "J Hawkrigg",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Haywood": {
+    "institutions": [],
+    "name": "J Haywood",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Herrington": {
+    "institutions": [],
+    "name": "J Herrington",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Howard": {
+    "institutions": [],
+    "name": "J Howard",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Hughes": {
+    "institutions": [],
+    "name": "J Hughes",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Jagannathan": {
+    "institutions": [],
+    "name": "J Jagannathan",
+    "paper_keys": [
+      "geetanjaligoindi1995estimation"
+    ],
+    "themes": []
+  },
+  "J Jenson": {
+    "institutions": [],
+    "name": "J Jenson",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Jordan": {
+    "institutions": [],
+    "name": "J Jordan",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Keller": {
+    "institutions": [],
+    "name": "J Keller",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Kim": {
+    "institutions": [],
+    "name": "J Kim",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Kinnie": {
+    "institutions": [],
+    "name": "J Kinnie",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Kirkley": {
+    "institutions": [],
+    "name": "J Kirkley",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Kiska": {
+    "institutions": [],
+    "name": "J Kiska",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Klein": {
+    "institutions": [],
+    "name": "J Klein",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Koumi": {
+    "institutions": [],
+    "name": "J Koumi",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Lacroix": {
+    "institutions": [],
+    "name": "J Lacroix",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Lapadat": {
+    "institutions": [],
+    "name": "J Lapadat",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Larreamendy-Joerns": {
+    "institutions": [],
+    "name": "J Larreamendy-Joerns",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Levy": {
+    "institutions": [],
+    "name": "J Levy",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Liegle": {
+    "institutions": [],
+    "name": "J Liegle",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Lippincott": {
+    "institutions": [],
+    "name": "J Lippincott",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Mcdonald": {
+    "institutions": [],
+    "name": "J Mcdonald",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Merisotis": {
+    "institutions": [],
+    "name": "J Merisotis",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Mezirow": {
+    "institutions": [],
+    "name": "J Mezirow",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Mullane": {
+    "institutions": [],
+    "name": "J Mullane",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J O'rourke": {
+    "institutions": [],
+    "name": "J O'rourke",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Oblinger": {
+    "institutions": [],
+    "name": "J Oblinger",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Parker": {
+    "institutions": [],
+    "name": "J Parker",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Picard": {
+    "institutions": [],
+    "name": "J Picard",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Pons": {
+    "institutions": [],
+    "name": "J Pons",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Pontin": {
+    "institutions": [],
+    "name": "J Pontin",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Potter": {
+    "institutions": [],
+    "name": "J Potter",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Purcell": {
+    "institutions": [],
+    "name": "J Purcell",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Richardson": {
+    "institutions": [],
+    "name": "J Richardson",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Rumery": {
+    "institutions": [],
+    "name": "J Rumery",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Schmidt": {
+    "institutions": [],
+    "name": "J Schmidt",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Short": {
+    "institutions": [],
+    "name": "J Short",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Surowiecki": {
+    "institutions": [],
+    "name": "J Surowiecki",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Thomas": {
+    "institutions": [],
+    "name": "J Thomas",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Vassileva": {
+    "institutions": [],
+    "name": "J Vassileva",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Walther": {
+    "institutions": [],
+    "name": "J Walther",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Waycott": {
+    "institutions": [],
+    "name": "J Waycott",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "J Willis": {
+    "institutions": [],
+    "name": "J Willis",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
   "J. Brent Richards": {
     "institutions": [],
     "name": "J. Brent Richards",
     "paper_keys": [
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "J. R. Quinlan": {
+    "institutions": [],
+    "name": "J. R. Quinlan",
+    "paper_keys": [
+      "jrquinlan1987generating",
+      "jrquinlan1993foil"
     ],
     "themes": []
   },
@@ -3816,6 +7211,14 @@
     "name": "Jacob J. Michaelson",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Jacob R. Kauffmann": {
+    "institutions": [],
+    "name": "Jacob R. Kauffmann",
+    "paper_keys": [
+      "lukasruff2021a"
     ],
     "themes": []
   },
@@ -3915,6 +7318,14 @@
     ],
     "themes": []
   },
+  "Jane Jacobs": {
+    "institutions": [],
+    "name": "Jane Jacobs",
+    "paper_keys": [
+      "janejacobs2015the"
+    ],
+    "themes": []
+  },
   "Jane Kaye": {
     "institutions": [],
     "name": "Jane Kaye",
@@ -3958,12 +7369,29 @@
     ],
     "themes": []
   },
+  "Jason Weston": {
+    "institutions": [],
+    "name": "Jason Weston",
+    "paper_keys": [
+      "antoinebordes2014question"
+    ],
+    "themes": []
+  },
   "Jaspal S. Kooner": {
     "institutions": [],
     "name": "Jaspal S. Kooner",
     "paper_keys": [
       "correspondingauthors2015a",
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "Javier Del Ser": {
+    "institutions": [],
+    "name": "Javier Del Ser",
+    "paper_keys": [
+      "alejandrobarredoarrieta2019explainable",
+      "sajidali2023explainable"
     ],
     "themes": []
   },
@@ -3983,6 +7411,14 @@
     ],
     "themes": []
   },
+  "Ja\u0148 \u010cernock\u00fd": {
+    "institutions": [],
+    "name": "Ja\u0148 \u010cernock\u00fd",
+    "paper_keys": [
+      "tommikolov2010recurrent"
+    ],
+    "themes": []
+  },
   "Jean E. McEwen": {
     "institutions": [],
     "name": "Jean E. McEwen",
@@ -3996,6 +7432,14 @@
     "name": "Jeanette P. Schmidt",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Jeff Dominitz": {
+    "institutions": [],
+    "name": "Jeff Dominitz",
+    "paper_keys": [
+      "jeffdominitz1997using"
     ],
     "themes": []
   },
@@ -4057,6 +7501,14 @@
     ],
     "themes": []
   },
+  "Jens Lehmann": {
+    "institutions": [],
+    "name": "Jens Lehmann",
+    "paper_keys": [
+      "lorenzbhmann2016dl"
+    ],
+    "themes": []
+  },
   "Jeremiah D. Degenhardt": {
     "institutions": [],
     "name": "Jeremiah D. Degenhardt",
@@ -4111,6 +7563,17 @@
     "name": "Jerilyn A. Walker",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Jerome H. Friedman": {
+    "institutions": [],
+    "name": "Jerome H. Friedman",
+    "paper_keys": [
+      "jeromehfriedman2001greedy",
+      "jeromehfriedman2008predictive",
+      "trevorhastie2013the",
+      "alexandergordon1984classification"
     ],
     "themes": []
   },
@@ -4172,6 +7635,14 @@
     ],
     "themes": []
   },
+  "Jiawei Han": {
+    "institutions": [],
+    "name": "Jiawei Han",
+    "paper_keys": [
+      "xiaoxinyin2003cpar"
+    ],
+    "themes": []
+  },
   "Jiayong Zhu": {
     "institutions": [],
     "name": "Jiayong Zhu",
@@ -4193,6 +7664,14 @@
     "name": "Jie Huang",
     "paper_keys": [
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "Jie Wang": {
+    "institutions": [],
+    "name": "Jie Wang",
+    "paper_keys": [
+      "jiewang2016financial"
     ],
     "themes": []
   },
@@ -4225,6 +7704,14 @@
     "name": "Jim Stalker",
     "paper_keys": [
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "Jimmy Lin": {
+    "institutions": [],
+    "name": "Jimmy Lin",
+    "paper_keys": [
+      "dinademnerfushman2007answering"
     ],
     "themes": []
   },
@@ -4268,6 +7755,22 @@
     ],
     "themes": []
   },
+  "Joel Hasbrouck": {
+    "institutions": [],
+    "name": "Joel Hasbrouck",
+    "paper_keys": [
+      "joelhasbrouck2013low"
+    ],
+    "themes": []
+  },
+  "John B. Carlin": {
+    "institutions": [],
+    "name": "John B. Carlin",
+    "paper_keys": [
+      "sandergreenland2016statistical"
+    ],
+    "themes": []
+  },
   "John Banasik": {
     "institutions": [],
     "name": "John Banasik",
@@ -4284,6 +7787,14 @@
     ],
     "themes": []
   },
+  "John D. Straub": {
+    "institutions": [],
+    "name": "John D. Straub",
+    "paper_keys": [
+      "charlesfmanski2000worker"
+    ],
+    "themes": []
+  },
   "John F. Peden": {
     "institutions": [],
     "name": "John F. Peden",
@@ -4297,6 +7808,14 @@
     "name": "John Garner",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "John Gerard Ruggie": {
+    "institutions": [],
+    "name": "John Gerard Ruggie",
+    "paper_keys": [
+      "johngerardruggie1982international"
     ],
     "themes": []
   },
@@ -4376,7 +7895,9 @@
     "institutions": [],
     "name": "Jonathan Crook",
     "paper_keys": [
-      "johnbanasik2007reject"
+      "johnbanasik2007reject",
+      "vijaysdesai1996a",
+      "tonybellotti2008support"
     ],
     "themes": []
   },
@@ -4421,6 +7942,22 @@
     ],
     "themes": []
   },
+  "Josef Zechner": {
+    "institutions": [],
+    "name": "Josef Zechner",
+    "paper_keys": [
+      "robertheinkel2001the"
+    ],
+    "themes": []
+  },
+  "Joseph A. McCahery": {
+    "institutions": [],
+    "name": "Joseph A. McCahery",
+    "paper_keys": [
+      "josephamccahery2016behind"
+    ],
+    "themes": []
+  },
   "Joseph J. Vitti": {
     "institutions": [],
     "name": "Joseph J. Vitti",
@@ -4437,11 +7974,35 @@
     ],
     "themes": []
   },
+  "Joshua B. Tenenbaum": {
+    "institutions": [],
+    "name": "Joshua B. Tenenbaum",
+    "paper_keys": [
+      "thomaslgriffiths2001bayesian"
+    ],
+    "themes": []
+  },
   "Josine L. Min": {
     "institutions": [],
     "name": "Josine L. Min",
     "paper_keys": [
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "Jos\u00e9 Lu\u00eds Reis": {
+    "institutions": [],
+    "name": "Jos\u00e9 Lu\u00eds Reis",
+    "paper_keys": [
+      "paulocortez2009using"
+    ],
+    "themes": []
+  },
+  "Jos\u00e9 M. Alonso": {
+    "institutions": [],
+    "name": "Jos\u00e9 M. Alonso",
+    "paper_keys": [
+      "sajidali2023explainable"
     ],
     "themes": []
   },
@@ -4493,6 +8054,14 @@
     ],
     "themes": []
   },
+  "Judea Pearl": {
+    "institutions": [],
+    "name": "Judea Pearl",
+    "paper_keys": [
+      "judeapearl2009causal"
+    ],
+    "themes": []
+  },
   "Julia M. Keogh": {
     "institutions": [],
     "name": "Julia M. Keogh",
@@ -4514,6 +8083,14 @@
     "name": "Julian K&ouml;lbel",
     "paper_keys": [
       "juliankoumllbel2020does"
+    ],
+    "themes": []
+  },
+  "Juliana Silveira Teixeira": {
+    "institutions": [],
+    "name": "Juliana Silveira Teixeira",
+    "paper_keys": [
+      "paulocortez2009using"
     ],
     "themes": []
   },
@@ -4540,7 +8117,16 @@
     "name": "Jun Wang",
     "paper_keys": [
       "correspondingauthors2015a",
-      "writinggroup2015the"
+      "writinggroup2015the",
+      "jiewang2016financial"
+    ],
+    "themes": []
+  },
+  "Junwei Ma": {
+    "institutions": [],
+    "name": "Junwei Ma",
+    "paper_keys": [
+      "valentinthomas2024retrieval"
     ],
     "themes": []
   },
@@ -4552,11 +8138,219 @@
     ],
     "themes": []
   },
+  "Justin Bleich": {
+    "institutions": [],
+    "name": "Justin Bleich",
+    "paper_keys": [
+      "alexgoldstein2014peeking"
+    ],
+    "themes": []
+  },
   "J\u00f6rg Henseler": {
     "institutions": [],
     "name": "J\u00f6rg Henseler",
     "paper_keys": [
       "jrghenseler2014a"
+    ],
+    "themes": []
+  },
+  "K Argyle": {
+    "institutions": [],
+    "name": "K Argyle",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "K Baker": {
+    "institutions": [],
+    "name": "K Baker",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "K Barker": {
+    "institutions": [],
+    "name": "K Barker",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "K Barnum": {
+    "institutions": [],
+    "name": "K Barnum",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "K Campbell": {
+    "institutions": [],
+    "name": "K Campbell",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "K Collins": {
+    "institutions": [],
+    "name": "K Collins",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "K Eisenhardt": {
+    "institutions": [],
+    "name": "K Eisenhardt",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "K Fleming": {
+    "institutions": [],
+    "name": "K Fleming",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "K Greene": {
+    "institutions": [],
+    "name": "K Greene",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "K Henry": {
+    "institutions": [],
+    "name": "K Henry",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "K Hounsell": {
+    "institutions": [],
+    "name": "K Hounsell",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "K Johnson": {
+    "institutions": [],
+    "name": "K Johnson",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "K Jugdev": {
+    "institutions": [],
+    "name": "K Jugdev",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "K Killoh": {
+    "institutions": [],
+    "name": "K Killoh",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "K Loomis": {
+    "institutions": [],
+    "name": "K Loomis",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "K Menzel": {
+    "institutions": [],
+    "name": "K Menzel",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "K Michalczuk": {
+    "institutions": [],
+    "name": "K Michalczuk",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "K Morgan": {
+    "institutions": [],
+    "name": "K Morgan",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "K Murphy": {
+    "institutions": [],
+    "name": "K Murphy",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "K Ramsay": {
+    "institutions": [],
+    "name": "K Ramsay",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "K Shire": {
+    "institutions": [],
+    "name": "K Shire",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "K Spahn": {
+    "institutions": [],
+    "name": "K Spahn",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "K Suzuki": {
+    "institutions": [],
+    "name": "K Suzuki",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "K Swan": {
+    "institutions": [],
+    "name": "K Swan",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "K Weick": {
+    "institutions": [],
+    "name": "K Weick",
+    "paper_keys": [
+      "terryanderson2008the"
     ],
     "themes": []
   },
@@ -4573,6 +8367,14 @@
     "name": "Kaivaram Sivarama Krishna",
     "paper_keys": [
       "kaivaramsivaramakrishna2024credit"
+    ],
+    "themes": []
+  },
+  "Kaizhu Huang": {
+    "institutions": [],
+    "name": "Kaizhu Huang",
+    "paper_keys": [
+      "vikashassija2023interpreting"
     ],
     "themes": []
   },
@@ -4650,6 +8452,14 @@
     ],
     "themes": []
   },
+  "Karsten L\u00fcbke": {
+    "institutions": [],
+    "name": "Karsten L\u00fcbke",
+    "paper_keys": [
+      "geroszepannek2021facing"
+    ],
+    "themes": []
+  },
   "Kasneci, G.": {
     "institutions": [],
     "name": "Kasneci, G.",
@@ -4700,11 +8510,35 @@
     ],
     "themes": []
   },
+  "Kathleen McGarry": {
+    "institutions": [],
+    "name": "Kathleen McGarry",
+    "paper_keys": [
+      "michaeldhurd1995evaluation"
+    ],
+    "themes": []
+  },
   "Kathryn Beal": {
     "institutions": [],
     "name": "Kathryn Beal",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Katja Langenbucher": {
+    "institutions": [],
+    "name": "Katja Langenbucher",
+    "paper_keys": [
+      "katjalangenbucher2020responsible"
+    ],
+    "themes": []
+  },
+  "Katrien Antonio": {
+    "institutions": [],
+    "name": "Katrien Antonio",
+    "paper_keys": [
+      "roelhenckaerts2022when"
     ],
     "themes": []
   },
@@ -4747,6 +8581,22 @@
     ],
     "themes": []
   },
+  "Kenneth J. Rothman": {
+    "institutions": [],
+    "name": "Kenneth J. Rothman",
+    "paper_keys": [
+      "sandergreenland2016statistical"
+    ],
+    "themes": []
+  },
+  "Kenneth R. French": {
+    "institutions": [],
+    "name": "Kenneth R. French",
+    "paper_keys": [
+      "eugeneffama2004the"
+    ],
+    "themes": []
+  },
   "Kenny Ye": {
     "institutions": [],
     "name": "Kenny Ye",
@@ -4771,6 +8621,14 @@
     ],
     "themes": []
   },
+  "Kevin P. Murphy": {
+    "institutions": [],
+    "name": "Kevin P. Murphy",
+    "paper_keys": [
+      "kevinpmurphy2012machine"
+    ],
+    "themes": []
+  },
   "Kevin Squire": {
     "institutions": [],
     "name": "Kevin Squire",
@@ -4779,11 +8637,27 @@
     ],
     "themes": []
   },
+  "Keyvan Golestan": {
+    "institutions": [],
+    "name": "Keyvan Golestan",
+    "paper_keys": [
+      "valentinthomas2024retrieval"
+    ],
+    "themes": []
+  },
   "Khalid Shakir": {
     "institutions": [],
     "name": "Khalid Shakir",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Khan Muhammad": {
+    "institutions": [],
+    "name": "Khan Muhammad",
+    "paper_keys": [
+      "sajidali2023explainable"
     ],
     "themes": []
   },
@@ -4835,6 +8709,14 @@
     "paper_keys": [
       "correspondingauthors2015a",
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "Klaus-Robert Muller": {
+    "institutions": [],
+    "name": "Klaus-Robert Muller",
+    "paper_keys": [
+      "lukasruff2021a"
     ],
     "themes": []
   },
@@ -4912,6 +8794,246 @@
       "green-finance"
     ]
   },
+  "L Arthur": {
+    "institutions": [],
+    "name": "L Arthur",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "L Cannell": {
+    "institutions": [],
+    "name": "L Cannell",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "L Chittaro": {
+    "institutions": [],
+    "name": "L Chittaro",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "L Christenson": {
+    "institutions": [],
+    "name": "L Christenson",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "L Cifuentes": {
+    "institutions": [],
+    "name": "L Cifuentes",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "L Clyde": {
+    "institutions": [],
+    "name": "L Clyde",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "L Constantine": {
+    "institutions": [],
+    "name": "L Constantine",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "L Dahlberg": {
+    "institutions": [],
+    "name": "L Dahlberg",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "L Davie": {
+    "institutions": [],
+    "name": "L Davie",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "L Gilbert": {
+    "institutions": [],
+    "name": "L Gilbert",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "L Grnberg": {
+    "institutions": [],
+    "name": "L Grnberg",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "L Gustafson": {
+    "institutions": [],
+    "name": "L Gustafson",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "L Haricombe": {
+    "institutions": [],
+    "name": "L Haricombe",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "L Harvey": {
+    "institutions": [],
+    "name": "L Harvey",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "L Herman": {
+    "institutions": [],
+    "name": "L Herman",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "L Kester": {
+    "institutions": [],
+    "name": "L Kester",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "L Kettel": {
+    "institutions": [],
+    "name": "L Kettel",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "L Martin": {
+    "institutions": [],
+    "name": "L Martin",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "L Marx": {
+    "institutions": [],
+    "name": "L Marx",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "L Moynihan": {
+    "institutions": [],
+    "name": "L Moynihan",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "L Newman": {
+    "institutions": [],
+    "name": "L Newman",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "L Ragan": {
+    "institutions": [],
+    "name": "L Ragan",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "L Rourke": {
+    "institutions": [],
+    "name": "L Rourke",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "L Shepard": {
+    "institutions": [],
+    "name": "L Shepard",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "L Sproull": {
+    "institutions": [],
+    "name": "L Sproull",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "L Ulanoff": {
+    "institutions": [],
+    "name": "L Ulanoff",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "L Vidovich": {
+    "institutions": [],
+    "name": "L Vidovich",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "L Vlsceanu": {
+    "institutions": [],
+    "name": "L Vlsceanu",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "L Wozney": {
+    "institutions": [],
+    "name": "L Wozney",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "L Zinn": {
+    "institutions": [],
+    "name": "L Zinn",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
   "LSTA": {
     "institutions": [],
     "name": "LSTA",
@@ -4967,11 +9089,36 @@
     ],
     "themes": []
   },
+  "Laskov, P.": {
+    "institutions": [],
+    "name": "Laskov, P.",
+    "paper_keys": [
+      "biggio2013evasion"
+    ],
+    "themes": []
+  },
   "Laura Clarke": {
     "institutions": [],
     "name": "Laura Clarke",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Laura T. Starks": {
+    "institutions": [],
+    "name": "Laura T. Starks",
+    "paper_keys": [
+      "philippkrueger2019the",
+      "josephamccahery2016behind"
+    ],
+    "themes": []
+  },
+  "Lauren Klein": {
+    "institutions": [],
+    "name": "Lauren Klein",
+    "paper_keys": [
+      "catherinedignazio2020data"
     ],
     "themes": []
   },
@@ -5031,6 +9178,39 @@
       "fairness-compliance"
     ]
   },
+  "Lennart Purucker": {
+    "institutions": [],
+    "name": "Lennart Purucker",
+    "paper_keys": [
+      "noahhollmann2025accurate"
+    ],
+    "themes": []
+  },
+  "Leo Breiman": {
+    "institutions": [],
+    "name": "Leo Breiman",
+    "paper_keys": [
+      "leobreiman2001random",
+      "alexandergordon1984classification"
+    ],
+    "themes": []
+  },
+  "Leonardo R. Bachega": {
+    "institutions": [],
+    "name": "Leonardo R. Bachega",
+    "paper_keys": [
+      "sanjivranjandas2023credit"
+    ],
+    "themes": []
+  },
+  "Leslie G. Valiant": {
+    "institutions": [],
+    "name": "Leslie G. Valiant",
+    "paper_keys": [
+      "lesliegvaliant2003three"
+    ],
+    "themes": []
+  },
   "Lessmann, S.": {
     "institutions": [],
     "name": "Lessmann, S.",
@@ -5042,6 +9222,14 @@
       "benchmarking",
       "gbdt-tabular-sota"
     ]
+  },
+  "Leyla Mammadova": {
+    "institutions": [],
+    "name": "Leyla Mammadova",
+    "paper_keys": [
+      "leylamammadova2021peer"
+    ],
+    "themes": []
   },
   "Li Ding": {
     "institutions": [],
@@ -5181,6 +9369,14 @@
     ],
     "themes": []
   },
+  "Lorenz B\u00fchmann": {
+    "institutions": [],
+    "name": "Lorenz B\u00fchmann",
+    "paper_keys": [
+      "lorenzbhmann2016dl"
+    ],
+    "themes": []
+  },
   "Lorraine H. Toji": {
     "institutions": [],
     "name": "Lorraine H. Toji",
@@ -5255,11 +9451,27 @@
     ],
     "themes": []
   },
+  "Lukas Ruff": {
+    "institutions": [],
+    "name": "Lukas Ruff",
+    "paper_keys": [
+      "lukasruff2021a"
+    ],
+    "themes": []
+  },
   "Luke Jostins": {
     "institutions": [],
     "name": "Luke Jostins",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Luk\u00e1\u0161 Burget": {
+    "institutions": [],
+    "name": "Luk\u00e1\u0161 Burget",
+    "paper_keys": [
+      "tommikolov2010recurrent"
     ],
     "themes": []
   },
@@ -5291,6 +9503,14 @@
     ],
     "themes": []
   },
+  "Lyn C. Thomas": {
+    "institutions": [],
+    "name": "Lyn C. Thomas",
+    "paper_keys": [
+      "lyncthomas2000a"
+    ],
+    "themes": []
+  },
   "Lynn B. Jorde": {
     "institutions": [],
     "name": "Lynn B. Jorde",
@@ -5308,6 +9528,510 @@
     "themes": [
       "xai-finance"
     ]
+  },
+  "M Adria": {
+    "institutions": [],
+    "name": "M Adria",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Ally": {
+    "institutions": [],
+    "name": "M Ally",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Ault": {
+    "institutions": [],
+    "name": "M Ault",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Barile": {
+    "institutions": [],
+    "name": "M Barile",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Baynton": {
+    "institutions": [],
+    "name": "M Baynton",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Beaudoin": {
+    "institutions": [],
+    "name": "M Beaudoin",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Bechtoldt": {
+    "institutions": [],
+    "name": "M Bechtoldt",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Benedikt": {
+    "institutions": [],
+    "name": "M Benedikt",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Beynon": {
+    "institutions": [],
+    "name": "M Beynon",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Borges": {
+    "institutions": [],
+    "name": "M Borges",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Buchanan-Oliver": {
+    "institutions": [],
+    "name": "M Buchanan-Oliver",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Byrne": {
+    "institutions": [],
+    "name": "M Byrne",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Carmondy": {
+    "institutions": [],
+    "name": "M Carmondy",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Cleveland-Innes": {
+    "institutions": [],
+    "name": "M Cleveland-Innes",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Colgate": {
+    "institutions": [],
+    "name": "M Colgate",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Copeland": {
+    "institutions": [],
+    "name": "M Copeland",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Defleur": {
+    "institutions": [],
+    "name": "M Defleur",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Eastin": {
+    "institutions": [],
+    "name": "M Eastin",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Elliott": {
+    "institutions": [],
+    "name": "M Elliott",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Fiset": {
+    "institutions": [],
+    "name": "M Fiset",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Fossey": {
+    "institutions": [],
+    "name": "M Fossey",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Fox": {
+    "institutions": [],
+    "name": "M Fox",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Gismondi": {
+    "institutions": [],
+    "name": "M Gismondi",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Gladwell": {
+    "institutions": [],
+    "name": "M Gladwell",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Halme": {
+    "institutions": [],
+    "name": "M Halme",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Hannafin": {
+    "institutions": [],
+    "name": "M Hannafin",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Harsch": {
+    "institutions": [],
+    "name": "M Harsch",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Hawkes": {
+    "institutions": [],
+    "name": "M Hawkes",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Hooker": {
+    "institutions": [],
+    "name": "M Hooker",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Houlihan": {
+    "institutions": [],
+    "name": "M Houlihan",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Jiang": {
+    "institutions": [],
+    "name": "M Jiang",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Kascus": {
+    "institutions": [],
+    "name": "M Kascus",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Kern": {
+    "institutions": [],
+    "name": "M Kern",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Kompf": {
+    "institutions": [],
+    "name": "M Kompf",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Kone": {
+    "institutions": [],
+    "name": "M Kone",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Korczynski": {
+    "institutions": [],
+    "name": "M Korczynski",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Laiken": {
+    "institutions": [],
+    "name": "M Laiken",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Lea": {
+    "institutions": [],
+    "name": "M Lea",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Lu": {
+    "institutions": [],
+    "name": "M Lu",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Mcisaac": {
+    "institutions": [],
+    "name": "M Mcisaac",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Miller": {
+    "institutions": [],
+    "name": "M Miller",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Milliron": {
+    "institutions": [],
+    "name": "M Milliron",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Milrad": {
+    "institutions": [],
+    "name": "M Milrad",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Moore": {
+    "institutions": [],
+    "name": "M Moore",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Morris": {
+    "institutions": [],
+    "name": "M Morris",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Mukhopadhyay": {
+    "institutions": [],
+    "name": "M Mukhopadhyay",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Nicholas": {
+    "institutions": [],
+    "name": "M Nicholas",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Parhar": {
+    "institutions": [],
+    "name": "M Parhar",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Pastore": {
+    "institutions": [],
+    "name": "M Pastore",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Paulsen": {
+    "institutions": [],
+    "name": "M Paulsen",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Poster": {
+    "institutions": [],
+    "name": "M Poster",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Resnick": {
+    "institutions": [],
+    "name": "M Resnick",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Roberto": {
+    "institutions": [],
+    "name": "M Roberto",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Sharples": {
+    "institutions": [],
+    "name": "M Sharples",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Shulman": {
+    "institutions": [],
+    "name": "M Shulman",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Simmons": {
+    "institutions": [],
+    "name": "M Simmons",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Smolensky": {
+    "institutions": [],
+    "name": "M Smolensky",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Szabo": {
+    "institutions": [],
+    "name": "M Szabo",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Tam": {
+    "institutions": [],
+    "name": "M Tam",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Tomeo": {
+    "institutions": [],
+    "name": "M Tomeo",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M Yorke": {
+    "institutions": [],
+    "name": "M Yorke",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "M. G. Karmarkar": {
+    "institutions": [],
+    "name": "M. G. Karmarkar",
+    "paper_keys": [
+      "geetanjaligoindi1995estimation"
+    ],
+    "themes": []
+  },
+  "M. Mofijur": {
+    "institutions": [],
+    "name": "M. Mofijur",
+    "paper_keys": [
+      "shamsforruqueahmed2023deep"
+    ],
+    "themes": []
   },
   "M.H.M. Janssen": {
     "institutions": [],
@@ -5335,11 +10059,35 @@
     ],
     "themes": []
   },
+  "Mahtabin Rodela Rozbu": {
+    "institutions": [],
+    "name": "Mahtabin Rodela Rozbu",
+    "paper_keys": [
+      "shamsforruqueahmed2023deep"
+    ],
+    "themes": []
+  },
   "Maika Malig": {
     "institutions": [],
     "name": "Maika Malig",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Maiorca, D.": {
+    "institutions": [],
+    "name": "Maiorca, D.",
+    "paper_keys": [
+      "biggio2013evasion"
+    ],
+    "themes": []
+  },
+  "Maksims Volkovs": {
+    "institutions": [],
+    "name": "Maksims Volkovs",
+    "paper_keys": [
+      "valentinthomas2024retrieval"
     ],
     "themes": []
   },
@@ -5456,6 +10204,22 @@
     ],
     "themes": []
   },
+  "Marie\u2010Pier C\u00f4t\u00e9": {
+    "institutions": [],
+    "name": "Marie\u2010Pier C\u00f4t\u00e9",
+    "paper_keys": [
+      "roelhenckaerts2022when"
+    ],
+    "themes": []
+  },
+  "Marius Kloft": {
+    "institutions": [],
+    "name": "Marius Kloft",
+    "paper_keys": [
+      "lukasruff2021a"
+    ],
+    "themes": []
+  },
   "Mark A. Batzer": {
     "institutions": [],
     "name": "Mark A. Batzer",
@@ -5569,11 +10333,27 @@
     ],
     "themes": []
   },
+  "Martin Karafi\u00e1t": {
+    "institutions": [],
+    "name": "Martin Karafi\u00e1t",
+    "paper_keys": [
+      "tommikolov2010recurrent"
+    ],
+    "themes": []
+  },
   "Martin Seneviratne": {
     "institutions": [],
     "name": "Martin Seneviratne",
     "paper_keys": [
       "karansinghal2023large"
+    ],
+    "themes": []
+  },
+  "Maruf Hassan": {
+    "institutions": [],
+    "name": "Maruf Hassan",
+    "paper_keys": [
+      "shamsforruqueahmed2023deep"
     ],
     "themes": []
   },
@@ -5674,6 +10454,22 @@
     ],
     "themes": []
   },
+  "Max K\u00f6rfer": {
+    "institutions": [],
+    "name": "Max K\u00f6rfer",
+    "paper_keys": [
+      "noahhollmann2025accurate"
+    ],
+    "themes": []
+  },
+  "Md. Sakib Bin Alam": {
+    "institutions": [],
+    "name": "Md. Sakib Bin Alam",
+    "paper_keys": [
+      "shamsforruqueahmed2023deep"
+    ],
+    "themes": []
+  },
   "Meifang Tang": {
     "institutions": [],
     "name": "Meifang Tang",
@@ -5732,6 +10528,14 @@
     ],
     "themes": []
   },
+  "Merlinda Andoni": {
+    "institutions": [],
+    "name": "Merlinda Andoni",
+    "paper_keys": [
+      "merlindaandoni2018blockchain"
+    ],
+    "themes": []
+  },
   "Merton H. Miller": {
     "institutions": [],
     "name": "Merton H. Miller",
@@ -5764,6 +10568,14 @@
     "name": "Michael Carl Tschantz",
     "paper_keys": [
       "amitdatta2015automated"
+    ],
+    "themes": []
+  },
+  "Michael D. Hurd": {
+    "institutions": [],
+    "name": "Michael D. Hurd",
+    "paper_keys": [
+      "michaeldhurd1995evaluation"
     ],
     "themes": []
   },
@@ -5910,6 +10722,14 @@
       "fairness-compliance"
     ]
   },
+  "Mohamed Ally": {
+    "institutions": [],
+    "name": "Mohamed Ally",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
   "Momiao Xiong": {
     "institutions": [],
     "name": "Momiao Xiong",
@@ -5976,6 +10796,14 @@
       "xai-finance"
     ]
   },
+  "Mufti Mahmud": {
+    "institutions": [],
+    "name": "Mufti Mahmud",
+    "paper_keys": [
+      "vikashassija2023interpreting"
+    ],
+    "themes": []
+  },
   "Muhammad Ayub": {
     "institutions": [],
     "name": "Muhammad Ayub",
@@ -6007,6 +10835,102 @@
     "name": "Muminatou Jallow",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Myspace": {
+    "institutions": [],
+    "name": "Myspace",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "N Friesen": {
+    "institutions": [],
+    "name": "N Friesen",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "N Geri": {
+    "institutions": [],
+    "name": "N Geri",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "N Kinnie": {
+    "institutions": [],
+    "name": "N Kinnie",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "N Lindsay": {
+    "institutions": [],
+    "name": "N Lindsay",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "N Maushak": {
+    "institutions": [],
+    "name": "N Maushak",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "N Mccormick": {
+    "institutions": [],
+    "name": "N Mccormick",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "N Rushby": {
+    "institutions": [],
+    "name": "N Rushby",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "N Santos": {
+    "institutions": [],
+    "name": "N Santos",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "N Spivack": {
+    "institutions": [],
+    "name": "N Spivack",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "N Stoyanova": {
+    "institutions": [],
+    "name": "N Stoyanova",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "N Wark": {
+    "institutions": [],
+    "name": "N Wark",
+    "paper_keys": [
+      "terryanderson2008the"
     ],
     "themes": []
   },
@@ -6045,12 +10969,29 @@
     ],
     "themes": []
   },
+  "Nancy Cartwright": {
+    "institutions": [],
+    "name": "Nancy Cartwright",
+    "paper_keys": [
+      "angusdeaton2017understanding"
+    ],
+    "themes": []
+  },
   "Narine Kokhlikyan": {
     "institutions": [],
     "name": "Narine Kokhlikyan",
     "paper_keys": [
       "davidadkins2022method",
       "davidadkins2022prescriptive"
+    ],
+    "themes": []
+  },
+  "Natalia D\u00edaz-Rodr\u00edguez": {
+    "institutions": [],
+    "name": "Natalia D\u00edaz-Rodr\u00edguez",
+    "paper_keys": [
+      "alejandrobarredoarrieta2019explainable",
+      "sajidali2023explainable"
     ],
     "themes": []
   },
@@ -6086,6 +11027,14 @@
     ],
     "themes": []
   },
+  "Nazifa Rafa": {
+    "institutions": [],
+    "name": "Nazifa Rafa",
+    "paper_keys": [
+      "shamsforruqueahmed2023deep"
+    ],
+    "themes": []
+  },
   "Neda Gharani": {
     "institutions": [],
     "name": "Neda Gharani",
@@ -6094,11 +11043,27 @@
     ],
     "themes": []
   },
+  "Neil Bhutta": {
+    "institutions": [],
+    "name": "Neil Bhutta",
+    "paper_keys": [
+      "neilbhutta2010gse"
+    ],
+    "themes": []
+  },
   "Neil D. Lawrence": {
     "institutions": [],
     "name": "Neil D. Lawrence",
     "paper_keys": [
       "andreipaleyes2022challenges"
+    ],
+    "themes": []
+  },
+  "Nelson, B.": {
+    "institutions": [],
+    "name": "Nelson, B.",
+    "paper_keys": [
+      "biggio2013evasion"
     ],
     "themes": []
   },
@@ -6190,6 +11155,15 @@
     ],
     "themes": []
   },
+  "Noah Hollmann": {
+    "institutions": [],
+    "name": "Noah Hollmann",
+    "paper_keys": [
+      "noahhollmann2025accurate",
+      "noahhollmann2023large"
+    ],
+    "themes": []
+  },
   "Norman P. Gerry": {
     "institutions": [],
     "name": "Norman P. Gerry",
@@ -6198,11 +11172,35 @@
     ],
     "themes": []
   },
+  "O Malik": {
+    "institutions": [],
+    "name": "O Malik",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "O Santos": {
+    "institutions": [],
+    "name": "O Santos",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
   "Obesity group": {
     "institutions": [],
     "name": "Obesity group",
     "paper_keys": [
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "Odlqc": {
+    "institutions": [],
+    "name": "Odlqc",
+    "paper_keys": [
+      "terryanderson2008the"
     ],
     "themes": []
   },
@@ -6248,6 +11246,14 @@
     ],
     "themes": []
   },
+  "Omer Rana": {
+    "institutions": [],
+    "name": "Omer Rana",
+    "paper_keys": [
+      "rudreshdwivedi2022explainable"
+    ],
+    "themes": []
+  },
   "Omonwunmi Omoniwa": {
     "institutions": [],
     "name": "Omonwunmi Omoniwa",
@@ -6272,6 +11278,14 @@
     ],
     "themes": []
   },
+  "Otto Van Hemert": {
+    "institutions": [],
+    "name": "Otto Van Hemert",
+    "paper_keys": [
+      "yuliyademyanyk2009understanding"
+    ],
+    "themes": []
+  },
   "Oyallon, E.": {
     "institutions": [],
     "name": "Oyallon, E.",
@@ -6282,6 +11296,270 @@
       "gbdt-tabular-sota",
       "tabular-deep-learning"
     ]
+  },
+  "P Abrami": {
+    "institutions": [],
+    "name": "P Abrami",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "P Agre": {
+    "institutions": [],
+    "name": "P Agre",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "P Bain": {
+    "institutions": [],
+    "name": "P Bain",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "P Blau": {
+    "institutions": [],
+    "name": "P Blau",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "P Buckle": {
+    "institutions": [],
+    "name": "P Buckle",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "P Cooper": {
+    "institutions": [],
+    "name": "P Cooper",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "P Cox": {
+    "institutions": [],
+    "name": "P Cox",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "P Dempsey": {
+    "institutions": [],
+    "name": "P Dempsey",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "P Denning": {
+    "institutions": [],
+    "name": "P Denning",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "P Dowrick": {
+    "institutions": [],
+    "name": "P Dowrick",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "P Ertmer": {
+    "institutions": [],
+    "name": "P Ertmer",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "P Fahy": {
+    "institutions": [],
+    "name": "P Fahy",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "P Glew": {
+    "institutions": [],
+    "name": "P Glew",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "P Golding": {
+    "institutions": [],
+    "name": "P Golding",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "P Greatrix": {
+    "institutions": [],
+    "name": "P Greatrix",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "P Hadenius": {
+    "institutions": [],
+    "name": "P Hadenius",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "P Helford": {
+    "institutions": [],
+    "name": "P Helford",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "P Knight": {
+    "institutions": [],
+    "name": "P Knight",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "P Kommers": {
+    "institutions": [],
+    "name": "P Kommers",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "P Little": {
+    "institutions": [],
+    "name": "P Little",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "P Miller": {
+    "institutions": [],
+    "name": "P Miller",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "P Naude": {
+    "institutions": [],
+    "name": "P Naude",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "P Patrick": {
+    "institutions": [],
+    "name": "P Patrick",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "P Rosmalen": {
+    "institutions": [],
+    "name": "P Rosmalen",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "P Sloep": {
+    "institutions": [],
+    "name": "P Sloep",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "P Smith": {
+    "institutions": [],
+    "name": "P Smith",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "P Taylor": {
+    "institutions": [],
+    "name": "P Taylor",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "P Van Rosmalen": {
+    "institutions": [],
+    "name": "P Van Rosmalen",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "P Wallet": {
+    "institutions": [],
+    "name": "P Wallet",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "P Williams": {
+    "institutions": [],
+    "name": "P Williams",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "P Willis": {
+    "institutions": [],
+    "name": "P Willis",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "P Wilson": {
+    "institutions": [],
+    "name": "P Wilson",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "P. L. Krapivsky": {
+    "institutions": [],
+    "name": "P. L. Krapivsky",
+    "paper_keys": [
+      "plkrapivsky2001organization"
+    ],
+    "themes": []
   },
   "P. Mansfield": {
     "institutions": [],
@@ -6300,6 +11578,22 @@
     "themes": [
       "green-finance"
     ]
+  },
+  "Paisley Currah": {
+    "institutions": [],
+    "name": "Paisley Currah",
+    "paper_keys": [
+      "paisleycurrah2011securitizing"
+    ],
+    "themes": []
+  },
+  "Pankesh Patel": {
+    "institutions": [],
+    "name": "Pankesh Patel",
+    "paper_keys": [
+      "rudreshdwivedi2022explainable"
+    ],
+    "themes": []
   },
   "Paolo Gasparini": {
     "institutions": [],
@@ -6341,11 +11635,35 @@
     ],
     "themes": []
   },
+  "Patrick Westphal": {
+    "institutions": [],
+    "name": "Patrick Westphal",
+    "paper_keys": [
+      "lorenzbhmann2016dl"
+    ],
+    "themes": []
+  },
+  "Patrick Yang": {
+    "institutions": [],
+    "name": "Patrick Yang",
+    "paper_keys": [
+      "sanjivranjandas2023credit"
+    ],
+    "themes": []
+  },
   "Patrizio Pelliccione": {
     "institutions": [],
     "name": "Patrizio Pelliccione",
     "paper_keys": [
       "ulfeliasson2015architecting"
+    ],
+    "themes": []
+  },
+  "Paul Ekins": {
+    "institutions": [],
+    "name": "Paul Ekins",
+    "paper_keys": [
+      "christophemcglade2015the"
     ],
     "themes": []
   },
@@ -6374,6 +11692,22 @@
     ],
     "themes": []
   },
+  "Paul Koch": {
+    "institutions": [],
+    "name": "Paul Koch",
+    "paper_keys": [
+      "sarahtan2018learning"
+    ],
+    "themes": []
+  },
+  "Paulo Cortez": {
+    "institutions": [],
+    "name": "Paulo Cortez",
+    "paper_keys": [
+      "paulocortez2009using"
+    ],
+    "themes": []
+  },
   "Pawelczyk, M.": {
     "institutions": [],
     "name": "Pawelczyk, M.",
@@ -6383,6 +11717,14 @@
     "themes": [
       "tabular-deep-learning"
     ]
+  },
+  "Pedro Antonio Guti\u00e9rrez": {
+    "institutions": [],
+    "name": "Pedro Antonio Guti\u00e9rrez",
+    "paper_keys": [
+      "pedroantoniogutirrez2011hybrid"
+    ],
+    "themes": []
   },
   "Perry W. Payne": {
     "institutions": [],
@@ -6472,6 +11814,14 @@
     ],
     "themes": []
   },
+  "Peter McCallum": {
+    "institutions": [],
+    "name": "Peter McCallum",
+    "paper_keys": [
+      "merlindaandoni2018blockchain"
+    ],
+    "themes": []
+  },
   "Peter McGuffin": {
     "institutions": [],
     "name": "Peter McGuffin",
@@ -6548,6 +11898,23 @@
     ],
     "themes": []
   },
+  "Philip D. Harvey": {
+    "institutions": [],
+    "name": "Philip D. Harvey",
+    "paper_keys": [
+      "philipdharvey1999let"
+    ],
+    "themes": []
+  },
+  "Philipp Krueger": {
+    "institutions": [],
+    "name": "Philipp Krueger",
+    "paper_keys": [
+      "philippkrueger2019the",
+      "philippkrueger2015climate"
+    ],
+    "themes": []
+  },
   "Philipp Ruf": {
     "institutions": [],
     "name": "Philipp Ruf",
@@ -6600,6 +11967,14 @@
       "imbalance-calibration"
     ]
   },
+  "Pocket Power": {
+    "institutions": [],
+    "name": "Pocket Power",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
   "Polina Zvyagina": {
     "institutions": [],
     "name": "Polina Zvyagina",
@@ -6618,6 +11993,14 @@
     "themes": [
       "tabular-deep-learning"
     ]
+  },
+  "Prasanna Balaprakash": {
+    "institutions": [],
+    "name": "Prasanna Balaprakash",
+    "paper_keys": [
+      "romaingel2024the"
+    ],
+    "themes": []
   },
   "Price, E.": {
     "institutions": [],
@@ -6717,6 +12100,390 @@
     ],
     "themes": []
   },
+  "R Anderson": {
+    "institutions": [],
+    "name": "R Anderson",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Batt": {
+    "institutions": [],
+    "name": "R Batt",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Bernard": {
+    "institutions": [],
+    "name": "R Bernard",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Boshier": {
+    "institutions": [],
+    "name": "R Boshier",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Breiger": {
+    "institutions": [],
+    "name": "R Breiger",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Brown": {
+    "institutions": [],
+    "name": "R Brown",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Clark": {
+    "institutions": [],
+    "name": "R Clark",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Cooper": {
+    "institutions": [],
+    "name": "R Cooper",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Cutler": {
+    "institutions": [],
+    "name": "R Cutler",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Deters": {
+    "institutions": [],
+    "name": "R Deters",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Dilworth": {
+    "institutions": [],
+    "name": "R Dilworth",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Eccles": {
+    "institutions": [],
+    "name": "R Eccles",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Elliot": {
+    "institutions": [],
+    "name": "R Elliot",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Ellis": {
+    "institutions": [],
+    "name": "R Ellis",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Elmsly": {
+    "institutions": [],
+    "name": "R Elmsly",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Garrison": {
+    "institutions": [],
+    "name": "R Garrison",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Glaser": {
+    "institutions": [],
+    "name": "R Glaser",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Goldman": {
+    "institutions": [],
+    "name": "R Goldman",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Herman": {
+    "institutions": [],
+    "name": "R Herman",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Hulshof": {
+    "institutions": [],
+    "name": "R Hulshof",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Johnson": {
+    "institutions": [],
+    "name": "R Johnson",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Kantsperger": {
+    "institutions": [],
+    "name": "R Kantsperger",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Koper": {
+    "institutions": [],
+    "name": "R Koper",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Kozma": {
+    "institutions": [],
+    "name": "R Kozma",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Larose": {
+    "institutions": [],
+    "name": "R Larose",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Lockhart": {
+    "institutions": [],
+    "name": "R Lockhart",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Magjuka": {
+    "institutions": [],
+    "name": "R Magjuka",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Mason": {
+    "institutions": [],
+    "name": "R Mason",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Mauborgne": {
+    "institutions": [],
+    "name": "R Mauborgne",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Mayer": {
+    "institutions": [],
+    "name": "R Mayer",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Mccool": {
+    "institutions": [],
+    "name": "R Mccool",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Mcgreal": {
+    "institutions": [],
+    "name": "R Mcgreal",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Moore": {
+    "institutions": [],
+    "name": "R Moore",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Morgan": {
+    "institutions": [],
+    "name": "R Morgan",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Needleman": {
+    "institutions": [],
+    "name": "R Needleman",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Oliver": {
+    "institutions": [],
+    "name": "R Oliver",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Pascale": {
+    "institutions": [],
+    "name": "R Pascale",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Peters": {
+    "institutions": [],
+    "name": "R Peters",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Phelps": {
+    "institutions": [],
+    "name": "R Phelps",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Phipps": {
+    "institutions": [],
+    "name": "R Phipps",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Ranon": {
+    "institutions": [],
+    "name": "R Ranon",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Reger": {
+    "institutions": [],
+    "name": "R Reger",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Rubenking": {
+    "institutions": [],
+    "name": "R Rubenking",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Sims": {
+    "institutions": [],
+    "name": "R Sims",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Spears": {
+    "institutions": [],
+    "name": "R Spears",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Sternberg": {
+    "institutions": [],
+    "name": "R Sternberg",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Viggiano": {
+    "institutions": [],
+    "name": "R Viggiano",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "R Zemsky": {
+    "institutions": [],
+    "name": "R Zemsky",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
   "R. Keira Cheetham": {
     "institutions": [],
     "name": "R. Keira Cheetham",
@@ -6725,11 +12492,27 @@
     ],
     "themes": []
   },
+  "R. M. Cameron-Jones": {
+    "institutions": [],
+    "name": "R. M. Cameron-Jones",
+    "paper_keys": [
+      "jrquinlan1993foil"
+    ],
+    "themes": []
+  },
   "Rachel L. Robinson": {
     "institutions": [],
     "name": "Rachel L. Robinson",
     "paper_keys": [
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "Raffaella Calabrese": {
+    "institutions": [],
+    "name": "Raffaella Calabrese",
+    "paper_keys": [
+      "raffaellacalabrese2012estimating"
     ],
     "themes": []
   },
@@ -6743,11 +12526,27 @@
       "fairness-compliance"
     ]
   },
+  "Raja Chatila": {
+    "institutions": [],
+    "name": "Raja Chatila",
+    "paper_keys": [
+      "alejandrobarredoarrieta2019explainable"
+    ],
+    "themes": []
+  },
   "Rajesh Radhakrishnan": {
     "institutions": [],
     "name": "Rajesh Radhakrishnan",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Rajiv Ranjan": {
+    "institutions": [],
+    "name": "Rajiv Ranjan",
+    "paper_keys": [
+      "rudreshdwivedi2022explainable"
     ],
     "themes": []
   },
@@ -6775,6 +12574,14 @@
     ],
     "themes": []
   },
+  "Ramaravind Kommiya Mothilal": {
+    "institutions": [],
+    "name": "Ramaravind Kommiya Mothilal",
+    "paper_keys": [
+      "ramaravindkommiyamothilal2020explaining"
+    ],
+    "themes": []
+  },
   "Raoul-Gabriel Urma": {
     "institutions": [],
     "name": "Raoul-Gabriel Urma",
@@ -6788,6 +12595,14 @@
     "name": "Rare disease group",
     "paper_keys": [
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "Rasa Hosseinzadeh": {
+    "institutions": [],
+    "name": "Rasa Hosseinzadeh",
+    "paper_keys": [
+      "valentinthomas2024retrieval"
     ],
     "themes": []
   },
@@ -6869,6 +12684,24 @@
       "xai-finance"
     ]
   },
+  "Riccardo Guidotti": {
+    "institutions": [],
+    "name": "Riccardo Guidotti",
+    "paper_keys": [
+      "riccardoguidotti2019a",
+      "sajidali2023explainable"
+    ],
+    "themes": []
+  },
+  "Rich Caruana": {
+    "institutions": [],
+    "name": "Rich Caruana",
+    "paper_keys": [
+      "richcaruana2004ensemble",
+      "sarahtan2018learning"
+    ],
+    "themes": []
+  },
   "Richard A. Gibbs": {
     "institutions": [],
     "name": "Richard A. Gibbs",
@@ -6877,11 +12710,27 @@
     ],
     "themes": []
   },
+  "Richard A. Olshen": {
+    "institutions": [],
+    "name": "Richard A. Olshen",
+    "paper_keys": [
+      "alexandergordon1984classification"
+    ],
+    "themes": []
+  },
   "Richard Anney": {
     "institutions": [],
     "name": "Richard Anney",
     "paper_keys": [
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "Richard Benjamins": {
+    "institutions": [],
+    "name": "Richard Benjamins",
+    "paper_keys": [
+      "alejandrobarredoarrieta2019explainable"
     ],
     "themes": []
   },
@@ -6992,6 +12841,30 @@
     ],
     "themes": []
   },
+  "Robert A. Vandermeulen": {
+    "institutions": [],
+    "name": "Robert A. Vandermeulen",
+    "paper_keys": [
+      "lukasruff2021a"
+    ],
+    "themes": []
+  },
+  "Robert B. Litterman": {
+    "institutions": [],
+    "name": "Robert B. Litterman",
+    "paper_keys": [
+      "robertblitterman2011pricing"
+    ],
+    "themes": []
+  },
+  "Robert Chambers": {
+    "institutions": [],
+    "name": "Robert Chambers",
+    "paper_keys": [
+      "robertchambers1997whose"
+    ],
+    "themes": []
+  },
   "Robert Cohen": {
     "institutions": [],
     "name": "Robert Cohen",
@@ -7016,11 +12889,43 @@
     ],
     "themes": []
   },
+  "Robert Hauswald": {
+    "institutions": [],
+    "name": "Robert Hauswald",
+    "paper_keys": [
+      "sumitagarwal2010distance"
+    ],
+    "themes": []
+  },
+  "Robert Heinkel": {
+    "institutions": [],
+    "name": "Robert Heinkel",
+    "paper_keys": [
+      "robertheinkel2001the"
+    ],
+    "themes": []
+  },
+  "Robert J. Barro": {
+    "institutions": [],
+    "name": "Robert J. Barro",
+    "paper_keys": [
+      "robertjbarro2014environmental"
+    ],
+    "themes": []
+  },
   "Robert K. Semple": {
     "institutions": [],
     "name": "Robert K. Semple",
     "paper_keys": [
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "Robert Lund": {
+    "institutions": [],
+    "name": "Robert Lund",
+    "paper_keys": [
+      "robertlund2006advances"
     ],
     "themes": []
   },
@@ -7040,11 +12945,61 @@
     ],
     "themes": []
   },
+  "Robert Tibshirani": {
+    "institutions": [],
+    "name": "Robert Tibshirani",
+    "paper_keys": [
+      "trevorhastie1986generalized",
+      "garethjames2018an",
+      "trevorhastie2013the"
+    ],
+    "themes": []
+  },
+  "Roberto Confalonieri": {
+    "institutions": [],
+    "name": "Roberto Confalonieri",
+    "paper_keys": [
+      "sajidali2023explainable"
+    ],
+    "themes": []
+  },
   "Robin C. Friedman": {
     "institutions": [],
     "name": "Robin C. Friedman",
     "paper_keys": [
       "robincfriedman2008most"
+    ],
+    "themes": []
+  },
+  "Robin Greenwood": {
+    "institutions": [],
+    "name": "Robin Greenwood",
+    "paper_keys": [
+      "robingreenwood2013the"
+    ],
+    "themes": []
+  },
+  "Robin Tibor Schirrmeister": {
+    "institutions": [],
+    "name": "Robin Tibor Schirrmeister",
+    "paper_keys": [
+      "noahhollmann2025accurate"
+    ],
+    "themes": []
+  },
+  "Rodger Graham": {
+    "institutions": [],
+    "name": "Rodger Graham",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "Roel Henckaerts": {
+    "institutions": [],
+    "name": "Roel Henckaerts",
+    "paper_keys": [
+      "roelhenckaerts2022when"
     ],
     "themes": []
   },
@@ -7061,6 +13016,30 @@
     "name": "Rohan Taylor",
     "paper_keys": [
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "Roli, F.": {
+    "institutions": [],
+    "name": "Roli, F.",
+    "paper_keys": [
+      "biggio2013evasion"
+    ],
+    "themes": []
+  },
+  "Romain \u00c9gel\u00e9": {
+    "institutions": [],
+    "name": "Romain \u00c9gel\u00e9",
+    "paper_keys": [
+      "romaingel2024the"
+    ],
+    "themes": []
+  },
+  "Rose C. Liao": {
+    "institutions": [],
+    "name": "Rose C. Liao",
+    "paper_keys": [
+      "georgeandrewkarolyi2017the"
     ],
     "themes": []
   },
@@ -7109,6 +13088,14 @@
     "themes": [
       "methodology"
     ]
+  },
+  "Rudresh Dwivedi": {
+    "institutions": [],
+    "name": "Rudresh Dwivedi",
+    "paper_keys": [
+      "rudreshdwivedi2022explainable"
+    ],
+    "themes": []
   },
   "Rui Li": {
     "institutions": [],
@@ -7201,11 +13188,395 @@
     ],
     "themes": []
   },
+  "S Boorman": {
+    "institutions": [],
+    "name": "S Boorman",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Brewer": {
+    "institutions": [],
+    "name": "S Brewer",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Bryson": {
+    "institutions": [],
+    "name": "S Bryson",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Bull": {
+    "institutions": [],
+    "name": "S Bull",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Burke": {
+    "institutions": [],
+    "name": "S Burke",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Carlson": {
+    "institutions": [],
+    "name": "S Carlson",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Cassidy": {
+    "institutions": [],
+    "name": "S Cassidy",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Caudron": {
+    "institutions": [],
+    "name": "S Caudron",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Chowdhury": {
+    "institutions": [],
+    "name": "S Chowdhury",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Crites": {
+    "institutions": [],
+    "name": "S Crites",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S De Castell": {
+    "institutions": [],
+    "name": "S De Castell",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Demarie": {
+    "institutions": [],
+    "name": "S Demarie",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Doherty": {
+    "institutions": [],
+    "name": "S Doherty",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Downes": {
+    "institutions": [],
+    "name": "S Downes",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Ebersole": {
+    "institutions": [],
+    "name": "S Ebersole",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Eggins": {
+    "institutions": [],
+    "name": "S Eggins",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Ehrmann": {
+    "institutions": [],
+    "name": "S Ehrmann",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Feld": {
+    "institutions": [],
+    "name": "S Feld",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Follows": {
+    "institutions": [],
+    "name": "S Follows",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Frenkel": {
+    "institutions": [],
+    "name": "S Frenkel",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Garfinkel": {
+    "institutions": [],
+    "name": "S Garfinkel",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Ghoshal": {
+    "institutions": [],
+    "name": "S Ghoshal",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Grabinger": {
+    "institutions": [],
+    "name": "S Grabinger",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Hase": {
+    "institutions": [],
+    "name": "S Hase",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Hooper": {
+    "institutions": [],
+    "name": "S Hooper",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Howell": {
+    "institutions": [],
+    "name": "S Howell",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Hutchinson": {
+    "institutions": [],
+    "name": "S Hutchinson",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Hutson": {
+    "institutions": [],
+    "name": "S Hutson",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Jones": {
+    "institutions": [],
+    "name": "S Jones",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Kiesler": {
+    "institutions": [],
+    "name": "S Kiesler",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Kirkley": {
+    "institutions": [],
+    "name": "S Kirkley",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Lee": {
+    "institutions": [],
+    "name": "S Lee",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Lowe": {
+    "institutions": [],
+    "name": "S Lowe",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Makris": {
+    "institutions": [],
+    "name": "S Makris",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Moisey": {
+    "institutions": [],
+    "name": "S Moisey",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Newman": {
+    "institutions": [],
+    "name": "S Newman",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Parchman": {
+    "institutions": [],
+    "name": "S Parchman",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Romero": {
+    "institutions": [],
+    "name": "S Romero",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Rupley": {
+    "institutions": [],
+    "name": "S Rupley",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Schmidt": {
+    "institutions": [],
+    "name": "S Schmidt",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Stoney": {
+    "institutions": [],
+    "name": "S Stoney",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Vaughan-Nichols": {
+    "institutions": [],
+    "name": "S Vaughan-Nichols",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Wasti": {
+    "institutions": [],
+    "name": "S Wasti",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Widrick": {
+    "institutions": [],
+    "name": "S Widrick",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Woolgar": {
+    "institutions": [],
+    "name": "S Woolgar",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Wright": {
+    "institutions": [],
+    "name": "S Wright",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "S Zhang": {
+    "institutions": [],
+    "name": "S Zhang",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
   "S. F. Schaffner": {
     "institutions": [],
     "name": "S. F. Schaffner",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "S. Redner": {
+    "institutions": [],
+    "name": "S. Redner",
+    "paper_keys": [
+      "plkrapivsky2001organization"
     ],
     "themes": []
   },
@@ -7233,11 +13604,35 @@
     ],
     "themes": []
   },
+  "Sajid Ali": {
+    "institutions": [],
+    "name": "Sajid Ali",
+    "paper_keys": [
+      "sajidali2023explainable"
+    ],
+    "themes": []
+  },
   "Sally I. Sharp": {
     "institutions": [],
     "name": "Sally I. Sharp",
     "paper_keys": [
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "Salvador Garc\u00eda": {
+    "institutions": [],
+    "name": "Salvador Garc\u00eda",
+    "paper_keys": [
+      "alejandrobarredoarrieta2019explainable"
+    ],
+    "themes": []
+  },
+  "Salvatore Ruggieri": {
+    "institutions": [],
+    "name": "Salvatore Ruggieri",
+    "paper_keys": [
+      "riccardoguidotti2019a"
     ],
     "themes": []
   },
@@ -7267,6 +13662,23 @@
     ],
     "themes": []
   },
+  "Samuel M\u00fcller": {
+    "institutions": [],
+    "name": "Samuel M\u00fcller",
+    "paper_keys": [
+      "noahhollmann2025accurate",
+      "noahhollmann2023large"
+    ],
+    "themes": []
+  },
+  "Sander Greenland": {
+    "institutions": [],
+    "name": "Sander Greenland",
+    "paper_keys": [
+      "sandergreenland2016statistical"
+    ],
+    "themes": []
+  },
   "Sandra Lee": {
     "institutions": [],
     "name": "Sandra Lee",
@@ -7280,6 +13692,22 @@
     "name": "Sandra Louzada",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Sanjeev Khudanpur": {
+    "institutions": [],
+    "name": "Sanjeev Khudanpur",
+    "paper_keys": [
+      "tommikolov2010recurrent"
+    ],
+    "themes": []
+  },
+  "Sanjiv Ranjan Das": {
+    "institutions": [],
+    "name": "Sanjiv Ranjan Das",
+    "paper_keys": [
+      "sanjivranjandas2023credit"
     ],
     "themes": []
   },
@@ -7385,6 +13813,14 @@
     ],
     "themes": []
   },
+  "Sarah Tan": {
+    "institutions": [],
+    "name": "Sarah Tan",
+    "paper_keys": [
+      "sarahtan2018learning"
+    ],
+    "themes": []
+  },
   "Sascha Meiers": {
     "institutions": [],
     "name": "Sascha Meiers",
@@ -7435,6 +13871,14 @@
     ],
     "themes": []
   },
+  "Scott Howell": {
+    "institutions": [],
+    "name": "Scott Howell",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
   "Scott Kahn": {
     "institutions": [],
     "name": "Scott Kahn",
@@ -7475,6 +13919,14 @@
     ],
     "themes": []
   },
+  "Sendhil Mullainathan": {
+    "institutions": [],
+    "name": "Sendhil Mullainathan",
+    "paper_keys": [
+      "ziadobermeyer2019dissecting"
+    ],
+    "themes": []
+  },
   "Senduran Bala": {
     "institutions": [],
     "name": "Senduran Bala",
@@ -7508,6 +13960,14 @@
     "name": "Seppo Sierla",
     "paper_keys": [
       "rakshithsubramanya2022from"
+    ],
+    "themes": []
+  },
+  "Sergio Gil-L\u00f3pez": {
+    "institutions": [],
+    "name": "Sergio Gil-L\u00f3pez",
+    "paper_keys": [
+      "alejandrobarredoarrieta2019explainable"
     ],
     "themes": []
   },
@@ -7555,6 +14015,22 @@
       "imbalance-calibration"
     ]
   },
+  "Shaker El\u2013Sappagh": {
+    "institutions": [],
+    "name": "Shaker El\u2013Sappagh",
+    "paper_keys": [
+      "sajidali2023explainable"
+    ],
+    "themes": []
+  },
+  "Shams Forruque Ahmed": {
+    "institutions": [],
+    "name": "Shams Forruque Ahmed",
+    "paper_keys": [
+      "shamsforruqueahmed2023deep"
+    ],
+    "themes": []
+  },
   "Shane McCarthy": {
     "institutions": [],
     "name": "Shane McCarthy",
@@ -7595,6 +14071,22 @@
     "name": "Shengmao Liu",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Shi Bin Hoo": {
+    "institutions": [],
+    "name": "Shi Bin Hoo",
+    "paper_keys": [
+      "noahhollmann2025accurate"
+    ],
+    "themes": []
+  },
+  "Shifu Chen": {
+    "institutions": [],
+    "name": "Shifu Chen",
+    "paper_keys": [
+      "zhihuazhou2003extracting"
     ],
     "themes": []
   },
@@ -7641,6 +14133,22 @@
       "tabular-deep-learning"
     ]
   },
+  "Sida D. Wang": {
+    "institutions": [],
+    "name": "Sida D. Wang",
+    "paper_keys": [
+      "geoffreyehinton2011transforming"
+    ],
+    "themes": []
+  },
+  "Siham Tabik": {
+    "institutions": [],
+    "name": "Siham Tabik",
+    "paper_keys": [
+      "alejandrobarredoarrieta2019explainable"
+    ],
+    "themes": []
+  },
   "Simon Gravel": {
     "institutions": [],
     "name": "Simon Gravel",
@@ -7654,6 +14162,30 @@
     "name": "Simon Myers",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Simon N. Wood": {
+    "institutions": [],
+    "name": "Simon N. Wood",
+    "paper_keys": [
+      "simonnwood2017generalized"
+    ],
+    "themes": []
+  },
+  "Simone Abram": {
+    "institutions": [],
+    "name": "Simone Abram",
+    "paper_keys": [
+      "merlindaandoni2018blockchain"
+    ],
+    "themes": []
+  },
+  "Simone Scardapane": {
+    "institutions": [],
+    "name": "Simone Scardapane",
+    "paper_keys": [
+      "vikashassija2023interpreting"
     ],
     "themes": []
   },
@@ -7678,6 +14210,14 @@
       "xai-finance"
     ]
   },
+  "Smiti Singhal": {
+    "institutions": [],
+    "name": "Smiti Singhal",
+    "paper_keys": [
+      "rudreshdwivedi2022explainable"
+    ],
+    "themes": []
+  },
   "Soares, J. P.": {
     "institutions": [],
     "name": "Soares, J. P.",
@@ -7687,6 +14227,14 @@
     "themes": [
       "imbalance-calibration"
     ]
+  },
+  "Soji Adeshina": {
+    "institutions": [],
+    "name": "Soji Adeshina",
+    "paper_keys": [
+      "sanjivranjandas2023credit"
+    ],
+    "themes": []
   },
   "Sol Katzman": {
     "institutions": [],
@@ -7714,6 +14262,14 @@
     ],
     "themes": []
   },
+  "Souphala Chomsisengphet": {
+    "institutions": [],
+    "name": "Souphala Chomsisengphet",
+    "paper_keys": [
+      "sumitagarwal2015mortgage"
+    ],
+    "themes": []
+  },
   "So\u2013Youn Shin": {
     "institutions": [],
     "name": "So\u2013Youn Shin",
@@ -7737,6 +14293,14 @@
     "name": "Srikanth Gottipati",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Srndic, N.": {
+    "institutions": [],
+    "name": "Srndic, N.",
+    "paper_keys": [
+      "biggio2013evasion"
     ],
     "themes": []
   },
@@ -7807,6 +14371,14 @@
     ],
     "themes": []
   },
+  "Stephen Senn": {
+    "institutions": [],
+    "name": "Stephen Senn",
+    "paper_keys": [
+      "sandergreenland2016statistical"
+    ],
+    "themes": []
+  },
   "Stephen T. Sherry": {
     "institutions": [],
     "name": "Stephen T. Sherry",
@@ -7831,6 +14403,22 @@
     ],
     "themes": []
   },
+  "Steven L. Scott": {
+    "institutions": [],
+    "name": "Steven L. Scott",
+    "paper_keys": [
+      "stevenlscott2013bayesian"
+    ],
+    "themes": []
+  },
+  "Steven N. Goodman": {
+    "institutions": [],
+    "name": "Steven N. Goodman",
+    "paper_keys": [
+      "sandergreenland2016statistical"
+    ],
+    "themes": []
+  },
   "Stewart J. Payne": {
     "institutions": [],
     "name": "Stewart J. Payne",
@@ -7844,6 +14432,15 @@
     "name": "Structural variation group",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Stuart L. Hart": {
+    "institutions": [],
+    "name": "Stuart L. Hart",
+    "paper_keys": [
+      "ckprahalad2010the",
+      "glendowell2000do"
     ],
     "themes": []
   },
@@ -7868,6 +14465,23 @@
     "name": "Suhartono Suhartono",
     "paper_keys": [
       "azarianatasha2019credit"
+    ],
+    "themes": []
+  },
+  "Sumit Agarwal": {
+    "institutions": [],
+    "name": "Sumit Agarwal",
+    "paper_keys": [
+      "sumitagarwal2010distance",
+      "sumitagarwal2015mortgage"
+    ],
+    "themes": []
+  },
+  "Sumit Chopra": {
+    "institutions": [],
+    "name": "Sumit Chopra",
+    "paper_keys": [
+      "antoinebordes2014question"
     ],
     "themes": []
   },
@@ -7914,6 +14528,278 @@
     ],
     "themes": []
   },
+  "T Allen": {
+    "institutions": [],
+    "name": "T Allen",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "T Anderson": {
+    "institutions": [],
+    "name": "T Anderson",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "T Angelo": {
+    "institutions": [],
+    "name": "T Angelo",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "T Bryant": {
+    "institutions": [],
+    "name": "T Bryant",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "T Cleary": {
+    "institutions": [],
+    "name": "T Cleary",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "T Davenport": {
+    "institutions": [],
+    "name": "T Davenport",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "T Duffy": {
+    "institutions": [],
+    "name": "T Duffy",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "T Friedman": {
+    "institutions": [],
+    "name": "T Friedman",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "T Georgiev": {
+    "institutions": [],
+    "name": "T Georgiev",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "T Glynn": {
+    "institutions": [],
+    "name": "T Glynn",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "T Hand": {
+    "institutions": [],
+    "name": "T Hand",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "T Harrison": {
+    "institutions": [],
+    "name": "T Harrison",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "T Hopton": {
+    "institutions": [],
+    "name": "T Hopton",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "T Janicki": {
+    "institutions": [],
+    "name": "T Janicki",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "T Kalliath": {
+    "institutions": [],
+    "name": "T Kalliath",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "T Koh": {
+    "institutions": [],
+    "name": "T Koh",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "T Lairson": {
+    "institutions": [],
+    "name": "T Lairson",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "T Lawlor": {
+    "institutions": [],
+    "name": "T Lawlor",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "T Light": {
+    "institutions": [],
+    "name": "T Light",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "T Malloy": {
+    "institutions": [],
+    "name": "T Malloy",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "T Malone": {
+    "institutions": [],
+    "name": "T Malone",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "T Mayes": {
+    "institutions": [],
+    "name": "T Mayes",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "T Newby": {
+    "institutions": [],
+    "name": "T Newby",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "T Nunan": {
+    "institutions": [],
+    "name": "T Nunan",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "T Ramage": {
+    "institutions": [],
+    "name": "T Ramage",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "T Reade": {
+    "institutions": [],
+    "name": "T Reade",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "T Rekkedal": {
+    "institutions": [],
+    "name": "T Rekkedal",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "T Reynolds": {
+    "institutions": [],
+    "name": "T Reynolds",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "T Roberts": {
+    "institutions": [],
+    "name": "T Roberts",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "T Stephen": {
+    "institutions": [],
+    "name": "T Stephen",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "T Tin": {
+    "institutions": [],
+    "name": "T Tin",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "T Wang": {
+    "institutions": [],
+    "name": "T Wang",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "T Woodburn": {
+    "institutions": [],
+    "name": "T Woodburn",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "Tamer Abuhmed": {
+    "institutions": [],
+    "name": "Tamer Abuhmed",
+    "paper_keys": [
+      "sajidali2023explainable"
+    ],
+    "themes": []
+  },
   "Tamieka Whyte": {
     "institutions": [],
     "name": "Tamieka Whyte",
@@ -7950,6 +14836,22 @@
     ],
     "themes": []
   },
+  "Taoseef Ishtiak": {
+    "institutions": [],
+    "name": "Taoseef Ishtiak",
+    "paper_keys": [
+      "shamsforruqueahmed2023deep"
+    ],
+    "themes": []
+  },
+  "Tara Mulqueen": {
+    "institutions": [],
+    "name": "Tara Mulqueen",
+    "paper_keys": [
+      "paisleycurrah2011securitizing"
+    ],
+    "themes": []
+  },
   "Tar\u00e1s K. Oleksyk": {
     "institutions": [],
     "name": "Tar\u00e1s K. Oleksyk",
@@ -7963,6 +14865,22 @@
     "name": "Tatiana Borodina",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Tejal Shah": {
+    "institutions": [],
+    "name": "Tejal Shah",
+    "paper_keys": [
+      "rudreshdwivedi2022explainable"
+    ],
+    "themes": []
+  },
+  "Telmo Matos": {
+    "institutions": [],
+    "name": "Telmo Matos",
+    "paper_keys": [
+      "paulocortez2009using"
     ],
     "themes": []
   },
@@ -7990,6 +14908,14 @@
     ],
     "themes": []
   },
+  "Terry Anderson": {
+    "institutions": [],
+    "name": "Terry Anderson",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
   "Thermo Fisher Scientific": {
     "institutions": [],
     "name": "Thermo Fisher Scientific",
@@ -8014,6 +14940,14 @@
     ],
     "themes": []
   },
+  "Thomas G. Dietterich": {
+    "institutions": [],
+    "name": "Thomas G. Dietterich",
+    "paper_keys": [
+      "lukasruff2021a"
+    ],
+    "themes": []
+  },
   "Thomas Keane": {
     "institutions": [],
     "name": "Thomas Keane",
@@ -8028,6 +14962,22 @@
     "name": "Thomas Kohlmann",
     "paper_keys": [
       "asimonpickard2007psychometric"
+    ],
+    "themes": []
+  },
+  "Thomas L. Friedman": {
+    "institutions": [],
+    "name": "Thomas L. Friedman",
+    "paper_keys": [
+      "thomaslfriedman2017the"
+    ],
+    "themes": []
+  },
+  "Thomas L. Griffiths": {
+    "institutions": [],
+    "name": "Thomas L. Griffiths",
+    "paper_keys": [
+      "thomaslgriffiths2001bayesian"
     ],
     "themes": []
   },
@@ -8073,6 +15023,14 @@
     "name": "Tim Hubbard",
     "paper_keys": [
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "Tim Landvoigt": {
+    "institutions": [],
+    "name": "Tim Landvoigt",
+    "paper_keys": [
+      "sumitagarwal2015mortgage"
     ],
     "themes": []
   },
@@ -8127,6 +15085,22 @@
     ],
     "themes": []
   },
+  "Tom Dietterich": {
+    "institutions": [],
+    "name": "Tom Dietterich",
+    "paper_keys": [
+      "tomdietterich1995solving"
+    ],
+    "themes": []
+  },
+  "Tom J. Viering": {
+    "institutions": [],
+    "name": "Tom J. Viering",
+    "paper_keys": [
+      "romaingel2024the"
+    ],
+    "themes": []
+  },
   "Tom R. Gaunt": {
     "institutions": [],
     "name": "Tom R. Gaunt",
@@ -8135,11 +15109,55 @@
     ],
     "themes": []
   },
+  "Tomasz Piskorski": {
+    "institutions": [],
+    "name": "Tomasz Piskorski",
+    "paper_keys": [
+      "gregbuchak2018fintech",
+      "benjaminjkeys2013mortgage",
+      "sumitagarwal2015mortgage"
+    ],
+    "themes": []
+  },
+  "Tom\u00e1\u0161 Mikolov": {
+    "institutions": [],
+    "name": "Tom\u00e1\u0161 Mikolov",
+    "paper_keys": [
+      "tommikolov2010recurrent"
+    ],
+    "themes": []
+  },
+  "Tony Bellotti": {
+    "institutions": [],
+    "name": "Tony Bellotti",
+    "paper_keys": [
+      "tonybellotti2008support"
+    ],
+    "themes": []
+  },
   "Tony Cox": {
     "institutions": [],
     "name": "Tony Cox",
     "paper_keys": [
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "Tony Tin": {
+    "institutions": [],
+    "name": "Tony Tin",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "Trevor Hastie": {
+    "institutions": [],
+    "name": "Trevor Hastie",
+    "paper_keys": [
+      "trevorhastie1986generalized",
+      "garethjames2018an",
+      "trevorhastie2013the"
     ],
     "themes": []
   },
@@ -8206,6 +15224,78 @@
     "name": "Uma Nagaswamy",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Umesh Kapil": {
+    "institutions": [],
+    "name": "Umesh Kapil",
+    "paper_keys": [
+      "geetanjaligoindi1995estimation"
+    ],
+    "themes": []
+  },
+  "V Dubrovsky": {
+    "institutions": [],
+    "name": "V Dubrovsky",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "V Matthew": {
+    "institutions": [],
+    "name": "V Matthew",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "V Pittman": {
+    "institutions": [],
+    "name": "V Pittman",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "V Shute": {
+    "institutions": [],
+    "name": "V Shute",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "V Tran": {
+    "institutions": [],
+    "name": "V Tran",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "V Willis": {
+    "institutions": [],
+    "name": "V Willis",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "Valentin Robu": {
+    "institutions": [],
+    "name": "Valentin Robu",
+    "paper_keys": [
+      "merlindaandoni2018blockchain"
+    ],
+    "themes": []
+  },
+  "Valentin Thomas": {
+    "institutions": [],
+    "name": "Valentin Thomas",
+    "paper_keys": [
+      "valentinthomas2024retrieval"
     ],
     "themes": []
   },
@@ -8315,6 +15405,30 @@
     ],
     "themes": []
   },
+  "Vijay S. Desai": {
+    "institutions": [],
+    "name": "Vijay S. Desai",
+    "paper_keys": [
+      "vijaysdesai1996a"
+    ],
+    "themes": []
+  },
+  "Vikas Hassija": {
+    "institutions": [],
+    "name": "Vikas Hassija",
+    "paper_keys": [
+      "vikashassija2023interpreting"
+    ],
+    "themes": []
+  },
+  "Vikrant Vig": {
+    "institutions": [],
+    "name": "Vikrant Vig",
+    "paper_keys": [
+      "benjaminjkeys2013mortgage"
+    ],
+    "themes": []
+  },
   "Viktoriya Korchina": {
     "institutions": [],
     "name": "Viktoriya Korchina",
@@ -8323,11 +15437,27 @@
     ],
     "themes": []
   },
+  "Vinay Chamola": {
+    "institutions": [],
+    "name": "Vinay Chamola",
+    "paper_keys": [
+      "vikashassija2023interpreting"
+    ],
+    "themes": []
+  },
   "Vincent Plagnol": {
     "institutions": [],
     "name": "Vincent Plagnol",
     "paper_keys": [
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "Vincent Yao": {
+    "institutions": [],
+    "name": "Vincent Yao",
+    "paper_keys": [
+      "sumitagarwal2015mortgage"
     ],
     "themes": []
   },
@@ -8344,6 +15474,14 @@
     "name": "Vineet Bafna",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Vinh Quang Tran": {
+    "institutions": [],
+    "name": "Vinh Quang Tran",
+    "paper_keys": [
+      "vinhquangtran2024predicting"
     ],
     "themes": []
   },
@@ -8388,6 +15526,70 @@
     "name": "Vyacheslav S. Amstislavskiy",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "W Archer": {
+    "institutions": [],
+    "name": "W Archer",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "W Kim": {
+    "institutions": [],
+    "name": "W Kim",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "W Kim-Rupnow": {
+    "institutions": [],
+    "name": "W Kim-Rupnow",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "W Kunz": {
+    "institutions": [],
+    "name": "W Kunz",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "W Longmire": {
+    "institutions": [],
+    "name": "W Longmire",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "W Pond": {
+    "institutions": [],
+    "name": "W Pond",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "W Roush": {
+    "institutions": [],
+    "name": "W Roush",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "W. N. Venables": {
+    "institutions": [],
+    "name": "W. N. Venables",
+    "paper_keys": [
+      "wnvenables2002modern"
     ],
     "themes": []
   },
@@ -8513,6 +15715,14 @@
     ],
     "themes": []
   },
+  "White Oleds Brighten": {
+    "institutions": [],
+    "name": "White Oleds Brighten",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
   "William Henley": {
     "institutions": [],
     "name": "William Henley",
@@ -8555,12 +15765,28 @@
     ],
     "themes": []
   },
+  "Wojciech Samek": {
+    "institutions": [],
+    "name": "Wojciech Samek",
+    "paper_keys": [
+      "lukasruff2021a"
+    ],
+    "themes": []
+  },
   "Writing group": {
     "institutions": [],
     "name": "Writing group",
     "paper_keys": [
       "correspondingauthors2015a",
       "writinggroup2015the"
+    ],
+    "themes": []
+  },
+  "X Liu": {
+    "institutions": [],
+    "name": "X Liu",
+    "paper_keys": [
+      "terryanderson2008the"
     ],
     "themes": []
   },
@@ -8653,11 +15879,27 @@
     ],
     "themes": []
   },
+  "Xiaoxin Yin": {
+    "institutions": [],
+    "name": "Xiaoxin Yin",
+    "paper_keys": [
+      "xiaoxinyin2003cpar"
+    ],
+    "themes": []
+  },
   "Xiaoyan Deng": {
     "institutions": [],
     "name": "Xiaoyan Deng",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Xin Huang": {
+    "institutions": [],
+    "name": "Xin Huang",
+    "paper_keys": [
+      "sanjivranjandas2023credit"
     ],
     "themes": []
   },
@@ -8725,6 +15967,30 @@
     ],
     "themes": []
   },
+  "Y Chen": {
+    "institutions": [],
+    "name": "Y Chen",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "Y Eshet": {
+    "institutions": [],
+    "name": "Y Eshet",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "Y Lou": {
+    "institutions": [],
+    "name": "Y Lou",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
   "Yael Baran": {
     "institutions": [],
     "name": "Yael Baran",
@@ -8766,6 +16032,14 @@
     "themes": [
       "methodology"
     ]
+  },
+  "Yang Cao": {
+    "institutions": [],
+    "name": "Yang Cao",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
   },
   "Yang Gao": {
     "institutions": [],
@@ -8930,6 +16204,14 @@
     ],
     "themes": []
   },
+  "Yuan Jiang": {
+    "institutions": [],
+    "name": "Yuan Jiang",
+    "paper_keys": [
+      "zhihuazhou2003extracting"
+    ],
+    "themes": []
+  },
   "Yuanping Du": {
     "institutions": [],
     "name": "Yuanping Du",
@@ -8951,6 +16233,14 @@
     "name": "Yujun Zhang",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Yuliya Demyanyk": {
+    "institutions": [],
+    "name": "Yuliya Demyanyk",
+    "paper_keys": [
+      "yuliyademyanyk2009understanding"
     ],
     "themes": []
   },
@@ -8999,6 +16289,31 @@
     "name": "Yvonne Wambui",
     "paper_keys": [
       "bernarddushimimana2020use"
+    ],
+    "themes": []
+  },
+  "Z Berge": {
+    "institutions": [],
+    "name": "Z Berge",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "Z Gamson": {
+    "institutions": [],
+    "name": "Z Gamson",
+    "paper_keys": [
+      "terryanderson2008the"
+    ],
+    "themes": []
+  },
+  "Zacharias Sautner": {
+    "institutions": [],
+    "name": "Zacharias Sautner",
+    "paper_keys": [
+      "philippkrueger2019the",
+      "josephamccahery2016behind"
     ],
     "themes": []
   },
@@ -9074,6 +16389,22 @@
     ],
     "themes": []
   },
+  "Zhenyu Wen": {
+    "institutions": [],
+    "name": "Zhenyu Wen",
+    "paper_keys": [
+      "rudreshdwivedi2022explainable"
+    ],
+    "themes": []
+  },
+  "Zhibo Zhang": {
+    "institutions": [],
+    "name": "Zhibo Zhang",
+    "paper_keys": [
+      "zhibozhang2022explainable"
+    ],
+    "themes": []
+  },
   "Zhiming Cai": {
     "institutions": [],
     "name": "Zhiming Cai",
@@ -9090,6 +16421,14 @@
     ],
     "themes": []
   },
+  "Zhi\u2010Hua Zhou": {
+    "institutions": [],
+    "name": "Zhi\u2010Hua Zhou",
+    "paper_keys": [
+      "zhihuazhou2003extracting"
+    ],
+    "themes": []
+  },
   "Zhongming Tian": {
     "institutions": [],
     "name": "Zhongming Tian",
@@ -9103,6 +16442,14 @@
     "name": "Zhuoyi Huang",
     "paper_keys": [
       "correspondingauthors2015a"
+    ],
+    "themes": []
+  },
+  "Ziad Obermeyer": {
+    "institutions": [],
+    "name": "Ziad Obermeyer",
+    "paper_keys": [
+      "ziadobermeyer2019dissecting"
     ],
     "themes": []
   },

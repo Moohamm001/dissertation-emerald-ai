@@ -1,0 +1,32 @@
+{
+  "key": "tonybellotti2008support",
+  "title": "Support vector machines for credit scoring and discovery of significant features",
+  "authors": [
+    "Tony Bellotti",
+    "Jonathan Crook"
+  ],
+  "year": 2008,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Expert Systems with Applications",
+  "doi": "10.1016/j.eswa.2008.01.005",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6205 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Support vector machines for credit scoring and discovery of significant features",
+  "notes": "",
+  "source_files": [
+    "research\\literature\\papers\\tonybellotti2008support.md"
+  ],
+  "first_seen": "2026-05-18T11:35:44.433596Z",
+  "last_updated": "2026-05-18T11:35:44.443536Z"
+}

@@ -1,0 +1,34 @@
+{
+  "key": "garethjames2018an",
+  "title": "An Introduction to Statistical Learning: with Applications in R",
+  "authors": [
+    "Gareth James",
+    "Daniela Witten",
+    "Trevor Hastie",
+    "Robert Tibshirani"
+  ],
+  "year": 2018,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "",
+  "doi": "10.25334/q4ht55",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6694 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "An Introduction to Statistical Learning: with Applications in R",
+  "notes": "This book provides an introduction to statistical learning methods and is aimed for upper level undergraduate students, masters students and Ph.D. students in the non-mathematical sciences.",
+  "source_files": [
+    "research\\literature\\papers\\garethjames2018an.md"
+  ],
+  "first_seen": "2026-05-18T11:35:45.553630Z",
+  "last_updated": "2026-05-18T11:35:45.564719Z"
+}

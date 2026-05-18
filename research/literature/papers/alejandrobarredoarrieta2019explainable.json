@@ -1,0 +1,42 @@
+{
+  "key": "alejandrobarredoarrieta2019explainable",
+  "title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI",
+  "authors": [
+    "Alejandro Barredo Arrieta",
+    "Natalia Díaz-Rodríguez",
+    "Javier Del Ser",
+    "Adrien Bennetot",
+    "Siham Tabik",
+    "Alberto Barbado",
+    "Salvador García",
+    "Sergio Gil-López",
+    "Daniel Molina",
+    "Richard Benjamins",
+    "Raja Chatila",
+    "Francisco Herrera"
+  ],
+  "year": 2019,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Information Fusion",
+  "doi": "10.1016/j.inffus.2019.12.012",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.8835 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI",
+  "notes": "",
+  "source_files": [
+    "research\\literature\\papers\\alejandrobarredoarrieta2019explainable.md"
+  ],
+  "first_seen": "2026-05-18T11:25:38.706114Z",
+  "last_updated": "2026-05-18T11:25:38.717855Z"
+}

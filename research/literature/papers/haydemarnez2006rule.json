@@ -1,0 +1,33 @@
+{
+  "key": "haydemarnez2006rule",
+  "title": "Rule Extraction from Support Vector Machines",
+  "authors": [
+    "Haydemar Núñez",
+    "Cecilio Angulo",
+    "Andreu Català"
+  ],
+  "year": 2006,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Advanced information and knowledge processing",
+  "doi": "10.1007/3-540-28803-1_10",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6083 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Rule Extraction from Support Vector Machines",
+  "notes": "",
+  "source_files": [
+    "research\\literature\\papers\\haydemarnez2006rule.md"
+  ],
+  "first_seen": "2026-05-18T11:25:38.928601Z",
+  "last_updated": "2026-05-18T11:25:38.940067Z"
+}

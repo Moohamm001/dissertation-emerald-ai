@@ -1,0 +1,33 @@
+{
+  "key": "ramaravindkommiyamothilal2020explaining",
+  "title": "Explaining machine learning classifiers through diverse counterfactual explanations",
+  "authors": [
+    "Ramaravind Kommiya Mothilal",
+    "Amit Sharma",
+    "Chenhao Tan"
+  ],
+  "year": 2020,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "",
+  "doi": "10.1145/3351095.3372850",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6629 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Explaining machine learning classifiers through diverse counterfactual explanations",
+  "notes": "Post-hoc explanations of machine learning models are crucial for people to understand and act on algorithmic predictions. An intriguing class of explanations is through counterfactuals, hypothetical examples that show people how to obtain a different prediction. We posit that eff...",
+  "source_files": [
+    "research\\literature\\papers\\ramaravindkommiyamothilal2020explaining.md"
+  ],
+  "first_seen": "2026-05-18T11:25:38.805932Z",
+  "last_updated": "2026-05-18T11:25:38.818328Z"
+}

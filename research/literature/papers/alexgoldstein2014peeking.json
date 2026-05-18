@@ -1,0 +1,34 @@
+{
+  "key": "alexgoldstein2014peeking",
+  "title": "Peeking Inside the Black Box: Visualizing Statistical Learning With Plots of Individual Conditional Expectation",
+  "authors": [
+    "Alex Goldstein",
+    "Adam Kapelner",
+    "Justin Bleich",
+    "Emil Pitkin"
+  ],
+  "year": 2014,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Journal of Computational and Graphical Statistics",
+  "doi": "10.1080/10618600.2014.907095",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.7534 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Peeking Inside the Black Box: Visualizing Statistical Learning With Plots of Individual Conditional Expectation",
+  "notes": "This article presents individual conditional expectation (ICE) plots, a tool for visualizing the model estimated by any supervised learning algorithm. Classical partial dependence plots (PDPs) help visualize the average partial relationship between the predicted response and one ...",
+  "source_files": [
+    "research\\literature\\papers\\alexgoldstein2014peeking.md"
+  ],
+  "first_seen": "2026-05-18T11:25:38.665421Z",
+  "last_updated": "2026-05-18T11:25:38.676780Z"
+}

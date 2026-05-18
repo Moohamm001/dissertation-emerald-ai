@@ -1,0 +1,32 @@
+{
+  "key": "alexgammerman1990bayesian",
+  "title": "Bayesian Inference in an Expert System without Assuming Independence",
+  "authors": [
+    "Alex Gammerman",
+    "A. R. Thatcher"
+  ],
+  "year": 1990,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Advances in Artificial Intelligence",
+  "doi": "10.1007/978-1-4613-9052-7_10",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.5351 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Bayesian Inference in an Expert System without Assuming Independence",
+  "notes": "",
+  "source_files": [
+    "research\\literature\\papers\\alexgammerman1990bayesian.md"
+  ],
+  "first_seen": "2026-05-18T11:35:44.346199Z",
+  "last_updated": "2026-05-18T11:35:44.356148Z"
+}

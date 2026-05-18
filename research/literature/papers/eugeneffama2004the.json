@@ -1,0 +1,32 @@
+{
+  "key": "eugeneffama2004the",
+  "title": "The Capital Asset Pricing Model: Theory and Evidence",
+  "authors": [
+    "Eugene F. Fama",
+    "Kenneth R. French"
+  ],
+  "year": 2004,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "The Journal of Economic Perspectives",
+  "doi": "10.1257/0895330042162430",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6296 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "The Capital Asset Pricing Model: Theory and Evidence",
+  "notes": "The capital asset pricing model (CAPM) of William Sharpe (1964) and John Lintner (1965) marks the birth of asset pricing theory (resulting in a Nobel Prize for Sharpe in 1990). Before their breakthrough, there were no asset pricing models built from first principles about the nat...",
+  "source_files": [
+    "research\\literature\\papers\\eugeneffama2004the.md"
+  ],
+  "first_seen": "2026-05-18T11:35:43.971861Z",
+  "last_updated": "2026-05-18T11:35:43.982648Z"
+}

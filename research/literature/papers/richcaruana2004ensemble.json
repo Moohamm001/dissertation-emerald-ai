@@ -1,0 +1,34 @@
+{
+  "key": "richcaruana2004ensemble",
+  "title": "Ensemble selection from libraries of models",
+  "authors": [
+    "Rich Caruana",
+    "Alexandru Niculescu-Mizil",
+    "G. Crew",
+    "Alex Ksikes"
+  ],
+  "year": 2004,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "",
+  "doi": "10.1145/1015330.1015432",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6206 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Ensemble selection from libraries of models",
+  "notes": "We present a method for constructing ensembles from libraries of thousands of models. Model libraries are generated using different learning algorithms and parameter settings. Forward stepwise selection is used to add to the ensemble the models that maximize its performance. Ense...",
+  "source_files": [
+    "research\\literature\\papers\\richcaruana2004ensemble.md"
+  ],
+  "first_seen": "2026-05-18T11:25:38.434567Z",
+  "last_updated": "2026-05-18T11:25:38.443513Z"
+}

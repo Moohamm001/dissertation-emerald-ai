@@ -1,0 +1,41 @@
+{
+  "key": "rudreshdwivedi2022explainable",
+  "title": "Explainable AI (XAI): Core Ideas, Techniques, and Solutions",
+  "authors": [
+    "Rudresh Dwivedi",
+    "Devam Dave",
+    "Het Naik",
+    "Smiti Singhal",
+    "Omer Rana",
+    "Pankesh Patel",
+    "Bin Qian",
+    "Zhenyu Wen",
+    "Tejal Shah",
+    "Graham Morgan",
+    "Rajiv Ranjan"
+  ],
+  "year": 2022,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "ACM Computing Surveys",
+  "doi": "10.1145/3561048",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.7687 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Explainable AI (XAI): Core Ideas, Techniques, and Solutions",
+  "notes": "As our dependence on intelligent machines continues to grow, so does the demand for more transparent and interpretable models. In addition, the ability to explain the model generally is now the gold standard for building trust and deployment of artificial intelligence systems in ...",
+  "source_files": [
+    "research\\literature\\papers\\rudreshdwivedi2022explainable.md"
+  ],
+  "first_seen": "2026-05-18T11:25:38.477989Z",
+  "last_updated": "2026-05-18T11:25:38.487624Z"
+}

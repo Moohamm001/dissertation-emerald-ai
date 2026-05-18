@@ -1,0 +1,33 @@
+{
+  "key": "alejandrodrexler2014keeping",
+  "title": "Keeping It Simple: Financial Literacy and Rules of Thumb",
+  "authors": [
+    "Alejandro Drexler",
+    "Greg Fischer",
+    "Antoinette Schoar"
+  ],
+  "year": 2014,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "American Economic Journal Applied Economics",
+  "doi": "10.1257/app.6.2.1",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6438 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Keeping It Simple: Financial Literacy and Rules of Thumb",
+  "notes": "Micro-entrepreneurs often lack the financial literacy required to make important financial decisions. We conducted a randomized evaluation with a bank in the Dominican Republic to compare the impact of two distinct programs: standard accounting training versus a simplified, rule-...",
+  "source_files": [
+    "research\\literature\\papers\\alejandrodrexler2014keeping.md"
+  ],
+  "first_seen": "2026-05-18T11:35:45.011658Z",
+  "last_updated": "2026-05-18T11:35:45.021340Z"
+}

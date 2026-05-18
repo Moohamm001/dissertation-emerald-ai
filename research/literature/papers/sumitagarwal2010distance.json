@@ -1,0 +1,32 @@
+{
+  "key": "sumitagarwal2010distance",
+  "title": "Distance and Private Information in Lending",
+  "authors": [
+    "Sumit Agarwal",
+    "Robert Hauswald"
+  ],
+  "year": 2010,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Review of Financial Studies",
+  "doi": "10.1093/rfs/hhq001",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6404 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Distance and Private Information in Lending",
+  "notes": "We study the effects of physical distance on the acquisition and use of private information in informationally opaque credit markets. Using a unique data set of all loan applications by small firms to a large bank, we show that borrower proximity facilitates the collection of sof...",
+  "source_files": [
+    "research\\literature\\papers\\sumitagarwal2010distance.md"
+  ],
+  "first_seen": "2026-05-18T11:35:44.946921Z",
+  "last_updated": "2026-05-18T11:35:44.956508Z"
+}

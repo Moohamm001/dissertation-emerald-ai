@@ -1,0 +1,31 @@
+{
+  "key": "leobreiman2001random",
+  "title": "Random Forests",
+  "authors": [
+    "Leo Breiman"
+  ],
+  "year": 2001,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Machine Learning",
+  "doi": "10.1023/a:1010933404324",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.64 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Random Forests",
+  "notes": "",
+  "source_files": [
+    "research\\literature\\papers\\leobreiman2001random.md"
+  ],
+  "first_seen": "2026-05-18T11:35:45.263622Z",
+  "last_updated": "2026-05-18T11:35:45.273544Z"
+}

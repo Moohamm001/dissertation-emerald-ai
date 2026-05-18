@@ -1,0 +1,32 @@
+{
+  "key": "robingreenwood2013the",
+  "title": "The Growth of Finance",
+  "authors": [
+    "Robin Greenwood",
+    "David Scharfstein"
+  ],
+  "year": 2013,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "The Journal of Economic Perspectives",
+  "doi": "10.1257/jep.27.2.3",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.636 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "The Growth of Finance",
+  "notes": "The US financial services industry grew from 4.9 percent of GDP in 1980 to 7.9 percent of GDP in 2007. A sizeable portion of the growth can be explained by rising asset management fees, which in turn were driven by increases in the valuation of tradable assets, particularly equit...",
+  "source_files": [
+    "research\\literature\\papers\\robingreenwood2013the.md"
+  ],
+  "first_seen": "2026-05-18T11:35:45.094879Z",
+  "last_updated": "2026-05-18T11:35:45.104115Z"
+}

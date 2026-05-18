@@ -1,0 +1,31 @@
+{
+  "key": "gileshooker2004discovering",
+  "title": "Discovering additive structure in black box functions",
+  "authors": [
+    "Giles Hooker"
+  ],
+  "year": 2004,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "",
+  "doi": "10.1145/1014052.1014122",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6999 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Discovering additive structure in black box functions",
+  "notes": "Many automated learning procedures lack interpretability, operating effectively as a black box: providing a prediction tool but no explanation of the underlying dynamics that drive it. A common approach to interpretation is to plot the dependence of a learned function on one or t...",
+  "source_files": [
+    "research\\literature\\papers\\gileshooker2004discovering.md"
+  ],
+  "first_seen": "2026-05-18T11:35:45.190961Z",
+  "last_updated": "2026-05-18T11:35:45.201443Z"
+}

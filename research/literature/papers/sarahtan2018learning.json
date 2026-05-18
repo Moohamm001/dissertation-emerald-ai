@@ -1,0 +1,35 @@
+{
+  "key": "sarahtan2018learning",
+  "title": "Learning Global Additive Explanations for Neural Nets Using Model Distillation",
+  "authors": [
+    "Sarah Tan",
+    "Rich Caruana",
+    "Giles Hooker",
+    "Paul Koch",
+    "Albert Gordo"
+  ],
+  "year": 2018,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "arXiv (Cornell University)",
+  "doi": null,
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.8306 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Learning Global Additive Explanations for Neural Nets Using Model Distillation",
+  "notes": "Interpretability has largely focused on local explanations, i.e. explaining why a model made a particular prediction for a sample. These explanations are appealing due to their simplicity and local fidelity. However, they do not provide information about the general behavior of t...",
+  "source_files": [
+    "research\\literature\\papers\\sarahtan2018learning.md"
+  ],
+  "first_seen": "2026-05-18T11:35:45.240103Z",
+  "last_updated": "2026-05-18T11:35:45.251628Z"
+}

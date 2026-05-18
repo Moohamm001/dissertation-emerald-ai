@@ -1,0 +1,31 @@
+{
+  "key": "charlesfmanski2000economic",
+  "title": "Economic Analysis of Social Interactions",
+  "authors": [
+    "Charles F. Manski"
+  ],
+  "year": 2000,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "The Journal of Economic Perspectives",
+  "doi": "10.1257/jep.14.3.115",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6205 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Economic Analysis of Social Interactions",
+  "notes": "Economics is broadening its scope from analysis of markets to study of general social interactions. Developments in game theory, the economics of the family, and endogenous growth theory have led the way. Economists have also performed new empirical research using observational d...",
+  "source_files": [
+    "research\\literature\\papers\\charlesfmanski2000economic.md"
+  ],
+  "first_seen": "2026-05-18T11:35:43.950291Z",
+  "last_updated": "2026-05-18T11:35:43.960093Z"
+}

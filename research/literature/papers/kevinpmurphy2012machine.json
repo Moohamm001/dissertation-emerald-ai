@@ -1,0 +1,31 @@
+{
+  "key": "kevinpmurphy2012machine",
+  "title": "Machine learning a probabilistic perspective",
+  "authors": [
+    "Kevin P. Murphy"
+  ],
+  "year": 2012,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "",
+  "doi": null,
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6667 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Machine learning a probabilistic perspective",
+  "notes": "Today's Web-enabled deluge of electronic data calls for automated methods of data analysis. Machine learning provides these, developing methods that can automatically detect patterns in data and then use the uncovered patterns to predict future data. This textbook offers a compre...",
+  "source_files": [
+    "research\\literature\\papers\\kevinpmurphy2012machine.md"
+  ],
+  "first_seen": "2026-05-18T11:35:45.578423Z",
+  "last_updated": "2026-05-18T11:35:45.588984Z"
+}

@@ -1,0 +1,38 @@
+{
+  "key": "lukasruff2021a",
+  "title": "A Unifying Review of Deep and Shallow Anomaly Detection",
+  "authors": [
+    "Lukas Ruff",
+    "Jacob R. Kauffmann",
+    "Robert A. Vandermeulen",
+    "Gregoire Montavon",
+    "Wojciech Samek",
+    "Marius Kloft",
+    "Thomas G. Dietterich",
+    "Klaus-Robert Muller"
+  ],
+  "year": 2021,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Proceedings of the IEEE",
+  "doi": "10.1109/jproc.2021.3052449",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6625 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "A Unifying Review of Deep and Shallow Anomaly Detection",
+  "notes": "Deep learning approaches to anomaly detection (AD) have recently improved the state of the art in detection performance on complex data sets, such as large collections of images or text. These results have sparked a renewed interest in the AD problem and led to the introduction o...",
+  "source_files": [
+    "research\\literature\\papers\\lukasruff2021a.md"
+  ],
+  "first_seen": "2026-05-18T11:25:38.522792Z",
+  "last_updated": "2026-05-18T11:25:38.532961Z"
+}

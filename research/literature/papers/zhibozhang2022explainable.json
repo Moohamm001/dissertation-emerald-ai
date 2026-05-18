@@ -1,0 +1,35 @@
+{
+  "key": "zhibozhang2022explainable",
+  "title": "Explainable Artificial Intelligence Applications in Cyber Security: State-of-the-Art in Research",
+  "authors": [
+    "Zhibo Zhang",
+    "Hussam Al Hamadi",
+    "Ernesto Damiani",
+    "Chan Yeob Yeun",
+    "Fatma Taher"
+  ],
+  "year": 2022,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "IEEE Access",
+  "doi": "10.1109/access.2022.3204051",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6566 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Explainable Artificial Intelligence Applications in Cyber Security: State-of-the-Art in Research",
+  "notes": "This survey presents a comprehensive review of current literature on Explainable Artificial Intelligence (XAI) methods for cyber security applications. Due to the rapid development of Internet-connected systems and Artificial Intelligence in recent years, Artificial Intelligence ...",
+  "source_files": [
+    "research\\literature\\papers\\zhibozhang2022explainable.md"
+  ],
+  "first_seen": "2026-05-18T11:25:38.569856Z",
+  "last_updated": "2026-05-18T11:25:38.579108Z"
+}

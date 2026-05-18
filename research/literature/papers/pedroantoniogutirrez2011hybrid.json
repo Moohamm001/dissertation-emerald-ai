@@ -1,0 +1,32 @@
+{
+  "key": "pedroantoniogutirrez2011hybrid",
+  "title": "Hybrid Artificial Neural Networks: Models, Algorithms and Data",
+  "authors": [
+    "Pedro Antonio Gutiérrez",
+    "César Hervás‐Martínez"
+  ],
+  "year": 2011,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Lecture notes in computer science",
+  "doi": "10.1007/978-3-642-21498-1_23",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.697 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Hybrid Artificial Neural Networks: Models, Algorithms and Data",
+  "notes": "",
+  "source_files": [
+    "research\\literature\\papers\\pedroantoniogutirrez2011hybrid.md"
+  ],
+  "first_seen": "2026-05-18T11:35:45.436271Z",
+  "last_updated": "2026-05-18T11:35:45.445693Z"
+}

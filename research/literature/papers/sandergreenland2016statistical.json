@@ -1,0 +1,37 @@
+{
+  "key": "sandergreenland2016statistical",
+  "title": "Statistical tests, P values, confidence intervals, and power: a guide to misinterpretations",
+  "authors": [
+    "Sander Greenland",
+    "Stephen Senn",
+    "Kenneth J. Rothman",
+    "John B. Carlin",
+    "Charles Poole",
+    "Steven N. Goodman",
+    "Douglas G. Altman"
+  ],
+  "year": 2016,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "European Journal of Epidemiology",
+  "doi": "10.1007/s10654-016-0149-3",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6648 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Statistical tests, P values, confidence intervals, and power: a guide to misinterpretations",
+  "notes": "Misinterpretation and abuse of statistical tests, confidence intervals, and statistical power have been decried for decades, yet remain rampant. A key problem is that there are no interpretations of these concepts that are at once simple, intuitive, correct, and foolproof. Instea...",
+  "source_files": [
+    "research\\literature\\papers\\sandergreenland2016statistical.md"
+  ],
+  "first_seen": "2026-05-18T11:35:44.656089Z",
+  "last_updated": "2026-05-18T11:35:44.666709Z"
+}

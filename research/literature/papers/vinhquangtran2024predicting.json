@@ -1,0 +1,32 @@
+{
+  "key": "vinhquangtran2024predicting",
+  "title": "Predicting dementia in Parkinson's disease on a small tabular dataset using hybrid LightGBM–TabPFN and SHAP",
+  "authors": [
+    "Vinh Quang Tran",
+    "Haewon Byeon"
+  ],
+  "year": 2024,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Digital Health",
+  "doi": "10.1177/20552076241272585",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6225 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Predicting dementia in Parkinson's disease on a small tabular dataset using hybrid LightGBM–TabPFN and SHAP",
+  "notes": "Objective This study aims to create a robust and interpretable method for predicting dementia in Parkinson's disease (PD), especially in resource-limited settings. The model aims to be accurate even with small datasets and missing values, ultimately promoting its use in clinical ...",
+  "source_files": [
+    "research\\literature\\papers\\vinhquangtran2024predicting.md"
+  ],
+  "first_seen": "2026-05-18T11:25:38.277085Z",
+  "last_updated": "2026-05-18T11:25:38.286700Z"
+}

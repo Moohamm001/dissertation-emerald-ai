@@ -1,0 +1,33 @@
+{
+  "key": "robertheinkel2001the",
+  "title": "The Effect of Green Investment on Corporate Behavior",
+  "authors": [
+    "Robert Heinkel",
+    "Alan Kraus",
+    "Josef Zechner"
+  ],
+  "year": 2001,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Journal of Financial and Quantitative Analysis",
+  "doi": "10.2307/2676219",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6193 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "The Effect of Green Investment on Corporate Behavior",
+  "notes": "This paper explores the effect of exclusionary ethical investing on corporate behavior in a risk-averse, equilibrium setting. While arguments exist that ethical investing can influence a firm's cost of capital, and so affect investment, no equilibrium model has been presented to ...",
+  "source_files": [
+    "research\\literature\\papers\\robertheinkel2001the.md"
+  ],
+  "first_seen": "2026-05-18T11:35:44.887696Z",
+  "last_updated": "2026-05-18T11:35:44.896539Z"
+}

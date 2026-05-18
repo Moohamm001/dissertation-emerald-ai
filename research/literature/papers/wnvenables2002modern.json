@@ -1,0 +1,32 @@
+{
+  "key": "wnvenables2002modern",
+  "title": "Modern Applied Statistics with S",
+  "authors": [
+    "W. N. Venables",
+    "B. D. Ripley"
+  ],
+  "year": 2002,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Statisctics and computing/Statistics and computing",
+  "doi": "10.1007/978-0-387-21706-2",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6425 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Modern Applied Statistics with S",
+  "notes": "",
+  "source_files": [
+    "research\\literature\\papers\\wnvenables2002modern.md"
+  ],
+  "first_seen": "2026-05-18T11:35:45.601841Z",
+  "last_updated": "2026-05-18T11:35:45.611267Z"
+}

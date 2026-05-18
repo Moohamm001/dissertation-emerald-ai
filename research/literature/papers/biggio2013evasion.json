@@ -1,0 +1,38 @@
+{
+  "key": "biggio2013evasion",
+  "title": "Evasion attacks against machine learning at test time",
+  "authors": [
+    "Biggio, B.",
+    "Corona, I.",
+    "Maiorca, D.",
+    "Nelson, B.",
+    "Srndic, N.",
+    "Laskov, P.",
+    "Giacinto, G.",
+    "Roli, F."
+  ],
+  "year": 2013,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "",
+  "doi": null,
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6503 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Evasion attacks against machine learning at test time",
+  "notes": "Abstract. In security-sensitive applications, the success of machine learn-ing depends on a thorough vetting of their resistance to adversarial data. In one pertinent, well-motivated attack scenario, an adversary may at-tempt to evade a deployed system at test time by carefully m...",
+  "source_files": [
+    "research\\literature\\papers\\biggio2013evasion.md"
+  ],
+  "first_seen": "2026-05-18T11:25:38.832674Z",
+  "last_updated": "2026-05-18T11:25:38.844619Z"
+}

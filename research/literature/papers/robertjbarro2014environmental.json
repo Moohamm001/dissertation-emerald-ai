@@ -1,0 +1,31 @@
+{
+  "key": "robertjbarro2014environmental",
+  "title": "Environmental Protection, Rare Disasters and Discount Rates",
+  "authors": [
+    "Robert J. Barro"
+  ],
+  "year": 2014,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Economica",
+  "doi": "10.1111/ecca.12117",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6238 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Environmental Protection, Rare Disasters and Discount Rates",
+  "notes": "The Stern Review 's evaluation of environmental protection stresses low discount rates and uncertainty about environmental effects. An appropriate model for analysing this uncertainty and the associated discount rates requires sufficient risk aversion and fat‐tailed uncertainty t...",
+  "source_files": [
+    "research\\literature\\papers\\robertjbarro2014environmental.md"
+  ],
+  "first_seen": "2026-05-18T11:35:44.816833Z",
+  "last_updated": "2026-05-18T11:35:44.825357Z"
+}

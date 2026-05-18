@@ -1,0 +1,31 @@
+{
+  "key": "lesliegvaliant2003three",
+  "title": "Three problems in computer science",
+  "authors": [
+    "Leslie G. Valiant"
+  ],
+  "year": 2003,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Journal of the ACM",
+  "doi": "10.1145/602382.602410",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.5891 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Three problems in computer science",
+  "notes": "article Share on Three problems in computer science Author: Leslie G. Valiant Harvard University Harvard UniversityView Profile Authors Info & Claims Journal of the ACMVolume 50Issue 1pp 96–99https://doi.org/10.1145/602382.602410Published:01 January 2003Publication History 22cita...",
+  "source_files": [
+    "research\\literature\\papers\\lesliegvaliant2003three.md"
+  ],
+  "first_seen": "2026-05-18T11:25:38.612512Z",
+  "last_updated": "2026-05-18T11:25:38.624222Z"
+}

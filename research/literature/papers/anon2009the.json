@@ -1,0 +1,29 @@
+{
+  "key": "anon2009the",
+  "title": "The Top Ten Algorithms in Data Mining",
+  "authors": [],
+  "year": 2009,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "",
+  "doi": "10.1201/9781420089653",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6306 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "The Top Ten Algorithms in Data Mining",
+  "notes": "Identifying some of the most influential algorithms that are widely used in the data mining community, this volume provides a description of each algorithm, discusses the impact of the algorithms, and reviews current and future research on the algorithms. Thoroughly evaluated by ...",
+  "source_files": [
+    "research\\literature\\papers\\anon2009the.md"
+  ],
+  "first_seen": "2026-05-18T11:35:45.645076Z",
+  "last_updated": "2026-05-18T11:35:45.655712Z"
+}

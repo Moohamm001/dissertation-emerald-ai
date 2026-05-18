@@ -1,0 +1,32 @@
+{
+  "key": "arthurmaillart2024distill",
+  "title": "Distill knowledge of additive tree models into generalized linear models: a new learning approach for non-smooth generalized additive models",
+  "authors": [
+    "Arthur Maillart",
+    "Christian Y. Robert"
+  ],
+  "year": 2024,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Annals of Actuarial Science",
+  "doi": "10.1017/s1748499524000241",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.8126 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Distill knowledge of additive tree models into generalized linear models: a new learning approach for non-smooth generalized additive models",
+  "notes": "Abstract Generalized additive models (GAMs) are a leading model class for interpretable machine learning. GAMs were originally defined with smooth shape functions of the predictor variables and trained using smoothing splines. Recently, tree-based GAMs where shape functions are g...",
+  "source_files": [
+    "research\\literature\\papers\\arthurmaillart2024distill.md"
+  ],
+  "first_seen": "2026-05-18T11:35:45.140742Z",
+  "last_updated": "2026-05-18T11:35:45.150293Z"
+}

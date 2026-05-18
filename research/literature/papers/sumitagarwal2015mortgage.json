@@ -1,0 +1,37 @@
+{
+  "key": "sumitagarwal2015mortgage",
+  "title": "Mortgage Refinancing, Consumer Spending, and Competition: Evidence from the Home Affordable Refinancing Program",
+  "authors": [
+    "Sumit Agarwal",
+    "Gene Amromin",
+    "Souphala Chomsisengphet",
+    "Tim Landvoigt",
+    "Tomasz Piskorski",
+    "Amit Seru",
+    "Vincent Yao"
+  ],
+  "year": 2015,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "National Bureau of Economic Research",
+  "doi": "10.3386/w21512",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6277 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Mortgage Refinancing, Consumer Spending, and Competition: Evidence from the Home Affordable Refinancing Program",
+  "notes": "Using loan-level mortgage data merged with consumer credit records, we examine the ability of the government to impact mortgage refinancing activity and spur consumption by focusing on the Home Affordable Refinance Program (HARP). The policy relaxed housing equity constraints by ...",
+  "source_files": [
+    "research\\literature\\papers\\sumitagarwal2015mortgage.md"
+  ],
+  "first_seen": "2026-05-18T11:35:45.074722Z",
+  "last_updated": "2026-05-18T11:35:45.083584Z"
+}

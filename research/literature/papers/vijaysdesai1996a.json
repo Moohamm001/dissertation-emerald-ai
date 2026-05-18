@@ -1,0 +1,33 @@
+{
+  "key": "vijaysdesai1996a",
+  "title": "A comparison of neural networks and linear scoring models in the credit union environment",
+  "authors": [
+    "Vijay S. Desai",
+    "Jonathan Crook",
+    "George A. Overstreet"
+  ],
+  "year": 1996,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "European Journal of Operational Research",
+  "doi": "10.1016/0377-2217(95)00246-4",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.5954 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "A comparison of neural networks and linear scoring models in the credit union environment",
+  "notes": "",
+  "source_files": [
+    "research\\literature\\papers\\vijaysdesai1996a.md"
+  ],
+  "first_seen": "2026-05-18T11:35:44.413271Z",
+  "last_updated": "2026-05-18T11:35:44.422605Z"
+}

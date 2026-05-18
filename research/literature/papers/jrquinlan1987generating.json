@@ -1,0 +1,31 @@
+{
+  "key": "jrquinlan1987generating",
+  "title": "Generating production rules from decision trees",
+  "authors": [
+    "J. R. Quinlan"
+  ],
+  "year": 1987,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "",
+  "doi": null,
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.5719 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Generating production rules from decision trees",
+  "notes": "Many inductive knowledge acquisition algorithms generate classifiers in the form of decision trees. This paper describes a technique for transforming such trees to small sets of production rules, a common formalism for expressing knowledge in expert systems. The method makes use ...",
+  "source_files": [
+    "research\\literature\\papers\\jrquinlan1987generating.md"
+  ],
+  "first_seen": "2026-05-18T11:25:38.881118Z",
+  "last_updated": "2026-05-18T11:25:38.890612Z"
+}

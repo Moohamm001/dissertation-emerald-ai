@@ -1,0 +1,32 @@
+{
+  "key": "jeffdominitz1997using",
+  "title": "Using Expectations Data to Study Subjective Income Expectations",
+  "authors": [
+    "Jeff Dominitz",
+    "Charles F. Manski"
+  ],
+  "year": 1997,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Journal of the American Statistical Association",
+  "doi": "10.1080/01621459.1997.10474041",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.5953 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Using Expectations Data to Study Subjective Income Expectations",
+  "notes": "Abstract We have collected data on the one-year-ahead income expectations of members of American households in our survey of economic expectations (SEE), a module of a national continuous telephone survey conducted at the University of Wisconsin. The income-expectations questions...",
+  "source_files": [
+    "research\\literature\\papers\\jeffdominitz1997using.md"
+  ],
+  "first_seen": "2026-05-18T11:35:44.213275Z",
+  "last_updated": "2026-05-18T11:35:44.223177Z"
+}

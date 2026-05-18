@@ -1,0 +1,33 @@
+{
+  "key": "thomaslgriffiths2001bayesian",
+  "title": "Bayesian Models of Cognition",
+  "authors": [
+    "Thomas L. Griffiths",
+    "Charles Kemp",
+    "Joshua B. Tenenbaum"
+  ],
+  "year": 2001,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Cambridge University Press eBooks",
+  "doi": "10.1017/cbo9780511816772.006",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6077 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Bayesian Models of Cognition",
+  "notes": "For over 200 years, philosophers and mathematicians have be en using probability theory to describe human cognition. While the theory of prob abilities was first developed as a means of analyzing games of chance, it quickly took on a larger and deeper significance as a formal acc...",
+  "source_files": [
+    "research\\literature\\papers\\thomaslgriffiths2001bayesian.md"
+  ],
+  "first_seen": "2026-05-18T11:25:38.903618Z",
+  "last_updated": "2026-05-18T11:25:38.914753Z"
+}

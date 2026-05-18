@@ -1,0 +1,32 @@
+{
+  "key": "xiaoxinyin2003cpar",
+  "title": "CPAR: Classification based on Predictive Association Rules",
+  "authors": [
+    "Xiaoxin Yin",
+    "Jiawei Han"
+  ],
+  "year": 2003,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "",
+  "doi": "10.1137/1.9781611972733.40",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6178 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "CPAR: Classification based on Predictive Association Rules",
+  "notes": "Recent studies in data mining have proposed a new classification approach, called associative classification, which, according to several reports, such as [7, 6], achieves higher classification accuracy than traditional classification approaches such as C4.5. However, the approac...",
+  "source_files": [
+    "research\\literature\\papers\\xiaoxinyin2003cpar.md"
+  ],
+  "first_seen": "2026-05-18T11:35:44.546938Z",
+  "last_updated": "2026-05-18T11:35:44.556917Z"
+}

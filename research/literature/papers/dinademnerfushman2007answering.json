@@ -1,0 +1,32 @@
+{
+  "key": "dinademnerfushman2007answering",
+  "title": "Answering Clinical Questions with Knowledge-Based and Statistical Techniques",
+  "authors": [
+    "Dina Demner‐Fushman",
+    "Jimmy Lin"
+  ],
+  "year": 2007,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Computational Linguistics",
+  "doi": "10.1162/coli.2007.33.1.63",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.617 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Answering Clinical Questions with Knowledge-Based and Statistical Techniques",
+  "notes": "The combination of recent developments in question-answering research and the availability of unparalleled resources developed specifically for automatic semantic processing of text in the medical domain provides a unique opportunity to explore complex question answering in the d...",
+  "source_files": [
+    "research\\literature\\papers\\dinademnerfushman2007answering.md"
+  ],
+  "first_seen": "2026-05-18T11:25:38.546935Z",
+  "last_updated": "2026-05-18T11:25:38.556350Z"
+}

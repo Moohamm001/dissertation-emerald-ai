@@ -1,0 +1,32 @@
+{
+  "key": "stevenlscott2013bayesian",
+  "title": "Bayesian Variable Selection for Nowcasting Economic Time Series",
+  "authors": [
+    "Steven L. Scott",
+    "Hal R. Varian"
+  ],
+  "year": 2013,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "National Bureau of Economic Research",
+  "doi": "10.3386/w19567",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6228 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Bayesian Variable Selection for Nowcasting Economic Time Series",
+  "notes": "We consider the problem of short-term time series forecasting (nowcasting) when there are more possible predictors than observations. Our approach combines three Bayesian techniques: Kalman filtering, spike-and-slab regression, and model averaging. We illustrate this approach usi...",
+  "source_files": [
+    "research\\literature\\papers\\stevenlscott2013bayesian.md"
+  ],
+  "first_seen": "2026-05-18T11:35:45.622027Z",
+  "last_updated": "2026-05-18T11:35:45.632015Z"
+}

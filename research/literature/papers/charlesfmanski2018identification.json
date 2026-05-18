@@ -1,0 +1,31 @@
+{
+  "key": "charlesfmanski2018identification",
+  "title": "Identification of Anonymous Endogenous Interactions",
+  "authors": [
+    "Charles F. Manski"
+  ],
+  "year": 2018,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "",
+  "doi": "10.1201/9780429496639-15",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6103 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Identification of Anonymous Endogenous Interactions",
+  "notes": "Endogenous growth models assume dynamic learning processes in which the output of a given firm depends on the lagged value of aggregate industry output. Biological models of contagion suppose that the probability of an uninfected person becoming infected varies with the fraction ...",
+  "source_files": [
+    "research\\literature\\papers\\charlesfmanski2018identification.md"
+  ],
+  "first_seen": "2026-05-18T11:35:44.194110Z",
+  "last_updated": "2026-05-18T11:35:44.200735Z"
+}

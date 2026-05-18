@@ -1,0 +1,34 @@
+{
+  "key": "romaingel2024the",
+  "title": "The unreasonable effectiveness of early discarding after one epoch in neural network hyperparameter optimization",
+  "authors": [
+    "Romain Égelé",
+    "Felix Mohr",
+    "Tom J. Viering",
+    "Prasanna Balaprakash"
+  ],
+  "year": 2024,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Neurocomputing",
+  "doi": "10.1016/j.neucom.2024.127964",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6283 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "The unreasonable effectiveness of early discarding after one epoch in neural network hyperparameter optimization",
+  "notes": "To reach high performance with deep learning, hyperparameter optimization (HPO) is essential. This process is usually time-consuming due to costly evaluations of neural networks. Early discarding techniques limit the resources granted to unpromising candidates by observing the em...",
+  "source_files": [
+    "research\\literature\\papers\\romaingel2024the.md"
+  ],
+  "first_seen": "2026-05-18T11:25:38.299897Z",
+  "last_updated": "2026-05-18T11:25:38.310404Z"
+}

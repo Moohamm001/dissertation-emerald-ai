@@ -1,0 +1,32 @@
+{
+  "key": "plkrapivsky2001organization",
+  "title": "Organization of growing random networks",
+  "authors": [
+    "P. L. Krapivsky",
+    "S. Redner"
+  ],
+  "year": 2001,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Physical review. E, Statistical physics, plasmas, fluids, and related interdisciplinary topics",
+  "doi": "10.1103/physreve.63.066123",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6138 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Organization of growing random networks",
+  "notes": "The organizational development of growing random networks is investigated. These growing networks are built by adding nodes successively, and linking each to an earlier node of degree k with an attachment probability A(k). When A(k) grows more slowly than linearly with k, the num...",
+  "source_files": [
+    "research\\literature\\papers\\plkrapivsky2001organization.md"
+  ],
+  "first_seen": "2026-05-18T11:25:38.456564Z",
+  "last_updated": "2026-05-18T11:25:38.465716Z"
+}

@@ -2,7 +2,7 @@
 
 > **Explainable, calibrated, audit-ready machine learning for green-loan credit scoring.**
 > MSc Applied AI dissertation — University of Warwick. License MIT · Python 3.11
-> Stage: **proposal v0.3 (supervisor-ready) + scaffold + literature brain.** The machine-learning work starts next.
+> Stage: **proposal v0.4.1 (datasheet-aligned + small-N-honest) + scaffold + literature brain + leakage audit complete.** EDA on the 90 permitted features is the next deliverable.
 
 ---
 
@@ -29,13 +29,13 @@ The system is designed to comply with the **EU AI Act** and the **UK Financial C
 
 | Stage | Status | What it means |
 |---|---|---|
-| **Research proposal** | ✅ Done | Third draft — ~8,500 words, 74 academic references, supervisor-ready |
-| **Literature review** | ✅ Done | 108 papers indexed, organised by theme, fully searchable |
+| **Research proposal** | ✅ **v0.4.1 (2026-05-18)** | Full ~9,636w / 74 refs + 3K condensed ~2,743w / 30 refs. Datasheet-aligned + small-N-honest (v0.4 audit edits + v0.4.1 conformal reframe: marginal coverage as headline, Mondrian conditional as diagnostic, interval width excluded from primary metrics) |
+| **Literature review** | ✅ Done (coverage) / 🚧 In progress (depth) | 218 papers in brain, organised by theme; **34 fully read with human-quality notes, 156 bot-discovered abstract-only (not citation-safe), 28 placeholder stubs** |
 | **Code scaffold** | ✅ Done | All modules in place, each with docstrings pointing to the proposal section |
 | **Automated research bot** | ✅ Done | Keeps discovering new relevant papers from OpenAlex over time |
-| **Tests + continuous integration** | ✅ Done | 21 tests passing across literature integrity and the discovery bot |
-| **Data loading + leakage audit** | 🚧 **Starting next** | First ML deliverable: classify every column as safe/unsafe to learn from |
-| **Exploratory data analysis (EDA)** | ⬜ Weeks 3–4 of plan | Distributions, correlations, missingness, drift diagnostics |
+| **Tests + continuous integration** | ✅ Done | 55 tests passing across literature integrity, discovery bot, data load, and leakage audit |
+| **Data loading + leakage audit** | ✅ **Done (2026-05-18)** | 166 columns classified — 90 permitted as features, 76 forbidden; class balance 0.36% delinquent surfaced; datasheet + catalogue committed under `data/governance/` |
+| **Exploratory data analysis (EDA)** | 🚧 **Starting next** | Distributions, correlations, missingness, drift diagnostics on the 90 cleaned features |
 | **Model training** | ⬜ Weeks 8–10 | Six classifier families benchmarked under identical preprocessing |
 | **Calibration + uncertainty** | ⬜ Week 11 | Probability calibration + conformal prediction intervals |
 | **Explainability + fairness audit** | ⬜ Weeks 12–13 | SHAP, counterfactuals, fairness across industry/geography/size |
@@ -50,23 +50,24 @@ The system is designed to comply with the **EU AI Act** and the **UK Financial C
 
 **New here (technical)?** → [**QUICKSTART.md**](QUICKSTART.md) (5-minute hands-on tour)
 **Need a specific command?** → [**HOWTORUN.md**](HOWTORUN.md) (full operations reference)
-**Just want to read the research?** → [`docs/proposal/proposal_third_draft.docx`](docs/proposal/) (current v0.3, ~8,500 words)
+**Just want to read the research?** → [`docs/proposal/proposal_fourth_draft_3k.docx`](docs/proposal/) (v0.4.1, **~2,740 words total** — 2,077-word body + curated 30-ref bibliography). For the full ~9,600-word supervisor-facing version with all 74 refs, see [`docs/proposal/proposal_fourth_draft.docx`](docs/proposal/).
 
 ---
 
 ## Project status (live numbers)
 
 ```
-  papers in brain   : 108      (76 human-curated + 32 bot-only; 14 promoted in v0.3)
+  papers in brain   : 218      (76 human-curated + 142 bot-only; 14 promoted in v0.3)
+    of which read   :  34/218  (analysed = full notes; remaining 156 indexed = abstract-only, 28 stub)
   citation edges    :  80
   research questions:  15      (auto-generated from gaps.md)
-  authors indexed   : 1087
+  authors indexed   : 2001
   methods detected  :  22      (XGBoost, LightGBM, CatBoost, SHAP, DiCE, conformal, ...)
   datasets detected :   9      (COMPAS, FICO, Adult, German Credit, Lending Club, ...)
   themes drafted    :   8/8    (lit-review sections 4.1-4.8)
-  tests passing     :  21/21   (smoke + brain integrity + discovery bot)
+  tests passing     :  55/55   (smoke + brain integrity + discovery bot + data load + leakage audit)
   top-level dirs    :   7      (.github, apps, src, research, docs, data, tests)
-  commits on main   :   6
+  commits on main   :   9
 ```
 
 Numbers refresh with `python -m emerald_ai research status`.
@@ -87,13 +88,14 @@ It occupies an explicit literature gap: no published work simultaneously deliver
 
 | Subsystem | State | Try it |
 |---|---|---|
-| Literature brain (108 refs, 80-edge citation graph, 15 research questions) | **WORKS** | `python -m emerald_ai research status` |
+| Literature brain (218 refs, 80-edge citation graph, 15 research questions) | **WORKS** | `python -m emerald_ai research status` |
 | Autonomous research engine (idempotent, 10-field schema, audit-trail) | **WORKS** | `python -m emerald_ai research run` |
 | **Autonomous discovery bot** (OpenAlex crawler, null-tolerant, crash-resistant, no API key) | **WORKS** | `python -m emerald_ai research discover --query "explainable green credit scoring"` |
-| Proposal authoring pipeline (python-docx → reproducible .docx, v0.3 = ~8,500 words, 74 refs) | **WORKS** | `python -m emerald_ai proposal` |
-| Tests + CI (ruff + black + mypy + pytest on 3.11/3.12) — 21 passing | **WORKS** | `python -m emerald_ai check` |
+| Proposal authoring pipeline (python-docx → v0.4.1 full ~9,600w / 74 refs + v0.4.1 3K condensed ~2,740w / 30 refs) | **WORKS** | `python -m emerald_ai proposal` + `python docs/proposal/build_proposal_condensed.py` |
+| Tests + CI (ruff + black + mypy + pytest on 3.11/3.12) — 55 passing | **WORKS** | `python -m emerald_ai check` |
 | Cross-platform CLI (Windows / macOS / Linux, no Make required) | **WORKS** | `python -m emerald_ai --help` |
 | FastAPI backend | **PARTIAL** | `python -m emerald_ai api` (only `/healthz` for now; rest scaffolded) |
+| Data layer (load + leakage audit + datasheet + feature catalogue) | **WORKS** | `python -m emerald_ai.data.leakage_audit` — emits `data/governance/{feature_catalogue.yaml, feature_audit_summary.md, datasheet.md}` |
 | ML pipeline (preprocess / train / evaluate / explain / audit) | **STUB** | CLI raises `NotImplementedError` with a pointer to the relevant proposal section |
 | React SPA frontend | **STUB** | scaffold deferred until the API serves real predictions |
 
@@ -106,17 +108,17 @@ It occupies an explicit literature gap: no published work simultaneously deliver
 │  data/raw/*.xlsx         │    │  research/literature/   (KNOWLEDGE BRAIN  — WORKS)     │
 │  proprietary, gitignored │───▶│  ┌─────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐ │
 │  14,135 × 166 features   │    │  │ themes/ │  │ papers/  │  │ gaps.md  │  │ state/   │ │
-└──────────────────────────┘    │  │ 8 files │  │ 75 .md   │  │ 15 gaps  │  │ JSON     │ │
+└──────────────────────────┘    │  │ 8 files │  │ 190 .md  │  │ 15 gaps  │  │ JSON     │ │
               │                 │  └─────────┘  │ + .json  │  └──────────┘  │ graph,   │ │
               │                 │  index.yaml   └──────────┘                │ rollups, │ │
               │                 │  + auto_index.yaml (bot)                  │ RQs      │ │
-              │                 │  (76 manual + 32 bot-only = 108 unique)   └──────────┘ │
+              │                 │  (76 manual + 142 bot-only = 218 unique)  └──────────┘ │
               │                 │                ▲              ▲                          │
               ▼                 │                │              │ BFS crawl, threshold     │
 ┌──────────────────────────────┐│                │   ┌──────────┴──────────────────────┐  │
 │  src/emerald_ai/  (PACKAGE)  ││                │   │  OpenAlex (free, no API key)    │  │
 │                              ││                │   │  1 req/s · on-disk cache        │  │
-│  data/      preprocess  STUB ││                │   │  null-tolerant · crash-resistant│  │
+│  data/      load+leakage  ✓  ││                │   │  null-tolerant · crash-resistant│  │
 │  features/  pipeline    STUB ││                │   └─────────────────────────────────┘  │
 │  models/    LR SVM RF XGB    ││            ┌───┴──────────────────────────────────────┐ │
 │             LGBM CatBoost    │ STUB        │ Engine: parse -> graph -> roll-up         │ │
@@ -134,10 +136,10 @@ It occupies an explicit literature gap: no published work simultaneously deliver
    ┌───────────────────────┐                      │  apps/web/ (React + Vite)  │            │
    │  docs/proposal/       │                      │  Dashboard, Single Predict,│ STUB       │
    │  build_proposal.py    │ WORKS                │  Batch Score, SHAP Explorer│            │
-   │  -> third_draft.docx  │                      └────────────────────────────┘            │
+   │  -> fourth_draft.docx │                      └────────────────────────────┘            │
    └───────────────────────┘                                                                │
                                                                                             │
-                          [ tests/ 21 passing : smoke + brain integrity + discovery bot ]
+                  [ tests/ 55 passing : smoke + brain + discovery bot + data load + leakage audit ]
 ```
 
 ---
@@ -146,7 +148,7 @@ It occupies an explicit literature gap: no published work simultaneously deliver
 
 | If you want to find… | Look in |
 |---|---|
-| The dissertation research design | `docs/proposal/proposal_third_draft.docx` (v0.3, current) |
+| The dissertation research design | `docs/proposal/proposal_fourth_draft.docx` (v0.4.1, full) or `proposal_fourth_draft_3k.docx` (v0.4.1, 3K condensed) |
 | Why a particular method was chosen | `research/literature/themes/4.X-*.md` (argumentative spine) |
 | Notes on a specific cited paper | `research/literature/papers/<key>.md` or `<key>.json` |
 | Open questions / unverified claims | `research/literature/gaps.md` |
@@ -273,7 +275,7 @@ The Python CLI is the canonical entrypoint. The Makefile is a thin convenience w
 - **Fairness:** AIF360 audit on Industry, Borrower State, business-size proxies — demographic parity, equalised odds, predictive parity, calibration-within-group
 - **Deployment:** FastAPI + React SPA + MLflow + Prometheus + Evidently (drift monitoring)
 
-Full methodology in [`docs/proposal/proposal_third_draft.docx`](docs/proposal/), §5.
+Full methodology in [`docs/proposal/proposal_fourth_draft.docx`](docs/proposal/) (v0.4.1), §5.
 
 ---
 
@@ -283,9 +285,9 @@ The repo contains a structured knowledge base under [`research/literature/`](res
 
 - `research/literature/BRAIN.md` — usage rules
 - `research/literature/index.yaml` — 76 human-curated references (themes, relevance, verification status, search-query hints for placeholder citations)
-- `research/literature/auto_index.yaml` — 46 references added by the discovery bot; on key collision the manual entry wins (engine.py:39), so promotion is just "append the key into index.yaml with curated metadata"
+- `research/literature/auto_index.yaml` — 156 references added by the discovery bot; on key collision the manual entry wins (engine.py:39), so promotion is just "append the key into index.yaml with curated metadata"
 - `research/literature/themes/4.1`–`4.8.md` — eight argumentative-spine files mirroring the proposal's literature-review subsections
-- `research/literature/papers/<key>.md` — 75 paper notes (34 human-written + 41 bot-stubbed; 14 of those stubs now back human-curated index entries via v0.3 promotion)
+- `research/literature/papers/<key>.md` — 190 paper notes (34 human-written + 156 bot-stubbed; 14 of those stubs now back human-curated index entries via v0.3 promotion)
 - `research/literature/papers/<key>.json` — machine-readable sidecar in the 10-field schema, populated by the research engine
 - `research/literature/gaps.md` — 10 literature gaps + 5 methodology gaps, with suggested next actions
 - `research/literature/glossary.md` — domain terms
@@ -316,11 +318,11 @@ The brain is driven by an idempotent **research engine** (`src/emerald_ai/resear
 
 ```
 $ python -m emerald_ai research status
-Brain state - last run 2026-05-18T08:13:29+00:00
-  papers     : 108     (76 human-curated in index.yaml + 32 bot-only in auto_index.yaml)
+Brain state - last run 2026-05-18T13:08:02+00:00
+  papers     : 218     (76 human-curated in index.yaml + 142 bot-only in auto_index.yaml)
   citations  : 80
   questions  : 15
-  authors    : 1087
+  authors    : 2001
   methods    : 22      (XGBoost, LightGBM, CatBoost, SHAP, LIME, DiCE, SMOTE, conformal, ...)
   datasets   :  9      (COMPAS, FICO, Adult, German Credit, Lending Club, KDD, Higgs, ...)
   keywords   : 68
@@ -402,13 +404,59 @@ EMERALD-AI is designed against (not certified against) the following regulatory 
 ## Recent activity
 
 ```
-(uncommitted, 2026-05-18)  v0.3 proposal rewrite
-            ↳ 4 new bot-discovery passes grew brain 82 -> 108 papers;
-              14 of those promoted into index.yaml with curated metadata;
+(uncommitted, 2026-05-18)  proposal v0.4.1 (full + 3K condensed) + data-governance + tests
+            ↳ proposal_fourth_draft_3k.docx — 3K-target reader-facing version:
+              2,077-word body + curated 30-ref bibliography = 2,743 words total.
+              Carries every v0.4 empirical number AND the v0.4.1 conformal
+              reframe (marginal coverage as headline, Mondrian / class-
+              conditional as diagnostic, interval width excluded from primary
+              metrics, transparency-mechanism framing). Built by
+              docs/proposal/build_proposal_condensed.py.
+            ↳ proposal_fourth_draft.docx (v0.4.1) — supervisor-facing version
+              expanded from v0.4 by ~1,000w concentrated in §5.10 + §5.13:
+              within-minority-class ECE and recall@top-decile promoted to
+              primary metrics; conformal claim split (marginal = headline,
+              Mondrian conditional = diagnostic with bootstrap CIs; interval
+              width excluded from primary); raw accuracy explicitly excluded
+              (constant predictor = 99.64%). Full 74-ref bibliography intact.
+            ↳ proposal_fourth_draft.docx — surgical v0.3 -> v0.4 patch aligning
+              the text with the v1.0 governance artefacts: §4.4 recalibrated
+              for empirical 0.36% delinquent prevalence (vs textbook 2-15%);
+              §5.2 reports the exact label distribution (3,848/10,124/49/1/113)
+              and reframes the censoring sensitivity so paidOff-only becomes
+              the headline robustness check; §5.3 reports the 90/76 audit
+              split and surfaces the 100%-missing `Monthly Credit Card Charges`
+              finding; §5.5 names the >40%-missing casualties (Term 86.4%,
+              APR 59.6%, Factor 42.0%) + the 11 100%-missing columns.
+              Bibliography (74 refs) carried forward unchanged.
+            ↳ data/governance/datasheet.md (Gebru et al. schema, 7 sections —
+              motivation, composition, collection, preprocessing, uses,
+              distribution, maintenance; surfaces accepted-only selection
+              bias, right-censoring of `current` labels, `Time In Business`
+              negative values, $1B `Amount Sought` outlier);
+              tests/test_data_load.py + tests/test_leakage_audit.py raise
+              suite 21 -> 55 passing (label-construction, drop-rules,
+              category counts, idempotency of audit emit);
+              src/emerald_ai/data/{load,leakage_audit}.py extended;
+              autonomous bot crawl added 110 new entries to auto_index.yaml
+              (working-tree bot-stub paper notes pending ingest).
+
+8ff6fab  revamp README + research-to-brain integration + v0.3 proposal
+            ↳ bot discovery grew brain 82 -> 218 papers (76 curated + 142 bot);
+              14 promoted into index.yaml with curated metadata;
               proposal_third_draft.docx rebuilt (~8,500 words, 74 refs)
               — adds climate-credit channel (§4.5), opacity framing (§4.6),
               sociotechnical fairness critique (§4.7), reject-inference
-              treatment (§4.4/§5.2), and MLOps deployment evidence (§5.14).
+              treatment (§4.4/§5.2), MLOps deployment evidence (§5.14);
+              first ML deliverable: data/load.py + leakage_audit.py wired up,
+              feature_catalogue.yaml emitted to data/governance/
+              (90 permitted features / 76 forbidden; class balance 0.36% delinquent).
+
+a9313eb  readme update
+            ↳ live-counts refresh and commit-log housekeeping after the
+              query-driven bot run.
+
+54ddb06  docs(readme): update live counts + commit log + bot status
 
 e6606f7  add bot for query paper
             ↳ user-driven bot run: 15 new papers discovered (62 -> 82) and

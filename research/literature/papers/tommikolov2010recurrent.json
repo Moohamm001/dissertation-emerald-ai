@@ -1,0 +1,35 @@
+{
+  "key": "tommikolov2010recurrent",
+  "title": "Recurrent neural network based language model",
+  "authors": [
+    "Tomáš Mikolov",
+    "Martin Karafiát",
+    "Lukáš Burget",
+    "Jaň Černocký",
+    "Sanjeev Khudanpur"
+  ],
+  "year": 2010,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "",
+  "doi": "10.21437/interspeech.2010-343",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6558 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Recurrent neural network based language model",
+  "notes": "A new recurrent neural network based language model (RNN LM) with applications to speech recognition is presented. Results indicate that it is possible to obtain around 50% reduction of perplexity by using mixture of several RNN LMs, compared to a state of the art backoff languag...",
+  "source_files": [
+    "research\\literature\\papers\\tommikolov2010recurrent.md"
+  ],
+  "first_seen": "2026-05-18T11:35:45.352386Z",
+  "last_updated": "2026-05-18T11:35:45.362536Z"
+}

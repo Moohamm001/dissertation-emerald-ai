@@ -1,0 +1,31 @@
+{
+  "key": "jeromehfriedman2001greedy",
+  "title": "Greedy function approximation: A gradient boosting machine.",
+  "authors": [
+    "Jerome H. Friedman"
+  ],
+  "year": 2001,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "The Annals of Statistics",
+  "doi": "10.1214/aos/1013203451",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.64 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Greedy function approximation: A gradient boosting machine.",
+  "notes": "Function estimation/approximation is viewed from the perspective of numerical optimization in function space, rather than parameter space. A connection is made between stagewise additive expansions and steepest-descent minimization. A general gradient descent “boosting” paradigm ...",
+  "source_files": [
+    "research\\literature\\papers\\jeromehfriedman2001greedy.md"
+  ],
+  "first_seen": "2026-05-18T11:25:38.411370Z",
+  "last_updated": "2026-05-18T11:25:38.422363Z"
+}
