@@ -37,6 +37,8 @@ The system is designed to comply with the **EU AI Act** and the **UK Financial C
 | **Data loading + leakage audit** | ✅ **Done (2026-05-18)** | 166 columns classified — 90 permitted as features, 76 forbidden; class balance 0.36% delinquent surfaced; datasheet + catalogue committed under `data/governance/` |
 | **Exploratory data analysis (EDA)** | ✅ **v0.1 (2026-05-18)** | Univariate distributions + bivariate MI against Y + segment-level conditional default rates with Wilson 95% CIs + quarterly PSI drift. Run: `python -m emerald_ai eda` → `data/governance/eda_report.md`. **Key findings:** `Industry=firearms` 9.09% rate (small-N flagged); `Borrower State=WV/AR/CT/IN/SC` highest at 1.5–2.1%; material PSI drift on `Lender Identifier` (13–14), `Published` (10–11), `Attempted/Assigned` (8–9). |
 | **Preprocessing pipeline** | ✅ **v0.1 (2026-05-18)** | ColumnTransformer over the 90 permitted features: Stage 1 drop (>40% missing + EDA-flagged time-leaking); Stage 2 impute + missing-indicators; Stage 3 one-hot (≤10 levels) + target-encode (Industry, Borrower State); Stage 4 StandardScaler. Run: `python -m emerald_ai preprocess` → `data/governance/preprocess_report.md`. **Drops:** 8 high-miss columns (Term/APR/Factor + the five 100%-missing-but-permitted), 2 time-leaking, 35 datetime (deferred to §5.6). |
+| **Feature selection (§5.6)** | ✅ **v0.1 (2026-05-18)** | Stage-1 MI filter (drop bottom decile) + Stage-2 bootstrap-stability RF importance (30 rounds, ≥60% selection-frequency threshold). Run: `python -m emerald_ai select` → `data/governance/selection_report.md`. **First pass:** 90 → 71 (MI filter) → 20 (stability). Top selected: Credit Score, Revenue, Payback, Payment Amount, Amount Funded, # Offers Received, Closed Max Term, Lender. SHAP variant deferred to post-§5.8. |
+| **Class-imbalance harness (§5.7)** | ✅ **v0.1 (2026-05-18)** | Compares `no_resample` / `class_weighted` / `smote` under 5-fold CV on a LogReg baseline; selects the joint-score winner (PR-AUC × (1 − within-minority-ECE)). Run: `python -m emerald_ai imbalance` → `data/governance/imbalance_report.md`. **Empirical:** SMOTE narrowly wins (joint 0.058 vs class-weighted 0.041 vs no-resample 0.001) but all three produce ECE ≈ 0.32 on the minority — resampling alone does not solve calibration; the §5.10 conformal/calibration layer remains load-bearing. |
 | **Model training** | ⬜ Weeks 8–10 | Six classifier families benchmarked under identical preprocessing |
 | **Calibration + uncertainty** | ⬜ Week 11 | Probability calibration + conformal prediction intervals |
 | **Explainability + fairness audit** | ⬜ Weeks 12–13 | SHAP, counterfactuals, fairness across industry/geography/size |
@@ -66,7 +68,7 @@ The system is designed to comply with the **EU AI Act** and the **UK Financial C
   methods detected  :  22      (XGBoost, LightGBM, CatBoost, SHAP, DiCE, conformal, ...)
   datasets detected :   9      (COMPAS, FICO, Adult, German Credit, Lending Club, ...)
   themes drafted    :   8/8    (lit-review sections 4.1-4.8)
-  tests passing     :  76/76   (smoke + brain + discovery bot + data load + leakage audit + EDA + preprocess)
+  tests passing     :  90/90   (smoke + brain + discovery bot + data load + leakage audit + EDA + preprocess + selection + imbalance)
   top-level dirs    :   7      (.github, apps, src, research, docs, data, tests)
   commits on main   :   9
 ```
@@ -99,6 +101,8 @@ It occupies an explicit literature gap: no published work simultaneously deliver
 | Data layer (load + leakage audit + datasheet + feature catalogue) | **WORKS** | `python -m emerald_ai.data.leakage_audit` — emits `data/governance/{feature_catalogue.yaml, feature_audit_summary.md, datasheet.md}` |
 | EDA pipeline (univariate + bivariate + segment-level + drift) | **WORKS** | `python -m emerald_ai eda` — emits `data/governance/eda_report.md` |
 | Preprocessing pipeline (ColumnTransformer: drop + impute + encode + scale) | **WORKS** | `python -m emerald_ai preprocess` — emits `data/governance/preprocess_report.md` |
+| Feature selection (§5.6 MI filter + bootstrap-stability RF importance) | **WORKS** | `python -m emerald_ai select` — emits `data/governance/selection_report.md` |
+| Class-imbalance harness (§5.7 no-resample / class-weighted / SMOTE comparison) | **WORKS** | `python -m emerald_ai imbalance` — emits `data/governance/imbalance_report.md` |
 | ML pipeline (train / evaluate / explain / audit) | **STUB** | CLI raises `NotImplementedError` with a pointer to the relevant proposal section |
 | React SPA frontend | **STUB** | scaffold deferred until the API serves real predictions |
 
@@ -142,7 +146,7 @@ It occupies an explicit literature gap: no published work simultaneously deliver
    │  -> fourth_draft.docx │                      └────────────────────────────┘            │
    └───────────────────────┘                                                                │
                                                                                             │
-         [ tests/ 76 passing : smoke + brain + discovery bot + data load + leakage audit + EDA + preprocess ]
+    [ tests/ 90 passing : smoke + brain + discovery bot + data load + leakage audit + EDA + preprocess + selection + imbalance ]
 ```
 
 ---
@@ -161,6 +165,8 @@ It occupies an explicit literature gap: no published work simultaneously deliver
 | `Monthly Credit Card Charges` 100% missing in 2019; Term 86.4% / APR 59.6% / Factor 42.0% (>40% drop threshold) | §5.5 Stage 1 | `src/emerald_ai/features/pipeline.py` (`build_preprocessor`) | `data/governance/preprocess_report.md` |
 | Material quarterly PSI on `Lender Identifier` (13–14) / `Published` (10–11) / `Attempted/Assigned` (8–9); pure-time PSI ~16 by construction (`Start Month`, `Start Annual Day`) | §5.4 + §5.5 | `src/emerald_ai/data/eda.py` (`psi_temporal`) + `pipeline.TIME_LEAKING_COLUMNS` | `data/governance/eda_report.md` §4 |
 | Industry-level risk gradient (firearms 9.09% small-N → retail 0.08%, ~17× range); state-level cluster WV/AR/CT/IN/SC at 1.5–2.1% | §5.4 + §5.12 | `src/emerald_ai/data/eda.py` (`conditional_default_rates`) | `data/governance/eda_report.md` §3 |
+| 90 preprocessed features → 71 (MI filter) → 20 (bootstrap-stability) — Credit Score, Revenue, Payback, Payment Amount, Amount Funded, # Offers Received, Closed Max Term, Lender survive | §5.6 | `src/emerald_ai/features/selection.py` | `data/governance/selection_report.md` |
+| SMOTE narrowly wins joint score (0.058) over class-weighted (0.041) vs no-resample (0.001) on a LogReg baseline; all three ECE ≈ 0.32 on minority — resampling alone doesn't solve calibration | §5.7 + §5.10 | `src/emerald_ai/training/imbalance.py` (`select_strategy`) | `data/governance/imbalance_report.md` |
 | Conformal claim split under N=50 minority: marginal coverage = headline; Mondrian conditional = diagnostic with bootstrap CIs; interval width excluded from primary metrics | §4.4 + §5.10 + §5.13 | (TBD — `src/emerald_ai/calibration/`) | (TBD — calibration report) |
 | Reject-inference bounded by data (no rejected applicants): model framed as conditional on prior accept-policy | §4.4 + §5.2 + §8 | (TBD — sensitivity analysis in `src/emerald_ai/eval/`) | `data/governance/datasheet.md` §5 |
 
@@ -431,7 +437,28 @@ EMERALD-AI is designed against (not certified against) the following regulatory 
 ## Recent activity
 
 ```
-(uncommitted, 2026-05-18)  preprocessing pipeline (proposal §5.5) + traceability
+(uncommitted, 2026-05-18)  §5.6 feature selection + §5.7 imbalance harness
+            ↳ src/emerald_ai/features/selection.py: two-stage selection.
+              Stage 1 MI filter (drop bottom decile). Stage 2 bootstrap-
+              stability with RandomForest mean-decrease-impurity across
+              30 stratified resamples (Boruta-light; SHAP variant deferred
+              to post-§5.8). Real-data: 90 -> 71 -> 20 (Credit Score,
+              Revenue, Payback, Payment Amount, Amount Funded, ...).
+            ↳ src/emerald_ai/training/imbalance.py: three-strategy
+              comparison harness (no_resample / class_weighted / smote)
+              on LogReg baseline under stratified 5-fold CV.
+              within-minority-ECE metric implemented per v0.4.1 §5.10.
+              Real-data: SMOTE wins joint score (0.058) but all three
+              ECE ≈ 0.32 — dissertation-grade evidence that resampling
+              alone does not solve calibration; the §5.10 conformal +
+              calibration layer remains load-bearing.
+            ↳ tests/test_features_selection.py + test_imbalance.py:
+              14 new tests (signal-vs-noise discrimination, Wilson CIs,
+              SMOTE on small-N, joint-score selection). Suite 76 -> 90.
+            ↳ CLI: `python -m emerald_ai select` + `imbalance` wired.
+            ↳ README traceability table extended with two new rows.
+
+2b337e9  feat(features): preprocessing pipeline (§5.5) + code-traceability index
             ↳ src/emerald_ai/features/pipeline.py: full ColumnTransformer
               implementation. Stage 1 drop-list (>40% miss + EDA-flagged
               time-leaking); Stage 2 median impute + missing-indicators;

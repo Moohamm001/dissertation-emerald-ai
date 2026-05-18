@@ -84,6 +84,58 @@ def preprocess(
 
 
 @app.command()
+def select(
+    out: Path | None = typer.Option(None, help="Override output report path (default: data/governance/selection_report.md)"),
+    n_bootstraps: int = typer.Option(30, help="Bootstrap rounds for stability filtering"),
+    top_k: int = typer.Option(25, help="Top-K features per bootstrap"),
+) -> None:
+    """Run §5.6 two-stage feature selection: MI filter + bootstrap-stability RF importance.
+
+    Emits ``data/governance/selection_report.md`` listing the features that
+    cleared both stages, their MI scores, and per-feature selection frequencies.
+    """
+    from emerald_ai.data.eda import split_xy
+    from emerald_ai.data.load import load_labelled
+    from emerald_ai.features.pipeline import fit_transform_with_audit
+    from emerald_ai.features.selection import (
+        SELECTION_REPORT_PATH, emit_report, run_selection,
+    )
+    df = load_labelled()
+    X, y = split_xy(df)
+    X_t, pre, _audit = fit_transform_with_audit(X, y)
+    fnames = list(pre.get_feature_names_out())
+    import pandas as _pd
+    X_df = _pd.DataFrame(X_t, columns=fnames, index=X.index)
+    audit = run_selection(X_df, y, n_bootstraps=n_bootstraps, top_k=top_k)
+    target = out if out is not None else SELECTION_REPORT_PATH
+    written = emit_report(audit, out_path=target)
+    console.print(f"[green]OK[/green]: {written}")
+    console.print(
+        f"  in={audit.n_features_in} -> filter-kept={audit.n_after_filter} "
+        f"-> selected={audit.n_selected}"
+    )
+
+
+@app.command()
+def imbalance(
+    out: Path | None = typer.Option(None, help="Override output report path (default: data/governance/imbalance_report.md)"),
+    n_folds: int = typer.Option(5, help="Stratified CV folds"),
+) -> None:
+    """Run §5.7 class-imbalance strategy comparison.
+
+    Evaluates no_resample / class_weighted / SMOTE under {n_folds}-fold CV
+    on a Logistic Regression baseline; selects the joint-score winner
+    (PR-AUC × (1 − within-minority-ECE)). Emits
+    ``data/governance/imbalance_report.md``.
+    """
+    from emerald_ai.training.imbalance import IMBALANCE_REPORT_PATH, run_imbalance_selection
+    target = out if out is not None else IMBALANCE_REPORT_PATH
+    written, audit = run_imbalance_selection(out_path=target, n_folds=n_folds)
+    console.print(f"[green]OK[/green]: {written}")
+    console.print(f"  chosen strategy: [bold]{audit.chosen_strategy}[/bold]")
+
+
+@app.command()
 def train(
     model: str = typer.Option("all", "--model", "-m", help="Model family: lr | svm | rf | xgboost | lightgbm | catboost | mlp | ft_transformer | all"),
 ) -> None:
