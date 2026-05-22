@@ -24,27 +24,40 @@ export default function ShapExplorer() {
 
   return (
     <>
-      <h1>SHAP Explorer</h1>
+      <h1>🔍 What the Model Looks At</h1>
       <div className="subtitle">
-        Global feature importance via permutation importance against PR-AUC. TreeSHAP swap-in lands once the <code>shap</code> dep is added.
+        A ranking of the features that matter most to the model across the whole dataset.
+      </div>
+
+      <div className="help-card">
+        <div className="help-icon">💡</div>
+        <div className="help-body">
+          <h3>What is this page?</h3>
+          <p>
+            We measure how much the model's accuracy <em>drops</em> when each feature is shuffled randomly.
+            A big drop means the feature is important — the model relies on it. Features near the top
+            of the ranking drive most decisions; features near the bottom barely matter.
+            (Technical name: <em>permutation importance against PR-AUC</em>.)
+          </p>
+        </div>
       </div>
 
       <div className="card">
-        <h2>Configuration</h2>
+        <h2>⚙️ Settings</h2>
         <div className="row">
-          <label>Top-K</label>
+          <label>How many top features to show?</label>
           <input type="number" min={5} max={50} value={topK} onChange={(e) => setTopK(Number(e.target.value))} />
         </div>
         <button className="primary" onClick={load} disabled={busy}>
-          {busy ? "Computing…" : "Recompute"}
+          {busy ? "Computing…" : "🔄 Recompute"}
         </button>
-        {err && <div className="error">{err}</div>}
+        {err && <div className="error">⚠️ {err}</div>}
       </div>
 
       <div className="card">
-        <h2>Ranking</h2>
+        <h2>🏆 Ranking</h2>
         <table>
-          <thead><tr><th>Rank</th><th>Feature</th><th>Importance ± std</th><th style={{ width: "30%" }}>Magnitude</th></tr></thead>
+          <thead><tr><th>Rank</th><th>Feature</th><th>Importance ± std</th><th style={{ width: "30%" }}>How much it matters</th></tr></thead>
           <tbody>
             {rows.map((r, i) => (
               <tr key={r.feature}>
@@ -61,9 +74,13 @@ export default function ShapExplorer() {
           </tbody>
         </table>
         {rows.length > 0 && (
-          <div className="muted" style={{ marginTop: 12 }}>
-            Top-3: <strong>{rows.slice(0, 3).map((r) => r.feature).join(" / ")}</strong>.
-            Deal-context features (Lender, Prod Rank, deal-flow counts) tend to dominate borrower-attribute signals on this dataset — see <code>data/governance/explain_report.md</code>.
+          <div className="result-explainer">
+            <strong>Top 3 most important features:</strong>{" "}
+            {rows.slice(0, 3).map((r) => r.feature).join(" · ")}.
+            <br />
+            On this dataset, deal-context features (lender, product rank, deal-flow counts) tend to
+            outweigh borrower-attribute signals. The full write-up is in{" "}
+            <code>data/governance/explain_report.md</code>.
           </div>
         )}
       </div>

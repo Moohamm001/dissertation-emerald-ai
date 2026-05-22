@@ -1,23 +1,27 @@
 import { useEffect, useState } from "react";
 import { api, HealthResponse } from "./api";
+import Welcome from "./views/Welcome";
 import Dashboard from "./views/Dashboard";
+import AboutModel from "./views/AboutModel";
 import SinglePredict from "./views/SinglePredict";
 import BatchScore from "./views/BatchScore";
 import ShapExplorer from "./views/ShapExplorer";
 import FairnessPanel from "./views/FairnessPanel";
 
-type View = "dashboard" | "single" | "batch" | "shap" | "fairness";
+type View = "welcome" | "about" | "dashboard" | "single" | "batch" | "shap" | "fairness";
 
-const NAV: { id: View; label: string; subtitle: string }[] = [
-  { id: "dashboard", label: "Dashboard", subtitle: "Portfolio + KPIs" },
-  { id: "single", label: "Single Predict", subtitle: "Score one applicant" },
-  { id: "batch", label: "Batch Score", subtitle: "CSV upload" },
-  { id: "shap", label: "SHAP Explorer", subtitle: "Global importance" },
-  { id: "fairness", label: "Fairness Panel", subtitle: "Per-axis audit" },
+const NAV: { id: View; icon: string; label: string; subtitle: string }[] = [
+  { id: "welcome",   icon: "🏡", label: "Home",                subtitle: "Start here" },
+  { id: "about",     icon: "🧠", label: "About the Model",     subtitle: "Algorithm + training" },
+  { id: "dashboard", icon: "📊", label: "Dashboard",           subtitle: "The big picture" },
+  { id: "single",    icon: "👤", label: "Score an Applicant",  subtitle: "Try one example" },
+  { id: "batch",     icon: "📂", label: "Score a Whole CSV",   subtitle: "Upload a spreadsheet" },
+  { id: "shap",      icon: "🔍", label: "What the Model Looks At", subtitle: "Feature ranking" },
+  { id: "fairness",  icon: "⚖️", label: "Fairness Check",      subtitle: "Bias audit" },
 ];
 
 export default function App() {
-  const [view, setView] = useState<View>("dashboard");
+  const [view, setView] = useState<View>("welcome");
   const [health, setHealth] = useState<HealthResponse | null>(null);
   const [error, setError] = useState<string | null>(null);
 
@@ -25,12 +29,21 @@ export default function App() {
     api.health().then(setHealth).catch((e) => setError(String(e)));
   }, []);
 
+  const apiStatus =
+    error ? { cls: "bad" as const, text: "API offline" } :
+    health == null ? { cls: "warn" as const, text: "Connecting…" } :
+    health.artefacts_present ? { cls: "ok" as const, text: "Ready" } :
+    { cls: "warn" as const, text: "No model yet" };
+
   return (
     <div className="app">
       <aside className="sidebar">
         <div className="brand">
-          EMERALD-AI
-          <small>Lending Officer Console · v{health?.version ?? "?"}</small>
+          <span className="leaf">🌿</span>
+          <div>
+            EMERALD-AI
+            <small>Green-Loan Console · v{health?.version ?? "?"}</small>
+          </div>
         </div>
         {NAV.map((n) => (
           <button
@@ -38,36 +51,53 @@ export default function App() {
             className={`nav-btn${view === n.id ? " active" : ""}`}
             onClick={() => setView(n.id)}
           >
-            {n.label}
-            <div className="muted" style={{ fontSize: 10, marginTop: 2 }}>{n.subtitle}</div>
+            <span className="nav-icon">{n.icon}</span>
+            <span className="nav-text">
+              <span>{n.label}</span>
+              <span className="nav-sub">{n.subtitle}</span>
+            </span>
           </button>
         ))}
-        <div style={{ marginTop: "auto", paddingTop: 16, borderTop: "1px solid var(--border)", fontSize: 11 }}>
-          <div className="muted">API:</div>
-          <div style={{ color: health?.artefacts_present ? "var(--good)" : "var(--warn)" }}>
-            {health
-              ? health.artefacts_present
-                ? "✓ artefacts loaded"
-                : "⚠ no model — run `train`"
-              : error
-              ? "✗ unreachable"
-              : "…"}
+        <div className="sidebar-footer">
+          <div className="muted" style={{ marginBottom: 6 }}>Backend status</div>
+          <div className={`status-pill ${apiStatus.cls}`}>
+            <span className="dot" />
+            {apiStatus.text}
           </div>
+          {error && (
+            <div className="muted" style={{ marginTop: 8, fontSize: 10.5 }}>
+              Start it with <code>python -m emerald_ai api</code>
+            </div>
+          )}
         </div>
       </aside>
 
       <main className="main">
-        {!health?.artefacts_present && health !== null && (
+        {!health?.artefacts_present && health !== null && view !== "welcome" && (
           <div className="warn-banner">
-            No trained model found. Run <code>python -m emerald_ai train</code> in the project root, then refresh.
+            <span className="icon">⚠️</span>
+            <div>
+              <strong>The model is not trained yet.</strong> Run{" "}
+              <code>python -m emerald_ai train</code> in the project folder, then refresh this page.
+            </div>
           </div>
         )}
-        {error && <div className="warn-banner">Could not reach the API: {error}. Start it with <code>python -m emerald_ai api</code>.</div>}
+        {error && view !== "welcome" && (
+          <div className="warn-banner">
+            <span className="icon">🔌</span>
+            <div>
+              <strong>Cannot reach the backend.</strong> Open a terminal and run{" "}
+              <code>python -m emerald_ai api</code>, then refresh. <span className="muted">({error})</span>
+            </div>
+          </div>
+        )}
+        {view === "welcome"   && <Welcome onNavigate={setView} />}
+        {view === "about"     && <AboutModel />}
         {view === "dashboard" && <Dashboard />}
-        {view === "single" && <SinglePredict />}
-        {view === "batch" && <BatchScore />}
-        {view === "shap" && <ShapExplorer />}
-        {view === "fairness" && <FairnessPanel />}
+        {view === "single"    && <SinglePredict />}
+        {view === "batch"     && <BatchScore />}
+        {view === "shap"      && <ShapExplorer />}
+        {view === "fairness"  && <FairnessPanel />}
       </main>
     </div>
   );

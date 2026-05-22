@@ -1,6 +1,14 @@
 import { useEffect, useState } from "react";
 import { api, FairnessAxis } from "../api";
 
+const GAP_HINTS: Record<string, string> = {
+  dp_gap:        "Demographic parity gap — difference in approval rate between groups.",
+  tpr_gap:       "True-positive gap — does the model catch good applicants equally well across groups?",
+  fpr_gap:       "False-positive gap — does the model wrongly approve risky applicants more often in some groups?",
+  precision_gap: "Precision gap — when the model approves, is it equally right across groups?",
+  ece_gap:       "Calibration gap — do predicted probabilities mean the same thing in every group? (This is the binding one.)",
+};
+
 export default function FairnessPanel() {
   const [axes, setAxes] = useState<FairnessAxis[]>([]);
   const [err, setErr] = useState<string | null>(null);
@@ -15,33 +23,59 @@ export default function FairnessPanel() {
 
   return (
     <>
-      <h1>Fairness Panel</h1>
+      <h1>⚖️ Fairness Check</h1>
       <div className="subtitle">
-        Per-axis demographic-parity / equalised-odds / predictive-parity / calibration-within-group gaps.
-        Calibration-within-group is the binding constraint (proposal §5.12).
+        Does the model treat different groups (industry, region) the same?
+        This page compares how the model behaves group-by-group so you can spot bias.
       </div>
 
-      {busy && <div className="muted">Computing audit…</div>}
-      {err && <div className="error">{err}</div>}
+      <div className="help-card">
+        <div className="help-icon">💡</div>
+        <div className="help-body">
+          <h3>What am I looking at?</h3>
+          <p>
+            For each grouping (called an <em>axis</em>), we measure how the model's behaviour differs
+            between groups. A small <em>gap</em> means the model treats groups similarly; a large gap means
+            it doesn't. <strong>Calibration (ECE) gap</strong> is the one we care about most — it tells you
+            whether a "70% chance of repayment" really means the same thing in every group.
+          </p>
+        </div>
+      </div>
+
+      {busy && <div className="muted">⏳ Computing the audit…</div>}
+      {err && <div className="error">⚠️ {err}</div>}
 
       {axes.map((ax) => (
         <div key={ax.axis} className="card">
-          <h2>Axis: {ax.axis}</h2>
+          <h2>Grouped by: <code>{ax.axis}</code></h2>
           <div className="kpi-grid">
-            <div className="kpi"><div className="kpi-label">DP gap</div><div className="kpi-value">{ax.gaps.dp_gap.toFixed(3)}</div></div>
-            <div className="kpi"><div className="kpi-label">TPR gap</div><div className="kpi-value">{ax.gaps.tpr_gap.toFixed(3)}</div></div>
-            <div className="kpi"><div className="kpi-label">FPR gap</div><div className="kpi-value">{ax.gaps.fpr_gap.toFixed(3)}</div></div>
-            <div className="kpi"><div className="kpi-label">Precision gap</div><div className="kpi-value">{ax.gaps.precision_gap.toFixed(3)}</div></div>
-            <div className="kpi"><div className="kpi-label">ECE gap</div><div className="kpi-value">{ax.gaps.ece_gap.toFixed(3)}</div></div>
+            {Object.entries(ax.gaps).map(([k, v]) => (
+              <div className="kpi" key={k}>
+                <div className="kpi-label">{k.replace("_", " ")}</div>
+                <div className="kpi-value">{v.toFixed(3)}</div>
+                <div className="kpi-hint">{GAP_HINTS[k] ?? ""}</div>
+              </div>
+            ))}
           </div>
+          <h3 style={{ marginTop: 18, marginBottom: 8 }}>Per-group breakdown</h3>
           <table>
-            <thead><tr><th>Group</th><th>n</th><th>Sel rate</th><th>TPR</th><th>FPR</th><th>Precision</th><th>ECE</th></tr></thead>
+            <thead>
+              <tr>
+                <th>Group</th>
+                <th>Applicants</th>
+                <th>Approved %</th>
+                <th>True-pos rate</th>
+                <th>False-pos rate</th>
+                <th>Precision</th>
+                <th>Calibration err</th>
+              </tr>
+            </thead>
             <tbody>
               {ax.groups.map((g) => (
                 <tr key={g.group}>
                   <td>{g.group}</td>
                   <td>{g.n.toLocaleString()}</td>
-                  <td>{g.selection_rate.toFixed(3)}</td>
+                  <td>{(g.selection_rate * 100).toFixed(1)}%</td>
                   <td>{g.tpr.toFixed(3)}</td>
                   <td>{Number.isNaN(g.fpr) ? "—" : g.fpr.toFixed(3)}</td>
                   <td>{g.precision.toFixed(3)}</td>
@@ -54,15 +88,17 @@ export default function FairnessPanel() {
       ))}
 
       <div className="card">
-        <h2>Selbst et al. (2019) traps — policy notes</h2>
-        <ul style={{ margin: 0, paddingLeft: 20 }}>
+        <h2>📌 Policy notes (Selbst et al. 2019)</h2>
+        <ul style={{ margin: 0, paddingLeft: 20, lineHeight: 1.7 }}>
           <li>The audit is reported as a value judgement, not a portable claim.</li>
           <li>Calibration-within-group is the binding constraint under IRB PD reporting.</li>
           <li>Base-rate decompositions are published so reviewers can disagree on visible grounds.</li>
           <li>Fairness claims are conditional on the deployment context (US 2019 funded loans).</li>
         </ul>
-        <div className="muted" style={{ marginTop: 12 }}>
-          v0.5 patch on the proposal side: re-run this audit at the §5.7 risk-band thresholds rather than the default 0.5 — at 0.5 the model approves ~100% of applicants and the DP/TPR gaps collapse.
+        <div className="result-explainer">
+          <strong>One thing to keep in mind:</strong> at the default cut-off of 0.5 the model approves nearly
+          everyone, so DP / TPR gaps look tiny. Re-run the audit at the §5.7 risk-band thresholds to see the
+          gaps that actually bite. A future version of the app will let you slide the threshold here.
         </div>
       </div>
     </>

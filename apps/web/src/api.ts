@@ -18,6 +18,12 @@ export type HealthResponse = {
   artefacts_present: boolean;
 };
 
+export type TrainingStep = {
+  step: string;
+  plain: string;
+  technical: string;
+};
+
 export type ModelCard = {
   name: string;
   version: string;
@@ -27,11 +33,37 @@ export type ModelCard = {
   regulatory_alignment: string[];
   feature_names: string[];
   best_family: string | null;
+  algorithm_label: string | null;
+  algorithm_plain: string | null;
+  headline_raw_features: string[];
+  training_pipeline: TrainingStep[];
+  risk_band_thresholds: {
+    high_risk_cut?: number;
+    watch_cut?: number;
+    high_risk_percentile?: number;
+    watch_percentile?: number;
+  };
+};
+
+export type RawColumnSchema = {
+  name: string;
+  kind: "numeric" | "categorical";
+  default: number | string;
+  headline: boolean;
+  label: string;
+  hint: string | null;
+  unit: string | null;
+  p05?: number | null;
+  p25?: number | null;
+  p75?: number | null;
+  p95?: number | null;
+  top_values?: string[] | null;
 };
 
 export type ScoreResponse = {
   probability_creditworthy: number;
   risk_band: "approve" | "watch" | "high_risk";
+  score_percentile?: number | null;
   conformal_interval_alpha: number;
   conformal_includes_creditworthy: boolean;
   conformal_includes_delinquent: boolean;
@@ -100,6 +132,20 @@ export const api = {
   globalImportance: (top_k = 20) =>
     _request<GlobalImportanceRow[]>(`/global_importance?top_k=${top_k}`),
   fairnessAudit: () => _request<FairnessAxis[]>("/fairness_audit"),
+  rawSchema: () =>
+    _request<{ columns: RawColumnSchema[] }>("/raw_schema").then((r) => r.columns),
+  scoreRaw: (raw: Record<string, number | string | null>) =>
+    _request<ScoreResponse>("/score_raw", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ raw }),
+    }),
+  explainRaw: (raw: Record<string, number | string | null>) =>
+    _request<ExplainResponse>("/explain_raw", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ raw }),
+    }),
   score: (features: Record<string, number>) =>
     _request<ScoreResponse>("/score", {
       method: "POST",

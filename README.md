@@ -2,7 +2,7 @@
 
 > **Explainable, calibrated, audit-ready machine learning for green-loan credit scoring.**
 > MSc Applied AI dissertation — University of Warwick. License MIT · Python 3.11
-> Stage: **proposal v0.4.1 + full end-to-end pipeline working with lending-officer SPA** (data → leakage audit → EDA → preprocess → selection → imbalance → training → calibration + conformal → fairness audit → FastAPI backend → React SPA console). MLP / FT-Transformer, full Optuna budget, TreeSHAP, DiCE, and a v0.5 fairness re-audit at risk-band thresholds are flagged as deferred.
+> Stage: **proposal v0.4.1 + full end-to-end pipeline working with beginner-friendly lending-officer SPA** (data → leakage audit → EDA → preprocess → selection → imbalance → training → calibration + conformal → fairness audit → FastAPI backend → React SPA console with onboarding tiles, help cards, and one-click example applicant). MLP / FT-Transformer, full Optuna budget, TreeSHAP, DiCE, and a v0.5 fairness re-audit at risk-band thresholds are flagged as deferred.
 
 ---
 
@@ -43,8 +43,8 @@ The system is designed to comply with the **EU AI Act** and the **UK Financial C
 | **Calibration + conformal (§5.10)** | ✅ **v0.1 (2026-05-18)** | Platt / isotonic / temperature scaling + split-conformal (marginal, finite-sample exact) + Mondrian class-conditional (diagnostic with bootstrap CIs). v0.4.1 framing wired: marginal is headline, conditional is diagnostic, interval width is not a primary metric. Persisted alongside the trained model for the FastAPI backend. |
 | **Explainability (§5.11)** | ✅ **v0.1 (2026-05-18)** | Global permutation importance + local coefficient/importance proxy + nearest-feature counterfactual. Run: `python -m emerald_ai explain` → `data/governance/explain_report.md`. **Top-3 features:** Lender, Prod Rank, Closed Max Term — deal-context dominates over borrower-attribute. TreeSHAP / KernelSHAP / DiCE / Quantus deferred (require `shap` / `dice-ml`). |
 | **Fairness audit (§5.12)** | ✅ **v0.1 (2026-05-18)** | Per-axis demographic-parity / equalised-odds / predictive-parity / calibration-within-group gaps on Industry × Borrower State. Run: `python -m emerald_ai audit` → `data/governance/fairness_report.md`. **Finding:** at threshold 0.5 the model approves ≈100% of applicants in every group (selection rate 0.997–1.000) so DP/TPR gaps are tiny; meaningful audit requires re-running at lower thresholds — flagged for v0.5 patch. |
-| **Web app — FastAPI backend (§5.14)** | ✅ **v0.1 (2026-05-18)** | **8 endpoints all live**: `/healthz`, `/model_card`, `/portfolio`, `/score`, `/explain`, `/batch_score` (CSV upload), `/global_importance`, `/fairness_audit` (structured JSON). CORS enabled for dev. Run: `python -m emerald_ai api` → <http://localhost:8000/docs>. |
-| **Web app — React SPA frontend (§5.14)** | ✅ **v0.1 (2026-05-18)** | React 18 + Vite + TypeScript console with five views: **Dashboard** (KPIs + model card), **Single Predict** (feature form → score + SHAP + counterfactual + conformal), **Batch Score** (CSV upload → download), **SHAP Explorer** (global importance), **Fairness Panel** (per-axis gaps + Selbst traps). Run: `cd apps/web && npm install && npm run dev` → <http://localhost:5173>. |
+| **Web app — FastAPI backend (§5.14)** | ✅ **v0.2 (2026-05-20)** | **11 endpoints live**: `/healthz`, `/model_card` (now exposes the chosen algorithm in plain English + the eight-step training pipeline), `/portfolio`, `/raw_schema` (new — raw input columns + defaults + categorical levels), `/score_raw` + `/explain_raw` (new — accept raw applicant data; the persisted `preprocessor.joblib` runs server-side), `/score` + `/explain` (legacy post-preprocessing endpoints kept for diagnostics), `/batch_score` (CSV upload), `/global_importance`, `/fairness_audit`. CORS enabled for dev. Run: `python -m emerald_ai api` → <http://localhost:8000/docs>. |
+| **Web app — React SPA frontend (§5.14)** | ✅ **v0.3 (2026-05-20)** | React 18 + Vite + TypeScript console with **seven views**, soft mint/cream light theme, plain-English help cards on every page, and per-field tooltips. Views: **🏡 Home** (landing page with tiles + 4-step walkthrough), **🧠 About the Model** (new — algorithm card + headline raw features + top-15 processed-feature importances + 8-step training pipeline narrated twice via a plain/technical toggle), **📊 Dashboard** (KPIs + model card), **👤 Score an Applicant** (now accepts **raw values** — FICO score, dollar amounts, industry dropdown — with basic/advanced field toggle; backend runs the preprocessor for the user), **📂 Score a Whole CSV** (3-step uploader with downloadable column template), **🔍 What the Model Looks At** (global importance), **⚖️ Fairness Check** (per-axis gaps + Selbst traps). Run: `cd apps/web && npm install && npm run dev` → <http://localhost:5173>. |
 | **Dissertation submission** | ⬜ Week 16 | Final write-up + open-source release. |
 
 **Plain-English summary:** the *reading and design* phase is finished. The *building and experimenting* phase starts now.
@@ -449,6 +449,64 @@ EMERALD-AI is designed against (not certified against) the following regulatory 
 ## Recent activity
 
 ```
+(uncommitted, 2026-05-20)  §5.14 risk-band re-calibration — percentile cut-offs
+            ↳ Symptom: under hard-coded thresholds (0.5 / 0.8) the model
+              approved ~99.7% of all applicants and flagged ~0% of actual
+              defaulters as high_risk — the badges carried no information
+              because raw probabilities cluster very close to 1 at 0.36%
+              prevalence.
+            ↳ apps/api/main.py: introduced _risk_band_thresholds() which
+              caches percentile-based cut-offs (p5 → high_risk, p20 → watch,
+              top 80% → approve) computed from the trained model's score
+              distribution on the full labelled supervisory pool. /score,
+              /score_raw, /batch_score now use these instead of 0.5/0.8;
+              ScoreResponse gained a score_percentile field; /model_card
+              exposes the cut-off values + percentile policy.
+            ↳ Empirical: under the new bands, full pool splits 80/15/5
+              approve/watch/high_risk; **100% of actual defaulters (50/50)
+              now land in high_risk**, false-positive high_risk on repayers
+              4.66%. The hard 0.5/0.8 cut-offs flagged ~0% of defaults.
+            ↳ apps/web/src/views/SinglePredict.tsx: badge now shows the
+              applicant's percentile rank against the historical pool, with
+              a heads-up help-card explaining why raw probabilities cluster
+              high. apps/web/src/views/AboutModel.tsx: new "Risk-band
+              cut-offs" table on the algorithm card showing the actual
+              numbers in use.
+            ↳ READMEs refreshed.
+
+(uncommitted, 2026-05-20)  §5.14 raw-input UX overhaul + new About-the-Model view
+            ↳ apps/api/main.py: three new endpoints — /raw_schema (returns the
+              raw input columns the persisted preprocessor was fit on, with
+              dataset defaults, p05/p25/p75/p95 ranges for numerics, and the
+              top-40 categories for each categorical), /score_raw and
+              /explain_raw (accept {"raw": {col: value}} payloads, build a
+              one-row DataFrame, run preprocessor.transform(), then score /
+              explain). /model_card extended with algorithm_label +
+              algorithm_plain (e.g. "XGBoost — gradient-boosted decision
+              trees" + a plain-English description), headline_raw_features
+              (the basics the simple form starts with), and an 8-step
+              training_pipeline narrated in both plain and technical register.
+            ↳ apps/web/src/views/SinglePredict.tsx: rewritten end-to-end.
+              Users now type real values (FICO 720, Revenue $350k, industry
+              dropdown for "Retail Trade", etc.) — the standardised-z-score
+              form is gone. Basic mode shows the 9 headline raw fields;
+              "Show advanced fields" expands to every preprocessor input.
+              Numeric inputs show the dataset's p25–p75 typical range under
+              the field; categoricals render as <select> with the dataset's
+              top-40 levels.
+            ↳ apps/web/src/views/AboutModel.tsx (new): algorithm card with
+              the family name + plain-English description, the headline-raw
+              feature table with units and typical ranges, the top-15
+              processed-feature importances from /global_importance, the
+              eight-step training pipeline narrated twice (Plain English /
+              Technical toggle), and a governance & regulatory-alignment
+              card.
+            ↳ apps/web/src/App.tsx + Welcome.tsx: new view wired into the
+              sidebar (🧠 About the Model) and surfaced as the first tile +
+              first walkthrough step on Home.
+            ↳ READMEs (top-level + apps/web/) refreshed to mirror the new
+              endpoints, the new view, and the raw-input pivot.
+
 (uncommitted, 2026-05-18)  §5.14 lending-officer console — React SPA + 4 new API endpoints
             ↳ apps/api/main.py: extended from 4 endpoints to 8. New:
               /portfolio (KPI aggregates), /global_importance (top-K
