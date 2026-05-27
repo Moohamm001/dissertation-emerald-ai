@@ -3,16 +3,18 @@ import { api, HealthResponse } from "./api";
 import Welcome from "./views/Welcome";
 import Dashboard from "./views/Dashboard";
 import AboutModel from "./views/AboutModel";
+import DataAndAnalyses from "./views/DataAndAnalyses";
 import SinglePredict from "./views/SinglePredict";
 import BatchScore from "./views/BatchScore";
 import ShapExplorer from "./views/ShapExplorer";
 import FairnessPanel from "./views/FairnessPanel";
 
-type View = "welcome" | "about" | "dashboard" | "single" | "batch" | "shap" | "fairness";
+type View = "welcome" | "about" | "data" | "dashboard" | "single" | "batch" | "shap" | "fairness";
 
 const NAV: { id: View; icon: string; label: string; subtitle: string }[] = [
   { id: "welcome",   icon: "🏡", label: "Home",                subtitle: "Start here" },
   { id: "about",     icon: "🧠", label: "About the Model",     subtitle: "Algorithm + training" },
+  { id: "data",      icon: "🗄️", label: "Data & Analyses",     subtitle: "Dataset + every stage" },
   { id: "dashboard", icon: "📊", label: "Dashboard",           subtitle: "The big picture" },
   { id: "single",    icon: "👤", label: "Score an Applicant",  subtitle: "Try one example" },
   { id: "batch",     icon: "📂", label: "Score a Whole CSV",   subtitle: "Upload a spreadsheet" },
@@ -93,6 +95,7 @@ export default function App() {
         )}
         {view === "welcome"   && <Welcome onNavigate={setView} />}
         {view === "about"     && <AboutModel />}
+        {view === "data"      && <DataAndAnalyses />}
         {view === "dashboard" && <Dashboard />}
         {view === "single"    && <SinglePredict />}
         {view === "batch"     && <BatchScore />}

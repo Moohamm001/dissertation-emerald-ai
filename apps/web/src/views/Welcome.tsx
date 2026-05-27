@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { api, HealthResponse } from "../api";
 
 type Props = {
-  onNavigate: (view: "about" | "dashboard" | "single" | "batch" | "shap" | "fairness") => void;
+  onNavigate: (view: "about" | "data" | "dashboard" | "single" | "batch" | "shap" | "fairness") => void;
 };
 
 export default function Welcome({ onNavigate }: Props) {
@@ -56,6 +56,17 @@ export default function Welcome({ onNavigate }: Props) {
               explained in both plain English and the technical register. Read this first.
             </div>
             <div className="tile-cta">See the model card →</div>
+          </button>
+
+          <button className="tile" onClick={() => onNavigate("data")}>
+            <div className="tile-icon">🗄️</div>
+            <div className="tile-title">Data & Analyses</div>
+            <div className="tile-desc">
+              The dataset under the hood (14,135 funded 2019 green loans) and every analysis stage we
+              ran on it — leakage audit, EDA, preprocessing, selection, imbalance, training, fairness.
+              Read this if you want to know <em>what</em> we looked at and <em>what we found</em>.
+            </div>
+            <div className="tile-cta">Tour the data →</div>
           </button>
 
           <button className="tile" onClick={() => onNavigate("dashboard")}>
