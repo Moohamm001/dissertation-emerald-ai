@@ -1,0 +1,36 @@
+{
+  "key": "bingzhaozhu2023xtab",
+  "title": "XTab: Cross-table Pretraining for Tabular Transformers",
+  "authors": [
+    "Bingzhao Zhu",
+    "Xingjian Shi",
+    "Nick Erickson",
+    "Mu Li",
+    "George Karypis",
+    "Mahsa Shoaran"
+  ],
+  "year": 2023,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "arXiv (Cornell University)",
+  "doi": "10.48550/arxiv.2305.06090",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6161 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "XTab: Cross-table Pretraining for Tabular Transformers",
+  "notes": "The success of self-supervised learning in computer vision and natural language processing has motivated pretraining methods on tabular data. However, most existing tabular self-supervised learning models fail to leverage information across multiple data tables and cannot general...",
+  "source_files": [
+    "research\\literature\\papers\\bingzhaozhu2023xtab.md"
+  ],
+  "first_seen": "2026-05-30T13:18:49.451338Z",
+  "last_updated": "2026-05-30T13:18:49.451845Z"
+}

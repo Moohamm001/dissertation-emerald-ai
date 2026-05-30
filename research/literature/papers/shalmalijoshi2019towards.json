@@ -1,0 +1,35 @@
+{
+  "key": "shalmalijoshi2019towards",
+  "title": "Towards Realistic Individual Recourse and Actionable Explanations in Black-Box Decision Making Systems",
+  "authors": [
+    "Shalmali Joshi",
+    "Oluwasanmi Koyejo",
+    "Warut D. Vijitbenjaronk",
+    "Been Kim",
+    "Joydeep Ghosh"
+  ],
+  "year": 2019,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "arXiv (Cornell University)",
+  "doi": "10.48550/arxiv.1907.09615",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6347 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Towards Realistic Individual Recourse and Actionable Explanations in Black-Box Decision Making Systems",
+  "notes": "Machine learning based decision making systems are increasingly affecting humans. An individual can suffer an undesirable outcome under such decision making systems (e.g. denied credit) irrespective of whether the decision is fair or accurate. Individual recourse pertains to the ...",
+  "source_files": [
+    "research\\literature\\papers\\shalmalijoshi2019towards.md"
+  ],
+  "first_seen": "2026-05-30T13:18:49.477051Z",
+  "last_updated": "2026-05-30T13:18:49.477700Z"
+}

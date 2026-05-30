@@ -1,0 +1,34 @@
+{
+  "key": "michaelbcker2021transparency",
+  "title": "Transparency, auditability, and explainability of machine learning models in credit scoring",
+  "authors": [
+    "Michael Bücker",
+    "Gero Szepannek",
+    "Alicja Gosiewska",
+    "Przemysław Biecek"
+  ],
+  "year": 2021,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Journal of the Operational Research Society",
+  "doi": "10.1080/01605682.2021.1922098",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.9201 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Transparency, auditability, and explainability of machine learning models in credit scoring",
+  "notes": "A major requirement for credit scoring models is to provide a maximally accurate risk prediction. Additionally, regulators demand these models to be transparent and auditable. Thus, in credit scoring, very simple predictive models such as logistic regression or decision trees are...",
+  "source_files": [
+    "research\\literature\\papers\\michaelbcker2021transparency.md"
+  ],
+  "first_seen": "2026-05-30T13:18:49.332196Z",
+  "last_updated": "2026-05-30T13:18:49.332839Z"
+}

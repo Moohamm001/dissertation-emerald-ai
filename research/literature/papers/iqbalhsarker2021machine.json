@@ -1,0 +1,31 @@
+{
+  "key": "iqbalhsarker2021machine",
+  "title": "Machine Learning: Algorithms, Real-World Applications and Research Directions",
+  "authors": [
+    "Iqbal H. Sarker"
+  ],
+  "year": 2021,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "SN Computer Science",
+  "doi": "10.1007/s42979-021-00592-x",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.8826 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Machine Learning: Algorithms, Real-World Applications and Research Directions",
+  "notes": "",
+  "source_files": [
+    "research\\literature\\papers\\iqbalhsarker2021machine.md"
+  ],
+  "first_seen": "2026-05-30T13:18:49.395739Z",
+  "last_updated": "2026-05-30T13:18:49.396333Z"
+}

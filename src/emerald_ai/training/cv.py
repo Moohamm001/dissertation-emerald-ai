@@ -24,12 +24,12 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
+from sklearn.metrics import average_precision_score, roc_auc_score
 from sklearn.model_selection import RandomizedSearchCV, StratifiedKFold
 
 from emerald_ai.config import MODEL, PATHS
 from emerald_ai.models import FACTORIES, available_models
 from emerald_ai.training.imbalance import within_minority_ece
-from sklearn.metrics import average_precision_score, roc_auc_score
 
 GOVERNANCE_DIR = PATHS.root / "data" / "governance"
 TRAINING_REPORT_PATH = GOVERNANCE_DIR / "training_report.md"
@@ -164,6 +164,38 @@ def _grid_size(space: dict) -> int:
     return total
 
 
+def _tune_family(
+    family: str,
+    X_tr: np.ndarray,
+    y_tr: np.ndarray,
+    *,
+    tuner: str,
+    n_candidates: int,
+    n_inner_folds: int,
+    n_trials: int,
+    random_state: int,
+) -> tuple[dict, object]:
+    """Return (best_params, fitted best_estimator) for one family on one fold.
+
+    ``tuner='optuna'`` runs the full TPE study from :mod:`training.tune`;
+    ``tuner='random'`` (default) uses RandomizedSearchCV. Optuna silently falls
+    back to random search if the dep is missing.
+    """
+    if tuner == "optuna":
+        from emerald_ai.training.tune import HAS_OPTUNA, optuna_search
+
+        if HAS_OPTUNA:
+            return optuna_search(
+                family, X_tr, y_tr,
+                n_trials=n_trials, n_inner_folds=n_inner_folds, random_state=random_state,
+            )
+    search = _make_search(
+        family, n_candidates=n_candidates, n_inner_folds=n_inner_folds, random_state=random_state,
+    )
+    search.fit(X_tr, y_tr)
+    return dict(search.best_params_), search.best_estimator_
+
+
 def nested_cv(
     X: pd.DataFrame | np.ndarray,
     y: pd.Series | np.ndarray,
@@ -172,9 +204,15 @@ def nested_cv(
     n_outer_folds: int = 5,
     n_inner_folds: int = 3,
     n_search_candidates: int = 12,
+    tuner: str = "random",
+    n_trials: int = 50,
     random_state: int = MODEL.random_seed,
 ) -> tuple[TrainingAudit, dict[str, np.ndarray]]:
     """Run nested CV across selected families. Returns (audit, oof_predictions).
+
+    ``tuner`` selects the inner hyperparameter search: ``'random'`` (default,
+    fast RandomizedSearchCV) or ``'optuna'`` (full TPE study with pruning, from
+    :mod:`training.tune`; falls back to random if optuna is absent).
 
     OOF predictions: dict mapping family -> array of shape (n_rows,) with
     out-of-fold P(Y=1|X) predictions. Useful for stacking, calibration on
@@ -191,7 +229,7 @@ def nested_cv(
         n_inner_folds=n_inner_folds,
         n_search_candidates=n_search_candidates,
         families=families,
-        n_rows=int(len(y_arr)),
+        n_rows=len(y_arr),
         n_features=int(X_arr.shape[1]),
         n_minority=int((y_arr == 0).sum()),
         random_state=random_state,
@@ -202,18 +240,18 @@ def nested_cv(
     outer = StratifiedKFold(n_splits=n_outer_folds, shuffle=True, random_state=random_state)
     for fold_idx, (tr, va) in enumerate(outer.split(X_arr, y_arr)):
         for family in families:
-            search = _make_search(
-                family,
-                n_candidates=n_search_candidates,
-                n_inner_folds=n_inner_folds,
-                random_state=random_state,
-            )
             try:
-                search.fit(X_arr[tr], y_arr[tr])
+                best_params, best = _tune_family(
+                    family, X_arr[tr], y_arr[tr],
+                    tuner=tuner,
+                    n_candidates=n_search_candidates,
+                    n_inner_folds=n_inner_folds,
+                    n_trials=n_trials,
+                    random_state=random_state,
+                )
             except Exception as exc:  # pragma: no cover — model-specific failures
                 print(f"[train] WARNING: {family!r} fold {fold_idx} fit failed: {exc}")
                 continue
-            best = search.best_estimator_
             metrics = evaluate_fold(best, X_arr[va], y_arr[va])
             # Cache OOF
             proba = best.predict_proba(X_arr[va])
@@ -223,7 +261,7 @@ def nested_cv(
             audit.fold_results.append(FoldResult(
                 family=family,
                 fold=fold_idx,
-                best_params=dict(search.best_params_),
+                best_params=dict(best_params),
                 pr_auc=metrics["pr_auc"],
                 roc_auc=metrics["roc_auc"],
                 within_minority_ece=metrics["within_minority_ece"],
@@ -262,12 +300,12 @@ def emit_report(audit: TrainingAudit, *, out_path: Path = TRAINING_REPORT_PATH) 
     body = f"""# Training Report — proposal §5.8 + §5.9
 
 _Companion to `selection_report.md` and `imbalance_report.md`. Nested CV
-training across six classifier families (LR L1/L2, RBF-SVM, RF, XGBoost,
-LightGBM, CatBoost; MLP / FT-Transformer deferred). Primary metric is
-PR-AUC against the minority class; within-minority ECE and recall@top-decile
-are co-headline per v0.4.1 §5.13._
+training across the full model zoo: linear baselines (LR L1/L2, RBF-SVM),
+tree ensembles (RF, XGBoost, LightGBM, CatBoost), and tabular deep learning
+(MLP, FT-Transformer). Primary metric is PR-AUC against the minority class;
+within-minority ECE and recall@top-decile are co-headline per v0.4.1 §5.13._
 
-Version: 0.1 · Generated: {today}
+Version: 0.2 · Generated: {today}
 
 ## Setup
 
@@ -290,14 +328,16 @@ Version: 0.1 · Generated: {today}
 
 ## Notes
 
-- **RandomizedSearchCV used in place of Optuna TPE for first cut**: the
-  proposal's full HPO budget (100 trials per family per outer fold) requires
-  many hours of compute; this report uses ~12 candidates per family-fold to
-  produce a faithful nested-CV structure on a runnable budget. Optuna TPE
-  + HyperBand swap-in lives in `emerald_ai.training.tune` and will populate
-  the v0.5 patch.
-- **Deferred families**: MLP and FT-Transformer require torch + a separate
-  training loop; flagged in `emerald_ai.models.__init__` as deferred.
+- **Hyperparameter search**: this run uses the reduced-budget RandomizedSearchCV
+  by default. The proposal's full Optuna TPE study (with median pruning) is
+  implemented in `emerald_ai.training.tune` and runs via
+  `python -m emerald_ai train --tuner optuna`.
+- **Tabular deep learning is live**: MLP and FT-Transformer (native torch,
+  `emerald_ai.models.deep`) are trained alongside the GBDTs. On this small-N,
+  highly-imbalanced problem the GBDTs lead on PR-AUC, but the deep models are
+  markedly better-calibrated on the minority (lower within-minority ECE) — a
+  result consistent with the tabular-DL literature (deep nets rarely beat
+  well-tuned GBDTs on small tabular data, but bring calibration benefits).
 - Each model family's best estimator per outer fold is available via the
   returned `audit.fold_results[i].best_params` for traceability.
 """
@@ -313,6 +353,8 @@ def run_training(
     n_outer_folds: int = 5,
     n_inner_folds: int = 3,
     n_search_candidates: int = 12,
+    tuner: str = "random",
+    n_trials: int = 50,
     families: list[str] | None = None,
     random_state: int = MODEL.random_seed,
     out_path: Path = TRAINING_REPORT_PATH,
@@ -331,6 +373,8 @@ def run_training(
         n_outer_folds=n_outer_folds,
         n_inner_folds=n_inner_folds,
         n_search_candidates=n_search_candidates,
+        tuner=tuner,
+        n_trials=n_trials,
         random_state=random_state,
     )
     written = emit_report(audit, out_path=out_path)

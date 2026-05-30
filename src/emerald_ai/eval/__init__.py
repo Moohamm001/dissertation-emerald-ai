@@ -31,8 +31,15 @@ from emerald_ai.eval.metrics import (
     roc_auc,
     within_minority_ece,
 )
+from emerald_ai.eval.risk_bands import (
+    RISK_BAND_PERCENTILES,
+    band_for,
+    risk_band_thresholds,
+)
 
 __all__ = [
+    "RISK_BAND_PERCENTILES",
+    "band_for",
     "brier_score",
     "delong_test",
     "ece",
@@ -42,6 +49,7 @@ __all__ = [
     "paired_bootstrap",
     "pr_auc_minority",
     "recall_at_top_decile",
+    "risk_band_thresholds",
     "roc_auc",
     "within_minority_ece",
 ]

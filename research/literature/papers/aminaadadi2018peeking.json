@@ -1,0 +1,32 @@
+{
+  "key": "aminaadadi2018peeking",
+  "title": "Peeking Inside the Black-Box: A Survey on Explainable Artificial Intelligence (XAI)",
+  "authors": [
+    "Amina Adadi",
+    "Mohammed Berrada"
+  ],
+  "year": 2018,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "IEEE Access",
+  "doi": "10.1109/access.2018.2870052",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.8765 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Peeking Inside the Black-Box: A Survey on Explainable Artificial Intelligence (XAI)",
+  "notes": "At the dawn of the fourth industrial revolution, we are witnessing a fast and widespread adoption of artificial intelligence (AI) in our daily life, which contributes to accelerating the shift towards a more algorithmic society. However, even with such unprecedented advancements,...",
+  "source_files": [
+    "research\\literature\\papers\\aminaadadi2018peeking.md"
+  ],
+  "first_seen": "2026-05-30T13:18:49.612696Z",
+  "last_updated": "2026-05-30T13:18:49.613447Z"
+}

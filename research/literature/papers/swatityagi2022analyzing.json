@@ -1,0 +1,31 @@
+{
+  "key": "swatityagi2022analyzing",
+  "title": "Analyzing Machine Learning Models for Credit Scoring with Explainable AI and Optimizing Investment Decisions",
+  "authors": [
+    "Swati Tyagi"
+  ],
+  "year": 2022,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "arXiv (Cornell University)",
+  "doi": "10.48550/arxiv.2209.09362",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6274 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Analyzing Machine Learning Models for Credit Scoring with Explainable AI and Optimizing Investment Decisions",
+  "notes": "This paper examines two different yet related questions related to explainable AI (XAI) practices. Machine learning (ML) is increasingly important in financial services, such as pre-approval, credit underwriting, investments, and various front-end and back-end activities. Machine...",
+  "source_files": [
+    "research\\literature\\papers\\swatityagi2022analyzing.md"
+  ],
+  "first_seen": "2026-05-30T13:18:49.305080Z",
+  "last_updated": "2026-05-30T13:18:49.305770Z"
+}

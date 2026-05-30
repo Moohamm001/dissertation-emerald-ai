@@ -1,0 +1,31 @@
+{
+  "key": "anthonybellotti2017reliable",
+  "title": "Reliable region predictions for automated valuation models",
+  "authors": [
+    "Anthony Bellotti"
+  ],
+  "year": 2017,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Annals of Mathematics and Artificial Intelligence",
+  "doi": "10.1007/s10472-016-9534-6",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.614 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Reliable region predictions for automated valuation models",
+  "notes": "Accurate property valuation is important for property purchasers, investors and for mortgage-providers to assess credit risk in the mortgage market. Automated valuation models (AVM) are being developed to provide cheap, objective valuations that allow dynamic updating of property...",
+  "source_files": [
+    "research\\literature\\papers\\anthonybellotti2017reliable.md"
+  ],
+  "first_seen": "2026-05-30T13:18:49.370744Z",
+  "last_updated": "2026-05-30T13:18:49.371259Z"
+}

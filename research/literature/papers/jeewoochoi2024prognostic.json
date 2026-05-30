@@ -1,0 +1,38 @@
+{
+  "key": "jeewoochoi2024prognostic",
+  "title": "Prognostic prediction of sepsis patient using transformer with skip connected token for tabular data",
+  "authors": [
+    "Jee-Woo Choi",
+    "Min-Uk Yang",
+    "Jae Woo Kim",
+    "Yoon Mi Shin",
+    "Yoon Mi Shin",
+    "Yong-Goo Shin",
+    "Yong-Goo Shin",
+    "Seung Park"
+  ],
+  "year": 2024,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Artificial Intelligence in Medicine",
+  "doi": "10.1016/j.artmed.2024.102804",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6225 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Prognostic prediction of sepsis patient using transformer with skip connected token for tabular data",
+  "notes": "",
+  "source_files": [
+    "research\\literature\\papers\\jeewoochoi2024prognostic.md"
+  ],
+  "first_seen": "2026-05-30T13:18:49.464139Z",
+  "last_updated": "2026-05-30T13:18:49.464643Z"
+}

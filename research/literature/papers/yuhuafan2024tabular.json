@@ -1,0 +1,32 @@
+{
+  "key": "yuhuafan2024tabular",
+  "title": "Tabular deep learning: a comparative study applied to multi-task genome-wide prediction",
+  "authors": [
+    "Yuhua Fan",
+    "Patrik Waldmann"
+  ],
+  "year": 2024,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "BMC Bioinformatics",
+  "doi": "10.1186/s12859-024-05940-1",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.7295 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Tabular deep learning: a comparative study applied to multi-task genome-wide prediction",
+  "notes": "PURPOSE: More accurate prediction of phenotype traits can increase the success of genomic selection in both plant and animal breeding studies and provide more reliable disease risk prediction in humans. Traditional approaches typically use regression models based on linear assump...",
+  "source_files": [
+    "research\\literature\\papers\\yuhuafan2024tabular.md"
+  ],
+  "first_seen": "2026-05-30T13:18:49.410012Z",
+  "last_updated": "2026-05-30T13:18:49.410627Z"
+}

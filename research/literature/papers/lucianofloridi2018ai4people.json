@@ -1,0 +1,43 @@
+{
+  "key": "lucianofloridi2018ai4people",
+  "title": "AI4People—An Ethical Framework for a Good AI Society: Opportunities, Risks, Principles, and Recommendations",
+  "authors": [
+    "Luciano Floridi",
+    "Josh Cowls",
+    "Monica Beltrametti",
+    "Raja Chatila",
+    "Patrice Chazerand",
+    "Virginia Dignum",
+    "Christoph Luetge",
+    "Robert Madelin",
+    "Ugo Pagallo",
+    "Francesca Rossi",
+    "Burkhard Schäfer",
+    "Peggy Valcke",
+    "Effy Vayena"
+  ],
+  "year": 2018,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Minds and Machines",
+  "doi": "10.1007/s11023-018-9482-5",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6707 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "AI4People—An Ethical Framework for a Good AI Society: Opportunities, Risks, Principles, and Recommendations",
+  "notes": "This article reports the findings of AI4People, an Atomium-EISMD initiative designed to lay the foundations for a \"Good AI Society\". We introduce the core opportunities and risks of AI for society; present a synthesis of five ethical principles that should undergird its developme...",
+  "source_files": [
+    "research\\literature\\papers\\lucianofloridi2018ai4people.md"
+  ],
+  "first_seen": "2026-05-30T13:18:49.530131Z",
+  "last_updated": "2026-05-30T13:18:49.530703Z"
+}

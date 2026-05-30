@@ -5540,3 +5540,607 @@
     paper to calculators, this text's use of trees was unthinkable before computers.
     Both the practical and theoretical sides ...
   search_query: Classification and Regression Trees.
+- key: swatityagi2022analyzing
+  authors:
+  - Swati Tyagi
+  year: 2022
+  title: Analyzing Machine Learning Models for Credit Scoring with Explainable AI
+    and Optimizing Investment Decisions
+  venue: arXiv (Cornell University)
+  doi: 10.48550/arxiv.2209.09362
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W4296607441
+  auto_discovered: true
+  auto_score: 0.6274
+  auto_depth: 0
+  notes: This paper examines two different yet related questions related to explainable
+    AI (XAI) practices. Machine learning (ML) is increasingly important in financial
+    services, such as pre-approval, credit underwriting, investments, and various
+    front-end and back-end activities. Machine...
+  search_query: Analyzing Machine Learning Models for Credit Scoring with Explainable
+    AI and Optimizing Investment Decisions
+- key: jiqi2021application
+  authors:
+  - Ji Qi
+  - Yang Rui-cheng
+  - Pucong Wang
+  year: 2021
+  title: Application of explainable machine learning based on Catboost in credit scoring
+  venue: Journal of Physics Conference Series
+  doi: 10.1088/1742-6596/1955/1/012039
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W3174484659
+  auto_discovered: true
+  auto_score: 0.6201
+  auto_depth: 0
+  notes: Abstract Credit scoring is the core part of an institution’s lending. As
+    artificial intelligence is used in various fields, credit rating is also under
+    the same topic of accepting technological changes. Combining credit evaluation
+    and machine learning can incorporate relatively c...
+  search_query: Application of explainable machine learning based on Catboost in credit
+    scoring
+- key: michaelbcker2021transparency
+  authors:
+  - Michael Bücker
+  - Gero Szepannek
+  - Alicja Gosiewska
+  - Przemysław Biecek
+  year: 2021
+  title: Transparency, auditability, and explainability of machine learning models
+    in credit scoring
+  venue: Journal of the Operational Research Society
+  doi: 10.1080/01605682.2021.1922098
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W3088815947
+  auto_discovered: true
+  auto_score: 0.9201
+  auto_depth: 0
+  notes: A major requirement for credit scoring models is to provide a maximally accurate
+    risk prediction. Additionally, regulators demand these models to be transparent
+    and auditable. Thus, in credit scoring, very simple predictive models such as
+    logistic regression or decision trees are...
+  search_query: Transparency, auditability, and explainability of machine learning
+    models in credit scoring
+- key: xolanidastile2020statistical
+  authors:
+  - Xolani Dastile
+  - Turgay Çelik
+  - Moshe Moses Potsane
+  year: 2020
+  title: 'Statistical and machine learning models in credit scoring: A systematic
+    literature survey'
+  venue: Applied Soft Computing
+  doi: 10.1016/j.asoc.2020.106263
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W3013460382
+  auto_discovered: true
+  auto_score: 0.9514
+  auto_depth: 0
+  notes: ''
+  search_query: 'Statistical and machine learning models in credit scoring: A systematic
+    literature survey'
+- key: yannlecun1998gradient
+  authors:
+  - Yann LeCun
+  - Léon Bottou
+  - Yoshua Bengio
+  - Patrick Haffner
+  year: 1998
+  title: Gradient-based learning applied to document recognition
+  venue: Proceedings of the IEEE
+  doi: 10.1109/5.726791
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2112796928
+  auto_discovered: true
+  auto_score: 0.8325
+  auto_depth: 0
+  notes: Multilayer neural networks trained with the back-propagation algorithm constitute
+    the best example of a successful gradient based learning technique. Given an appropriate
+    network architecture, gradient-based learning algorithms can be used to synthesize
+    a complex decision surface...
+  search_query: Gradient-based learning applied to document recognition
+- key: anthonybellotti2017reliable
+  authors:
+  - Anthony Bellotti
+  year: 2017
+  title: Reliable region predictions for automated valuation models
+  venue: Annals of Mathematics and Artificial Intelligence
+  doi: 10.1007/s10472-016-9534-6
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2577905330
+  auto_discovered: true
+  auto_score: 0.614
+  auto_depth: 0
+  notes: Accurate property valuation is important for property purchasers, investors
+    and for mortgage-providers to assess credit risk in the mortgage market. Automated
+    valuation models (AVM) are being developed to provide cheap, objective valuations
+    that allow dynamic updating of property...
+  search_query: Reliable region predictions for automated valuation models
+- key: eugeneffama1996multifactor
+  authors:
+  - Eugene F. Fama
+  - Kenneth R. French
+  year: 1996
+  title: Multifactor Explanations of Asset Pricing Anomalies
+  venue: The Journal of Finance
+  doi: 10.1111/j.1540-6261.1996.tb05202.x
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2113305199
+  auto_discovered: true
+  auto_score: 0.6228
+  auto_depth: 0
+  notes: ABSTRACT Previous work shows that average returns on common stocks are related
+    to firm characteristics like size, earnings/price, cash flow/price, book‐to‐market
+    equity, past sales growth, long‐term past return, and short‐term past return.
+    Because these patterns in average return...
+  search_query: Multifactor Explanations of Asset Pricing Anomalies
+- key: iqbalhsarker2021machine
+  authors:
+  - Iqbal H. Sarker
+  year: 2021
+  title: 'Machine Learning: Algorithms, Real-World Applications and Research Directions'
+  venue: SN Computer Science
+  doi: 10.1007/s42979-021-00592-x
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W3135028703
+  auto_discovered: true
+  auto_score: 0.8826
+  auto_depth: 0
+  notes: ''
+  search_query: 'Machine Learning: Algorithms, Real-World Applications and Research
+    Directions'
+- key: yuhuafan2024tabular
+  authors:
+  - Yuhua Fan
+  - Patrik Waldmann
+  year: 2024
+  title: 'Tabular deep learning: a comparative study applied to multi-task genome-wide
+    prediction'
+  venue: BMC Bioinformatics
+  doi: 10.1186/s12859-024-05940-1
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W4403113743
+  auto_discovered: true
+  auto_score: 0.7295
+  auto_depth: 0
+  notes: 'PURPOSE: More accurate prediction of phenotype traits can increase the success
+    of genomic selection in both plant and animal breeding studies and provide more
+    reliable disease risk prediction in humans. Traditional approaches typically use
+    regression models based on linear assump...'
+  search_query: 'Tabular deep learning: a comparative study applied to multi-task
+    genome-wide prediction'
+- key: manujoseph2022gandalf
+  authors:
+  - Manu Joseph
+  - Harsh Raj
+  year: 2022
+  title: 'GANDALF: Gated Adaptive Network for Deep Automated Learning of Features'
+  venue: arXiv (Cornell University)
+  doi: 10.48550/arxiv.2207.08548
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W4286231546
+  auto_discovered: true
+  auto_score: 0.6212
+  auto_depth: 0
+  notes: We propose a novel high-performance, interpretable, and parameter \&amp;
+    computationally efficient deep learning architecture for tabular data, Gated Adaptive
+    Network for Deep Automated Learning of Features (GANDALF). GANDALF relies on a
+    new tabular processing unit with a gating ...
+  search_query: 'GANDALF: Gated Adaptive Network for Deep Automated Learning of Features'
+- key: ruishancheng2024prediction
+  authors:
+  - Ruishan Cheng
+  - Wensu Chen
+  - Hong Hao
+  - Qilin Li
+  year: 2024
+  title: Prediction of BLEVE-induced response of road tunnel using Transformer network
+    with modified self-attention (SAMT)
+  venue: Engineering Structures
+  doi: 10.1016/j.engstruct.2024.118415
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W4399764574
+  auto_discovered: true
+  auto_score: 0.6289
+  auto_depth: 0
+  notes: Road tunnels might be exposed to Boiling Liquid Expansion Vapor Explosion
+    (BLEVE) due to the transportation of liquified gas tankers passing through road
+    tunnels. An efficient and accurate prediction of the response of road tunnels
+    under internal BLEVEs can facilitate the reliabl...
+  search_query: Prediction of BLEVE-induced response of road tunnel using Transformer
+    network with modified self-attention (SAMT)
+- key: bingzhaozhu2023xtab
+  authors:
+  - Bingzhao Zhu
+  - Xingjian Shi
+  - Nick Erickson
+  - Mu Li
+  - George Karypis
+  - Mahsa Shoaran
+  year: 2023
+  title: 'XTab: Cross-table Pretraining for Tabular Transformers'
+  venue: arXiv (Cornell University)
+  doi: 10.48550/arxiv.2305.06090
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W4376167308
+  auto_discovered: true
+  auto_score: 0.6161
+  auto_depth: 0
+  notes: The success of self-supervised learning in computer vision and natural language
+    processing has motivated pretraining methods on tabular data. However, most existing
+    tabular self-supervised learning models fail to leverage information across multiple
+    data tables and cannot general...
+  search_query: 'XTab: Cross-table Pretraining for Tabular Transformers'
+- key: jeewoochoi2024prognostic
+  authors:
+  - Jee-Woo Choi
+  - Min-Uk Yang
+  - Jae Woo Kim
+  - Yoon Mi Shin
+  - Yoon Mi Shin
+  - Yong-Goo Shin
+  - Yong-Goo Shin
+  - Seung Park
+  year: 2024
+  title: Prognostic prediction of sepsis patient using transformer with skip connected
+    token for tabular data
+  venue: Artificial Intelligence in Medicine
+  doi: 10.1016/j.artmed.2024.102804
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W4391755674
+  auto_discovered: true
+  auto_score: 0.6225
+  auto_depth: 0
+  notes: ''
+  search_query: Prognostic prediction of sepsis patient using transformer with skip
+    connected token for tabular data
+- key: shalmalijoshi2019towards
+  authors:
+  - Shalmali Joshi
+  - Oluwasanmi Koyejo
+  - Warut D. Vijitbenjaronk
+  - Been Kim
+  - Joydeep Ghosh
+  year: 2019
+  title: Towards Realistic Individual Recourse and Actionable Explanations in Black-Box
+    Decision Making Systems
+  venue: arXiv (Cornell University)
+  doi: 10.48550/arxiv.1907.09615
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2962966435
+  auto_discovered: true
+  auto_score: 0.6347
+  auto_depth: 0
+  notes: Machine learning based decision making systems are increasingly affecting
+    humans. An individual can suffer an undesirable outcome under such decision making
+    systems (e.g. denied credit) irrespective of whether the decision is fair or accurate.
+    Individual recourse pertains to the ...
+  search_query: Towards Realistic Individual Recourse and Actionable Explanations
+    in Black-Box Decision Making Systems
+- key: diogovcarvalho2019machine
+  authors:
+  - Diogo V. Carvalho
+  - Eduardo M. Pereira
+  - Jaime S. Cardoso
+  year: 2019
+  title: 'Machine Learning Interpretability: A Survey on Methods and Metrics'
+  venue: Electronics
+  doi: 10.3390/electronics8080832
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2964303497
+  auto_discovered: true
+  auto_score: 0.966
+  auto_depth: 0
+  notes: Machine learning systems are becoming increasingly ubiquitous. These systems’s
+    adoption has been expanding, accelerating the shift towards a more algorithmic
+    society, meaning that algorithmically informed decisions have greater potential
+    for significant social impact. However, mo...
+  search_query: 'Machine Learning Interpretability: A Survey on Methods and Metrics'
+- key: amirhosseinkarimi2022towards
+  authors:
+  - Amir-Hossein Karimi
+  - Julius von Kügelgen
+  - Bernhard Schölkopf
+  - Isabel Valera
+  year: 2022
+  title: Towards Causal Algorithmic Recourse
+  venue: Lecture notes in computer science
+  doi: 10.1007/978-3-031-04083-2_8
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W4226318288
+  auto_discovered: true
+  auto_score: 0.7151
+  auto_depth: 0
+  notes: Abstract Algorithmic recourse is concerned with aiding individuals who are
+    unfavorably treated by automated decision-making systems to overcome their hardship,
+    by offering recommendations that would result in a more favorable prediction when
+    acted upon. Such recourse actions are ...
+  search_query: Towards Causal Algorithmic Recourse
+- key: bernhardschlkopf2021toward
+  authors:
+  - Bernhard Schölkopf
+  - Francesco Locatello
+  - Stefan Bauer
+  - Nan Rosemary Ke
+  - Nal Kalchbrenner
+  - Anirudh Goyal
+  - Yoshua Bengio
+  year: 2021
+  title: Toward Causal Representation Learning
+  venue: Proceedings of the IEEE
+  doi: 10.1109/jproc.2021.3058954
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W3135588948
+  auto_discovered: true
+  auto_score: 0.665
+  auto_depth: 0
+  notes: The two fields of machine learning and graphical causality arose and are
+    developed separately. However, there is, now, cross-pollination and increasing
+    interest in both fields to benefit from the advances of the other. In this article,
+    we review fundamental concepts of causal inf...
+  search_query: Toward Causal Representation Learning
+- key: lucianofloridi2018ai4people
+  authors:
+  - Luciano Floridi
+  - Josh Cowls
+  - Monica Beltrametti
+  - Raja Chatila
+  - Patrice Chazerand
+  - Virginia Dignum
+  - Christoph Luetge
+  - Robert Madelin
+  - Ugo Pagallo
+  - Francesca Rossi
+  - Burkhard Schäfer
+  - Peggy Valcke
+  - Effy Vayena
+  year: 2018
+  title: 'AI4People—An Ethical Framework for a Good AI Society: Opportunities, Risks,
+    Principles, and Recommendations'
+  venue: Minds and Machines
+  doi: 10.1007/s11023-018-9482-5
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2902634493
+  auto_discovered: true
+  auto_score: 0.6707
+  auto_depth: 0
+  notes: This article reports the findings of AI4People, an Atomium-EISMD initiative
+    designed to lay the foundations for a "Good AI Society". We introduce the core
+    opportunities and risks of AI for society; present a synthesis of five ethical
+    principles that should undergird its developme...
+  search_query: 'AI4People—An Ethical Framework for a Good AI Society: Opportunities,
+    Risks, Principles, and Recommendations'
+- key: nirkshetri20171
+  authors:
+  - Nir Kshetri
+  year: 2017
+  title: 1 Blockchain’s roles in meeting key supply chain management objectives
+  venue: International Journal of Information Management
+  doi: 10.1016/j.ijinfomgt.2017.12.005
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2773929027
+  auto_discovered: true
+  auto_score: 0.6628
+  auto_depth: 0
+  notes: ''
+  search_query: 1 Blockchain’s roles in meeting key supply chain management objectives
+- key: sandrawachter2017why
+  authors:
+  - Sandra Wachter
+  - Brent Mittelstadt
+  - Luciano Floridi
+  year: 2017
+  title: Why a Right to Explanation of Automated Decision-Making Does Not Exist in
+    the General Data Protection Regulation
+  venue: International Data Privacy Law
+  doi: 10.1093/idpl/ipx005
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W3124443940
+  auto_discovered: true
+  auto_score: 0.6563
+  auto_depth: 0
+  notes: Since approval of the EU General Data Protection Regulation (GDPR) in 2016,
+    it has been widely and repeatedly claimed that the GDPR will legally mandate a
+    ‘right to explanation’ of all decisions made by automated or artificially intelligent
+    algorithmic systems. This right to expl...
+  search_query: Why a Right to Explanation of Automated Decision-Making Does Not Exist
+    in the General Data Protection Regulation
+- key: husseinaabdou2011credit
+  authors:
+  - Hussein A. Abdou
+  - John Pointon
+  year: 2011
+  title: 'CREDIT SCORING, STATISTICAL TECHNIQUES AND EVALUATION CRITERIA: A REVIEW
+    OF THE LITERATURE'
+  venue: Intelligent systems in accounting, finance and management/Intelligent systems
+    in accounting, finance & management
+  doi: 10.1002/isaf.325
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W1673066967
+  auto_discovered: true
+  auto_score: 0.9301
+  auto_depth: 1
+  notes: SUMMARY Credit scoring has been regarded as a core appraisal tool of different
+    institutions during the last few decades and has been widely investigated in different
+    areas, such as finance and accounting. Different scoring techniques are being
+    used in areas of classification and ...
+  search_query: 'CREDIT SCORING, STATISTICAL TECHNIQUES AND EVALUATION CRITERIA: A
+    REVIEW OF THE LITERATURE'
+- key: jameshmyers1963the
+  authors:
+  - James H. Myers
+  - Edward W. Forgy
+  year: 1963
+  title: The Development of Numerical Credit Evaluation Systems
+  venue: Journal of the American Statistical Association
+  doi: 10.1080/01621459.1963.10500889
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2001172819
+  auto_discovered: true
+  auto_score: 0.5033
+  auto_depth: 1
+  notes: Abstract Several discriminant and multiple regression analyses were performed
+    on retail credit application data to develop a numerical scoring system for predicting
+    credit risk in a finance company. Results showed that equal weights for all significantly
+    predictive items were as ...
+  search_query: The Development of Numerical Credit Evaluation Systems
+- key: jiaqiyan2015how
+  authors:
+  - Jiaqi Yan
+  - Wayne Yu
+  - Jianli Zhao
+  year: 2015
+  title: 'How signaling and search costs affect information asymmetry in P2P lending:
+    the economics of big data'
+  venue: Financial Innovation
+  doi: 10.1186/s40854-015-0018-1
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2260476464
+  auto_discovered: true
+  auto_score: 0.6283
+  auto_depth: 1
+  notes: In the past decade, online Peer-to-Peer (P2P) lending platforms have transformed
+    the lending industry, which has been historically dominated by commercial banks.
+    Information technology breakthroughs such as big data-based financial technologies
+    (Fintech) have been identified as i...
+  search_query: 'How signaling and search costs affect information asymmetry in P2P
+    lending: the economics of big data'
+- key: aminaadadi2018peeking
+  authors:
+  - Amina Adadi
+  - Mohammed Berrada
+  year: 2018
+  title: 'Peeking Inside the Black-Box: A Survey on Explainable Artificial Intelligence
+    (XAI)'
+  venue: IEEE Access
+  doi: 10.1109/access.2018.2870052
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2891503716
+  auto_discovered: true
+  auto_score: 0.8765
+  auto_depth: 1
+  notes: At the dawn of the fourth industrial revolution, we are witnessing a fast
+    and widespread adoption of artificial intelligence (AI) in our daily life, which
+    contributes to accelerating the shift towards a more algorithmic society. However,
+    even with such unprecedented advancements,...
+  search_query: 'Peeking Inside the Black-Box: A Survey on Explainable Artificial
+    Intelligence (XAI)'
+- key: annaveronikadorogush2018catboost
+  authors:
+  - Anna Veronika Dorogush
+  - Vasily Ershov
+  - Andrey Gulin
+  year: 2018
+  title: 'CatBoost: gradient boosting with categorical features support'
+  venue: arXiv (Cornell University)
+  doi: 10.48550/arxiv.1810.11363
+  themes: []
+  relevance: medium
+  status: auto-discovered
+  verified: false
+  paper_file: true
+  openalex_id: W2898227265
+  auto_discovered: true
+  auto_score: 0.7607
+  auto_depth: 1
+  notes: In this paper we present CatBoost, a new open-sourced gradient boosting library
+    that successfully handles categorical features and outperforms existing publicly
+    available implementations of gradient boosting in terms of quality on a set of
+    popular publicly available datasets. The...
+  search_query: 'CatBoost: gradient boosting with categorical features support'

@@ -1,0 +1,33 @@
+{
+  "key": "jiaqiyan2015how",
+  "title": "How signaling and search costs affect information asymmetry in P2P lending: the economics of big data",
+  "authors": [
+    "Jiaqi Yan",
+    "Wayne Yu",
+    "Jianli Zhao"
+  ],
+  "year": 2015,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Financial Innovation",
+  "doi": "10.1186/s40854-015-0018-1",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6283 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "How signaling and search costs affect information asymmetry in P2P lending: the economics of big data",
+  "notes": "In the past decade, online Peer-to-Peer (P2P) lending platforms have transformed the lending industry, which has been historically dominated by commercial banks. Information technology breakthroughs such as big data-based financial technologies (Fintech) have been identified as i...",
+  "source_files": [
+    "research\\literature\\papers\\jiaqiyan2015how.md"
+  ],
+  "first_seen": "2026-05-30T13:18:49.599720Z",
+  "last_updated": "2026-05-30T13:18:49.600210Z"
+}

@@ -139,14 +139,19 @@ def imbalance(
 def train(
     families: str = typer.Option("all", "--families", "-f", help="Comma-separated family names or 'all'"),
     n_outer_folds: int = typer.Option(5, help="Outer CV folds"),
-    n_inner_folds: int = typer.Option(3, help="Inner CV folds for RandomizedSearchCV"),
+    n_inner_folds: int = typer.Option(3, help="Inner CV folds for the hyperparameter search"),
     n_search_candidates: int = typer.Option(12, help="RandomizedSearch trial budget per family-fold"),
+    tuner: str = typer.Option("random", help="Hyperparameter search: 'random' (fast) or 'optuna' (TPE)"),
+    n_trials: int = typer.Option(50, help="Optuna trials per family-fold (only when --tuner optuna)"),
     persist: bool = typer.Option(True, help="Persist best model + preprocessor + conformal to models/"),
 ) -> None:
     """Train all available families with nested CV (§5.8 + §5.9).
 
     Persists ``models/{current_model,preprocessor,conformal_marginal,feature_names}``
     so the FastAPI backend can serve them. Emits ``data/governance/training_report.md``.
+
+    Use ``--tuner optuna`` for the proposal's full TPE hyperparameter search
+    (slower); the default ``--tuner random`` runs RandomizedSearchCV.
     """
     from emerald_ai.data.eda import split_xy
     from emerald_ai.data.load import load_labelled
@@ -169,6 +174,8 @@ def train(
         n_outer_folds=n_outer_folds,
         n_inner_folds=n_inner_folds,
         n_search_candidates=n_search_candidates,
+        tuner=tuner,
+        n_trials=n_trials,
     )
     report = emit_report(audit)
     console.print(f"[green]OK[/green]: {report}")
@@ -246,10 +253,27 @@ def audit(
         "Industry": X_raw["Industry"].fillna("__missing__").to_numpy(),
         "Borrower State": X_raw["Borrower State"].fillna("__missing__").to_numpy(),
     }
-    audit_obj = audit_predictions(np.asarray(y), scores, sensitive)
+    # §5.12 fix: auditing at a hard 0.5 threshold is uninformative here — at
+    # 0.36% prevalence the model approves ~100% of every group, so all gaps
+    # collapse to ~0. Audit at the *deployed* decision boundary instead: the
+    # risk-band watch cut-off (p20 of the score distribution), the same cut the
+    # API serves. This makes selection rates non-degenerate and the gaps real.
+    from emerald_ai.eval.risk_bands import risk_band_thresholds
+    thresholds = risk_band_thresholds(scores)
+    operating_threshold = thresholds["watch_cut"]
+    audit_obj = audit_predictions(np.asarray(y), scores, sensitive, threshold=operating_threshold)
+    audit_obj.threshold_policy = (
+        f"risk-band 'watch' cut-off = p{thresholds['watch_percentile']:.0f} of the model's "
+        f"score distribution (the deployed decision boundary; a hard 0.5 approves ~100% of "
+        f"every group at this prevalence, collapsing all gaps to ~0)."
+    )
     target = out if out is not None else FAIRNESS_REPORT_PATH
     written = emit_report(audit_obj, out_path=target)
     console.print(f"[green]OK[/green]: {written}")
+    console.print(
+        f"  audited at watch-band threshold = {operating_threshold:.4f} "
+        f"(p{thresholds['watch_percentile']:.0f}); high-risk cut = {thresholds['high_risk_cut']:.4f}"
+    )
     for axis, gaps in audit_obj.gaps.items():
         console.print(
             f"  {axis}: DP={gaps['dp_gap']:.3f} TPR={gaps['tpr_gap']:.3f} "
@@ -332,7 +356,12 @@ def explain(
     import pandas as pd
     from emerald_ai.data.eda import split_xy
     from emerald_ai.data.load import load_labelled
-    from emerald_ai.explain import global_importance
+    from emerald_ai.explain import (
+        HAS_SHAP,
+        faithfulness_correlation,
+        global_importance,
+        shap_global_importance,
+    )
 
     models_dir = PATHS.root / "models"
     if not (models_dir / "current_model.joblib").exists():
@@ -346,24 +375,53 @@ def explain(
     X, y = split_xy(df)
     X_t = pre.transform(X)
 
-    imp = global_importance(model, X_t, y, feature_names=feature_names, n_repeats=n_repeats)
     target = out if out is not None else (PATHS.root / "data" / "governance" / "explain_report.md")
     target.parent.mkdir(parents=True, exist_ok=True)
     today = pd.Timestamp.utcnow().date().isoformat()
-    rows = "\n".join(
-        f"| `{r['feature']}` | {r['importance_mean']:.4f} ± {r['importance_std']:.4f} |"
-        for _, r in imp.head(25).iterrows()
-    )
-    target.write_text(
-        f"# Explainability Report — proposal §5.11\n\n"
-        f"Version: 0.1 · Generated: {today}\n\n"
-        f"## Top-25 features by permutation importance (PR-AUC scoring)\n\n"
-        f"| Feature | Importance |\n|---|---|\n{rows}\n\n"
-        f"_First cut uses sklearn's permutation_importance; TreeSHAP / KernelSHAP / DiCE / Quantus land in a follow-up._\n",
-        encoding="utf-8",
-    )
+
+    sections: list[str] = [f"# Explainability Report — proposal §5.11\n\nVersion: 0.2 · Generated: {today}\n"]
+
+    if HAS_SHAP:
+        console.print("[dim]Computing SHAP global attributions...[/dim]")
+        shap_df = shap_global_importance(model, X_t, feature_names=feature_names, max_samples=500)
+        shap_rows = "\n".join(
+            f"| `{r['feature']}` | {r['mean_abs_shap']:.4f} | {r['mean_signed_shap']:+.4f} |"
+            for _, r in shap_df.head(25).iterrows()
+        )
+        # Empirical fidelity on a sample: do the SHAP attributions track prediction drops?
+        from emerald_ai.explain.shap_engine import _shap_values_matrix
+        n_fid = min(200, len(X_t))
+        Xs = X_t[:n_fid]
+        fid = faithfulness_correlation(model, Xs, _shap_values_matrix(model, Xs), n_subsets=30)
+        sections.append(
+            "## Global feature attribution — mean(|SHAP|)\n\n"
+            "Exact TreeSHAP on the persisted model; signed column shows net direction.\n\n"
+            f"| Feature | mean(\\|SHAP\\|) | mean signed SHAP |\n|---|---|---|\n{shap_rows}\n"
+        )
+        sections.append(
+            f"## Explanation fidelity\n\n"
+            f"Faithfulness correlation (Bhatt et al., 2020) on {n_fid} instances: "
+            f"**{fid:.3f}** (∈[-1,1]; higher means SHAP attribution mass tracks the "
+            f"model's actual prediction drops under feature ablation).\n"
+        )
+        top3 = list(shap_df["feature"].head(3))
+    else:
+        console.print("[yellow]shap not installed — using permutation importance fallback.[/yellow]")
+        imp = global_importance(model, X_t, y, feature_names=feature_names, n_repeats=n_repeats)
+        rows = "\n".join(
+            f"| `{r['feature']}` | {r['importance_mean']:.4f} ± {r['importance_std']:.4f} |"
+            for _, r in imp.head(25).iterrows()
+        )
+        sections.append(
+            "## Top-25 features by permutation importance (PR-AUC scoring)\n\n"
+            f"| Feature | Importance |\n|---|---|\n{rows}\n\n"
+            "_Fallback view: install the `xai` extra (`pip install -e \".[xai]\"`) for exact SHAP attributions._\n"
+        )
+        top3 = list(imp["feature"].head(3))
+
+    target.write_text("\n".join(sections) + "\n", encoding="utf-8")
     console.print(f"[green]OK[/green]: {target}")
-    console.print(f"  top-3: {list(imp['feature'].head(3))}")
+    console.print(f"  top-3: {top3}")
 
 
 # `audit` is defined above (alongside `train`) — old stub removed in §5.12 commit.

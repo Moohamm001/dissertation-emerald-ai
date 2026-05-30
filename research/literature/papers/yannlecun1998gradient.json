@@ -1,0 +1,34 @@
+{
+  "key": "yannlecun1998gradient",
+  "title": "Gradient-based learning applied to document recognition",
+  "authors": [
+    "Yann LeCun",
+    "Léon Bottou",
+    "Yoshua Bengio",
+    "Patrick Haffner"
+  ],
+  "year": 1998,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Proceedings of the IEEE",
+  "doi": "10.1109/5.726791",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.8325 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Gradient-based learning applied to document recognition",
+  "notes": "Multilayer neural networks trained with the back-propagation algorithm constitute the best example of a successful gradient based learning technique. Given an appropriate network architecture, gradient-based learning algorithms can be used to synthesize a complex decision surface...",
+  "source_files": [
+    "research\\literature\\papers\\yannlecun1998gradient.md"
+  ],
+  "first_seen": "2026-05-30T13:18:49.358389Z",
+  "last_updated": "2026-05-30T13:18:49.358911Z"
+}

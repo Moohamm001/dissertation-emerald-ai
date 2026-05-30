@@ -1,0 +1,33 @@
+{
+  "key": "annaveronikadorogush2018catboost",
+  "title": "CatBoost: gradient boosting with categorical features support",
+  "authors": [
+    "Anna Veronika Dorogush",
+    "Vasily Ershov",
+    "Andrey Gulin"
+  ],
+  "year": 2018,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "arXiv (Cornell University)",
+  "doi": "10.48550/arxiv.1810.11363",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.7607 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "CatBoost: gradient boosting with categorical features support",
+  "notes": "In this paper we present CatBoost, a new open-sourced gradient boosting library that successfully handles categorical features and outperforms existing publicly available implementations of gradient boosting in terms of quality on a set of popular publicly available datasets. The...",
+  "source_files": [
+    "research\\literature\\papers\\annaveronikadorogush2018catboost.md"
+  ],
+  "first_seen": "2026-05-30T13:18:49.625721Z",
+  "last_updated": "2026-05-30T13:18:49.626244Z"
+}

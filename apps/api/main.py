@@ -634,39 +634,28 @@ def _scores_full_dataset() -> tuple[np.ndarray, pd.Series, pd.DataFrame]:
     return scores, y, X
 
 
-# Percentile cut-offs that translate a raw model probability into a risk band.
-# Because the dataset is extremely imbalanced (~0.36% defaults) the model's
-# probabilities are heavily right-skewed and the legacy 0.5 / 0.8 cut-offs
-# classify ~99.7% of applicants as "approve". These percentile-based bands
-# preserve the badge's information value at the cost of being relative to the
-# training pool rather than absolute.
-RISK_BAND_PERCENTILES = {"high_risk": 5.0, "watch": 20.0}
+# Percentile-based risk bands live in emerald_ai.eval.risk_bands so the deployed
+# decision and the §5.12 fairness audit consume one shared source of truth.
+from emerald_ai.eval.risk_bands import (  # noqa: E402
+    band_for as _band_for_p,
+    risk_band_thresholds,
+)
 
 
 def _risk_band_thresholds() -> dict[str, float]:
-    """Return {'high_risk_cut': p5, 'watch_cut': p20} from the training pool."""
+    """Return {'high_risk_cut': p5, 'watch_cut': p20} from the training pool (cached)."""
     state = _load_state()
     if "risk_band_thresholds" in state:
         return state["risk_band_thresholds"]
     scores, _, _ = _scores_full_dataset()
-    out = {
-        "high_risk_cut": float(np.percentile(scores, RISK_BAND_PERCENTILES["high_risk"])),
-        "watch_cut": float(np.percentile(scores, RISK_BAND_PERCENTILES["watch"])),
-        "high_risk_percentile": RISK_BAND_PERCENTILES["high_risk"],
-        "watch_percentile": RISK_BAND_PERCENTILES["watch"],
-    }
+    out = risk_band_thresholds(scores)
     state["risk_band_thresholds"] = out
     return out
 
 
 def _band_for(p: float) -> str:
     """Map a model probability to {high_risk, watch, approve} using percentile cut-offs."""
-    thr = _risk_band_thresholds()
-    if p < thr["high_risk_cut"]:
-        return "high_risk"
-    if p < thr["watch_cut"]:
-        return "watch"
-    return "approve"
+    return _band_for_p(p, _risk_band_thresholds())
 
 
 def _percentile_rank(p: float) -> float:

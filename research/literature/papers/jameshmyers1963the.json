@@ -1,0 +1,32 @@
+{
+  "key": "jameshmyers1963the",
+  "title": "The Development of Numerical Credit Evaluation Systems",
+  "authors": [
+    "James H. Myers",
+    "Edward W. Forgy"
+  ],
+  "year": 1963,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Journal of the American Statistical Association",
+  "doi": "10.1080/01621459.1963.10500889",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.5033 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "The Development of Numerical Credit Evaluation Systems",
+  "notes": "Abstract Several discriminant and multiple regression analyses were performed on retail credit application data to develop a numerical scoring system for predicting credit risk in a finance company. Results showed that equal weights for all significantly predictive items were as ...",
+  "source_files": [
+    "research\\literature\\papers\\jameshmyers1963the.md"
+  ],
+  "first_seen": "2026-05-30T13:18:49.582550Z",
+  "last_updated": "2026-05-30T13:18:49.583155Z"
+}

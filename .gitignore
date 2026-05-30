@@ -29,6 +29,7 @@ docs/proposal/proposal_tatphong.pdf
 /models/
 mlruns/
 mlartifacts/
+catboost_info/
 *.onnx
 *.pt
 *.pth

@@ -1,0 +1,33 @@
+{
+  "key": "xolanidastile2020statistical",
+  "title": "Statistical and machine learning models in credit scoring: A systematic literature survey",
+  "authors": [
+    "Xolani Dastile",
+    "Turgay Çelik",
+    "Moshe Moses Potsane"
+  ],
+  "year": 2020,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Applied Soft Computing",
+  "doi": "10.1016/j.asoc.2020.106263",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.9514 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Statistical and machine learning models in credit scoring: A systematic literature survey",
+  "notes": "",
+  "source_files": [
+    "research\\literature\\papers\\xolanidastile2020statistical.md"
+  ],
+  "first_seen": "2026-05-30T13:18:49.344427Z",
+  "last_updated": "2026-05-30T13:18:49.344949Z"
+}

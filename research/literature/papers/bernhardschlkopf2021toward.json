@@ -1,0 +1,37 @@
+{
+  "key": "bernhardschlkopf2021toward",
+  "title": "Toward Causal Representation Learning",
+  "authors": [
+    "Bernhard Schölkopf",
+    "Francesco Locatello",
+    "Stefan Bauer",
+    "Nan Rosemary Ke",
+    "Nal Kalchbrenner",
+    "Anirudh Goyal",
+    "Yoshua Bengio"
+  ],
+  "year": 2021,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Proceedings of the IEEE",
+  "doi": "10.1109/jproc.2021.3058954",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.665 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Toward Causal Representation Learning",
+  "notes": "The two fields of machine learning and graphical causality arose and are developed separately. However, there is, now, cross-pollination and increasing interest in both fields to benefit from the advances of the other. In this article, we review fundamental concepts of causal inf...",
+  "source_files": [
+    "research\\literature\\papers\\bernhardschlkopf2021toward.md"
+  ],
+  "first_seen": "2026-05-30T13:18:49.517148Z",
+  "last_updated": "2026-05-30T13:18:49.517840Z"
+}

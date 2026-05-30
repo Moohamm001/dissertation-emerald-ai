@@ -8,8 +8,9 @@ Six classifier families organised into three groups for controlled comparison:
   Tree ensembles (expected state of the art):
       rf, xgboost, lightgbm, catboost  →  see emerald_ai.models.trees
 
-  Tabular deep learning (deferred — requires torch):
-      mlp, ft_transformer  →  not registered; raise ImportError if requested.
+  Tabular deep learning (requires the [dl] extra / torch):
+      mlp, ft_transformer  →  see emerald_ai.models.deep. The factories raise
+      ImportError when torch is absent, so available_models() skips them.
 
 Use `make_model(name, ...)` for the canonical entry point; it dispatches to
 the right factory and returns an sklearn-compatible estimator (unfitted).
@@ -22,6 +23,7 @@ from __future__ import annotations
 
 from typing import Callable
 
+from emerald_ai.models.deep import make_ft_transformer, make_mlp
 from emerald_ai.models.linear import make_lr_l1, make_lr_l2, make_svm_rbf
 from emerald_ai.models.trees import (
     make_catboost,
@@ -39,6 +41,8 @@ FACTORIES: dict[str, Callable] = {
     "xgboost": make_xgboost,
     "lightgbm": make_lightgbm,
     "catboost": make_catboost,
+    "mlp": make_mlp,
+    "ft_transformer": make_ft_transformer,
 }
 
 
@@ -77,4 +81,6 @@ MODEL_REGISTRY: dict[str, str] = {
     "xgboost": "emerald_ai.models.trees",
     "lightgbm": "emerald_ai.models.trees",
     "catboost": "emerald_ai.models.trees",
+    "mlp": "emerald_ai.models.deep",
+    "ft_transformer": "emerald_ai.models.deep",
 }

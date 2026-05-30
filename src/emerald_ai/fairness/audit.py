@@ -122,6 +122,7 @@ class FairnessAudit:
     gaps: dict[str, dict[str, float]] = field(default_factory=dict)
     threshold: float = 0.50
     positive_label: int = 1
+    threshold_policy: str = ""
 
 
 def _compute_gaps(rows: list[GroupResult]) -> dict[str, float]:
@@ -179,7 +180,12 @@ def emit_report(audit: FairnessAudit, *, out_path: Path = FAIRNESS_REPORT_PATH) 
     sections.append(f"# Fairness Audit Report — proposal §5.12\n")
     sections.append("_Per-axis demographic parity / equalised odds / predictive parity / calibration-within-group._\n")
     sections.append(f"\nVersion: 0.1 · Generated: {today}\n")
-    sections.append(f"\n## Operating threshold\n\n- Classification threshold: **{audit.threshold:.2f}**\n- Positive label: **{audit.positive_label}**\n")
+    sections.append(
+        f"\n## Operating threshold\n\n"
+        f"- Classification threshold: **{audit.threshold:.4f}**\n"
+        f"- Positive label (approve): **{audit.positive_label}**\n"
+        + (f"- Threshold policy: {audit.threshold_policy}\n" if audit.threshold_policy else "")
+    )
 
     sections.append("\n## Per-axis gap summary\n")
     sections.append("| Axis | DP gap | TPR gap | FPR gap | Precision gap | ECE gap |")

@@ -1,0 +1,32 @@
+{
+  "key": "eugeneffama1996multifactor",
+  "title": "Multifactor Explanations of Asset Pricing Anomalies",
+  "authors": [
+    "Eugene F. Fama",
+    "Kenneth R. French"
+  ],
+  "year": 1996,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "The Journal of Finance",
+  "doi": "10.1111/j.1540-6261.1996.tb05202.x",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6228 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Multifactor Explanations of Asset Pricing Anomalies",
+  "notes": "ABSTRACT Previous work shows that average returns on common stocks are related to firm characteristics like size, earnings/price, cash flow/price, book‐to‐market equity, past sales growth, long‐term past return, and short‐term past return. Because these patterns in average return...",
+  "source_files": [
+    "research\\literature\\papers\\eugeneffama1996multifactor.md"
+  ],
+  "first_seen": "2026-05-30T13:18:49.383577Z",
+  "last_updated": "2026-05-30T13:18:49.384107Z"
+}

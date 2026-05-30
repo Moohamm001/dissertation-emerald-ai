@@ -1,0 +1,34 @@
+{
+  "key": "amirhosseinkarimi2022towards",
+  "title": "Towards Causal Algorithmic Recourse",
+  "authors": [
+    "Amir-Hossein Karimi",
+    "Julius von Kügelgen",
+    "Bernhard Schölkopf",
+    "Isabel Valera"
+  ],
+  "year": 2022,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Lecture notes in computer science",
+  "doi": "10.1007/978-3-031-04083-2_8",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.7151 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Towards Causal Algorithmic Recourse",
+  "notes": "Abstract Algorithmic recourse is concerned with aiding individuals who are unfavorably treated by automated decision-making systems to overcome their hardship, by offering recommendations that would result in a more favorable prediction when acted upon. Such recourse actions are ...",
+  "source_files": [
+    "research\\literature\\papers\\amirhosseinkarimi2022towards.md"
+  ],
+  "first_seen": "2026-05-30T13:18:49.504514Z",
+  "last_updated": "2026-05-30T13:18:49.505124Z"
+}

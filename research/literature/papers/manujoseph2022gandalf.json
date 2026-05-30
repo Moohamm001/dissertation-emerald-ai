@@ -1,0 +1,32 @@
+{
+  "key": "manujoseph2022gandalf",
+  "title": "GANDALF: Gated Adaptive Network for Deep Automated Learning of Features",
+  "authors": [
+    "Manu Joseph",
+    "Harsh Raj"
+  ],
+  "year": 2022,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "arXiv (Cornell University)",
+  "doi": "10.48550/arxiv.2207.08548",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6212 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "GANDALF: Gated Adaptive Network for Deep Automated Learning of Features",
+  "notes": "We propose a novel high-performance, interpretable, and parameter \\&amp; computationally efficient deep learning architecture for tabular data, Gated Adaptive Network for Deep Automated Learning of Features (GANDALF). GANDALF relies on a new tabular processing unit with a gating ...",
+  "source_files": [
+    "research\\literature\\papers\\manujoseph2022gandalf.md"
+  ],
+  "first_seen": "2026-05-30T13:18:49.424189Z",
+  "last_updated": "2026-05-30T13:18:49.424694Z"
+}

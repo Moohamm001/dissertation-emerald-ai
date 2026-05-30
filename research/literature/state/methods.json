@@ -18,7 +18,9 @@
   "catboost": {
     "kind": "method",
     "paper_keys": [
-      "prokhorenkova2018catboost"
+      "prokhorenkova2018catboost",
+      "jiqi2021application",
+      "annaveronikadorogush2018catboost"
     ],
     "term": "catboost",
     "themes": []

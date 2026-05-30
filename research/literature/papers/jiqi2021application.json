@@ -1,0 +1,33 @@
+{
+  "key": "jiqi2021application",
+  "title": "Application of explainable machine learning based on Catboost in credit scoring",
+  "authors": [
+    "Ji Qi",
+    "Yang Rui-cheng",
+    "Pucong Wang"
+  ],
+  "year": 2021,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Journal of Physics Conference Series",
+  "doi": "10.1088/1742-6596/1955/1/012039",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6201 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Application of explainable machine learning based on Catboost in credit scoring",
+  "notes": "Abstract Credit scoring is the core part of an institution’s lending. As artificial intelligence is used in various fields, credit rating is also under the same topic of accepting technological changes. Combining credit evaluation and machine learning can incorporate relatively c...",
+  "source_files": [
+    "research\\literature\\papers\\jiqi2021application.md"
+  ],
+  "first_seen": "2026-05-30T13:18:49.319391Z",
+  "last_updated": "2026-05-30T13:18:49.319976Z"
+}

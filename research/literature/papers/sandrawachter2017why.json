@@ -1,0 +1,33 @@
+{
+  "key": "sandrawachter2017why",
+  "title": "Why a Right to Explanation of Automated Decision-Making Does Not Exist in the General Data Protection Regulation",
+  "authors": [
+    "Sandra Wachter",
+    "Brent Mittelstadt",
+    "Luciano Floridi"
+  ],
+  "year": 2017,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "International Data Privacy Law",
+  "doi": "10.1093/idpl/ipx005",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.6563 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Why a Right to Explanation of Automated Decision-Making Does Not Exist in the General Data Protection Regulation",
+  "notes": "Since approval of the EU General Data Protection Regulation (GDPR) in 2016, it has been widely and repeatedly claimed that the GDPR will legally mandate a ‘right to explanation’ of all decisions made by automated or artificially intelligent algorithmic systems. This right to expl...",
+  "source_files": [
+    "research\\literature\\papers\\sandrawachter2017why.md"
+  ],
+  "first_seen": "2026-05-30T13:18:49.555647Z",
+  "last_updated": "2026-05-30T13:18:49.556172Z"
+}

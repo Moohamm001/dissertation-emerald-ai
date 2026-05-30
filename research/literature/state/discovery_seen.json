@@ -408,6 +408,16 @@
     "source": "openalex",
     "title": "Automated Experiments on Ad Privacy Settings"
   },
+  "W1673066967": {
+    "depth": 1,
+    "doi": "10.1002/isaf.325",
+    "key": "husseinaabdou2011credit",
+    "outcome": "accepted",
+    "score": 0.9301,
+    "seen_at": "2026-05-30T13:15:51+00:00",
+    "source": "openalex",
+    "title": "CREDIT SCORING, STATISTICAL TECHNIQUES AND EVALUATION CRITERIA: A REVIEW OF THE LITERATURE"
+  },
   "W1676820704": {
     "depth": 1,
     "doi": "10.1613/jair.105",
@@ -767,6 +777,16 @@
     "source": "openalex",
     "title": "Health-Care Data Collecting, Sharing, and Using in Thailand, China Mainland, South Korea, Taiwan, Japan, and Malaysia"
   },
+  "W2001172819": {
+    "depth": 1,
+    "doi": "10.1080/01621459.1963.10500889",
+    "key": "jameshmyers1963the",
+    "outcome": "accepted",
+    "score": 0.5033,
+    "seen_at": "2026-05-30T13:15:52+00:00",
+    "source": "openalex",
+    "title": "The Development of Numerical Credit Evaluation Systems"
+  },
   "W2001755462": {
     "depth": 1,
     "doi": "10.2307/2325897",
@@ -1060,6 +1080,16 @@
     "source": "openalex",
     "title": "Red and Blue Investing: Values and Finance"
   },
+  "W2112796928": {
+    "depth": 0,
+    "doi": "10.1109/5.726791",
+    "key": "yannlecun1998gradient",
+    "outcome": "accepted",
+    "score": 0.8325,
+    "seen_at": "2026-05-30T13:15:32+00:00",
+    "source": "openalex",
+    "title": "Gradient-based learning applied to document recognition"
+  },
   "W2113252302": {
     "depth": 1,
     "doi": "10.2139/ssrn.2497516",
@@ -1068,6 +1098,16 @@
     "seen_at": "2026-05-18T11:33:07+00:00",
     "source": "openalex",
     "title": "Barriers to Long-Term Cross-Border Investing: A Survey of Institutional Investor Perceptions"
+  },
+  "W2113305199": {
+    "depth": 0,
+    "doi": "10.1111/j.1540-6261.1996.tb05202.x",
+    "key": "eugeneffama1996multifactor",
+    "outcome": "accepted",
+    "score": 0.6228,
+    "seen_at": "2026-05-30T13:15:34+00:00",
+    "source": "openalex",
+    "title": "Multifactor Explanations of Asset Pricing Anomalies"
   },
   "W2125847307": {
     "depth": 1,
@@ -1149,6 +1189,16 @@
     "source": "openalex",
     "title": "How the Machine 'Thinks:' Understanding Opacity in Machine Learning Algorithms"
   },
+  "W2260476464": {
+    "depth": 1,
+    "doi": "10.1186/s40854-015-0018-1",
+    "key": "jiaqiyan2015how",
+    "outcome": "accepted",
+    "score": 0.6283,
+    "seen_at": "2026-05-30T13:15:54+00:00",
+    "source": "openalex",
+    "title": "How signaling and search costs affect information asymmetry in P2P lending: the economics of big data"
+  },
   "W2408017125": {
     "depth": 0,
     "doi": "10.1007/s10654-016-0149-3",
@@ -1198,6 +1248,16 @@
     "source": "openalex",
     "title": "Understanding and misunderstanding randomized controlled trials"
   },
+  "W2577905330": {
+    "depth": 0,
+    "doi": "10.1007/s10472-016-9534-6",
+    "key": "anthonybellotti2017reliable",
+    "outcome": "accepted",
+    "score": 0.614,
+    "seen_at": "2026-05-30T13:15:33+00:00",
+    "source": "openalex",
+    "title": "Reliable region predictions for automated valuation models"
+  },
   "W259376022": {
     "depth": 1,
     "doi": "10.2307/1121235",
@@ -1237,6 +1297,16 @@
     "source": "openalex",
     "title": "Estimating bank loans loss given default by generalized additive models"
   },
+  "W2773929027": {
+    "depth": 0,
+    "doi": "10.1016/j.ijinfomgt.2017.12.005",
+    "key": "nirkshetri20171",
+    "outcome": "accepted",
+    "score": 0.6628,
+    "seen_at": "2026-05-30T13:15:49+00:00",
+    "source": "openalex",
+    "title": "1 Blockchain\u2019s roles in meeting key supply chain management objectives"
+  },
   "W28412257": {
     "depth": 1,
     "doi": "10.1016/s0893-6080(05)80023-1",
@@ -1246,6 +1316,16 @@
     "seen_at": "2026-05-18T11:24:24+00:00",
     "source": "openalex",
     "title": "Stacked generalization"
+  },
+  "W2891503716": {
+    "depth": 1,
+    "doi": "10.1109/access.2018.2870052",
+    "key": "aminaadadi2018peeking",
+    "outcome": "accepted",
+    "score": 0.8765,
+    "seen_at": "2026-05-30T13:15:55+00:00",
+    "source": "openalex",
+    "title": "Peeking Inside the Black-Box: A Survey on Explainable Artificial Intelligence (XAI)"
   },
   "W2897154134": {
     "depth": 0,
@@ -1257,6 +1337,16 @@
     "source": "openalex",
     "title": "Fairness and Abstraction in Sociotechnical Systems"
   },
+  "W2898227265": {
+    "depth": 1,
+    "doi": "10.48550/arxiv.1810.11363",
+    "key": "annaveronikadorogush2018catboost",
+    "outcome": "accepted",
+    "score": 0.7607,
+    "seen_at": "2026-05-30T13:15:56+00:00",
+    "source": "openalex",
+    "title": "CatBoost: gradient boosting with categorical features support"
+  },
   "W2899357412": {
     "depth": 0,
     "doi": "10.1016/j.rser.2018.10.014",
@@ -1266,6 +1356,16 @@
     "seen_at": "2026-05-18T11:31:48+00:00",
     "source": "openalex",
     "title": "Blockchain technology in the energy sector: A systematic review of challenges and opportunities"
+  },
+  "W2902634493": {
+    "depth": 0,
+    "doi": "10.1007/s11023-018-9482-5",
+    "key": "lucianofloridi2018ai4people",
+    "outcome": "accepted",
+    "score": 0.6707,
+    "seen_at": "2026-05-30T13:15:48+00:00",
+    "source": "openalex",
+    "title": "AI4People\u2014An Ethical Framework for a Good AI Society: Opportunities, Risks, Principles, and Recommendations"
   },
   "W2903566196": {
     "depth": 1,
@@ -1327,6 +1427,26 @@
     "source": "openalex",
     "title": "A survey of methods for explaining black box models"
   },
+  "W2962966435": {
+    "depth": 0,
+    "doi": "10.48550/arxiv.1907.09615",
+    "key": "shalmalijoshi2019towards",
+    "outcome": "accepted",
+    "score": 0.6347,
+    "seen_at": "2026-05-30T13:15:43+00:00",
+    "source": "openalex",
+    "title": "Towards Realistic Individual Recourse and Actionable Explanations in Black-Box Decision Making Systems"
+  },
+  "W2964303497": {
+    "depth": 0,
+    "doi": "10.3390/electronics8080832",
+    "key": "diogovcarvalho2019machine",
+    "outcome": "accepted",
+    "score": 0.966,
+    "seen_at": "2026-05-30T13:15:44+00:00",
+    "source": "openalex",
+    "title": "Machine Learning Interpretability: A Survey on Methods and Metrics"
+  },
   "W2966661": {
     "depth": 1,
     "doi": "10.1007/978-3-642-21735-7_6",
@@ -1382,6 +1502,16 @@
     "source": "openalex",
     "title": "Credit scoring to classify consumer loan using machine learning"
   },
+  "W3013460382": {
+    "depth": 0,
+    "doi": "10.1016/j.asoc.2020.106263",
+    "key": "xolanidastile2020statistical",
+    "outcome": "accepted",
+    "score": 0.9514,
+    "seen_at": "2026-05-30T13:15:30+00:00",
+    "source": "openalex",
+    "title": "Statistical and machine learning models in credit scoring: A systematic literature survey"
+  },
   "W3035695956": {
     "depth": 0,
     "doi": "10.2139/ssrn.3616324",
@@ -1401,6 +1531,16 @@
     "seen_at": "2026-05-17T21:08:20+00:00",
     "source": "openalex",
     "title": "Use of Machine Learning Techniques to Create a Credit Score Model for Airtime Loans"
+  },
+  "W3088815947": {
+    "depth": 0,
+    "doi": "10.1080/01605682.2021.1922098",
+    "key": "michaelbcker2021transparency",
+    "outcome": "accepted",
+    "score": 0.9201,
+    "seen_at": "2026-05-30T13:15:29+00:00",
+    "source": "openalex",
+    "title": "Transparency, auditability, and explainability of machine learning models in credit scoring"
   },
   "W3089028909": {
     "depth": 0,
@@ -1472,6 +1612,26 @@
     "source": "openalex",
     "title": "How the machine \u2018thinks\u2019: Understanding opacity in machine learning algorithms"
   },
+  "W3124443940": {
+    "depth": 0,
+    "doi": "10.1093/idpl/ipx005",
+    "key": "sandrawachter2017why",
+    "outcome": "accepted",
+    "score": 0.6563,
+    "seen_at": "2026-05-30T13:15:50+00:00",
+    "source": "openalex",
+    "title": "Why a Right to Explanation of Automated Decision-Making Does Not Exist in the General Data Protection Regulation"
+  },
+  "W3135028703": {
+    "depth": 0,
+    "doi": "10.1007/s42979-021-00592-x",
+    "key": "iqbalhsarker2021machine",
+    "outcome": "accepted",
+    "score": 0.8826,
+    "seen_at": "2026-05-30T13:15:35+00:00",
+    "source": "openalex",
+    "title": "Machine Learning: Algorithms, Real-World Applications and Research Directions"
+  },
   "W3135336249": {
     "depth": 0,
     "doi": "10.1016/j.asoc.2021.107259",
@@ -1481,6 +1641,16 @@
     "seen_at": "2026-05-18T08:13:02+00:00",
     "source": "openalex",
     "title": "A graph-based semi-supervised reject inference framework considering imbalanced data distribution for consumer credit scoring"
+  },
+  "W3135588948": {
+    "depth": 0,
+    "doi": "10.1109/jproc.2021.3058954",
+    "key": "bernhardschlkopf2021toward",
+    "outcome": "accepted",
+    "score": 0.665,
+    "seen_at": "2026-05-30T13:15:46+00:00",
+    "source": "openalex",
+    "title": "Toward Causal Representation Learning"
   },
   "W3151869186": {
     "depth": 0,
@@ -1501,6 +1671,16 @@
     "seen_at": "2026-05-18T08:13:10+00:00",
     "source": "openalex",
     "title": "Ask BERT: How Regulatory Disclosure of Transition and Physical Climate Risks Affects the CDS Term Structure"
+  },
+  "W3174484659": {
+    "depth": 0,
+    "doi": "10.1088/1742-6596/1955/1/012039",
+    "key": "jiqi2021application",
+    "outcome": "accepted",
+    "score": 0.6201,
+    "seen_at": "2026-05-30T13:15:28+00:00",
+    "source": "openalex",
+    "title": "Application of explainable machine learning based on Catboost in credit scoring"
   },
   "W3200416260": {
     "error": "OpenAlex W3200416260 not found",
@@ -1568,6 +1748,16 @@
     "source": "openalex",
     "title": "Prescriptive and Descriptive Approaches to Machine-Learning Transparency"
   },
+  "W4226318288": {
+    "depth": 0,
+    "doi": "10.1007/978-3-031-04083-2_8",
+    "key": "amirhosseinkarimi2022towards",
+    "outcome": "accepted",
+    "score": 0.7151,
+    "seen_at": "2026-05-30T13:15:45+00:00",
+    "source": "openalex",
+    "title": "Towards Causal Algorithmic Recourse"
+  },
   "W4241957989": {
     "depth": 0,
     "doi": "10.1093/rfs/hhp033",
@@ -1618,6 +1808,16 @@
     "source": "openalex",
     "title": "Responsible A.I.-based Credit Scoring \u2013 A Legal Framework"
   },
+  "W4286231546": {
+    "depth": 0,
+    "doi": "10.48550/arxiv.2207.08548",
+    "key": "manujoseph2022gandalf",
+    "outcome": "accepted",
+    "score": 0.6212,
+    "seen_at": "2026-05-30T13:15:38+00:00",
+    "source": "openalex",
+    "title": "GANDALF: Gated Adaptive Network for Deep Automated Learning of Features"
+  },
   "W4294559022": {
     "depth": 0,
     "doi": "10.1145/3561048",
@@ -1637,6 +1837,16 @@
     "seen_at": "2026-05-18T11:24:56+00:00",
     "source": "openalex",
     "title": "Explainable Artificial Intelligence Applications in Cyber Security: State-of-the-Art in Research"
+  },
+  "W4296607441": {
+    "depth": 0,
+    "doi": "10.48550/arxiv.2209.09362",
+    "key": "swatityagi2022analyzing",
+    "outcome": "accepted",
+    "score": 0.6274,
+    "seen_at": "2026-05-30T13:15:27+00:00",
+    "source": "openalex",
+    "title": "Analyzing Machine Learning Models for Credit Scoring with Explainable AI and Optimizing Investment Decisions"
   },
   "W4303578954": {
     "depth": 0,
@@ -1687,6 +1897,16 @@
     "seen_at": "2026-05-18T11:24:22+00:00",
     "source": "openalex",
     "title": "Large Language Models for Automated Data Science: Introducing CAAFE for Context-Aware Automated Feature Engineering"
+  },
+  "W4376167308": {
+    "depth": 0,
+    "doi": "10.48550/arxiv.2305.06090",
+    "key": "bingzhaozhu2023xtab",
+    "outcome": "accepted",
+    "score": 0.6161,
+    "seen_at": "2026-05-30T13:15:40+00:00",
+    "source": "openalex",
+    "title": "XTab: Cross-table Pretraining for Tabular Transformers"
   },
   "W4384071683": {
     "depth": 0,
@@ -1748,6 +1968,16 @@
     "source": "openalex",
     "title": "Green bond issuance and trade credit access: Evidence from Chinese bond market"
   },
+  "W4391755674": {
+    "depth": 0,
+    "doi": "10.1016/j.artmed.2024.102804",
+    "key": "jeewoochoi2024prognostic",
+    "outcome": "accepted",
+    "score": 0.6225,
+    "seen_at": "2026-05-30T13:15:41+00:00",
+    "source": "openalex",
+    "title": "Prognostic prediction of sepsis patient using transformer with skip connected token for tabular data"
+  },
   "W4394591966": {
     "depth": 0,
     "doi": "10.1016/j.neucom.2024.127964",
@@ -1778,6 +2008,16 @@
     "source": "openalex",
     "title": "Retrieval &amp; Fine-Tuning for In-Context Tabular Models"
   },
+  "W4399764574": {
+    "depth": 0,
+    "doi": "10.1016/j.engstruct.2024.118415",
+    "key": "ruishancheng2024prediction",
+    "outcome": "accepted",
+    "score": 0.6289,
+    "seen_at": "2026-05-30T13:15:39+00:00",
+    "source": "openalex",
+    "title": "Prediction of BLEVE-induced response of road tunnel using Transformer network with modified self-attention (SAMT)"
+  },
   "W4401597881": {
     "depth": 0,
     "doi": "10.1109/conit61985.2024.10626212",
@@ -1797,6 +2037,16 @@
     "seen_at": "2026-05-18T11:24:18+00:00",
     "source": "openalex",
     "title": "Predicting dementia in Parkinson's disease on a small tabular dataset using hybrid LightGBM\u2013TabPFN and SHAP"
+  },
+  "W4403113743": {
+    "depth": 0,
+    "doi": "10.1186/s12859-024-05940-1",
+    "key": "yuhuafan2024tabular",
+    "outcome": "accepted",
+    "score": 0.7295,
+    "seen_at": "2026-05-30T13:15:36+00:00",
+    "source": "openalex",
+    "title": "Tabular deep learning: a comparative study applied to multi-task genome-wide prediction"
   },
   "W4404358618": {
     "depth": 0,

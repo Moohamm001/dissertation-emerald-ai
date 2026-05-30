@@ -42,10 +42,11 @@ ml = [
     "optuna>=3.6",
     "mapie>=0.8",            # conformal prediction
 ]
-# Tabular deep learning
+# Tabular deep learning. FT-Transformer is implemented natively in torch
+# (emerald_ai.models.deep) — no rtdl pin, which keeps this installable on
+# current Python (rtdl 0.0.13 is unmaintained and fails to build on 3.13).
 dl = [
     "torch>=2.2",
-    "rtdl>=0.0.13",          # FT-Transformer reference impl
 ]
 # XAI + fairness
 xai = [

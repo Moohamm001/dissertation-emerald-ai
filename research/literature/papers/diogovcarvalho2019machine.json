@@ -1,0 +1,33 @@
+{
+  "key": "diogovcarvalho2019machine",
+  "title": "Machine Learning Interpretability: A Survey on Methods and Metrics",
+  "authors": [
+    "Diogo V. Carvalho",
+    "Eduardo M. Pereira",
+    "Jaime S. Cardoso"
+  ],
+  "year": 2019,
+  "abstract": "",
+  "methodology": "_(to be filled in)_",
+  "contributions": [],
+  "weaknesses": [],
+  "future_works": [],
+  "referenced_papers": [],
+  "important_keywords": [],
+  "venue": "Electronics",
+  "doi": "10.3390/electronics8080832",
+  "institutions": [],
+  "themes": [],
+  "relevance": "medium",
+  "emerald_relevance": "_(auto_score=0.966 — review and re-classify)_",
+  "confidence": "medium",
+  "verified": false,
+  "status": "indexed",
+  "search_query": "Machine Learning Interpretability: A Survey on Methods and Metrics",
+  "notes": "Machine learning systems are becoming increasingly ubiquitous. These systems’s adoption has been expanding, accelerating the shift towards a more algorithmic society, meaning that algorithmically informed decisions have greater potential for significant social impact. However, mo...",
+  "source_files": [
+    "research\\literature\\papers\\diogovcarvalho2019machine.md"
+  ],
+  "first_seen": "2026-05-30T13:18:49.490833Z",
+  "last_updated": "2026-05-30T13:18:49.491562Z"
+}
