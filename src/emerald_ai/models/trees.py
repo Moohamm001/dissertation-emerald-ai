@@ -124,11 +124,19 @@ def make_catboost(
     depth: int = 6,
     learning_rate: float = 0.05,
     class_weights: Sequence[float] | None = None,
+    auto_class_weights: str | None = "Balanced",
     monotonic_constraints: Sequence[int] | None = None,
     random_state: int = MODEL.random_seed,
     **_unused,
 ):
-    """CatBoost — categorical-native gradient booster. Requires `catboost`."""
+    """CatBoost — categorical-native gradient booster. Requires `catboost`.
+
+    `auto_class_weights='Balanced'` is the §5.7 default: CatBoost derives
+    inverse-frequency class weights from the training data at fit time, which
+    is essential at this 0.36% prevalence (without it the model collapses to
+    predicting the majority class for every applicant). Explicit
+    `class_weights` take precedence when supplied.
+    """
     try:
         from catboost import CatBoostClassifier
     except ImportError as exc:
